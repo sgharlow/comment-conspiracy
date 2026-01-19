@@ -3,6 +3,7 @@ import type { WebViewToDevvitMessage, DevvitToWebViewMessage, InitData } from '.
 import { getTodaysPuzzle, submitGuess, getPreviousResult, hasUserPlayedToday } from './services/puzzleService';
 import { getUserProgress } from './services/userService';
 import type { RedisContext } from './services/redisKeys';
+import { registerDailyPuzzleJob, scheduleDailyJob, cancelDailyJob } from './scheduler/dailyPuzzle';
 
 // Configure Devvit capabilities
 Devvit.configure({
@@ -10,6 +11,9 @@ Devvit.configure({
   redis: true,
   http: true,
 });
+
+// Register the daily puzzle scheduler job
+registerDailyPuzzleJob();
 
 // Create Redis context from Devvit context
 function createRedisContext(context: Devvit.Context): RedisContext {
@@ -122,6 +126,25 @@ Devvit.addMenuItem({
       ),
     });
     context.ui.showToast('Created Comment Conspiracy post!');
+  },
+});
+
+// App install trigger - schedule the daily job
+Devvit.addTrigger({
+  event: 'AppInstall',
+  onEvent: async (event, context) => {
+    console.log('[CommentConspiracy] App installed, scheduling daily job');
+    await scheduleDailyJob(context);
+  },
+});
+
+// App upgrade trigger - re-schedule the daily job
+Devvit.addTrigger({
+  event: 'AppUpgrade',
+  onEvent: async (event, context) => {
+    console.log('[CommentConspiracy] App upgraded, re-scheduling daily job');
+    await cancelDailyJob(context);
+    await scheduleDailyJob(context);
   },
 });
 
