@@ -4,9 +4,9 @@
 | Field | Value |
 |-------|-------|
 | **ID** | 008 |
-| **Status** | ready |
+| **Status** | done |
 | **Branch** | task/008 |
-| **Assigned** | |
+| **Assigned** | task/008 |
 | **Depends** | 005, 006 |
 | **Blocked-By** | |
 | **Estimated** | 20 min |
@@ -26,13 +26,13 @@ Shows:
 - Confirm button (submits guess)
 
 ## Acceptance Criteria
-- [ ] src/components/game/ConfirmModal.tsx created
-- [ ] Modal overlays the game screen
-- [ ] Shows selected comment number and preview
-- [ ] Cancel button calls cancelConfirm()
-- [ ] Confirm button calls confirmGuess()
-- [ ] Touch-friendly button sizes (44px+ height)
-- [ ] Accessible (focus trap, escape key to cancel)
+- [x] src/components/game/ConfirmModal.tsx created
+- [x] Modal overlays the game screen
+- [x] Shows selected comment number and preview
+- [x] Cancel button calls onCancel
+- [x] Confirm button calls onConfirm
+- [x] Touch-friendly button sizes (py-4 = 56px+ height)
+- [x] Accessible (focus trap, escape key to cancel)
 
 ## Context Files
 - comment-conspiracy-spec-v2.md (Section 2.3: Confirmation Modal)
@@ -40,10 +40,20 @@ Shows:
 
 ## Outputs
 - Created: src/components/game/ConfirmModal.tsx
-- Modified:
-- Decisions:
+- Modified: none
+- Decisions: none
 
 ---
 
 ## Work Log
-<!-- Append progress here while working -->
+
+### 2026-01-18 - Complete
+Created ConfirmModal with:
+- Dark overlay backdrop (click to cancel)
+- Centered modal with title, comment preview, question
+- Truncated comment text (100 chars)
+- Cancel and Confirm buttons
+- Focus trap (Tab/Shift+Tab cycles within modal)
+- Escape key closes modal
+- isSubmitting state for loading feedback
+- Auto-focus on confirm button when opened

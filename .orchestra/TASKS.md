@@ -1,10 +1,9 @@
 # Tasks
 
 > Last updated: 2026-01-18
-> Progress: 7/20 complete (35%)
+> Progress: 8/20 complete (40%)
 
 ## Ready
-- [ ] `008` Create ConfirmModal Component
 - [ ] `009` Create ResultScreen
 - [ ] `011` Implement puzzleService
 - [ ] `012` Implement userService
@@ -21,10 +20,11 @@
 - [x] `005` Build Game State Machine ✓
 - [x] `006` Create CommentCard Component ✓
 - [x] `007` Create GameScreen with Puzzle Display ✓
+- [x] `008` Create ConfirmModal Component ✓
 
 ## Blocked
 - [ ] `010` Create CompletedScreen (waiting: 009)
-- [ ] `014` Wire Up Main App Component (waiting: 008, 009, 010, 011, 012, 013)
+- [ ] `014` Wire Up Main App Component (waiting: 009, 010, 011, 012, 013)
 - [ ] `015` Create Scheduler Job for Daily Posting (waiting: 011)
 - [ ] `016` Add Puzzle Inventory Health Check (waiting: 015)
 - [ ] `017` Mobile-Responsive Styling (waiting: 009, 010)
