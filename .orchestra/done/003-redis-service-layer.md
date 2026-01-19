@@ -4,9 +4,9 @@
 | Field | Value |
 |-------|-------|
 | **ID** | 003 |
-| **Status** | ready |
+| **Status** | done |
 | **Branch** | task/003 |
-| **Assigned** | |
+| **Assigned** | task/003 |
 | **Depends** | 001, 002 |
 | **Blocked-By** | |
 | **Estimated** | 45 min |
@@ -29,10 +29,10 @@ Redis Key Schema:
 Create a thin wrapper service that provides typed access to these keys.
 
 ## Acceptance Criteria
-- [ ] src/services/redisKeys.ts with all key patterns
-- [ ] src/services/redisService.ts with typed get/set helpers
-- [ ] Helper functions: getPuzzle, setPuzzle, getUserProgress, setUserProgress, getUserGuess, setUserGuess, getStats, updateStats
-- [ ] All functions use proper TypeScript types from task 002
+- [x] src/services/redisKeys.ts with all key patterns
+- [x] src/services/redisService.ts with typed get/set helpers
+- [x] Helper functions: getPuzzle, setPuzzle, getUserProgress, setUserProgress, getUserGuess, setUserGuess, getStats, updateStats
+- [x] All functions use proper TypeScript types from task 002
 
 ## Context Files
 - comment-conspiracy-spec-v2.md (Section 10: Data Models)
@@ -40,10 +40,24 @@ Create a thin wrapper service that provides typed access to these keys.
 
 ## Outputs
 - Created: src/services/redisKeys.ts, src/services/redisService.ts
-- Modified:
-- Decisions:
+- Modified: none
+- Decisions: none
 
 ---
 
 ## Work Log
-<!-- Append progress here while working -->
+
+### 2026-01-18 - Complete
+Created Redis service layer:
+
+redisKeys.ts:
+- REDIS_KEYS object with all key patterns
+- RedisContext interface for Devvit Redis operations
+
+redisService.ts:
+- Puzzle: getPuzzle, setPuzzle, getCurrentPuzzleId, setCurrentPuzzleId, getPuzzleIndex, addToPuzzleIndex
+- User: getUserProgress, setUserProgress, getUserGuess, setUserGuess, hasUserPlayedPuzzle
+- Stats: getPuzzleStats, recordGuess
+- Leaderboard: updateStreakLeaderboard, getStreakRank
+
+All functions typed with imports from src/types.
