@@ -4,7 +4,7 @@
 | Field | Value |
 |-------|-------|
 | **ID** | 013 |
-| **Status** | ready |
+| **Status** | done |
 | **Branch** | task/013 |
 | **Assigned** | |
 | **Depends** | 003 |
@@ -30,19 +30,19 @@ Stats tracked per puzzle:
 - (optional) averageGuessTime
 
 ## Acceptance Criteria
-- [ ] src/services/statsService.ts created
-- [ ] recordGuess() atomically increments counters
-- [ ] getPuzzleStats() returns PuzzleStats object
-- [ ] calculatePercentile() returns "Top X%" string
-- [ ] Stats properly initialized when first guess recorded
+- [x] src/services/statsService.ts created
+- [x] recordGuess() atomically increments counters
+- [x] getPuzzleStats() returns PuzzleStats object
+- [x] calculatePercentile() returns percentile number (formatPercentile for string)
+- [x] Stats properly initialized when first guess recorded
 
 ## Context Files
 - comment-conspiracy-spec-v2.md (Section 7.4: Daily Stats Display)
 
 ## Outputs
 - Created: src/services/statsService.ts
-- Modified:
-- Decisions:
+- Modified: None
+- Decisions: Added helper functions for display (formatPercentile, getDistributionPercentages, getSummaryStats)
 
 ---
 
