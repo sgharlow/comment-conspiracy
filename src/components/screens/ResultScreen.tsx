@@ -8,6 +8,7 @@ import type { GuessResult, ShuffledPuzzle } from '../../types';
 import { ResultBanner } from '../results/ResultBanner';
 import { AIExplanation } from '../results/AIExplanation';
 import { StatsPanel } from '../results/StatsPanel';
+import { ShareCard } from '../results/ShareCard';
 
 export interface ResultScreenProps {
   result: GuessResult;
@@ -50,27 +51,13 @@ export function ResultScreen({
         />
       </div>
 
-      {/* Share Card Placeholder */}
-      <div className="bg-gray-800 text-white rounded-xl p-4 mb-6 text-center">
-        <div className="text-lg font-bold mb-1">
-          Comment Conspiracy Day {puzzle.dayNumber}
-        </div>
-        <div className="text-2xl mb-2">
-          {result.wasCorrect ? '✅' : '❌'} {result.wasCorrect ? '1/1' : '0/1'}
-        </div>
-        {result.newStreak > 0 && (
-          <div className="text-sm">
-            🔥 {result.newStreak}-day streak
-          </div>
-        )}
-        <div className="flex gap-2 justify-center mt-3">
-          <button className="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-sm font-medium transition-colors">
-            📋 Copy
-          </button>
-          <button className="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg text-sm font-medium transition-colors">
-            🔗 Share
-          </button>
-        </div>
+      {/* Share Card */}
+      <div className="mb-6">
+        <ShareCard
+          dayNumber={puzzle.dayNumber}
+          wasCorrect={result.wasCorrect}
+          streak={result.newStreak}
+        />
       </div>
 
       {/* Action Buttons */}

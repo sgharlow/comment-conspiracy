@@ -1,10 +1,9 @@
 # Tasks
 
 > Last updated: 2026-01-18
-> Progress: 17/20 complete (85%)
+> Progress: 18/20 complete (90%)
 
 ## Ready
-- [ ] `018` Share Card Generation
 - [ ] `019` Loading States and Error Handling
 
 ## In Progress
@@ -28,6 +27,7 @@
 - [x] `015` Create Scheduler Job for Daily Posting ✓
 - [x] `016` Add Puzzle Inventory Health Check ✓
 - [x] `017` Mobile-Responsive Styling ✓
+- [x] `018` Share Card Generation ✓
 
 ## Blocked
-- [ ] `020` Deploy to r/CommentConspiracy and Demo (waiting: 018, 019)
+- [ ] `020` Deploy to r/CommentConspiracy and Demo (waiting: 019)
