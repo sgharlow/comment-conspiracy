@@ -7,6 +7,7 @@ import { Devvit } from '@devvit/public-api';
 import type { RedisContext } from '../services/redisKeys';
 import { getPuzzle, setCurrentPuzzleId, getPuzzleStats } from '../services/redisService';
 import { ensurePuzzlesLoaded } from '../services/bootstrapService';
+import { getInventoryStatus, formatInventoryReport } from '../services/inventoryService';
 
 /**
  * Get today's date in puzzle ID format (YYYY-MM-DD) in UTC
@@ -76,12 +77,8 @@ export function registerDailyPuzzleJob(): void {
 
         console.log(`[DailyPuzzle] Created post ${post.id} for Day ${puzzle.dayNumber}`);
 
-        // Optionally sticky the post
-        // await context.reddit.setPostFlairBySubreddit({
-        //   subredditName: subreddit.name,
-        //   postId: post.id,
-        //   flairTemplateId: 'daily-puzzle',
-        // });
+        // Run inventory health check
+        await runInventoryHealthCheck(context, redisCtx);
 
       } catch (error) {
         console.error('[DailyPuzzle] Error in daily puzzle job:', error);
@@ -160,5 +157,36 @@ export async function cancelDailyJob(context: Devvit.Context): Promise<void> {
     }
   } catch (error) {
     console.error('[DailyPuzzle] Failed to cancel daily job:', error);
+  }
+}
+
+/**
+ * Run inventory health check and send alert if needed
+ */
+async function runInventoryHealthCheck(
+  context: Devvit.Context,
+  redisCtx: RedisContext
+): Promise<void> {
+  try {
+    const status = await getInventoryStatus(redisCtx, 7);
+    console.log(`[HealthCheck] Inventory status: ${status.daysOfRunway} days of runway`);
+
+    if (status.isCritical || status.isLow) {
+      const report = formatInventoryReport(status);
+      const subreddit = await context.reddit.getCurrentSubreddit();
+
+      const subject = status.isCritical
+        ? '[Comment Conspiracy] CRITICAL: Puzzle Inventory Empty!'
+        : '[Comment Conspiracy] WARNING: Puzzle Inventory Low';
+
+      await context.reddit.sendPrivateMessage({
+        to: `/r/${subreddit.name}`,
+        subject,
+        text: report,
+      });
+      console.log('[HealthCheck] Sent inventory alert');
+    }
+  } catch (error) {
+    console.error('[HealthCheck] Error running inventory check:', error);
   }
 }

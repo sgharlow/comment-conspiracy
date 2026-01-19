@@ -1,10 +1,9 @@
 # Tasks
 
 > Last updated: 2026-01-18
-> Progress: 15/20 complete (75%)
+> Progress: 16/20 complete (80%)
 
 ## Ready
-- [ ] `016` Add Puzzle Inventory Health Check
 - [ ] `017` Mobile-Responsive Styling
 - [ ] `018` Share Card Generation
 - [ ] `019` Loading States and Error Handling
@@ -28,6 +27,7 @@
 - [x] `013` Implement statsService ✓
 - [x] `014` Wire Up Main App Component ✓
 - [x] `015` Create Scheduler Job for Daily Posting ✓
+- [x] `016` Add Puzzle Inventory Health Check ✓
 
 ## Blocked
-- [ ] `020` Deploy to r/CommentConspiracy and Demo (waiting: 015, 016, 017, 018, 019)
+- [ ] `020` Deploy to r/CommentConspiracy and Demo (waiting: 017, 018, 019)
