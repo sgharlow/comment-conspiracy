@@ -1,0 +1,55 @@
+# Task 018: Share Card Generation
+
+## Metadata
+| Field | Value |
+|-------|-------|
+| **ID** | 018 |
+| **Status** | ready |
+| **Branch** | task/018 |
+| **Assigned** | |
+| **Depends** | 009 |
+| **Blocked-By** | |
+| **Estimated** | 30 min |
+
+## Inputs
+- src/components/screens/ResultScreen.tsx from task 009
+- comment-conspiracy-spec-v2.md (Section 7.3: Share Card System)
+
+## Description
+Create the shareable result card that users can copy/share. Must be spoiler-free (doesn't reveal which comment was AI).
+
+Share text format:
+```
+🔍 Comment Conspiracy Day {n}
+
+✅ 1/1  (or ❌ 0/1)
+🔥 {streak}-day streak  (if streak > 0)
+
+r/CommentConspiracy
+```
+
+The component should show:
+- Preview of the share text
+- Copy button (copies to clipboard)
+- Share button (if Web Share API available)
+
+## Acceptance Criteria
+- [ ] src/components/results/ShareCard.tsx created
+- [ ] src/utils/shareUtils.ts with generateShareText()
+- [ ] Copy button copies text to clipboard
+- [ ] Share button uses navigator.share if available
+- [ ] Proper visual styling (dark card with monospace text)
+- [ ] No spoilers in share text
+
+## Context Files
+- comment-conspiracy-spec-v2.md (Section 7.3, Section 12.4: ShareCard Component Spec)
+
+## Outputs
+- Created: src/components/results/ShareCard.tsx, src/utils/shareUtils.ts
+- Modified: src/components/screens/ResultScreen.tsx (integrate ShareCard)
+- Decisions:
+
+---
+
+## Work Log
+<!-- Append progress here while working -->

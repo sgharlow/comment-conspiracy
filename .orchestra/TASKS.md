@@ -1,0 +1,34 @@
+# Tasks
+
+> Last updated: 2026-01-18 00:00
+> Progress: 0/20 complete
+
+## Ready
+- [ ] `001` Initialize Devvit Project
+
+## In Progress
+<!-- Tasks currently being worked on -->
+
+## Done
+<!-- Completed tasks -->
+
+## Blocked
+- [ ] `002` Create Core Type Definitions (waiting: 001)
+- [ ] `003` Set Up Redis Service Layer (waiting: 001, 002)
+- [ ] `004` Load Bootstrap Puzzles (waiting: 001, 002, 003)
+- [ ] `005` Build Game State Machine (waiting: 002)
+- [ ] `006` Create CommentCard Component (waiting: 001, 002)
+- [ ] `007` Create GameScreen with Puzzle Display (waiting: 005, 006)
+- [ ] `008` Create ConfirmModal Component (waiting: 005, 006)
+- [ ] `009` Create ResultScreen (waiting: 005, 006)
+- [ ] `010` Create CompletedScreen (waiting: 005, 009)
+- [ ] `011` Implement puzzleService (waiting: 003, 004)
+- [ ] `012` Implement userService (waiting: 003)
+- [ ] `013` Implement statsService (waiting: 003)
+- [ ] `014` Wire Up Main App Component (waiting: 007, 008, 009, 010, 011, 012, 013)
+- [ ] `015` Create Scheduler Job for Daily Posting (waiting: 011)
+- [ ] `016` Add Puzzle Inventory Health Check (waiting: 015)
+- [ ] `017` Mobile-Responsive Styling (waiting: 007, 009, 010)
+- [ ] `018` Share Card Generation (waiting: 009)
+- [ ] `019` Loading States and Error Handling (waiting: 014)
+- [ ] `020` Deploy to r/CommentConspiracy and Demo (waiting: 014, 015, 016, 017, 018, 019)
