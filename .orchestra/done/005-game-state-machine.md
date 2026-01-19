@@ -4,9 +4,9 @@
 | Field | Value |
 |-------|-------|
 | **ID** | 005 |
-| **Status** | ready |
+| **Status** | done |
 | **Branch** | task/005 |
-| **Assigned** | |
+| **Assigned** | task/005 |
 | **Depends** | 002 |
 | **Blocked-By** | |
 | **Estimated** | 45 min |
@@ -36,10 +36,10 @@ Transitions:
 - RESULT_* → COMPLETED (automatic after viewing)
 
 ## Acceptance Criteria
-- [ ] src/hooks/useGameState.ts with full state machine
-- [ ] Hook returns: { state, puzzle, selectedComment, selectComment, confirmGuess, cancelConfirm, result }
-- [ ] All state transitions work correctly
-- [ ] Loading state properly detected and transitioned
+- [x] src/hooks/useGameState.ts with full state machine
+- [x] Hook returns: { state, puzzle, selectedComment, selectComment, confirmGuess, cancelConfirm, result }
+- [x] All state transitions work correctly
+- [x] Loading state properly detected and transitioned
 
 ## Context Files
 - comment-conspiracy-spec-v2.md (Section 2: User Experience Flow)
@@ -47,10 +47,20 @@ Transitions:
 
 ## Outputs
 - Created: src/hooks/useGameState.ts
-- Modified:
-- Decisions:
+- Modified: none
+- Decisions: none
 
 ---
 
 ## Work Log
-<!-- Append progress here while working -->
+
+### 2026-01-18 - Complete
+Created useGameState hook with useReducer pattern:
+
+States: LOADING, NEW_USER, PLAYING, SELECTED, CONFIRMING, SUBMITTING, RESULT_CORRECT, RESULT_INCORRECT, COMPLETED, ERROR
+
+Actions: startLoading, loadSuccess, loadAlreadyPlayed, loadError, startGame, selectComment, openConfirm, cancelConfirm, submitGuess, guessSuccess, guessError, reset
+
+Derived state: isLoading, canSelect, canConfirm, hasResult
+
+All state transitions enforced - actions only work from valid source states.

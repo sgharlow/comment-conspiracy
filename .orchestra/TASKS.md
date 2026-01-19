@@ -1,10 +1,9 @@
 # Tasks
 
 > Last updated: 2026-01-18
-> Progress: 4/20 complete (20%)
+> Progress: 5/20 complete (25%)
 
 ## Ready
-- [ ] `005` Build Game State Machine
 - [ ] `006` Create CommentCard Component
 - [ ] `011` Implement puzzleService
 - [ ] `012` Implement userService
@@ -18,12 +17,13 @@
 - [x] `002` Create Core Type Definitions ✓
 - [x] `003` Set Up Redis Service Layer ✓
 - [x] `004` Load Bootstrap Puzzles ✓
+- [x] `005` Build Game State Machine ✓
 
 ## Blocked
-- [ ] `007` Create GameScreen with Puzzle Display (waiting: 005, 006)
-- [ ] `008` Create ConfirmModal Component (waiting: 005, 006)
-- [ ] `009` Create ResultScreen (waiting: 005, 006)
-- [ ] `010` Create CompletedScreen (waiting: 005, 009)
+- [ ] `007` Create GameScreen with Puzzle Display (waiting: 006)
+- [ ] `008` Create ConfirmModal Component (waiting: 006)
+- [ ] `009` Create ResultScreen (waiting: 006)
+- [ ] `010` Create CompletedScreen (waiting: 009)
 - [ ] `014` Wire Up Main App Component (waiting: 007, 008, 009, 010, 011, 012, 013)
 - [ ] `015` Create Scheduler Job for Daily Posting (waiting: 011)
 - [ ] `016` Add Puzzle Inventory Health Check (waiting: 015)
