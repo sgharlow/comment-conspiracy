@@ -4,7 +4,7 @@
 | Field | Value |
 |-------|-------|
 | **ID** | 017 |
-| **Status** | ready |
+| **Status** | done |
 | **Branch** | task/017 |
 | **Assigned** | |
 | **Depends** | 007, 009, 010 |
@@ -32,20 +32,20 @@ Breakpoints:
 - Desktop (1024px+): max-width 640px
 
 ## Acceptance Criteria
-- [ ] All touch targets meet 44px minimum
-- [ ] Responsive breakpoints implemented
-- [ ] CommentCard touch feedback (active:scale, transition)
-- [ ] No layout issues on narrow screens (320px minimum)
-- [ ] Buttons have proper padding and sizing
-- [ ] Test on mobile viewport in browser devtools
+- [x] All touch targets meet 44px minimum
+- [x] Responsive breakpoints implemented
+- [x] CommentCard touch feedback (active:scale, transition)
+- [x] No layout issues on narrow screens (320px minimum)
+- [x] Buttons have proper padding and sizing
+- [x] Test on mobile viewport in browser devtools
 
 ## Context Files
 - comment-conspiracy-spec-v2.md (Section 8: Mobile UX Specification)
 
 ## Outputs
-- Created:
-- Modified: src/components/game/CommentCard.tsx, all screen components, possibly add src/styles/globals.css
-- Decisions:
+- Created: None (styles in webroot/index.html)
+- Modified: src/components/game/CommentCard.tsx, GameScreen.tsx, webroot/index.html, App.tsx
+- Decisions: Using Tailwind CSS responsive prefixes (sm:) and CSS custom classes for mobile optimization
 
 ---
 
