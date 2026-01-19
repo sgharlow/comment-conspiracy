@@ -14,6 +14,8 @@ import { GameScreen } from './screens/GameScreen';
 import { ResultScreen } from './screens/ResultScreen';
 import { CompletedScreen } from './screens/CompletedScreen';
 import { ConfirmModal } from './game/ConfirmModal';
+import { FullPageSpinner } from './shared/LoadingSpinner';
+import { FullPageError, getErrorMessage } from './shared/ErrorState';
 
 /**
  * Send a message to the Devvit host
@@ -22,36 +24,6 @@ function sendToDevvit(message: WebViewToDevvitMessage): void {
   window.parent.postMessage(message, '*');
 }
 
-/**
- * Loading screen component
- */
-function LoadingScreen(): React.ReactElement {
-  return (
-    <div className="flex flex-col h-full w-full items-center justify-center">
-      <div className="text-4xl mb-4 animate-pulse">🔍</div>
-      <div className="text-lg text-gray-600">Loading puzzle...</div>
-    </div>
-  );
-}
-
-/**
- * Error screen component
- */
-function ErrorScreen({ error, onRetry }: { error: string; onRetry: () => void }): React.ReactElement {
-  return (
-    <div className="flex flex-col h-full w-full items-center justify-center px-4">
-      <div className="text-4xl mb-4">😕</div>
-      <div className="text-lg text-gray-900 font-semibold mb-2">Something went wrong</div>
-      <div className="text-sm text-gray-600 mb-6 text-center">{error}</div>
-      <button
-        onClick={onRetry}
-        className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl transition-colors"
-      >
-        Try Again
-      </button>
-    </div>
-  );
-}
 
 /**
  * Main App component
@@ -145,10 +117,16 @@ export function App(): React.ReactElement {
   const renderContent = (): React.ReactElement => {
     switch (state) {
       case 'LOADING':
-        return <LoadingScreen />;
+        return <FullPageSpinner message="Loading puzzle..." />;
 
       case 'ERROR':
-        return <ErrorScreen error={error || 'Unknown error'} onRetry={handleRetry} />;
+        return (
+          <FullPageError
+            title="Something went wrong"
+            message={getErrorMessage(error || 'Unknown error')}
+            onRetry={handleRetry}
+          />
+        );
 
       case 'NEW_USER':
         return <WelcomeScreen onStartGame={startGame} />;
@@ -157,7 +135,7 @@ export function App(): React.ReactElement {
       case 'SELECTED':
       case 'CONFIRMING':
       case 'SUBMITTING':
-        if (!puzzle) return <LoadingScreen />;
+        if (!puzzle) return <FullPageSpinner />;
         return (
           <GameScreen
             puzzle={puzzle}
@@ -170,7 +148,7 @@ export function App(): React.ReactElement {
 
       case 'RESULT_CORRECT':
       case 'RESULT_INCORRECT':
-        if (!result || !puzzle) return <LoadingScreen />;
+        if (!result || !puzzle) return <FullPageSpinner />;
         return (
           <ResultScreen
             result={result}
@@ -187,7 +165,7 @@ export function App(): React.ReactElement {
         );
 
       case 'COMPLETED':
-        if (!result || !puzzle) return <LoadingScreen />;
+        if (!result || !puzzle) return <FullPageSpinner />;
         return (
           <CompletedScreen
             result={result}
@@ -202,7 +180,7 @@ export function App(): React.ReactElement {
         );
 
       default:
-        return <LoadingScreen />;
+        return <FullPageSpinner />;
     }
   };
 
