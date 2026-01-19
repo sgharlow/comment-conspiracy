@@ -4,7 +4,7 @@
 | Field | Value |
 |-------|-------|
 | **ID** | 016 |
-| **Status** | ready |
+| **Status** | done |
 | **Branch** | task/016 |
 | **Assigned** | |
 | **Depends** | 015 |
@@ -27,10 +27,10 @@ The health check should:
 This can run after the daily puzzle posts, or as a separate scheduled job.
 
 ## Acceptance Criteria
-- [ ] src/services/inventoryService.ts created with getInventoryStatus()
-- [ ] Health check runs after daily puzzle job
-- [ ] Returns: puzzlesLoaded, daysOfRunway, missingDates, nextEmptyDate
-- [ ] Alerts via modmail if runway critically low
+- [x] src/services/inventoryService.ts created with getInventoryStatus()
+- [x] Health check runs after daily puzzle job
+- [x] Returns: puzzlesLoaded, daysOfRunway, missingDates, nextEmptyDate
+- [x] Alerts via modmail if runway critically low
 
 ## Context Files
 - comment-conspiracy-spec-v2.md (Section 4.5.2: Puzzle Inventory Monitoring)
@@ -38,7 +38,7 @@ This can run after the daily puzzle posts, or as a separate scheduled job.
 ## Outputs
 - Created: src/services/inventoryService.ts
 - Modified: src/scheduler/dailyPuzzle.ts (add health check call)
-- Decisions:
+- Decisions: Health check runs immediately after successful daily post
 
 ---
 
