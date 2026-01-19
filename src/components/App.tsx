@@ -207,7 +207,7 @@ export function App(): React.ReactElement {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white safe-area-inset">
       {renderContent()}
 
       {/* Confirmation Modal */}
