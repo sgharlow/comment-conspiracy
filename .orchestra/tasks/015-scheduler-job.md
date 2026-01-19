@@ -4,7 +4,7 @@
 | Field | Value |
 |-------|-------|
 | **ID** | 015 |
-| **Status** | ready |
+| **Status** | done |
 | **Branch** | task/015 |
 | **Assigned** | |
 | **Depends** | 011 |
@@ -30,13 +30,13 @@ If no puzzle exists for today, send alert to mod queue.
 Also set up the AppInstall trigger to register the scheduled job.
 
 ## Acceptance Criteria
-- [ ] src/scheduler/dailyPuzzle.ts created
-- [ ] Scheduler job registered with cron "0 0 * * *" (midnight UTC)
-- [ ] Creates Reddit post with title "Day {n}: Can you spot the AI comment?"
-- [ ] Post contains the embedded game (Devvit custom post)
-- [ ] Updates puzzle:current on success
-- [ ] Initializes stats:{puzzleId} with zero counts
-- [ ] Handles missing puzzle gracefully (logs error, notifies)
+- [x] src/scheduler/dailyPuzzle.ts created
+- [x] Scheduler job registered with cron "0 0 * * *" (midnight UTC)
+- [x] Creates Reddit post with title "Day {n}: Can you spot the AI comment?"
+- [x] Post contains the embedded game (Devvit custom post)
+- [x] Updates puzzle:current on success
+- [x] Initializes stats:{puzzleId} with zero counts
+- [x] Handles missing puzzle gracefully (logs error, notifies)
 
 ## Context Files
 - comment-conspiracy-spec-v2.md (Section 4.5.1: How the Scheduler Works)
@@ -44,8 +44,8 @@ Also set up the AppInstall trigger to register the scheduled job.
 
 ## Outputs
 - Created: src/scheduler/dailyPuzzle.ts
-- Modified: src/main.tsx (register scheduler)
-- Decisions:
+- Modified: src/main.tsx (register scheduler, add triggers)
+- Decisions: Added AppInstall and AppUpgrade triggers for automatic job scheduling
 
 ---
 
