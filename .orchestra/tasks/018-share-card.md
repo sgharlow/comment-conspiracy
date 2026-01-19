@@ -4,7 +4,7 @@
 | Field | Value |
 |-------|-------|
 | **ID** | 018 |
-| **Status** | ready |
+| **Status** | done |
 | **Branch** | task/018 |
 | **Assigned** | |
 | **Depends** | 009 |
@@ -34,12 +34,12 @@ The component should show:
 - Share button (if Web Share API available)
 
 ## Acceptance Criteria
-- [ ] src/components/results/ShareCard.tsx created
-- [ ] src/utils/shareUtils.ts with generateShareText()
-- [ ] Copy button copies text to clipboard
-- [ ] Share button uses navigator.share if available
-- [ ] Proper visual styling (dark card with monospace text)
-- [ ] No spoilers in share text
+- [x] src/components/results/ShareCard.tsx created
+- [x] src/utils/shareUtils.ts with generateShareText()
+- [x] Copy button copies text to clipboard
+- [x] Share button uses navigator.share if available
+- [x] Proper visual styling (dark card with monospace text)
+- [x] No spoilers in share text
 
 ## Context Files
 - comment-conspiracy-spec-v2.md (Section 7.3, Section 12.4: ShareCard Component Spec)
@@ -47,7 +47,7 @@ The component should show:
 ## Outputs
 - Created: src/components/results/ShareCard.tsx, src/utils/shareUtils.ts
 - Modified: src/components/screens/ResultScreen.tsx (integrate ShareCard)
-- Decisions:
+- Decisions: Copy button shows feedback state (copied/error), Share only shown if Web Share API available
 
 ---
 
