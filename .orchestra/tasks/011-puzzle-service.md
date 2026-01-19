@@ -4,7 +4,7 @@
 | Field | Value |
 |-------|-------|
 | **ID** | 011 |
-| **Status** | ready |
+| **Status** | done |
 | **Branch** | task/011 |
 | **Assigned** | |
 | **Depends** | 003, 004 |
@@ -29,12 +29,12 @@ Functions:
 Important: Comments must be shuffled per-user to prevent position-based spoilers. The shuffled AI index must be tracked for correct/incorrect determination.
 
 ## Acceptance Criteria
-- [ ] src/services/puzzleService.ts created
-- [ ] getTodaysPuzzle() returns ShuffledPuzzle (without exposing aiIndex)
-- [ ] submitGuess() validates guess, records in Redis, returns GuessResult
-- [ ] submitGuess() is idempotent (second call returns first result)
-- [ ] Comment shuffling works correctly
-- [ ] Bootstrap seeding called if needed
+- [x] src/services/puzzleService.ts created
+- [x] getTodaysPuzzle() returns ShuffledPuzzle (without exposing aiIndex)
+- [x] submitGuess() validates guess, records in Redis, returns GuessResult
+- [x] submitGuess() is idempotent (second call returns first result)
+- [x] Comment shuffling works correctly
+- [x] Bootstrap seeding called if needed
 
 ## Context Files
 - comment-conspiracy-spec-v2.md (Section 11: API Specifications)
@@ -43,8 +43,8 @@ Important: Comments must be shuffled per-user to prevent position-based spoilers
 
 ## Outputs
 - Created: src/services/puzzleService.ts
-- Modified:
-- Decisions:
+- Modified: None
+- Decisions: Used seeded PRNG (mulberry32) for deterministic per-user shuffling
 
 ---
 
