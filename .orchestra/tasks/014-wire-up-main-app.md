@@ -4,7 +4,7 @@
 | Field | Value |
 |-------|-------|
 | **ID** | 014 |
-| **Status** | ready |
+| **Status** | done |
 | **Branch** | task/014 |
 | **Assigned** | |
 | **Depends** | 007, 008, 009, 010, 011, 012, 013 |
@@ -29,12 +29,12 @@ The App component should:
 Also create WelcomeScreen for first-time users (simple, can be inline).
 
 ## Acceptance Criteria
-- [ ] src/components/App.tsx fully wired up
-- [ ] src/components/screens/WelcomeScreen.tsx created
-- [ ] State machine drives screen rendering
-- [ ] All services integrated correctly
-- [ ] User can play through complete flow: Welcome → Game → Confirm → Result
-- [ ] Returning users see CompletedScreen if already played
+- [x] src/components/App.tsx fully wired up
+- [x] src/components/screens/WelcomeScreen.tsx created
+- [x] State machine drives screen rendering
+- [x] All services integrated correctly
+- [x] User can play through complete flow: Welcome → Game → Confirm → Result
+- [x] Returning users see CompletedScreen if already played
 
 ## Context Files
 - src/hooks/useGameState.ts
@@ -42,9 +42,9 @@ Also create WelcomeScreen for first-time users (simple, can be inline).
 - src/services/*.ts
 
 ## Outputs
-- Created: src/components/screens/WelcomeScreen.tsx
-- Modified: src/components/App.tsx, src/main.tsx
-- Decisions:
+- Created: src/components/screens/WelcomeScreen.tsx, src/types/messages.ts, src/web/index.tsx
+- Modified: src/components/App.tsx, src/main.tsx, webroot/index.html, src/types/index.ts
+- Decisions: Using postMessage API for Devvit <-> WebView communication
 
 ---
 
