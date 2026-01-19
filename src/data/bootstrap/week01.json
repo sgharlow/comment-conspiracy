@@ -1,0 +1,460 @@
+{
+  "week": 1,
+  "startDate": "2026-01-19",
+  "puzzles": [
+    {
+      "id": "2026-01-19",
+      "dayNumber": 1,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "life",
+      "prompt": {
+        "text": "What's a small purchase under $20 that significantly improved your daily life?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FrugalFinds42",
+          "text": "A phone stand for my desk. Sounds dumb but not having to pick up my phone to check notifications while working is weirdly freeing.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PracticalPurchaser",
+          "text": "I would highly recommend investing in a quality bottle opener. It's a small purchase that absolutely transforms your beverage experience and is definitely worth every penny.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "MinimalistMike_",
+          "text": "okay hear me out - a $12 bidet attachment from amazon. life changing. i will never shut up about it",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SleeperAgent99",
+          "text": "Blackout curtains. Got mine for like $15 at Target and now I actually sleep past 6am on weekends.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "CoffeeZombie",
+          "text": "Electric kettle. Idk why Americans don't use these more, water boils in like 2 minutes vs forever on the stove",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"I would highly recommend\" - overly formal recommendation language",
+          "\"Absolutely transforms\" - hyperbolic AI phrasing",
+          "\"Definitely worth every penny\" - cliché value statement",
+          "\"Quality bottle opener\" - oddly specific yet generic item",
+          "\"Investing in\" - treating $20 purchase like an investment"
+        ],
+        "humanTells": [
+          "#1: Personal context (desk setup), self-aware (\"sounds dumb\")",
+          "#3: Authentic enthusiasm, lowercase casual style, relatable product",
+          "#4: Specific store and price, concrete result",
+          "#5: Cultural observation, casual abbreviation (\"Idk\")"
+        ],
+        "difficulty_note": "Easy - Multiple obvious AI markers make this detectable for new players"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-01-20",
+      "dayNumber": 2,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "entertainment",
+      "prompt": {
+        "text": "What movie do you absolutely love that most people seem to hate?",
+        "source": "r/movies"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CinephileCarl",
+          "text": "Speed Racer (2008). Everyone called it a flop but the visuals are insane and it's genuinely heartfelt. I'll fight anyone who disagrees.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "MovieBuff2024",
+          "text": "Waterworld gets way too much hate. Yeah it's ridiculous but it's also a really fun post-apocalyptic adventure. Kevin Costner drinking his own pee is cinema.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "NostalgicViewer",
+          "text": "Jupiter Ascending is a visually stunning science fiction film that offers a unique and creative world-building experience. While it received mixed reviews, I find it to be an enjoyable and imaginative movie.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "BadMovieEnjoyer",
+          "text": "the room. yes i know its 'so bad its good' but idc i genuinely love watching it unironically. its art.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "GenXFilmFan",
+          "text": "Howard the Duck and I will not apologize for it. Was it weird? Yes. Was I 8 when I saw it? Also yes. Do I still watch it yearly? You bet.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Visually stunning science fiction film\" - formal review language",
+          "\"Unique and creative world-building experience\" - PR-speak",
+          "\"While it received mixed reviews\" - hedging like a critic",
+          "\"I find it to be\" - overly formal personal statement",
+          "No specific memorable moments or personal connection"
+        ],
+        "humanTells": [
+          "#1: Specific year, playful aggression (\"I'll fight anyone\")",
+          "#2: Specific absurd detail as evidence of love",
+          "#4: Intentional lowercase, self-aware humor",
+          "#5: Personal history woven in, conversational structure"
+        ],
+        "difficulty_note": "Easy - Reads like a Wikipedia summary rather than a passionate defense"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T10:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-01-21",
+      "dayNumber": 3,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "food",
+      "prompt": {
+        "text": "What's a food combination that sounds disgusting but actually works?",
+        "source": "r/food"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WeirdFoodGuy",
+          "text": "Peanut butter on a burger. I know, I KNOW. But the saltiness and the fat just work together somehow. Try it before you judge me.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "SnackExplorer",
+          "text": "Fries dipped in a milkshake. This one's less controversial now but 20 years ago people looked at me like I was insane.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "FlavorChaser",
+          "text": "Hot sauce on vanilla ice cream! The heat from the hot sauce creates an interesting contrast with the cold, creamy sweetness. It's surprisingly addictive once you try it.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "MidwestMom47",
+          "text": "Cottage cheese and potato chips. My grandma used to make this and everyone thought she was crazy. She wasn't. It slaps.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "latenitesnacker",
+          "text": "pickle juice in ramen. don't knock it till you've tried it the acidity cuts through the sodium somehow?? idk i found out drunk one night",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Creates an interesting contrast\" - analytical food critic language",
+          "\"Cold, creamy sweetness\" - overly descriptive modifiers",
+          "\"Surprisingly addictive\" - generic enthusiasm phrase",
+          "Explains WHY it works too clearly (real people usually don't)",
+          "Exclamation point feels forced"
+        ],
+        "humanTells": [
+          "#1: Self-conscious repetition (\"I know, I KNOW\")",
+          "#4: Family story adds authenticity, slang (\"slaps\")",
+          "#5: Origin story (\"found out drunk\"), questioning own logic"
+        ],
+        "difficulty_note": "Medium - The AI comment mimics casual tone but explains too analytically"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T11:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-01-22",
+      "dayNumber": 4,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "tech",
+      "prompt": {
+        "text": "What's a tech hill you'll die on?",
+        "source": "r/technology"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "TechCurmudgeon",
+          "text": "Physical buttons > touchscreens for cars. I shouldn't have to navigate three menus to change the AC temp while driving. This is a safety issue not just preference.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "DigitalNomad_99",
+          "text": "Wired headphones are still superior for most use cases. Better audio quality, no charging, no latency issues. Bluetooth has its place but not everywhere.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "LinuxLifer",
+          "text": "RSS never should have died. We let social media algorithms replace chronological feeds from sources we chose and everything got worse because of it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "RetroComputing",
+          "text": "The 2012-2015 MacBook Pro was peak laptop design. Actual ports, user-replaceable RAM, no touch bar gimmick. Apple has been backtracking ever since.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "webdev_throwaway",
+          "text": "dark mode everything. light mode is violence against my eyes and anyone who uses it in an office at night is a menace to society",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Superior for most use cases\" - consultant-speak",
+          "Balanced pros/cons structure (real hot takes aren't balanced)",
+          "\"Has its place but not everywhere\" - hedging undermines \"hill to die on\"",
+          "Lists reasons too neatly (quality, charging, latency)",
+          "No personal frustration or specific experience"
+        ],
+        "humanTells": [
+          "#1: Escalates to safety concern, personal frustration clear",
+          "#3: Nostalgic frustration, societal critique",
+          "#4: Specific years and features cited",
+          "#5: Hyperbolic humor (\"violence\"), lowercase passion"
+        ],
+        "difficulty_note": "Medium - AI sounds reasonable but lacks the emotional conviction of a 'hill to die on'"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T11:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-01-23",
+      "dayNumber": 5,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "life",
+      "prompt": {
+        "text": "What's something your parents did that you swore you'd never do, but now you do it too?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "MillennialDad",
+          "text": "\"We have food at home.\" Said it to my kid last week and immediately had a crisis. I have become everything I feared.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "TherapyGraduate",
+          "text": "Turning into my mom with the thermostat. I used to mock her for keeping it at 68 in winter. Now I patrol my apartment like a hawk if anyone touches it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "ReluctantAdult",
+          "text": "Making that dad groan when I sit down or stand up. I'm 34. When did my joints start having opinions",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SelfAwareParent",
+          "text": "telling my kids to turn the lights off when they leave a room. my dad was obsessive about this and I thought he was being dramatic. nope. electricity bills hit different when you're paying them",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "GeriatricMillennial",
+          "text": "Falling asleep on the couch at 8pm with the TV on. My dad did this every single night and I thought it was pathetic. Now I understand. Now I am him.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Hit different\" feels slightly forced, like learned slang",
+          "Too clean a narrative arc (dad was obsessive → I thought dramatic → now I get it)",
+          "Lowercase throughout feels calculated rather than natural",
+          "\"nope.\" as a transition is a known AI casual-writing pattern",
+          "Lacks the self-deprecating humor present in others"
+        ],
+        "humanTells": [
+          "#1: Quotes the exact phrase, admits to \"crisis\"",
+          "#2: Specific number (68), vivid imagery (\"patrol like a hawk\")",
+          "#3: Body humor, rhetorical question to reader",
+          "#5: Repetition for emphasis (\"Now I understand. Now I am him.\")"
+        ],
+        "difficulty_note": "Hard - AI mimics casual tone well but lacks the comedic timing and self-awareness of human responses"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T12:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-01-24",
+      "dayNumber": 6,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "relationships",
+      "prompt": {
+        "text": "What's the pettiest reason you've ended a relationship or friendship?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "HonestlyPetty",
+          "text": "She chewed with her mouth open. Three dates of trying to ignore it. I couldn't do a fourth. I'm not proud but I'm also not sorry.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "NoRegrets2024",
+          "text": "Friend kept saying \"pacifically\" instead of \"specifically.\" Corrected him twice. He kept doing it. Something in me broke.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "ToxicTraitSurvivor",
+          "text": "my ex put the toilet paper roll on the wrong way. under instead of over. we had other issues but honestly this was the final straw that made me realize we were fundamentally incompatible",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "IntrovertExit",
+          "text": "Guy I was dating didn't like dogs. Not allergic, not scared, just \"didn't see the point.\" Didn't see the point of him after that.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "PettyBetty_",
+          "text": "Ghosted someone because they said \"I could care less\" instead of \"I couldn't care less.\" Yes I know this says more about me than them. No I will not be taking questions.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Fundamentally incompatible\" - too serious/therapeutic for a petty story",
+          "\"We had other issues\" - unnecessary context that dilutes the pettiness",
+          "Explains it was the \"final straw\" - over-justifies",
+          "Lowercase feels calculated rather than natural",
+          "Toilet paper orientation is a known meme topic (too on-the-nose)"
+        ],
+        "humanTells": [
+          "#1: Counted the dates, conflicted (\"not proud but not sorry\")",
+          "#2: Specific word, escalation (\"something in me broke\")",
+          "#4: Wordplay callback (\"point\"), immediate judgment",
+          "#5: Preemptive defense shows self-awareness, playful closing"
+        ],
+        "difficulty_note": "Expert - AI chose a classic meme topic and over-explained, while humans embraced absurdity"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T12:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-01-25",
+      "dayNumber": 7,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "life",
+      "prompt": {
+        "text": "What's an unwritten social rule that everyone should know?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SociallyAwkward101",
+          "text": "If someone shows you a photo on their phone, don't swipe. You weren't invited to the gallery tour.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "OfficeWorker_Anon",
+          "text": "Don't microwave fish at work. This should be codified into law at this point honestly.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "QuietObserver",
+          "text": "When someone's telling a story, let them finish. The number of people who interrupt to say \"oh that reminds me of-\" is too damn high.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "EtiquetteEnforcer",
+          "text": "if youre walking in a group on a sidewalk and someone comes the other way, dont make them walk in the street. form a single file line for like 3 seconds its not that hard",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "IntrovertSurvival",
+          "text": "If I have headphones in at the gym I'm not being rude I'm begging you not to talk to me. The headphones ARE the communication.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Form a single file line\" - overly instructional phrasing",
+          "\"It's not that hard\" - mild passive aggression feels off",
+          "The scenario is very specific but the complaint feels generic",
+          "Typo (\"youre\") feels planted rather than natural",
+          "Lacks the wit or memorable phrasing of other comments"
+        ],
+        "humanTells": [
+          "#1: Clever phrasing (\"gallery tour\"), memorable",
+          "#2: Hyperbole (\"codified into law\"), universally relatable",
+          "#3: Direct quote of the interruption, builds frustration",
+          "#5: Capitalized emphasis, reframes headphones as \"communication\""
+        ],
+        "difficulty_note": "Hard - AI gives a valid rule but lacks the memorable phrasing that makes unwritten rules quotable"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T13:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}
