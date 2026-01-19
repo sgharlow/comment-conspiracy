@@ -40,3 +40,10 @@ export type {
   CountdownState,
   ShareData,
 } from './game';
+
+// Message types
+export type {
+  WebViewToDevvitMessage,
+  DevvitToWebViewMessage,
+  InitData,
+} from './messages';

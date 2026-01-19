@@ -2,10 +2,46 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Comment Conspiracy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom styles for the game */
+    html, body, #root {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    /* Smooth animations */
+    .transition-colors {
+      transition-property: background-color, border-color, color;
+      transition-timing-function: ease-in-out;
+      transition-duration: 150ms;
+    }
+
+    /* Pulse animation for loading */
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+    .animate-pulse {
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    /* Spin animation */
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .animate-spin {
+      animation: spin 1s linear infinite;
+    }
+  </style>
 </head>
 <body>
   <div id="root"></div>
+  <script type="module" src="./app.js"></script>
 </body>
 </html>

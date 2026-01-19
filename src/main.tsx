@@ -1,4 +1,8 @@
-import { Devvit, useState } from '@devvit/public-api';
+import { Devvit, useState, useWebView } from '@devvit/public-api';
+import type { WebViewToDevvitMessage, DevvitToWebViewMessage, InitData } from './types';
+import { getTodaysPuzzle, submitGuess, getPreviousResult, hasUserPlayedToday } from './services/puzzleService';
+import { getUserProgress } from './services/userService';
+import type { RedisContext } from './services/redisKeys';
 
 // Configure Devvit capabilities
 Devvit.configure({
@@ -7,20 +11,89 @@ Devvit.configure({
   http: true,
 });
 
-// Main App component - placeholder until full implementation
+// Create Redis context from Devvit context
+function createRedisContext(context: Devvit.Context): RedisContext {
+  return {
+    redis: context.redis,
+  };
+}
+
+// Main App component with WebView
 const App: Devvit.CustomPostComponent = (context) => {
-  const [screen, setScreen] = useState<'welcome' | 'game' | 'result' | 'completed'>('welcome');
+  const userId = context.userId ?? 'anonymous';
+  const redisCtx = createRedisContext(context);
+
+  // WebView message handler
+  const webView = useWebView<WebViewToDevvitMessage, DevvitToWebViewMessage>({
+    onMessage: async (message, webViewContext) => {
+      try {
+        switch (message.type) {
+          case 'INIT': {
+            // Get user progress
+            const userProgress = await getUserProgress(redisCtx, userId);
+
+            // Check if already played today
+            const alreadyPlayed = await hasUserPlayedToday(redisCtx, userId);
+
+            if (alreadyPlayed) {
+              // Get today's puzzle to get puzzleId
+              const puzzle = await getTodaysPuzzle(redisCtx, userId);
+              if (puzzle) {
+                const previousResult = await getPreviousResult(redisCtx, userId, puzzle.id);
+                const initData: InitData = {
+                  userId,
+                  puzzle,
+                  userProgress,
+                  previousResult,
+                };
+                webViewContext.postMessage({ type: 'INIT_RESPONSE', data: initData });
+              } else {
+                webViewContext.postMessage({ type: 'ERROR', error: 'No puzzle available today' });
+              }
+            } else {
+              // Fresh play - get today's puzzle
+              const puzzle = await getTodaysPuzzle(redisCtx, userId);
+              const initData: InitData = {
+                userId,
+                puzzle,
+                userProgress,
+                previousResult: null,
+              };
+              webViewContext.postMessage({ type: 'INIT_RESPONSE', data: initData });
+            }
+            break;
+          }
+
+          case 'SUBMIT_GUESS': {
+            // Get today's puzzle ID
+            const puzzle = await getTodaysPuzzle(redisCtx, userId);
+            if (!puzzle) {
+              webViewContext.postMessage({ type: 'ERROR', error: 'No puzzle available' });
+              return;
+            }
+
+            // Submit the guess
+            const result = await submitGuess(redisCtx, userId, puzzle.id, message.guessIndex);
+            webViewContext.postMessage({ type: 'GUESS_RESPONSE', result });
+            break;
+          }
+        }
+      } catch (error) {
+        const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+        webViewContext.postMessage({ type: 'ERROR', error: errorMessage });
+      }
+    },
+  });
 
   return (
-    <vstack height="100%" width="100%" alignment="center middle" padding="medium">
-      <text size="xlarge" weight="bold">Comment Conspiracy</text>
-      <spacer size="medium" />
-      <text size="medium">One of these comments isn't human.</text>
-      <text size="medium">Can you spot the imposter?</text>
-      <spacer size="large" />
-      <text size="small" color="neutral-content-weak">
-        Coming soon...
-      </text>
+    <vstack height="100%" width="100%">
+      <webview
+        id="comment-conspiracy"
+        url="index.html"
+        width="100%"
+        height="100%"
+        onMessage={webView.onMessage}
+      />
     </vstack>
   );
 };
