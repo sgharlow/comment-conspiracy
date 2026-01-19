@@ -1,2 +1,42 @@
-// Type definitions - to be implemented in task 002
-export {};
+/**
+ * Central export for all type definitions
+ */
+
+// Puzzle types
+export type {
+  Difficulty,
+  DayOfWeek,
+  Category,
+  Prompt,
+  Comment,
+  Explanation,
+  PuzzleMetadata,
+  Puzzle,
+  DisplayComment,
+  ShuffledPuzzle,
+  RevealedPuzzle,
+  PuzzleStats,
+  PuzzleWeek,
+} from './puzzle';
+
+// User types
+export type {
+  DayResult,
+  DifficultyStats,
+  UserProgress,
+  UserGuess,
+  Achievement,
+  AchievementId,
+  LeaderboardEntry,
+  LeaderboardPosition,
+} from './user';
+
+// Game types
+export type {
+  GameState,
+  GuessResult,
+  GameContext,
+  GameAction,
+  CountdownState,
+  ShareData,
+} from './game';

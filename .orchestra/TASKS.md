@@ -1,10 +1,11 @@
 # Tasks
 
 > Last updated: 2026-01-18
-> Progress: 1/20 complete (5%)
+> Progress: 2/20 complete (10%)
 
 ## Ready
-- [ ] `002` Create Core Type Definitions
+- [ ] `003` Set Up Redis Service Layer
+- [ ] `005` Build Game State Machine
 - [ ] `006` Create CommentCard Component
 
 ## In Progress
@@ -12,11 +13,10 @@
 
 ## Done
 - [x] `001` Initialize Devvit Project ✓
+- [x] `002` Create Core Type Definitions ✓
 
 ## Blocked
-- [ ] `003` Set Up Redis Service Layer (waiting: 002)
-- [ ] `004` Load Bootstrap Puzzles (waiting: 002, 003)
-- [ ] `005` Build Game State Machine (waiting: 002)
+- [ ] `004` Load Bootstrap Puzzles (waiting: 003)
 - [ ] `007` Create GameScreen with Puzzle Display (waiting: 005, 006)
 - [ ] `008` Create ConfirmModal Component (waiting: 005, 006)
 - [ ] `009` Create ResultScreen (waiting: 005, 006)
