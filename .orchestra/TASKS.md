@@ -1,10 +1,11 @@
 # Tasks
 
 > Last updated: 2026-01-18
-> Progress: 12/20 complete (60%)
+> Progress: 13/20 complete (65%)
 
 ## Ready
-- [ ] `013` Implement statsService
+- [ ] `014` Wire Up Main App Component
+- [ ] `015` Create Scheduler Job for Daily Posting
 - [ ] `017` Mobile-Responsive Styling
 - [ ] `018` Share Card Generation
 
@@ -24,10 +25,9 @@
 - [x] `010` Create CompletedScreen ✓
 - [x] `011` Implement puzzleService ✓
 - [x] `012` Implement userService ✓
+- [x] `013` Implement statsService ✓
 
 ## Blocked
-- [ ] `014` Wire Up Main App Component (waiting: 011, 012, 013)
-- [ ] `015` Create Scheduler Job for Daily Posting (waiting: 011)
 - [ ] `016` Add Puzzle Inventory Health Check (waiting: 015)
 - [ ] `019` Loading States and Error Handling (waiting: 014)
 - [ ] `020` Deploy to r/CommentConspiracy and Demo (waiting: 014, 015, 016, 017, 018, 019)
