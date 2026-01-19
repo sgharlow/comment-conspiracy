@@ -4,7 +4,7 @@
 | Field | Value |
 |-------|-------|
 | **ID** | 012 |
-| **Status** | ready |
+| **Status** | done |
 | **Branch** | task/012 |
 | **Assigned** | |
 | **Depends** | 003 |
@@ -30,12 +30,12 @@ Streak Rules:
 - Incorrect = streak reset to 0
 
 ## Acceptance Criteria
-- [ ] src/services/userService.ts created
-- [ ] getUserProgress() returns UserProgress, creates if new user
-- [ ] updateProgress() correctly updates streak, accuracy, totals
-- [ ] Streak calculation follows spec rules
-- [ ] History limited to last 30 days
-- [ ] All timestamps use UTC
+- [x] src/services/userService.ts created
+- [x] getUserProgress() returns UserProgress, creates if new user
+- [x] updateProgress() correctly updates streak, accuracy, totals
+- [x] Streak calculation follows spec rules
+- [x] History limited to last 30 days
+- [x] All timestamps use UTC
 
 ## Context Files
 - comment-conspiracy-spec-v2.md (Section 6: Scoring & Progression)
@@ -43,8 +43,8 @@ Streak Rules:
 
 ## Outputs
 - Created: src/services/userService.ts
-- Modified:
-- Decisions:
+- Modified: None
+- Decisions: Added helper functions for streak status checks (isHotStreak, isStreakAtRisk)
 
 ---
 
