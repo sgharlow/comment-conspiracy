@@ -1,12 +1,12 @@
 # Tasks
 
 > Last updated: 2026-01-18
-> Progress: 3/20 complete (15%)
+> Progress: 4/20 complete (20%)
 
 ## Ready
-- [ ] `004` Load Bootstrap Puzzles
 - [ ] `005` Build Game State Machine
 - [ ] `006` Create CommentCard Component
+- [ ] `011` Implement puzzleService
 - [ ] `012` Implement userService
 - [ ] `013` Implement statsService
 
@@ -17,13 +17,13 @@
 - [x] `001` Initialize Devvit Project ✓
 - [x] `002` Create Core Type Definitions ✓
 - [x] `003` Set Up Redis Service Layer ✓
+- [x] `004` Load Bootstrap Puzzles ✓
 
 ## Blocked
 - [ ] `007` Create GameScreen with Puzzle Display (waiting: 005, 006)
 - [ ] `008` Create ConfirmModal Component (waiting: 005, 006)
 - [ ] `009` Create ResultScreen (waiting: 005, 006)
 - [ ] `010` Create CompletedScreen (waiting: 005, 009)
-- [ ] `011` Implement puzzleService (waiting: 004)
 - [ ] `014` Wire Up Main App Component (waiting: 007, 008, 009, 010, 011, 012, 013)
 - [ ] `015` Create Scheduler Job for Daily Posting (waiting: 011)
 - [ ] `016` Add Puzzle Inventory Health Check (waiting: 015)
