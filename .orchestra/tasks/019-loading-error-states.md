@@ -4,7 +4,7 @@
 | Field | Value |
 |-------|-------|
 | **ID** | 019 |
-| **Status** | ready |
+| **Status** | done |
 | **Branch** | task/019 |
 | **Assigned** | |
 | **Depends** | 014 |
@@ -31,20 +31,20 @@ Error states:
 Also add retry logic for transient failures.
 
 ## Acceptance Criteria
-- [ ] src/components/shared/LoadingSpinner.tsx created
-- [ ] src/components/shared/ErrorState.tsx created
-- [ ] Loading state shown during initial fetch
-- [ ] Error state shown with retry button on failure
-- [ ] Submit button shows loading during guess submission
-- [ ] Toast/feedback for copy success
+- [x] src/components/shared/LoadingSpinner.tsx created
+- [x] src/components/shared/ErrorState.tsx created
+- [x] Loading state shown during initial fetch
+- [x] Error state shown with retry button on failure
+- [x] Submit button shows loading during guess submission
+- [x] Toast/feedback for copy success (via ShareCard)
 
 ## Context Files
 - comment-conspiracy-spec-v2.md (Section 14: Edge Cases & Error Handling)
 
 ## Outputs
 - Created: src/components/shared/LoadingSpinner.tsx, src/components/shared/ErrorState.tsx
-- Modified: src/components/App.tsx, src/hooks/useGameState.ts
-- Decisions:
+- Modified: src/components/App.tsx
+- Decisions: Created reusable components with variants (FullPage, Inline)
 
 ---
 

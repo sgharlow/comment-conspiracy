@@ -1,10 +1,10 @@
 # Tasks
 
 > Last updated: 2026-01-18
-> Progress: 18/20 complete (90%)
+> Progress: 19/20 complete (95%)
 
 ## Ready
-- [ ] `019` Loading States and Error Handling
+- [ ] `020` Deploy to r/CommentConspiracy and Demo
 
 ## In Progress
 <!-- Tasks currently being worked on -->
@@ -28,6 +28,7 @@
 - [x] `016` Add Puzzle Inventory Health Check ✓
 - [x] `017` Mobile-Responsive Styling ✓
 - [x] `018` Share Card Generation ✓
+- [x] `019` Loading States and Error Handling ✓
 
 ## Blocked
-- [ ] `020` Deploy to r/CommentConspiracy and Demo (waiting: 019)
+<!-- No blocked tasks -->
