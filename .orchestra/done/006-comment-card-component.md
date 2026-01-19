@@ -4,9 +4,9 @@
 | Field | Value |
 |-------|-------|
 | **ID** | 006 |
-| **Status** | ready |
+| **Status** | done |
 | **Branch** | task/006 |
-| **Assigned** | |
+| **Assigned** | task/006 |
 | **Depends** | 001, 002 |
 | **Blocked-By** | |
 | **Estimated** | 30 min |
@@ -35,21 +35,39 @@ Props:
 - disabled?: boolean
 
 ## Acceptance Criteria
-- [ ] src/components/game/CommentCard.tsx created
-- [ ] Shows comment number, username (u/...), and text
-- [ ] All 6 visual states implemented with Tailwind
-- [ ] Touch-friendly (min 44px tap target)
-- [ ] Accessible (button role, proper labels)
+- [x] src/components/game/CommentCard.tsx created
+- [x] Shows comment number, username (u/...), and text
+- [x] All 6 visual states implemented with Tailwind
+- [x] Touch-friendly (min 44px tap target, min-h-[88px])
+- [x] Accessible (button role, proper labels, keyboard support)
 
 ## Context Files
 - comment-conspiracy-spec-v2.md (Section 12.2: CommentCard Component Spec)
 
 ## Outputs
 - Created: src/components/game/CommentCard.tsx
-- Modified:
-- Decisions:
+- Modified: none
+- Decisions: none
 
 ---
 
 ## Work Log
-<!-- Append progress here while working -->
+
+### 2026-01-18 - Complete
+Created CommentCard React component with:
+
+Visual states (Tailwind classes):
+- default: gray border, white bg, hover effects
+- selected: blue border, blue tint
+- revealed_ai: red border, red tint + 🤖 badge
+- revealed_human: gray, faded
+- disabled: low opacity, no interactions
+
+Features:
+- Comment number badge (top-left)
+- AI badge (top-right, on reveal)
+- Correct guess indicator
+- Username display (u/...)
+- Selection indicator
+- Keyboard navigation (Enter/Space)
+- ARIA attributes for accessibility
