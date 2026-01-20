@@ -1,16 +1,13 @@
 name: comment-conspire
-version: 0.0.1
+version: 0.0.2
 capabilities:
   - redis
   - scheduler
   - http
   - ui
   - triggers
+  - redditAPI
 webRoot: ./webroot
 scheduledJobs:
   - name: post-daily-puzzle
     cron: 0 0 * * *
-menuItems:
-  - name: View Comment Conspiracy Stats
-    location: subreddit
-    postFilter: currentApp
