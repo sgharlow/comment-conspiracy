@@ -9,6 +9,7 @@ import { ResultBanner } from '../results/ResultBanner';
 import { AIExplanation } from '../results/AIExplanation';
 import { StatsPanel } from '../results/StatsPanel';
 import { ShareCard } from '../results/ShareCard';
+import { AchievementList } from '../results/AchievementToast';
 
 export interface ResultScreenProps {
   result: GuessResult;
@@ -50,6 +51,13 @@ export function ResultScreen({
           userPercentile={result.userPercentile}
         />
       </div>
+
+      {/* Achievements Unlocked */}
+      {result.newlyUnlockedAchievements && result.newlyUnlockedAchievements.length > 0 && (
+        <div className="mb-6">
+          <AchievementList achievements={result.newlyUnlockedAchievements} />
+        </div>
+      )}
 
       {/* Share Card */}
       <div className="mb-6">

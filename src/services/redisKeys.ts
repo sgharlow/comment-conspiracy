@@ -13,6 +13,7 @@ export const REDIS_KEYS = {
   userProgress: (userId: string) => `user:${userId}:progress`,
   userGuess: (userId: string, puzzleId: string) => `user:${userId}:guess:${puzzleId}`,
   userHistory: (userId: string) => `user:${userId}:history`,
+  userAchievements: (userId: string) => `user:${userId}:achievements`,
 
   // Daily stats
   dailyStats: (puzzleId: string) => `stats:${puzzleId}`,

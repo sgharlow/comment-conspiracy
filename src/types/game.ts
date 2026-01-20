@@ -4,7 +4,7 @@
  */
 
 import type { Explanation, PuzzleStats, ShuffledPuzzle } from './puzzle';
-import type { UserProgress } from './user';
+import type { UserProgress, Achievement } from './user';
 
 // Game states matching the UX flow
 export type GameState =
@@ -29,6 +29,7 @@ export interface GuessResult {
   previousStreak: number;
   stats: PuzzleStats;
   userPercentile: number;    // "Top X%"
+  newlyUnlockedAchievements: Achievement[];  // Achievements earned from this guess
 }
 
 // Full game context for state management

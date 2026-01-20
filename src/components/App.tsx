@@ -4,9 +4,9 @@
  * Manages game state and renders appropriate screens
  */
 
-import React, { useEffect, useCallback } from 'react';
+import React, { useEffect, useCallback, useState } from 'react';
 import { useGameState } from '../hooks/useGameState';
-import type { DevvitToWebViewMessage, WebViewToDevvitMessage, InitData, GuessResult, ShuffledPuzzle } from '../types';
+import type { DevvitToWebViewMessage, WebViewToDevvitMessage, InitData, Achievement } from '../types';
 
 // Screen components
 import { WelcomeScreen } from './screens/WelcomeScreen';
@@ -16,6 +16,7 @@ import { CompletedScreen } from './screens/CompletedScreen';
 import { ConfirmModal } from './game/ConfirmModal';
 import { FullPageSpinner } from './shared/LoadingSpinner';
 import { FullPageError, getErrorMessage } from './shared/ErrorState';
+import { AchievementToast } from './results/AchievementToast';
 
 /**
  * Send a message to the Devvit host
@@ -49,6 +50,9 @@ export function App(): React.ReactElement {
     reset,
   } = useGameState();
 
+  // Track achievements to show in toast
+  const [achievementsToShow, setAchievementsToShow] = useState<Achievement[]>([]);
+
   // Handle messages from Devvit
   const handleDevvitMessage = useCallback(
     (event: MessageEvent<DevvitToWebViewMessage>) => {
@@ -73,6 +77,10 @@ export function App(): React.ReactElement {
         }
         case 'GUESS_RESPONSE': {
           guessSuccess(message.result);
+          // Show achievement toast if any were unlocked
+          if (message.result.newlyUnlockedAchievements?.length > 0) {
+            setAchievementsToShow(message.result.newlyUnlockedAchievements);
+          }
           break;
         }
         case 'ERROR': {
@@ -206,6 +214,14 @@ export function App(): React.ReactElement {
             <div className="text-gray-700 font-medium">Checking your guess...</div>
           </div>
         </div>
+      )}
+
+      {/* Achievement Toast */}
+      {achievementsToShow.length > 0 && (
+        <AchievementToast
+          achievements={achievementsToShow}
+          onDismiss={() => setAchievementsToShow([])}
+        />
       )}
     </div>
   );

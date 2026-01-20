@@ -25,6 +25,7 @@ import {
   updateStreakLeaderboard,
 } from './redisService';
 import { ensurePuzzlesLoaded } from './bootstrapService';
+import { checkAndAwardAchievements } from './achievementService';
 import type { UserGuess } from '../types/user';
 
 /**
@@ -276,6 +277,7 @@ export async function submitGuess(
       previousStreak: progress.currentStreak, // Same since already recorded
       stats,
       userPercentile: calculatePercentile(existingGuess.wasCorrect, stats),
+      newlyUnlockedAchievements: [], // Already recorded, no new achievements
     };
   }
 
@@ -343,6 +345,15 @@ export async function submitGuess(
   await recordGuess(ctx, puzzleId, guessIndex, wasCorrect);
   await updateStreakLeaderboard(ctx, userId, newStreak);
 
+  // Check and award achievements
+  const newlyUnlockedAchievements = await checkAndAwardAchievements(
+    ctx,
+    userId,
+    updatedProgress,
+    wasCorrect,
+    puzzle.difficulty
+  );
+
   // Get updated stats
   const stats = await getPuzzleStats(ctx, puzzleId);
 
@@ -355,6 +366,7 @@ export async function submitGuess(
     previousStreak,
     stats,
     userPercentile: calculatePercentile(wasCorrect, stats),
+    newlyUnlockedAchievements,
   };
 }
 
@@ -390,6 +402,7 @@ export async function getPreviousResult(
     previousStreak: progress.currentStreak,
     stats,
     userPercentile: calculatePercentile(existingGuess.wasCorrect, stats),
+    newlyUnlockedAchievements: [], // Previously played, no new achievements
   };
 }
 
