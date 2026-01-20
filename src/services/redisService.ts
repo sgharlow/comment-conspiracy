@@ -62,15 +62,33 @@ export async function setCurrentPuzzleId(
   await ctx.redis.set(REDIS_KEYS.currentPuzzle(), puzzleId);
 }
 
+/**
+ * Get all puzzle IDs from the index
+ * Note: Uses JSON string since Devvit Redis doesn't support List operations
+ */
 export async function getPuzzleIndex(ctx: RedisContext): Promise<string[]> {
-  return await ctx.redis.lRange(REDIS_KEYS.puzzleIndex(), 0, -1);
+  const data = await ctx.redis.get(REDIS_KEYS.puzzleIndex());
+  if (!data) return [];
+  try {
+    return JSON.parse(data) as string[];
+  } catch {
+    return [];
+  }
 }
 
+/**
+ * Add a puzzle ID to the index
+ * Note: Uses JSON string since Devvit Redis doesn't support List operations
+ */
 export async function addToPuzzleIndex(
   ctx: RedisContext,
   puzzleId: string
 ): Promise<void> {
-  await ctx.redis.lPush(REDIS_KEYS.puzzleIndex(), [puzzleId]);
+  const currentIndex = await getPuzzleIndex(ctx);
+  if (!currentIndex.includes(puzzleId)) {
+    currentIndex.push(puzzleId);
+    await ctx.redis.set(REDIS_KEYS.puzzleIndex(), JSON.stringify(currentIndex));
+  }
 }
 
 /**

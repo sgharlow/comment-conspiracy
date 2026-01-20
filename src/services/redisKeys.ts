@@ -25,17 +25,20 @@ export const REDIS_KEYS = {
 } as const;
 
 // Type for the context parameter from Devvit
+// Note: Devvit Redis does NOT support List operations (lPush, lRange, etc.)
+// We use JSON strings in regular keys or Sets for list-like data
 export interface RedisContext {
   redis: {
+    // String operations
     get: (key: string) => Promise<string | undefined>;
     set: (key: string, value: string) => Promise<void>;
     del: (key: string) => Promise<void>;
+    // Hash operations
     hGet: (key: string, field: string) => Promise<string | undefined>;
     hSet: (key: string, fieldValues: Record<string, string>) => Promise<number>;
     hGetAll: (key: string) => Promise<Record<string, string>>;
     hIncrBy: (key: string, field: string, value: number) => Promise<number>;
-    lPush: (key: string, values: string[]) => Promise<number>;
-    lRange: (key: string, start: number, stop: number) => Promise<string[]>;
+    // Sorted Set operations
     zAdd: (key: string, ...members: { score: number; member: string }[]) => Promise<number>;
     zScore: (key: string, member: string) => Promise<number | undefined>;
     zRank: (key: string, member: string) => Promise<number | undefined>;

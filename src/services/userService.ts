@@ -153,6 +153,7 @@ export async function updateProgress(
 
 /**
  * Add a result to user's history
+ * Note: Uses JSON array since Devvit Redis doesn't support List operations
  */
 async function addToHistory(
   ctx: RedisContext,
@@ -161,15 +162,32 @@ async function addToHistory(
 ): Promise<void> {
   const key = REDIS_KEYS.userHistory(userId);
 
-  // Add to front of list
-  await ctx.redis.lPush(key, [JSON.stringify(result)]);
+  // Get existing history
+  const data = await ctx.redis.get(key);
+  let history: DayResult[] = [];
+  if (data) {
+    try {
+      history = JSON.parse(data) as DayResult[];
+    } catch {
+      history = [];
+    }
+  }
 
-  // Note: We don't trim here - we'll trim on read to keep last 30 days
+  // Add to front of array (most recent first)
+  history.unshift(result);
+
+  // Keep only last 30 entries
+  if (history.length > 30) {
+    history = history.slice(0, 30);
+  }
+
+  await ctx.redis.set(key, JSON.stringify(history));
 }
 
 /**
  * Get user's recent game history
  * Defaults to last 30 days
+ * Note: Uses JSON array since Devvit Redis doesn't support List operations
  */
 export async function getHistory(
   ctx: RedisContext,
@@ -178,10 +196,15 @@ export async function getHistory(
 ): Promise<DayResult[]> {
   const key = REDIS_KEYS.userHistory(userId);
 
-  // Get recent entries (stored in reverse chronological order)
-  const entries = await ctx.redis.lRange(key, 0, limit - 1);
+  const data = await ctx.redis.get(key);
+  if (!data) return [];
 
-  return entries.map(entry => JSON.parse(entry) as DayResult);
+  try {
+    const history = JSON.parse(data) as DayResult[];
+    return history.slice(0, limit);
+  } catch {
+    return [];
+  }
 }
 
 /**

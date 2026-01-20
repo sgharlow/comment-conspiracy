@@ -117,22 +117,33 @@ export async function getTodaysPuzzle(
   ctx: RedisContext,
   userId: string
 ): Promise<ShuffledPuzzle | null> {
+  console.log('[PuzzleService] getTodaysPuzzle called');
+
   // Ensure puzzles are seeded
+  console.log('[PuzzleService] Calling ensurePuzzlesLoaded...');
   await ensurePuzzlesLoaded(ctx);
+  console.log('[PuzzleService] ensurePuzzlesLoaded completed');
 
   // Get current puzzle ID
+  console.log('[PuzzleService] Getting current puzzle ID...');
   const puzzleId = await getCurrentPuzzleId(ctx);
+  console.log('[PuzzleService] Current puzzle ID:', puzzleId);
   if (!puzzleId) {
+    console.log('[PuzzleService] No puzzle ID found');
     return null;
   }
 
   // Get the puzzle
+  console.log('[PuzzleService] Getting puzzle data...');
   const puzzle = await getPuzzle(ctx, puzzleId);
+  console.log('[PuzzleService] Got puzzle:', puzzle?.id);
   if (!puzzle) {
+    console.log('[PuzzleService] No puzzle data found');
     return null;
   }
 
   // Shuffle for this user
+  console.log('[PuzzleService] Shuffling for user');
   return shufflePuzzleForUser(puzzle, userId);
 }
 

@@ -1,4 +1,4 @@
-import { Devvit, useWebView } from '@devvit/public-api';
+import { Devvit, type JSONValue } from '@devvit/public-api';
 import type { WebViewToDevvitMessage, DevvitToWebViewMessage, InitData, LeaderboardRankData } from './types';
 import { getTodaysPuzzle, submitGuess, getPreviousResult, hasUserPlayedToday } from './services/puzzleService';
 import { getUserProgress } from './services/userService';
@@ -23,96 +23,98 @@ function createRedisContext(context: Devvit.Context): RedisContext {
   };
 }
 
+const WEBVIEW_ID = 'comment-conspiracy';
+
 // Main App component with WebView
 const App: Devvit.CustomPostComponent = (context) => {
   const userId = context.userId ?? 'anonymous';
   const redisCtx = createRedisContext(context);
 
-  // WebView message handler
-  const webView = useWebView<WebViewToDevvitMessage, DevvitToWebViewMessage>({
-    onMessage: async (message, webViewContext) => {
-      try {
-        switch (message.type) {
-          case 'INIT': {
-            // Get user progress
-            const userProgress = await getUserProgress(redisCtx, userId);
+  // WebView message handler - using the correct pattern from official examples
+  const onMessage = async (msg: JSONValue) => {
+    const message = msg as WebViewToDevvitMessage;
+    console.log('[CommentConspiracy] Received message from webview:', message.type);
 
-            // Get leaderboard ranks
-            const streakRankData = await getStreakRank(redisCtx, userId);
-            const accuracyRankData = await getAccuracyRank(redisCtx, userId);
+    try {
+      switch (message.type) {
+        case 'INIT': {
+          console.log('[CommentConspiracy] Processing INIT for user:', userId);
 
-            const streakRank: LeaderboardRankData | null = streakRankData
-              ? { rank: streakRankData.rank, total: streakRankData.total }
-              : null;
-            const accuracyRank: LeaderboardRankData | null = accuracyRankData
-              ? { rank: accuracyRankData.rank, total: accuracyRankData.total }
-              : null;
+          // Get today's puzzle from Redis
+          const puzzle = await getTodaysPuzzle(redisCtx, userId);
+          console.log('[CommentConspiracy] Got puzzle:', puzzle?.id ?? 'none');
 
-            // Check if already played today
-            const alreadyPlayed = await hasUserPlayedToday(redisCtx, userId);
+          // Get user progress from Redis
+          const userProgress = await getUserProgress(redisCtx, userId);
+          console.log('[CommentConspiracy] Got user progress, streak:', userProgress.currentStreak);
 
+          // Check if user already played today
+          let previousResult = null;
+          if (puzzle) {
+            const alreadyPlayed = await hasUserPlayedToday(redisCtx, userId, puzzle.id);
             if (alreadyPlayed) {
-              // Get today's puzzle to get puzzleId
-              const puzzle = await getTodaysPuzzle(redisCtx, userId);
-              if (puzzle) {
-                const previousResult = await getPreviousResult(redisCtx, userId, puzzle.id);
-                const initData: InitData = {
-                  userId,
-                  puzzle,
-                  userProgress,
-                  previousResult,
-                  streakRank,
-                  accuracyRank,
-                };
-                webViewContext.postMessage({ type: 'INIT_RESPONSE', data: initData });
-              } else {
-                webViewContext.postMessage({ type: 'ERROR', error: 'No puzzle available today' });
-              }
-            } else {
-              // Fresh play - get today's puzzle
-              const puzzle = await getTodaysPuzzle(redisCtx, userId);
-              const initData: InitData = {
-                userId,
-                puzzle,
-                userProgress,
-                previousResult: null,
-                streakRank,
-                accuracyRank,
-              };
-              webViewContext.postMessage({ type: 'INIT_RESPONSE', data: initData });
+              previousResult = await getPreviousResult(redisCtx, userId, puzzle.id);
+              console.log('[CommentConspiracy] User already played today');
             }
-            break;
           }
 
-          case 'SUBMIT_GUESS': {
-            // Get today's puzzle ID
-            const puzzle = await getTodaysPuzzle(redisCtx, userId);
-            if (!puzzle) {
-              webViewContext.postMessage({ type: 'ERROR', error: 'No puzzle available' });
-              return;
-            }
+          // Get leaderboard ranks
+          let streakRank: LeaderboardRankData | null = null;
+          let accuracyRank: LeaderboardRankData | null = null;
 
-            // Submit the guess
-            const result = await submitGuess(redisCtx, userId, puzzle.id, message.guessIndex);
-            webViewContext.postMessage({ type: 'GUESS_RESPONSE', result });
-            break;
+          const streakRankData = await getStreakRank(redisCtx, userId);
+          if (streakRankData) {
+            streakRank = streakRankData;
           }
+
+          const accuracyRankData = await getAccuracyRank(redisCtx, userId);
+          if (accuracyRankData) {
+            accuracyRank = accuracyRankData;
+          }
+
+          const initData: InitData = {
+            userId,
+            puzzle: puzzle ?? undefined,
+            userProgress,
+            previousResult,
+            streakRank,
+            accuracyRank,
+          };
+
+          console.log('[CommentConspiracy] Sending INIT_RESPONSE');
+          context.ui.webView.postMessage<DevvitToWebViewMessage>(WEBVIEW_ID, { type: 'INIT_RESPONSE', data: initData });
+          console.log('[CommentConspiracy] INIT_RESPONSE sent!');
+          break;
         }
-      } catch (error) {
-        const errorMessage = error instanceof Error ? error.message : 'Unknown error';
-        webViewContext.postMessage({ type: 'ERROR', error: errorMessage });
+
+        case 'SUBMIT_GUESS': {
+          // Get today's puzzle ID
+          const puzzle = await getTodaysPuzzle(redisCtx, userId);
+          if (!puzzle) {
+            context.ui.webView.postMessage<DevvitToWebViewMessage>(WEBVIEW_ID, { type: 'ERROR', error: 'No puzzle available' });
+            return;
+          }
+
+          // Submit the guess
+          const result = await submitGuess(redisCtx, userId, puzzle.id, message.guessIndex);
+          context.ui.webView.postMessage<DevvitToWebViewMessage>(WEBVIEW_ID, { type: 'GUESS_RESPONSE', result });
+          break;
+        }
       }
-    },
-  });
+    } catch (error) {
+      const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+      context.ui.webView.postMessage<DevvitToWebViewMessage>(WEBVIEW_ID, { type: 'ERROR', error: errorMessage });
+    }
+  };
 
   return (
     <vstack height="100%" width="100%">
       <webview
-        id="comment-conspiracy"
+        id={WEBVIEW_ID}
         url="index.html"
         width="100%"
         height="100%"
-        onMessage={webView.onMessage}
+        onMessage={onMessage}
       />
     </vstack>
   );
@@ -130,18 +132,20 @@ Devvit.addCustomPostType({
 Devvit.addMenuItem({
   label: 'Create Comment Conspiracy Post',
   location: 'subreddit',
-  onPress: async (event, context) => {
-    const subreddit = await context.reddit.getCurrentSubreddit();
-    await context.reddit.submitPost({
+  onPress: async (_event, context) => {
+    const { reddit, ui } = context;
+    const subreddit = await reddit.getCurrentSubreddit();
+    const post = await reddit.submitPost({
       title: 'Comment Conspiracy - Can You Spot the AI?',
       subredditName: subreddit.name,
       preview: (
-        <vstack height="100%" width="100%" alignment="center middle">
-          <text size="large">Loading Comment Conspiracy...</text>
+        <vstack height="100%" width="100%" alignment="middle center">
+          <text size="large">Loading ...</text>
         </vstack>
       ),
     });
-    context.ui.showToast('Created Comment Conspiracy post!');
+    ui.showToast({ text: 'Created post!' });
+    ui.navigateTo(post);
   },
 });
 
@@ -165,3 +169,4 @@ Devvit.addTrigger({
 });
 
 export default Devvit;
+// v24 touch

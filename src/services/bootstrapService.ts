@@ -22,7 +22,9 @@ const allWeeksData = [week01Data, week02Data, week03Data, week04Data] as PuzzleW
  * Check if puzzles have been seeded
  */
 export async function isPuzzleDataSeeded(ctx: RedisContext): Promise<boolean> {
+  console.log('[Bootstrap] isPuzzleDataSeeded: calling getPuzzleIndex');
   const index = await getPuzzleIndex(ctx);
+  console.log('[Bootstrap] isPuzzleDataSeeded: index length =', index.length);
   return index.length > 0;
 }
 
@@ -63,10 +65,16 @@ export async function seedPuzzles(ctx: RedisContext): Promise<{ seeded: boolean;
  * Call this at app startup or before first puzzle request
  */
 export async function ensurePuzzlesLoaded(ctx: RedisContext): Promise<void> {
+  console.log('[Bootstrap] ensurePuzzlesLoaded called');
+  console.log('[Bootstrap] Checking if seeded...');
   const isSeeded = await isPuzzleDataSeeded(ctx);
+  console.log('[Bootstrap] isSeeded:', isSeeded);
   if (!isSeeded) {
+    console.log('[Bootstrap] Seeding puzzles...');
     await seedPuzzles(ctx);
+    console.log('[Bootstrap] Seeding complete');
   }
+  console.log('[Bootstrap] ensurePuzzlesLoaded done');
 }
 
 /**

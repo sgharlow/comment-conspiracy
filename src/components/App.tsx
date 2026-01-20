@@ -59,11 +59,24 @@ export function App(): React.ReactElement {
 
   // Handle messages from Devvit
   const handleDevvitMessage = useCallback(
-    (event: MessageEvent<DevvitToWebViewMessage>) => {
-      const message = event.data;
+    (event: MessageEvent) => {
+      // v35: Debug message logging with Devvit envelope unwrapping
+      console.log('[WebView] Received message event:', event);
+      console.log('[WebView] event.data:', JSON.stringify(event.data, null, 2));
+
+      // Unwrap Devvit message envelope if present
+      let message = event.data;
+      if (message?.type === 'devvit-message' && message?.data?.message) {
+        message = message.data.message;
+        console.log('[WebView] Unwrapped devvit-message:', JSON.stringify(message, null, 2));
+      }
+
       if (!message || typeof message !== 'object' || !('type' in message)) {
+        console.log('[WebView] Message rejected - not valid format');
         return;
       }
+
+      console.log('[WebView] Processing message type:', message.type);
 
       switch (message.type) {
         case 'INIT_RESPONSE': {
@@ -104,17 +117,18 @@ export function App(): React.ReactElement {
     [loadSuccess, loadAlreadyPlayed, loadError, guessSuccess, guessError, state]
   );
 
-  // Set up message listener
+  // Set up message listener (updates when handler changes)
   useEffect(() => {
     window.addEventListener('message', handleDevvitMessage);
-
-    // Request initial data
-    sendToDevvit({ type: 'INIT' });
-
     return () => {
       window.removeEventListener('message', handleDevvitMessage);
     };
   }, [handleDevvitMessage]);
+
+  // Send initial INIT request only once on mount
+  useEffect(() => {
+    sendToDevvit({ type: 'INIT' });
+  }, []);
 
   // Handle guess submission
   const handleConfirmGuess = useCallback(() => {
@@ -211,7 +225,7 @@ export function App(): React.ReactElement {
       {state === 'CONFIRMING' && puzzle && selectedIndex !== null && (
         <ConfirmModal
           isOpen={true}
-          selectedComment={puzzle.comments[selectedIndex]}
+          comment={puzzle.comments[selectedIndex]}
           onConfirm={handleConfirmGuess}
           onCancel={cancelConfirm}
         />
