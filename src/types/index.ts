@@ -46,4 +46,5 @@ export type {
   WebViewToDevvitMessage,
   DevvitToWebViewMessage,
   InitData,
+  LeaderboardRankData,
 } from './messages';

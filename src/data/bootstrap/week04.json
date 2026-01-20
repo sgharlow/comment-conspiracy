@@ -1,0 +1,461 @@
+{
+  "week": 4,
+  "startDate": "2026-02-09",
+  "puzzles": [
+    {
+      "id": "2026-02-09",
+      "dayNumber": 22,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "life",
+      "prompt": {
+        "text": "What's an irrational fear you have that you know makes no sense?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "LogicallyTerrified",
+          "text": "Butterflies. Yes, butterflies. They're just chaotic moths in fancy clothes and I don't trust their flight patterns. I've left outdoor cafes because of them.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "IrrationalFears2024",
+          "text": "Many people have fears that seem irrational but are actually quite common. It's important to acknowledge these fears and work on overcoming them through gradual exposure.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "StairParanoid",
+          "text": "falling UP stairs. i've never fallen up stairs. i've fallen down them plenty. but i'm convinced one day I'll trip going up and it'll be spectacular",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "DeepEndPanic",
+          "text": "Swimming pool drains. I know nothing is going to suck me in. I KNOW this. Still won't swim near them. My brain sees a portal to the shadow realm.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "PhonophobicMillennial",
+          "text": "Phone calls. I'll text, email, even fax before I call someone. I've rehearsed voicemails in my head for 10 minutes before calling. This is a generational trauma.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Many people have fears\" - shifts to third person",
+          "\"Quite common\" - reassurance instead of confession",
+          "\"Work on overcoming them\" - advice column tone",
+          "\"Gradual exposure\" - therapy term, not personal story",
+          "Doesn't share an actual fear at all"
+        ],
+        "humanTells": [
+          "#1: Specific (butterflies), vivid description, consequence",
+          "#3: Specific fear, self-aware logic, caps emphasis",
+          "#4: Specific (pool drains), caps for emphasis, imagery",
+          "#5: Specific (phones), escalating examples, generational joke"
+        ],
+        "difficulty_note": "Easy - AI gives mental health advice instead of sharing a fear. Completely misses the assignment."
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T22:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-10",
+      "dayNumber": 23,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "entertainment",
+      "prompt": {
+        "text": "What's a song you'll never skip no matter how many times you've heard it?",
+        "source": "r/music"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "EternalBanger",
+          "text": "Bohemian Rhapsody. Yes it's basic. Yes I've heard it 47,000 times. Yes I still do the head bang part. Every. Single. Time.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "2000sNostalgia",
+          "text": "Mr. Brightside. The Killers. I don't make the rules. When it comes on I am legally obligated to sing every word. It's been 20 years and I'm not tired of it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "MusicLover123",
+          "text": "There is a song that I really enjoy listening to and I never skip it when it comes on. It has a great melody and the lyrics are meaningful to me.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "SingInCar",
+          "text": "September by Earth Wind & Fire. I don't care what mood I'm in. If it comes on I'm immediately happy and dancing. That song is serotonin in audio form",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "RockRevivalist",
+          "text": "take me home country roads. i'm not even from west virginia. i'm from new jersey. but when that song comes on i've apparently got mountain memories",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"A song that I really enjoy\" - doesn't name the song",
+          "\"Great melody, meaningful lyrics\" - generic praise",
+          "\"Never skip it\" - just restates the prompt",
+          "No emotional connection, no personal ritual",
+          "Completely fails to share actual song"
+        ],
+        "humanTells": [
+          "#1: Names song, self-aware ('basic'), physical ritual",
+          "#2: Names song and artist, specific behavior, timeframe",
+          "#4: Names song and artist, emotional effect described",
+          "#5: Names song, ironic disconnect (NJ/WV), humor"
+        ],
+        "difficulty_note": "Easy - AI is the only response that doesn't name a single song"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T22:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-11",
+      "dayNumber": 24,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "work",
+      "prompt": {
+        "text": "What's the most ridiculous workplace policy you've ever encountered?",
+        "source": "r/antiwork"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CorporateAbsurdity",
+          "text": "We couldn't say 'problem.' Had to say 'opportunity' or 'challenge.' So we'd email things like 'Hi, we have a major opportunity - the server is on fire.'",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "RetailSurvivor2020",
+          "text": "Had a dress code for colors of SOCKS. In retail. Customers couldn't see our feet. Manager would ask us to show our ankles at shift start. Unhinged.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "WorkplaceWoes",
+          "text": "Some workplace policies can seem unreasonable at times. It's important for employees to voice their concerns and for management to listen to feedback in order to create a better work environment.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "StartupSufferer",
+          "text": "mandatory daily 'gratitude circles' where we had to share what we were thankful for at work. if you couldn't think of something they'd 'help' you. psychological warfare disguised as wellness",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "WFH_Convert",
+          "text": "No eating at desks but the break room was a 7 minute walk each way. 15 minute break. That's 14 minutes of walking. One minute to eat. I did the math for HR. They did not care.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Some workplace policies\" - doesn't share one",
+          "\"Can seem unreasonable\" - hedging language",
+          "\"Voice their concerns\" - HR advice column",
+          "\"Create a better work environment\" - corporate speak",
+          "No actual ridiculous policy shared"
+        ],
+        "humanTells": [
+          "#1: Specific policy, absurd example of implementation",
+          "#2: Specific (sock colors), absurd detail (ankle check)",
+          "#4: Specific ritual, dark humor interpretation",
+          "#5: Specific math, specific response from HR"
+        ],
+        "difficulty_note": "Medium - AI gives a generic management response while everyone else shares specific absurdity"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T23:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-12",
+      "dayNumber": 25,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "life",
+      "prompt": {
+        "text": "What's something that's normal now that would seem insane 20 years ago?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "Timeline_Shift",
+          "text": "Carrying a supercomputer in your pocket but using it mainly to argue with strangers and watch 15-second videos of cats.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "DigitalNative",
+          "text": "Getting into a stranger's car they sent to pick you up via an app on your phone. Our parents told us never to do this and now it's just called a Tuesday.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "TechEvolution2024",
+          "text": "Technology has advanced rapidly in recent years, making many things that seemed impossible now a normal part of our daily lives. It's fascinating to think about how much has changed.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "PaymentShifter",
+          "text": "tapping my phone on a machine to pay for things. money went from physical coins to paper to plastic to... a magic rectangle i wave around. and nobody questions it",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "RemoteWorker2020",
+          "text": "Working from home without your boss assuming you're slacking off. Pre-pandemic you had to be literally dying to work from home. Now my cat attends more meetings than some coworkers.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Technology has advanced rapidly\" - states obvious",
+          "\"Many things that seemed impossible\" - vague",
+          "\"It's fascinating\" - generic sentiment",
+          "No specific example given at all",
+          "Sounds like an essay intro, not a Reddit comment"
+        ],
+        "humanTells": [
+          "#1: Specific ironic contrast (supercomputer/cats)",
+          "#2: Specific behavior (Uber), parental warning callback",
+          "#4: Evolution described with humor (magic rectangle)",
+          "#5: Specific shift (pre/post pandemic), joke ending"
+        ],
+        "difficulty_note": "Medium - AI philosophizes about change while humans give specific ironic examples"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T23:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-13",
+      "dayNumber": 26,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "relationships",
+      "prompt": {
+        "text": "What's the best unsolicited advice you've ever received?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WisdomFromDad",
+          "text": "My dad once said 'You can be right or you can be happy. Pick one.' It took me 10 years to understand he wasn't being cynical. He was being practical.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "BarWisdom",
+          "text": "An old guy at a bar told me 'Never make a decision when you're angry and never make a promise when you're happy.' Been living by it for 15 years.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "LifeLessons",
+          "text": "receiving advice from others can be really valuable, even if you didn't ask for it. sometimes people share wisdom that helps you see things from a different perspective",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "TherapistWords",
+          "text": "My therapist once said, during our first session: 'You don't have to light yourself on fire to keep others warm.' I think about it weekly. Sometimes daily.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "GrandmaKnowledge",
+          "text": "Grandma told me 'If someone shows you who they are, believe them the first time.' She was talking about my ex. She was right. She's always right. It's annoying.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Receiving advice can be valuable\" - meta-commentary, not advice",
+          "\"Even if you didn't ask for it\" - restates 'unsolicited'",
+          "\"Different perspective\" - vague",
+          "No actual advice shared",
+          "Lowercase feels calculated to blend in"
+        ],
+        "humanTells": [
+          "#1: Exact quote, specific source (dad), reflection on meaning",
+          "#2: Specific setting (bar), specific source, exact quote",
+          "#4: Exact quote, specific context, ongoing relevance",
+          "#5: Exact quote, specific application, personality (annoying)"
+        ],
+        "difficulty_note": "Hard - AI talks about advice being good without sharing any actual advice"
+      },
+      "metadata": {
+        "createdAt": "2026-01-16T00:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-14",
+      "dayNumber": 27,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "stories",
+      "prompt": {
+        "text": "What's the most awkward situation you've accidentally created?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SociallyDoomed",
+          "text": "Waved back at someone who was waving at the person behind me. Then tried to play it off by scratching my head. They saw. They knew. We made eye contact. I still think about this 3 years later.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "WeddingDisaster",
+          "text": "Asked a woman when she was due at a wedding. She wasn't pregnant. She was the bride. I moved to a different city. Only partially for unrelated reasons.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "AwkwardMoments",
+          "text": "one time i accidentally said something that made a situation really uncomfortable. these moments can be hard to navigate but usually everyone moves past them eventually",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "NameForgetter",
+          "text": "Called my boss by my ex's name in a meeting. Same first letter, brain short-circuited. 8 people heard. Nobody said anything but nobody forgot either. It's been 4 years and I still get looks.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "AutocorrectVictim",
+          "text": "Texted 'I hate you' to my mom when I meant 'I'm home.' Don't ask me how autocorrect got there. Spent 20 minutes convincing her I wasn't having a breakdown. She still brings it up at holidays.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"One time I accidentally said something\" - no specifics",
+          "\"Made a situation really uncomfortable\" - vague",
+          "\"Usually everyone moves past them\" - reassurance, not story",
+          "Lowercase feels calculated",
+          "No actual awkward situation described"
+        ],
+        "humanTells": [
+          "#1: Step-by-step narration, ongoing trauma mentioned",
+          "#2: Specific disaster, escalating consequence, dark humor",
+          "#4: Specific context (meeting), specific detail (same letter), lasting impact",
+          "#5: Specific mistake, specific aftermath, ongoing family joke"
+        ],
+        "difficulty_note": "Expert - AI gives a vague placeholder while every human shares specific cringe with lasting consequences"
+      },
+      "metadata": {
+        "createdAt": "2026-01-16T00:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-15",
+      "dayNumber": 28,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "life",
+      "prompt": {
+        "text": "What's a compliment you received that you'll never forget?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "RememberForever",
+          "text": "A kid once told me I looked like a superhero. No context, just walked up and said it. That was 8 years ago. I still dress slightly better because of it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "UnexpectedKindness",
+          "text": "A stranger at a grocery store told me I had a 'really kind face.' I was having the worst day of my life. Cried in my car after. Sometimes strangers save you without knowing.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "WorkCompliment",
+          "text": "My boss once said I was the only person she trusted to handle emergencies without being told what to do. That was 5 years ago. Different job now. Still thinking about it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "ComplimentMemories",
+          "text": "receiving a heartfelt compliment can really make your day and sometimes stay with you for a long time. it's amazing how a few kind words from someone can have such a lasting impact",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "DateNightWin",
+          "text": "My wife looked at me across a restaurant table last month and said 'I'm glad I picked you.' We've been together 12 years. I'm still riding that high.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Receiving a heartfelt compliment\" - meta-commentary",
+          "\"Can really make your day\" - generic observation",
+          "\"Lasting impact\" - describes the prompt back",
+          "No actual compliment shared",
+          "Lowercase calculated to blend in"
+        ],
+        "humanTells": [
+          "#1: Specific source (kid), exact compliment, lasting behavior change",
+          "#2: Specific context (grocery store), emotional impact, timing",
+          "#3: Specific compliment quoted, time reference, ongoing meaning",
+          "#5: Exact quote, specific context, relationship length"
+        ],
+        "difficulty_note": "Hard - AI philosophizes about compliments while everyone else shares exact quotes and contexts"
+      },
+      "metadata": {
+        "createdAt": "2026-01-16T01:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

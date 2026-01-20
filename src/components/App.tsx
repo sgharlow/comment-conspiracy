@@ -6,7 +6,7 @@
 
 import React, { useEffect, useCallback, useState } from 'react';
 import { useGameState } from '../hooks/useGameState';
-import type { DevvitToWebViewMessage, WebViewToDevvitMessage, InitData, Achievement } from '../types';
+import type { DevvitToWebViewMessage, WebViewToDevvitMessage, InitData, Achievement, LeaderboardRankData } from '../types';
 
 // Screen components
 import { WelcomeScreen } from './screens/WelcomeScreen';
@@ -53,6 +53,10 @@ export function App(): React.ReactElement {
   // Track achievements to show in toast
   const [achievementsToShow, setAchievementsToShow] = useState<Achievement[]>([]);
 
+  // Track leaderboard ranks
+  const [streakRank, setStreakRank] = useState<LeaderboardRankData | null>(null);
+  const [accuracyRank, setAccuracyRank] = useState<LeaderboardRankData | null>(null);
+
   // Handle messages from Devvit
   const handleDevvitMessage = useCallback(
     (event: MessageEvent<DevvitToWebViewMessage>) => {
@@ -64,6 +68,10 @@ export function App(): React.ReactElement {
       switch (message.type) {
         case 'INIT_RESPONSE': {
           const data = message.data as InitData;
+          // Store leaderboard data
+          setStreakRank(data.streakRank ?? null);
+          setAccuracyRank(data.accuracyRank ?? null);
+
           if (data.previousResult) {
             // User already played today
             loadAlreadyPlayed(data.previousResult, data.userProgress);
@@ -178,6 +186,9 @@ export function App(): React.ReactElement {
           <CompletedScreen
             result={result}
             puzzle={puzzle}
+            userProgress={userProgress ?? undefined}
+            streakRank={streakRank}
+            accuracyRank={accuracyRank}
             onViewBreakdown={() => {
               console.log('View breakdown');
             }}

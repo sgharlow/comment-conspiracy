@@ -1,0 +1,461 @@
+{
+  "week": 3,
+  "startDate": "2026-02-02",
+  "puzzles": [
+    {
+      "id": "2026-02-02",
+      "dayNumber": 15,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "pets",
+      "prompt": {
+        "text": "What's the weirdest thing your pet does?",
+        "source": "r/pets"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CatServant",
+          "text": "My cat brings me socks. Not his toys, not dead things, just socks. Usually mine. Sometimes from the laundry, sometimes from drawers. I don't know what message he's trying to send.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "DogDad2024",
+          "text": "My dog watches TV, but only nature documentaries. She will ignore anything else but the second David Attenborough comes on she's glued to the screen.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "PetLover99",
+          "text": "My pet has some really quirky behaviors that I find amusing. They do something unusual every day that always makes me laugh and brings joy to my life.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "RabbitParent",
+          "text": "my rabbit screams when the fridge opens. doesn't matter if it's for her or not. that fridge door moves and she YELLS",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MultipetHousehold",
+          "text": "One of my cats has learned to open doors by jumping and grabbing the handle. Cool, right? Except now she opens doors for the other cat, who is not allowed in certain rooms. They're conspiring against me.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"My pet\" - doesn't even say what kind of animal",
+          "\"Some really quirky behaviors\" - completely vague",
+          "\"Something unusual every day\" - no specific example",
+          "\"Brings joy to my life\" - generic positive sentiment",
+          "Zero actual weird behavior described"
+        ],
+        "humanTells": [
+          "#1: Specific behavior (socks), genuine confusion",
+          "#2: Specific trigger (David Attenborough), humor",
+          "#4: Specific trigger (fridge), caps for emphasis",
+          "#5: Clever behavior described, conspiracy joke"
+        ],
+        "difficulty_note": "Easy - AI is the only one that doesn't actually describe a weird behavior"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T18:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-03",
+      "dayNumber": 16,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "food",
+      "prompt": {
+        "text": "What's a food you didn't try until embarrassingly late in life?",
+        "source": "r/food"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "LateBloomer_Foodie",
+          "text": "Avocado. I was 27. I thought it would taste like grass or something. It does not taste like grass. I've been making up for lost time.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "MidwestUpbringing",
+          "text": "Sushi at 31. Grew up in rural Iowa, there wasn't exactly a sushi scene. First time I had it I was mad at myself for waiting so long.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "FoodDiscovery",
+          "text": "I tried a new food for the first time recently and I was pleasantly surprised by how delicious it was! It's never too late to expand your culinary horizons and try something new.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "PickyEaterRecovering",
+          "text": "hummus. i was THIRTY FOUR. thought it was a texture thing. turns out i just needed good hummus not that grocery store stuff. life changed.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "AsianFoodConvert",
+          "text": "Pho. 29 years old. In my defense I grew up in a town with one Chinese restaurant and nothing else. Now I have it weekly. Vietnamese food in general is my whole personality now.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"A new food\" - doesn't name the food at all",
+          "\"Pleasantly surprised\" - generic positive phrase",
+          "\"Expand your culinary horizons\" - sounds like a food blog",
+          "\"Try something new\" - preachy ending",
+          "Doesn't include age or any embarrassment"
+        ],
+        "humanTells": [
+          "#1: Specific age, specific misconception, humor",
+          "#2: Specific age, geographic context, regret",
+          "#4: Specific age (caps), quality distinction",
+          "#5: Specific age, context, hyperbolic ending"
+        ],
+        "difficulty_note": "Easy - AI gives a motivational poster response instead of answering the question"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T18:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-04",
+      "dayNumber": 17,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "tech",
+      "prompt": {
+        "text": "What technology did you resist but now can't live without?",
+        "source": "r/technology"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ConvertedSkeptic",
+          "text": "Smart home stuff. Made fun of people talking to Alexa. Now I yell at my house to turn off lights like some kind of lazy wizard.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "FormerLuddite",
+          "text": "E-readers. I was a 'real books only' person for years. Got a Kindle during lockdown. I've read more in 3 years than the decade before combined.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "TechConvert2023",
+          "text": "I was initially skeptical about adopting new technology, but after giving it a try, I realized how much it improved my daily routine. It's amazing how technology can enhance our lives!",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "CashOnlyNoMore",
+          "text": "contactless payment. thought it was a security risk. now i panic if i accidentally leave the house without my phone. cash feels like ancient artifacts",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "HealthDataNerd",
+          "text": "Smartwatch. Thought it was for tech bros. Now I'm obsessed with my sleep data, step counts, and heart rate. I became the thing I mocked.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"New technology\" - doesn't specify which technology",
+          "\"After giving it a try\" - vague timeframe",
+          "\"Improved my daily routine\" - generic benefit",
+          "\"Enhance our lives\" - shifts to general statement",
+          "No before/after contrast or self-deprecation"
+        ],
+        "humanTells": [
+          "#1: Specific tech (Alexa), vivid imagery (lazy wizard)",
+          "#2: Specific context (lockdown), measurable change",
+          "#4: Specific fear (security), specific current anxiety",
+          "#5: Specific examples, self-aware irony"
+        ],
+        "difficulty_note": "Medium - AI stays vague while humans name specific products and personal transformations"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T19:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-05",
+      "dayNumber": 18,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "work",
+      "prompt": {
+        "text": "What's the worst job interview question you've been asked?",
+        "source": "r/jobs"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "InterviewSurvivor",
+          "text": "\"Where do you see yourself in 5 years?\" but followed by \"because our turnover is really high.\" They just told on themselves.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "HRNightmare",
+          "text": "\"On a scale of 1-10, how lucky are you?\" Still don't know what the right answer was. I said 7. Didn't get the job.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "BadInterviewStory",
+          "text": "During an interview, I was asked a really strange and unexpected question. It caught me off guard, and I struggled to come up with a good response. It made me realize how important it is to prepare for unusual questions.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "TechInterviews_",
+          "text": "Got asked what kind of kitchen appliance I would be. Mid-senior dev role. $180k salary. I said blender because I can handle a lot of different things. I did not get that job either",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "StartupPTSD",
+          "text": "\"Are you willing to be on-call 24/7 for the first six months?\" for a marketing coordinator position. Paying $42k. In San Francisco. I laughed. They didn't.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"A really strange and unexpected question\" - doesn't say what the question was",
+          "Describes their reaction but not the actual question",
+          "\"How important it is to prepare\" - moral lesson instead of story",
+          "No humor, no specific details",
+          "Fails to answer the actual prompt"
+        ],
+        "humanTells": [
+          "#1: Exact quote plus follow-up, ironic observation",
+          "#2: Exact question, numeric answer, outcome",
+          "#4: Absurd question, salary context, literal answer",
+          "#5: Exact question, salary/location context, reaction"
+        ],
+        "difficulty_note": "Medium - AI talks around the question while every human shares the actual bad question"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T19:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-06",
+      "dayNumber": 19,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "life",
+      "prompt": {
+        "text": "What's your 'I am getting old' moment?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "BackPainClub",
+          "text": "Threw out my back sleeping. Not lifting, not exercising. SLEEPING. Just existed wrong for 8 hours and woke up broken.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "MusicGotOld",
+          "text": "Heard a song I loved in high school on the 'classic rock' station. I'm not ready to be classic rock. The song is from 2006.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "TimePasses",
+          "text": "the other day i got excited about a new sponge. like genuinely happy. called my mom to tell her about it. she understood completely",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "AgingMillennial",
+          "text": "recently I've started noticing some signs that I'm not as young as I used to be. time passes so quickly and before you know it you start feeling older",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "ForeverTired",
+          "text": "A coworker asked me what I was doing this weekend. I said 'nothing and I'm really looking forward to it.' Meant it with my whole chest.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Some signs\" - vague instead of specific moment",
+          "\"Time passes so quickly\" - generic observation",
+          "\"Start feeling older\" - describes the prompt back",
+          "No actual moment or story",
+          "Lowercase feels intentional to blend in"
+        ],
+        "humanTells": [
+          "#1: Specific absurd scenario (sleeping injury), caps for emphasis",
+          "#2: Specific context (classic rock station), specific year",
+          "#3: Specific small joy (sponge), relatable escalation",
+          "#5: Exact quote, \"meant it with my whole chest\""
+        ],
+        "difficulty_note": "Hard - AI philosophizes about aging while humans share specific, often absurd, moments"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T20:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-07",
+      "dayNumber": 20,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "stories",
+      "prompt": {
+        "text": "What's the most 'main character' moment you've ever had?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "MovieMoment",
+          "text": "Caught a falling glass mid-air at a party once. Didn't even look at it, just reached out and grabbed it. Everyone saw. I peaked at that moment. Nothing since has come close.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "RomComEnergy",
+          "text": "Made eye contact with a stranger on a train in another country. We smiled. The train left. Never saw them again. It was the most wistful 4 seconds of my life.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "ProtagonistVibes",
+          "text": "one time i was walking through the city and my favorite song came on my headphones right as the sun was setting. felt like i was in a movie for about two minutes",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "ChaoticNeutralIRL",
+          "text": "Was at a crosswalk, wind blew my skirt up Marilyn Monroe style right as someone across the street dropped their coffee. We made eye contact. Comedic timing was impeccable. We both laughed.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "AccidentalHero",
+          "text": "Stepped into an elevator as someone was trying to hold the door for me. Perfectly timed 'thanks' as I slid in. Turned around, hit my floor button without looking. Clean execution. Three strangers witnessed greatness.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Walking through the city\" - generic setting",
+          "\"My favorite song\" - doesn't name the song",
+          "\"Felt like I was in a movie\" - restates the prompt concept",
+          "\"About two minutes\" - weirdly precise but adds nothing",
+          "Lowercase seems calculated, lacks specific memorable detail"
+        ],
+        "humanTells": [
+          "#1: Specific action, specific outcome, self-aware peaked declaration",
+          "#2: Specific setting (train), emotional word (wistful), precise time",
+          "#4: Specific visual, parallel event, mutual reaction",
+          "#5: Step-by-step narration, dramatic language, witness count"
+        ],
+        "difficulty_note": "Expert - AI describes a generic movie-moment while humans describe specific, vivid scenes with perfect details"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T20:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-08",
+      "dayNumber": 21,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "gaming",
+      "prompt": {
+        "text": "What's a video game moment that stuck with you emotionally?",
+        "source": "r/gaming"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "RPG_Emotions",
+          "text": "The ending of Undertale's pacifist route. I had to sit there for like 10 minutes after. I don't cry at games but I was close.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "LastOfUsWrecked",
+          "text": "Joel's decision at the end of The Last of Us. I agreed with him completely and that terrified me. Made me question what I'd do for someone I love.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "GamerFeelings",
+          "text": "The ending of Red Dead Redemption 2. That final ride with Arthur while \"That's the Way It Is\" plays. Horse died too. Sobbed into my controller at 2am. No regrets.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "EmotionalGaming",
+          "text": "there was a moment in a game i played that really hit me emotionally. the story was so well-written and the characters were so compelling that i genuinely felt connected to what was happening",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "PokemonTraumatized",
+          "text": "Bye bye Butterfree. I was 7. It's been over 20 years and I still think about it sometimes. That caterpillar earned its freedom but WHY did it have to leave Ash",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"A game I played\" - doesn't name the game",
+          "\"A moment\" - doesn't describe the moment",
+          "\"Story was well-written, characters compelling\" - review language",
+          "\"Felt connected\" - tells instead of shows emotion",
+          "Lowercase seems calculated, content is completely empty"
+        ],
+        "humanTells": [
+          "#1: Specific game, specific route, physical reaction described",
+          "#2: Specific scene, philosophical reflection",
+          "#3: Specific scene, song title, time of day, physical reaction",
+          "#5: Specific episode, age, emotional reasoning"
+        ],
+        "difficulty_note": "Hard - AI is the only one that doesn't name a single game or describe any scene"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T21:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

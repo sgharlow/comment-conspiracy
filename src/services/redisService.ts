@@ -201,3 +201,48 @@ export async function getStreakRank(
   const total = await ctx.redis.zCard(REDIS_KEYS.streakLeaderboard());
   return { rank: total - rank, total }; // Convert to descending rank
 }
+
+/**
+ * Update accuracy leaderboard
+ * Score = accuracy percentage * 100 (to preserve decimals) + games played as tiebreaker
+ * Only users with 10+ games are included
+ */
+export async function updateAccuracyLeaderboard(
+  ctx: RedisContext,
+  userId: string,
+  totalCorrect: number,
+  totalPlayed: number
+): Promise<void> {
+  // Only include users with 10+ games for meaningful accuracy
+  if (totalPlayed < 10) {
+    return;
+  }
+
+  // Score = accuracy (0-10000) + tiny bonus for more games (0.0001 per game)
+  // This keeps accuracy as primary sort but breaks ties with more games
+  const accuracy = (totalCorrect / totalPlayed) * 10000;
+  const tiebreaker = totalPlayed * 0.0001;
+  const score = accuracy + tiebreaker;
+
+  await ctx.redis.zAdd(REDIS_KEYS.accuracyLeaderboard(), {
+    score,
+    member: userId,
+  });
+}
+
+export async function getAccuracyRank(
+  ctx: RedisContext,
+  userId: string
+): Promise<{ rank: number; total: number } | null> {
+  const rank = await ctx.redis.zRank(REDIS_KEYS.accuracyLeaderboard(), userId);
+  if (rank === undefined) return null;
+
+  const total = await ctx.redis.zCard(REDIS_KEYS.accuracyLeaderboard());
+  return { rank: total - rank, total }; // Convert to descending rank
+}
+
+export async function getAccuracyLeaderboardTotal(
+  ctx: RedisContext
+): Promise<number> {
+  return await ctx.redis.zCard(REDIS_KEYS.accuracyLeaderboard());
+}

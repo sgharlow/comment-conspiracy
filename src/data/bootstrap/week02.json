@@ -1,0 +1,461 @@
+{
+  "week": 2,
+  "startDate": "2026-01-26",
+  "puzzles": [
+    {
+      "id": "2026-01-26",
+      "dayNumber": 8,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "gaming",
+      "prompt": {
+        "text": "What video game do you keep coming back to years after it came out?",
+        "source": "r/gaming"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "RetroGamer2000",
+          "text": "Stardew Valley. I've 'finished' it like 5 times but there's always another farm layout to try. It's my comfort game at this point.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "NightOwlPlays",
+          "text": "Skyrim is a timeless classic that offers endless exploration opportunities. The modding community has kept the game fresh and exciting for many years, making it a truly remarkable gaming experience.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "CompetitiveCasual",
+          "text": "Rocket League. 2000+ hours and I'm still Diamond. I'm never getting better but I'm also never stopping.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "OldSchoolFPS",
+          "text": "doom 2. not the new one, the 1994 one. there's still an active community making wads and i've probably played more custom levels than any other game",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "JRPGAddict",
+          "text": "Chrono Trigger. I do a playthrough every year around Christmas. It's tradition at this point. New Game+ means I can finish it in a weekend.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Timeless classic\" - cliché gaming review phrase",
+          "\"Endless exploration opportunities\" - marketing speak",
+          "\"Truly remarkable gaming experience\" - generic praise",
+          "No personal anecdote or specific detail about their playtime",
+          "Mentions modding but no specific mods or personal experience"
+        ],
+        "humanTells": [
+          "#1: Specific detail ('5 times'), emotional connection ('comfort game')",
+          "#3: Self-deprecating humor with specific rank and hours",
+          "#4: Specific year, community terminology ('wads')",
+          "#5: Personal tradition, practical detail (New Game+)"
+        ],
+        "difficulty_note": "Easy - Reads like a Steam review blurb rather than personal experience"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T14:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-01-27",
+      "dayNumber": 9,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "work",
+      "prompt": {
+        "text": "What's the most useless rule at your workplace?",
+        "source": "r/antiwork"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CubicleWarrior",
+          "text": "We have to be at our desks by 8:55am, not 9am. Five minutes of 'prep time' before our shift. Prep for what? Sitting?",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "RemoteButStillSuffering",
+          "text": "Cameras on for all meetings. Even the ones where nobody talks. I have sat in 2-hour silent Zoom calls because 'presence matters.'",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "OfficeSpace_IRL",
+          "text": "It is important to maintain a clean and organized workspace at all times. This policy helps create a professional environment that promotes productivity and efficiency throughout the workday.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "QuietQuitter",
+          "text": "no headphones because 'it looks like you're not working.' sir i'm literally more productive with music. the rule exists so managers feel in control",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "Healthcare_Burnout",
+          "text": "Mandatory fun events. Nothing says team building like forcing introverts to do trust falls after a 12-hour shift.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "Describes the rule as if defending it, not complaining",
+          "\"Promotes productivity and efficiency\" - corporate speak",
+          "No specific frustration or personal experience",
+          "\"Throughout the workday\" - formal filler phrase",
+          "Completely misses the tone of complaining about rules"
+        ],
+        "humanTells": [
+          "#1: Rhetorical sarcasm ('Prep for what? Sitting?')",
+          "#2: Specific absurd detail ('2-hour silent Zoom calls')",
+          "#4: Direct critique of power dynamics",
+          "#5: Sarcasm and specific relatable scenario"
+        ],
+        "difficulty_note": "Easy - AI completely missed the assignment and sounds like HR"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T14:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-01-28",
+      "dayNumber": 10,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "life",
+      "prompt": {
+        "text": "What's your 'I can't believe I got away with that' story?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "LuckyBreak99",
+          "text": "Walked into a music festival through the artist entrance by accident. Security just nodded at me. I was wearing all black which apparently looked official enough. Free weekend.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ChaoticGood_IRL",
+          "text": "When I was 16 I accidentally drove the wrong way down a one-way street right past a cop. He just stared at me. I waved. He waved back. No ticket. Still confused about that one.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "AccidentalSuccess",
+          "text": "Once when I was younger, I accidentally left a store with an item I forgot to pay for. I didn't realize until I got home, and I was really nervous about it. Thankfully nothing happened.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "CorporateInfiltrator",
+          "text": "Got into a tech conference without a badge by carrying a laptop bag and looking stressed. Walked past three checkpoints. Networked. Got a job offer. Never paid the $400 ticket.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "HighSchoolLegend",
+          "text": "submitted the same essay to two different classes junior year of high school. same semester. same teacher. she either didn't notice or didn't care enough to say anything",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"When I was younger\" - vague timing unlike specific stories",
+          "\"Accidentally left a store\" - generic scenario",
+          "\"I was really nervous about it\" - tells emotion instead of showing",
+          "\"Thankfully nothing happened\" - anticlimactic, no punchline",
+          "Lacks the bravado tone of 'getting away with it'"
+        ],
+        "humanTells": [
+          "#1: Specific detail (all black, artist entrance), clear payoff",
+          "#2: Absurd specific detail (waving at cop), genuine confusion",
+          "#4: Escalating stakes, concrete outcome (job offer)",
+          "#5: Specific context (same teacher, same semester)"
+        ],
+        "difficulty_note": "Medium - AI tells a vague, cautious story while humans embrace the chaos"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T15:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-01-29",
+      "dayNumber": 11,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "entertainment",
+      "prompt": {
+        "text": "What's a TV show you started ironically but ended up genuinely loving?",
+        "source": "r/television"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ShameWatcher",
+          "text": "Love Island. Started watching to make fun of it with my wife. Now we plan our evenings around it. We have a favorite couple. This is who I am now.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "FormerlySnooty",
+          "text": "The Bachelor franchise. I have a PhD in literature and I genuinely look forward to rose ceremonies. The cognitive dissonance is real.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "GuiltyPleasureTV",
+          "text": "I started watching a reality TV show as a joke, but I found myself getting invested in the drama and the characters. Now I look forward to each new episode!",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "AnimeSurprise",
+          "text": "my roommate put on Mob Psycho 100 as a bit and i was completely hooked by episode 3. genuinely one of my favorite shows now, animated or otherwise",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "RealityTVConvert",
+          "text": "90 Day Fiance. I thought it would be exploitative garbage. It IS exploitative garbage. But also I know all the lore now and I've joined multiple subreddits. Help.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"A reality TV show\" - doesn't name a specific show",
+          "\"Getting invested in the drama and the characters\" - generic description",
+          "No personal context or self-aware humor",
+          "Exclamation point at end feels forced",
+          "Lacks the shame/pride tension present in human responses"
+        ],
+        "humanTells": [
+          "#1: Specific show, spousal involvement, identity crisis",
+          "#2: Credentials vs guilty pleasure contrast, specific detail (rose ceremonies)",
+          "#4: Specific episode hook point, genuine praise",
+          "#5: Self-aware paradox, cry for help humor"
+        ],
+        "difficulty_note": "Medium - AI gives a generic answer while humans name names and embrace shame"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T15:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-01-30",
+      "dayNumber": 12,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "life",
+      "prompt": {
+        "text": "What's something you didn't realize was a 'rich people thing' until you got older?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FirstGenCollege",
+          "text": "Going to the dentist every 6 months. We went when something hurt. That was it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "LateRealization",
+          "text": "Having a room for a specific purpose that nobody uses. Like a 'sitting room' or a 'formal dining room.' We had bedrooms that were also living rooms.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "WorkingClassKid",
+          "text": "getting bored on vacation. my family didnt take vacations so i thought everyone's summer break was just staying home",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "ClassConsciousness",
+          "text": "growing up, I thought it was normal for families to not have a lot of extra money for things like vacations or fancy dinners out. i later realized that some families could afford these luxuries regularly",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "UpliftedMobility",
+          "text": "Orthodontics. I thought braces were a medical necessity thing. Turns out most kids just... get their teeth straightened if they're a bit crooked? For cosmetic reasons? Wild.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"I thought it was normal\" then explains the opposite - muddled framing",
+          "\"Luxuries\" - formal word choice",
+          "Vague (\"things like vacations or fancy dinners\")",
+          "\"I later realized\" - passive reflection vs specific memory",
+          "Lowercase feels imitated rather than natural"
+        ],
+        "humanTells": [
+          "#1: Simple, punchy, specific (dentist every 6 months)",
+          "#2: Specific examples (sitting room), contrast with own experience",
+          "#3: Specific childhood assumption, lowercase natural",
+          "#5: Genuine surprise at realization, specific example"
+        ],
+        "difficulty_note": "Hard - AI attempts casual tone but explains rather than shows the realization"
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T16:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-01-31",
+      "dayNumber": 13,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "relationships",
+      "prompt": {
+        "text": "What's your biggest 'dodged a bullet' dating story?",
+        "source": "r/dating"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "LuckyEscape2023",
+          "text": "Went on three dates with a guy, then he casually mentioned he was in a 'disagreement' with his last three landlords. Who gets evicted THREE times? I stopped responding after that.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "TrustYourGut",
+          "text": "Girl I dated for 2 months would periodically test me. Like she'd say something slightly wrong to see if I'd correct her, then get mad either way. Found out later she did this to everyone. Exhausting person.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "NarrowMiss",
+          "text": "i went on a date with someone who seemed nice but I later found out they had been dishonest about some important things. im glad i trusted my instincts and didnt continue seeing them",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "RedFlagSpotter",
+          "text": "We were at dinner and she was rude to the server. Like really rude. Sent food back twice, complained about the wait, no tip. I paid for my half and left. She texted me for weeks asking what went wrong.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "BackgroundCheckSaved",
+          "text": "Dated someone for a month before googling them (I know, should've done it earlier). He had a whole other girlfriend with a public Instagram documenting their relationship. We started dating the same week they did. Unhinged.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Seemed nice\" - tells rather than shows",
+          "\"Dishonest about some important things\" - incredibly vague",
+          "\"Trusted my instincts\" - cliché with no specific detail",
+          "No actual story, just a summary of having a story",
+          "Lowercase feels calculated to fit in"
+        ],
+        "humanTells": [
+          "#1: Specific pattern (THREE landlords), decisive ending",
+          "#2: Specific behavior described, clear pattern recognition",
+          "#4: Specific scenario, consequences, ironic ending",
+          "#5: Self-deprecating (should've googled), specific timeline"
+        ],
+        "difficulty_note": "Expert - AI gives the outline of a story without any story. All others have vivid, specific details."
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T16:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-01",
+      "dayNumber": 14,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "parenting",
+      "prompt": {
+        "text": "What's the funniest thing your kid has said that you couldn't laugh at in the moment?",
+        "source": "r/Parenting"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "DadOfChaos",
+          "text": "My 4yo told her grandmother 'Mommy says you give bad advice but she still loves you.' Poker face of my LIFE in that moment.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "MomOfThree2024",
+          "text": "Son asked why his teacher was 'crunchy' (overheard me say her name once). Had to explain I said she was grouchy. He then asked why she was grouchy. I had no good answer.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "ParentingFails",
+          "text": "daughter at thanksgiving dinner: 'daddy says we only come here because we have to.' my father in law was not amused. technically i'd said we HAD to come, as in mandatory, but the damage was done",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "TinyTruthTeller",
+          "text": "my child said something really funny the other day that caught me off guard. kids really do say the funniest things without realizing how embarrassing it can be for their parents. i had to keep a straight face!",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "Kindergartener_Dad",
+          "text": "At a funeral. My 5yo, loudly: 'Is that the man who's dead?' It was. I nearly evaporated from embarrassment while my wife shook silently next to me.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"My child said something really funny\" - no actual quote",
+          "\"The other day\" - vague timing",
+          "Generic observation about kids saying funny things",
+          "\"Keep a straight face\" - cliché ending",
+          "Describes having a story without telling one"
+        ],
+        "humanTells": [
+          "#1: Exact quote, specific relationship dynamic exposed",
+          "#2: Specific misheard word, escalating situation",
+          "#3: Exact context, nuanced explanation of miscommunication",
+          "#5: Specific setting (funeral), visceral embarrassment"
+        ],
+        "difficulty_note": "Hard - AI talks ABOUT funny kid stories without providing one. All humans share exact quotes."
+      },
+      "metadata": {
+        "createdAt": "2026-01-15T17:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

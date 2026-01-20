@@ -15,10 +15,18 @@ export type DevvitToWebViewMessage =
   | { type: 'GUESS_RESPONSE'; result: GuessResult }
   | { type: 'ERROR'; error: string };
 
+// Leaderboard rank info
+export interface LeaderboardRankData {
+  rank: number;
+  total: number;
+}
+
 // Initial data sent to WebView on load
 export interface InitData {
   userId: string;
   puzzle: ShuffledPuzzle | null;
   userProgress: UserProgress;
   previousResult: GuessResult | null; // If already played today
+  streakRank: LeaderboardRankData | null;
+  accuracyRank: LeaderboardRankData | null;
 }

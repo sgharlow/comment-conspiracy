@@ -11,6 +11,12 @@ import { setPuzzle, addToPuzzleIndex, setCurrentPuzzleId, getPuzzleIndex } from 
 // Note: In Devvit, JSON imports may need to be handled differently
 // This is bundled at build time
 import week01Data from '../data/bootstrap/week01.json';
+import week02Data from '../data/bootstrap/week02.json';
+import week03Data from '../data/bootstrap/week03.json';
+import week04Data from '../data/bootstrap/week04.json';
+
+// All week data combined
+const allWeeksData = [week01Data, week02Data, week03Data, week04Data] as PuzzleWeek[];
 
 /**
  * Check if puzzles have been seeded
@@ -31,22 +37,25 @@ export async function seedPuzzles(ctx: RedisContext): Promise<{ seeded: boolean;
     return { seeded: false, count: 0 };
   }
 
-  const weekData = week01Data as PuzzleWeek;
-  const puzzles = weekData.puzzles;
+  // Collect all puzzles from all weeks
+  const allPuzzles: Puzzle[] = [];
+  for (const weekData of allWeeksData) {
+    allPuzzles.push(...weekData.puzzles);
+  }
 
   // Store each puzzle
-  for (const puzzle of puzzles) {
+  for (const puzzle of allPuzzles) {
     await setPuzzle(ctx, puzzle);
     await addToPuzzleIndex(ctx, puzzle.id);
   }
 
   // Set the first puzzle as current (or today's date if available)
   const today = getTodayDateId();
-  const todayPuzzle = puzzles.find(p => p.id === today);
-  const currentId = todayPuzzle ? today : puzzles[0].id;
+  const todayPuzzle = allPuzzles.find(p => p.id === today);
+  const currentId = todayPuzzle ? today : allPuzzles[0].id;
   await setCurrentPuzzleId(ctx, currentId);
 
-  return { seeded: true, count: puzzles.length };
+  return { seeded: true, count: allPuzzles.length };
 }
 
 /**
@@ -75,14 +84,27 @@ function getTodayDateId(): string {
  * Get list of all available puzzle dates from bootstrap data
  */
 export function getBootstrapPuzzleDates(): string[] {
-  const weekData = week01Data as PuzzleWeek;
-  return weekData.puzzles.map(p => p.id);
+  const allDates: string[] = [];
+  for (const weekData of allWeeksData) {
+    allDates.push(...weekData.puzzles.map(p => p.id));
+  }
+  return allDates;
 }
 
 /**
  * Get a specific puzzle from bootstrap data (for offline access)
  */
 export function getBootstrapPuzzle(puzzleId: string): Puzzle | undefined {
-  const weekData = week01Data as PuzzleWeek;
-  return weekData.puzzles.find(p => p.id === puzzleId);
+  for (const weekData of allWeeksData) {
+    const puzzle = weekData.puzzles.find(p => p.id === puzzleId);
+    if (puzzle) return puzzle;
+  }
+  return undefined;
+}
+
+/**
+ * Get total number of puzzles available
+ */
+export function getTotalPuzzleCount(): number {
+  return allWeeksData.reduce((sum, week) => sum + week.puzzles.length, 0);
 }

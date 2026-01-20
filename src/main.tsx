@@ -1,7 +1,8 @@
 import { Devvit, useState, useWebView } from '@devvit/public-api';
-import type { WebViewToDevvitMessage, DevvitToWebViewMessage, InitData } from './types';
+import type { WebViewToDevvitMessage, DevvitToWebViewMessage, InitData, LeaderboardRankData } from './types';
 import { getTodaysPuzzle, submitGuess, getPreviousResult, hasUserPlayedToday } from './services/puzzleService';
 import { getUserProgress } from './services/userService';
+import { getStreakRank, getAccuracyRank } from './services/redisService';
 import type { RedisContext } from './services/redisKeys';
 import { registerDailyPuzzleJob, scheduleDailyJob, cancelDailyJob } from './scheduler/dailyPuzzle';
 
@@ -36,6 +37,17 @@ const App: Devvit.CustomPostComponent = (context) => {
             // Get user progress
             const userProgress = await getUserProgress(redisCtx, userId);
 
+            // Get leaderboard ranks
+            const streakRankData = await getStreakRank(redisCtx, userId);
+            const accuracyRankData = await getAccuracyRank(redisCtx, userId);
+
+            const streakRank: LeaderboardRankData | null = streakRankData
+              ? { rank: streakRankData.rank, total: streakRankData.total }
+              : null;
+            const accuracyRank: LeaderboardRankData | null = accuracyRankData
+              ? { rank: accuracyRankData.rank, total: accuracyRankData.total }
+              : null;
+
             // Check if already played today
             const alreadyPlayed = await hasUserPlayedToday(redisCtx, userId);
 
@@ -49,6 +61,8 @@ const App: Devvit.CustomPostComponent = (context) => {
                   puzzle,
                   userProgress,
                   previousResult,
+                  streakRank,
+                  accuracyRank,
                 };
                 webViewContext.postMessage({ type: 'INIT_RESPONSE', data: initData });
               } else {
@@ -62,6 +76,8 @@ const App: Devvit.CustomPostComponent = (context) => {
                 puzzle,
                 userProgress,
                 previousResult: null,
+                streakRank,
+                accuracyRank,
               };
               webViewContext.postMessage({ type: 'INIT_RESPONSE', data: initData });
             }

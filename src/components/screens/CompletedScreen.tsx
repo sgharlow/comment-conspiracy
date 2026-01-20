@@ -4,13 +4,17 @@
  */
 
 import React from 'react';
-import type { GuessResult, ShuffledPuzzle } from '../../types';
+import type { GuessResult, ShuffledPuzzle, UserProgress, LeaderboardRankData } from '../../types';
 import { StatsPanel } from '../results/StatsPanel';
 import { Timer } from '../shared/Timer';
+import { LeaderboardPanel } from '../results/Leaderboard';
 
 export interface CompletedScreenProps {
   result: GuessResult;
   puzzle: ShuffledPuzzle;
+  userProgress?: UserProgress;
+  streakRank?: LeaderboardRankData | null;
+  accuracyRank?: LeaderboardRankData | null;
   onViewBreakdown?: () => void;
   onJoinDiscussion?: () => void;
 }
@@ -18,6 +22,9 @@ export interface CompletedScreenProps {
 export function CompletedScreen({
   result,
   puzzle,
+  userProgress,
+  streakRank,
+  accuracyRank,
   onViewBreakdown,
   onJoinDiscussion,
 }: CompletedScreenProps): React.ReactElement {
@@ -50,6 +57,17 @@ export function CompletedScreen({
           </span>
         </div>
       </div>
+
+      {/* Leaderboard Rankings */}
+      {userProgress && (
+        <div className="mb-6">
+          <LeaderboardPanel
+            streakRank={streakRank ?? null}
+            accuracyRank={accuracyRank ?? null}
+            progress={userProgress}
+          />
+        </div>
+      )}
 
       {/* Community Stats */}
       <div className="mb-6">

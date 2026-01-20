@@ -23,6 +23,7 @@ import {
   recordGuess,
   getPuzzleStats,
   updateStreakLeaderboard,
+  updateAccuracyLeaderboard,
 } from './redisService';
 import { ensurePuzzlesLoaded } from './bootstrapService';
 import { checkAndAwardAchievements } from './achievementService';
@@ -344,6 +345,7 @@ export async function submitGuess(
   await setUserProgress(ctx, updatedProgress);
   await recordGuess(ctx, puzzleId, guessIndex, wasCorrect);
   await updateStreakLeaderboard(ctx, userId, newStreak);
+  await updateAccuracyLeaderboard(ctx, userId, updatedProgress.totalCorrect, updatedProgress.totalPlayed);
 
   // Check and award achievements
   const newlyUnlockedAchievements = await checkAndAwardAchievements(
