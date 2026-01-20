@@ -5,7 +5,7 @@
 
 import { Devvit } from '@devvit/public-api';
 import type { RedisContext } from '../services/redisKeys';
-import { getPuzzle, setCurrentPuzzleId, getPuzzleStats } from '../services/redisService';
+import { getPuzzle, setCurrentPuzzleId } from '../services/redisService';
 import { ensurePuzzlesLoaded } from '../services/bootstrapService';
 import { getInventoryStatus, formatInventoryReport } from '../services/inventoryService';
 

@@ -21,7 +21,7 @@ export interface CompletedScreenProps {
 
 export function CompletedScreen({
   result,
-  puzzle,
+  puzzle: _puzzle,
   userProgress,
   streakRank,
   accuracyRank,

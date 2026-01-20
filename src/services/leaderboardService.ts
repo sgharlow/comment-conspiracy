@@ -3,9 +3,8 @@
  * Manages fetching and formatting leaderboard data
  */
 
-import type { LeaderboardEntry, UserProgress } from '../types';
+import type { UserProgress } from '../types';
 import type { RedisContext } from './redisKeys';
-import { REDIS_KEYS } from './redisKeys';
 import {
   getStreakRank,
   getAccuracyRank,

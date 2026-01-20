@@ -1,4 +1,4 @@
-import { Devvit, useState, useWebView } from '@devvit/public-api';
+import { Devvit, useWebView } from '@devvit/public-api';
 import type { WebViewToDevvitMessage, DevvitToWebViewMessage, InitData, LeaderboardRankData } from './types';
 import { getTodaysPuzzle, submitGuess, getPreviousResult, hasUserPlayedToday } from './services/puzzleService';
 import { getUserProgress } from './services/userService';

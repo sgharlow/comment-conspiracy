@@ -1,27 +1,16 @@
-# Devvit configuration for Comment Conspiracy
-# Daily game - spot the AI-generated comment among real Reddit comments
-
-name: comment-conspiracy
+name: comment-conspire
 version: 0.0.1
-
-# Capabilities required
 capabilities:
-  - redis          # Persistent storage for puzzles, user progress, stats
-  - scheduler      # Daily puzzle posting at midnight UTC
-  - http           # External API calls if needed
-  - ui             # Web views for React frontend
-  - triggers       # Post creation hooks
-
-# Web view configuration
+  - redis
+  - scheduler
+  - http
+  - ui
+  - triggers
 webRoot: ./webroot
-
-# Scheduled jobs
 scheduledJobs:
   - name: post-daily-puzzle
-    cron: "0 0 * * *"  # Midnight UTC daily
-
-# Menu items
+    cron: 0 0 * * *
 menuItems:
-  - name: "View Comment Conspiracy Stats"
+  - name: View Comment Conspiracy Stats
     location: subreddit
     postFilter: currentApp

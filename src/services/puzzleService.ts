@@ -9,7 +9,6 @@ import type {
   DisplayComment,
   GuessResult,
   PuzzleStats,
-  Difficulty,
 } from '../types';
 import type { RedisContext } from './redisKeys';
 import {
@@ -27,48 +26,8 @@ import {
 } from './redisService';
 import { ensurePuzzlesLoaded } from './bootstrapService';
 import { checkAndAwardAchievements } from './achievementService';
+import { hashSeed, shuffleArray } from '../utils/shuffleUtils';
 import type { UserGuess } from '../types/user';
-
-/**
- * Simple hash function for deterministic shuffling
- * Creates a seed from userId + puzzleId
- */
-function hashSeed(str: string): number {
-  let hash = 0;
-  for (let i = 0; i < str.length; i++) {
-    const char = str.charCodeAt(i);
-    hash = ((hash << 5) - hash) + char;
-    hash = hash & hash; // Convert to 32bit integer
-  }
-  return Math.abs(hash);
-}
-
-/**
- * Seeded random number generator (mulberry32)
- */
-function seededRandom(seed: number): () => number {
-  return function() {
-    let t = seed += 0x6D2B79F5;
-    t = Math.imul(t ^ t >>> 15, t | 1);
-    t ^= t + Math.imul(t ^ t >>> 7, t | 61);
-    return ((t ^ t >>> 14) >>> 0) / 4294967296;
-  };
-}
-
-/**
- * Fisher-Yates shuffle with seeded random
- */
-function shuffleArray<T>(array: T[], seed: number): T[] {
-  const shuffled = [...array];
-  const random = seededRandom(seed);
-
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-
-  return shuffled;
-}
 
 /**
  * Get today's date in puzzle ID format (YYYY-MM-DD)

@@ -4,7 +4,7 @@
  */
 
 import type { Puzzle, PuzzleWeek } from '../types';
-import { REDIS_KEYS, type RedisContext } from './redisKeys';
+import type { RedisContext } from './redisKeys';
 import { setPuzzle, addToPuzzleIndex, setCurrentPuzzleId, getPuzzleIndex } from './redisService';
 
 // Import bootstrap puzzle data
