@@ -24175,7 +24175,7 @@ function Timer({ className = "" }) {
   return /* @__PURE__ */ Devvit.createElement("div", { className: `text-center ${className}` }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-sm text-gray-500 uppercase tracking-wide mb-1" }, "Next puzzle in"), /* @__PURE__ */ Devvit.createElement("div", { className: "text-3xl font-mono font-bold text-gray-900" }, pad(timeLeft.hours), ":", pad(timeLeft.minutes), ":", pad(timeLeft.seconds)));
 }
 
-// src/services/leaderboardService.ts
+// src/utils/leaderboardUtils.ts
 function calculateAccuracy(totalCorrect, totalPlayed) {
   if (totalPlayed === 0)
     return 0;

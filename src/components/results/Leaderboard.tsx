@@ -11,7 +11,7 @@ import {
   calculateAccuracy,
   ACCURACY_LEADERBOARD_MIN_GAMES,
   gamesUntilAccuracyQualification,
-} from '../../services/leaderboardService';
+} from '../../utils/leaderboardUtils';
 
 export interface LeaderboardRank {
   rank: number;
