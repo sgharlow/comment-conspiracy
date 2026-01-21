@@ -2382,9 +2382,9 @@ var require_react_dom_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React9 = require_react();
+        var React8 = require_react();
         var Scheduler = require_scheduler();
-        var ReactSharedInternals = React9.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React8.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         var suppressWarning = false;
         function setSuppressWarning(newSuppressWarning) {
           {
@@ -2433,7 +2433,7 @@ var require_react_dom_development = __commonJS({
         var HostPortal = 4;
         var HostComponent = 5;
         var HostText = 6;
-        var Fragment = 7;
+        var Fragment3 = 7;
         var Mode = 8;
         var ContextConsumer = 9;
         var ContextProvider = 10;
@@ -3589,7 +3589,7 @@ var require_react_dom_development = __commonJS({
               return "DehydratedFragment";
             case ForwardRef:
               return getWrappedName$1(type, type.render, "ForwardRef");
-            case Fragment:
+            case Fragment3:
               return "Fragment";
             case HostComponent:
               return type;
@@ -3989,7 +3989,7 @@ var require_react_dom_development = __commonJS({
           {
             if (props.value == null) {
               if (typeof props.children === "object" && props.children !== null) {
-                React9.Children.forEach(props.children, function(child) {
+                React8.Children.forEach(props.children, function(child) {
                   if (child == null) {
                     return;
                   }
@@ -11990,7 +11990,7 @@ var require_react_dom_development = __commonJS({
             }
           }
           function updateFragment2(returnFiber, current2, fragment, lanes, key) {
-            if (current2 === null || current2.tag !== Fragment) {
+            if (current2 === null || current2.tag !== Fragment3) {
               var created = createFiberFromFragment(fragment, returnFiber.mode, lanes, key);
               created.return = returnFiber;
               return created;
@@ -12393,7 +12393,7 @@ var require_react_dom_development = __commonJS({
               if (child.key === key) {
                 var elementType = element.type;
                 if (elementType === REACT_FRAGMENT_TYPE) {
-                  if (child.tag === Fragment) {
+                  if (child.tag === Fragment3) {
                     deleteRemainingChildren(returnFiber, child.sibling);
                     var existing = useFiber(child, element.props.children);
                     existing.return = returnFiber;
@@ -17870,7 +17870,7 @@ var require_react_dom_development = __commonJS({
               var _resolvedProps2 = workInProgress2.elementType === type ? _unresolvedProps2 : resolveDefaultProps(type, _unresolvedProps2);
               return updateForwardRef(current2, workInProgress2, type, _resolvedProps2, renderLanes2);
             }
-            case Fragment:
+            case Fragment3:
               return updateFragment(current2, workInProgress2, renderLanes2);
             case Mode:
               return updateMode(current2, workInProgress2, renderLanes2);
@@ -18143,7 +18143,7 @@ var require_react_dom_development = __commonJS({
             case SimpleMemoComponent:
             case FunctionComponent:
             case ForwardRef:
-            case Fragment:
+            case Fragment3:
             case Mode:
             case Profiler:
             case ContextConsumer:
@@ -22402,7 +22402,7 @@ var require_react_dom_development = __commonJS({
           return fiber;
         }
         function createFiberFromFragment(elements, mode, lanes, key) {
-          var fiber = createFiber(Fragment, elements, key, mode);
+          var fiber = createFiber(Fragment3, elements, key, mode);
           fiber.lanes = lanes;
           return fiber;
         }
@@ -23551,8 +23551,912 @@ var require_client = __commonJS({
   }
 });
 
+// node_modules/react/cjs/react-jsx-runtime.development.js
+var require_react_jsx_runtime_development = __commonJS({
+  "node_modules/react/cjs/react-jsx-runtime.development.js"(exports) {
+    "use strict";
+    if (true) {
+      (function() {
+        "use strict";
+        var React8 = require_react();
+        var REACT_ELEMENT_TYPE = Symbol.for("react.element");
+        var REACT_PORTAL_TYPE = Symbol.for("react.portal");
+        var REACT_FRAGMENT_TYPE = Symbol.for("react.fragment");
+        var REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode");
+        var REACT_PROFILER_TYPE = Symbol.for("react.profiler");
+        var REACT_PROVIDER_TYPE = Symbol.for("react.provider");
+        var REACT_CONTEXT_TYPE = Symbol.for("react.context");
+        var REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref");
+        var REACT_SUSPENSE_TYPE = Symbol.for("react.suspense");
+        var REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list");
+        var REACT_MEMO_TYPE = Symbol.for("react.memo");
+        var REACT_LAZY_TYPE = Symbol.for("react.lazy");
+        var REACT_OFFSCREEN_TYPE = Symbol.for("react.offscreen");
+        var MAYBE_ITERATOR_SYMBOL = Symbol.iterator;
+        var FAUX_ITERATOR_SYMBOL = "@@iterator";
+        function getIteratorFn(maybeIterable) {
+          if (maybeIterable === null || typeof maybeIterable !== "object") {
+            return null;
+          }
+          var maybeIterator = MAYBE_ITERATOR_SYMBOL && maybeIterable[MAYBE_ITERATOR_SYMBOL] || maybeIterable[FAUX_ITERATOR_SYMBOL];
+          if (typeof maybeIterator === "function") {
+            return maybeIterator;
+          }
+          return null;
+        }
+        var ReactSharedInternals = React8.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        function error(format) {
+          {
+            {
+              for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
+                args[_key2 - 1] = arguments[_key2];
+              }
+              printWarning("error", format, args);
+            }
+          }
+        }
+        function printWarning(level, format, args) {
+          {
+            var ReactDebugCurrentFrame2 = ReactSharedInternals.ReactDebugCurrentFrame;
+            var stack = ReactDebugCurrentFrame2.getStackAddendum();
+            if (stack !== "") {
+              format += "%s";
+              args = args.concat([stack]);
+            }
+            var argsWithFormat = args.map(function(item) {
+              return String(item);
+            });
+            argsWithFormat.unshift("Warning: " + format);
+            Function.prototype.apply.call(console[level], console, argsWithFormat);
+          }
+        }
+        var enableScopeAPI = false;
+        var enableCacheElement = false;
+        var enableTransitionTracing = false;
+        var enableLegacyHidden = false;
+        var enableDebugTracing = false;
+        var REACT_MODULE_REFERENCE;
+        {
+          REACT_MODULE_REFERENCE = Symbol.for("react.module.reference");
+        }
+        function isValidElementType(type) {
+          if (typeof type === "string" || typeof type === "function") {
+            return true;
+          }
+          if (type === REACT_FRAGMENT_TYPE || type === REACT_PROFILER_TYPE || enableDebugTracing || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || enableLegacyHidden || type === REACT_OFFSCREEN_TYPE || enableScopeAPI || enableCacheElement || enableTransitionTracing) {
+            return true;
+          }
+          if (typeof type === "object" && type !== null) {
+            if (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || // This needs to include all possible module reference object
+            // types supported by any Flight configuration anywhere since
+            // we don't know which Flight build this will end up being used
+            // with.
+            type.$$typeof === REACT_MODULE_REFERENCE || type.getModuleId !== void 0) {
+              return true;
+            }
+          }
+          return false;
+        }
+        function getWrappedName(outerType, innerType, wrapperName) {
+          var displayName = outerType.displayName;
+          if (displayName) {
+            return displayName;
+          }
+          var functionName = innerType.displayName || innerType.name || "";
+          return functionName !== "" ? wrapperName + "(" + functionName + ")" : wrapperName;
+        }
+        function getContextName(type) {
+          return type.displayName || "Context";
+        }
+        function getComponentNameFromType(type) {
+          if (type == null) {
+            return null;
+          }
+          {
+            if (typeof type.tag === "number") {
+              error("Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.");
+            }
+          }
+          if (typeof type === "function") {
+            return type.displayName || type.name || null;
+          }
+          if (typeof type === "string") {
+            return type;
+          }
+          switch (type) {
+            case REACT_FRAGMENT_TYPE:
+              return "Fragment";
+            case REACT_PORTAL_TYPE:
+              return "Portal";
+            case REACT_PROFILER_TYPE:
+              return "Profiler";
+            case REACT_STRICT_MODE_TYPE:
+              return "StrictMode";
+            case REACT_SUSPENSE_TYPE:
+              return "Suspense";
+            case REACT_SUSPENSE_LIST_TYPE:
+              return "SuspenseList";
+          }
+          if (typeof type === "object") {
+            switch (type.$$typeof) {
+              case REACT_CONTEXT_TYPE:
+                var context = type;
+                return getContextName(context) + ".Consumer";
+              case REACT_PROVIDER_TYPE:
+                var provider = type;
+                return getContextName(provider._context) + ".Provider";
+              case REACT_FORWARD_REF_TYPE:
+                return getWrappedName(type, type.render, "ForwardRef");
+              case REACT_MEMO_TYPE:
+                var outerName = type.displayName || null;
+                if (outerName !== null) {
+                  return outerName;
+                }
+                return getComponentNameFromType(type.type) || "Memo";
+              case REACT_LAZY_TYPE: {
+                var lazyComponent = type;
+                var payload = lazyComponent._payload;
+                var init = lazyComponent._init;
+                try {
+                  return getComponentNameFromType(init(payload));
+                } catch (x) {
+                  return null;
+                }
+              }
+            }
+          }
+          return null;
+        }
+        var assign = Object.assign;
+        var disabledDepth = 0;
+        var prevLog;
+        var prevInfo;
+        var prevWarn;
+        var prevError;
+        var prevGroup;
+        var prevGroupCollapsed;
+        var prevGroupEnd;
+        function disabledLog() {
+        }
+        disabledLog.__reactDisabledLog = true;
+        function disableLogs() {
+          {
+            if (disabledDepth === 0) {
+              prevLog = console.log;
+              prevInfo = console.info;
+              prevWarn = console.warn;
+              prevError = console.error;
+              prevGroup = console.group;
+              prevGroupCollapsed = console.groupCollapsed;
+              prevGroupEnd = console.groupEnd;
+              var props = {
+                configurable: true,
+                enumerable: true,
+                value: disabledLog,
+                writable: true
+              };
+              Object.defineProperties(console, {
+                info: props,
+                log: props,
+                warn: props,
+                error: props,
+                group: props,
+                groupCollapsed: props,
+                groupEnd: props
+              });
+            }
+            disabledDepth++;
+          }
+        }
+        function reenableLogs() {
+          {
+            disabledDepth--;
+            if (disabledDepth === 0) {
+              var props = {
+                configurable: true,
+                enumerable: true,
+                writable: true
+              };
+              Object.defineProperties(console, {
+                log: assign({}, props, {
+                  value: prevLog
+                }),
+                info: assign({}, props, {
+                  value: prevInfo
+                }),
+                warn: assign({}, props, {
+                  value: prevWarn
+                }),
+                error: assign({}, props, {
+                  value: prevError
+                }),
+                group: assign({}, props, {
+                  value: prevGroup
+                }),
+                groupCollapsed: assign({}, props, {
+                  value: prevGroupCollapsed
+                }),
+                groupEnd: assign({}, props, {
+                  value: prevGroupEnd
+                })
+              });
+            }
+            if (disabledDepth < 0) {
+              error("disabledDepth fell below zero. This is a bug in React. Please file an issue.");
+            }
+          }
+        }
+        var ReactCurrentDispatcher = ReactSharedInternals.ReactCurrentDispatcher;
+        var prefix;
+        function describeBuiltInComponentFrame(name, source, ownerFn) {
+          {
+            if (prefix === void 0) {
+              try {
+                throw Error();
+              } catch (x) {
+                var match = x.stack.trim().match(/\n( *(at )?)/);
+                prefix = match && match[1] || "";
+              }
+            }
+            return "\n" + prefix + name;
+          }
+        }
+        var reentry = false;
+        var componentFrameCache;
+        {
+          var PossiblyWeakMap = typeof WeakMap === "function" ? WeakMap : Map;
+          componentFrameCache = new PossiblyWeakMap();
+        }
+        function describeNativeComponentFrame(fn, construct) {
+          if (!fn || reentry) {
+            return "";
+          }
+          {
+            var frame = componentFrameCache.get(fn);
+            if (frame !== void 0) {
+              return frame;
+            }
+          }
+          var control;
+          reentry = true;
+          var previousPrepareStackTrace = Error.prepareStackTrace;
+          Error.prepareStackTrace = void 0;
+          var previousDispatcher;
+          {
+            previousDispatcher = ReactCurrentDispatcher.current;
+            ReactCurrentDispatcher.current = null;
+            disableLogs();
+          }
+          try {
+            if (construct) {
+              var Fake = function() {
+                throw Error();
+              };
+              Object.defineProperty(Fake.prototype, "props", {
+                set: function() {
+                  throw Error();
+                }
+              });
+              if (typeof Reflect === "object" && Reflect.construct) {
+                try {
+                  Reflect.construct(Fake, []);
+                } catch (x) {
+                  control = x;
+                }
+                Reflect.construct(fn, [], Fake);
+              } else {
+                try {
+                  Fake.call();
+                } catch (x) {
+                  control = x;
+                }
+                fn.call(Fake.prototype);
+              }
+            } else {
+              try {
+                throw Error();
+              } catch (x) {
+                control = x;
+              }
+              fn();
+            }
+          } catch (sample) {
+            if (sample && control && typeof sample.stack === "string") {
+              var sampleLines = sample.stack.split("\n");
+              var controlLines = control.stack.split("\n");
+              var s = sampleLines.length - 1;
+              var c = controlLines.length - 1;
+              while (s >= 1 && c >= 0 && sampleLines[s] !== controlLines[c]) {
+                c--;
+              }
+              for (; s >= 1 && c >= 0; s--, c--) {
+                if (sampleLines[s] !== controlLines[c]) {
+                  if (s !== 1 || c !== 1) {
+                    do {
+                      s--;
+                      c--;
+                      if (c < 0 || sampleLines[s] !== controlLines[c]) {
+                        var _frame = "\n" + sampleLines[s].replace(" at new ", " at ");
+                        if (fn.displayName && _frame.includes("<anonymous>")) {
+                          _frame = _frame.replace("<anonymous>", fn.displayName);
+                        }
+                        {
+                          if (typeof fn === "function") {
+                            componentFrameCache.set(fn, _frame);
+                          }
+                        }
+                        return _frame;
+                      }
+                    } while (s >= 1 && c >= 0);
+                  }
+                  break;
+                }
+              }
+            }
+          } finally {
+            reentry = false;
+            {
+              ReactCurrentDispatcher.current = previousDispatcher;
+              reenableLogs();
+            }
+            Error.prepareStackTrace = previousPrepareStackTrace;
+          }
+          var name = fn ? fn.displayName || fn.name : "";
+          var syntheticFrame = name ? describeBuiltInComponentFrame(name) : "";
+          {
+            if (typeof fn === "function") {
+              componentFrameCache.set(fn, syntheticFrame);
+            }
+          }
+          return syntheticFrame;
+        }
+        function describeFunctionComponentFrame(fn, source, ownerFn) {
+          {
+            return describeNativeComponentFrame(fn, false);
+          }
+        }
+        function shouldConstruct(Component) {
+          var prototype = Component.prototype;
+          return !!(prototype && prototype.isReactComponent);
+        }
+        function describeUnknownElementTypeFrameInDEV(type, source, ownerFn) {
+          if (type == null) {
+            return "";
+          }
+          if (typeof type === "function") {
+            {
+              return describeNativeComponentFrame(type, shouldConstruct(type));
+            }
+          }
+          if (typeof type === "string") {
+            return describeBuiltInComponentFrame(type);
+          }
+          switch (type) {
+            case REACT_SUSPENSE_TYPE:
+              return describeBuiltInComponentFrame("Suspense");
+            case REACT_SUSPENSE_LIST_TYPE:
+              return describeBuiltInComponentFrame("SuspenseList");
+          }
+          if (typeof type === "object") {
+            switch (type.$$typeof) {
+              case REACT_FORWARD_REF_TYPE:
+                return describeFunctionComponentFrame(type.render);
+              case REACT_MEMO_TYPE:
+                return describeUnknownElementTypeFrameInDEV(type.type, source, ownerFn);
+              case REACT_LAZY_TYPE: {
+                var lazyComponent = type;
+                var payload = lazyComponent._payload;
+                var init = lazyComponent._init;
+                try {
+                  return describeUnknownElementTypeFrameInDEV(init(payload), source, ownerFn);
+                } catch (x) {
+                }
+              }
+            }
+          }
+          return "";
+        }
+        var hasOwnProperty = Object.prototype.hasOwnProperty;
+        var loggedTypeFailures = {};
+        var ReactDebugCurrentFrame = ReactSharedInternals.ReactDebugCurrentFrame;
+        function setCurrentlyValidatingElement(element) {
+          {
+            if (element) {
+              var owner = element._owner;
+              var stack = describeUnknownElementTypeFrameInDEV(element.type, element._source, owner ? owner.type : null);
+              ReactDebugCurrentFrame.setExtraStackFrame(stack);
+            } else {
+              ReactDebugCurrentFrame.setExtraStackFrame(null);
+            }
+          }
+        }
+        function checkPropTypes(typeSpecs, values, location, componentName, element) {
+          {
+            var has = Function.call.bind(hasOwnProperty);
+            for (var typeSpecName in typeSpecs) {
+              if (has(typeSpecs, typeSpecName)) {
+                var error$1 = void 0;
+                try {
+                  if (typeof typeSpecs[typeSpecName] !== "function") {
+                    var err = Error((componentName || "React class") + ": " + location + " type `" + typeSpecName + "` is invalid; it must be a function, usually from the `prop-types` package, but received `" + typeof typeSpecs[typeSpecName] + "`.This often happens because of typos such as `PropTypes.function` instead of `PropTypes.func`.");
+                    err.name = "Invariant Violation";
+                    throw err;
+                  }
+                  error$1 = typeSpecs[typeSpecName](values, typeSpecName, componentName, location, null, "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED");
+                } catch (ex) {
+                  error$1 = ex;
+                }
+                if (error$1 && !(error$1 instanceof Error)) {
+                  setCurrentlyValidatingElement(element);
+                  error("%s: type specification of %s `%s` is invalid; the type checker function must return `null` or an `Error` but returned a %s. You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).", componentName || "React class", location, typeSpecName, typeof error$1);
+                  setCurrentlyValidatingElement(null);
+                }
+                if (error$1 instanceof Error && !(error$1.message in loggedTypeFailures)) {
+                  loggedTypeFailures[error$1.message] = true;
+                  setCurrentlyValidatingElement(element);
+                  error("Failed %s type: %s", location, error$1.message);
+                  setCurrentlyValidatingElement(null);
+                }
+              }
+            }
+          }
+        }
+        var isArrayImpl = Array.isArray;
+        function isArray(a) {
+          return isArrayImpl(a);
+        }
+        function typeName(value) {
+          {
+            var hasToStringTag = typeof Symbol === "function" && Symbol.toStringTag;
+            var type = hasToStringTag && value[Symbol.toStringTag] || value.constructor.name || "Object";
+            return type;
+          }
+        }
+        function willCoercionThrow(value) {
+          {
+            try {
+              testStringCoercion(value);
+              return false;
+            } catch (e) {
+              return true;
+            }
+          }
+        }
+        function testStringCoercion(value) {
+          return "" + value;
+        }
+        function checkKeyStringCoercion(value) {
+          {
+            if (willCoercionThrow(value)) {
+              error("The provided key is an unsupported type %s. This value must be coerced to a string before before using it here.", typeName(value));
+              return testStringCoercion(value);
+            }
+          }
+        }
+        var ReactCurrentOwner = ReactSharedInternals.ReactCurrentOwner;
+        var RESERVED_PROPS = {
+          key: true,
+          ref: true,
+          __self: true,
+          __source: true
+        };
+        var specialPropKeyWarningShown;
+        var specialPropRefWarningShown;
+        var didWarnAboutStringRefs;
+        {
+          didWarnAboutStringRefs = {};
+        }
+        function hasValidRef(config) {
+          {
+            if (hasOwnProperty.call(config, "ref")) {
+              var getter = Object.getOwnPropertyDescriptor(config, "ref").get;
+              if (getter && getter.isReactWarning) {
+                return false;
+              }
+            }
+          }
+          return config.ref !== void 0;
+        }
+        function hasValidKey(config) {
+          {
+            if (hasOwnProperty.call(config, "key")) {
+              var getter = Object.getOwnPropertyDescriptor(config, "key").get;
+              if (getter && getter.isReactWarning) {
+                return false;
+              }
+            }
+          }
+          return config.key !== void 0;
+        }
+        function warnIfStringRefCannotBeAutoConverted(config, self) {
+          {
+            if (typeof config.ref === "string" && ReactCurrentOwner.current && self && ReactCurrentOwner.current.stateNode !== self) {
+              var componentName = getComponentNameFromType(ReactCurrentOwner.current.type);
+              if (!didWarnAboutStringRefs[componentName]) {
+                error('Component "%s" contains the string ref "%s". Support for string refs will be removed in a future major release. This case cannot be automatically converted to an arrow function. We ask you to manually fix this case by using useRef() or createRef() instead. Learn more about using refs safely here: https://reactjs.org/link/strict-mode-string-ref', getComponentNameFromType(ReactCurrentOwner.current.type), config.ref);
+                didWarnAboutStringRefs[componentName] = true;
+              }
+            }
+          }
+        }
+        function defineKeyPropWarningGetter(props, displayName) {
+          {
+            var warnAboutAccessingKey = function() {
+              if (!specialPropKeyWarningShown) {
+                specialPropKeyWarningShown = true;
+                error("%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://reactjs.org/link/special-props)", displayName);
+              }
+            };
+            warnAboutAccessingKey.isReactWarning = true;
+            Object.defineProperty(props, "key", {
+              get: warnAboutAccessingKey,
+              configurable: true
+            });
+          }
+        }
+        function defineRefPropWarningGetter(props, displayName) {
+          {
+            var warnAboutAccessingRef = function() {
+              if (!specialPropRefWarningShown) {
+                specialPropRefWarningShown = true;
+                error("%s: `ref` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://reactjs.org/link/special-props)", displayName);
+              }
+            };
+            warnAboutAccessingRef.isReactWarning = true;
+            Object.defineProperty(props, "ref", {
+              get: warnAboutAccessingRef,
+              configurable: true
+            });
+          }
+        }
+        var ReactElement = function(type, key, ref, self, source, owner, props) {
+          var element = {
+            // This tag allows us to uniquely identify this as a React Element
+            $$typeof: REACT_ELEMENT_TYPE,
+            // Built-in properties that belong on the element
+            type,
+            key,
+            ref,
+            props,
+            // Record the component responsible for creating this element.
+            _owner: owner
+          };
+          {
+            element._store = {};
+            Object.defineProperty(element._store, "validated", {
+              configurable: false,
+              enumerable: false,
+              writable: true,
+              value: false
+            });
+            Object.defineProperty(element, "_self", {
+              configurable: false,
+              enumerable: false,
+              writable: false,
+              value: self
+            });
+            Object.defineProperty(element, "_source", {
+              configurable: false,
+              enumerable: false,
+              writable: false,
+              value: source
+            });
+            if (Object.freeze) {
+              Object.freeze(element.props);
+              Object.freeze(element);
+            }
+          }
+          return element;
+        };
+        function jsxDEV(type, config, maybeKey, source, self) {
+          {
+            var propName;
+            var props = {};
+            var key = null;
+            var ref = null;
+            if (maybeKey !== void 0) {
+              {
+                checkKeyStringCoercion(maybeKey);
+              }
+              key = "" + maybeKey;
+            }
+            if (hasValidKey(config)) {
+              {
+                checkKeyStringCoercion(config.key);
+              }
+              key = "" + config.key;
+            }
+            if (hasValidRef(config)) {
+              ref = config.ref;
+              warnIfStringRefCannotBeAutoConverted(config, self);
+            }
+            for (propName in config) {
+              if (hasOwnProperty.call(config, propName) && !RESERVED_PROPS.hasOwnProperty(propName)) {
+                props[propName] = config[propName];
+              }
+            }
+            if (type && type.defaultProps) {
+              var defaultProps = type.defaultProps;
+              for (propName in defaultProps) {
+                if (props[propName] === void 0) {
+                  props[propName] = defaultProps[propName];
+                }
+              }
+            }
+            if (key || ref) {
+              var displayName = typeof type === "function" ? type.displayName || type.name || "Unknown" : type;
+              if (key) {
+                defineKeyPropWarningGetter(props, displayName);
+              }
+              if (ref) {
+                defineRefPropWarningGetter(props, displayName);
+              }
+            }
+            return ReactElement(type, key, ref, self, source, ReactCurrentOwner.current, props);
+          }
+        }
+        var ReactCurrentOwner$1 = ReactSharedInternals.ReactCurrentOwner;
+        var ReactDebugCurrentFrame$1 = ReactSharedInternals.ReactDebugCurrentFrame;
+        function setCurrentlyValidatingElement$1(element) {
+          {
+            if (element) {
+              var owner = element._owner;
+              var stack = describeUnknownElementTypeFrameInDEV(element.type, element._source, owner ? owner.type : null);
+              ReactDebugCurrentFrame$1.setExtraStackFrame(stack);
+            } else {
+              ReactDebugCurrentFrame$1.setExtraStackFrame(null);
+            }
+          }
+        }
+        var propTypesMisspellWarningShown;
+        {
+          propTypesMisspellWarningShown = false;
+        }
+        function isValidElement(object) {
+          {
+            return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+          }
+        }
+        function getDeclarationErrorAddendum() {
+          {
+            if (ReactCurrentOwner$1.current) {
+              var name = getComponentNameFromType(ReactCurrentOwner$1.current.type);
+              if (name) {
+                return "\n\nCheck the render method of `" + name + "`.";
+              }
+            }
+            return "";
+          }
+        }
+        function getSourceInfoErrorAddendum(source) {
+          {
+            if (source !== void 0) {
+              var fileName = source.fileName.replace(/^.*[\\\/]/, "");
+              var lineNumber = source.lineNumber;
+              return "\n\nCheck your code at " + fileName + ":" + lineNumber + ".";
+            }
+            return "";
+          }
+        }
+        var ownerHasKeyUseWarning = {};
+        function getCurrentComponentErrorInfo(parentType) {
+          {
+            var info = getDeclarationErrorAddendum();
+            if (!info) {
+              var parentName = typeof parentType === "string" ? parentType : parentType.displayName || parentType.name;
+              if (parentName) {
+                info = "\n\nCheck the top-level render call using <" + parentName + ">.";
+              }
+            }
+            return info;
+          }
+        }
+        function validateExplicitKey(element, parentType) {
+          {
+            if (!element._store || element._store.validated || element.key != null) {
+              return;
+            }
+            element._store.validated = true;
+            var currentComponentErrorInfo = getCurrentComponentErrorInfo(parentType);
+            if (ownerHasKeyUseWarning[currentComponentErrorInfo]) {
+              return;
+            }
+            ownerHasKeyUseWarning[currentComponentErrorInfo] = true;
+            var childOwner = "";
+            if (element && element._owner && element._owner !== ReactCurrentOwner$1.current) {
+              childOwner = " It was passed a child from " + getComponentNameFromType(element._owner.type) + ".";
+            }
+            setCurrentlyValidatingElement$1(element);
+            error('Each child in a list should have a unique "key" prop.%s%s See https://reactjs.org/link/warning-keys for more information.', currentComponentErrorInfo, childOwner);
+            setCurrentlyValidatingElement$1(null);
+          }
+        }
+        function validateChildKeys(node, parentType) {
+          {
+            if (typeof node !== "object") {
+              return;
+            }
+            if (isArray(node)) {
+              for (var i = 0; i < node.length; i++) {
+                var child = node[i];
+                if (isValidElement(child)) {
+                  validateExplicitKey(child, parentType);
+                }
+              }
+            } else if (isValidElement(node)) {
+              if (node._store) {
+                node._store.validated = true;
+              }
+            } else if (node) {
+              var iteratorFn = getIteratorFn(node);
+              if (typeof iteratorFn === "function") {
+                if (iteratorFn !== node.entries) {
+                  var iterator = iteratorFn.call(node);
+                  var step;
+                  while (!(step = iterator.next()).done) {
+                    if (isValidElement(step.value)) {
+                      validateExplicitKey(step.value, parentType);
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        function validatePropTypes(element) {
+          {
+            var type = element.type;
+            if (type === null || type === void 0 || typeof type === "string") {
+              return;
+            }
+            var propTypes;
+            if (typeof type === "function") {
+              propTypes = type.propTypes;
+            } else if (typeof type === "object" && (type.$$typeof === REACT_FORWARD_REF_TYPE || // Note: Memo only checks outer props here.
+            // Inner props are checked in the reconciler.
+            type.$$typeof === REACT_MEMO_TYPE)) {
+              propTypes = type.propTypes;
+            } else {
+              return;
+            }
+            if (propTypes) {
+              var name = getComponentNameFromType(type);
+              checkPropTypes(propTypes, element.props, "prop", name, element);
+            } else if (type.PropTypes !== void 0 && !propTypesMisspellWarningShown) {
+              propTypesMisspellWarningShown = true;
+              var _name = getComponentNameFromType(type);
+              error("Component %s declared `PropTypes` instead of `propTypes`. Did you misspell the property assignment?", _name || "Unknown");
+            }
+            if (typeof type.getDefaultProps === "function" && !type.getDefaultProps.isReactClassApproved) {
+              error("getDefaultProps is only used on classic React.createClass definitions. Use a static property named `defaultProps` instead.");
+            }
+          }
+        }
+        function validateFragmentProps(fragment) {
+          {
+            var keys = Object.keys(fragment.props);
+            for (var i = 0; i < keys.length; i++) {
+              var key = keys[i];
+              if (key !== "children" && key !== "key") {
+                setCurrentlyValidatingElement$1(fragment);
+                error("Invalid prop `%s` supplied to `React.Fragment`. React.Fragment can only have `key` and `children` props.", key);
+                setCurrentlyValidatingElement$1(null);
+                break;
+              }
+            }
+            if (fragment.ref !== null) {
+              setCurrentlyValidatingElement$1(fragment);
+              error("Invalid attribute `ref` supplied to `React.Fragment`.");
+              setCurrentlyValidatingElement$1(null);
+            }
+          }
+        }
+        var didWarnAboutKeySpread = {};
+        function jsxWithValidation(type, props, key, isStaticChildren, source, self) {
+          {
+            var validType = isValidElementType(type);
+            if (!validType) {
+              var info = "";
+              if (type === void 0 || typeof type === "object" && type !== null && Object.keys(type).length === 0) {
+                info += " You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.";
+              }
+              var sourceInfo = getSourceInfoErrorAddendum(source);
+              if (sourceInfo) {
+                info += sourceInfo;
+              } else {
+                info += getDeclarationErrorAddendum();
+              }
+              var typeString;
+              if (type === null) {
+                typeString = "null";
+              } else if (isArray(type)) {
+                typeString = "array";
+              } else if (type !== void 0 && type.$$typeof === REACT_ELEMENT_TYPE) {
+                typeString = "<" + (getComponentNameFromType(type.type) || "Unknown") + " />";
+                info = " Did you accidentally export a JSX literal instead of a component?";
+              } else {
+                typeString = typeof type;
+              }
+              error("React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", typeString, info);
+            }
+            var element = jsxDEV(type, props, key, source, self);
+            if (element == null) {
+              return element;
+            }
+            if (validType) {
+              var children = props.children;
+              if (children !== void 0) {
+                if (isStaticChildren) {
+                  if (isArray(children)) {
+                    for (var i = 0; i < children.length; i++) {
+                      validateChildKeys(children[i], type);
+                    }
+                    if (Object.freeze) {
+                      Object.freeze(children);
+                    }
+                  } else {
+                    error("React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.");
+                  }
+                } else {
+                  validateChildKeys(children, type);
+                }
+              }
+            }
+            {
+              if (hasOwnProperty.call(props, "key")) {
+                var componentName = getComponentNameFromType(type);
+                var keys = Object.keys(props).filter(function(k) {
+                  return k !== "key";
+                });
+                var beforeExample = keys.length > 0 ? "{key: someKey, " + keys.join(": ..., ") + ": ...}" : "{key: someKey}";
+                if (!didWarnAboutKeySpread[componentName + beforeExample]) {
+                  var afterExample = keys.length > 0 ? "{" + keys.join(": ..., ") + ": ...}" : "{}";
+                  error('A props object containing a "key" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />', beforeExample, componentName, afterExample, componentName);
+                  didWarnAboutKeySpread[componentName + beforeExample] = true;
+                }
+              }
+            }
+            if (type === REACT_FRAGMENT_TYPE) {
+              validateFragmentProps(element);
+            } else {
+              validatePropTypes(element);
+            }
+            return element;
+          }
+        }
+        function jsxWithValidationStatic(type, props, key) {
+          {
+            return jsxWithValidation(type, props, key, true);
+          }
+        }
+        function jsxWithValidationDynamic(type, props, key) {
+          {
+            return jsxWithValidation(type, props, key, false);
+          }
+        }
+        var jsx23 = jsxWithValidationDynamic;
+        var jsxs22 = jsxWithValidationStatic;
+        exports.Fragment = REACT_FRAGMENT_TYPE;
+        exports.jsx = jsx23;
+        exports.jsxs = jsxs22;
+      })();
+    }
+  }
+});
+
+// node_modules/react/jsx-runtime.js
+var require_jsx_runtime = __commonJS({
+  "node_modules/react/jsx-runtime.js"(exports, module) {
+    "use strict";
+    if (false) {
+      module.exports = null;
+    } else {
+      module.exports = require_react_jsx_runtime_development();
+    }
+  }
+});
+
 // src/webview/index.tsx
-var import_react9 = __toESM(require_react(), 1);
 var import_client = __toESM(require_client(), 1);
 
 // src/components/App.tsx
@@ -23726,18 +24630,45 @@ function useGameState() {
 }
 
 // src/components/screens/WelcomeScreen.tsx
+var import_jsx_runtime = __toESM(require_jsx_runtime(), 1);
 function WelcomeScreen({ onStartGame }) {
-  return /* @__PURE__ */ Devvit.createElement("div", { className: "flex flex-col h-full w-full max-w-2xl mx-auto px-4 py-8 justify-center" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-center mb-8" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-5xl mb-4" }, "\u{1F50D}"), /* @__PURE__ */ Devvit.createElement("h1", { className: "text-3xl font-bold text-gray-900 mb-2" }, "Comment Conspiracy"), /* @__PURE__ */ Devvit.createElement("p", { className: "text-lg text-gray-600" }, "One of these comments isn't human.")), /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gray-100 rounded-xl p-6 mb-8" }, /* @__PURE__ */ Devvit.createElement("h2", { className: "text-lg font-semibold text-gray-900 mb-4" }, "How to Play"), /* @__PURE__ */ Devvit.createElement("div", { className: "space-y-4" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-start gap-3" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold" }, "1"), /* @__PURE__ */ Devvit.createElement("div", null, /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-700" }, "Read all 5 comments carefully"))), /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-start gap-3" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold" }, "2"), /* @__PURE__ */ Devvit.createElement("div", null, /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-700" }, "Spot the one that was written by AI"))), /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-start gap-3" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold" }, "3"), /* @__PURE__ */ Devvit.createElement("div", null, /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-700" }, "Build your streak with daily puzzles"))))), /* @__PURE__ */ Devvit.createElement("div", { className: "text-center text-sm text-gray-500 mb-8" }, /* @__PURE__ */ Devvit.createElement("p", null, "One guess per day \u2022 New puzzle at midnight UTC")), /* @__PURE__ */ Devvit.createElement(
-    "button",
-    {
-      onClick: onStartGame,
-      className: "w-full py-4 px-6 bg-blue-600 hover:bg-blue-700 text-white text-lg font-bold rounded-xl transition-colors shadow-lg"
-    },
-    "Start Playing"
-  ));
+  return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "flex flex-col h-full w-full max-w-2xl mx-auto px-4 py-8 justify-center", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "text-center mb-8", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "text-5xl mb-4", children: "\u{1F50D}" }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", { className: "text-3xl font-bold text-gray-900 mb-2", children: "Comment Conspiracy" }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "text-lg text-gray-600", children: "One of these comments isn't human." })
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "bg-gray-100 rounded-xl p-6 mb-8", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", { className: "text-lg font-semibold text-gray-900 mb-4", children: "How to Play" }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "space-y-4", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "flex items-start gap-3", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold", children: "1" }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "text-gray-700", children: "Read all 5 comments carefully" }) })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "flex items-start gap-3", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold", children: "2" }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "text-gray-700", children: "Spot the one that was written by AI" }) })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "flex items-start gap-3", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold", children: "3" }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "text-gray-700", children: "Build your streak with daily puzzles" }) })
+        ] })
+      ] })
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "text-center text-sm text-gray-500 mb-8", children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "One guess per day \u2022 New puzzle at midnight UTC" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+      "button",
+      {
+        onClick: onStartGame,
+        className: "w-full py-4 px-6 bg-blue-600 hover:bg-blue-700 text-white text-lg font-bold rounded-xl transition-colors shadow-lg",
+        children: "Start Playing"
+      }
+    )
+  ] });
 }
 
 // src/components/game/CommentCard.tsx
+var import_jsx_runtime2 = __toESM(require_jsx_runtime(), 1);
 function getVisualState(props) {
   if (props.disabled)
     return "disabled";
@@ -23778,7 +24709,7 @@ function CommentCard({
       handleClick();
     }
   };
-  return /* @__PURE__ */ Devvit.createElement(
+  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(
     "div",
     {
       role: "button",
@@ -23788,18 +24719,27 @@ function CommentCard({
       onKeyDown: handleKeyDown,
       "aria-pressed": isSelected,
       "aria-disabled": disabled,
-      "aria-label": `Comment ${comment.displayIndex + 1} by ${comment.username}`
-    },
-    /* @__PURE__ */ Devvit.createElement("div", { className: "absolute -top-3 -left-3 w-7 h-7 rounded-full bg-gray-700 text-white text-sm font-bold flex items-center justify-center" }, comment.displayIndex + 1),
-    isRevealed && isAI && /* @__PURE__ */ Devvit.createElement("div", { className: "absolute -top-3 -right-3 px-2 py-1 rounded-full bg-red-500 text-white text-xs font-bold flex items-center gap-1" }, /* @__PURE__ */ Devvit.createElement("span", null, "\u{1F916}"), /* @__PURE__ */ Devvit.createElement("span", null, "AI")),
-    isRevealed && isCorrectGuess && /* @__PURE__ */ Devvit.createElement("div", { className: "absolute -top-3 right-8 px-2 py-1 rounded-full bg-green-500 text-white text-xs font-bold" }, "\u2713 Your guess"),
-    /* @__PURE__ */ Devvit.createElement("div", { className: "text-sm font-medium text-gray-500 mb-2" }, "u/", comment.username),
-    /* @__PURE__ */ Devvit.createElement("div", { className: "text-base text-gray-900 leading-relaxed" }, comment.text),
-    isSelected && !isRevealed && /* @__PURE__ */ Devvit.createElement("div", { className: "absolute bottom-2 right-2 text-blue-500 text-sm font-medium" }, "Selected \u2713")
+      "aria-label": `Comment ${comment.displayIndex + 1} by ${comment.username}`,
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "absolute -top-3 -left-3 w-7 h-7 rounded-full bg-gray-700 text-white text-sm font-bold flex items-center justify-center", children: comment.displayIndex + 1 }),
+        isRevealed && isAI && /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "absolute -top-3 -right-3 px-2 py-1 rounded-full bg-red-500 text-white text-xs font-bold flex items-center gap-1", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { children: "\u{1F916}" }),
+          /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { children: "AI" })
+        ] }),
+        isRevealed && isCorrectGuess && /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "absolute -top-3 right-8 px-2 py-1 rounded-full bg-green-500 text-white text-xs font-bold", children: "\u2713 Your guess" }),
+        /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "text-sm font-medium text-gray-500 mb-2", children: [
+          "u/",
+          comment.username
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "text-base text-gray-900 leading-relaxed", children: comment.text }),
+        isSelected && !isRevealed && /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "absolute bottom-2 right-2 text-blue-500 text-sm font-medium", children: "Selected \u2713" })
+      ]
+    }
   );
 }
 
 // src/components/screens/GameScreen.tsx
+var import_jsx_runtime3 = __toESM(require_jsx_runtime(), 1);
 function formatDifficulty(difficulty) {
   return difficulty.charAt(0).toUpperCase() + difficulty.slice(1);
 }
@@ -23819,48 +24759,113 @@ function GameScreen({
       onSelectComment(index);
     }
   };
-  return /* @__PURE__ */ Devvit.createElement("div", { className: "flex flex-col h-full w-full max-w-2xl mx-auto px-3 sm:px-4 py-4 sm:py-6" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-center mb-4 sm:mb-6" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-xs sm:text-sm font-semibold text-gray-500 uppercase tracking-wide" }, "Day ", puzzle.dayNumber, " \u2022 ", formatDayOfWeek(puzzle.dayOfWeek), " \u2022 ", formatDifficulty(puzzle.difficulty)), /* @__PURE__ */ Devvit.createElement("div", { className: "mt-1 h-1 w-20 sm:w-24 mx-auto bg-gradient-to-r from-blue-400 to-purple-500 rounded-full" })), /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gray-100 rounded-xl p-3 sm:p-4 mb-4 sm:mb-6" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-xs text-gray-500 uppercase tracking-wide mb-1" }, puzzle.prompt.source), /* @__PURE__ */ Devvit.createElement("div", { className: "text-base sm:text-lg font-medium text-gray-900" }, '"', puzzle.prompt.text, '"')), /* @__PURE__ */ Devvit.createElement("div", { className: "flex-1 space-y-3 sm:space-y-4 mb-4 sm:mb-6 overflow-y-auto -mx-1 px-1" }, puzzle.comments.map((comment, index) => /* @__PURE__ */ Devvit.createElement(
-    CommentCard,
-    {
-      key: comment.id,
-      comment,
-      isSelected: selectedIndex === index,
-      isRevealed: false,
-      onSelect: handleSelectComment,
-      disabled
-    }
-  ))), /* @__PURE__ */ Devvit.createElement("div", { className: "text-center text-xs sm:text-sm text-amber-600 font-medium mb-3 sm:mb-4" }, "Choose carefully - you only get one guess!"), selectedIndex !== null && /* @__PURE__ */ Devvit.createElement(
-    "button",
-    {
-      onClick: onConfirmGuess,
-      disabled,
-      className: "w-full py-4 px-6 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 disabled:bg-gray-400 text-white text-base sm:text-lg font-bold rounded-xl transition-colors duration-200 shadow-lg touch-manipulation"
-    },
-    "Lock In Your Answer"
-  ));
+  return /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", { className: "flex flex-col h-full w-full max-w-2xl mx-auto px-3 sm:px-4 py-4 sm:py-6", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", { className: "text-center mb-4 sm:mb-6", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", { className: "text-xs sm:text-sm font-semibold text-gray-500 uppercase tracking-wide", children: [
+        "Day ",
+        puzzle.dayNumber,
+        " \u2022 ",
+        formatDayOfWeek(puzzle.dayOfWeek),
+        " \u2022 ",
+        formatDifficulty(puzzle.difficulty)
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("div", { className: "mt-1 h-1 w-20 sm:w-24 mx-auto bg-gradient-to-r from-blue-400 to-purple-500 rounded-full" })
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", { className: "bg-gray-100 rounded-xl p-3 sm:p-4 mb-4 sm:mb-6", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("div", { className: "text-xs text-gray-500 uppercase tracking-wide mb-1", children: puzzle.prompt.source }),
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", { className: "text-base sm:text-lg font-medium text-gray-900", children: [
+        '"',
+        puzzle.prompt.text,
+        '"'
+      ] })
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("div", { className: "flex-1 space-y-3 sm:space-y-4 mb-4 sm:mb-6 overflow-y-auto -mx-1 px-1", children: puzzle.comments.map((comment, index) => /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(
+      CommentCard,
+      {
+        comment,
+        isSelected: selectedIndex === index,
+        isRevealed: false,
+        onSelect: handleSelectComment,
+        disabled
+      },
+      comment.id
+    )) }),
+    /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("div", { className: "text-center text-xs sm:text-sm text-amber-600 font-medium mb-3 sm:mb-4", children: "Choose carefully - you only get one guess!" }),
+    selectedIndex !== null && /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(
+      "button",
+      {
+        onClick: onConfirmGuess,
+        disabled,
+        className: "w-full py-4 px-6 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 disabled:bg-gray-400 text-white text-base sm:text-lg font-bold rounded-xl transition-colors duration-200 shadow-lg touch-manipulation",
+        children: "Lock In Your Answer"
+      }
+    )
+  ] });
 }
 
 // src/components/results/ResultBanner.tsx
+var import_jsx_runtime4 = __toESM(require_jsx_runtime(), 1);
 function ResultBanner({
   wasCorrect,
   correctIndex,
   guessedIndex
 }) {
   if (wasCorrect) {
-    return /* @__PURE__ */ Devvit.createElement("div", { className: "text-center py-6" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-5xl mb-3" }, "\u{1F389}"), /* @__PURE__ */ Devvit.createElement("h2", { className: "text-2xl font-bold text-green-600" }, "CORRECT!"), /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-600 mt-2" }, "Comment #", correctIndex + 1, " was the AI imposter!"));
+    return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "text-center py-6", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "text-5xl mb-3", children: "\u{1F389}" }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("h2", { className: "text-2xl font-bold text-green-600", children: "CORRECT!" }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("p", { className: "text-gray-600 mt-2", children: [
+        "Comment #",
+        correctIndex + 1,
+        " was the AI imposter!"
+      ] })
+    ] });
   }
-  return /* @__PURE__ */ Devvit.createElement("div", { className: "text-center py-6" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-5xl mb-3" }, "\u274C"), /* @__PURE__ */ Devvit.createElement("h2", { className: "text-2xl font-bold text-red-600" }, "NOT QUITE"), /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-600 mt-2" }, "You guessed #", (guessedIndex ?? 0) + 1, ", but the AI was #", correctIndex + 1));
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "text-center py-6", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "text-5xl mb-3", children: "\u274C" }),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("h2", { className: "text-2xl font-bold text-red-600", children: "NOT QUITE" }),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("p", { className: "text-gray-600 mt-2", children: [
+      "You guessed #",
+      (guessedIndex ?? 0) + 1,
+      ", but the AI was #",
+      correctIndex + 1
+    ] })
+  ] });
 }
 
 // src/components/results/AIExplanation.tsx
+var import_jsx_runtime5 = __toESM(require_jsx_runtime(), 1);
 function AIExplanation({
   explanation,
   wasCorrect
 }) {
-  return /* @__PURE__ */ Devvit.createElement("div", { className: "space-y-4" }, /* @__PURE__ */ Devvit.createElement("div", { className: `rounded-xl p-4 ${wasCorrect ? "bg-green-50 border border-green-200" : "bg-red-50 border border-red-200"}` }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center gap-2 mb-3" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-xl" }, "\u{1F916}"), /* @__PURE__ */ Devvit.createElement("h3", { className: "font-bold text-gray-900" }, wasCorrect ? "AI TELLS:" : "WHY IT WAS AI:")), /* @__PURE__ */ Devvit.createElement("ul", { className: "space-y-2" }, explanation.aiTells.map((tell, index) => /* @__PURE__ */ Devvit.createElement("li", { key: index, className: "flex items-start gap-2 text-gray-700" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-gray-400" }, "\u2022"), /* @__PURE__ */ Devvit.createElement("span", null, tell))))), !wasCorrect && explanation.humanTells.length > 0 && /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gray-50 border border-gray-200 rounded-xl p-4" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center gap-2 mb-3" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-xl" }, "\u{1F464}"), /* @__PURE__ */ Devvit.createElement("h3", { className: "font-bold text-gray-900" }, "WHY YOUR PICK WAS HUMAN:")), /* @__PURE__ */ Devvit.createElement("ul", { className: "space-y-2" }, explanation.humanTells.map((tell, index) => /* @__PURE__ */ Devvit.createElement("li", { key: index, className: "flex items-start gap-2 text-gray-700" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-gray-400" }, "\u2022"), /* @__PURE__ */ Devvit.createElement("span", null, tell))))), explanation.difficulty_note && /* @__PURE__ */ Devvit.createElement("p", { className: "text-sm text-gray-500 italic text-center" }, explanation.difficulty_note));
+  return /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "space-y-4", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: `rounded-xl p-4 ${wasCorrect ? "bg-green-50 border border-green-200" : "bg-red-50 border border-red-200"}`, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "flex items-center gap-2 mb-3", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "text-xl", children: "\u{1F916}" }),
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("h3", { className: "font-bold text-gray-900", children: wasCorrect ? "AI TELLS:" : "WHY IT WAS AI:" })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("ul", { className: "space-y-2", children: explanation.aiTells.map((tell, index) => /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("li", { className: "flex items-start gap-2 text-gray-700", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "text-gray-400", children: "\u2022" }),
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { children: tell })
+      ] }, index)) })
+    ] }),
+    !wasCorrect && explanation.humanTells.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "bg-gray-50 border border-gray-200 rounded-xl p-4", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", { className: "flex items-center gap-2 mb-3", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "text-xl", children: "\u{1F464}" }),
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("h3", { className: "font-bold text-gray-900", children: "WHY YOUR PICK WAS HUMAN:" })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("ul", { className: "space-y-2", children: explanation.humanTells.map((tell, index) => /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("li", { className: "flex items-start gap-2 text-gray-700", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { className: "text-gray-400", children: "\u2022" }),
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("span", { children: tell })
+      ] }, index)) })
+    ] }),
+    explanation.difficulty_note && /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("p", { className: "text-sm text-gray-500 italic text-center", children: explanation.difficulty_note })
+  ] });
 }
 
 // src/components/results/StatsPanel.tsx
+var import_jsx_runtime6 = __toESM(require_jsx_runtime(), 1);
 function StatsPanel({
   stats,
   streak,
@@ -23870,17 +24875,68 @@ function StatsPanel({
 }) {
   const streakDisplay = wasCorrect && streak >= 3;
   const streakReset = !wasCorrect && (previousStreak ?? 0) > 0;
-  return /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gray-100 rounded-xl p-4 space-y-4" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-gray-600 font-medium" }, "Streak:"), /* @__PURE__ */ Devvit.createElement("span", { className: "font-bold text-lg" }, streakDisplay && /* @__PURE__ */ Devvit.createElement("span", { className: "mr-1" }, "\u{1F525}"), streak, " ", streak === 1 ? "day" : "days", streakReset && /* @__PURE__ */ Devvit.createElement("span", { className: "text-red-500 text-sm ml-2" }, "(reset from ", previousStreak, ")"))), userPercentile !== void 0 && wasCorrect && /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-gray-600 font-medium" }, "Your ranking:"), /* @__PURE__ */ Devvit.createElement("span", { className: "font-bold text-green-600" }, "Top ", Math.round(userPercentile), "%")), /* @__PURE__ */ Devvit.createElement("div", { className: "border-t border-gray-200 pt-4 space-y-2" }, /* @__PURE__ */ Devvit.createElement("h4", { className: "text-sm font-semibold text-gray-500 uppercase tracking-wide" }, "Today's Stats"), /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-gray-600" }, "Players:"), /* @__PURE__ */ Devvit.createElement("span", { className: "font-medium" }, stats.totalPlayers.toLocaleString())), /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-gray-600" }, "Got it right:"), /* @__PURE__ */ Devvit.createElement("span", { className: "font-medium text-green-600" }, stats.correctPercentage.toFixed(0), "%"))), stats.guessDistribution.some((count) => count > 0) && /* @__PURE__ */ Devvit.createElement("div", { className: "border-t border-gray-200 pt-4" }, /* @__PURE__ */ Devvit.createElement("h4", { className: "text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2" }, "Guess Distribution"), /* @__PURE__ */ Devvit.createElement("div", { className: "space-y-1" }, stats.guessDistribution.map((count, index) => {
-    const total = stats.totalPlayers || 1;
-    const percentage = count / total * 100;
-    return /* @__PURE__ */ Devvit.createElement("div", { key: index, className: "flex items-center gap-2" }, /* @__PURE__ */ Devvit.createElement("span", { className: "w-6 text-sm text-gray-500" }, "#", index + 1), /* @__PURE__ */ Devvit.createElement("div", { className: "flex-1 h-4 bg-gray-200 rounded overflow-hidden" }, /* @__PURE__ */ Devvit.createElement(
-      "div",
-      {
-        className: "h-full bg-blue-500",
-        style: { width: `${percentage}%` }
-      }
-    )), /* @__PURE__ */ Devvit.createElement("span", { className: "w-12 text-sm text-gray-600 text-right" }, percentage.toFixed(0), "%"));
-  }))));
+  return /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "bg-gray-100 rounded-xl p-4 space-y-4", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "flex items-center justify-between", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("span", { className: "text-gray-600 font-medium", children: "Streak:" }),
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("span", { className: "font-bold text-lg", children: [
+        streakDisplay && /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("span", { className: "mr-1", children: "\u{1F525}" }),
+        streak,
+        " ",
+        streak === 1 ? "day" : "days",
+        streakReset && /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("span", { className: "text-red-500 text-sm ml-2", children: [
+          "(reset from ",
+          previousStreak,
+          ")"
+        ] })
+      ] })
+    ] }),
+    userPercentile !== void 0 && wasCorrect && /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "flex items-center justify-between", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("span", { className: "text-gray-600 font-medium", children: "Your ranking:" }),
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("span", { className: "font-bold text-green-600", children: [
+        "Top ",
+        Math.round(userPercentile),
+        "%"
+      ] })
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "border-t border-gray-200 pt-4 space-y-2", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("h4", { className: "text-sm font-semibold text-gray-500 uppercase tracking-wide", children: "Today's Stats" }),
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "flex items-center justify-between", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("span", { className: "text-gray-600", children: "Players:" }),
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("span", { className: "font-medium", children: stats.totalPlayers.toLocaleString() })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "flex items-center justify-between", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("span", { className: "text-gray-600", children: "Got it right:" }),
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("span", { className: "font-medium text-green-600", children: [
+          stats.correctPercentage.toFixed(0),
+          "%"
+        ] })
+      ] })
+    ] }),
+    stats.guessDistribution.some((count) => count > 0) && /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "border-t border-gray-200 pt-4", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("h4", { className: "text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2", children: "Guess Distribution" }),
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", { className: "space-y-1", children: stats.guessDistribution.map((count, index) => {
+        const total = stats.totalPlayers || 1;
+        const percentage = count / total * 100;
+        return /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "flex items-center gap-2", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("span", { className: "w-6 text-sm text-gray-500", children: [
+            "#",
+            index + 1
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", { className: "flex-1 h-4 bg-gray-200 rounded overflow-hidden", children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(
+            "div",
+            {
+              className: "h-full bg-blue-500",
+              style: { width: `${percentage}%` }
+            }
+          ) }),
+          /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("span", { className: "w-12 text-sm text-gray-600 text-right", children: [
+            percentage.toFixed(0),
+            "%"
+          ] })
+        ] }, index);
+      }) })
+    ] })
+  ] });
 }
 
 // src/components/results/ShareCard.tsx
@@ -23942,6 +24998,7 @@ async function shareResult(data) {
 }
 
 // src/components/results/ShareCard.tsx
+var import_jsx_runtime7 = __toESM(require_jsx_runtime(), 1);
 function ShareCard({
   dayNumber,
   wasCorrect,
@@ -23977,30 +25034,46 @@ function ShareCard({
         return "Copy";
     }
   };
-  return /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gray-800 text-white rounded-xl p-4 sm:p-6" }, /* @__PURE__ */ Devvit.createElement("div", { className: "font-mono text-sm sm:text-base whitespace-pre-line text-center mb-4 leading-relaxed" }, shareText), /* @__PURE__ */ Devvit.createElement("div", { className: "flex gap-2 justify-center" }, /* @__PURE__ */ Devvit.createElement(
-    "button",
-    {
-      onClick: handleCopy,
-      disabled: copyState === "copying",
-      className: `
+  return /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "bg-gray-800 text-white rounded-xl p-4 sm:p-6", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", { className: "font-mono text-sm sm:text-base whitespace-pre-line text-center mb-4 leading-relaxed", children: shareText }),
+    /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", { className: "flex gap-2 justify-center", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
+        "button",
+        {
+          onClick: handleCopy,
+          disabled: copyState === "copying",
+          className: `
             flex-1 max-w-[140px] py-3 px-4 rounded-lg text-sm font-medium
             transition-colors duration-200 touch-manipulation
             ${copyState === "copied" ? "bg-green-600 text-white" : copyState === "error" ? "bg-red-600 text-white" : "bg-gray-700 hover:bg-gray-600 text-white"}
-          `
-    },
-    /* @__PURE__ */ Devvit.createElement("span", { className: "flex items-center justify-center gap-2" }, copyState === "copied" ? /* @__PURE__ */ Devvit.createElement(Devvit.Fragment, null, /* @__PURE__ */ Devvit.createElement("span", null, "\u2713"), /* @__PURE__ */ Devvit.createElement("span", null, getCopyButtonText())) : /* @__PURE__ */ Devvit.createElement(Devvit.Fragment, null, /* @__PURE__ */ Devvit.createElement("span", null, "\u{1F4CB}"), /* @__PURE__ */ Devvit.createElement("span", null, getCopyButtonText())))
-  ), canUseShare && /* @__PURE__ */ Devvit.createElement(
-    "button",
-    {
-      onClick: handleShare,
-      className: "flex-1 max-w-[140px] py-3 px-4 bg-blue-600 hover:bg-blue-700 rounded-lg text-sm font-medium text-white transition-colors duration-200 touch-manipulation"
-    },
-    /* @__PURE__ */ Devvit.createElement("span", { className: "flex items-center justify-center gap-2" }, /* @__PURE__ */ Devvit.createElement("span", null, "\u{1F517}"), /* @__PURE__ */ Devvit.createElement("span", null, "Share"))
-  )));
+          `,
+          children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { className: "flex items-center justify-center gap-2", children: copyState === "copied" ? /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(import_jsx_runtime7.Fragment, { children: [
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { children: "\u2713" }),
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { children: getCopyButtonText() })
+          ] }) : /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)(import_jsx_runtime7.Fragment, { children: [
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { children: "\u{1F4CB}" }),
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { children: getCopyButtonText() })
+          ] }) })
+        }
+      ),
+      canUseShare && /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
+        "button",
+        {
+          onClick: handleShare,
+          className: "flex-1 max-w-[140px] py-3 px-4 bg-blue-600 hover:bg-blue-700 rounded-lg text-sm font-medium text-white transition-colors duration-200 touch-manipulation",
+          children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("span", { className: "flex items-center justify-center gap-2", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { children: "\u{1F517}" }),
+            /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("span", { children: "Share" })
+          ] })
+        }
+      )
+    ] })
+  ] });
 }
 
 // src/components/results/AchievementToast.tsx
 var import_react3 = __toESM(require_react(), 1);
+var import_jsx_runtime8 = __toESM(require_jsx_runtime(), 1);
 function AchievementCard({
   achievement,
   index
@@ -24010,7 +25083,7 @@ function AchievementCard({
     const timer = setTimeout(() => setIsVisible(true), index * 200);
     return () => clearTimeout(timer);
   }, [index]);
-  return /* @__PURE__ */ Devvit.createElement(
+  return /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)(
     "div",
     {
       className: `
@@ -24018,11 +25091,16 @@ function AchievementCard({
         border border-yellow-200 rounded-xl shadow-lg
         transition-all duration-500 ease-out
         ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}
-      `
-    },
-    /* @__PURE__ */ Devvit.createElement("div", { className: "text-3xl animate-bounce" }, achievement.icon),
-    /* @__PURE__ */ Devvit.createElement("div", { className: "flex-1" }, /* @__PURE__ */ Devvit.createElement("div", { className: "font-bold text-gray-900" }, achievement.name), /* @__PURE__ */ Devvit.createElement("div", { className: "text-sm text-gray-600" }, achievement.description)),
-    /* @__PURE__ */ Devvit.createElement("div", { className: "text-yellow-500 text-xl" }, "NEW!")
+      `,
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "text-3xl animate-bounce", children: achievement.icon }),
+        /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "flex-1", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "font-bold text-gray-900", children: achievement.name }),
+          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "text-sm text-gray-600", children: achievement.description })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "text-yellow-500 text-xl", children: "NEW!" })
+      ]
+    }
   );
 }
 function AchievementToast({
@@ -24043,7 +25121,7 @@ function AchievementToast({
   if (achievements.length === 0 || !isVisible) {
     return null;
   }
-  return /* @__PURE__ */ Devvit.createElement("div", { className: "fixed inset-x-0 top-4 z-50 flex flex-col items-center px-4 pointer-events-none" }, /* @__PURE__ */ Devvit.createElement(
+  return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "fixed inset-x-0 top-4 z-50 flex flex-col items-center px-4 pointer-events-none", children: /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)(
     "div",
     {
       className: `
@@ -24054,24 +25132,29 @@ function AchievementToast({
       onClick: () => {
         setIsVisible(false);
         setTimeout(() => onDismiss?.(), 300);
-      }
-    },
-    /* @__PURE__ */ Devvit.createElement("div", { className: "text-center text-sm font-semibold text-yellow-600 mb-1" }, "Achievement Unlocked!"),
-    achievements.map((achievement, index) => /* @__PURE__ */ Devvit.createElement(
-      AchievementCard,
-      {
-        key: achievement.id,
-        achievement,
-        index
-      }
-    )),
-    /* @__PURE__ */ Devvit.createElement("div", { className: "text-center text-xs text-gray-400 mt-1" }, "Tap to dismiss")
-  ));
+      },
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "text-center text-sm font-semibold text-yellow-600 mb-1", children: "Achievement Unlocked!" }),
+        achievements.map((achievement, index) => /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
+          AchievementCard,
+          {
+            achievement,
+            index
+          },
+          achievement.id
+        )),
+        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "text-center text-xs text-gray-400 mt-1", children: "Tap to dismiss" })
+      ]
+    }
+  ) });
 }
 function AchievementBadge({
   achievement
 }) {
-  return /* @__PURE__ */ Devvit.createElement("div", { className: "inline-flex items-center gap-2 px-3 py-1.5 bg-yellow-100 border border-yellow-200 rounded-full" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-lg" }, achievement.icon), /* @__PURE__ */ Devvit.createElement("span", { className: "text-sm font-medium text-yellow-800" }, achievement.name));
+  return /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "inline-flex items-center gap-2 px-3 py-1.5 bg-yellow-100 border border-yellow-200 rounded-full", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("span", { className: "text-lg", children: achievement.icon }),
+    /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("span", { className: "text-sm font-medium text-yellow-800", children: achievement.name })
+  ] });
 }
 function AchievementList({
   achievements,
@@ -24080,10 +25163,14 @@ function AchievementList({
   if (achievements.length === 0) {
     return null;
   }
-  return /* @__PURE__ */ Devvit.createElement("div", { className: "mt-4 p-4 bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl border border-yellow-200" }, /* @__PURE__ */ Devvit.createElement("h3", { className: "text-sm font-semibold text-yellow-700 mb-3" }, title), /* @__PURE__ */ Devvit.createElement("div", { className: "flex flex-wrap gap-2" }, achievements.map((achievement) => /* @__PURE__ */ Devvit.createElement(AchievementBadge, { key: achievement.id, achievement }))));
+  return /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", { className: "mt-4 p-4 bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl border border-yellow-200", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("h3", { className: "text-sm font-semibold text-yellow-700 mb-3", children: title }),
+    /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", { className: "flex flex-wrap gap-2", children: achievements.map((achievement) => /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(AchievementBadge, { achievement }, achievement.id)) })
+  ] });
 }
 
 // src/components/screens/ResultScreen.tsx
+var import_jsx_runtime9 = __toESM(require_jsx_runtime(), 1);
 function ResultScreen({
   result,
   puzzle,
@@ -24091,63 +25178,79 @@ function ResultScreen({
   onJoinDiscussion,
   onContribute
 }) {
-  return /* @__PURE__ */ Devvit.createElement("div", { className: "flex flex-col h-full w-full max-w-2xl mx-auto px-4 py-6 overflow-y-auto" }, /* @__PURE__ */ Devvit.createElement(
-    ResultBanner,
-    {
-      wasCorrect: result.wasCorrect,
-      correctIndex: result.correctIndex,
-      guessedIndex: result.guessedIndex
-    }
-  ), /* @__PURE__ */ Devvit.createElement("div", { className: "mb-6" }, /* @__PURE__ */ Devvit.createElement(
-    AIExplanation,
-    {
-      explanation: result.explanation,
-      wasCorrect: result.wasCorrect
-    }
-  )), /* @__PURE__ */ Devvit.createElement("div", { className: "mb-6" }, /* @__PURE__ */ Devvit.createElement(
-    StatsPanel,
-    {
-      stats: result.stats,
-      streak: result.newStreak,
-      previousStreak: result.previousStreak,
-      wasCorrect: result.wasCorrect,
-      userPercentile: result.userPercentile
-    }
-  )), result.newlyUnlockedAchievements && result.newlyUnlockedAchievements.length > 0 && /* @__PURE__ */ Devvit.createElement("div", { className: "mb-6" }, /* @__PURE__ */ Devvit.createElement(AchievementList, { achievements: result.newlyUnlockedAchievements })), /* @__PURE__ */ Devvit.createElement("div", { className: "mb-6" }, /* @__PURE__ */ Devvit.createElement(
-    ShareCard,
-    {
-      dayNumber: puzzle.dayNumber,
-      wasCorrect: result.wasCorrect,
-      streak: result.newStreak
-    }
-  )), /* @__PURE__ */ Devvit.createElement("div", { className: "space-y-3" }, onViewBreakdown && /* @__PURE__ */ Devvit.createElement(
-    "button",
-    {
-      onClick: onViewBreakdown,
-      className: "w-full py-3 px-6 bg-gray-200 hover:bg-gray-300 text-gray-700 font-semibold rounded-xl transition-colors"
-    },
-    "View Full Breakdown"
-  ), onContribute && /* @__PURE__ */ Devvit.createElement(
-    "button",
-    {
-      onClick: onContribute,
-      className: "w-full py-3 px-6 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl transition-colors flex items-center justify-center gap-2"
-    },
-    /* @__PURE__ */ Devvit.createElement("span", null, "+"),
-    /* @__PURE__ */ Devvit.createElement("span", null, "Contribute AI Comments")
-  ), onJoinDiscussion && /* @__PURE__ */ Devvit.createElement(
-    "button",
-    {
-      onClick: onJoinDiscussion,
-      className: "w-full py-3 px-6 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-colors flex items-center justify-center gap-2"
-    },
-    /* @__PURE__ */ Devvit.createElement("span", null, "\u{1F4AC}"),
-    /* @__PURE__ */ Devvit.createElement("span", null, "Join Discussion")
-  )));
+  return /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "flex flex-col h-full w-full max-w-2xl mx-auto px-4 py-6 overflow-y-auto", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
+      ResultBanner,
+      {
+        wasCorrect: result.wasCorrect,
+        correctIndex: result.correctIndex,
+        guessedIndex: result.guessedIndex
+      }
+    ),
+    /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "mb-6", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
+      AIExplanation,
+      {
+        explanation: result.explanation,
+        wasCorrect: result.wasCorrect
+      }
+    ) }),
+    /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "mb-6", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
+      StatsPanel,
+      {
+        stats: result.stats,
+        streak: result.newStreak,
+        previousStreak: result.previousStreak,
+        wasCorrect: result.wasCorrect,
+        userPercentile: result.userPercentile
+      }
+    ) }),
+    result.newlyUnlockedAchievements && result.newlyUnlockedAchievements.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "mb-6", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(AchievementList, { achievements: result.newlyUnlockedAchievements }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", { className: "mb-6", children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
+      ShareCard,
+      {
+        dayNumber: puzzle.dayNumber,
+        wasCorrect: result.wasCorrect,
+        streak: result.newStreak
+      }
+    ) }),
+    /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", { className: "space-y-3", children: [
+      onViewBreakdown && /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(
+        "button",
+        {
+          onClick: onViewBreakdown,
+          className: "w-full py-3 px-6 bg-gray-200 hover:bg-gray-300 text-gray-700 font-semibold rounded-xl transition-colors",
+          children: "View Full Breakdown"
+        }
+      ),
+      onContribute && /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)(
+        "button",
+        {
+          onClick: onContribute,
+          className: "w-full py-3 px-6 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl transition-colors flex items-center justify-center gap-2",
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("span", { children: "+" }),
+            /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("span", { children: "Contribute AI Comments" })
+          ]
+        }
+      ),
+      onJoinDiscussion && /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)(
+        "button",
+        {
+          onClick: onJoinDiscussion,
+          className: "w-full py-3 px-6 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-colors flex items-center justify-center gap-2",
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("span", { children: "\u{1F4AC}" }),
+            /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("span", { children: "Join Discussion" })
+          ]
+        }
+      )
+    ] })
+  ] });
 }
 
 // src/components/shared/Timer.tsx
 var import_react4 = __toESM(require_react(), 1);
+var import_jsx_runtime10 = __toESM(require_jsx_runtime(), 1);
 function getTimeUntilMidnightUTC() {
   const now = /* @__PURE__ */ new Date();
   const midnight = new Date(now);
@@ -24172,7 +25275,16 @@ function Timer({ className = "" }) {
     }, 1e3);
     return () => clearInterval(interval);
   }, []);
-  return /* @__PURE__ */ Devvit.createElement("div", { className: `text-center ${className}` }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-sm text-gray-500 uppercase tracking-wide mb-1" }, "Next puzzle in"), /* @__PURE__ */ Devvit.createElement("div", { className: "text-3xl font-mono font-bold text-gray-900" }, pad(timeLeft.hours), ":", pad(timeLeft.minutes), ":", pad(timeLeft.seconds)));
+  return /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: `text-center ${className}`, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", { className: "text-sm text-gray-500 uppercase tracking-wide mb-1", children: "Next puzzle in" }),
+    /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "text-3xl font-mono font-bold text-gray-900", children: [
+      pad(timeLeft.hours),
+      ":",
+      pad(timeLeft.minutes),
+      ":",
+      pad(timeLeft.seconds)
+    ] })
+  ] });
 }
 
 // src/utils/leaderboardUtils.ts
@@ -24198,6 +25310,7 @@ function gamesUntilAccuracyQualification(totalPlayed) {
 }
 
 // src/components/results/Leaderboard.tsx
+var import_jsx_runtime11 = __toESM(require_jsx_runtime(), 1);
 function RankCard({
   title,
   icon,
@@ -24208,7 +25321,21 @@ function RankCard({
   subtext
 }) {
   const hasRank = rank !== null;
-  return /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-4 flex flex-col items-center text-center" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-2xl mb-1" }, icon), /* @__PURE__ */ Devvit.createElement("div", { className: "text-xs font-medium text-gray-500 uppercase tracking-wide mb-2" }, title), hasRank ? /* @__PURE__ */ Devvit.createElement(Devvit.Fragment, null, /* @__PURE__ */ Devvit.createElement("div", { className: "text-2xl font-bold text-gray-900 mb-1" }, formatOrdinal(rank)), /* @__PURE__ */ Devvit.createElement("div", { className: "text-xs text-gray-500 mb-2" }, formatRankPercentile(rank, total)), /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-baseline gap-1" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-lg font-semibold text-blue-600" }, value), /* @__PURE__ */ Devvit.createElement("span", { className: "text-xs text-gray-500" }, valueLabel))) : /* @__PURE__ */ Devvit.createElement(Devvit.Fragment, null, /* @__PURE__ */ Devvit.createElement("div", { className: "text-lg font-semibold text-gray-400 mb-1" }, "--"), subtext && /* @__PURE__ */ Devvit.createElement("div", { className: "text-xs text-gray-400 max-w-[100px]" }, subtext)));
+  return /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-4 flex flex-col items-center text-center", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "text-2xl mb-1", children: icon }),
+    /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "text-xs font-medium text-gray-500 uppercase tracking-wide mb-2", children: title }),
+    hasRank ? /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(import_jsx_runtime11.Fragment, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "text-2xl font-bold text-gray-900 mb-1", children: formatOrdinal(rank) }),
+      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "text-xs text-gray-500 mb-2", children: formatRankPercentile(rank, total) }),
+      /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "flex items-baseline gap-1", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { className: "text-lg font-semibold text-blue-600", children: value }),
+        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { className: "text-xs text-gray-500", children: valueLabel })
+      ] })
+    ] }) : /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(import_jsx_runtime11.Fragment, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "text-lg font-semibold text-gray-400 mb-1", children: "--" }),
+      subtext && /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: "text-xs text-gray-400 max-w-[100px]", children: subtext })
+    ] })
+  ] });
 }
 function LeaderboardPanel({
   streakRank,
@@ -24218,32 +25345,46 @@ function LeaderboardPanel({
 }) {
   const accuracy = calculateAccuracy(progress.totalCorrect, progress.totalPlayed);
   const gamesRemaining = gamesUntilAccuracyQualification(progress.totalPlayed);
-  return /* @__PURE__ */ Devvit.createElement("div", { className: `${className}` }, /* @__PURE__ */ Devvit.createElement("h3", { className: "text-sm font-semibold text-gray-700 mb-3 flex items-center gap-2" }, /* @__PURE__ */ Devvit.createElement("span", null, "Your Rankings")), /* @__PURE__ */ Devvit.createElement("div", { className: "grid grid-cols-2 gap-3" }, /* @__PURE__ */ Devvit.createElement(
-    RankCard,
-    {
-      title: "Streak",
-      icon: "\u{1F525}",
-      rank: streakRank?.rank ?? null,
-      total: streakRank?.total ?? 0,
-      value: progress.currentStreak,
-      valueLabel: "days",
-      subtext: progress.totalPlayed === 0 ? "Play to join!" : void 0
-    }
-  ), /* @__PURE__ */ Devvit.createElement(
-    RankCard,
-    {
-      title: "Accuracy",
-      icon: "\u{1F3AF}",
-      rank: accuracyRank?.rank ?? null,
-      total: accuracyRank?.total ?? 0,
-      value: `${accuracy}%`,
-      valueLabel: `(${progress.totalCorrect}/${progress.totalPlayed})`,
-      subtext: gamesRemaining > 0 ? `${gamesRemaining} more games to qualify` : void 0
-    }
-  )), progress.totalPlayed > 0 && progress.totalPlayed < ACCURACY_LEADERBOARD_MIN_GAMES && /* @__PURE__ */ Devvit.createElement("div", { className: "mt-3 text-xs text-center text-gray-500" }, "Play ", gamesRemaining, " more game", gamesRemaining !== 1 ? "s" : "", " to join the accuracy leaderboard"));
+  return /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: `${className}`, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("h3", { className: "text-sm font-semibold text-gray-700 mb-3 flex items-center gap-2", children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", { children: "Your Rankings" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "grid grid-cols-2 gap-3", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+        RankCard,
+        {
+          title: "Streak",
+          icon: "\u{1F525}",
+          rank: streakRank?.rank ?? null,
+          total: streakRank?.total ?? 0,
+          value: progress.currentStreak,
+          valueLabel: "days",
+          subtext: progress.totalPlayed === 0 ? "Play to join!" : void 0
+        }
+      ),
+      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+        RankCard,
+        {
+          title: "Accuracy",
+          icon: "\u{1F3AF}",
+          rank: accuracyRank?.rank ?? null,
+          total: accuracyRank?.total ?? 0,
+          value: `${accuracy}%`,
+          valueLabel: `(${progress.totalCorrect}/${progress.totalPlayed})`,
+          subtext: gamesRemaining > 0 ? `${gamesRemaining} more games to qualify` : void 0
+        }
+      )
+    ] }),
+    progress.totalPlayed > 0 && progress.totalPlayed < ACCURACY_LEADERBOARD_MIN_GAMES && /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: "mt-3 text-xs text-center text-gray-500", children: [
+      "Play ",
+      gamesRemaining,
+      " more game",
+      gamesRemaining !== 1 ? "s" : "",
+      " to join the accuracy leaderboard"
+    ] })
+  ] });
 }
 
 // src/components/screens/CompletedScreen.tsx
+var import_jsx_runtime12 = __toESM(require_jsx_runtime(), 1);
 function CompletedScreen({
   result,
   puzzle: _puzzle,
@@ -24254,49 +25395,90 @@ function CompletedScreen({
   onJoinDiscussion,
   onContribute
 }) {
-  return /* @__PURE__ */ Devvit.createElement("div", { className: "flex flex-col h-full w-full max-w-2xl mx-auto px-4 py-6 overflow-y-auto" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-center py-6 bg-gray-100 rounded-xl mb-6" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-2xl mb-2" }, "\u2713"), /* @__PURE__ */ Devvit.createElement("h2", { className: "text-xl font-bold text-gray-900" }, "YOU'VE PLAYED TODAY")), /* @__PURE__ */ Devvit.createElement("div", { className: "bg-white border border-gray-200 rounded-xl p-4 mb-6" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between mb-2" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-gray-600" }, "Your answer:"), /* @__PURE__ */ Devvit.createElement("span", { className: "font-bold" }, "#", result.guessedIndex + 1, " ", result.wasCorrect ? /* @__PURE__ */ Devvit.createElement("span", { className: "text-green-600" }, "(Correct \u2713)") : /* @__PURE__ */ Devvit.createElement("span", { className: "text-red-600" }, "(Incorrect \u2717)"))), /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-gray-600" }, "Streak:"), /* @__PURE__ */ Devvit.createElement("span", { className: "font-bold" }, result.newStreak > 0 && result.newStreak >= 3 && "\u{1F525} ", result.newStreak, " ", result.newStreak === 1 ? "day" : "days"))), userProgress && /* @__PURE__ */ Devvit.createElement("div", { className: "mb-6" }, /* @__PURE__ */ Devvit.createElement(
-    LeaderboardPanel,
-    {
-      streakRank: streakRank ?? null,
-      accuracyRank: accuracyRank ?? null,
-      progress: userProgress
-    }
-  )), /* @__PURE__ */ Devvit.createElement("div", { className: "mb-6" }, /* @__PURE__ */ Devvit.createElement("h3", { className: "text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3" }, "Today's Community Stats"), /* @__PURE__ */ Devvit.createElement(
-    StatsPanel,
-    {
-      stats: result.stats,
-      streak: result.newStreak,
-      wasCorrect: result.wasCorrect,
-      userPercentile: result.userPercentile
-    }
-  )), /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gray-900 text-white rounded-xl p-6 mb-6" }, /* @__PURE__ */ Devvit.createElement(Timer, { className: "text-white" })), /* @__PURE__ */ Devvit.createElement("div", { className: "space-y-3" }, onViewBreakdown && /* @__PURE__ */ Devvit.createElement(
-    "button",
-    {
-      onClick: onViewBreakdown,
-      className: "w-full py-3 px-6 bg-gray-200 hover:bg-gray-300 text-gray-700 font-semibold rounded-xl transition-colors"
-    },
-    "View Full Breakdown"
-  ), onContribute && /* @__PURE__ */ Devvit.createElement(
-    "button",
-    {
-      onClick: onContribute,
-      className: "w-full py-3 px-6 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl transition-colors flex items-center justify-center gap-2"
-    },
-    /* @__PURE__ */ Devvit.createElement("span", null, "+"),
-    /* @__PURE__ */ Devvit.createElement("span", null, "Contribute AI Comments")
-  ), onJoinDiscussion && /* @__PURE__ */ Devvit.createElement(
-    "button",
-    {
-      onClick: onJoinDiscussion,
-      className: "w-full py-3 px-6 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-colors flex items-center justify-center gap-2"
-    },
-    /* @__PURE__ */ Devvit.createElement("span", null, "\u{1F4AC}"),
-    /* @__PURE__ */ Devvit.createElement("span", null, "Join Discussion")
-  )));
+  return /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "flex flex-col h-full w-full max-w-2xl mx-auto px-4 py-6 overflow-y-auto", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "text-center py-6 bg-gray-100 rounded-xl mb-6", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "text-2xl mb-2", children: "\u2713" }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h2", { className: "text-xl font-bold text-gray-900", children: "YOU'VE PLAYED TODAY" })
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "bg-white border border-gray-200 rounded-xl p-4 mb-6", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "flex items-center justify-between mb-2", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "text-gray-600", children: "Your answer:" }),
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("span", { className: "font-bold", children: [
+          "#",
+          result.guessedIndex + 1,
+          " ",
+          result.wasCorrect ? /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "text-green-600", children: "(Correct \u2713)" }) : /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "text-red-600", children: "(Incorrect \u2717)" })
+        ] })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "flex items-center justify-between", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { className: "text-gray-600", children: "Streak:" }),
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("span", { className: "font-bold", children: [
+          result.newStreak > 0 && result.newStreak >= 3 && "\u{1F525} ",
+          result.newStreak,
+          " ",
+          result.newStreak === 1 ? "day" : "days"
+        ] })
+      ] })
+    ] }),
+    userProgress && /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "mb-6", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+      LeaderboardPanel,
+      {
+        streakRank: streakRank ?? null,
+        accuracyRank: accuracyRank ?? null,
+        progress: userProgress
+      }
+    ) }),
+    /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "mb-6", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h3", { className: "text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3", children: "Today's Community Stats" }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+        StatsPanel,
+        {
+          stats: result.stats,
+          streak: result.newStreak,
+          wasCorrect: result.wasCorrect,
+          userPercentile: result.userPercentile
+        }
+      )
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", { className: "bg-gray-900 text-white rounded-xl p-6 mb-6", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(Timer, { className: "text-white" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", { className: "space-y-3", children: [
+      onViewBreakdown && /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+        "button",
+        {
+          onClick: onViewBreakdown,
+          className: "w-full py-3 px-6 bg-gray-200 hover:bg-gray-300 text-gray-700 font-semibold rounded-xl transition-colors",
+          children: "View Full Breakdown"
+        }
+      ),
+      onContribute && /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(
+        "button",
+        {
+          onClick: onContribute,
+          className: "w-full py-3 px-6 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl transition-colors flex items-center justify-center gap-2",
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { children: "+" }),
+            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { children: "Contribute AI Comments" })
+          ]
+        }
+      ),
+      onJoinDiscussion && /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)(
+        "button",
+        {
+          onClick: onJoinDiscussion,
+          className: "w-full py-3 px-6 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-colors flex items-center justify-center gap-2",
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { children: "\u{1F4AC}" }),
+            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("span", { children: "Join Discussion" })
+          ]
+        }
+      )
+    ] })
+  ] });
 }
 
 // src/components/game/ConfirmModal.tsx
 var import_react5 = __toESM(require_react(), 1);
+var import_jsx_runtime13 = __toESM(require_jsx_runtime(), 1);
 function truncateText(text, maxLength = 100) {
   if (text.length <= maxLength)
     return text;
@@ -24339,63 +25521,83 @@ function ConfirmModal({
   }, [isOpen, onCancel]);
   if (!isOpen || !comment)
     return null;
-  return /* @__PURE__ */ Devvit.createElement(
+  return /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(
     "div",
     {
       className: "fixed inset-0 z-50 flex items-center justify-center",
       role: "dialog",
       "aria-modal": "true",
-      "aria-labelledby": "confirm-modal-title"
-    },
-    /* @__PURE__ */ Devvit.createElement(
-      "div",
-      {
-        className: "absolute inset-0 bg-black bg-opacity-50",
-        onClick: onCancel,
-        "aria-hidden": "true"
-      }
-    ),
-    /* @__PURE__ */ Devvit.createElement(
-      "div",
-      {
-        ref: modalRef,
-        className: "relative bg-white rounded-2xl shadow-2xl max-w-md w-full mx-4 p-6 animate-fade-in"
-      },
-      /* @__PURE__ */ Devvit.createElement(
-        "h2",
-        {
-          id: "confirm-modal-title",
-          className: "text-xl font-bold text-gray-900 text-center mb-4"
-        },
-        "You selected Comment #",
-        comment.displayIndex + 1,
-        ":"
-      ),
-      /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gray-100 rounded-lg p-4 mb-6" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-sm text-gray-500 mb-1" }, "u/", comment.username), /* @__PURE__ */ Devvit.createElement("div", { className: "text-gray-800 italic" }, '"', truncateText(comment.text), '"')),
-      /* @__PURE__ */ Devvit.createElement("p", { className: "text-center text-gray-700 font-medium mb-6" }, "Is this your final answer?"),
-      /* @__PURE__ */ Devvit.createElement("div", { className: "flex gap-3" }, /* @__PURE__ */ Devvit.createElement(
-        "button",
-        {
-          onClick: onCancel,
-          disabled: isSubmitting,
-          className: "flex-1 py-4 px-6 bg-gray-200 hover:bg-gray-300 disabled:bg-gray-100 text-gray-700 font-semibold rounded-xl transition-colors duration-200"
-        },
-        "Cancel"
-      ), /* @__PURE__ */ Devvit.createElement(
-        "button",
-        {
-          ref: confirmButtonRef,
-          onClick: onConfirm,
-          disabled: isSubmitting,
-          className: "flex-1 py-4 px-6 bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-bold rounded-xl transition-colors duration-200"
-        },
-        isSubmitting ? "Submitting..." : "Confirm Guess"
-      ))
-    )
+      "aria-labelledby": "confirm-modal-title",
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+          "div",
+          {
+            className: "absolute inset-0 bg-black bg-opacity-50",
+            onClick: onCancel,
+            "aria-hidden": "true"
+          }
+        ),
+        /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(
+          "div",
+          {
+            ref: modalRef,
+            className: "relative bg-white rounded-2xl shadow-2xl max-w-md w-full mx-4 p-6 animate-fade-in",
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(
+                "h2",
+                {
+                  id: "confirm-modal-title",
+                  className: "text-xl font-bold text-gray-900 text-center mb-4",
+                  children: [
+                    "You selected Comment #",
+                    comment.displayIndex + 1,
+                    ":"
+                  ]
+                }
+              ),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "bg-gray-100 rounded-lg p-4 mb-6", children: [
+                /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "text-sm text-gray-500 mb-1", children: [
+                  "u/",
+                  comment.username
+                ] }),
+                /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "text-gray-800 italic", children: [
+                  '"',
+                  truncateText(comment.text),
+                  '"'
+                ] })
+              ] }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", { className: "text-center text-gray-700 font-medium mb-6", children: "Is this your final answer?" }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", { className: "flex gap-3", children: [
+                /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+                  "button",
+                  {
+                    onClick: onCancel,
+                    disabled: isSubmitting,
+                    className: "flex-1 py-4 px-6 bg-gray-200 hover:bg-gray-300 disabled:bg-gray-100 text-gray-700 font-semibold rounded-xl transition-colors duration-200",
+                    children: "Cancel"
+                  }
+                ),
+                /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(
+                  "button",
+                  {
+                    ref: confirmButtonRef,
+                    onClick: onConfirm,
+                    disabled: isSubmitting,
+                    className: "flex-1 py-4 px-6 bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-bold rounded-xl transition-colors duration-200",
+                    children: isSubmitting ? "Submitting..." : "Confirm Guess"
+                  }
+                )
+              ] })
+            ]
+          }
+        )
+      ]
+    }
   );
 }
 
 // src/components/shared/LoadingSpinner.tsx
+var import_jsx_runtime14 = __toESM(require_jsx_runtime(), 1);
 var sizeClasses = {
   small: "text-2xl",
   medium: "text-4xl",
@@ -24411,25 +25613,28 @@ function LoadingSpinner({
   message,
   className = ""
 }) {
-  return /* @__PURE__ */ Devvit.createElement(
+  return /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)(
     "div",
     {
       className: `flex flex-col items-center justify-center ${containerSizes[size]} ${className}`,
       role: "status",
-      "aria-live": "polite"
-    },
-    /* @__PURE__ */ Devvit.createElement("div", { className: `${sizeClasses[size]} animate-pulse` }, "\u{1F50D}"),
-    message && /* @__PURE__ */ Devvit.createElement("p", { className: "mt-3 text-gray-600 text-center" }, message),
-    /* @__PURE__ */ Devvit.createElement("span", { className: "sr-only" }, "Loading...")
+      "aria-live": "polite",
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: `${sizeClasses[size]} animate-pulse`, children: "\u{1F50D}" }),
+        message && /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", { className: "mt-3 text-gray-600 text-center", children: message }),
+        /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("span", { className: "sr-only", children: "Loading..." })
+      ]
+    }
   );
 }
 function FullPageSpinner({
   message = "Loading puzzle..."
 }) {
-  return /* @__PURE__ */ Devvit.createElement("div", { className: "flex flex-col h-full w-full items-center justify-center min-h-[300px]" }, /* @__PURE__ */ Devvit.createElement(LoadingSpinner, { size: "large", message }));
+  return /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("div", { className: "flex flex-col h-full w-full items-center justify-center min-h-[300px]", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(LoadingSpinner, { size: "large", message }) });
 }
 
 // src/components/shared/ErrorState.tsx
+var import_jsx_runtime15 = __toESM(require_jsx_runtime(), 1);
 function getErrorMessage(error) {
   const errorString = error instanceof Error ? error.message : String(error);
   if (errorString.includes("network") || errorString.includes("fetch") || errorString.includes("Network")) {
@@ -24450,23 +25655,25 @@ function ErrorState({
   retryLabel = "Try Again",
   className = ""
 }) {
-  return /* @__PURE__ */ Devvit.createElement(
+  return /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)(
     "div",
     {
       className: `flex flex-col items-center justify-center p-6 text-center ${className}`,
-      role: "alert"
-    },
-    /* @__PURE__ */ Devvit.createElement("div", { className: "text-4xl mb-4" }, "\u{1F615}"),
-    /* @__PURE__ */ Devvit.createElement("h2", { className: "text-lg font-semibold text-gray-900 mb-2" }, title),
-    /* @__PURE__ */ Devvit.createElement("p", { className: "text-sm text-gray-600 mb-6 max-w-sm" }, message),
-    onRetry && /* @__PURE__ */ Devvit.createElement(
-      "button",
-      {
-        onClick: onRetry,
-        className: "px-6 py-3 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-semibold rounded-xl transition-colors duration-200 touch-manipulation"
-      },
-      retryLabel
-    )
+      role: "alert",
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "text-4xl mb-4", children: "\u{1F615}" }),
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", { className: "text-lg font-semibold text-gray-900 mb-2", children: title }),
+        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", { className: "text-sm text-gray-600 mb-6 max-w-sm", children: message }),
+        onRetry && /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(
+          "button",
+          {
+            onClick: onRetry,
+            className: "px-6 py-3 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-semibold rounded-xl transition-colors duration-200 touch-manipulation",
+            children: retryLabel
+          }
+        )
+      ]
+    }
   );
 }
 function FullPageError({
@@ -24475,7 +25682,7 @@ function FullPageError({
   onRetry,
   retryLabel
 }) {
-  return /* @__PURE__ */ Devvit.createElement("div", { className: "flex flex-col h-full w-full items-center justify-center min-h-[300px] px-4" }, /* @__PURE__ */ Devvit.createElement(
+  return /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", { className: "flex flex-col h-full w-full items-center justify-center min-h-[300px] px-4", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(
     ErrorState,
     {
       title,
@@ -24483,7 +25690,7 @@ function FullPageError({
       onRetry,
       retryLabel
     }
-  ));
+  ) });
 }
 
 // src/components/contributions/ContributeScreen.tsx
@@ -24491,6 +25698,7 @@ var import_react7 = __toESM(require_react(), 1);
 
 // src/components/contributions/ContributionForm.tsx
 var import_react6 = __toESM(require_react(), 1);
+var import_jsx_runtime16 = __toESM(require_jsx_runtime(), 1);
 var CATEGORIES = [
   { value: "life", label: "Life & Advice" },
   { value: "entertainment", label: "Entertainment" },
@@ -24537,77 +25745,109 @@ function ContributionForm({ onSubmit, disabled }) {
     }
   };
   const isValid = promptIdea.trim() && aiCommentText.trim() && aiTells.some((t) => t.trim());
-  return /* @__PURE__ */ Devvit.createElement("form", { onSubmit: handleSubmit, className: "space-y-4" }, /* @__PURE__ */ Devvit.createElement("div", null, /* @__PURE__ */ Devvit.createElement("label", { className: "block text-sm font-medium text-gray-700 mb-1" }, "Prompt/Question Idea"), /* @__PURE__ */ Devvit.createElement(
-    "input",
-    {
-      type: "text",
-      value: promptIdea,
-      onChange: (e) => setPromptIdea(e.target.value),
-      placeholder: "e.g., What's a skill you wish you learned earlier?",
-      className: "w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500",
-      disabled,
-      maxLength: 200
-    }
-  ), /* @__PURE__ */ Devvit.createElement("p", { className: "text-xs text-gray-500 mt-1" }, promptIdea.length, "/200")), /* @__PURE__ */ Devvit.createElement("div", null, /* @__PURE__ */ Devvit.createElement("label", { className: "block text-sm font-medium text-gray-700 mb-1" }, "Category"), /* @__PURE__ */ Devvit.createElement(
-    "select",
-    {
-      value: category,
-      onChange: (e) => setCategory(e.target.value),
-      className: "w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500",
-      disabled
-    },
-    CATEGORIES.map((cat) => /* @__PURE__ */ Devvit.createElement("option", { key: cat.value, value: cat.value }, cat.label))
-  )), /* @__PURE__ */ Devvit.createElement("div", null, /* @__PURE__ */ Devvit.createElement("label", { className: "block text-sm font-medium text-gray-700 mb-1" }, "Your AI-Style Comment"), /* @__PURE__ */ Devvit.createElement(
-    "textarea",
-    {
-      value: aiCommentText,
-      onChange: (e) => setAiCommentText(e.target.value),
-      placeholder: "Write a comment that sounds like it was written by AI...",
-      className: "w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 h-24 resize-none",
-      disabled,
-      maxLength: 500
-    }
-  ), /* @__PURE__ */ Devvit.createElement("p", { className: "text-xs text-gray-500 mt-1" }, aiCommentText.length, "/500")), /* @__PURE__ */ Devvit.createElement("div", null, /* @__PURE__ */ Devvit.createElement("label", { className: "block text-sm font-medium text-gray-700 mb-1" }, "Why Does This Sound Like AI? (1-5 reasons)"), /* @__PURE__ */ Devvit.createElement("div", { className: "space-y-2" }, aiTells.map((tell, index) => /* @__PURE__ */ Devvit.createElement("div", { key: index, className: "flex gap-2" }, /* @__PURE__ */ Devvit.createElement(
-    "input",
-    {
-      type: "text",
-      value: tell,
-      onChange: (e) => handleTellChange(index, e.target.value),
-      placeholder: `Reason ${index + 1}...`,
-      className: "flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500",
-      disabled,
-      maxLength: 150
-    }
-  ), aiTells.length > 1 && /* @__PURE__ */ Devvit.createElement(
-    "button",
-    {
-      type: "button",
-      onClick: () => handleRemoveTell(index),
-      className: "px-3 py-2 text-red-600 hover:bg-red-50 rounded-lg",
-      disabled
-    },
-    "X"
-  )))), aiTells.length < 5 && /* @__PURE__ */ Devvit.createElement(
-    "button",
-    {
-      type: "button",
-      onClick: handleAddTell,
-      className: "mt-2 text-sm text-blue-600 hover:text-blue-700",
-      disabled
-    },
-    "+ Add another reason"
-  )), /* @__PURE__ */ Devvit.createElement(
-    "button",
-    {
-      type: "submit",
-      disabled: disabled || !isValid,
-      className: `w-full py-3 px-6 rounded-xl font-bold transition-colors ${isValid && !disabled ? "bg-blue-600 hover:bg-blue-700 text-white" : "bg-gray-200 text-gray-400 cursor-not-allowed"}`
-    },
-    disabled ? "Submitting..." : "Submit Contribution"
-  ), /* @__PURE__ */ Devvit.createElement("p", { className: "text-xs text-gray-500 text-center" }, "Your contribution may be used in future puzzles if approved!"));
+  return /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("form", { onSubmit: handleSubmit, className: "space-y-4", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("label", { className: "block text-sm font-medium text-gray-700 mb-1", children: "Prompt/Question Idea" }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(
+        "input",
+        {
+          type: "text",
+          value: promptIdea,
+          onChange: (e) => setPromptIdea(e.target.value),
+          placeholder: "e.g., What's a skill you wish you learned earlier?",
+          className: "w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500",
+          disabled,
+          maxLength: 200
+        }
+      ),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "text-xs text-gray-500 mt-1", children: [
+        promptIdea.length,
+        "/200"
+      ] })
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("label", { className: "block text-sm font-medium text-gray-700 mb-1", children: "Category" }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(
+        "select",
+        {
+          value: category,
+          onChange: (e) => setCategory(e.target.value),
+          className: "w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500",
+          disabled,
+          children: CATEGORIES.map((cat) => /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("option", { value: cat.value, children: cat.label }, cat.value))
+        }
+      )
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("label", { className: "block text-sm font-medium text-gray-700 mb-1", children: "Your AI-Style Comment" }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(
+        "textarea",
+        {
+          value: aiCommentText,
+          onChange: (e) => setAiCommentText(e.target.value),
+          placeholder: "Write a comment that sounds like it was written by AI...",
+          className: "w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 h-24 resize-none",
+          disabled,
+          maxLength: 500
+        }
+      ),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("p", { className: "text-xs text-gray-500 mt-1", children: [
+        aiCommentText.length,
+        "/500"
+      ] })
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("label", { className: "block text-sm font-medium text-gray-700 mb-1", children: "Why Does This Sound Like AI? (1-5 reasons)" }),
+      /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", { className: "space-y-2", children: aiTells.map((tell, index) => /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", { className: "flex gap-2", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(
+          "input",
+          {
+            type: "text",
+            value: tell,
+            onChange: (e) => handleTellChange(index, e.target.value),
+            placeholder: `Reason ${index + 1}...`,
+            className: "flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500",
+            disabled,
+            maxLength: 150
+          }
+        ),
+        aiTells.length > 1 && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(
+          "button",
+          {
+            type: "button",
+            onClick: () => handleRemoveTell(index),
+            className: "px-3 py-2 text-red-600 hover:bg-red-50 rounded-lg",
+            disabled,
+            children: "X"
+          }
+        )
+      ] }, index)) }),
+      aiTells.length < 5 && /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(
+        "button",
+        {
+          type: "button",
+          onClick: handleAddTell,
+          className: "mt-2 text-sm text-blue-600 hover:text-blue-700",
+          disabled,
+          children: "+ Add another reason"
+        }
+      )
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(
+      "button",
+      {
+        type: "submit",
+        disabled: disabled || !isValid,
+        className: `w-full py-3 px-6 rounded-xl font-bold transition-colors ${isValid && !disabled ? "bg-blue-600 hover:bg-blue-700 text-white" : "bg-gray-200 text-gray-400 cursor-not-allowed"}`,
+        children: disabled ? "Submitting..." : "Submit Contribution"
+      }
+    ),
+    /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", { className: "text-xs text-gray-500 text-center", children: "Your contribution may be used in future puzzles if approved!" })
+  ] });
 }
 
 // src/components/contributions/ContributionCard.tsx
+var import_jsx_runtime17 = __toESM(require_jsx_runtime(), 1);
 var STATUS_BADGES = {
   pending: { bg: "bg-yellow-100", text: "text-yellow-800", label: "Pending Review" },
   approved: { bg: "bg-green-100", text: "text-green-800", label: "Approved" },
@@ -24618,28 +25858,74 @@ function ContributionCard({ contribution, onVote, disabled }) {
   const status = STATUS_BADGES[contribution.status] ?? STATUS_BADGES.pending;
   const netVotes = contribution.upvotes - contribution.downvotes;
   const hasVoted = contribution.userVote !== null;
-  return /* @__PURE__ */ Devvit.createElement("div", { className: "bg-white border border-gray-200 rounded-xl p-4 shadow-sm" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between mb-3" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center gap-2" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-sm font-medium text-gray-700" }, "u/", contribution.username), /* @__PURE__ */ Devvit.createElement("span", { className: `text-xs px-2 py-0.5 rounded-full ${status.bg} ${status.text}` }, status.label)), /* @__PURE__ */ Devvit.createElement("span", { className: "text-xs text-gray-400" }, new Date(contribution.createdAt).toLocaleDateString())), /* @__PURE__ */ Devvit.createElement("div", { className: "mb-3" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-xs font-medium text-gray-500 uppercase tracking-wide" }, "Prompt Idea"), /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-900 font-medium mt-1" }, '"', contribution.promptIdea, '"')), /* @__PURE__ */ Devvit.createElement("div", { className: "mb-3 bg-gray-50 rounded-lg p-3" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-xs font-medium text-gray-500 uppercase tracking-wide" }, "AI Comment"), /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-700 mt-1 italic" }, '"', contribution.aiCommentText, '"')), /* @__PURE__ */ Devvit.createElement("div", { className: "mb-4" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-xs font-medium text-gray-500 uppercase tracking-wide" }, "Why It Sounds Like AI"), /* @__PURE__ */ Devvit.createElement("ul", { className: "mt-1 space-y-1" }, contribution.aiTells.map((tell, i) => /* @__PURE__ */ Devvit.createElement("li", { key: i, className: "text-sm text-gray-600 flex items-start gap-2" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-blue-500" }, "\u2022"), /* @__PURE__ */ Devvit.createElement("span", null, tell))))), /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between border-t border-gray-100 pt-3" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center gap-2" }, /* @__PURE__ */ Devvit.createElement(
-    "button",
-    {
-      onClick: () => onVote(contribution.id, "up"),
-      disabled: disabled || hasVoted,
-      className: `p-2 rounded-lg transition-colors ${hasVoted ? "text-gray-400 cursor-not-allowed" : "text-gray-600 hover:bg-green-50 hover:text-green-600"}`,
-      title: hasVoted ? "Already voted" : "Upvote"
-    },
-    /* @__PURE__ */ Devvit.createElement("svg", { className: "w-5 h-5", fill: "none", viewBox: "0 0 24 24", stroke: "currentColor" }, /* @__PURE__ */ Devvit.createElement("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M5 15l7-7 7 7" }))
-  ), /* @__PURE__ */ Devvit.createElement("span", { className: `font-bold min-w-[2rem] text-center ${netVotes > 0 ? "text-green-600" : netVotes < 0 ? "text-red-600" : "text-gray-600"}` }, netVotes > 0 ? "+" : "", netVotes), /* @__PURE__ */ Devvit.createElement(
-    "button",
-    {
-      onClick: () => onVote(contribution.id, "down"),
-      disabled: disabled || hasVoted,
-      className: `p-2 rounded-lg transition-colors ${hasVoted ? "text-gray-400 cursor-not-allowed" : "text-gray-600 hover:bg-red-50 hover:text-red-600"}`,
-      title: hasVoted ? "Already voted" : "Downvote"
-    },
-    /* @__PURE__ */ Devvit.createElement("svg", { className: "w-5 h-5", fill: "none", viewBox: "0 0 24 24", stroke: "currentColor" }, /* @__PURE__ */ Devvit.createElement("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M19 9l-7 7-7-7" }))
-  )), contribution.usedInPuzzleId && /* @__PURE__ */ Devvit.createElement("span", { className: "text-xs text-purple-600 font-medium" }, "Used in puzzle!")));
+  return /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "bg-white border border-gray-200 rounded-xl p-4 shadow-sm", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "flex items-center justify-between mb-3", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "flex items-center gap-2", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("span", { className: "text-sm font-medium text-gray-700", children: [
+          "u/",
+          contribution.username
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("span", { className: `text-xs px-2 py-0.5 rounded-full ${status.bg} ${status.text}`, children: status.label })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("span", { className: "text-xs text-gray-400", children: new Date(contribution.createdAt).toLocaleDateString() })
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "mb-3", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("span", { className: "text-xs font-medium text-gray-500 uppercase tracking-wide", children: "Prompt Idea" }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("p", { className: "text-gray-900 font-medium mt-1", children: [
+        '"',
+        contribution.promptIdea,
+        '"'
+      ] })
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "mb-3 bg-gray-50 rounded-lg p-3", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("span", { className: "text-xs font-medium text-gray-500 uppercase tracking-wide", children: "AI Comment" }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("p", { className: "text-gray-700 mt-1 italic", children: [
+        '"',
+        contribution.aiCommentText,
+        '"'
+      ] })
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "mb-4", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("span", { className: "text-xs font-medium text-gray-500 uppercase tracking-wide", children: "Why It Sounds Like AI" }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("ul", { className: "mt-1 space-y-1", children: contribution.aiTells.map((tell, i) => /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("li", { className: "text-sm text-gray-600 flex items-start gap-2", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("span", { className: "text-blue-500", children: "\u2022" }),
+        /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("span", { children: tell })
+      ] }, i)) })
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "flex items-center justify-between border-t border-gray-100 pt-3", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", { className: "flex items-center gap-2", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(
+          "button",
+          {
+            onClick: () => onVote(contribution.id, "up"),
+            disabled: disabled || hasVoted,
+            className: `p-2 rounded-lg transition-colors ${hasVoted ? "text-gray-400 cursor-not-allowed" : "text-gray-600 hover:bg-green-50 hover:text-green-600"}`,
+            title: hasVoted ? "Already voted" : "Upvote",
+            children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("svg", { className: "w-5 h-5", fill: "none", viewBox: "0 0 24 24", stroke: "currentColor", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M5 15l7-7 7 7" }) })
+          }
+        ),
+        /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("span", { className: `font-bold min-w-[2rem] text-center ${netVotes > 0 ? "text-green-600" : netVotes < 0 ? "text-red-600" : "text-gray-600"}`, children: [
+          netVotes > 0 ? "+" : "",
+          netVotes
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(
+          "button",
+          {
+            onClick: () => onVote(contribution.id, "down"),
+            disabled: disabled || hasVoted,
+            className: `p-2 rounded-lg transition-colors ${hasVoted ? "text-gray-400 cursor-not-allowed" : "text-gray-600 hover:bg-red-50 hover:text-red-600"}`,
+            title: hasVoted ? "Already voted" : "Downvote",
+            children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("svg", { className: "w-5 h-5", fill: "none", viewBox: "0 0 24 24", stroke: "currentColor", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M19 9l-7 7-7-7" }) })
+          }
+        )
+      ] }),
+      contribution.usedInPuzzleId && /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("span", { className: "text-xs text-purple-600 font-medium", children: "Used in puzzle!" })
+    ] })
+  ] });
 }
 
 // src/components/contributions/ContributionList.tsx
+var import_jsx_runtime18 = __toESM(require_jsx_runtime(), 1);
 function ContributionList({
   contributions,
   onVote,
@@ -24647,38 +25933,78 @@ function ContributionList({
   onFilterChange,
   loading
 }) {
-  return /* @__PURE__ */ Devvit.createElement("div", { className: "space-y-4" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex flex-wrap gap-2 items-center" }, /* @__PURE__ */ Devvit.createElement(
-    "select",
-    {
-      value: filter.sortBy ?? "newest",
-      onChange: (e) => onFilterChange({ ...filter, sortBy: e.target.value }),
-      className: "px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500"
-    },
-    /* @__PURE__ */ Devvit.createElement("option", { value: "newest" }, "Newest"),
-    /* @__PURE__ */ Devvit.createElement("option", { value: "popular" }, "Most Popular"),
-    /* @__PURE__ */ Devvit.createElement("option", { value: "controversial" }, "Controversial")
-  )), loading && /* @__PURE__ */ Devvit.createElement("div", { className: "text-center py-8" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-2xl animate-spin mb-2" }, "Loading..."), /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-500" }, "Loading contributions...")), !loading && contributions.length === 0 && /* @__PURE__ */ Devvit.createElement("div", { className: "text-center py-8 bg-gray-50 rounded-xl" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-3xl mb-2" }, "No submissions yet"), /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-500" }, "Be the first to contribute!")), !loading && contributions.length > 0 && /* @__PURE__ */ Devvit.createElement("div", { className: "space-y-4" }, contributions.map((contribution) => /* @__PURE__ */ Devvit.createElement(
-    ContributionCard,
-    {
-      key: contribution.id,
-      contribution,
-      onVote
-    }
-  ))));
+  return /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", { className: "space-y-4", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", { className: "flex flex-wrap gap-2 items-center", children: /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)(
+      "select",
+      {
+        value: filter.sortBy ?? "newest",
+        onChange: (e) => onFilterChange({ ...filter, sortBy: e.target.value }),
+        className: "px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500",
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("option", { value: "newest", children: "Newest" }),
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("option", { value: "popular", children: "Most Popular" }),
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("option", { value: "controversial", children: "Controversial" })
+        ]
+      }
+    ) }),
+    loading && /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", { className: "text-center py-8", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", { className: "text-2xl animate-spin mb-2", children: "Loading..." }),
+      /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", { className: "text-gray-500", children: "Loading contributions..." })
+    ] }),
+    !loading && contributions.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", { className: "text-center py-8 bg-gray-50 rounded-xl", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", { className: "text-3xl mb-2", children: "No submissions yet" }),
+      /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", { className: "text-gray-500", children: "Be the first to contribute!" })
+    ] }),
+    !loading && contributions.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", { className: "space-y-4", children: contributions.map((contribution) => /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+      ContributionCard,
+      {
+        contribution,
+        onVote
+      },
+      contribution.id
+    )) })
+  ] });
 }
 
 // src/components/contributions/ContributorLeaderboard.tsx
+var import_jsx_runtime19 = __toESM(require_jsx_runtime(), 1);
 function ContributorLeaderboard({ contributors, loading }) {
   if (loading) {
-    return /* @__PURE__ */ Devvit.createElement("div", { className: "text-center py-6" }, /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-500" }, "Loading leaderboard..."));
+    return /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("div", { className: "text-center py-6", children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", { className: "text-gray-500", children: "Loading leaderboard..." }) });
   }
   if (contributors.length === 0) {
-    return /* @__PURE__ */ Devvit.createElement("div", { className: "text-center py-6 bg-gray-50 rounded-xl" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-2xl mb-2" }, "No contributors yet"), /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-500" }, "Be the first to contribute!"));
+    return /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", { className: "text-center py-6 bg-gray-50 rounded-xl", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("div", { className: "text-2xl mb-2", children: "No contributors yet" }),
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", { className: "text-gray-500", children: "Be the first to contribute!" })
+    ] });
   }
-  return /* @__PURE__ */ Devvit.createElement("div", { className: "bg-white border border-gray-200 rounded-xl overflow-hidden" }, /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gradient-to-r from-purple-600 to-blue-600 text-white px-4 py-3" }, /* @__PURE__ */ Devvit.createElement("h3", { className: "font-bold text-lg" }, "Top Contributors")), /* @__PURE__ */ Devvit.createElement("ul", { className: "divide-y divide-gray-100" }, contributors.map((contributor, index) => /* @__PURE__ */ Devvit.createElement("li", { key: contributor.userId, className: "px-4 py-3 flex items-center justify-between" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center gap-3" }, /* @__PURE__ */ Devvit.createElement("span", { className: `w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm ${index === 0 ? "bg-yellow-100 text-yellow-700" : index === 1 ? "bg-gray-100 text-gray-700" : index === 2 ? "bg-orange-100 text-orange-700" : "bg-gray-50 text-gray-600"}` }, index === 0 ? "1st" : index === 1 ? "2nd" : index === 2 ? "3rd" : `#${index + 1}`), /* @__PURE__ */ Devvit.createElement("div", null, /* @__PURE__ */ Devvit.createElement("p", { className: "font-medium text-gray-900" }, "u/", contributor.username), /* @__PURE__ */ Devvit.createElement("p", { className: "text-xs text-gray-500" }, contributor.totalSubmissions, " submitted", contributor.usedCount > 0 && ` - ${contributor.usedCount} used in puzzles!`))), /* @__PURE__ */ Devvit.createElement("div", { className: "text-right" }, /* @__PURE__ */ Devvit.createElement("p", { className: "font-bold text-purple-600" }, contributor.contributorScore), /* @__PURE__ */ Devvit.createElement("p", { className: "text-xs text-gray-500" }, "points"))))));
+  return /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", { className: "bg-white border border-gray-200 rounded-xl overflow-hidden", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("div", { className: "bg-gradient-to-r from-purple-600 to-blue-600 text-white px-4 py-3", children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("h3", { className: "font-bold text-lg", children: "Top Contributors" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("ul", { className: "divide-y divide-gray-100", children: contributors.map((contributor, index) => /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("li", { className: "px-4 py-3 flex items-center justify-between", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", { className: "flex items-center gap-3", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("span", { className: `w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm ${index === 0 ? "bg-yellow-100 text-yellow-700" : index === 1 ? "bg-gray-100 text-gray-700" : index === 2 ? "bg-orange-100 text-orange-700" : "bg-gray-50 text-gray-600"}`, children: index === 0 ? "1st" : index === 1 ? "2nd" : index === 2 ? "3rd" : `#${index + 1}` }),
+        /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("p", { className: "font-medium text-gray-900", children: [
+            "u/",
+            contributor.username
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("p", { className: "text-xs text-gray-500", children: [
+            contributor.totalSubmissions,
+            " submitted",
+            contributor.usedCount > 0 && ` - ${contributor.usedCount} used in puzzles!`
+          ] })
+        ] })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", { className: "text-right", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", { className: "font-bold text-purple-600", children: contributor.contributorScore }),
+        /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", { className: "text-xs text-gray-500", children: "points" })
+      ] })
+    ] }, contributor.userId)) })
+  ] });
 }
 
 // src/components/contributions/ContributeScreen.tsx
+var import_jsx_runtime20 = __toESM(require_jsx_runtime(), 1);
 function ContributeScreen({
   contributions,
   myContributions,
@@ -24698,34 +26024,87 @@ function ContributeScreen({
     { id: "my", label: "My Submissions", icon: "My" },
     { id: "leaderboard", label: "Top", icon: "Top" }
   ];
-  return /* @__PURE__ */ Devvit.createElement("div", { className: "flex flex-col h-full w-full max-w-2xl mx-auto" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between px-4 py-3 border-b border-gray-200" }, /* @__PURE__ */ Devvit.createElement(
-    "button",
-    {
-      onClick: onBack,
-      className: "text-blue-600 hover:text-blue-700 font-medium"
-    },
-    "Back to Game"
-  ), /* @__PURE__ */ Devvit.createElement("h1", { className: "font-bold text-lg" }, "Contribute"), /* @__PURE__ */ Devvit.createElement("div", { className: "w-20" })), /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gradient-to-r from-purple-500 to-blue-500 text-white px-4 py-4" }, /* @__PURE__ */ Devvit.createElement("h2", { className: "font-bold text-lg mb-1" }, "Help Build the Game!"), /* @__PURE__ */ Devvit.createElement("p", { className: "text-sm opacity-90" }, "Submit AI-style comments that might be used in future puzzles. The best submissions get used and you get credit!")), /* @__PURE__ */ Devvit.createElement("div", { className: "flex border-b border-gray-200" }, tabs.map((tab) => /* @__PURE__ */ Devvit.createElement(
-    "button",
-    {
-      key: tab.id,
-      onClick: () => setActiveTab(tab.id),
-      className: `flex-1 py-3 text-center text-sm font-medium transition-colors ${activeTab === tab.id ? "text-blue-600 border-b-2 border-blue-600" : "text-gray-500 hover:text-gray-700"}`
-    },
-    tab.label
-  ))), /* @__PURE__ */ Devvit.createElement("div", { className: "flex-1 overflow-y-auto p-4" }, activeTab === "submit" && /* @__PURE__ */ Devvit.createElement("div", null, /* @__PURE__ */ Devvit.createElement("div", { className: "bg-blue-50 rounded-lg p-4 mb-4" }, /* @__PURE__ */ Devvit.createElement("h3", { className: "font-semibold text-blue-900 mb-2" }, "How to Submit"), /* @__PURE__ */ Devvit.createElement("ul", { className: "text-sm text-blue-800 space-y-1" }, /* @__PURE__ */ Devvit.createElement("li", null, "1. Think of a Reddit-style question prompt"), /* @__PURE__ */ Devvit.createElement("li", null, "2. Write a comment that sounds AI-generated"), /* @__PURE__ */ Devvit.createElement("li", null, "3. Explain what makes it sound like AI"), /* @__PURE__ */ Devvit.createElement("li", null, "4. If approved, your comment may appear in a puzzle!"))), /* @__PURE__ */ Devvit.createElement(ContributionForm, { onSubmit, disabled: submitting })), activeTab === "browse" && /* @__PURE__ */ Devvit.createElement(
-    ContributionList,
-    {
-      contributions,
-      onVote,
-      filter,
-      onFilterChange,
-      loading
-    }
-  ), activeTab === "my" && /* @__PURE__ */ Devvit.createElement("div", null, myContributions.length === 0 ? /* @__PURE__ */ Devvit.createElement("div", { className: "text-center py-8 bg-gray-50 rounded-xl" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-3xl mb-2" }, "No submissions yet"), /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-500" }, "Switch to Submit tab to contribute!")) : /* @__PURE__ */ Devvit.createElement("div", { className: "space-y-4" }, myContributions.map((contribution) => /* @__PURE__ */ Devvit.createElement("div", { key: contribution.id, className: "bg-white border border-gray-200 rounded-xl p-4" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between mb-2" }, /* @__PURE__ */ Devvit.createElement("span", { className: `text-xs px-2 py-0.5 rounded-full ${contribution.status === "approved" ? "bg-green-100 text-green-800" : contribution.status === "rejected" ? "bg-red-100 text-red-800" : contribution.status === "used" ? "bg-purple-100 text-purple-800" : "bg-yellow-100 text-yellow-800"}` }, contribution.status === "used" ? "Used in Puzzle!" : contribution.status.charAt(0).toUpperCase() + contribution.status.slice(1)), /* @__PURE__ */ Devvit.createElement("span", { className: "text-xs text-gray-400" }, new Date(contribution.createdAt).toLocaleDateString())), /* @__PURE__ */ Devvit.createElement("p", { className: "font-medium text-gray-900 mb-1" }, '"', contribution.promptIdea, '"'), /* @__PURE__ */ Devvit.createElement("p", { className: "text-sm text-gray-600 italic" }, '"', contribution.aiCommentText, '"'), /* @__PURE__ */ Devvit.createElement("div", { className: "mt-2 text-xs text-gray-500" }, "Votes: +", contribution.upvotes, " / -", contribution.downvotes))))), activeTab === "leaderboard" && /* @__PURE__ */ Devvit.createElement(ContributorLeaderboard, { contributors: topContributors, loading })));
+  return /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)("div", { className: "flex flex-col h-full w-full max-w-2xl mx-auto", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)("div", { className: "flex items-center justify-between px-4 py-3 border-b border-gray-200", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(
+        "button",
+        {
+          onClick: onBack,
+          className: "text-blue-600 hover:text-blue-700 font-medium",
+          children: "Back to Game"
+        }
+      ),
+      /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("h1", { className: "font-bold text-lg", children: "Contribute" }),
+      /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("div", { className: "w-20" })
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)("div", { className: "bg-gradient-to-r from-purple-500 to-blue-500 text-white px-4 py-4", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("h2", { className: "font-bold text-lg mb-1", children: "Help Build the Game!" }),
+      /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("p", { className: "text-sm opacity-90", children: "Submit AI-style comments that might be used in future puzzles. The best submissions get used and you get credit!" })
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("div", { className: "flex border-b border-gray-200", children: tabs.map((tab) => /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(
+      "button",
+      {
+        onClick: () => setActiveTab(tab.id),
+        className: `flex-1 py-3 text-center text-sm font-medium transition-colors ${activeTab === tab.id ? "text-blue-600 border-b-2 border-blue-600" : "text-gray-500 hover:text-gray-700"}`,
+        children: tab.label
+      },
+      tab.id
+    )) }),
+    /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)("div", { className: "flex-1 overflow-y-auto p-4", children: [
+      activeTab === "submit" && /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)("div", { className: "bg-blue-50 rounded-lg p-4 mb-4", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("h3", { className: "font-semibold text-blue-900 mb-2", children: "How to Submit" }),
+          /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)("ul", { className: "text-sm text-blue-800 space-y-1", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("li", { children: "1. Think of a Reddit-style question prompt" }),
+            /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("li", { children: "2. Write a comment that sounds AI-generated" }),
+            /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("li", { children: "3. Explain what makes it sound like AI" }),
+            /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("li", { children: "4. If approved, your comment may appear in a puzzle!" })
+          ] })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(ContributionForm, { onSubmit, disabled: submitting })
+      ] }),
+      activeTab === "browse" && /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(
+        ContributionList,
+        {
+          contributions,
+          onVote,
+          filter,
+          onFilterChange,
+          loading
+        }
+      ),
+      activeTab === "my" && /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("div", { children: myContributions.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)("div", { className: "text-center py-8 bg-gray-50 rounded-xl", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("div", { className: "text-3xl mb-2", children: "No submissions yet" }),
+        /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("p", { className: "text-gray-500", children: "Switch to Submit tab to contribute!" })
+      ] }) : /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("div", { className: "space-y-4", children: myContributions.map((contribution) => /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)("div", { className: "bg-white border border-gray-200 rounded-xl p-4", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)("div", { className: "flex items-center justify-between mb-2", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("span", { className: `text-xs px-2 py-0.5 rounded-full ${contribution.status === "approved" ? "bg-green-100 text-green-800" : contribution.status === "rejected" ? "bg-red-100 text-red-800" : contribution.status === "used" ? "bg-purple-100 text-purple-800" : "bg-yellow-100 text-yellow-800"}`, children: contribution.status === "used" ? "Used in Puzzle!" : contribution.status.charAt(0).toUpperCase() + contribution.status.slice(1) }),
+          /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("span", { className: "text-xs text-gray-400", children: new Date(contribution.createdAt).toLocaleDateString() })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)("p", { className: "font-medium text-gray-900 mb-1", children: [
+          '"',
+          contribution.promptIdea,
+          '"'
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)("p", { className: "text-sm text-gray-600 italic", children: [
+          '"',
+          contribution.aiCommentText,
+          '"'
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)("div", { className: "mt-2 text-xs text-gray-500", children: [
+          "Votes: +",
+          contribution.upvotes,
+          " / -",
+          contribution.downvotes
+        ] })
+      ] }, contribution.id)) }) }),
+      activeTab === "leaderboard" && /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(ContributorLeaderboard, { contributors: topContributors, loading })
+    ] })
+  ] });
 }
 
 // src/components/App.tsx
+var import_jsx_runtime21 = __toESM(require_jsx_runtime(), 1);
 function sendToDevvit(message) {
   window.parent.postMessage(message, "*");
 }
@@ -24875,7 +26254,7 @@ function App() {
   }, []);
   const renderContent = () => {
     if (showContributions) {
-      return /* @__PURE__ */ Devvit.createElement(
+      return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
         ContributeScreen,
         {
           contributions,
@@ -24893,9 +26272,9 @@ function App() {
     }
     switch (state) {
       case "LOADING":
-        return /* @__PURE__ */ Devvit.createElement(FullPageSpinner, { message: "Loading puzzle..." });
+        return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(FullPageSpinner, { message: "Loading puzzle..." });
       case "ERROR":
-        return /* @__PURE__ */ Devvit.createElement(
+        return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
           FullPageError,
           {
             title: "Something went wrong",
@@ -24904,14 +26283,14 @@ function App() {
           }
         );
       case "NEW_USER":
-        return /* @__PURE__ */ Devvit.createElement(WelcomeScreen, { onStartGame: startGame });
+        return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(WelcomeScreen, { onStartGame: startGame });
       case "PLAYING":
       case "SELECTED":
       case "CONFIRMING":
       case "SUBMITTING":
         if (!puzzle)
-          return /* @__PURE__ */ Devvit.createElement(FullPageSpinner, null);
-        return /* @__PURE__ */ Devvit.createElement(
+          return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(FullPageSpinner, {});
+        return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
           GameScreen,
           {
             puzzle,
@@ -24924,8 +26303,8 @@ function App() {
       case "RESULT_CORRECT":
       case "RESULT_INCORRECT":
         if (!result || !puzzle)
-          return /* @__PURE__ */ Devvit.createElement(FullPageSpinner, null);
-        return /* @__PURE__ */ Devvit.createElement(
+          return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(FullPageSpinner, {});
+        return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
           ResultScreen,
           {
             result,
@@ -24941,8 +26320,8 @@ function App() {
         );
       case "COMPLETED":
         if (!result || !puzzle)
-          return /* @__PURE__ */ Devvit.createElement(FullPageSpinner, null);
-        return /* @__PURE__ */ Devvit.createElement(
+          return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(FullPageSpinner, {});
+        return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
           CompletedScreen,
           {
             result,
@@ -24960,31 +26339,40 @@ function App() {
           }
         );
       default:
-        return /* @__PURE__ */ Devvit.createElement(FullPageSpinner, null);
+        return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(FullPageSpinner, {});
     }
   };
-  return /* @__PURE__ */ Devvit.createElement("div", { className: "min-h-screen bg-white safe-area-inset" }, renderContent(), state === "CONFIRMING" && puzzle && selectedIndex !== null && /* @__PURE__ */ Devvit.createElement(
-    ConfirmModal,
-    {
-      isOpen: true,
-      comment: puzzle.comments[selectedIndex],
-      onConfirm: handleConfirmGuess,
-      onCancel: cancelConfirm
-    }
-  ), state === "SUBMITTING" && /* @__PURE__ */ Devvit.createElement("div", { className: "fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50" }, /* @__PURE__ */ Devvit.createElement("div", { className: "bg-white rounded-xl p-6 text-center" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-3xl mb-3 animate-spin" }, "\u{1F50D}"), /* @__PURE__ */ Devvit.createElement("div", { className: "text-gray-700 font-medium" }, "Checking your guess..."))), achievementsToShow.length > 0 && /* @__PURE__ */ Devvit.createElement(
-    AchievementToast,
-    {
-      achievements: achievementsToShow,
-      onDismiss: () => setAchievementsToShow([])
-    }
-  ));
+  return /* @__PURE__ */ (0, import_jsx_runtime21.jsxs)("div", { className: "min-h-screen bg-white safe-area-inset", children: [
+    renderContent(),
+    state === "CONFIRMING" && puzzle && selectedIndex !== null && /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
+      ConfirmModal,
+      {
+        isOpen: true,
+        comment: puzzle.comments[selectedIndex],
+        onConfirm: handleConfirmGuess,
+        onCancel: cancelConfirm
+      }
+    ),
+    state === "SUBMITTING" && /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("div", { className: "fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50", children: /* @__PURE__ */ (0, import_jsx_runtime21.jsxs)("div", { className: "bg-white rounded-xl p-6 text-center", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("div", { className: "text-3xl mb-3 animate-spin", children: "\u{1F50D}" }),
+      /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("div", { className: "text-gray-700 font-medium", children: "Checking your guess..." })
+    ] }) }),
+    achievementsToShow.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
+      AchievementToast,
+      {
+        achievements: achievementsToShow,
+        onDismiss: () => setAchievementsToShow([])
+      }
+    )
+  ] });
 }
 
 // src/webview/index.tsx
+var import_jsx_runtime22 = __toESM(require_jsx_runtime(), 1);
 var container = document.getElementById("root");
 if (container) {
   const root = (0, import_client.createRoot)(container);
-  root.render(/* @__PURE__ */ import_react9.default.createElement(App, null));
+  root.render(/* @__PURE__ */ (0, import_jsx_runtime22.jsx)(App, {}));
 }
 /*! Bundled license information:
 
@@ -25032,5 +26420,16 @@ react-dom/cjs/react-dom.development.js:
    * @return {boolean} True if the event is supported.
    * @internal
    * @license Modernizr 3.0.0pre (Custom Build) | MIT
+   *)
+
+react/cjs/react-jsx-runtime.development.js:
+  (**
+   * @license React
+   * react-jsx-runtime.development.js
+   *
+   * Copyright (c) Facebook, Inc. and its affiliates.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE file in the root directory of this source tree.
    *)
 */

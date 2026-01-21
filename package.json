@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "devvit playtest",
     "build": "npm run build:webview && devvit build",
-    "build:webview": "esbuild src/webview/index.tsx --bundle --outfile=webroot/app.js --format=esm --target=es2020 --loader:.tsx=tsx --loader:.ts=ts --tsconfig=src/webview/tsconfig.json --external:@devvit/public-api",
+    "build:webview": "node scripts/build-webview.cjs",
     "upload": "npm run build:webview && devvit upload",
     "lint": "eslint src --ext .ts,.tsx",
     "typecheck": "tsc --noEmit",
