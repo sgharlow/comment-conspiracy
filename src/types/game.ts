@@ -46,7 +46,7 @@ export interface GameContext {
 export type GameAction =
   | { type: 'LOAD_START' }
   | { type: 'LOAD_SUCCESS'; puzzle: ShuffledPuzzle; progress: UserProgress }
-  | { type: 'LOAD_ALREADY_PLAYED'; result: GuessResult; progress: UserProgress }
+  | { type: 'LOAD_ALREADY_PLAYED'; puzzle: ShuffledPuzzle; result: GuessResult; progress: UserProgress }
   | { type: 'LOAD_ERROR'; error: string }
   | { type: 'SELECT_COMMENT'; index: number }
   | { type: 'OPEN_CONFIRM' }

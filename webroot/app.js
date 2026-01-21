@@ -1083,7 +1083,7 @@ var require_react_development = __commonJS({
           }
           return dispatcher.useContext(Context);
         }
-        function useState5(initialState) {
+        function useState7(initialState) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useState(initialState);
         }
@@ -1886,7 +1886,7 @@ var require_react_development = __commonJS({
         exports.useMemo = useMemo;
         exports.useReducer = useReducer2;
         exports.useRef = useRef2;
-        exports.useState = useState5;
+        exports.useState = useState7;
         exports.useSyncExternalStore = useSyncExternalStore;
         exports.useTransition = useTransition;
         exports.version = ReactVersion;
@@ -2382,9 +2382,9 @@ var require_react_dom_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React18 = require_react();
+        var React9 = require_react();
         var Scheduler = require_scheduler();
-        var ReactSharedInternals = React18.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React9.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         var suppressWarning = false;
         function setSuppressWarning(newSuppressWarning) {
           {
@@ -3989,7 +3989,7 @@ var require_react_dom_development = __commonJS({
           {
             if (props.value == null) {
               if (typeof props.children === "object" && props.children !== null) {
-                React18.Children.forEach(props.children, function(child) {
+                React9.Children.forEach(props.children, function(child) {
                   if (child == null) {
                     return;
                   }
@@ -23552,11 +23552,11 @@ var require_client = __commonJS({
 });
 
 // src/webview/index.tsx
-var import_react18 = __toESM(require_react(), 1);
+var import_react9 = __toESM(require_react(), 1);
 var import_client = __toESM(require_client(), 1);
 
 // src/components/App.tsx
-var import_react17 = __toESM(require_react(), 1);
+var import_react8 = __toESM(require_react(), 1);
 
 // src/hooks/useGameState.ts
 var import_react = __toESM(require_react(), 1);
@@ -23589,6 +23589,7 @@ function gameReducer(context, action) {
       return {
         ...context,
         state: "COMPLETED",
+        puzzle: action.puzzle,
         result: action.result,
         userProgress: action.progress,
         error: null
@@ -23667,7 +23668,7 @@ function useGameState() {
     []
   );
   const loadAlreadyPlayed = (0, import_react.useCallback)(
-    (result, progress) => dispatch({ type: "LOAD_ALREADY_PLAYED", result, progress }),
+    (puzzle, result, progress) => dispatch({ type: "LOAD_ALREADY_PLAYED", puzzle, result, progress }),
     []
   );
   const loadError = (0, import_react.useCallback)(
@@ -23725,9 +23726,8 @@ function useGameState() {
 }
 
 // src/components/screens/WelcomeScreen.tsx
-var import_react2 = __toESM(require_react(), 1);
 function WelcomeScreen({ onStartGame }) {
-  return /* @__PURE__ */ import_react2.default.createElement("div", { className: "flex flex-col h-full w-full max-w-2xl mx-auto px-4 py-8 justify-center" }, /* @__PURE__ */ import_react2.default.createElement("div", { className: "text-center mb-8" }, /* @__PURE__ */ import_react2.default.createElement("div", { className: "text-5xl mb-4" }, "\u{1F50D}"), /* @__PURE__ */ import_react2.default.createElement("h1", { className: "text-3xl font-bold text-gray-900 mb-2" }, "Comment Conspiracy"), /* @__PURE__ */ import_react2.default.createElement("p", { className: "text-lg text-gray-600" }, "One of these comments isn't human.")), /* @__PURE__ */ import_react2.default.createElement("div", { className: "bg-gray-100 rounded-xl p-6 mb-8" }, /* @__PURE__ */ import_react2.default.createElement("h2", { className: "text-lg font-semibold text-gray-900 mb-4" }, "How to Play"), /* @__PURE__ */ import_react2.default.createElement("div", { className: "space-y-4" }, /* @__PURE__ */ import_react2.default.createElement("div", { className: "flex items-start gap-3" }, /* @__PURE__ */ import_react2.default.createElement("div", { className: "flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold" }, "1"), /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement("p", { className: "text-gray-700" }, "Read all 5 comments carefully"))), /* @__PURE__ */ import_react2.default.createElement("div", { className: "flex items-start gap-3" }, /* @__PURE__ */ import_react2.default.createElement("div", { className: "flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold" }, "2"), /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement("p", { className: "text-gray-700" }, "Spot the one that was written by AI"))), /* @__PURE__ */ import_react2.default.createElement("div", { className: "flex items-start gap-3" }, /* @__PURE__ */ import_react2.default.createElement("div", { className: "flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold" }, "3"), /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement("p", { className: "text-gray-700" }, "Build your streak with daily puzzles"))))), /* @__PURE__ */ import_react2.default.createElement("div", { className: "text-center text-sm text-gray-500 mb-8" }, /* @__PURE__ */ import_react2.default.createElement("p", null, "One guess per day \u2022 New puzzle at midnight UTC")), /* @__PURE__ */ import_react2.default.createElement(
+  return /* @__PURE__ */ Devvit.createElement("div", { className: "flex flex-col h-full w-full max-w-2xl mx-auto px-4 py-8 justify-center" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-center mb-8" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-5xl mb-4" }, "\u{1F50D}"), /* @__PURE__ */ Devvit.createElement("h1", { className: "text-3xl font-bold text-gray-900 mb-2" }, "Comment Conspiracy"), /* @__PURE__ */ Devvit.createElement("p", { className: "text-lg text-gray-600" }, "One of these comments isn't human.")), /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gray-100 rounded-xl p-6 mb-8" }, /* @__PURE__ */ Devvit.createElement("h2", { className: "text-lg font-semibold text-gray-900 mb-4" }, "How to Play"), /* @__PURE__ */ Devvit.createElement("div", { className: "space-y-4" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-start gap-3" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold" }, "1"), /* @__PURE__ */ Devvit.createElement("div", null, /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-700" }, "Read all 5 comments carefully"))), /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-start gap-3" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold" }, "2"), /* @__PURE__ */ Devvit.createElement("div", null, /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-700" }, "Spot the one that was written by AI"))), /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-start gap-3" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold" }, "3"), /* @__PURE__ */ Devvit.createElement("div", null, /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-700" }, "Build your streak with daily puzzles"))))), /* @__PURE__ */ Devvit.createElement("div", { className: "text-center text-sm text-gray-500 mb-8" }, /* @__PURE__ */ Devvit.createElement("p", null, "One guess per day \u2022 New puzzle at midnight UTC")), /* @__PURE__ */ Devvit.createElement(
     "button",
     {
       onClick: onStartGame,
@@ -23737,11 +23737,7 @@ function WelcomeScreen({ onStartGame }) {
   ));
 }
 
-// src/components/screens/GameScreen.tsx
-var import_react4 = __toESM(require_react(), 1);
-
 // src/components/game/CommentCard.tsx
-var import_react3 = __toESM(require_react(), 1);
 function getVisualState(props) {
   if (props.disabled)
     return "disabled";
@@ -23782,7 +23778,7 @@ function CommentCard({
       handleClick();
     }
   };
-  return /* @__PURE__ */ import_react3.default.createElement(
+  return /* @__PURE__ */ Devvit.createElement(
     "div",
     {
       role: "button",
@@ -23794,12 +23790,12 @@ function CommentCard({
       "aria-disabled": disabled,
       "aria-label": `Comment ${comment.displayIndex + 1} by ${comment.username}`
     },
-    /* @__PURE__ */ import_react3.default.createElement("div", { className: "absolute -top-3 -left-3 w-7 h-7 rounded-full bg-gray-700 text-white text-sm font-bold flex items-center justify-center" }, comment.displayIndex + 1),
-    isRevealed && isAI && /* @__PURE__ */ import_react3.default.createElement("div", { className: "absolute -top-3 -right-3 px-2 py-1 rounded-full bg-red-500 text-white text-xs font-bold flex items-center gap-1" }, /* @__PURE__ */ import_react3.default.createElement("span", null, "\u{1F916}"), /* @__PURE__ */ import_react3.default.createElement("span", null, "AI")),
-    isRevealed && isCorrectGuess && /* @__PURE__ */ import_react3.default.createElement("div", { className: "absolute -top-3 right-8 px-2 py-1 rounded-full bg-green-500 text-white text-xs font-bold" }, "\u2713 Your guess"),
-    /* @__PURE__ */ import_react3.default.createElement("div", { className: "text-sm font-medium text-gray-500 mb-2" }, "u/", comment.username),
-    /* @__PURE__ */ import_react3.default.createElement("div", { className: "text-base text-gray-900 leading-relaxed" }, comment.text),
-    isSelected && !isRevealed && /* @__PURE__ */ import_react3.default.createElement("div", { className: "absolute bottom-2 right-2 text-blue-500 text-sm font-medium" }, "Selected \u2713")
+    /* @__PURE__ */ Devvit.createElement("div", { className: "absolute -top-3 -left-3 w-7 h-7 rounded-full bg-gray-700 text-white text-sm font-bold flex items-center justify-center" }, comment.displayIndex + 1),
+    isRevealed && isAI && /* @__PURE__ */ Devvit.createElement("div", { className: "absolute -top-3 -right-3 px-2 py-1 rounded-full bg-red-500 text-white text-xs font-bold flex items-center gap-1" }, /* @__PURE__ */ Devvit.createElement("span", null, "\u{1F916}"), /* @__PURE__ */ Devvit.createElement("span", null, "AI")),
+    isRevealed && isCorrectGuess && /* @__PURE__ */ Devvit.createElement("div", { className: "absolute -top-3 right-8 px-2 py-1 rounded-full bg-green-500 text-white text-xs font-bold" }, "\u2713 Your guess"),
+    /* @__PURE__ */ Devvit.createElement("div", { className: "text-sm font-medium text-gray-500 mb-2" }, "u/", comment.username),
+    /* @__PURE__ */ Devvit.createElement("div", { className: "text-base text-gray-900 leading-relaxed" }, comment.text),
+    isSelected && !isRevealed && /* @__PURE__ */ Devvit.createElement("div", { className: "absolute bottom-2 right-2 text-blue-500 text-sm font-medium" }, "Selected \u2713")
   );
 }
 
@@ -23823,7 +23819,7 @@ function GameScreen({
       onSelectComment(index);
     }
   };
-  return /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex flex-col h-full w-full max-w-2xl mx-auto px-3 sm:px-4 py-4 sm:py-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-center mb-4 sm:mb-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs sm:text-sm font-semibold text-gray-500 uppercase tracking-wide" }, "Day ", puzzle.dayNumber, " \u2022 ", formatDayOfWeek(puzzle.dayOfWeek), " \u2022 ", formatDifficulty(puzzle.difficulty)), /* @__PURE__ */ import_react4.default.createElement("div", { className: "mt-1 h-1 w-20 sm:w-24 mx-auto bg-gradient-to-r from-blue-400 to-purple-500 rounded-full" })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-gray-100 rounded-xl p-3 sm:p-4 mb-4 sm:mb-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-gray-500 uppercase tracking-wide mb-1" }, puzzle.prompt.source), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-base sm:text-lg font-medium text-gray-900" }, '"', puzzle.prompt.text, '"')), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex-1 space-y-3 sm:space-y-4 mb-4 sm:mb-6 overflow-y-auto -mx-1 px-1" }, puzzle.comments.map((comment, index) => /* @__PURE__ */ import_react4.default.createElement(
+  return /* @__PURE__ */ Devvit.createElement("div", { className: "flex flex-col h-full w-full max-w-2xl mx-auto px-3 sm:px-4 py-4 sm:py-6" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-center mb-4 sm:mb-6" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-xs sm:text-sm font-semibold text-gray-500 uppercase tracking-wide" }, "Day ", puzzle.dayNumber, " \u2022 ", formatDayOfWeek(puzzle.dayOfWeek), " \u2022 ", formatDifficulty(puzzle.difficulty)), /* @__PURE__ */ Devvit.createElement("div", { className: "mt-1 h-1 w-20 sm:w-24 mx-auto bg-gradient-to-r from-blue-400 to-purple-500 rounded-full" })), /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gray-100 rounded-xl p-3 sm:p-4 mb-4 sm:mb-6" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-xs text-gray-500 uppercase tracking-wide mb-1" }, puzzle.prompt.source), /* @__PURE__ */ Devvit.createElement("div", { className: "text-base sm:text-lg font-medium text-gray-900" }, '"', puzzle.prompt.text, '"')), /* @__PURE__ */ Devvit.createElement("div", { className: "flex-1 space-y-3 sm:space-y-4 mb-4 sm:mb-6 overflow-y-auto -mx-1 px-1" }, puzzle.comments.map((comment, index) => /* @__PURE__ */ Devvit.createElement(
     CommentCard,
     {
       key: comment.id,
@@ -23833,7 +23829,7 @@ function GameScreen({
       onSelect: handleSelectComment,
       disabled
     }
-  ))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-center text-xs sm:text-sm text-amber-600 font-medium mb-3 sm:mb-4" }, "Choose carefully - you only get one guess!"), selectedIndex !== null && /* @__PURE__ */ import_react4.default.createElement(
+  ))), /* @__PURE__ */ Devvit.createElement("div", { className: "text-center text-xs sm:text-sm text-amber-600 font-medium mb-3 sm:mb-4" }, "Choose carefully - you only get one guess!"), selectedIndex !== null && /* @__PURE__ */ Devvit.createElement(
     "button",
     {
       onClick: onConfirmGuess,
@@ -23844,33 +23840,27 @@ function GameScreen({
   ));
 }
 
-// src/components/screens/ResultScreen.tsx
-var import_react10 = __toESM(require_react(), 1);
-
 // src/components/results/ResultBanner.tsx
-var import_react5 = __toESM(require_react(), 1);
 function ResultBanner({
   wasCorrect,
   correctIndex,
   guessedIndex
 }) {
   if (wasCorrect) {
-    return /* @__PURE__ */ import_react5.default.createElement("div", { className: "text-center py-6" }, /* @__PURE__ */ import_react5.default.createElement("div", { className: "text-5xl mb-3" }, "\u{1F389}"), /* @__PURE__ */ import_react5.default.createElement("h2", { className: "text-2xl font-bold text-green-600" }, "CORRECT!"), /* @__PURE__ */ import_react5.default.createElement("p", { className: "text-gray-600 mt-2" }, "Comment #", correctIndex + 1, " was the AI imposter!"));
+    return /* @__PURE__ */ Devvit.createElement("div", { className: "text-center py-6" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-5xl mb-3" }, "\u{1F389}"), /* @__PURE__ */ Devvit.createElement("h2", { className: "text-2xl font-bold text-green-600" }, "CORRECT!"), /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-600 mt-2" }, "Comment #", correctIndex + 1, " was the AI imposter!"));
   }
-  return /* @__PURE__ */ import_react5.default.createElement("div", { className: "text-center py-6" }, /* @__PURE__ */ import_react5.default.createElement("div", { className: "text-5xl mb-3" }, "\u274C"), /* @__PURE__ */ import_react5.default.createElement("h2", { className: "text-2xl font-bold text-red-600" }, "NOT QUITE"), /* @__PURE__ */ import_react5.default.createElement("p", { className: "text-gray-600 mt-2" }, "You guessed #", (guessedIndex ?? 0) + 1, ", but the AI was #", correctIndex + 1));
+  return /* @__PURE__ */ Devvit.createElement("div", { className: "text-center py-6" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-5xl mb-3" }, "\u274C"), /* @__PURE__ */ Devvit.createElement("h2", { className: "text-2xl font-bold text-red-600" }, "NOT QUITE"), /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-600 mt-2" }, "You guessed #", (guessedIndex ?? 0) + 1, ", but the AI was #", correctIndex + 1));
 }
 
 // src/components/results/AIExplanation.tsx
-var import_react6 = __toESM(require_react(), 1);
 function AIExplanation({
   explanation,
   wasCorrect
 }) {
-  return /* @__PURE__ */ import_react6.default.createElement("div", { className: "space-y-4" }, /* @__PURE__ */ import_react6.default.createElement("div", { className: `rounded-xl p-4 ${wasCorrect ? "bg-green-50 border border-green-200" : "bg-red-50 border border-red-200"}` }, /* @__PURE__ */ import_react6.default.createElement("div", { className: "flex items-center gap-2 mb-3" }, /* @__PURE__ */ import_react6.default.createElement("span", { className: "text-xl" }, "\u{1F916}"), /* @__PURE__ */ import_react6.default.createElement("h3", { className: "font-bold text-gray-900" }, wasCorrect ? "AI TELLS:" : "WHY IT WAS AI:")), /* @__PURE__ */ import_react6.default.createElement("ul", { className: "space-y-2" }, explanation.aiTells.map((tell, index) => /* @__PURE__ */ import_react6.default.createElement("li", { key: index, className: "flex items-start gap-2 text-gray-700" }, /* @__PURE__ */ import_react6.default.createElement("span", { className: "text-gray-400" }, "\u2022"), /* @__PURE__ */ import_react6.default.createElement("span", null, tell))))), !wasCorrect && explanation.humanTells.length > 0 && /* @__PURE__ */ import_react6.default.createElement("div", { className: "bg-gray-50 border border-gray-200 rounded-xl p-4" }, /* @__PURE__ */ import_react6.default.createElement("div", { className: "flex items-center gap-2 mb-3" }, /* @__PURE__ */ import_react6.default.createElement("span", { className: "text-xl" }, "\u{1F464}"), /* @__PURE__ */ import_react6.default.createElement("h3", { className: "font-bold text-gray-900" }, "WHY YOUR PICK WAS HUMAN:")), /* @__PURE__ */ import_react6.default.createElement("ul", { className: "space-y-2" }, explanation.humanTells.map((tell, index) => /* @__PURE__ */ import_react6.default.createElement("li", { key: index, className: "flex items-start gap-2 text-gray-700" }, /* @__PURE__ */ import_react6.default.createElement("span", { className: "text-gray-400" }, "\u2022"), /* @__PURE__ */ import_react6.default.createElement("span", null, tell))))), explanation.difficulty_note && /* @__PURE__ */ import_react6.default.createElement("p", { className: "text-sm text-gray-500 italic text-center" }, explanation.difficulty_note));
+  return /* @__PURE__ */ Devvit.createElement("div", { className: "space-y-4" }, /* @__PURE__ */ Devvit.createElement("div", { className: `rounded-xl p-4 ${wasCorrect ? "bg-green-50 border border-green-200" : "bg-red-50 border border-red-200"}` }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center gap-2 mb-3" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-xl" }, "\u{1F916}"), /* @__PURE__ */ Devvit.createElement("h3", { className: "font-bold text-gray-900" }, wasCorrect ? "AI TELLS:" : "WHY IT WAS AI:")), /* @__PURE__ */ Devvit.createElement("ul", { className: "space-y-2" }, explanation.aiTells.map((tell, index) => /* @__PURE__ */ Devvit.createElement("li", { key: index, className: "flex items-start gap-2 text-gray-700" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-gray-400" }, "\u2022"), /* @__PURE__ */ Devvit.createElement("span", null, tell))))), !wasCorrect && explanation.humanTells.length > 0 && /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gray-50 border border-gray-200 rounded-xl p-4" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center gap-2 mb-3" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-xl" }, "\u{1F464}"), /* @__PURE__ */ Devvit.createElement("h3", { className: "font-bold text-gray-900" }, "WHY YOUR PICK WAS HUMAN:")), /* @__PURE__ */ Devvit.createElement("ul", { className: "space-y-2" }, explanation.humanTells.map((tell, index) => /* @__PURE__ */ Devvit.createElement("li", { key: index, className: "flex items-start gap-2 text-gray-700" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-gray-400" }, "\u2022"), /* @__PURE__ */ Devvit.createElement("span", null, tell))))), explanation.difficulty_note && /* @__PURE__ */ Devvit.createElement("p", { className: "text-sm text-gray-500 italic text-center" }, explanation.difficulty_note));
 }
 
 // src/components/results/StatsPanel.tsx
-var import_react7 = __toESM(require_react(), 1);
 function StatsPanel({
   stats,
   streak,
@@ -23880,21 +23870,21 @@ function StatsPanel({
 }) {
   const streakDisplay = wasCorrect && streak >= 3;
   const streakReset = !wasCorrect && (previousStreak ?? 0) > 0;
-  return /* @__PURE__ */ import_react7.default.createElement("div", { className: "bg-gray-100 rounded-xl p-4 space-y-4" }, /* @__PURE__ */ import_react7.default.createElement("div", { className: "flex items-center justify-between" }, /* @__PURE__ */ import_react7.default.createElement("span", { className: "text-gray-600 font-medium" }, "Streak:"), /* @__PURE__ */ import_react7.default.createElement("span", { className: "font-bold text-lg" }, streakDisplay && /* @__PURE__ */ import_react7.default.createElement("span", { className: "mr-1" }, "\u{1F525}"), streak, " ", streak === 1 ? "day" : "days", streakReset && /* @__PURE__ */ import_react7.default.createElement("span", { className: "text-red-500 text-sm ml-2" }, "(reset from ", previousStreak, ")"))), userPercentile !== void 0 && wasCorrect && /* @__PURE__ */ import_react7.default.createElement("div", { className: "flex items-center justify-between" }, /* @__PURE__ */ import_react7.default.createElement("span", { className: "text-gray-600 font-medium" }, "Your ranking:"), /* @__PURE__ */ import_react7.default.createElement("span", { className: "font-bold text-green-600" }, "Top ", Math.round(userPercentile), "%")), /* @__PURE__ */ import_react7.default.createElement("div", { className: "border-t border-gray-200 pt-4 space-y-2" }, /* @__PURE__ */ import_react7.default.createElement("h4", { className: "text-sm font-semibold text-gray-500 uppercase tracking-wide" }, "Today's Stats"), /* @__PURE__ */ import_react7.default.createElement("div", { className: "flex items-center justify-between" }, /* @__PURE__ */ import_react7.default.createElement("span", { className: "text-gray-600" }, "Players:"), /* @__PURE__ */ import_react7.default.createElement("span", { className: "font-medium" }, stats.totalPlayers.toLocaleString())), /* @__PURE__ */ import_react7.default.createElement("div", { className: "flex items-center justify-between" }, /* @__PURE__ */ import_react7.default.createElement("span", { className: "text-gray-600" }, "Got it right:"), /* @__PURE__ */ import_react7.default.createElement("span", { className: "font-medium text-green-600" }, stats.correctPercentage.toFixed(0), "%"))), stats.guessDistribution.some((count) => count > 0) && /* @__PURE__ */ import_react7.default.createElement("div", { className: "border-t border-gray-200 pt-4" }, /* @__PURE__ */ import_react7.default.createElement("h4", { className: "text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2" }, "Guess Distribution"), /* @__PURE__ */ import_react7.default.createElement("div", { className: "space-y-1" }, stats.guessDistribution.map((count, index) => {
+  return /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gray-100 rounded-xl p-4 space-y-4" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-gray-600 font-medium" }, "Streak:"), /* @__PURE__ */ Devvit.createElement("span", { className: "font-bold text-lg" }, streakDisplay && /* @__PURE__ */ Devvit.createElement("span", { className: "mr-1" }, "\u{1F525}"), streak, " ", streak === 1 ? "day" : "days", streakReset && /* @__PURE__ */ Devvit.createElement("span", { className: "text-red-500 text-sm ml-2" }, "(reset from ", previousStreak, ")"))), userPercentile !== void 0 && wasCorrect && /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-gray-600 font-medium" }, "Your ranking:"), /* @__PURE__ */ Devvit.createElement("span", { className: "font-bold text-green-600" }, "Top ", Math.round(userPercentile), "%")), /* @__PURE__ */ Devvit.createElement("div", { className: "border-t border-gray-200 pt-4 space-y-2" }, /* @__PURE__ */ Devvit.createElement("h4", { className: "text-sm font-semibold text-gray-500 uppercase tracking-wide" }, "Today's Stats"), /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-gray-600" }, "Players:"), /* @__PURE__ */ Devvit.createElement("span", { className: "font-medium" }, stats.totalPlayers.toLocaleString())), /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-gray-600" }, "Got it right:"), /* @__PURE__ */ Devvit.createElement("span", { className: "font-medium text-green-600" }, stats.correctPercentage.toFixed(0), "%"))), stats.guessDistribution.some((count) => count > 0) && /* @__PURE__ */ Devvit.createElement("div", { className: "border-t border-gray-200 pt-4" }, /* @__PURE__ */ Devvit.createElement("h4", { className: "text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2" }, "Guess Distribution"), /* @__PURE__ */ Devvit.createElement("div", { className: "space-y-1" }, stats.guessDistribution.map((count, index) => {
     const total = stats.totalPlayers || 1;
     const percentage = count / total * 100;
-    return /* @__PURE__ */ import_react7.default.createElement("div", { key: index, className: "flex items-center gap-2" }, /* @__PURE__ */ import_react7.default.createElement("span", { className: "w-6 text-sm text-gray-500" }, "#", index + 1), /* @__PURE__ */ import_react7.default.createElement("div", { className: "flex-1 h-4 bg-gray-200 rounded overflow-hidden" }, /* @__PURE__ */ import_react7.default.createElement(
+    return /* @__PURE__ */ Devvit.createElement("div", { key: index, className: "flex items-center gap-2" }, /* @__PURE__ */ Devvit.createElement("span", { className: "w-6 text-sm text-gray-500" }, "#", index + 1), /* @__PURE__ */ Devvit.createElement("div", { className: "flex-1 h-4 bg-gray-200 rounded overflow-hidden" }, /* @__PURE__ */ Devvit.createElement(
       "div",
       {
         className: "h-full bg-blue-500",
         style: { width: `${percentage}%` }
       }
-    )), /* @__PURE__ */ import_react7.default.createElement("span", { className: "w-12 text-sm text-gray-600 text-right" }, percentage.toFixed(0), "%"));
+    )), /* @__PURE__ */ Devvit.createElement("span", { className: "w-12 text-sm text-gray-600 text-right" }, percentage.toFixed(0), "%"));
   }))));
 }
 
 // src/components/results/ShareCard.tsx
-var import_react8 = __toESM(require_react(), 1);
+var import_react2 = __toESM(require_react(), 1);
 
 // src/utils/shareUtils.ts
 function generateShareTextWithEmojis(data) {
@@ -23957,11 +23947,11 @@ function ShareCard({
   wasCorrect,
   streak
 }) {
-  const [copyState, setCopyState] = (0, import_react8.useState)("idle");
+  const [copyState, setCopyState] = (0, import_react2.useState)("idle");
   const shareData = { dayNumber, wasCorrect, streak };
   const shareText = generateShareTextWithEmojis(shareData);
   const canUseShare = canShare();
-  const handleCopy = (0, import_react8.useCallback)(async () => {
+  const handleCopy = (0, import_react2.useCallback)(async () => {
     setCopyState("copying");
     const success = await copyToClipboard(shareText);
     if (success) {
@@ -23972,7 +23962,7 @@ function ShareCard({
       setTimeout(() => setCopyState("idle"), 2e3);
     }
   }, [shareText]);
-  const handleShare = (0, import_react8.useCallback)(async () => {
+  const handleShare = (0, import_react2.useCallback)(async () => {
     await shareResult(shareData);
   }, [shareData]);
   const getCopyButtonText = () => {
@@ -23987,7 +23977,7 @@ function ShareCard({
         return "Copy";
     }
   };
-  return /* @__PURE__ */ import_react8.default.createElement("div", { className: "bg-gray-800 text-white rounded-xl p-4 sm:p-6" }, /* @__PURE__ */ import_react8.default.createElement("div", { className: "font-mono text-sm sm:text-base whitespace-pre-line text-center mb-4 leading-relaxed" }, shareText), /* @__PURE__ */ import_react8.default.createElement("div", { className: "flex gap-2 justify-center" }, /* @__PURE__ */ import_react8.default.createElement(
+  return /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gray-800 text-white rounded-xl p-4 sm:p-6" }, /* @__PURE__ */ Devvit.createElement("div", { className: "font-mono text-sm sm:text-base whitespace-pre-line text-center mb-4 leading-relaxed" }, shareText), /* @__PURE__ */ Devvit.createElement("div", { className: "flex gap-2 justify-center" }, /* @__PURE__ */ Devvit.createElement(
     "button",
     {
       onClick: handleCopy,
@@ -23998,29 +23988,29 @@ function ShareCard({
             ${copyState === "copied" ? "bg-green-600 text-white" : copyState === "error" ? "bg-red-600 text-white" : "bg-gray-700 hover:bg-gray-600 text-white"}
           `
     },
-    /* @__PURE__ */ import_react8.default.createElement("span", { className: "flex items-center justify-center gap-2" }, copyState === "copied" ? /* @__PURE__ */ import_react8.default.createElement(import_react8.default.Fragment, null, /* @__PURE__ */ import_react8.default.createElement("span", null, "\u2713"), /* @__PURE__ */ import_react8.default.createElement("span", null, getCopyButtonText())) : /* @__PURE__ */ import_react8.default.createElement(import_react8.default.Fragment, null, /* @__PURE__ */ import_react8.default.createElement("span", null, "\u{1F4CB}"), /* @__PURE__ */ import_react8.default.createElement("span", null, getCopyButtonText())))
-  ), canUseShare && /* @__PURE__ */ import_react8.default.createElement(
+    /* @__PURE__ */ Devvit.createElement("span", { className: "flex items-center justify-center gap-2" }, copyState === "copied" ? /* @__PURE__ */ Devvit.createElement(Devvit.Fragment, null, /* @__PURE__ */ Devvit.createElement("span", null, "\u2713"), /* @__PURE__ */ Devvit.createElement("span", null, getCopyButtonText())) : /* @__PURE__ */ Devvit.createElement(Devvit.Fragment, null, /* @__PURE__ */ Devvit.createElement("span", null, "\u{1F4CB}"), /* @__PURE__ */ Devvit.createElement("span", null, getCopyButtonText())))
+  ), canUseShare && /* @__PURE__ */ Devvit.createElement(
     "button",
     {
       onClick: handleShare,
       className: "flex-1 max-w-[140px] py-3 px-4 bg-blue-600 hover:bg-blue-700 rounded-lg text-sm font-medium text-white transition-colors duration-200 touch-manipulation"
     },
-    /* @__PURE__ */ import_react8.default.createElement("span", { className: "flex items-center justify-center gap-2" }, /* @__PURE__ */ import_react8.default.createElement("span", null, "\u{1F517}"), /* @__PURE__ */ import_react8.default.createElement("span", null, "Share"))
+    /* @__PURE__ */ Devvit.createElement("span", { className: "flex items-center justify-center gap-2" }, /* @__PURE__ */ Devvit.createElement("span", null, "\u{1F517}"), /* @__PURE__ */ Devvit.createElement("span", null, "Share"))
   )));
 }
 
 // src/components/results/AchievementToast.tsx
-var import_react9 = __toESM(require_react(), 1);
+var import_react3 = __toESM(require_react(), 1);
 function AchievementCard({
   achievement,
   index
 }) {
-  const [isVisible, setIsVisible] = (0, import_react9.useState)(false);
-  (0, import_react9.useEffect)(() => {
+  const [isVisible, setIsVisible] = (0, import_react3.useState)(false);
+  (0, import_react3.useEffect)(() => {
     const timer = setTimeout(() => setIsVisible(true), index * 200);
     return () => clearTimeout(timer);
   }, [index]);
-  return /* @__PURE__ */ import_react9.default.createElement(
+  return /* @__PURE__ */ Devvit.createElement(
     "div",
     {
       className: `
@@ -24030,17 +24020,17 @@ function AchievementCard({
         ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}
       `
     },
-    /* @__PURE__ */ import_react9.default.createElement("div", { className: "text-3xl animate-bounce" }, achievement.icon),
-    /* @__PURE__ */ import_react9.default.createElement("div", { className: "flex-1" }, /* @__PURE__ */ import_react9.default.createElement("div", { className: "font-bold text-gray-900" }, achievement.name), /* @__PURE__ */ import_react9.default.createElement("div", { className: "text-sm text-gray-600" }, achievement.description)),
-    /* @__PURE__ */ import_react9.default.createElement("div", { className: "text-yellow-500 text-xl" }, "NEW!")
+    /* @__PURE__ */ Devvit.createElement("div", { className: "text-3xl animate-bounce" }, achievement.icon),
+    /* @__PURE__ */ Devvit.createElement("div", { className: "flex-1" }, /* @__PURE__ */ Devvit.createElement("div", { className: "font-bold text-gray-900" }, achievement.name), /* @__PURE__ */ Devvit.createElement("div", { className: "text-sm text-gray-600" }, achievement.description)),
+    /* @__PURE__ */ Devvit.createElement("div", { className: "text-yellow-500 text-xl" }, "NEW!")
   );
 }
 function AchievementToast({
   achievements,
   onDismiss
 }) {
-  const [isVisible, setIsVisible] = (0, import_react9.useState)(true);
-  (0, import_react9.useEffect)(() => {
+  const [isVisible, setIsVisible] = (0, import_react3.useState)(true);
+  (0, import_react3.useEffect)(() => {
     if (achievements.length === 0)
       return;
     const dismissTime = 5e3 + (achievements.length - 1) * 1500;
@@ -24053,7 +24043,7 @@ function AchievementToast({
   if (achievements.length === 0 || !isVisible) {
     return null;
   }
-  return /* @__PURE__ */ import_react9.default.createElement("div", { className: "fixed inset-x-0 top-4 z-50 flex flex-col items-center px-4 pointer-events-none" }, /* @__PURE__ */ import_react9.default.createElement(
+  return /* @__PURE__ */ Devvit.createElement("div", { className: "fixed inset-x-0 top-4 z-50 flex flex-col items-center px-4 pointer-events-none" }, /* @__PURE__ */ Devvit.createElement(
     "div",
     {
       className: `
@@ -24066,8 +24056,8 @@ function AchievementToast({
         setTimeout(() => onDismiss?.(), 300);
       }
     },
-    /* @__PURE__ */ import_react9.default.createElement("div", { className: "text-center text-sm font-semibold text-yellow-600 mb-1" }, "Achievement Unlocked!"),
-    achievements.map((achievement, index) => /* @__PURE__ */ import_react9.default.createElement(
+    /* @__PURE__ */ Devvit.createElement("div", { className: "text-center text-sm font-semibold text-yellow-600 mb-1" }, "Achievement Unlocked!"),
+    achievements.map((achievement, index) => /* @__PURE__ */ Devvit.createElement(
       AchievementCard,
       {
         key: achievement.id,
@@ -24075,13 +24065,13 @@ function AchievementToast({
         index
       }
     )),
-    /* @__PURE__ */ import_react9.default.createElement("div", { className: "text-center text-xs text-gray-400 mt-1" }, "Tap to dismiss")
+    /* @__PURE__ */ Devvit.createElement("div", { className: "text-center text-xs text-gray-400 mt-1" }, "Tap to dismiss")
   ));
 }
 function AchievementBadge({
   achievement
 }) {
-  return /* @__PURE__ */ import_react9.default.createElement("div", { className: "inline-flex items-center gap-2 px-3 py-1.5 bg-yellow-100 border border-yellow-200 rounded-full" }, /* @__PURE__ */ import_react9.default.createElement("span", { className: "text-lg" }, achievement.icon), /* @__PURE__ */ import_react9.default.createElement("span", { className: "text-sm font-medium text-yellow-800" }, achievement.name));
+  return /* @__PURE__ */ Devvit.createElement("div", { className: "inline-flex items-center gap-2 px-3 py-1.5 bg-yellow-100 border border-yellow-200 rounded-full" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-lg" }, achievement.icon), /* @__PURE__ */ Devvit.createElement("span", { className: "text-sm font-medium text-yellow-800" }, achievement.name));
 }
 function AchievementList({
   achievements,
@@ -24090,7 +24080,7 @@ function AchievementList({
   if (achievements.length === 0) {
     return null;
   }
-  return /* @__PURE__ */ import_react9.default.createElement("div", { className: "mt-4 p-4 bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl border border-yellow-200" }, /* @__PURE__ */ import_react9.default.createElement("h3", { className: "text-sm font-semibold text-yellow-700 mb-3" }, title), /* @__PURE__ */ import_react9.default.createElement("div", { className: "flex flex-wrap gap-2" }, achievements.map((achievement) => /* @__PURE__ */ import_react9.default.createElement(AchievementBadge, { key: achievement.id, achievement }))));
+  return /* @__PURE__ */ Devvit.createElement("div", { className: "mt-4 p-4 bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl border border-yellow-200" }, /* @__PURE__ */ Devvit.createElement("h3", { className: "text-sm font-semibold text-yellow-700 mb-3" }, title), /* @__PURE__ */ Devvit.createElement("div", { className: "flex flex-wrap gap-2" }, achievements.map((achievement) => /* @__PURE__ */ Devvit.createElement(AchievementBadge, { key: achievement.id, achievement }))));
 }
 
 // src/components/screens/ResultScreen.tsx
@@ -24098,22 +24088,23 @@ function ResultScreen({
   result,
   puzzle,
   onViewBreakdown,
-  onJoinDiscussion
+  onJoinDiscussion,
+  onContribute
 }) {
-  return /* @__PURE__ */ import_react10.default.createElement("div", { className: "flex flex-col h-full w-full max-w-2xl mx-auto px-4 py-6 overflow-y-auto" }, /* @__PURE__ */ import_react10.default.createElement(
+  return /* @__PURE__ */ Devvit.createElement("div", { className: "flex flex-col h-full w-full max-w-2xl mx-auto px-4 py-6 overflow-y-auto" }, /* @__PURE__ */ Devvit.createElement(
     ResultBanner,
     {
       wasCorrect: result.wasCorrect,
       correctIndex: result.correctIndex,
       guessedIndex: result.guessedIndex
     }
-  ), /* @__PURE__ */ import_react10.default.createElement("div", { className: "mb-6" }, /* @__PURE__ */ import_react10.default.createElement(
+  ), /* @__PURE__ */ Devvit.createElement("div", { className: "mb-6" }, /* @__PURE__ */ Devvit.createElement(
     AIExplanation,
     {
       explanation: result.explanation,
       wasCorrect: result.wasCorrect
     }
-  )), /* @__PURE__ */ import_react10.default.createElement("div", { className: "mb-6" }, /* @__PURE__ */ import_react10.default.createElement(
+  )), /* @__PURE__ */ Devvit.createElement("div", { className: "mb-6" }, /* @__PURE__ */ Devvit.createElement(
     StatsPanel,
     {
       stats: result.stats,
@@ -24122,36 +24113,41 @@ function ResultScreen({
       wasCorrect: result.wasCorrect,
       userPercentile: result.userPercentile
     }
-  )), result.newlyUnlockedAchievements && result.newlyUnlockedAchievements.length > 0 && /* @__PURE__ */ import_react10.default.createElement("div", { className: "mb-6" }, /* @__PURE__ */ import_react10.default.createElement(AchievementList, { achievements: result.newlyUnlockedAchievements })), /* @__PURE__ */ import_react10.default.createElement("div", { className: "mb-6" }, /* @__PURE__ */ import_react10.default.createElement(
+  )), result.newlyUnlockedAchievements && result.newlyUnlockedAchievements.length > 0 && /* @__PURE__ */ Devvit.createElement("div", { className: "mb-6" }, /* @__PURE__ */ Devvit.createElement(AchievementList, { achievements: result.newlyUnlockedAchievements })), /* @__PURE__ */ Devvit.createElement("div", { className: "mb-6" }, /* @__PURE__ */ Devvit.createElement(
     ShareCard,
     {
       dayNumber: puzzle.dayNumber,
       wasCorrect: result.wasCorrect,
       streak: result.newStreak
     }
-  )), /* @__PURE__ */ import_react10.default.createElement("div", { className: "space-y-3" }, onViewBreakdown && /* @__PURE__ */ import_react10.default.createElement(
+  )), /* @__PURE__ */ Devvit.createElement("div", { className: "space-y-3" }, onViewBreakdown && /* @__PURE__ */ Devvit.createElement(
     "button",
     {
       onClick: onViewBreakdown,
       className: "w-full py-3 px-6 bg-gray-200 hover:bg-gray-300 text-gray-700 font-semibold rounded-xl transition-colors"
     },
     "View Full Breakdown"
-  ), onJoinDiscussion && /* @__PURE__ */ import_react10.default.createElement(
+  ), onContribute && /* @__PURE__ */ Devvit.createElement(
+    "button",
+    {
+      onClick: onContribute,
+      className: "w-full py-3 px-6 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl transition-colors flex items-center justify-center gap-2"
+    },
+    /* @__PURE__ */ Devvit.createElement("span", null, "+"),
+    /* @__PURE__ */ Devvit.createElement("span", null, "Contribute AI Comments")
+  ), onJoinDiscussion && /* @__PURE__ */ Devvit.createElement(
     "button",
     {
       onClick: onJoinDiscussion,
       className: "w-full py-3 px-6 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-colors flex items-center justify-center gap-2"
     },
-    /* @__PURE__ */ import_react10.default.createElement("span", null, "\u{1F4AC}"),
-    /* @__PURE__ */ import_react10.default.createElement("span", null, "Join Discussion")
+    /* @__PURE__ */ Devvit.createElement("span", null, "\u{1F4AC}"),
+    /* @__PURE__ */ Devvit.createElement("span", null, "Join Discussion")
   )));
 }
 
-// src/components/screens/CompletedScreen.tsx
-var import_react13 = __toESM(require_react(), 1);
-
 // src/components/shared/Timer.tsx
-var import_react11 = __toESM(require_react(), 1);
+var import_react4 = __toESM(require_react(), 1);
 function getTimeUntilMidnightUTC() {
   const now = /* @__PURE__ */ new Date();
   const midnight = new Date(now);
@@ -24169,18 +24165,15 @@ function pad(num) {
   return num.toString().padStart(2, "0");
 }
 function Timer({ className = "" }) {
-  const [timeLeft, setTimeLeft] = (0, import_react11.useState)(getTimeUntilMidnightUTC);
-  (0, import_react11.useEffect)(() => {
+  const [timeLeft, setTimeLeft] = (0, import_react4.useState)(getTimeUntilMidnightUTC);
+  (0, import_react4.useEffect)(() => {
     const interval = setInterval(() => {
       setTimeLeft(getTimeUntilMidnightUTC());
     }, 1e3);
     return () => clearInterval(interval);
   }, []);
-  return /* @__PURE__ */ import_react11.default.createElement("div", { className: `text-center ${className}` }, /* @__PURE__ */ import_react11.default.createElement("div", { className: "text-sm text-gray-500 uppercase tracking-wide mb-1" }, "Next puzzle in"), /* @__PURE__ */ import_react11.default.createElement("div", { className: "text-3xl font-mono font-bold text-gray-900" }, pad(timeLeft.hours), ":", pad(timeLeft.minutes), ":", pad(timeLeft.seconds)));
+  return /* @__PURE__ */ Devvit.createElement("div", { className: `text-center ${className}` }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-sm text-gray-500 uppercase tracking-wide mb-1" }, "Next puzzle in"), /* @__PURE__ */ Devvit.createElement("div", { className: "text-3xl font-mono font-bold text-gray-900" }, pad(timeLeft.hours), ":", pad(timeLeft.minutes), ":", pad(timeLeft.seconds)));
 }
-
-// src/components/results/Leaderboard.tsx
-var import_react12 = __toESM(require_react(), 1);
 
 // src/services/leaderboardService.ts
 function calculateAccuracy(totalCorrect, totalPlayed) {
@@ -24215,7 +24208,7 @@ function RankCard({
   subtext
 }) {
   const hasRank = rank !== null;
-  return /* @__PURE__ */ import_react12.default.createElement("div", { className: "bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-4 flex flex-col items-center text-center" }, /* @__PURE__ */ import_react12.default.createElement("div", { className: "text-2xl mb-1" }, icon), /* @__PURE__ */ import_react12.default.createElement("div", { className: "text-xs font-medium text-gray-500 uppercase tracking-wide mb-2" }, title), hasRank ? /* @__PURE__ */ import_react12.default.createElement(import_react12.default.Fragment, null, /* @__PURE__ */ import_react12.default.createElement("div", { className: "text-2xl font-bold text-gray-900 mb-1" }, formatOrdinal(rank)), /* @__PURE__ */ import_react12.default.createElement("div", { className: "text-xs text-gray-500 mb-2" }, formatRankPercentile(rank, total)), /* @__PURE__ */ import_react12.default.createElement("div", { className: "flex items-baseline gap-1" }, /* @__PURE__ */ import_react12.default.createElement("span", { className: "text-lg font-semibold text-blue-600" }, value), /* @__PURE__ */ import_react12.default.createElement("span", { className: "text-xs text-gray-500" }, valueLabel))) : /* @__PURE__ */ import_react12.default.createElement(import_react12.default.Fragment, null, /* @__PURE__ */ import_react12.default.createElement("div", { className: "text-lg font-semibold text-gray-400 mb-1" }, "--"), subtext && /* @__PURE__ */ import_react12.default.createElement("div", { className: "text-xs text-gray-400 max-w-[100px]" }, subtext)));
+  return /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-4 flex flex-col items-center text-center" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-2xl mb-1" }, icon), /* @__PURE__ */ Devvit.createElement("div", { className: "text-xs font-medium text-gray-500 uppercase tracking-wide mb-2" }, title), hasRank ? /* @__PURE__ */ Devvit.createElement(Devvit.Fragment, null, /* @__PURE__ */ Devvit.createElement("div", { className: "text-2xl font-bold text-gray-900 mb-1" }, formatOrdinal(rank)), /* @__PURE__ */ Devvit.createElement("div", { className: "text-xs text-gray-500 mb-2" }, formatRankPercentile(rank, total)), /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-baseline gap-1" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-lg font-semibold text-blue-600" }, value), /* @__PURE__ */ Devvit.createElement("span", { className: "text-xs text-gray-500" }, valueLabel))) : /* @__PURE__ */ Devvit.createElement(Devvit.Fragment, null, /* @__PURE__ */ Devvit.createElement("div", { className: "text-lg font-semibold text-gray-400 mb-1" }, "--"), subtext && /* @__PURE__ */ Devvit.createElement("div", { className: "text-xs text-gray-400 max-w-[100px]" }, subtext)));
 }
 function LeaderboardPanel({
   streakRank,
@@ -24225,7 +24218,7 @@ function LeaderboardPanel({
 }) {
   const accuracy = calculateAccuracy(progress.totalCorrect, progress.totalPlayed);
   const gamesRemaining = gamesUntilAccuracyQualification(progress.totalPlayed);
-  return /* @__PURE__ */ import_react12.default.createElement("div", { className: `${className}` }, /* @__PURE__ */ import_react12.default.createElement("h3", { className: "text-sm font-semibold text-gray-700 mb-3 flex items-center gap-2" }, /* @__PURE__ */ import_react12.default.createElement("span", null, "Your Rankings")), /* @__PURE__ */ import_react12.default.createElement("div", { className: "grid grid-cols-2 gap-3" }, /* @__PURE__ */ import_react12.default.createElement(
+  return /* @__PURE__ */ Devvit.createElement("div", { className: `${className}` }, /* @__PURE__ */ Devvit.createElement("h3", { className: "text-sm font-semibold text-gray-700 mb-3 flex items-center gap-2" }, /* @__PURE__ */ Devvit.createElement("span", null, "Your Rankings")), /* @__PURE__ */ Devvit.createElement("div", { className: "grid grid-cols-2 gap-3" }, /* @__PURE__ */ Devvit.createElement(
     RankCard,
     {
       title: "Streak",
@@ -24236,7 +24229,7 @@ function LeaderboardPanel({
       valueLabel: "days",
       subtext: progress.totalPlayed === 0 ? "Play to join!" : void 0
     }
-  ), /* @__PURE__ */ import_react12.default.createElement(
+  ), /* @__PURE__ */ Devvit.createElement(
     RankCard,
     {
       title: "Accuracy",
@@ -24247,7 +24240,7 @@ function LeaderboardPanel({
       valueLabel: `(${progress.totalCorrect}/${progress.totalPlayed})`,
       subtext: gamesRemaining > 0 ? `${gamesRemaining} more games to qualify` : void 0
     }
-  )), progress.totalPlayed > 0 && progress.totalPlayed < ACCURACY_LEADERBOARD_MIN_GAMES && /* @__PURE__ */ import_react12.default.createElement("div", { className: "mt-3 text-xs text-center text-gray-500" }, "Play ", gamesRemaining, " more game", gamesRemaining !== 1 ? "s" : "", " to join the accuracy leaderboard"));
+  )), progress.totalPlayed > 0 && progress.totalPlayed < ACCURACY_LEADERBOARD_MIN_GAMES && /* @__PURE__ */ Devvit.createElement("div", { className: "mt-3 text-xs text-center text-gray-500" }, "Play ", gamesRemaining, " more game", gamesRemaining !== 1 ? "s" : "", " to join the accuracy leaderboard"));
 }
 
 // src/components/screens/CompletedScreen.tsx
@@ -24258,16 +24251,17 @@ function CompletedScreen({
   streakRank,
   accuracyRank,
   onViewBreakdown,
-  onJoinDiscussion
+  onJoinDiscussion,
+  onContribute
 }) {
-  return /* @__PURE__ */ import_react13.default.createElement("div", { className: "flex flex-col h-full w-full max-w-2xl mx-auto px-4 py-6 overflow-y-auto" }, /* @__PURE__ */ import_react13.default.createElement("div", { className: "text-center py-6 bg-gray-100 rounded-xl mb-6" }, /* @__PURE__ */ import_react13.default.createElement("div", { className: "text-2xl mb-2" }, "\u2713"), /* @__PURE__ */ import_react13.default.createElement("h2", { className: "text-xl font-bold text-gray-900" }, "YOU'VE PLAYED TODAY")), /* @__PURE__ */ import_react13.default.createElement("div", { className: "bg-white border border-gray-200 rounded-xl p-4 mb-6" }, /* @__PURE__ */ import_react13.default.createElement("div", { className: "flex items-center justify-between mb-2" }, /* @__PURE__ */ import_react13.default.createElement("span", { className: "text-gray-600" }, "Your answer:"), /* @__PURE__ */ import_react13.default.createElement("span", { className: "font-bold" }, "#", result.guessedIndex + 1, " ", result.wasCorrect ? /* @__PURE__ */ import_react13.default.createElement("span", { className: "text-green-600" }, "(Correct \u2713)") : /* @__PURE__ */ import_react13.default.createElement("span", { className: "text-red-600" }, "(Incorrect \u2717)"))), /* @__PURE__ */ import_react13.default.createElement("div", { className: "flex items-center justify-between" }, /* @__PURE__ */ import_react13.default.createElement("span", { className: "text-gray-600" }, "Streak:"), /* @__PURE__ */ import_react13.default.createElement("span", { className: "font-bold" }, result.newStreak > 0 && result.newStreak >= 3 && "\u{1F525} ", result.newStreak, " ", result.newStreak === 1 ? "day" : "days"))), userProgress && /* @__PURE__ */ import_react13.default.createElement("div", { className: "mb-6" }, /* @__PURE__ */ import_react13.default.createElement(
+  return /* @__PURE__ */ Devvit.createElement("div", { className: "flex flex-col h-full w-full max-w-2xl mx-auto px-4 py-6 overflow-y-auto" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-center py-6 bg-gray-100 rounded-xl mb-6" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-2xl mb-2" }, "\u2713"), /* @__PURE__ */ Devvit.createElement("h2", { className: "text-xl font-bold text-gray-900" }, "YOU'VE PLAYED TODAY")), /* @__PURE__ */ Devvit.createElement("div", { className: "bg-white border border-gray-200 rounded-xl p-4 mb-6" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between mb-2" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-gray-600" }, "Your answer:"), /* @__PURE__ */ Devvit.createElement("span", { className: "font-bold" }, "#", result.guessedIndex + 1, " ", result.wasCorrect ? /* @__PURE__ */ Devvit.createElement("span", { className: "text-green-600" }, "(Correct \u2713)") : /* @__PURE__ */ Devvit.createElement("span", { className: "text-red-600" }, "(Incorrect \u2717)"))), /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-gray-600" }, "Streak:"), /* @__PURE__ */ Devvit.createElement("span", { className: "font-bold" }, result.newStreak > 0 && result.newStreak >= 3 && "\u{1F525} ", result.newStreak, " ", result.newStreak === 1 ? "day" : "days"))), userProgress && /* @__PURE__ */ Devvit.createElement("div", { className: "mb-6" }, /* @__PURE__ */ Devvit.createElement(
     LeaderboardPanel,
     {
       streakRank: streakRank ?? null,
       accuracyRank: accuracyRank ?? null,
       progress: userProgress
     }
-  )), /* @__PURE__ */ import_react13.default.createElement("div", { className: "mb-6" }, /* @__PURE__ */ import_react13.default.createElement("h3", { className: "text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3" }, "Today's Community Stats"), /* @__PURE__ */ import_react13.default.createElement(
+  )), /* @__PURE__ */ Devvit.createElement("div", { className: "mb-6" }, /* @__PURE__ */ Devvit.createElement("h3", { className: "text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3" }, "Today's Community Stats"), /* @__PURE__ */ Devvit.createElement(
     StatsPanel,
     {
       stats: result.stats,
@@ -24275,26 +24269,34 @@ function CompletedScreen({
       wasCorrect: result.wasCorrect,
       userPercentile: result.userPercentile
     }
-  )), /* @__PURE__ */ import_react13.default.createElement("div", { className: "bg-gray-900 text-white rounded-xl p-6 mb-6" }, /* @__PURE__ */ import_react13.default.createElement(Timer, { className: "text-white" })), /* @__PURE__ */ import_react13.default.createElement("div", { className: "space-y-3" }, onViewBreakdown && /* @__PURE__ */ import_react13.default.createElement(
+  )), /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gray-900 text-white rounded-xl p-6 mb-6" }, /* @__PURE__ */ Devvit.createElement(Timer, { className: "text-white" })), /* @__PURE__ */ Devvit.createElement("div", { className: "space-y-3" }, onViewBreakdown && /* @__PURE__ */ Devvit.createElement(
     "button",
     {
       onClick: onViewBreakdown,
       className: "w-full py-3 px-6 bg-gray-200 hover:bg-gray-300 text-gray-700 font-semibold rounded-xl transition-colors"
     },
     "View Full Breakdown"
-  ), onJoinDiscussion && /* @__PURE__ */ import_react13.default.createElement(
+  ), onContribute && /* @__PURE__ */ Devvit.createElement(
+    "button",
+    {
+      onClick: onContribute,
+      className: "w-full py-3 px-6 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl transition-colors flex items-center justify-center gap-2"
+    },
+    /* @__PURE__ */ Devvit.createElement("span", null, "+"),
+    /* @__PURE__ */ Devvit.createElement("span", null, "Contribute AI Comments")
+  ), onJoinDiscussion && /* @__PURE__ */ Devvit.createElement(
     "button",
     {
       onClick: onJoinDiscussion,
       className: "w-full py-3 px-6 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-colors flex items-center justify-center gap-2"
     },
-    /* @__PURE__ */ import_react13.default.createElement("span", null, "\u{1F4AC}"),
-    /* @__PURE__ */ import_react13.default.createElement("span", null, "Join Discussion")
+    /* @__PURE__ */ Devvit.createElement("span", null, "\u{1F4AC}"),
+    /* @__PURE__ */ Devvit.createElement("span", null, "Join Discussion")
   )));
 }
 
 // src/components/game/ConfirmModal.tsx
-var import_react14 = __toESM(require_react(), 1);
+var import_react5 = __toESM(require_react(), 1);
 function truncateText(text, maxLength = 100) {
   if (text.length <= maxLength)
     return text;
@@ -24307,9 +24309,9 @@ function ConfirmModal({
   onCancel,
   isSubmitting = false
 }) {
-  const confirmButtonRef = (0, import_react14.useRef)(null);
-  const modalRef = (0, import_react14.useRef)(null);
-  (0, import_react14.useEffect)(() => {
+  const confirmButtonRef = (0, import_react5.useRef)(null);
+  const modalRef = (0, import_react5.useRef)(null);
+  (0, import_react5.useEffect)(() => {
     if (!isOpen)
       return;
     confirmButtonRef.current?.focus();
@@ -24337,7 +24339,7 @@ function ConfirmModal({
   }, [isOpen, onCancel]);
   if (!isOpen || !comment)
     return null;
-  return /* @__PURE__ */ import_react14.default.createElement(
+  return /* @__PURE__ */ Devvit.createElement(
     "div",
     {
       className: "fixed inset-0 z-50 flex items-center justify-center",
@@ -24345,7 +24347,7 @@ function ConfirmModal({
       "aria-modal": "true",
       "aria-labelledby": "confirm-modal-title"
     },
-    /* @__PURE__ */ import_react14.default.createElement(
+    /* @__PURE__ */ Devvit.createElement(
       "div",
       {
         className: "absolute inset-0 bg-black bg-opacity-50",
@@ -24353,13 +24355,13 @@ function ConfirmModal({
         "aria-hidden": "true"
       }
     ),
-    /* @__PURE__ */ import_react14.default.createElement(
+    /* @__PURE__ */ Devvit.createElement(
       "div",
       {
         ref: modalRef,
         className: "relative bg-white rounded-2xl shadow-2xl max-w-md w-full mx-4 p-6 animate-fade-in"
       },
-      /* @__PURE__ */ import_react14.default.createElement(
+      /* @__PURE__ */ Devvit.createElement(
         "h2",
         {
           id: "confirm-modal-title",
@@ -24369,9 +24371,9 @@ function ConfirmModal({
         comment.displayIndex + 1,
         ":"
       ),
-      /* @__PURE__ */ import_react14.default.createElement("div", { className: "bg-gray-100 rounded-lg p-4 mb-6" }, /* @__PURE__ */ import_react14.default.createElement("div", { className: "text-sm text-gray-500 mb-1" }, "u/", comment.username), /* @__PURE__ */ import_react14.default.createElement("div", { className: "text-gray-800 italic" }, '"', truncateText(comment.text), '"')),
-      /* @__PURE__ */ import_react14.default.createElement("p", { className: "text-center text-gray-700 font-medium mb-6" }, "Is this your final answer?"),
-      /* @__PURE__ */ import_react14.default.createElement("div", { className: "flex gap-3" }, /* @__PURE__ */ import_react14.default.createElement(
+      /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gray-100 rounded-lg p-4 mb-6" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-sm text-gray-500 mb-1" }, "u/", comment.username), /* @__PURE__ */ Devvit.createElement("div", { className: "text-gray-800 italic" }, '"', truncateText(comment.text), '"')),
+      /* @__PURE__ */ Devvit.createElement("p", { className: "text-center text-gray-700 font-medium mb-6" }, "Is this your final answer?"),
+      /* @__PURE__ */ Devvit.createElement("div", { className: "flex gap-3" }, /* @__PURE__ */ Devvit.createElement(
         "button",
         {
           onClick: onCancel,
@@ -24379,7 +24381,7 @@ function ConfirmModal({
           className: "flex-1 py-4 px-6 bg-gray-200 hover:bg-gray-300 disabled:bg-gray-100 text-gray-700 font-semibold rounded-xl transition-colors duration-200"
         },
         "Cancel"
-      ), /* @__PURE__ */ import_react14.default.createElement(
+      ), /* @__PURE__ */ Devvit.createElement(
         "button",
         {
           ref: confirmButtonRef,
@@ -24394,7 +24396,6 @@ function ConfirmModal({
 }
 
 // src/components/shared/LoadingSpinner.tsx
-var import_react15 = __toESM(require_react(), 1);
 var sizeClasses = {
   small: "text-2xl",
   medium: "text-4xl",
@@ -24410,26 +24411,25 @@ function LoadingSpinner({
   message,
   className = ""
 }) {
-  return /* @__PURE__ */ import_react15.default.createElement(
+  return /* @__PURE__ */ Devvit.createElement(
     "div",
     {
       className: `flex flex-col items-center justify-center ${containerSizes[size]} ${className}`,
       role: "status",
       "aria-live": "polite"
     },
-    /* @__PURE__ */ import_react15.default.createElement("div", { className: `${sizeClasses[size]} animate-pulse` }, "\u{1F50D}"),
-    message && /* @__PURE__ */ import_react15.default.createElement("p", { className: "mt-3 text-gray-600 text-center" }, message),
-    /* @__PURE__ */ import_react15.default.createElement("span", { className: "sr-only" }, "Loading...")
+    /* @__PURE__ */ Devvit.createElement("div", { className: `${sizeClasses[size]} animate-pulse` }, "\u{1F50D}"),
+    message && /* @__PURE__ */ Devvit.createElement("p", { className: "mt-3 text-gray-600 text-center" }, message),
+    /* @__PURE__ */ Devvit.createElement("span", { className: "sr-only" }, "Loading...")
   );
 }
 function FullPageSpinner({
   message = "Loading puzzle..."
 }) {
-  return /* @__PURE__ */ import_react15.default.createElement("div", { className: "flex flex-col h-full w-full items-center justify-center min-h-[300px]" }, /* @__PURE__ */ import_react15.default.createElement(LoadingSpinner, { size: "large", message }));
+  return /* @__PURE__ */ Devvit.createElement("div", { className: "flex flex-col h-full w-full items-center justify-center min-h-[300px]" }, /* @__PURE__ */ Devvit.createElement(LoadingSpinner, { size: "large", message }));
 }
 
 // src/components/shared/ErrorState.tsx
-var import_react16 = __toESM(require_react(), 1);
 function getErrorMessage(error) {
   const errorString = error instanceof Error ? error.message : String(error);
   if (errorString.includes("network") || errorString.includes("fetch") || errorString.includes("Network")) {
@@ -24450,16 +24450,16 @@ function ErrorState({
   retryLabel = "Try Again",
   className = ""
 }) {
-  return /* @__PURE__ */ import_react16.default.createElement(
+  return /* @__PURE__ */ Devvit.createElement(
     "div",
     {
       className: `flex flex-col items-center justify-center p-6 text-center ${className}`,
       role: "alert"
     },
-    /* @__PURE__ */ import_react16.default.createElement("div", { className: "text-4xl mb-4" }, "\u{1F615}"),
-    /* @__PURE__ */ import_react16.default.createElement("h2", { className: "text-lg font-semibold text-gray-900 mb-2" }, title),
-    /* @__PURE__ */ import_react16.default.createElement("p", { className: "text-sm text-gray-600 mb-6 max-w-sm" }, message),
-    onRetry && /* @__PURE__ */ import_react16.default.createElement(
+    /* @__PURE__ */ Devvit.createElement("div", { className: "text-4xl mb-4" }, "\u{1F615}"),
+    /* @__PURE__ */ Devvit.createElement("h2", { className: "text-lg font-semibold text-gray-900 mb-2" }, title),
+    /* @__PURE__ */ Devvit.createElement("p", { className: "text-sm text-gray-600 mb-6 max-w-sm" }, message),
+    onRetry && /* @__PURE__ */ Devvit.createElement(
       "button",
       {
         onClick: onRetry,
@@ -24475,7 +24475,7 @@ function FullPageError({
   onRetry,
   retryLabel
 }) {
-  return /* @__PURE__ */ import_react16.default.createElement("div", { className: "flex flex-col h-full w-full items-center justify-center min-h-[300px] px-4" }, /* @__PURE__ */ import_react16.default.createElement(
+  return /* @__PURE__ */ Devvit.createElement("div", { className: "flex flex-col h-full w-full items-center justify-center min-h-[300px] px-4" }, /* @__PURE__ */ Devvit.createElement(
     ErrorState,
     {
       title,
@@ -24484,6 +24484,245 @@ function FullPageError({
       retryLabel
     }
   ));
+}
+
+// src/components/contributions/ContributeScreen.tsx
+var import_react7 = __toESM(require_react(), 1);
+
+// src/components/contributions/ContributionForm.tsx
+var import_react6 = __toESM(require_react(), 1);
+var CATEGORIES = [
+  { value: "life", label: "Life & Advice" },
+  { value: "entertainment", label: "Entertainment" },
+  { value: "tech", label: "Technology" },
+  { value: "food", label: "Food & Cooking" },
+  { value: "relationships", label: "Relationships" },
+  { value: "gaming", label: "Gaming" },
+  { value: "sports", label: "Sports" },
+  { value: "science", label: "Science" }
+];
+function ContributionForm({ onSubmit, disabled }) {
+  const [promptIdea, setPromptIdea] = (0, import_react6.useState)("");
+  const [category, setCategory] = (0, import_react6.useState)("life");
+  const [aiCommentText, setAiCommentText] = (0, import_react6.useState)("");
+  const [aiTells, setAiTells] = (0, import_react6.useState)([""]);
+  const handleAddTell = () => {
+    if (aiTells.length < 5) {
+      setAiTells([...aiTells, ""]);
+    }
+  };
+  const handleRemoveTell = (index) => {
+    if (aiTells.length > 1) {
+      setAiTells(aiTells.filter((_, i) => i !== index));
+    }
+  };
+  const handleTellChange = (index, value) => {
+    const newTells = [...aiTells];
+    newTells[index] = value;
+    setAiTells(newTells);
+  };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const filteredTells = aiTells.filter((t) => t.trim().length > 0);
+    if (promptIdea.trim() && aiCommentText.trim() && filteredTells.length > 0) {
+      onSubmit({
+        promptIdea: promptIdea.trim(),
+        category,
+        aiCommentText: aiCommentText.trim(),
+        aiTells: filteredTells
+      });
+      setPromptIdea("");
+      setAiCommentText("");
+      setAiTells([""]);
+    }
+  };
+  const isValid = promptIdea.trim() && aiCommentText.trim() && aiTells.some((t) => t.trim());
+  return /* @__PURE__ */ Devvit.createElement("form", { onSubmit: handleSubmit, className: "space-y-4" }, /* @__PURE__ */ Devvit.createElement("div", null, /* @__PURE__ */ Devvit.createElement("label", { className: "block text-sm font-medium text-gray-700 mb-1" }, "Prompt/Question Idea"), /* @__PURE__ */ Devvit.createElement(
+    "input",
+    {
+      type: "text",
+      value: promptIdea,
+      onChange: (e) => setPromptIdea(e.target.value),
+      placeholder: "e.g., What's a skill you wish you learned earlier?",
+      className: "w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500",
+      disabled,
+      maxLength: 200
+    }
+  ), /* @__PURE__ */ Devvit.createElement("p", { className: "text-xs text-gray-500 mt-1" }, promptIdea.length, "/200")), /* @__PURE__ */ Devvit.createElement("div", null, /* @__PURE__ */ Devvit.createElement("label", { className: "block text-sm font-medium text-gray-700 mb-1" }, "Category"), /* @__PURE__ */ Devvit.createElement(
+    "select",
+    {
+      value: category,
+      onChange: (e) => setCategory(e.target.value),
+      className: "w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500",
+      disabled
+    },
+    CATEGORIES.map((cat) => /* @__PURE__ */ Devvit.createElement("option", { key: cat.value, value: cat.value }, cat.label))
+  )), /* @__PURE__ */ Devvit.createElement("div", null, /* @__PURE__ */ Devvit.createElement("label", { className: "block text-sm font-medium text-gray-700 mb-1" }, "Your AI-Style Comment"), /* @__PURE__ */ Devvit.createElement(
+    "textarea",
+    {
+      value: aiCommentText,
+      onChange: (e) => setAiCommentText(e.target.value),
+      placeholder: "Write a comment that sounds like it was written by AI...",
+      className: "w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 h-24 resize-none",
+      disabled,
+      maxLength: 500
+    }
+  ), /* @__PURE__ */ Devvit.createElement("p", { className: "text-xs text-gray-500 mt-1" }, aiCommentText.length, "/500")), /* @__PURE__ */ Devvit.createElement("div", null, /* @__PURE__ */ Devvit.createElement("label", { className: "block text-sm font-medium text-gray-700 mb-1" }, "Why Does This Sound Like AI? (1-5 reasons)"), /* @__PURE__ */ Devvit.createElement("div", { className: "space-y-2" }, aiTells.map((tell, index) => /* @__PURE__ */ Devvit.createElement("div", { key: index, className: "flex gap-2" }, /* @__PURE__ */ Devvit.createElement(
+    "input",
+    {
+      type: "text",
+      value: tell,
+      onChange: (e) => handleTellChange(index, e.target.value),
+      placeholder: `Reason ${index + 1}...`,
+      className: "flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500",
+      disabled,
+      maxLength: 150
+    }
+  ), aiTells.length > 1 && /* @__PURE__ */ Devvit.createElement(
+    "button",
+    {
+      type: "button",
+      onClick: () => handleRemoveTell(index),
+      className: "px-3 py-2 text-red-600 hover:bg-red-50 rounded-lg",
+      disabled
+    },
+    "X"
+  )))), aiTells.length < 5 && /* @__PURE__ */ Devvit.createElement(
+    "button",
+    {
+      type: "button",
+      onClick: handleAddTell,
+      className: "mt-2 text-sm text-blue-600 hover:text-blue-700",
+      disabled
+    },
+    "+ Add another reason"
+  )), /* @__PURE__ */ Devvit.createElement(
+    "button",
+    {
+      type: "submit",
+      disabled: disabled || !isValid,
+      className: `w-full py-3 px-6 rounded-xl font-bold transition-colors ${isValid && !disabled ? "bg-blue-600 hover:bg-blue-700 text-white" : "bg-gray-200 text-gray-400 cursor-not-allowed"}`
+    },
+    disabled ? "Submitting..." : "Submit Contribution"
+  ), /* @__PURE__ */ Devvit.createElement("p", { className: "text-xs text-gray-500 text-center" }, "Your contribution may be used in future puzzles if approved!"));
+}
+
+// src/components/contributions/ContributionCard.tsx
+var STATUS_BADGES = {
+  pending: { bg: "bg-yellow-100", text: "text-yellow-800", label: "Pending Review" },
+  approved: { bg: "bg-green-100", text: "text-green-800", label: "Approved" },
+  rejected: { bg: "bg-red-100", text: "text-red-800", label: "Not Selected" },
+  used: { bg: "bg-purple-100", text: "text-purple-800", label: "Used in Puzzle!" }
+};
+function ContributionCard({ contribution, onVote, disabled }) {
+  const status = STATUS_BADGES[contribution.status] ?? STATUS_BADGES.pending;
+  const netVotes = contribution.upvotes - contribution.downvotes;
+  const hasVoted = contribution.userVote !== null;
+  return /* @__PURE__ */ Devvit.createElement("div", { className: "bg-white border border-gray-200 rounded-xl p-4 shadow-sm" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between mb-3" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center gap-2" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-sm font-medium text-gray-700" }, "u/", contribution.username), /* @__PURE__ */ Devvit.createElement("span", { className: `text-xs px-2 py-0.5 rounded-full ${status.bg} ${status.text}` }, status.label)), /* @__PURE__ */ Devvit.createElement("span", { className: "text-xs text-gray-400" }, new Date(contribution.createdAt).toLocaleDateString())), /* @__PURE__ */ Devvit.createElement("div", { className: "mb-3" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-xs font-medium text-gray-500 uppercase tracking-wide" }, "Prompt Idea"), /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-900 font-medium mt-1" }, '"', contribution.promptIdea, '"')), /* @__PURE__ */ Devvit.createElement("div", { className: "mb-3 bg-gray-50 rounded-lg p-3" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-xs font-medium text-gray-500 uppercase tracking-wide" }, "AI Comment"), /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-700 mt-1 italic" }, '"', contribution.aiCommentText, '"')), /* @__PURE__ */ Devvit.createElement("div", { className: "mb-4" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-xs font-medium text-gray-500 uppercase tracking-wide" }, "Why It Sounds Like AI"), /* @__PURE__ */ Devvit.createElement("ul", { className: "mt-1 space-y-1" }, contribution.aiTells.map((tell, i) => /* @__PURE__ */ Devvit.createElement("li", { key: i, className: "text-sm text-gray-600 flex items-start gap-2" }, /* @__PURE__ */ Devvit.createElement("span", { className: "text-blue-500" }, "\u2022"), /* @__PURE__ */ Devvit.createElement("span", null, tell))))), /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between border-t border-gray-100 pt-3" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center gap-2" }, /* @__PURE__ */ Devvit.createElement(
+    "button",
+    {
+      onClick: () => onVote(contribution.id, "up"),
+      disabled: disabled || hasVoted,
+      className: `p-2 rounded-lg transition-colors ${hasVoted ? "text-gray-400 cursor-not-allowed" : "text-gray-600 hover:bg-green-50 hover:text-green-600"}`,
+      title: hasVoted ? "Already voted" : "Upvote"
+    },
+    /* @__PURE__ */ Devvit.createElement("svg", { className: "w-5 h-5", fill: "none", viewBox: "0 0 24 24", stroke: "currentColor" }, /* @__PURE__ */ Devvit.createElement("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M5 15l7-7 7 7" }))
+  ), /* @__PURE__ */ Devvit.createElement("span", { className: `font-bold min-w-[2rem] text-center ${netVotes > 0 ? "text-green-600" : netVotes < 0 ? "text-red-600" : "text-gray-600"}` }, netVotes > 0 ? "+" : "", netVotes), /* @__PURE__ */ Devvit.createElement(
+    "button",
+    {
+      onClick: () => onVote(contribution.id, "down"),
+      disabled: disabled || hasVoted,
+      className: `p-2 rounded-lg transition-colors ${hasVoted ? "text-gray-400 cursor-not-allowed" : "text-gray-600 hover:bg-red-50 hover:text-red-600"}`,
+      title: hasVoted ? "Already voted" : "Downvote"
+    },
+    /* @__PURE__ */ Devvit.createElement("svg", { className: "w-5 h-5", fill: "none", viewBox: "0 0 24 24", stroke: "currentColor" }, /* @__PURE__ */ Devvit.createElement("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M19 9l-7 7-7-7" }))
+  )), contribution.usedInPuzzleId && /* @__PURE__ */ Devvit.createElement("span", { className: "text-xs text-purple-600 font-medium" }, "Used in puzzle!")));
+}
+
+// src/components/contributions/ContributionList.tsx
+function ContributionList({
+  contributions,
+  onVote,
+  filter,
+  onFilterChange,
+  loading
+}) {
+  return /* @__PURE__ */ Devvit.createElement("div", { className: "space-y-4" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex flex-wrap gap-2 items-center" }, /* @__PURE__ */ Devvit.createElement(
+    "select",
+    {
+      value: filter.sortBy ?? "newest",
+      onChange: (e) => onFilterChange({ ...filter, sortBy: e.target.value }),
+      className: "px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500"
+    },
+    /* @__PURE__ */ Devvit.createElement("option", { value: "newest" }, "Newest"),
+    /* @__PURE__ */ Devvit.createElement("option", { value: "popular" }, "Most Popular"),
+    /* @__PURE__ */ Devvit.createElement("option", { value: "controversial" }, "Controversial")
+  )), loading && /* @__PURE__ */ Devvit.createElement("div", { className: "text-center py-8" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-2xl animate-spin mb-2" }, "Loading..."), /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-500" }, "Loading contributions...")), !loading && contributions.length === 0 && /* @__PURE__ */ Devvit.createElement("div", { className: "text-center py-8 bg-gray-50 rounded-xl" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-3xl mb-2" }, "No submissions yet"), /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-500" }, "Be the first to contribute!")), !loading && contributions.length > 0 && /* @__PURE__ */ Devvit.createElement("div", { className: "space-y-4" }, contributions.map((contribution) => /* @__PURE__ */ Devvit.createElement(
+    ContributionCard,
+    {
+      key: contribution.id,
+      contribution,
+      onVote
+    }
+  ))));
+}
+
+// src/components/contributions/ContributorLeaderboard.tsx
+function ContributorLeaderboard({ contributors, loading }) {
+  if (loading) {
+    return /* @__PURE__ */ Devvit.createElement("div", { className: "text-center py-6" }, /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-500" }, "Loading leaderboard..."));
+  }
+  if (contributors.length === 0) {
+    return /* @__PURE__ */ Devvit.createElement("div", { className: "text-center py-6 bg-gray-50 rounded-xl" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-2xl mb-2" }, "No contributors yet"), /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-500" }, "Be the first to contribute!"));
+  }
+  return /* @__PURE__ */ Devvit.createElement("div", { className: "bg-white border border-gray-200 rounded-xl overflow-hidden" }, /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gradient-to-r from-purple-600 to-blue-600 text-white px-4 py-3" }, /* @__PURE__ */ Devvit.createElement("h3", { className: "font-bold text-lg" }, "Top Contributors")), /* @__PURE__ */ Devvit.createElement("ul", { className: "divide-y divide-gray-100" }, contributors.map((contributor, index) => /* @__PURE__ */ Devvit.createElement("li", { key: contributor.userId, className: "px-4 py-3 flex items-center justify-between" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center gap-3" }, /* @__PURE__ */ Devvit.createElement("span", { className: `w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm ${index === 0 ? "bg-yellow-100 text-yellow-700" : index === 1 ? "bg-gray-100 text-gray-700" : index === 2 ? "bg-orange-100 text-orange-700" : "bg-gray-50 text-gray-600"}` }, index === 0 ? "1st" : index === 1 ? "2nd" : index === 2 ? "3rd" : `#${index + 1}`), /* @__PURE__ */ Devvit.createElement("div", null, /* @__PURE__ */ Devvit.createElement("p", { className: "font-medium text-gray-900" }, "u/", contributor.username), /* @__PURE__ */ Devvit.createElement("p", { className: "text-xs text-gray-500" }, contributor.totalSubmissions, " submitted", contributor.usedCount > 0 && ` - ${contributor.usedCount} used in puzzles!`))), /* @__PURE__ */ Devvit.createElement("div", { className: "text-right" }, /* @__PURE__ */ Devvit.createElement("p", { className: "font-bold text-purple-600" }, contributor.contributorScore), /* @__PURE__ */ Devvit.createElement("p", { className: "text-xs text-gray-500" }, "points"))))));
+}
+
+// src/components/contributions/ContributeScreen.tsx
+function ContributeScreen({
+  contributions,
+  myContributions,
+  topContributors,
+  onSubmit,
+  onVote,
+  onFilterChange,
+  filter,
+  loading,
+  submitting,
+  onBack
+}) {
+  const [activeTab, setActiveTab] = (0, import_react7.useState)("submit");
+  const tabs = [
+    { id: "submit", label: "Submit", icon: "+" },
+    { id: "browse", label: "Browse", icon: "All" },
+    { id: "my", label: "My Submissions", icon: "My" },
+    { id: "leaderboard", label: "Top", icon: "Top" }
+  ];
+  return /* @__PURE__ */ Devvit.createElement("div", { className: "flex flex-col h-full w-full max-w-2xl mx-auto" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between px-4 py-3 border-b border-gray-200" }, /* @__PURE__ */ Devvit.createElement(
+    "button",
+    {
+      onClick: onBack,
+      className: "text-blue-600 hover:text-blue-700 font-medium"
+    },
+    "Back to Game"
+  ), /* @__PURE__ */ Devvit.createElement("h1", { className: "font-bold text-lg" }, "Contribute"), /* @__PURE__ */ Devvit.createElement("div", { className: "w-20" })), /* @__PURE__ */ Devvit.createElement("div", { className: "bg-gradient-to-r from-purple-500 to-blue-500 text-white px-4 py-4" }, /* @__PURE__ */ Devvit.createElement("h2", { className: "font-bold text-lg mb-1" }, "Help Build the Game!"), /* @__PURE__ */ Devvit.createElement("p", { className: "text-sm opacity-90" }, "Submit AI-style comments that might be used in future puzzles. The best submissions get used and you get credit!")), /* @__PURE__ */ Devvit.createElement("div", { className: "flex border-b border-gray-200" }, tabs.map((tab) => /* @__PURE__ */ Devvit.createElement(
+    "button",
+    {
+      key: tab.id,
+      onClick: () => setActiveTab(tab.id),
+      className: `flex-1 py-3 text-center text-sm font-medium transition-colors ${activeTab === tab.id ? "text-blue-600 border-b-2 border-blue-600" : "text-gray-500 hover:text-gray-700"}`
+    },
+    tab.label
+  ))), /* @__PURE__ */ Devvit.createElement("div", { className: "flex-1 overflow-y-auto p-4" }, activeTab === "submit" && /* @__PURE__ */ Devvit.createElement("div", null, /* @__PURE__ */ Devvit.createElement("div", { className: "bg-blue-50 rounded-lg p-4 mb-4" }, /* @__PURE__ */ Devvit.createElement("h3", { className: "font-semibold text-blue-900 mb-2" }, "How to Submit"), /* @__PURE__ */ Devvit.createElement("ul", { className: "text-sm text-blue-800 space-y-1" }, /* @__PURE__ */ Devvit.createElement("li", null, "1. Think of a Reddit-style question prompt"), /* @__PURE__ */ Devvit.createElement("li", null, "2. Write a comment that sounds AI-generated"), /* @__PURE__ */ Devvit.createElement("li", null, "3. Explain what makes it sound like AI"), /* @__PURE__ */ Devvit.createElement("li", null, "4. If approved, your comment may appear in a puzzle!"))), /* @__PURE__ */ Devvit.createElement(ContributionForm, { onSubmit, disabled: submitting })), activeTab === "browse" && /* @__PURE__ */ Devvit.createElement(
+    ContributionList,
+    {
+      contributions,
+      onVote,
+      filter,
+      onFilterChange,
+      loading
+    }
+  ), activeTab === "my" && /* @__PURE__ */ Devvit.createElement("div", null, myContributions.length === 0 ? /* @__PURE__ */ Devvit.createElement("div", { className: "text-center py-8 bg-gray-50 rounded-xl" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-3xl mb-2" }, "No submissions yet"), /* @__PURE__ */ Devvit.createElement("p", { className: "text-gray-500" }, "Switch to Submit tab to contribute!")) : /* @__PURE__ */ Devvit.createElement("div", { className: "space-y-4" }, myContributions.map((contribution) => /* @__PURE__ */ Devvit.createElement("div", { key: contribution.id, className: "bg-white border border-gray-200 rounded-xl p-4" }, /* @__PURE__ */ Devvit.createElement("div", { className: "flex items-center justify-between mb-2" }, /* @__PURE__ */ Devvit.createElement("span", { className: `text-xs px-2 py-0.5 rounded-full ${contribution.status === "approved" ? "bg-green-100 text-green-800" : contribution.status === "rejected" ? "bg-red-100 text-red-800" : contribution.status === "used" ? "bg-purple-100 text-purple-800" : "bg-yellow-100 text-yellow-800"}` }, contribution.status === "used" ? "Used in Puzzle!" : contribution.status.charAt(0).toUpperCase() + contribution.status.slice(1)), /* @__PURE__ */ Devvit.createElement("span", { className: "text-xs text-gray-400" }, new Date(contribution.createdAt).toLocaleDateString())), /* @__PURE__ */ Devvit.createElement("p", { className: "font-medium text-gray-900 mb-1" }, '"', contribution.promptIdea, '"'), /* @__PURE__ */ Devvit.createElement("p", { className: "text-sm text-gray-600 italic" }, '"', contribution.aiCommentText, '"'), /* @__PURE__ */ Devvit.createElement("div", { className: "mt-2 text-xs text-gray-500" }, "Votes: +", contribution.upvotes, " / -", contribution.downvotes))))), activeTab === "leaderboard" && /* @__PURE__ */ Devvit.createElement(ContributorLeaderboard, { contributors: topContributors, loading })));
 }
 
 // src/components/App.tsx
@@ -24510,10 +24749,17 @@ function App() {
     guessError,
     reset
   } = useGameState();
-  const [achievementsToShow, setAchievementsToShow] = (0, import_react17.useState)([]);
-  const [streakRank, setStreakRank] = (0, import_react17.useState)(null);
-  const [accuracyRank, setAccuracyRank] = (0, import_react17.useState)(null);
-  const handleDevvitMessage = (0, import_react17.useCallback)(
+  const [achievementsToShow, setAchievementsToShow] = (0, import_react8.useState)([]);
+  const [streakRank, setStreakRank] = (0, import_react8.useState)(null);
+  const [accuracyRank, setAccuracyRank] = (0, import_react8.useState)(null);
+  const [showContributions, setShowContributions] = (0, import_react8.useState)(false);
+  const [contributions, setContributions] = (0, import_react8.useState)([]);
+  const [myContributions, setMyContributions] = (0, import_react8.useState)([]);
+  const [topContributors, setTopContributors] = (0, import_react8.useState)([]);
+  const [contributionFilter, setContributionFilter] = (0, import_react8.useState)({ status: "pending", sortBy: "newest" });
+  const [contributionLoading, setContributionLoading] = (0, import_react8.useState)(false);
+  const [contributionSubmitting, setContributionSubmitting] = (0, import_react8.useState)(false);
+  const handleDevvitMessage = (0, import_react8.useCallback)(
     (event) => {
       console.log("[WebView] Received message event:", event);
       console.log("[WebView] event.data:", JSON.stringify(event.data, null, 2));
@@ -24532,8 +24778,8 @@ function App() {
           const data = message.data;
           setStreakRank(data.streakRank ?? null);
           setAccuracyRank(data.accuracyRank ?? null);
-          if (data.previousResult) {
-            loadAlreadyPlayed(data.previousResult, data.userProgress);
+          if (data.previousResult && data.puzzle) {
+            loadAlreadyPlayed(data.puzzle, data.previousResult, data.userProgress);
           } else if (data.puzzle) {
             loadSuccess(data.puzzle, data.userProgress);
           } else {
@@ -24551,40 +24797,105 @@ function App() {
         case "ERROR": {
           if (state === "SUBMITTING") {
             guessError(message.error);
+          } else if (contributionSubmitting) {
+            setContributionSubmitting(false);
           } else {
             loadError(message.error);
           }
           break;
         }
+        case "CONTRIBUTION_SUBMITTED": {
+          setContributionSubmitting(false);
+          setMyContributions((prev) => [message.contribution, ...prev]);
+          break;
+        }
+        case "CONTRIBUTION_VOTED": {
+          setContributions(
+            (prev) => prev.map((c) => c.id === message.contribution.id ? message.contribution : c)
+          );
+          break;
+        }
+        case "CONTRIBUTIONS_LIST": {
+          setContributionLoading(false);
+          setContributions(message.contributions);
+          break;
+        }
+        case "MY_CONTRIBUTIONS": {
+          setMyContributions(message.contributions);
+          break;
+        }
+        case "TOP_CONTRIBUTORS": {
+          setTopContributors(message.contributors);
+          break;
+        }
       }
     },
-    [loadSuccess, loadAlreadyPlayed, loadError, guessSuccess, guessError, state]
+    [loadSuccess, loadAlreadyPlayed, loadError, guessSuccess, guessError, state, contributionSubmitting]
   );
-  (0, import_react17.useEffect)(() => {
+  (0, import_react8.useEffect)(() => {
     window.addEventListener("message", handleDevvitMessage);
     return () => {
       window.removeEventListener("message", handleDevvitMessage);
     };
   }, [handleDevvitMessage]);
-  (0, import_react17.useEffect)(() => {
+  (0, import_react8.useEffect)(() => {
     sendToDevvit({ type: "INIT" });
   }, []);
-  const handleConfirmGuess = (0, import_react17.useCallback)(() => {
+  const handleConfirmGuess = (0, import_react8.useCallback)(() => {
     if (selectedIndex === null)
       return;
     submitGuess();
     sendToDevvit({ type: "SUBMIT_GUESS", guessIndex: selectedIndex });
   }, [selectedIndex, submitGuess]);
-  const handleRetry = (0, import_react17.useCallback)(() => {
+  const handleRetry = (0, import_react8.useCallback)(() => {
     reset();
     sendToDevvit({ type: "INIT" });
   }, [reset]);
+  const openContributions = (0, import_react8.useCallback)(() => {
+    setShowContributions(true);
+    setContributionLoading(true);
+    sendToDevvit({ type: "GET_CONTRIBUTIONS", filter: contributionFilter });
+    sendToDevvit({ type: "GET_MY_CONTRIBUTIONS" });
+    sendToDevvit({ type: "GET_TOP_CONTRIBUTORS" });
+  }, [contributionFilter]);
+  const closeContributions = (0, import_react8.useCallback)(() => {
+    setShowContributions(false);
+  }, []);
+  const handleSubmitContribution = (0, import_react8.useCallback)((data) => {
+    setContributionSubmitting(true);
+    sendToDevvit({ type: "SUBMIT_CONTRIBUTION", data });
+  }, []);
+  const handleVoteContribution = (0, import_react8.useCallback)((contributionId, vote) => {
+    sendToDevvit({ type: "VOTE_CONTRIBUTION", contributionId, vote });
+  }, []);
+  const handleContributionFilterChange = (0, import_react8.useCallback)((filter) => {
+    setContributionFilter(filter);
+    setContributionLoading(true);
+    sendToDevvit({ type: "GET_CONTRIBUTIONS", filter });
+  }, []);
   const renderContent = () => {
+    if (showContributions) {
+      return /* @__PURE__ */ Devvit.createElement(
+        ContributeScreen,
+        {
+          contributions,
+          myContributions,
+          topContributors,
+          onSubmit: handleSubmitContribution,
+          onVote: handleVoteContribution,
+          onFilterChange: handleContributionFilterChange,
+          filter: contributionFilter,
+          loading: contributionLoading,
+          submitting: contributionSubmitting,
+          onBack: closeContributions
+        }
+      );
+    }
     switch (state) {
       case "LOADING":
-        return /* @__PURE__ */ import_react17.default.createElement(FullPageSpinner, { message: "Loading puzzle..." });
+        return /* @__PURE__ */ Devvit.createElement(FullPageSpinner, { message: "Loading puzzle..." });
       case "ERROR":
-        return /* @__PURE__ */ import_react17.default.createElement(
+        return /* @__PURE__ */ Devvit.createElement(
           FullPageError,
           {
             title: "Something went wrong",
@@ -24593,14 +24904,14 @@ function App() {
           }
         );
       case "NEW_USER":
-        return /* @__PURE__ */ import_react17.default.createElement(WelcomeScreen, { onStartGame: startGame });
+        return /* @__PURE__ */ Devvit.createElement(WelcomeScreen, { onStartGame: startGame });
       case "PLAYING":
       case "SELECTED":
       case "CONFIRMING":
       case "SUBMITTING":
         if (!puzzle)
-          return /* @__PURE__ */ import_react17.default.createElement(FullPageSpinner, null);
-        return /* @__PURE__ */ import_react17.default.createElement(
+          return /* @__PURE__ */ Devvit.createElement(FullPageSpinner, null);
+        return /* @__PURE__ */ Devvit.createElement(
           GameScreen,
           {
             puzzle,
@@ -24613,8 +24924,8 @@ function App() {
       case "RESULT_CORRECT":
       case "RESULT_INCORRECT":
         if (!result || !puzzle)
-          return /* @__PURE__ */ import_react17.default.createElement(FullPageSpinner, null);
-        return /* @__PURE__ */ import_react17.default.createElement(
+          return /* @__PURE__ */ Devvit.createElement(FullPageSpinner, null);
+        return /* @__PURE__ */ Devvit.createElement(
           ResultScreen,
           {
             result,
@@ -24624,13 +24935,14 @@ function App() {
             },
             onJoinDiscussion: () => {
               console.log("Join discussion");
-            }
+            },
+            onContribute: openContributions
           }
         );
       case "COMPLETED":
         if (!result || !puzzle)
-          return /* @__PURE__ */ import_react17.default.createElement(FullPageSpinner, null);
-        return /* @__PURE__ */ import_react17.default.createElement(
+          return /* @__PURE__ */ Devvit.createElement(FullPageSpinner, null);
+        return /* @__PURE__ */ Devvit.createElement(
           CompletedScreen,
           {
             result,
@@ -24643,14 +24955,15 @@ function App() {
             },
             onJoinDiscussion: () => {
               console.log("Join discussion");
-            }
+            },
+            onContribute: openContributions
           }
         );
       default:
-        return /* @__PURE__ */ import_react17.default.createElement(FullPageSpinner, null);
+        return /* @__PURE__ */ Devvit.createElement(FullPageSpinner, null);
     }
   };
-  return /* @__PURE__ */ import_react17.default.createElement("div", { className: "min-h-screen bg-white safe-area-inset" }, renderContent(), state === "CONFIRMING" && puzzle && selectedIndex !== null && /* @__PURE__ */ import_react17.default.createElement(
+  return /* @__PURE__ */ Devvit.createElement("div", { className: "min-h-screen bg-white safe-area-inset" }, renderContent(), state === "CONFIRMING" && puzzle && selectedIndex !== null && /* @__PURE__ */ Devvit.createElement(
     ConfirmModal,
     {
       isOpen: true,
@@ -24658,7 +24971,7 @@ function App() {
       onConfirm: handleConfirmGuess,
       onCancel: cancelConfirm
     }
-  ), state === "SUBMITTING" && /* @__PURE__ */ import_react17.default.createElement("div", { className: "fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50" }, /* @__PURE__ */ import_react17.default.createElement("div", { className: "bg-white rounded-xl p-6 text-center" }, /* @__PURE__ */ import_react17.default.createElement("div", { className: "text-3xl mb-3 animate-spin" }, "\u{1F50D}"), /* @__PURE__ */ import_react17.default.createElement("div", { className: "text-gray-700 font-medium" }, "Checking your guess..."))), achievementsToShow.length > 0 && /* @__PURE__ */ import_react17.default.createElement(
+  ), state === "SUBMITTING" && /* @__PURE__ */ Devvit.createElement("div", { className: "fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50" }, /* @__PURE__ */ Devvit.createElement("div", { className: "bg-white rounded-xl p-6 text-center" }, /* @__PURE__ */ Devvit.createElement("div", { className: "text-3xl mb-3 animate-spin" }, "\u{1F50D}"), /* @__PURE__ */ Devvit.createElement("div", { className: "text-gray-700 font-medium" }, "Checking your guess..."))), achievementsToShow.length > 0 && /* @__PURE__ */ Devvit.createElement(
     AchievementToast,
     {
       achievements: achievementsToShow,
@@ -24671,7 +24984,7 @@ function App() {
 var container = document.getElementById("root");
 if (container) {
   const root = (0, import_client.createRoot)(container);
-  root.render(/* @__PURE__ */ import_react18.default.createElement(App, null));
+  root.render(/* @__PURE__ */ import_react9.default.createElement(App, null));
 }
 /*! Bundled license information:
 

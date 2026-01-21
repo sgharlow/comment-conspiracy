@@ -50,6 +50,7 @@ function gameReducer(context: GameContext, action: GameAction): GameContext {
       return {
         ...context,
         state: 'COMPLETED',
+        puzzle: action.puzzle,
         result: action.result,
         userProgress: action.progress,
         error: null,
@@ -145,7 +146,7 @@ export interface UseGameStateReturn {
   // Actions
   startLoading: () => void;
   loadSuccess: (puzzle: ShuffledPuzzle, progress: UserProgress) => void;
-  loadAlreadyPlayed: (result: GuessResult, progress: UserProgress) => void;
+  loadAlreadyPlayed: (puzzle: ShuffledPuzzle, result: GuessResult, progress: UserProgress) => void;
   loadError: (error: string) => void;
   startGame: () => void;
   selectComment: (index: number) => void;
@@ -177,8 +178,8 @@ export function useGameState(): UseGameStateReturn {
     []
   );
   const loadAlreadyPlayed = useCallback(
-    (result: GuessResult, progress: UserProgress) =>
-      dispatch({ type: 'LOAD_ALREADY_PLAYED', result, progress }),
+    (puzzle: ShuffledPuzzle, result: GuessResult, progress: UserProgress) =>
+      dispatch({ type: 'LOAD_ALREADY_PLAYED', puzzle, result, progress }),
     []
   );
   const loadError = useCallback(

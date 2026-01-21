@@ -105,9 +105,9 @@ export function App(): React.ReactElement {
           setStreakRank(data.streakRank ?? null);
           setAccuracyRank(data.accuracyRank ?? null);
 
-          if (data.previousResult) {
+          if (data.previousResult && data.puzzle) {
             // User already played today
-            loadAlreadyPlayed(data.previousResult, data.userProgress);
+            loadAlreadyPlayed(data.puzzle, data.previousResult, data.userProgress);
           } else if (data.puzzle) {
             // Ready to play
             loadSuccess(data.puzzle, data.userProgress);
