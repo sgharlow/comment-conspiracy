@@ -6,7 +6,17 @@
 
 import React, { useEffect, useCallback, useState } from 'react';
 import { useGameState } from '../hooks/useGameState';
-import type { DevvitToWebViewMessage, WebViewToDevvitMessage, InitData, Achievement, LeaderboardRankData } from '../types';
+import type {
+  DevvitToWebViewMessage,
+  WebViewToDevvitMessage,
+  InitData,
+  Achievement,
+  LeaderboardRankData,
+  ContributionDisplay,
+  ContributorStats,
+  SubmitContributionRequest,
+  ContributionFilter,
+} from '../types';
 
 // Screen components
 import { WelcomeScreen } from './screens/WelcomeScreen';
@@ -17,6 +27,7 @@ import { ConfirmModal } from './game/ConfirmModal';
 import { FullPageSpinner } from './shared/LoadingSpinner';
 import { FullPageError, getErrorMessage } from './shared/ErrorState';
 import { AchievementToast } from './results/AchievementToast';
+import { ContributeScreen } from './contributions/ContributeScreen';
 
 /**
  * Send a message to the Devvit host
@@ -56,6 +67,15 @@ export function App(): React.ReactElement {
   // Track leaderboard ranks
   const [streakRank, setStreakRank] = useState<LeaderboardRankData | null>(null);
   const [accuracyRank, setAccuracyRank] = useState<LeaderboardRankData | null>(null);
+
+  // Contribution state
+  const [showContributions, setShowContributions] = useState(false);
+  const [contributions, setContributions] = useState<ContributionDisplay[]>([]);
+  const [myContributions, setMyContributions] = useState<ContributionDisplay[]>([]);
+  const [topContributors, setTopContributors] = useState<ContributorStats[]>([]);
+  const [contributionFilter, setContributionFilter] = useState<ContributionFilter>({ status: 'pending', sortBy: 'newest' });
+  const [contributionLoading, setContributionLoading] = useState(false);
+  const [contributionSubmitting, setContributionSubmitting] = useState(false);
 
   // Handle messages from Devvit
   const handleDevvitMessage = useCallback(
@@ -107,14 +127,43 @@ export function App(): React.ReactElement {
         case 'ERROR': {
           if (state === 'SUBMITTING') {
             guessError(message.error);
+          } else if (contributionSubmitting) {
+            setContributionSubmitting(false);
           } else {
             loadError(message.error);
           }
           break;
         }
+
+        // Contribution message handlers
+        case 'CONTRIBUTION_SUBMITTED': {
+          setContributionSubmitting(false);
+          setMyContributions(prev => [message.contribution, ...prev]);
+          break;
+        }
+        case 'CONTRIBUTION_VOTED': {
+          // Update the contribution in the list
+          setContributions(prev =>
+            prev.map(c => c.id === message.contribution.id ? message.contribution : c)
+          );
+          break;
+        }
+        case 'CONTRIBUTIONS_LIST': {
+          setContributionLoading(false);
+          setContributions(message.contributions);
+          break;
+        }
+        case 'MY_CONTRIBUTIONS': {
+          setMyContributions(message.contributions);
+          break;
+        }
+        case 'TOP_CONTRIBUTORS': {
+          setTopContributors(message.contributors);
+          break;
+        }
       }
     },
-    [loadSuccess, loadAlreadyPlayed, loadError, guessSuccess, guessError, state]
+    [loadSuccess, loadAlreadyPlayed, loadError, guessSuccess, guessError, state, contributionSubmitting]
   );
 
   // Set up message listener (updates when handler changes)
@@ -143,8 +192,55 @@ export function App(): React.ReactElement {
     sendToDevvit({ type: 'INIT' });
   }, [reset]);
 
+  // Contribution handlers
+  const openContributions = useCallback(() => {
+    setShowContributions(true);
+    setContributionLoading(true);
+    // Fetch contribution data
+    sendToDevvit({ type: 'GET_CONTRIBUTIONS', filter: contributionFilter });
+    sendToDevvit({ type: 'GET_MY_CONTRIBUTIONS' });
+    sendToDevvit({ type: 'GET_TOP_CONTRIBUTORS' });
+  }, [contributionFilter]);
+
+  const closeContributions = useCallback(() => {
+    setShowContributions(false);
+  }, []);
+
+  const handleSubmitContribution = useCallback((data: SubmitContributionRequest) => {
+    setContributionSubmitting(true);
+    sendToDevvit({ type: 'SUBMIT_CONTRIBUTION', data });
+  }, []);
+
+  const handleVoteContribution = useCallback((contributionId: string, vote: 'up' | 'down') => {
+    sendToDevvit({ type: 'VOTE_CONTRIBUTION', contributionId, vote });
+  }, []);
+
+  const handleContributionFilterChange = useCallback((filter: ContributionFilter) => {
+    setContributionFilter(filter);
+    setContributionLoading(true);
+    sendToDevvit({ type: 'GET_CONTRIBUTIONS', filter });
+  }, []);
+
   // Render based on state
   const renderContent = (): React.ReactElement => {
+    // Show contributions screen if active
+    if (showContributions) {
+      return (
+        <ContributeScreen
+          contributions={contributions}
+          myContributions={myContributions}
+          topContributors={topContributors}
+          onSubmit={handleSubmitContribution}
+          onVote={handleVoteContribution}
+          onFilterChange={handleContributionFilterChange}
+          filter={contributionFilter}
+          loading={contributionLoading}
+          submitting={contributionSubmitting}
+          onBack={closeContributions}
+        />
+      );
+    }
+
     switch (state) {
       case 'LOADING':
         return <FullPageSpinner message="Loading puzzle..." />;
@@ -191,6 +287,7 @@ export function App(): React.ReactElement {
               // Could open Reddit comments
               console.log('Join discussion');
             }}
+            onContribute={openContributions}
           />
         );
 
@@ -209,6 +306,7 @@ export function App(): React.ReactElement {
             onJoinDiscussion={() => {
               console.log('Join discussion');
             }}
+            onContribute={openContributions}
           />
         );
 

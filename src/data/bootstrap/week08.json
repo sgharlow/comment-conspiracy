@@ -1,0 +1,461 @@
+{
+  "week": 8,
+  "startDate": "2026-03-09",
+  "puzzles": [
+    {
+      "id": "2026-03-09",
+      "dayNumber": 50,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "entertainment",
+      "prompt": {
+        "text": "What's a TV show that you've rewatched multiple times?",
+        "source": "r/television"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "RewatchKing",
+          "text": "The Office. I've seen it all the way through at least 15 times. It's not even funny anymore, it's just comforting. Like audio wallpaper.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "TVEnthusiast",
+          "text": "Rewatching beloved television shows can provide comfort and familiarity. Many people find returning to favorite series a relaxing way to unwind after a long day.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "AnimeFan_",
+          "text": "Avatar The Last Airbender. Watched it as a kid, watched it as a teen, watched it as an adult. It hits different every time somehow.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "FriendsForever",
+          "text": "Friends. Yes I know it's problematic by today's standards. I still put it on when I can't sleep. Monica cleaning makes me sleepy.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SciFiAddict",
+          "text": "Firefly. All 14 episodes, about once a year, followed by seething rage that it got cancelled. This is my ritual.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Beloved television shows\" - formal phrase",
+          "\"Comfort and familiarity\" - generic psychology",
+          "\"Relaxing way to unwind\" - sounds like ad copy",
+          "Doesn't name any specific show",
+          "Explains why people rewatch instead of sharing their show"
+        ],
+        "humanTells": [
+          "#1: Specific number of rewatches, metaphor (\"audio wallpaper\")",
+          "#3: Life stages listed, evolution of experience",
+          "#4: Acknowledges criticism, specific detail (Monica cleaning)",
+          "#5: Exact episode count, annual ritual, ongoing emotion"
+        ],
+        "difficulty_note": "Easy - AI theorizes about comfort TV while humans name their shows"
+      },
+      "metadata": {
+        "createdAt": "2026-02-25T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-10",
+      "dayNumber": 51,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "life",
+      "prompt": {
+        "text": "What's the best compliment you've ever received?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ComplimentCollector",
+          "text": "Receiving sincere compliments can significantly boost one's self-esteem and emotional wellbeing. Meaningful recognition from others validates our efforts and strengthens social connections.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "DadOfTwo",
+          "text": "My daughter once said I give the best hugs because I \"squeeze just the right amount.\" I'm going to remember that until I die.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "QuietPerson",
+          "text": "Someone once told me I have a calming presence. I'm constantly anxious internally so this was wild to hear. Apparently I hide it well.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "WorkerBee_",
+          "text": "A coworker said I was the only person in the office who actually listened when people talked. That one stuck with me for years.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "OldPhoto",
+          "text": "my grandma said i had kind eyes like my late grandfather who i never met. made me cry in the middle of thanksgiving. worth it though",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Significantly boost one's self-esteem\" - psychology textbook",
+          "\"Emotional wellbeing\" - clinical language",
+          "\"Validates our efforts\" - corporate speak",
+          "Doesn't share any specific compliment received",
+          "Analyzes compliments in general rather than sharing"
+        ],
+        "humanTells": [
+          "#2: Specific quote, daughter, permanent memory",
+          "#3: Internal vs external contrast, surprise",
+          "#4: Specific skill recognized, lasting impact",
+          "#5: Family connection, emotional context"
+        ],
+        "difficulty_note": "Easy - AI analyzes the psychology of compliments without sharing one"
+      },
+      "metadata": {
+        "createdAt": "2026-02-25T10:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-11",
+      "dayNumber": 52,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "food",
+      "prompt": {
+        "text": "What's a cooking mistake you'll never make again?",
+        "source": "r/Cooking"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "BurnedOnce",
+          "text": "Used metal utensils on my nonstick pan. Once. The scratch marks still haunt me. That pan cost $80.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "SpiceRookie",
+          "text": "Added cayenne pepper without measuring. \"A little more won't hurt\" turned into \"I can't feel my tongue and I'm sweating.\"",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "KitchenLearner",
+          "text": "cooking mistakes are valuable learning opportunities that help us become better in the kitchen. many professional chefs say their biggest failures taught them the most important lessons",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "GarlicLover_",
+          "text": "Put garlic in the pan first and burned it to char before the onions were even translucent. The smoke alarm went off. My roommate still brings it up.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "BakingFail",
+          "text": "used baking soda instead of baking powder. those cookies spread across the entire sheet like a flat crispy disc. my family ate them anyway out of pity",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Valuable learning opportunities\" - motivational language",
+          "\"Professional chefs say\" - vague authority",
+          "\"Most important lessons\" - generic wisdom",
+          "Lowercase but philosophical rather than personal",
+          "Doesn't describe any specific mistake"
+        ],
+        "humanTells": [
+          "#1: Specific item ($80 pan), lasting regret",
+          "#2: Quote contrast, physical reaction described",
+          "#4: Sequence of events, roommate witness",
+          "#5: Specific substitution, result described, family reaction"
+        ],
+        "difficulty_note": "Medium - AI philosophizes about learning while humans share specific disasters"
+      },
+      "metadata": {
+        "createdAt": "2026-02-25T11:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-12",
+      "dayNumber": 53,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "tech",
+      "prompt": {
+        "text": "What's the dumbest thing you've done with your computer?",
+        "source": "r/technology"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "TechSupport_",
+          "text": "Downloaded RAM. I was 12. It didn't work. In retrospect I understand why.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PCBuilderFail",
+          "text": "Forgot to plug in the CPU power connector and spent 3 hours troubleshooting why it wouldn't turn on. Called my friend in a panic. He found it in 10 seconds.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "UserExperience",
+          "text": "technology mistakes happen to everyone as we learn to navigate complex systems. these experiences teach us to be more careful and methodical with our devices over time",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "SpillZone",
+          "text": "Spilled coffee directly onto my keyboard while on a work call. Kept talking like nothing happened. The spacebar still sticks to this day.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "DeletedEverything",
+          "text": "rm -rf / on a production server. as an intern. my entire team went silent. i still wake up in cold sweats about it sometimes",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Happens to everyone\" - vague reassurance",
+          "\"Navigate complex systems\" - overly formal",
+          "\"More careful and methodical\" - generic advice",
+          "Doesn't describe any specific mistake",
+          "Talks about learning without sharing a story"
+        ],
+        "humanTells": [
+          "#1: Specific scam, age, hindsight humor",
+          "#2: Specific component, time spent, friend resolution",
+          "#4: Work context, specific consequence (sticky spacebar)",
+          "#5: Exact command, intern context, lasting trauma"
+        ],
+        "difficulty_note": "Medium - AI gives reassurance while humans confess specific failures"
+      },
+      "metadata": {
+        "createdAt": "2026-02-25T11:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-13",
+      "dayNumber": 54,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "life",
+      "prompt": {
+        "text": "What's something you're irrationally afraid of?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "IrrationalFear",
+          "text": "Butterflies. Yes I know they're harmless. Their flight patterns are too chaotic. I don't trust them. Never have.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PhobiaClub",
+          "text": "Escalators. I have to psych myself up every time. I've seen those videos of people getting sucked in and now I can't unsee them.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "SecretFear_",
+          "text": "the sound of balloons rubbing together. i physically recoil. everyone thinks i'm being dramatic but my whole body tenses up",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "FearExplorer",
+          "text": "irrational fears are quite common and can stem from various sources including past experiences or evolutionary instincts. many people live with minor phobias without significant impact on daily life",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "DeepWater",
+          "text": "Open water where I can't see the bottom. Not sharks specifically. Just the void. The endless dark void. I've turned down vacation trips because of this.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Quite common\" - minimizing and clinical",
+          "\"Stem from various sources\" - vague psychology",
+          "\"Evolutionary instincts\" - academic language",
+          "Lowercase but content is explanatory, not confessional",
+          "Doesn't share any fear, just explains fears exist"
+        ],
+        "humanTells": [
+          "#1: Specific creature, acknowledges irrationality, reasoning",
+          "#2: Specific trigger, video evidence cited",
+          "#3: Specific sound, physical reaction, others' reactions",
+          "#5: Specific scenario, poetic description, real consequence"
+        ],
+        "difficulty_note": "Hard - AI explains phobias clinically without admitting any"
+      },
+      "metadata": {
+        "createdAt": "2026-02-25T12:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-14",
+      "dayNumber": 55,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "relationships",
+      "prompt": {
+        "text": "What's a relationship red flag you ignored that you wish you hadn't?",
+        "source": "r/relationships"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "HindsightHurts",
+          "text": "They never apologized. Like ever. For anything. I convinced myself they just showed love differently. Nope. They were just incapable of admitting fault.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "IgnoredSigns",
+          "text": "How they talked about their exes. All of them were \"crazy.\" Guess who became the new \"crazy ex\" when we broke up? Shocker.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "RedFlagWatcher",
+          "text": "recognizing red flags in relationships is important for maintaining healthy boundaries. learning from past experiences helps us make better choices in future relationships",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "FamilyMatters_",
+          "text": "The way his mom treated me. She was subtly dismissive from day one. He always defended her. Turns out he was exactly like her when things got hard.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "NeverAgain22",
+          "text": "they isolated me from my friends. it happened so slowly i didn't notice. \"i just want you to myself\" sounds romantic until you realize you have no one left",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Important for maintaining healthy boundaries\" - therapy speak",
+          "\"Learning from past experiences\" - generic advice",
+          "\"Better choices in future relationships\" - self-help language",
+          "Lowercase but gives advice rather than sharing experience",
+          "Doesn't share any specific red flag"
+        ],
+        "humanTells": [
+          "#1: Specific behavior, self-deception admitted",
+          "#2: Pattern observation, ironic outcome",
+          "#4: Specific person (mom), pattern recognition",
+          "#5: Specific manipulation, quote used, realization"
+        ],
+        "difficulty_note": "Expert - AI counsels about red flags without naming one"
+      },
+      "metadata": {
+        "createdAt": "2026-02-25T12:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-15",
+      "dayNumber": 56,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "entertainment",
+      "prompt": {
+        "text": "What's a song lyric you misheard for years before realizing the real words?",
+        "source": "r/Music"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "MisheardLyrics",
+          "text": "\"Hold me closer, Tony Danza\" instead of \"tiny dancer.\" I was in my 20s when someone corrected me. I refuse to sing it correctly now.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "WrongWords_",
+          "text": "thought Purple Haze said \"excuse me while I kiss this guy\" for my entire childhood. finding out it was \"kiss the sky\" was a whole revelation",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "LyricConfusion",
+          "text": "misheard lyrics are a common and amusing phenomenon that many people experience. the way our brains process sound can lead to creative interpretations of song lyrics",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "90sKid_",
+          "text": "\"I'm blue, I would beat off a guy\" instead of \"da ba dee da ba di.\" I was MORTIFIED when I learned the truth. I had been singing this at school.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "OlderNowWiser",
+          "text": "thought Sweet Child O' Mine said \"where do we go now\" at the end like a hundred times. it's actually \"where do we go, where do we go.\" subtle difference but it broke me",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Common and amusing phenomenon\" - clinical description",
+          "\"The way our brains process sound\" - neuroscience explanation",
+          "\"Creative interpretations\" - positive spin on mistakes",
+          "Explains WHY mishearing happens instead of sharing one",
+          "Doesn't name any specific misheard lyric"
+        ],
+        "humanTells": [
+          "#1: Famous mishearing, age of correction, defiant reaction",
+          "#2: Childhood timeframe, \"revelation\" drama",
+          "#4: Specific embarrassing misinterpretation, school context",
+          "#5: Specific song and lyric, emotional impact (\"broke me\")"
+        ],
+        "difficulty_note": "Hard - AI explains the psychology without sharing any misheard lyric"
+      },
+      "metadata": {
+        "createdAt": "2026-02-25T13:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

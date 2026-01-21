@@ -1,0 +1,266 @@
+{
+  "week": 9,
+  "startDate": "2026-03-16",
+  "puzzles": [
+    {
+      "id": "2026-03-16",
+      "dayNumber": 57,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "life",
+      "prompt": {
+        "text": "What's a small act of kindness someone did for you that you still remember?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "RememberKindness",
+          "text": "Small acts of kindness create lasting impressions and strengthen our connections with others. These gestures remind us of the inherent goodness in people and inspire us to pay it forward.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "GratefulStill",
+          "text": "A stranger paid for my coffee when I forgot my wallet. It was like $4. I cried in my car. I was going through a divorce and it just... hit different.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "BusDude_",
+          "text": "Bus driver waited for me when he saw me running. I was late for an interview. Got the job. That man changed my whole career trajectory by waiting 10 seconds.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "CollegeMemory",
+          "text": "A professor wrote a personal note on my essay when I was struggling. Just \"I see you're trying. Don't give up.\" I still have that paper 15 years later.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ParkingLotMoment",
+          "text": "an old lady in a parking lot told me i had pretty eyes. unprompted. just walked up and said it and walked away. i think about it every time i feel ugly",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Create lasting impressions\" - vague positive language",
+          "\"Strengthen our connections\" - generic social commentary",
+          "\"Inherent goodness in people\" - philosophical",
+          "\"Pay it forward\" - cliche phrase",
+          "Doesn't share any specific kindness received"
+        ],
+        "humanTells": [
+          "#2: Small dollar amount, emotional context (divorce)",
+          "#3: Specific outcome (got the job), time detail",
+          "#4: Exact quote, physical item kept",
+          "#5: Random encounter, ongoing emotional impact"
+        ],
+        "difficulty_note": "Easy - AI philosophizes about kindness while humans share specific moments"
+      },
+      "metadata": {
+        "createdAt": "2026-03-01T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-17",
+      "dayNumber": 58,
+      "difficulty": "medium",
+      "dayOfWeek": "tuesday",
+      "category": "gaming",
+      "prompt": {
+        "text": "What's a video game that you think everyone should play at least once?",
+        "source": "r/gaming"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "GamingEssentials",
+          "text": "Portal 2. Perfect balance of puzzle, story, and comedy. Even non-gamers can get into it. I've made my entire family play it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "MustPlayGames",
+          "text": "Video games offer unique interactive experiences that can be enjoyed by people of all backgrounds. The right game can introduce new players to the joys of gaming as a medium.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "StorytellingFan",
+          "text": "Undertale. You can play it in an afternoon and it'll make you think about video game morality in ways you never have before. Plus the soundtrack slaps.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "ClassicGamer_",
+          "text": "minecraft. it's basically digital legos with survival elements. there's no wrong way to play. my 6 year old nephew and my 60 year old dad both love it",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "IndieAdvocate",
+          "text": "Celeste. Challenging platformer with an incredibly sincere story about mental health. The assist mode means anyone can actually finish it regardless of skill.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Unique interactive experiences\" - marketing language",
+          "\"People of all backgrounds\" - generic inclusivity",
+          "\"Joys of gaming as a medium\" - sounds like an essay",
+          "Doesn't recommend ANY specific game",
+          "Talks about gaming generally instead of answering"
+        ],
+        "humanTells": [
+          "#1: Specific game, family involvement mentioned",
+          "#3: Time estimate, specific impact, soundtrack praise",
+          "#4: Specific analogy, family examples with ages",
+          "#5: Genre + theme described, accessibility feature noted"
+        ],
+        "difficulty_note": "Medium - AI evangelizes gaming without naming a game"
+      },
+      "metadata": {
+        "createdAt": "2026-03-01T10:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-18",
+      "dayNumber": 59,
+      "difficulty": "hard",
+      "dayOfWeek": "wednesday",
+      "category": "food",
+      "prompt": {
+        "text": "What's a cheap food you'll never be too good for?",
+        "source": "r/food"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CheapEats",
+          "text": "Kraft mac and cheese. I have a six-figure salary. I still make the blue box at 2am. Some things transcend income brackets.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "BudgetFoodie",
+          "text": "instant ramen but i elevate it with an egg and some green onions. is it fancy? no. do i eat it twice a week minimum? yes. will i ever stop? also no.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "AffordableTaste",
+          "text": "affordable food options can be just as satisfying as expensive alternatives. there's no need to feel embarrassed about enjoying budget-friendly meals that provide comfort and nutrition",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "HotDogDefender",
+          "text": "Gas station hot dogs. I know where they've been (the roller for possibly days). I don't care. 7-Eleven big bite, extra mustard, no regrets.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "TacoBellLoyal",
+          "text": "taco bell. i've eaten at actual mexican restaurants. i've been to mexico. i still want a cheesy gordita crunch at midnight. this is non-negotiable",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Affordable food options\" - formal category language",
+          "\"No need to feel embarrassed\" - reassurance statement",
+          "\"Budget-friendly meals\" - sounds like a finance article",
+          "\"Comfort and nutrition\" - generic food positives",
+          "Doesn't name any specific cheap food"
+        ],
+        "humanTells": [
+          "#1: Salary contrast, specific time and brand",
+          "#2: Self-aware formatting, specific frequency",
+          "#4: Acknowledges questionable quality, specific order",
+          "#5: Credentials listed (actual Mexico), specific item"
+        ],
+        "difficulty_note": "Hard - AI defends cheap food concept without naming favorites"
+      },
+      "metadata": {
+        "createdAt": "2026-03-01T11:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-19",
+      "dayNumber": 60,
+      "difficulty": "expert",
+      "dayOfWeek": "thursday",
+      "category": "life",
+      "prompt": {
+        "text": "What's something you've changed your mind about as you've gotten older?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "GrowingUp35",
+          "text": "Naps. Absolute waste of time as a kid. Now? A weekend nap is basically a religious experience. I schedule them. I protect them.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PerspectiveShift",
+          "text": "My parents. Thought they were clueless. Now I realize they were just exhausted humans doing their best. Called my mom to apologize last year.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "LifeWisdom",
+          "text": "as we age and accumulate life experiences, our perspectives naturally evolve. changing our minds about previously held beliefs is a sign of growth and intellectual maturity",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "QuietNow_",
+          "text": "Staying home on weekends. Used to think it was boring. Now it's the entire goal. Friday night in pajamas by 7pm is peak existence.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ReformedCynic",
+          "text": "therapy. thought it was for \"other people.\" turns out everyone could use someone to talk to. biggest waste of time was the years i spent avoiding it",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Accumulate life experiences\" - formal phrasing",
+          "\"Perspectives naturally evolve\" - psychology textbook",
+          "\"Intellectual maturity\" - self-congratulatory",
+          "Doesn't share any specific changed opinion",
+          "Talks ABOUT changing minds abstractly"
+        ],
+        "humanTells": [
+          "#1: Specific thing (naps), enthusiasm described",
+          "#2: Relationship change, specific action taken (call)",
+          "#4: Specific time (7pm), superlative (\"peak existence\")",
+          "#5: Common stigma addressed, self-identified regret"
+        ],
+        "difficulty_note": "Expert - AI philosophizes about growth without sharing personal change"
+      },
+      "metadata": {
+        "createdAt": "2026-03-01T11:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

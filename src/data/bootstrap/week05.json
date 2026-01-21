@@ -1,0 +1,461 @@
+{
+  "week": 5,
+  "startDate": "2026-02-16",
+  "puzzles": [
+    {
+      "id": "2026-02-16",
+      "dayNumber": 29,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "life",
+      "prompt": {
+        "text": "What's a piece of advice you ignored that turned out to be completely right?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WisdomSeeker23",
+          "text": "Maintaining a consistent sleep schedule is highly beneficial for overall health and wellbeing. Many people underestimate the importance of quality rest and the positive impact it can have on daily productivity.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "RegretfulRick",
+          "text": "My dad told me to start saving 10% of every paycheck from my first job. I thought he was being dramatic. I'm 35 now and yeah... he was right. So right it hurts.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "TwentySomething_",
+          "text": "everyone said don't date your coworker. i did anyway. we broke up messily. i had to change departments. 0/10 do not recommend",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "HindsightHero",
+          "text": "Sunscreen. Every damn day. My mom nagged me about it for years. Now I'm the only one in my friend group without sun damage. Thanks mom.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "LateToParty99",
+          "text": "\"Don't major in something just because you're passionate about it\" - my uncle, who I thought was being a corporate shill. Turns out passion doesn't pay rent lol",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Highly beneficial\" - formal academic language",
+          "\"Overall health and wellbeing\" - generic health content phrasing",
+          "\"Underestimate the importance\" - cliche warning phrase",
+          "No personal story or specific regret mentioned",
+          "Reads like a wellness article, not a Reddit confession"
+        ],
+        "humanTells": [
+          "#2: Specific age and emotion (\"hurts\"), dad story",
+          "#3: Lowercase, specific outcome, honest rating",
+          "#4: Direct credit to parent, relatable subject",
+          "#5: Quotes advice, self-deprecating humor"
+        ],
+        "difficulty_note": "Easy - Clearly generic advice vs personal stories"
+      },
+      "metadata": {
+        "createdAt": "2026-02-10T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-17",
+      "dayNumber": 30,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "entertainment",
+      "prompt": {
+        "text": "What's a song that you can't help but sing along to every time you hear it?",
+        "source": "r/Music"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ShowerSinger101",
+          "text": "Mr. Brightside. I don't even particularly love The Killers but when that song comes on something takes over and I am PERFORMING.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "CarKaraoke",
+          "text": "Bohemian Rhapsody but only if I'm alone in the car. The head banging is mandatory and I can't do that in public.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "MusicEnthusiast",
+          "text": "One song that never fails to make me sing along is \"Don't Stop Believin'\" by Journey. The chorus is simply irresistible and captures the spirit of hope and perseverance.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "MillennialTrash",
+          "text": "all star by smash mouth. not even ironically anymore. shrek ruined/improved me forever",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "90sKid4Life",
+          "text": "Wannabe by Spice Girls. I'm a 40 year old man. I have no explanation. I just know all the words.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"One song that never fails\" - formal phrase structure",
+          "\"Simply irresistible\" - cliche description",
+          "\"Captures the spirit of hope and perseverance\" - sounds like a review",
+          "No personal context or quirky situation",
+          "Explains WHY the song is good rather than sharing an experience"
+        ],
+        "humanTells": [
+          "#1: Capitalized PERFORMING, admits to possession",
+          "#2: Specific condition (alone in car), physical action",
+          "#4: Lowercase, Shrek reference, generational humor",
+          "#5: Admits embarrassing truth, no explanation offered"
+        ],
+        "difficulty_note": "Easy - AI writes a review while humans share experiences"
+      },
+      "metadata": {
+        "createdAt": "2026-02-10T10:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-18",
+      "dayNumber": 31,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "tech",
+      "prompt": {
+        "text": "What's the most useful thing you've learned from the internet that school never taught you?",
+        "source": "r/technology"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "TaxHacker2024",
+          "text": "How taxes actually work. School taught me the mitochondria is the powerhouse of the cell but not how to file a W-4 correctly. YouTube taught me that.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "HandyDandy",
+          "text": "Basic plumbing. Replaced my own toilet after watching a 10 minute video. Plumber quoted me $200 for a $30 part and 20 minutes of work.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "FinanceBro_",
+          "text": "compound interest and how credit scores work. both concepts that directly affect your life and neither mentioned once in 12 years of school",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "LifelongLearner",
+          "text": "The internet has taught me numerous valuable skills that traditional education overlooked. From basic car maintenance to cooking techniques, online resources provide accessible learning opportunities for practical knowledge.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "CookingNewbie",
+          "text": "How to actually cook beyond following a recipe. Joshua Weissman taught me more about technique in a month than home ec did in a year.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Numerous valuable skills\" - vague plural",
+          "\"Traditional education overlooked\" - sounds like an article",
+          "\"Accessible learning opportunities\" - EdTech marketing speak",
+          "Lists general categories instead of specific things learned",
+          "No personal anecdote or specific source"
+        ],
+        "humanTells": [
+          "#1: Mitochondria joke, specific form (W-4)",
+          "#2: Specific numbers ($200, $30, 20 min)",
+          "#3: Lists exactly two things, \"12 years\" specificity",
+          "#5: Names specific creator, direct comparison"
+        ],
+        "difficulty_note": "Medium - AI gives overview while humans share specific wins"
+      },
+      "metadata": {
+        "createdAt": "2026-02-10T11:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-19",
+      "dayNumber": 32,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "gaming",
+      "prompt": {
+        "text": "What video game moment genuinely made you emotional?",
+        "source": "r/gaming"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "RPGWeeper",
+          "text": "The ending of Red Dead Redemption 2. I knew it was coming and it still wrecked me. Had to put the controller down and just... sit there.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "EmotionalGamer",
+          "text": "A particularly poignant gaming moment for me was experiencing the storyline in The Last of Us. The relationship between the characters creates a deeply moving narrative that resonates with players on an emotional level.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "RetroGamer87",
+          "text": "Aerith. I was 12. I didn't know games could do that. My older brother walked in on me crying and I had to pretend I stubbed my toe.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "DadGamer_",
+          "text": "The giraffes in The Last of Us. The world is literally ending and there's this moment of pure wonder. Playing that after my daughter was born hit different.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "NintendoNerd",
+          "text": "The ending of Link's Awakening. That whole island was a dream and everyone just... wasn't real. I was way too young for that existential crisis",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Particularly poignant gaming moment\" - formal phrasing",
+          "\"Creates a deeply moving narrative\" - review language",
+          "\"Resonates with players\" - third person perspective",
+          "Vague about which specific moment",
+          "Analyzes rather than shares personal reaction"
+        ],
+        "humanTells": [
+          "#1: Specific game, physical reaction described",
+          "#3: Age mentioned, sibling detail, cover story",
+          "#4: Specific scene (giraffes), life context",
+          "#5: Philosophical realization, age reference"
+        ],
+        "difficulty_note": "Medium - AI sounds like a game review, humans share personal moments"
+      },
+      "metadata": {
+        "createdAt": "2026-02-10T11:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-20",
+      "dayNumber": 33,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "relationships",
+      "prompt": {
+        "text": "What's the best relationship advice you've ever received?",
+        "source": "r/relationships"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "MarriedForever",
+          "text": "My grandmother told me: \"It's not you vs them, it's both of you vs the problem.\" Twenty years of marriage later and that's still the most useful thing anyone's ever said to me.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "LoveAdvice101",
+          "text": "\"Don't go to bed angry\" - sounds cliche but seriously, letting resentment build overnight just makes everything worse. Talk it out even when you don't want to.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "RelationshipGuru",
+          "text": "effective communication is the cornerstone of any successful relationship. being willing to listen, express your feelings clearly, and compromise when necessary will strengthen your bond over time",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "DivorcedDad42",
+          "text": "Pay attention to how they treat waiters and their mom. My therapist told me that after my divorce and looking back... yeah. Should've noticed.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "HappilyUnmarried",
+          "text": "\"Love is a choice you make every day, not a feeling you fall into.\" My aunt told me that at 16 and I didn't get it until I was 30.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Cornerstone of any successful relationship\" - cliche phrase",
+          "\"Express your feelings clearly\" - generic therapy advice",
+          "\"Strengthen your bond over time\" - self-help book language",
+          "All lowercase tries to seem casual but content is formal",
+          "No source, no story, just generic advice"
+        ],
+        "humanTells": [
+          "#1: Specific quote, grandmother, 20 years proof",
+          "#2: Acknowledges cliche, then personal experience",
+          "#4: Therapist context, divorce hindsight",
+          "#5: Age journey (16 to 30), aunt attribution"
+        ],
+        "difficulty_note": "Hard - AI mimics lowercase style but content is generic self-help"
+      },
+      "metadata": {
+        "createdAt": "2026-02-10T12:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-21",
+      "dayNumber": 34,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "life",
+      "prompt": {
+        "text": "What's something that's normal in your profession that would horrify the general public?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "NurseLife_",
+          "text": "how casual we are about bodily fluids. someone could be covered in blood and we're just like \"hey can you grab me a warm blanket? thanks\"",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ITGuyHere",
+          "text": "most company passwords are stored in plaintext somewhere or the IT admin password is literally taped under someone's keyboard. security is an illusion",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "ChefConfession",
+          "text": "The five second rule is more like the five minute rule in most kitchens. If it didn't touch the drain and looks fine, it's going on the plate. Sorry not sorry.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "LawEnforcement",
+          "text": "In law enforcement, we often encounter situations that require quick thinking and adaptability. The general public may find certain procedures surprising, but our training prepares us for various scenarios.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "TeacherTired",
+          "text": "How much duct tape holds together a school. And I mean literally. The furniture. The equipment. Sometimes the building itself. Tax dollars at work.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Encounter situations\" - vague and corporate",
+          "\"Quick thinking and adaptability\" - HR speak",
+          "\"Training prepares us for various scenarios\" - meaningless",
+          "Doesn't actually reveal anything specific or shocking",
+          "Completely avoids the question while seeming to answer"
+        ],
+        "humanTells": [
+          "#1: Specific example, casual tone with quote",
+          "#2: Specific security fail, philosophical ending",
+          "#3: Specific rule, unapologetic tone",
+          "#5: Literal/figurative wordplay, budget commentary"
+        ],
+        "difficulty_note": "Expert - AI pretends to answer while revealing nothing specific"
+      },
+      "metadata": {
+        "createdAt": "2026-02-10T12:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-22",
+      "dayNumber": 35,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "entertainment",
+      "prompt": {
+        "text": "What's a book that changed your perspective on something?",
+        "source": "r/books"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "BookwormBeth",
+          "text": "Educated by Tara Westover. Made me realize how much I take basic things like going to a doctor or having a birth certificate for granted.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "AvoidReader",
+          "text": "A brief history of time blew my tiny teenage mind. still don't understand most of it but it made me feel small in a weirdly comforting way",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "LateReader30s",
+          "text": "The Body Keeps the Score. I thought I had dealt with my childhood stuff. Turns out I had just buried it. That book started years of actual healing.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "ReadingEnthusiast",
+          "text": "Reading a thought-provoking book can truly transform one's worldview. Books have the power to challenge our assumptions and encourage deeper reflection on life's complexities.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "SciFiNerd_",
+          "text": "1984 in high school. Thought it was dramatic. Then social media happened and I was like oh no oh no oh no",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Thought-provoking book\" - vague descriptor",
+          "\"Transform one's worldview\" - cliche phrase",
+          "\"Challenge our assumptions\" - generic statement",
+          "Doesn't name any specific book",
+          "Talks ABOUT books being powerful rather than a specific book"
+        ],
+        "humanTells": [
+          "#1: Specific title and author, concrete realizations",
+          "#2: Age reference, admits confusion, emotional result",
+          "#3: Personal journey revealed, therapy implication",
+          "#5: Book + real world connection, panic expressed"
+        ],
+        "difficulty_note": "Hard - AI philosophizes about books without naming one"
+      },
+      "metadata": {
+        "createdAt": "2026-02-10T13:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

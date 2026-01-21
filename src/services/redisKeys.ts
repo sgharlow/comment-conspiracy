@@ -22,6 +22,13 @@ export const REDIS_KEYS = {
   // Leaderboards
   streakLeaderboard: () => `leaderboard:streaks`,             // Sorted set
   accuracyLeaderboard: () => `leaderboard:accuracy`,          // Sorted set
+  contributorLeaderboard: () => `leaderboard:contributors`,   // Sorted set
+
+  // User contributions
+  contribution: (id: string) => `contribution:${id}`,         // Individual contribution
+  contributionIndex: (status: string) => `contributions:${status}`, // List by status (pending/approved/rejected)
+  userContributions: (userId: string) => `user:${userId}:contributions`, // User's contribution IDs
+  contributorStats: (userId: string) => `contributor:${userId}:stats`, // User's contribution stats
 } as const;
 
 // Type for the context parameter from Devvit

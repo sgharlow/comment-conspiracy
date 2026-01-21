@@ -1,0 +1,461 @@
+{
+  "week": 6,
+  "startDate": "2026-02-23",
+  "puzzles": [
+    {
+      "id": "2026-02-23",
+      "dayNumber": 36,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "food",
+      "prompt": {
+        "text": "What's a meal you could eat every day and never get tired of?",
+        "source": "r/food"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "NoodleFanatic",
+          "text": "Pho. I spent three months in Vietnam and had it almost daily. Still crave it constantly. Nothing else hits the same.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "FoodEnthusiast",
+          "text": "A well-prepared meal that combines quality ingredients with careful cooking techniques can be enjoyed repeatedly. The key is to maintain a balance of flavors and textures for maximum enjoyment.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "BreakfastKing",
+          "text": "eggs in literally any form. scrambled monday, fried tuesday, omelette wednesday... i've been doing this for years. my doctor says my cholesterol is \"concerning\" but i'm built different",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "TacoTuesday",
+          "text": "Tacos. And before anyone asks - yes I have been eating tacos 4x a week for the last decade. Yes I know. No I will not stop.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SimpleEater",
+          "text": "PB&J honestly. I'm 35 and I still pack one for work every day. My coworkers judge me. I do not care.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Well-prepared meal\" - vague and generic",
+          "\"Quality ingredients\" and \"careful cooking techniques\" - cooking class language",
+          "\"Maximum enjoyment\" - sounds like an ad",
+          "Doesn't name a single specific food",
+          "Talks about theory of good food rather than a favorite"
+        ],
+        "humanTells": [
+          "#1: Specific location, time frame, personal experience",
+          "#3: Day-by-day breakdown, humor about health",
+          "#4: Defensive preemptive responses, decade claim",
+          "#5: Age admission, workplace judgment"
+        ],
+        "difficulty_note": "Easy - AI gives theory while humans name specific foods"
+      },
+      "metadata": {
+        "createdAt": "2026-02-15T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-24",
+      "dayNumber": 37,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "life",
+      "prompt": {
+        "text": "What's the most ridiculous thing you believed as a child?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ChildhoodMemories",
+          "text": "I thought the world was black and white before color TV was invented. My parents let me believe this until I was like 10.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "GullibleKid89",
+          "text": "My older brother told me the ice cream truck only played music when it was out of ice cream. Didn't figure out the lie until I was 14. I'm still mad.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "NaiveNelly",
+          "text": "Children often believe many misconceptions that seem amusing in hindsight. These innocent beliefs are a natural part of cognitive development and learning about the world around us.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "80sKidMemories",
+          "text": "That quicksand would be a way bigger problem in adult life. Movies really had me thinking I'd encounter it constantly.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ConfusedChild",
+          "text": "i thought my stuffed animals came alive when i left the room and i would intentionally try to catch them by bursting back in. this continued longer than i'd like to admit",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Children often believe\" - third person perspective",
+          "\"Amusing in hindsight\" - analyzing rather than sharing",
+          "\"Cognitive development\" - educational language",
+          "Doesn't share any specific belief",
+          "Explains WHY children believe things instead of sharing a belief"
+        ],
+        "humanTells": [
+          "#1: Specific age, parents' role in belief",
+          "#2: Brother's prank, specific age, ongoing emotion",
+          "#4: Cultural reference, specific fear",
+          "#5: Behavior described, admission of embarrassment"
+        ],
+        "difficulty_note": "Easy - AI explains child psychology, humans share embarrassing specifics"
+      },
+      "metadata": {
+        "createdAt": "2026-02-15T10:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-25",
+      "dayNumber": 38,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "tech",
+      "prompt": {
+        "text": "What technology do you think will be completely obsolete in 10 years?",
+        "source": "r/technology"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "TechPredictions",
+          "text": "Physical credit/debit cards. Everything's going to be phone-based or biometric. My kids already look at my wallet like it's a museum piece.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "CableCutter",
+          "text": "Traditional cable TV. Everyone I know under 40 just streams everything. My parents are the only people keeping Comcast alive at this point.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "FutureTech101",
+          "text": "Technology evolves rapidly, and many current devices will likely become obsolete as newer, more advanced solutions emerge. The pace of innovation continues to accelerate in our digital age.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "KeyEnthusiast",
+          "text": "Physical car keys. Already mostly gone in newer cars. My friend's kid has never seen a key actually go into a car door and that made me feel ancient.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "DigitalNative_",
+          "text": "wired earbuds. already basically there tbh. i found some in a drawer and my teenage niece asked what they were",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Technology evolves rapidly\" - obvious statement",
+          "\"Newer, more advanced solutions\" - vague prediction",
+          "\"Pace of innovation continues to accelerate\" - tech article filler",
+          "\"Our digital age\" - cliche phrase",
+          "Doesn't predict ANY specific technology"
+        ],
+        "humanTells": [
+          "#1: Kids' reaction as evidence",
+          "#2: Age demographics, parent example",
+          "#4: Friend's kid anecdote, emotion (\"ancient\")",
+          "#5: Lowercase, niece conversation, specific scenario"
+        ],
+        "difficulty_note": "Medium - AI talks about change without naming anything specific"
+      },
+      "metadata": {
+        "createdAt": "2026-02-15T11:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-26",
+      "dayNumber": 39,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "relationships",
+      "prompt": {
+        "text": "What's the biggest green flag you noticed early in your relationship?",
+        "source": "r/relationships"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "HappilyTaken",
+          "text": "He apologized after our first argument. Not a fake \"sorry you feel that way\" but a real \"I was wrong about X and here's why.\" That's when I knew.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "DogMom2022",
+          "text": "My dog loved her immediately. He's usually skeptical of everyone. I trust his judgment more than my own at this point honestly.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "PositiveRelations",
+          "text": "Recognizing positive traits in a partner early on is important for building a healthy relationship. Green flags often include good communication, mutual respect, and consistent behavior over time.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "FoundTheOne",
+          "text": "She showed up to our second date with a book she thought I'd like based on our first conversation. No one had ever listened to me like that before.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ReluctantRomantic",
+          "text": "when i got food poisoning on our third date and he just brought me ginger ale and sat on the bathroom floor with me. very unromantic. very real.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Recognizing positive traits\" - analytical framing",
+          "\"Building a healthy relationship\" - therapy speak",
+          "Lists generic concepts instead of specific memory",
+          "\"Consistent behavior over time\" - textbook answer",
+          "No personal story, just advice"
+        ],
+        "humanTells": [
+          "#1: Specific quote contrast, moment identified",
+          "#2: Dog as judge, self-aware humor",
+          "#4: Specific action (book), emotional impact",
+          "#5: Unromantic scenario, lowercase intimacy"
+        ],
+        "difficulty_note": "Medium - AI lists concepts while humans share specific moments"
+      },
+      "metadata": {
+        "createdAt": "2026-02-15T11:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-27",
+      "dayNumber": 40,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "entertainment",
+      "prompt": {
+        "text": "What movie or show do you consider a guilty pleasure?",
+        "source": "r/movies"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SecretWatcher",
+          "text": "90 Day Fiancé. I have a graduate degree and strong opinions about world cinema. But when I'm tired? Give me Big Ed and his mayo hair.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "GuiltyPleasures",
+          "text": "i watch hallmark christmas movies unironically. all of them. even the ones with terrible acting. especially the ones with terrible acting actually",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "HiddenFan_",
+          "text": "Twilight. I was the exact right age when it came out and I will defend those movies until I die. Team Edward forever and I'm not even sorry.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "CasualViewer",
+          "text": "while some may consider certain entertainment choices as guilty pleasures, i believe that enjoying any form of media that brings happiness is valid and shouldn't require justification or labels",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "RealityJunkie",
+          "text": "Love Island UK. My husband judges me silently from across the room. I judge him back for watching golf. We have an arrangement.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Some may consider\" - distancing language",
+          "\"Shouldn't require justification\" - makes a statement ABOUT guilty pleasures",
+          "Doesn't name any specific show or movie",
+          "Lowercase tries to seem casual but content is philosophical",
+          "Avoids the question by questioning the premise"
+        ],
+        "humanTells": [
+          "#1: Credentials contrast, specific reference (mayo hair)",
+          "#2: Category + enthusiasm escalation",
+          "#3: Age context, team declaration",
+          "#5: Spouse dynamic, mutual judgment humor"
+        ],
+        "difficulty_note": "Hard - AI philosophizes about guilty pleasures without naming one"
+      },
+      "metadata": {
+        "createdAt": "2026-02-15T12:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-02-28",
+      "dayNumber": 41,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "life",
+      "prompt": {
+        "text": "What's a hard truth you had to accept about yourself?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SelfAware35",
+          "text": "I'm not as good a listener as I thought I was. I was always just waiting for my turn to talk. Working on it but damn that was a humbling realization.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "GrowthMindset",
+          "text": "that i was using \"being brutally honest\" as an excuse to be mean. took me way too long to figure out the difference between honesty and cruelty",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "RealistRick",
+          "text": "I'm never going to be exceptional at anything. I'm solidly average at most things I try. That was hard to accept but also weirdly freeing.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "PersonalJourney",
+          "text": "accepting difficult truths about ourselves is an important part of personal growth and self-improvement. this kind of introspection allows us to develop greater self-awareness and make positive changes",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "FormerFixer",
+          "text": "That I can't fix everyone and some people don't want to be fixed. I spent years trying to save people who never asked for help. Boundaries now exist.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Important part of personal growth\" - self-help language",
+          "\"Self-improvement\" and \"self-awareness\" - therapy buzzwords",
+          "\"Make positive changes\" - generic motivation",
+          "Lowercase mimics casual but content is preachy",
+          "Talks ABOUT self-reflection rather than doing it"
+        ],
+        "humanTells": [
+          "#1: Specific behavior identified, ongoing work",
+          "#2: Specific excuse exposed, realization timeline",
+          "#3: \"Solidly average\" - specific acceptance",
+          "#5: Specific pattern, clear boundary established"
+        ],
+        "difficulty_note": "Expert - AI preaches about self-reflection without actually being vulnerable"
+      },
+      "metadata": {
+        "createdAt": "2026-02-15T12:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-01",
+      "dayNumber": 42,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "science",
+      "prompt": {
+        "text": "What scientific fact blows your mind every time you think about it?",
+        "source": "r/science"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SpaceNerd42",
+          "text": "The light from some stars we see is so old that those stars might not even exist anymore. We're looking at ghosts.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "BioMajor_",
+          "text": "There are more bacteria in your gut than there are stars in the Milky Way. You're basically a spaceship for microbes.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "ScienceEnthusiast",
+          "text": "The universe contains many fascinating phenomena that challenge our understanding of reality. Scientific discoveries continue to reveal the complexity and wonder of the natural world around us.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "PhysicsTeacher",
+          "text": "You never actually touch anything. It's just electrons repelling each other. Every time you \"touch\" something there's a tiny gap. We're all just hovering.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "OceanLover_",
+          "text": "we've mapped more of mars than our own ocean floor. there's probably stuff down there we can't even imagine. that keeps me up at night honestly",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Many fascinating phenomena\" - vague",
+          "\"Challenge our understanding\" - cliche science phrase",
+          "\"Complexity and wonder\" - generic appreciation",
+          "Doesn't mention ANY specific fact",
+          "Could apply to literally any science topic"
+        ],
+        "humanTells": [
+          "#1: Specific fact with emotional framing (\"ghosts\")",
+          "#2: Comparison + metaphor (\"spaceship\")",
+          "#4: Specific physics, mind-bending conclusion",
+          "#5: Mars comparison, personal impact"
+        ],
+        "difficulty_note": "Hard - AI expresses generic wonder without citing a single fact"
+      },
+      "metadata": {
+        "createdAt": "2026-02-15T13:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "week": 7,
+  "startDate": "2026-03-02",
+  "puzzles": [
+    {
+      "id": "2026-03-02",
+      "dayNumber": 43,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "gaming",
+      "prompt": {
+        "text": "What's a video game you wish you could experience again for the first time?",
+        "source": "r/gaming"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FirstPlaythrough",
+          "text": "Experiencing a beloved video game for the first time is a unique and memorable event. The sense of discovery and wonder cannot be replicated on subsequent playthroughs.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "RPGForever",
+          "text": "Skyrim. I still remember emerging from that cave and seeing the whole world open up. Played 2000+ hours since but nothing compares to that first moment.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "RetroGamerDad",
+          "text": "Ocarina of Time. Walking into Hyrule Field for the first time with that music? My 12-year-old brain couldn't handle it. Still gives me chills.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "StoryGamer_",
+          "text": "Outer Wilds but only if I could also forget everything about it so no one spoils it again. That game is DESIGNED for not knowing.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "NostalgicGamer",
+          "text": "portal. the cake is a lie reveal was peak 2007 gaming culture and you absolutely cannot recreate that experience knowing what's coming",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Unique and memorable event\" - formal description",
+          "\"Sense of discovery and wonder\" - generic phrasing",
+          "\"Cannot be replicated\" - sounds like a review",
+          "Doesn't name any specific game",
+          "Describes the concept rather than answering"
+        ],
+        "humanTells": [
+          "#2: Specific moment, hours played, comparison",
+          "#3: Specific game and location, age, physical reaction",
+          "#4: Caps for emphasis, meta-joke about spoilers",
+          "#5: Lowercase, cultural reference, time stamp"
+        ],
+        "difficulty_note": "Easy - AI describes the feeling, humans name specific games"
+      },
+      "metadata": {
+        "createdAt": "2026-02-20T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-03",
+      "dayNumber": 44,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "life",
+      "prompt": {
+        "text": "What's the weirdest thing you do when you're alone that you'd never do around others?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SecretWeirdo",
+          "text": "I narrate my life like a documentary. \"And here we see her making pasta for the third time this week. Riveting content.\"",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "LonelyDancer",
+          "text": "Full choreographed dance routines in my kitchen. I'm talking costume changes, pretend crowds, award acceptance speeches. The whole production.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "QuirkyBehavior",
+          "text": "Many people engage in unique behaviors when alone that they might feel embarrassed about in social settings. These private habits can be a form of self-expression and personal comfort.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "ConvoAlone",
+          "text": "i have full arguments with people in my head. out loud. with both sides. sometimes i lose the arguments i started. it's concerning.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MidnightSnacker",
+          "text": "Stand in front of the open fridge eating shredded cheese directly from the bag at 2am. No plate. No dignity. Just cheese.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Many people engage\" - distanced third person",
+          "\"Unique behaviors\" - vague and clinical",
+          "\"Self-expression and personal comfort\" - psychology speak",
+          "Doesn't share ANY specific weird behavior",
+          "Analyzes the phenomenon instead of participating"
+        ],
+        "humanTells": [
+          "#1: Specific example with quote",
+          "#2: Escalating details (costume changes, speeches)",
+          "#4: Lowercase, self-aware concern",
+          "#5: Time + specific food + lack of dignity"
+        ],
+        "difficulty_note": "Easy - AI psychoanalyzes while humans overshare"
+      },
+      "metadata": {
+        "createdAt": "2026-02-20T10:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-04",
+      "dayNumber": 45,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "sports",
+      "prompt": {
+        "text": "What's a sport you thought was boring until you actually tried it or watched it live?",
+        "source": "r/sports"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ConvertedFan",
+          "text": "Cricket. Thought it was just baseball but slower and longer. Then I watched the IPL with my Indian roommate and suddenly I'm screaming at the TV at midnight.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "SportNewbie",
+          "text": "attending a live sporting event can completely change one's perception of the game. the atmosphere and energy of the crowd creates an immersive experience that television cannot capture",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "FormerlySnooty",
+          "text": "Golf. Made fun of it for years. Then I actually played and discovered why people drink on the course. You need to cope somehow.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "CurlingConvert",
+          "text": "Curling. I watched ironically during the Olympics and somewhere around hour 3 I was genuinely invested in rock trajectory. Still can't explain it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "F1Newbie_",
+          "text": "formula 1. always thought it was just cars going in circles. then i watched drive to survive and now i wake up at 5am for european races like a normal person",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Attending a live sporting event\" - formal opening",
+          "\"Completely change one's perception\" - sounds like ad copy",
+          "\"Immersive experience that television cannot capture\" - cliche observation",
+          "Lowercase tries to seem casual but content is generic",
+          "Doesn't name ANY sport"
+        ],
+        "humanTells": [
+          "#1: Specific comparison, roommate detail, behavior change",
+          "#3: Years of mockery, drinking revelation",
+          "#4: Ironic to invested journey, can't explain",
+          "#5: Drive to Survive pipeline, self-deprecating schedule"
+        ],
+        "difficulty_note": "Medium - AI gives generic observation while humans share conversion stories"
+      },
+      "metadata": {
+        "createdAt": "2026-02-20T11:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-05",
+      "dayNumber": 46,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "tech",
+      "prompt": {
+        "text": "What's your most unpopular tech opinion?",
+        "source": "r/technology"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "HotTakeTech",
+          "text": "Smartwatches are a solution looking for a problem. My phone is already in my pocket. I don't need another screen to look at.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "AgainstTheGrain",
+          "text": "tech opinions vary widely and that's ok. healthy debate about technology helps drive innovation and ensures different perspectives are considered in product development",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "VintageComputing",
+          "text": "Windows 7 was peak Windows and it's been downhill since. Every new version adds more things I didn't ask for and removes things I needed.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "AntiCloud",
+          "text": "I don't trust any cloud storage. If I can't physically touch the hard drive my data is on, do I really own it? No. The answer is no.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "RetroPhoneFan",
+          "text": "phones peaked with physical keyboards. the blackberry was perfect. typing on glass is a design compromise we just accepted as normal",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Tech opinions vary widely and that's ok\" - validating statement",
+          "\"Healthy debate\" - neutral fence-sitting",
+          "\"Drive innovation\" and \"product development\" - PR language",
+          "Lowercase but completely generic content",
+          "Doesn't state ANY unpopular opinion"
+        ],
+        "humanTells": [
+          "#1: Clear stance, practical reasoning",
+          "#3: Specific version, ongoing grievance",
+          "#4: Physical requirement, answered own question",
+          "#5: Specific product, design critique"
+        ],
+        "difficulty_note": "Medium - AI avoids taking a stance by celebrating debate"
+      },
+      "metadata": {
+        "createdAt": "2026-02-20T11:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-06",
+      "dayNumber": 47,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "relationships",
+      "prompt": {
+        "text": "What's something your partner does that's mildly annoying but you'd never actually ask them to stop?",
+        "source": "r/relationships"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "PartnerPeeves",
+          "text": "She leaves cabinet doors open. Every single one. I walk into the kitchen and it looks like a poltergeist visited. But she also makes me coffee every morning so... trade-offs.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "LoveThemAnyway",
+          "text": "minor annoyances in relationships are completely normal and can even be endearing over time. accepting small quirks is part of building a lasting partnership together",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "PatientPartner",
+          "text": "He says \"that's crazy\" after literally everything I tell him. Good news? That's crazy. Bad news? That's crazy. Telling him about my day? Crazy. Love him though.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SilentSufferer",
+          "text": "my wife watches videos on her phone at full volume without headphones. i have bought her three pairs of airpods. she forgets where she puts them every time",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SnoreSurvivor",
+          "text": "The snoring. My god the snoring. I've invested in industrial earplugs. I wear them every night. This is my life now and I've accepted it.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Minor annoyances are completely normal\" - reassurance statement",
+          "\"Endearing over time\" - generic positive spin",
+          "\"Building a lasting partnership\" - therapy language",
+          "Lowercase but content is advice, not sharing",
+          "Doesn't describe ANY specific annoyance"
+        ],
+        "humanTells": [
+          "#1: Specific behavior, poltergeist metaphor, trade-off acknowledgment",
+          "#3: Quote repetition, examples listed",
+          "#4: Three airpods attempts, ongoing cycle",
+          "#5: Escalating coping mechanisms, resignation"
+        ],
+        "difficulty_note": "Hard - AI gives relationship advice instead of answering"
+      },
+      "metadata": {
+        "createdAt": "2026-02-20T12:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-07",
+      "dayNumber": 48,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "food",
+      "prompt": {
+        "text": "What food opinion will you defend until your dying breath?",
+        "source": "r/food"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FoodFighter",
+          "text": "Pineapple belongs on pizza and I'm tired of pretending it doesn't. The sweet/salty/savory combination is objectively delicious. Fight me.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "CerealRebel",
+          "text": "Cereal is better with water than milk. I said what I said. The milk overpowers the cereal flavor. Water lets the cereal shine.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "HotDogHeretic",
+          "text": "hot dogs are sandwiches. bread on the sides, filling in the middle. that's literally a sandwich. i don't care about your structural definitions",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "FlavorsFirst",
+          "text": "food preferences are highly personal and everyone's taste is valid. rather than judging others' choices, we should celebrate the diversity of culinary opinions that make food culture so interesting",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "SteakTruther",
+          "text": "Well-done steak is a valid preference and steak gatekeepers need to get over themselves. Not everyone likes the texture of medium rare. Deal with it.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Food preferences are highly personal\" - obvious statement",
+          "\"Everyone's taste is valid\" - overly diplomatic",
+          "\"Celebrate the diversity\" - corporate language",
+          "Lowercase but refuses to take ANY stance",
+          "Question asks for a defended opinion but gives none"
+        ],
+        "humanTells": [
+          "#1: Clear stance, \"fight me\" challenge",
+          "#2: Controversial take, doubles down",
+          "#3: Logical argument, dismisses counter-arguments",
+          "#5: Defends a position, calls out gatekeepers"
+        ],
+        "difficulty_note": "Expert - AI refuses to have an opinion by celebrating all opinions"
+      },
+      "metadata": {
+        "createdAt": "2026-02-20T12:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-08",
+      "dayNumber": 49,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "life",
+      "prompt": {
+        "text": "What's the most valuable lesson you learned the hard way?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "HardLessons",
+          "text": "life teaches us many valuable lessons through difficult experiences. challenges often become opportunities for growth and self-improvement when we reflect on what we've learned",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "TrustIssues",
+          "text": "Not everyone who's nice to you is your friend. Some people are just gathering information. Learned that one in my 20s the hard way.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "BurnedOnce",
+          "text": "Always get it in writing. A handshake deal cost me $3000 and a friendship. Now I have contracts for everything and zero regrets.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "RecoveredPleaser",
+          "text": "You can't make everyone happy so stop trying. I spent my whole childhood being a people pleaser and all it got me was anxiety and resentment.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "WorkLifeBalance",
+          "text": "No job is worth your mental health. Found this out when I had a breakdown at 28 and realized my company would replace me in a week. Now I log off at 5pm sharp.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Life teaches us many valuable lessons\" - generic opener",
+          "\"Challenges become opportunities\" - motivational poster language",
+          "\"Growth and self-improvement\" - self-help clichés",
+          "No specific lesson mentioned",
+          "Talks about lessons abstractly without sharing one"
+        ],
+        "humanTells": [
+          "#2: Specific lesson, age context, implies story",
+          "#3: Dollar amount, specific loss (money + friendship)",
+          "#4: Childhood pattern, consequences named",
+          "#5: Specific age, breakdown mention, behavior change"
+        ],
+        "difficulty_note": "Hard - AI philosophizes about learning while humans share specific losses"
+      },
+      "metadata": {
+        "createdAt": "2026-02-20T13:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

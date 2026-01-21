@@ -5,6 +5,13 @@ import { getUserProgress } from './services/userService';
 import { getStreakRank, getAccuracyRank } from './services/redisService';
 import type { RedisContext } from './services/redisKeys';
 import { registerDailyPuzzleJob, scheduleDailyJob, cancelDailyJob } from './scheduler/dailyPuzzle';
+import {
+  submitContribution,
+  voteOnContribution,
+  getContributions,
+  getUserContributions,
+  getTopContributors,
+} from './services/contributionService';
 
 // Configure Devvit capabilities
 Devvit.configure({
@@ -98,6 +105,78 @@ const App: Devvit.CustomPostComponent = (context) => {
           // Submit the guess
           const result = await submitGuess(redisCtx, userId, puzzle.id, message.guessIndex);
           context.ui.webView.postMessage<DevvitToWebViewMessage>(WEBVIEW_ID, { type: 'GUESS_RESPONSE', result });
+          break;
+        }
+
+        // ===== User Contribution Handlers =====
+
+        case 'SUBMIT_CONTRIBUTION': {
+          console.log('[CommentConspiracy] Processing SUBMIT_CONTRIBUTION');
+          const username = (await context.reddit.getCurrentUser())?.username ?? 'anonymous';
+          const contribution = await submitContribution(redisCtx, userId, username, message.data);
+          context.ui.webView.postMessage<DevvitToWebViewMessage>(WEBVIEW_ID, {
+            type: 'CONTRIBUTION_SUBMITTED',
+            contribution: {
+              id: contribution.id,
+              username: contribution.username,
+              createdAt: contribution.createdAt,
+              promptIdea: contribution.promptIdea,
+              category: contribution.category,
+              aiCommentText: contribution.aiCommentText,
+              aiTells: contribution.aiTells,
+              status: contribution.status,
+              upvotes: contribution.upvotes,
+              downvotes: contribution.downvotes,
+              userVote: null,
+            },
+          });
+          break;
+        }
+
+        case 'VOTE_CONTRIBUTION': {
+          console.log('[CommentConspiracy] Processing VOTE_CONTRIBUTION');
+          const voteResult = await voteOnContribution(redisCtx, userId, message.contributionId, message.vote);
+          if (voteResult.success && voteResult.contribution) {
+            context.ui.webView.postMessage<DevvitToWebViewMessage>(WEBVIEW_ID, {
+              type: 'CONTRIBUTION_VOTED',
+              contribution: voteResult.contribution,
+            });
+          } else {
+            context.ui.webView.postMessage<DevvitToWebViewMessage>(WEBVIEW_ID, {
+              type: 'ERROR',
+              error: voteResult.error ?? 'Failed to vote',
+            });
+          }
+          break;
+        }
+
+        case 'GET_CONTRIBUTIONS': {
+          console.log('[CommentConspiracy] Processing GET_CONTRIBUTIONS');
+          const contributions = await getContributions(redisCtx, userId, message.filter);
+          context.ui.webView.postMessage<DevvitToWebViewMessage>(WEBVIEW_ID, {
+            type: 'CONTRIBUTIONS_LIST',
+            contributions,
+          });
+          break;
+        }
+
+        case 'GET_MY_CONTRIBUTIONS': {
+          console.log('[CommentConspiracy] Processing GET_MY_CONTRIBUTIONS');
+          const myContributions = await getUserContributions(redisCtx, userId);
+          context.ui.webView.postMessage<DevvitToWebViewMessage>(WEBVIEW_ID, {
+            type: 'MY_CONTRIBUTIONS',
+            contributions: myContributions,
+          });
+          break;
+        }
+
+        case 'GET_TOP_CONTRIBUTORS': {
+          console.log('[CommentConspiracy] Processing GET_TOP_CONTRIBUTORS');
+          const topContributors = await getTopContributors(redisCtx, 10);
+          context.ui.webView.postMessage<DevvitToWebViewMessage>(WEBVIEW_ID, {
+            type: 'TOP_CONTRIBUTORS',
+            contributors: topContributors,
+          });
           break;
         }
       }

@@ -16,6 +16,7 @@ export interface ResultScreenProps {
   puzzle: ShuffledPuzzle;
   onViewBreakdown?: () => void;
   onJoinDiscussion?: () => void;
+  onContribute?: () => void;
 }
 
 export function ResultScreen({
@@ -23,6 +24,7 @@ export function ResultScreen({
   puzzle,
   onViewBreakdown,
   onJoinDiscussion,
+  onContribute,
 }: ResultScreenProps): React.ReactElement {
   return (
     <div className="flex flex-col h-full w-full max-w-2xl mx-auto px-4 py-6 overflow-y-auto">
@@ -76,6 +78,15 @@ export function ResultScreen({
             className="w-full py-3 px-6 bg-gray-200 hover:bg-gray-300 text-gray-700 font-semibold rounded-xl transition-colors"
           >
             View Full Breakdown
+          </button>
+        )}
+        {onContribute && (
+          <button
+            onClick={onContribute}
+            className="w-full py-3 px-6 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl transition-colors flex items-center justify-center gap-2"
+          >
+            <span>+</span>
+            <span>Contribute AI Comments</span>
           </button>
         )}
         {onJoinDiscussion && (
