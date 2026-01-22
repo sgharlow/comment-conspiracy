@@ -1,10 +1,10 @@
 # Tasks
 
-> Last updated: 2026-01-18
-> Progress: 19/20 complete (95%)
+> Last updated: 2026-01-21
+> Progress: 20/20 complete (100%)
 
 ## Ready
-- [ ] `020` Deploy to r/CommentConspiracy and Demo
+<!-- No ready tasks -->
 
 ## In Progress
 <!-- Tasks currently being worked on -->
@@ -29,6 +29,7 @@
 - [x] `017` Mobile-Responsive Styling ✓
 - [x] `018` Share Card Generation ✓
 - [x] `019` Loading States and Error Handling ✓
+- [x] `020` Deploy to r/CommentConspiracy and Demo ✓
 
 ## Blocked
 <!-- No blocked tasks -->
