@@ -6,6 +6,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Comment Conspiracy is a daily Reddit game built on the Devvit platform where players identify which comment among 5 is AI-generated. Target prizes: Best Daily Game ($15K), Best Use of User Contributions ($3K), Best Mobile Game Play ($3K).
 
+**Development Status:** 100% complete (20/20 tasks). See TODO.md for launch checklist.
+**Hackathon Deadline:** February 12, 2026, 6:00 PM PST
+**Puzzle Content:** 66 puzzles (Jan 19 - Mar 25, 2026)
+
 ## Technology Stack
 
 - **Platform**: Reddit Devvit (developer.reddit.com)

@@ -248,4 +248,3 @@ Devvit.addTrigger({
 });
 
 export default Devvit;
-// v24 touch

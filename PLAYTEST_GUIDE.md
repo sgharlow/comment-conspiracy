@@ -202,7 +202,7 @@ The daily puzzle scheduler runs at midnight UTC. To test manually:
 - Try hard refresh (Ctrl+Shift+R)
 
 ### Puzzle shows "No puzzle available"
-- Puzzles are date-based (2026-01-19 to 2026-02-15)
+- Puzzles are date-based (2026-01-19 to 2026-03-25, 66 puzzles total)
 - If current date doesn't match, first puzzle (2026-01-19) is used as fallback
 
 ### Achievements don't unlock

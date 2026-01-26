@@ -19,8 +19,9 @@ import week06Data from '../data/bootstrap/week06.json';
 import week07Data from '../data/bootstrap/week07.json';
 import week08Data from '../data/bootstrap/week08.json';
 import week09Data from '../data/bootstrap/week09.json';
+import week10Data from '../data/bootstrap/week10.json';
 
-// All week data combined (60 puzzles total - approximately 8.5 weeks of content)
+// All week data combined (66 puzzles total - 10 weeks covering Jan 19 - Mar 25, 2026)
 const allWeeksData = [
   week01Data,
   week02Data,
@@ -31,6 +32,7 @@ const allWeeksData = [
   week07Data,
   week08Data,
   week09Data,
+  week10Data,
 ] as PuzzleWeek[];
 
 /**

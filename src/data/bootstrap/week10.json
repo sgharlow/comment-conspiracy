@@ -1,0 +1,396 @@
+{
+  "week": 10,
+  "startDate": "2026-03-20",
+  "puzzles": [
+    {
+      "id": "2026-03-20",
+      "dayNumber": 61,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "work",
+      "prompt": {
+        "text": "What's the most ridiculous unwritten rule at your workplace?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CorporateLife_",
+          "text": "We have a microwave hierarchy. Interns and new hires can only use it before 11:30 or after 1:30. Nobody told me this. I found out when a senior dev unplugged it while my soup was heating.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "OfficeInsider",
+          "text": "Workplace cultures often develop unique customs and expectations that may seem unusual to outsiders. Understanding these unwritten rules is essential for navigating professional environments successfully.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "ReplyAllVictim",
+          "text": "If you reply-all to an email with more than 50 recipients, you bring donuts. No exceptions. Someone tried to argue it was an accident once. They still had to bring donuts.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "ParkingPolitics",
+          "text": "the spot closest to the door is unofficially reserved for whoever has been there longest. our receptionist has had it for 23 years. nobody questions this.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MeetingMadness",
+          "text": "You don't book the corner conference room. Ever. It's cursed. Three people who booked it got laid off within a month. Coincidence? Maybe. But I'm not testing it.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Workplace cultures\" - generic HR language",
+          "\"Unique customs and expectations\" - vague categorization",
+          "\"Understanding... is essential\" - advice column tone",
+          "\"Navigating professional environments\" - formal jargon",
+          "Doesn't share any actual unwritten rule"
+        ],
+        "humanTells": [
+          "#1: Specific hierarchy, personal story, exact outcome",
+          "#3: Clear rule, specific threshold (50), enforcement story",
+          "#4: Exact tenure (23 years), specific location",
+          "#5: Superstition with specifics, self-aware humor"
+        ],
+        "difficulty_note": "Hard - AI gives workplace advice instead of sharing a specific rule"
+      },
+      "metadata": {
+        "createdAt": "2026-03-15T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-21",
+      "dayNumber": 62,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "relationships",
+      "prompt": {
+        "text": "What's the best relationship advice you've ever received?",
+        "source": "r/relationship_advice"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "MarriedTenYears",
+          "text": "My grandma said \"Don't keep score.\" I thought it was cliche until I caught myself mentally tallying who did dishes last. Let it go. You're on the same team.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "DatingWisdom",
+          "text": "\"If they wanted to, they would.\" Sounds harsh but saved me years of making excuses for people who just weren't that into me. Actions > words, always.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "TherapistQuote",
+          "text": "My couples therapist said \"You can be right, or you can be married.\" We have that on a magnet on our fridge now. I look at it before every argument.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "RelationshipGoals",
+          "text": "Strong relationships require ongoing effort, mutual respect, and open communication. Being a supportive partner means actively listening and showing appreciation for your significant other.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "DadAdvice_",
+          "text": "dad told me \"marry someone who makes you laugh, because looks fade and money comes and goes.\" he and mom have been laughing at each other for 42 years now",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Ongoing effort, mutual respect\" - therapy pamphlet language",
+          "\"Open communication\" - generic relationship advice",
+          "\"Being a supportive partner\" - vague instruction",
+          "\"Actively listening and showing appreciation\" - checklist tone",
+          "No specific advice or source attributed"
+        ],
+        "humanTells": [
+          "#1: Source (grandma), specific realization moment",
+          "#2: Direct quote, personal application explained",
+          "#3: Specific source (therapist), physical reminder (magnet)",
+          "#5: Source (dad), specific number (42 years)"
+        ],
+        "difficulty_note": "Expert - AI blends in with relationship talk but gives generic list vs specific advice"
+      },
+      "metadata": {
+        "createdAt": "2026-03-15T10:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-22",
+      "dayNumber": 63,
+      "difficulty": "expert",
+      "dayOfWeek": "sunday",
+      "category": "hobbies",
+      "prompt": {
+        "text": "What hobby looked easy until you actually tried it?",
+        "source": "r/hobbies"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "BreadFail",
+          "text": "Sourdough. Instagram made it look so peaceful. My starter died 4 times. I've cried over dough. It took 8 months before I made something edible.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "GolfingHumbled",
+          "text": "Golf. I'm athletic, how hard can it be? The ball goes 10 feet sideways. Watched a 70 year old outplay me by 50 strokes. My clubs are for sale on FB marketplace.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "HobbyExplorer",
+          "text": "Many hobbies appear straightforward from the outside but reveal unexpected complexity once you begin practicing them. The learning curve can be steep, requiring patience and dedication.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "SewingNightmare",
+          "text": "sewing. thought i'd make clothes and save money. spent $400 on a machine, $200 on fabric, made a pillow that looks like a crime scene. back to Target for me",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SketchbookSad",
+          "text": "Drawing. YouTube tutorials made it look so logical. \"Just draw the circles, then the lines.\" My circles look like potatoes. Every face I draw looks vaguely threatening.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Appear straightforward from the outside\" - observer perspective",
+          "\"Reveal unexpected complexity\" - formal description",
+          "\"Learning curve can be steep\" - cliche phrase",
+          "\"Requiring patience and dedication\" - motivational poster",
+          "Names no specific hobby or personal experience"
+        ],
+        "humanTells": [
+          "#1: Specific failure count (4 times), timeline (8 months)",
+          "#2: Specific comparison (70 year old), outcome (selling clubs)",
+          "#4: Dollar amounts, specific product (pillow), humor",
+          "#5: Quoted instructions, specific fails (potatoes, threatening)"
+        ],
+        "difficulty_note": "Expert - AI gives meta-commentary while humans share specific failures"
+      },
+      "metadata": {
+        "createdAt": "2026-03-15T11:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-23",
+      "dayNumber": 64,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "entertainment",
+      "prompt": {
+        "text": "What movie do you quote the most in daily life?",
+        "source": "r/movies"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "PrincessBride4eva",
+          "text": "The Princess Bride. \"Inconceivable!\" has become my response to any minor inconvenience. My coworkers hate me.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "MovieEnthusiast",
+          "text": "Memorable movie quotes have a unique way of becoming part of our everyday conversations. These cultural references help us connect with others who share similar cinematic experiences.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "Napoleon_Dynamite_",
+          "text": "napoleon dynamite. i still say \"GOSH\" when frustrated. i'm 34. this is a problem.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "OfficeSpaceFan",
+          "text": "Office Space. Every Monday is \"looks like someone has a case of the Mondays.\" Every TPS report joke lands. I am insufferable and I can't stop.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "LordOfMemes",
+          "text": "LOTR. \"One does not simply...\" applies to literally everything. One does not simply go to the grocery store without buying snacks. My wife is tired of it.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Memorable movie quotes\" - essay opening",
+          "\"Unique way of becoming\" - vague description",
+          "\"Cultural references\" - academic language",
+          "\"Cinematic experiences\" - formal film criticism tone",
+          "Doesn't name ANY movie or quote"
+        ],
+        "humanTells": [
+          "#1: Specific movie, exact quote, social consequence",
+          "#3: Specific quote, self-aware age reference",
+          "#4: Movie named, specific examples, self-deprecating",
+          "#5: Template explained, personal example, spouse reaction"
+        ],
+        "difficulty_note": "Easy - AI talks ABOUT movie quotes without naming any movies"
+      },
+      "metadata": {
+        "createdAt": "2026-03-15T11:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-24",
+      "dayNumber": 65,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "life",
+      "prompt": {
+        "text": "What's something you thought was normal until you visited someone else's house?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ShowerShock",
+          "text": "That everyone's family didn't have a poop knife. Found out at my friend's house when I asked where theirs was. The silence was deafening.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "DinnerDiscovery",
+          "text": "Eating dinner together at a table. We always ate in front of the TV. First time I had dinner at my girlfriend's house and everyone sat together and TALKED? Culture shock.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "HomeComparisons",
+          "text": "Visiting other people's homes can reveal interesting differences in how families operate. What seems normal in one household might be quite unusual in another context.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "ShoesInside_",
+          "text": "wearing shoes inside the house. first time i walked into a friend's home with my shoes on their mom gave me a look that still haunts me. i was 8.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ToiletPaperWars",
+          "text": "That toilet paper goes over, not under. My family were under people. I didn't know this was controversial until college. I've since corrected my ways.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Reveal interesting differences\" - neutral observation",
+          "\"How families operate\" - generic phrasing",
+          "\"What seems normal\" - obvious statement",
+          "\"In another context\" - vague conclusion",
+          "Shares no personal experience or specific difference discovered"
+        ],
+        "humanTells": [
+          "#1: Infamous specific example, dialogue, reaction described",
+          "#2: Specific discovery, relationship context (girlfriend)",
+          "#4: Specific age (8), specific person (friend's mom), lasting impact",
+          "#5: Specific debate, timeline (college), resolution"
+        ],
+        "difficulty_note": "Easy - AI comments on the concept without sharing anything specific"
+      },
+      "metadata": {
+        "createdAt": "2026-03-15T12:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-25",
+      "dayNumber": 66,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "tech",
+      "prompt": {
+        "text": "What technology from your childhood seems completely alien to kids today?",
+        "source": "r/technology"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "DialupNostalgia",
+          "text": "Having to tell everyone to get off the phone so I could use the internet. My niece asked \"why couldn't you just use your phone's internet?\" She's never known true suffering.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "BlockbusterMem",
+          "text": "Rewinding VHS tapes. Explained to my kid why we had to \"be kind, rewind\" and he looked at me like I was describing ancient Egypt. The Netflix generation will never understand.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "TechEvolution",
+          "text": "Technology has evolved rapidly over the past few decades, making devices from our childhood seem antiquated to younger generations. The pace of innovation continues to accelerate each year.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "MapQuest_Era",
+          "text": "printing out MapQuest directions. 47 pages of step-by-step instructions that you'd inevitably lose at turn 23. my daughter asked why we didn't just use gps. child, there was no gps.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "EncartaEnjoyer",
+          "text": "Encyclopedia CD-ROMs. Tried explaining to my students that research meant putting a disc in your computer and hoping it had your topic. They thought I was joking.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Has evolved rapidly\" - generic tech article opening",
+          "\"Making devices seem antiquated\" - formal description",
+          "\"Younger generations\" - distanced perspective",
+          "\"Pace of innovation continues to accelerate\" - press release",
+          "Names no specific technology"
+        ],
+        "humanTells": [
+          "#1: Specific scenario, dialogue from niece",
+          "#2: Specific slogan (\"be kind, rewind\"), kid's reaction",
+          "#4: Specific number (47 pages, turn 23), daughter's question",
+          "#5: Specific product (Encarta), context (students), reaction"
+        ],
+        "difficulty_note": "Medium - AI gives tech commentary without nostalgic specifics"
+      },
+      "metadata": {
+        "createdAt": "2026-03-15T12:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

@@ -13,16 +13,23 @@ This is a hackathon entry targeting three prizes:
 The app runs on the Reddit Devvit platform, using React for the UI, Redis for persistence, and a Scheduler for daily puzzle posting.
 
 ## Acceptance Criteria
-- [ ] Devvit app initializes and runs on a test subreddit
-- [ ] Daily puzzle displays with 5 comments (4 real sourced, 1 AI-generated)
-- [ ] Users can select one comment as their guess (one guess per day)
-- [ ] Correct/incorrect result shown with AI "tells" explanation
-- [ ] User streak and accuracy tracked persistently
-- [ ] Share card generated for results (spoiler-free)
-- [ ] Mobile-responsive UI that feels native on Reddit
-- [ ] Scheduler automatically posts new puzzle at midnight UTC
-- [ ] At least 7 pre-loaded puzzles for demo/judging period
-- [ ] Deployed to r/CommentConspiracy subreddit
+- [x] Devvit app initializes and runs on a test subreddit
+- [x] Daily puzzle displays with 5 comments (4 real sourced, 1 AI-generated)
+- [x] Users can select one comment as their guess (one guess per day)
+- [x] Correct/incorrect result shown with AI "tells" explanation
+- [x] User streak and accuracy tracked persistently
+- [x] Share card generated for results (spoiler-free)
+- [x] Mobile-responsive UI that feels native on Reddit
+- [x] Scheduler automatically posts new puzzle at midnight UTC
+- [x] At least 7 pre-loaded puzzles for demo/judging period (60 puzzles loaded!)
+- [x] Deployed to r/CommentConspiracy subreddit
+
+## Launch Readiness (Updated 2026-01-25)
+- [ ] 60 days of puzzle content from launch date (currently 54 days from today)
+- [ ] Devpost submission completed
+- [ ] Video demo recorded
+- [ ] Screenshots captured
+- [ ] Full playtest verification completed
 
 ## Scope
 
