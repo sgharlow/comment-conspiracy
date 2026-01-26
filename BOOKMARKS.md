@@ -19,7 +19,7 @@
 | ID | Task | Status | Notes |
 |----|------|--------|-------|
 | B3 | Upload subreddit icon | READY | `assets/subreddit-icon.png` (25KB) |
-| B4 | Upload subreddit banner | PENDING | See branding specs below |
+| B4 | Upload subreddit banner | READY | `assets/subreddit-banner.png` (154KB) |
 | B5 | Create video demo (1-2 min) | OPTIONAL | Script in DEVPOST_SUBMISSION.md |
 
 ### LOW PRIORITY - Optional Polish
@@ -111,13 +111,17 @@
 - `assets/subreddit-icon@2x.png` - 512×512, 67KB (retina reference)
 - `assets/subreddit-icon.svg` - Source vector
 
-### Banner (1920×384)
-- [ ] Design at full resolution
-- [ ] Mark safe zone (center 1300×200)
-- [ ] Preview desktop and mobile crops
-- [ ] Test dark mode visibility
-- [ ] Export as PNG or high-quality JPG
-- [ ] Compress to under 500 KB
+### Banner (1920×384) - COMPLETE ✅
+- [x] Design at full resolution
+- [x] Mark safe zone (center 1300×200)
+- [x] Preview desktop and mobile crops
+- [x] Test dark mode visibility
+- [x] Export as PNG or high-quality JPG
+- [x] Compress to under 500 KB (actual: 154KB)
+
+**Generated Files:**
+- `assets/subreddit-banner.png` - 1920×384, 154KB (upload this)
+- `assets/subreddit-banner.svg` - Source vector
 
 ---
 
@@ -155,3 +159,4 @@
 | 2026-01-26 | Create DEVPOST_SUBMISSION.md | ✅ Complete |
 | 2026-01-26 | Create UX_REVIEW.md | ✅ Complete |
 | 2026-01-26 | Generate subreddit icon | ✅ 256×256 PNG, 25KB |
+| 2026-01-26 | Generate subreddit banner | ✅ 1920×384 PNG, 154KB |
