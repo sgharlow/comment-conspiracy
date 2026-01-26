@@ -1,5 +1,5 @@
 name: comment-conspire
-version: 0.0.2
+version: 0.0.12
 capabilities:
   - redis
   - scheduler
@@ -9,5 +9,5 @@ capabilities:
   - redditAPI
 webRoot: ./webroot
 scheduledJobs:
-  - name: post-daily-puzzle
+  - name: daily-puzzle-post
     cron: 0 0 * * *

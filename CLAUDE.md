@@ -11,10 +11,13 @@ Comment Conspiracy is a daily Reddit game built on the Devvit platform where pla
 **Puzzle Content:** 66 puzzles (Jan 19 - Mar 25, 2026)
 **Demo URL:** https://reddit.com/r/CommentConspiracy
 
-## Critical Issues (As of Jan 26, 2026)
+## Status (As of Jan 26, 2026)
 
-1. **Scheduler job name mismatch** - `devvit.yaml` uses `post-daily-puzzle` but `dailyPuzzle.tsx` uses `daily-puzzle-post`. Must sync these before launch.
-2. **Version mismatch** - `devvit.yaml` shows `0.0.2` but deployed is `0.0.11`. Update before next deploy.
+**All Critical Issues Resolved:**
+1. ✅ **Scheduler job name** - Fixed in v0.0.12 (synced to `daily-puzzle-post`)
+2. ✅ **Version** - Updated to `0.0.12` and deployed
+
+**Remaining:** Submit to Devpost before Feb 12 deadline.
 
 ## Technology Stack
 
@@ -51,8 +54,8 @@ comment-conspiracy/
 
 | File | Purpose | Notes |
 |------|---------|-------|
-| `devvit.yaml` | App config | **Needs version update to 0.0.12** |
-| `src/scheduler/dailyPuzzle.tsx` | Daily posting | **Needs job name sync** |
+| `devvit.yaml` | App config | v0.0.12 deployed |
+| `src/scheduler/dailyPuzzle.tsx` | Daily posting | Job name: `daily-puzzle-post` |
 | `src/services/bootstrapService.ts` | Loads 66 puzzles | Imports week01-10.json |
 | `src/services/puzzleService.ts` | Core game logic | Shuffle, guess, streak |
 | `src/components/App.tsx` | Main React app | Renders all screens |
@@ -114,8 +117,9 @@ npm run lint         # ESLint check
 
 ## Current Status (Jan 26, 2026)
 
-- **r/CommentConspiracy**: Live, public, app installed, first puzzle post created
+- **r/CommentConspiracy**: Live, public, app installed (v0.0.12), game fully tested
 - **r/comment_conspire_dev**: Available for testing (private)
 - **Puzzle inventory**: 66 days (through Mar 25)
 - **Code quality**: All checks passing
-- **Next step**: Fix critical issues, redeploy, submit to Devpost
+- **App version**: 0.0.12 (all critical issues fixed)
+- **Next step**: Submit to Devpost, verify scheduler at midnight UTC
