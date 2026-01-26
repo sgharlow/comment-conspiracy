@@ -1,42 +1,35 @@
 # Comment Conspiracy - Launch TODO
 
-> Last Updated: 2026-01-25 (Updated with puzzle completion)
+> Last Updated: 2026-01-25 (Screenshots captured, app deployed v0.0.11)
 > Hackathon Deadline: February 12, 2026, 6:00 PM PST (18 days remaining)
 
 ---
 
 ## IMMEDIATE NEXT STEPS (Manual Actions Required)
 
-### Step 1: Deploy the updated app
-```bash
-cd ~/CascadeProjects/comment-conspiracy
-npm run upload
-```
-This will deploy the new week10 puzzles to Reddit.
+### Step 1: Deploy the updated app ✅ DONE
+App deployed to v0.0.11 with 66 puzzles (week10 data included).
 
 ### Step 2: Create or configure the demo subreddit
 1. Go to https://www.reddit.com/subreddits/create
 2. Create r/CommentConspiracy (or make r/comment_conspire_dev public)
 3. Install the app: Devvit Dashboard → comment-conspire → Install → select subreddit
 
-### Step 3: Create the first puzzle post
-1. Go to the subreddit
-2. Click the three-dot menu → "Create Comment Conspiracy Post"
-3. This creates the first playable puzzle
+### Step 3: Create the first puzzle post ✅ DONE (on r/comment_conspire_dev)
+Daily scheduler is running - multiple puzzle posts exist (Day 3-8).
 
-### Step 4: Take screenshots for Devpost
-Play through the game and screenshot each state:
-- Welcome screen
-- Game screen with all 5 comments
-- Comment selected (highlighted)
-- Confirmation modal
-- Correct result with AI tells
-- Completed screen with leaderboard
+### Step 4: Take screenshots for Devpost ✅ DONE
+Screenshots saved in `screenshots/` folder:
+- 01-welcome-screen.png
+- 02-game-screen.png
+- 03-comment-selected.png
+- 04-confirmation-modal.png
+- 05-correct-result.png
 
 ### Step 5: Submit to Devpost
 - Go to the hackathon Devpost page
 - Fill out the submission form
-- Upload screenshots
+- Upload screenshots from `screenshots/` folder
 - Submit before Feb 12, 6:00 PM PST
 
 ---
@@ -85,15 +78,15 @@ Required for hackathon entry:
   - [ ] Pinned post: "How to Play Comment Conspiracy"
   - [ ] At least 1 live puzzle post running
 
-- [ ] **Screenshots captured** (5-8 recommended)
-  - [ ] Welcome screen
-  - [ ] Game screen (reading comments)
-  - [ ] Comment selected state
-  - [ ] Confirmation modal
-  - [ ] Correct result screen with AI tells
-  - [ ] Incorrect result screen
-  - [ ] Completed screen with leaderboard
-  - [ ] Mobile view
+- [x] **Screenshots captured** (5 screenshots in `screenshots/` folder)
+  - [x] Welcome screen (01-welcome-screen.png)
+  - [x] Game screen (02-game-screen.png)
+  - [x] Comment selected state (03-comment-selected.png)
+  - [x] Confirmation modal (04-confirmation-modal.png)
+  - [x] Correct result screen with AI tells (05-correct-result.png)
+  - [ ] Incorrect result screen (optional - requires playing another puzzle)
+  - [ ] Completed screen with leaderboard (optional)
+  - [ ] Mobile view (optional)
 
 - [ ] **Video demo** (recommended, not required)
   - 1-2 minute walkthrough of gameplay
