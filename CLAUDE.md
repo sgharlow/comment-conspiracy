@@ -9,6 +9,12 @@ Comment Conspiracy is a daily Reddit game built on the Devvit platform where pla
 **Development Status:** 100% complete (20/20 tasks). See TODO.md for launch checklist.
 **Hackathon Deadline:** February 12, 2026, 6:00 PM PST
 **Puzzle Content:** 66 puzzles (Jan 19 - Mar 25, 2026)
+**Demo URL:** https://reddit.com/r/CommentConspiracy
+
+## Critical Issues (As of Jan 26, 2026)
+
+1. **Scheduler job name mismatch** - `devvit.yaml` uses `post-daily-puzzle` but `dailyPuzzle.tsx` uses `daily-puzzle-post`. Must sync these before launch.
+2. **Version mismatch** - `devvit.yaml` shows `0.0.2` but deployed is `0.0.11`. Update before next deploy.
 
 ## Technology Stack
 
@@ -17,24 +23,39 @@ Comment Conspiracy is a daily Reddit game built on the Devvit platform where pla
 - **Backend**: Devvit Redis for persistence, Devvit Scheduler for daily puzzle posting
 - **State**: React useState/useReducer (local), Devvit Redis/KV Store (persistent)
 
-## Project Structure (Planned)
+## Project Structure
 
 ```
 comment-conspiracy/
-├── devvit.yaml                    # Devvit configuration
+├── devvit.yaml                    # Devvit configuration (NEEDS version update)
 ├── src/
-│   ├── main.tsx                   # App entry point
-│   ├── types/                     # TypeScript type definitions
+│   ├── main.tsx                   # App entry point & WebView message handlers
+│   ├── types/                     # TypeScript type definitions (6 files)
 │   ├── components/
 │   │   ├── screens/               # WelcomeScreen, GameScreen, ResultScreen, CompletedScreen
-│   │   ├── game/                  # CommentCard, CommentList, PromptHeader, ConfirmModal
-│   │   ├── results/               # ResultBanner, AIExplanation, StatsPanel, ShareCard
-│   │   └── shared/                # Button, ProgressBar, Timer, LoadingSpinner
-│   ├── hooks/                     # useGameState, useUserProgress, usePuzzle, useStats
-│   ├── services/                  # puzzleService, userService, statsService, schedulerService
-│   ├── utils/                     # dateUtils, shuffleUtils, shareUtils
-│   └── data/puzzles/              # Pre-generated puzzle JSON files
+│   │   ├── game/                  # CommentCard, ConfirmModal
+│   │   ├── results/               # ResultBanner, AIExplanation, StatsPanel, ShareCard, etc.
+│   │   ├── contributions/         # ContributeScreen, ContributionForm, ContributionCard, etc.
+│   │   └── shared/                # LoadingSpinner, Timer, ErrorState, App.tsx
+│   ├── hooks/                     # useGameState
+│   ├── services/                  # puzzleService, bootstrapService, redisService, etc.
+│   ├── scheduler/                 # dailyPuzzle.tsx (NEEDS job name sync)
+│   ├── utils/                     # shuffleUtils, shareUtils, leaderboardUtils
+│   └── data/bootstrap/            # week01-10.json (66 puzzles)
+├── tests/                         # 5 test suites (all passing)
+├── screenshots/                   # 5 Devpost screenshots
+└── webroot/                       # Static web files
 ```
+
+## Key Files to Know
+
+| File | Purpose | Notes |
+|------|---------|-------|
+| `devvit.yaml` | App config | **Needs version update to 0.0.12** |
+| `src/scheduler/dailyPuzzle.tsx` | Daily posting | **Needs job name sync** |
+| `src/services/bootstrapService.ts` | Loads 66 puzzles | Imports week01-10.json |
+| `src/services/puzzleService.ts` | Core game logic | Shuffle, guess, streak |
+| `src/components/App.tsx` | Main React app | Renders all screens |
 
 ## Key Data Models
 
@@ -44,11 +65,14 @@ comment-conspiracy/
 
 ## Redis Key Patterns
 
-- `puzzle:{date}` - Puzzle data
+- `puzzle:{YYYY-MM-DD}` - Puzzle data
 - `puzzle:current` - Today's puzzle ID
+- `puzzle:index` - Array of all puzzle IDs
 - `user:{userId}:progress` - User progression data
+- `user:{userId}:guess:{puzzleId}` - Individual guess (idempotent)
 - `stats:{puzzleId}` - Daily statistics
 - `leaderboard:streaks` - Sorted set for streak rankings
+- `leaderboard:accuracy` - Sorted set for accuracy rankings (10+ games)
 
 ## Game Rules
 
@@ -57,10 +81,41 @@ comment-conspiracy/
 3. Streak tracking: consecutive correct answers, resets on wrong guess or missed day
 4. Difficulty progression: Monday (easy) → Friday (hard) → Saturday (expert)
 
+## Achievements (8 total)
+
+1. `first_correct` - First correct guess
+2. `streak_3` - 3-day streak
+3. `streak_7` - 7-day streak
+4. `streak_30` - 30-day streak
+5. `perfect_week` - 7 correct in a row
+6. `hard_mode` - Expert difficulty correct
+7. `veteran` - Play 30 puzzles
+8. `sharp_eye` - 80%+ accuracy over 20+ games
+
 ## Architecture Principles
 
 - Puzzles are pre-generated and curated offline (not generated on-the-fly)
 - AI comment index is hidden from client until after guess submission
-- Comments are shuffled per-user to prevent position-based spoilers
+- Comments are shuffled per-user using deterministic seed (userId:puzzleId)
 - All timestamps use UTC for consistency
 - Server-side source of truth for streaks/progress (prevents manipulation)
+- Idempotent guess submission (safe for retries)
+
+## Build Commands
+
+```bash
+npm run dev          # Local playtest
+npm run build        # Full build (webview + devvit)
+npm run upload       # Deploy to Reddit
+npm run test         # Run Vitest tests
+npm run typecheck    # TypeScript check
+npm run lint         # ESLint check
+```
+
+## Current Status (Jan 26, 2026)
+
+- **r/CommentConspiracy**: Live, public, app installed, first puzzle post created
+- **r/comment_conspire_dev**: Available for testing (private)
+- **Puzzle inventory**: 66 days (through Mar 25)
+- **Code quality**: All checks passing
+- **Next step**: Fix critical issues, redeploy, submit to Devpost
