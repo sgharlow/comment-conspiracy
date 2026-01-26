@@ -1,7 +1,7 @@
 # Comment Conspiracy - Launch TODO
 
-> Last Updated: 2026-01-25 (Screenshots captured, app deployed v0.0.11)
-> Hackathon Deadline: February 12, 2026, 6:00 PM PST (18 days remaining)
+> Last Updated: 2026-01-26 (r/CommentConspiracy created, app installed, first puzzle post live)
+> Hackathon Deadline: February 12, 2026, 6:00 PM PST (17 days remaining)
 
 ---
 
@@ -10,13 +10,15 @@
 ### Step 1: Deploy the updated app ✅ DONE
 App deployed to v0.0.11 with 66 puzzles (week10 data included).
 
-### Step 2: Create or configure the demo subreddit
-1. Go to https://www.reddit.com/subreddits/create
-2. Create r/CommentConspiracy (or make r/comment_conspire_dev public)
-3. Install the app: Devvit Dashboard → comment-conspire → Install → select subreddit
+### Step 2: Create or configure the demo subreddit ✅ DONE
+r/CommentConspiracy created and configured:
+- Public subreddit with description and sidebar
+- Comment Conspiracy app installed (v0.0.11)
+- First puzzle post created and working
 
-### Step 3: Create the first puzzle post ✅ DONE (on r/comment_conspire_dev)
-Daily scheduler is running - multiple puzzle posts exist (Day 3-8).
+### Step 3: Create the first puzzle post ✅ DONE
+- r/CommentConspiracy: First puzzle post live (Jan 26, 2026)
+- r/comment_conspire_dev: Multiple puzzle posts exist (Day 3-8) for testing
 
 ### Step 4: Take screenshots for Devpost ✅ DONE
 Screenshots saved in `screenshots/` folder:
@@ -69,14 +71,14 @@ Completed:
 
 Required for hackathon entry:
 
-- [ ] **App listing verified** on developer.reddit.com
+- [x] **App listing verified** on developer.reddit.com
   - URL: https://developers.reddit.com/apps/comment-conspire
 
-- [ ] **Demo subreddit live** at r/CommentConspiracy
-  - [ ] Subreddit is Public
-  - [ ] Description: "Can you spot the AI comment? Daily puzzle game."
-  - [ ] Pinned post: "How to Play Comment Conspiracy"
-  - [ ] At least 1 live puzzle post running
+- [x] **Demo subreddit live** at r/CommentConspiracy
+  - [x] Subreddit is Public
+  - [x] Description: "Can you spot the AI comment? Daily puzzle game."
+  - [ ] Pinned post: "How to Play Comment Conspiracy" (optional)
+  - [x] At least 1 live puzzle post running
 
 - [x] **Screenshots captured** (5 screenshots in `screenshots/` folder)
   - [x] Welcome screen (01-welcome-screen.png)
@@ -114,25 +116,21 @@ The daily puzzle scheduler posts at midnight UTC.
 
 ---
 
-### 4. Subreddit Configuration
-**Priority: HIGH | Effort: 30 min**
+### 4. Subreddit Configuration ✅ DONE
+**Priority: HIGH | Status: COMPLETE**
 
-**Note:** r/CommentConspiracy does not exist yet. Current playtest is on r/comment_conspire_dev (private).
+**Option A: Create r/CommentConspiracy - COMPLETED**
+- [x] Create r/CommentConspiracy subreddit
+- [x] Set subreddit to Public
+- [x] Install Comment Conspiracy app on new subreddit
+- [x] Configure description: "Can you spot the AI comment? Daily puzzle game."
+- [ ] Create pinned "How to Play" post (optional polish)
+- [ ] Upload banner/icon (optional polish)
 
-**Option A: Create r/CommentConspiracy (recommended for demo)**
-- [ ] Create r/CommentConspiracy subreddit
-- [ ] Set subreddit to Public
-- [ ] Install Comment Conspiracy app on new subreddit
-- [ ] Configure description: "Can you spot the AI comment? Daily puzzle game."
-- [ ] Create pinned "How to Play" post
-- [ ] Upload banner/icon (optional)
+**r/comment_conspire_dev remains available for testing (private)**
 
-**Option B: Make playtest subreddit public**
-- [ ] Change r/comment_conspire_dev to Public
-- [ ] Update demo links to use this subreddit
-
-**Either way:**
-- [ ] At least 1 live puzzle post running
+**Status:**
+- [x] At least 1 live puzzle post running
 - [ ] Verify app works for non-logged-in viewers
 
 ---
@@ -233,11 +231,11 @@ Future improvements:
 
 | Component | Status | Notes |
 |-----------|--------|-------|
-| Devvit app | DEPLOYED | v0.0.2 on developer.reddit.com |
+| Devvit app | DEPLOYED | v0.0.11 on developer.reddit.com |
 | Redis storage | CONFIGURED | Devvit managed |
 | Scheduler | CONFIGURED | Cron: 0 0 * * * UTC |
-| Subreddit | NEEDS SETUP | r/CommentConspiracy doesn't exist yet |
-| Puzzle data | 66 PUZZLES | Jan 19 - Mar 25, 2026 (updated today) |
+| Subreddit | LIVE | r/CommentConspiracy (public, app installed) |
+| Puzzle data | 66 PUZZLES | Jan 19 - Mar 25, 2026 |
 | Build | PASSING | npm run build |
 | TypeScript | PASSING | npm run typecheck |
 | Tests | PASSING | npm test |
@@ -276,7 +274,15 @@ Future improvements:
 
 ---
 
-## Completed Today (Jan 25)
+## Completed Today (Jan 26)
+
+- [x] Created r/CommentConspiracy subreddit (public)
+- [x] Configured subreddit description and sidebar
+- [x] Installed Comment Conspiracy app (v0.0.11) on r/CommentConspiracy
+- [x] Created first puzzle post on r/CommentConspiracy
+- [x] Verified game works on new subreddit
+
+## Completed Jan 25
 
 - [x] Created 6 new puzzles (week10.json) for Mar 20-25
 - [x] Updated bootstrapService.ts to include week10
@@ -290,6 +296,8 @@ Future improvements:
 - [x] Updated CLAUDE.md with project status
 - [x] Updated PLAYTEST_GUIDE.md with correct puzzle dates
 - [x] Created comprehensive TODO.md
+- [x] Captured 5 screenshots for Devpost submission
+- [x] Deployed app to v0.0.11
 
 ---
 
