@@ -18,7 +18,7 @@
 
 | ID | Task | Status | Notes |
 |----|------|--------|-------|
-| B3 | Upload subreddit icon | PENDING | See branding specs below |
+| B3 | Upload subreddit icon | READY | `assets/subreddit-icon.png` (25KB) |
 | B4 | Upload subreddit banner | PENDING | See branding specs below |
 | B5 | Create video demo (1-2 min) | OPTIONAL | Script in DEVPOST_SUBMISSION.md |
 
@@ -99,12 +99,17 @@
 
 ## Asset Creation Checklist
 
-### Icon (256×256)
-- [ ] Create at 512×512 for retina, export at 256×256
-- [ ] Test circular crop preview
-- [ ] Verify legibility at 32px thumbnail size
-- [ ] Export as PNG with transparency
-- [ ] Compress to under 64 KB
+### Icon (256×256) - COMPLETE ✅
+- [x] Create at 512×512 for retina, export at 256×256
+- [x] Test circular crop preview
+- [x] Verify legibility at 32px thumbnail size
+- [x] Export as PNG with transparency
+- [x] Compress to under 64 KB (actual: 25KB)
+
+**Generated Files:**
+- `assets/subreddit-icon.png` - 256×256, 25KB (upload this)
+- `assets/subreddit-icon@2x.png` - 512×512, 67KB (retina reference)
+- `assets/subreddit-icon.svg` - Source vector
 
 ### Banner (1920×384)
 - [ ] Design at full resolution
@@ -149,3 +154,4 @@
 | 2026-01-26 | Mobile/desktop viewport test | ✅ Responsive verified |
 | 2026-01-26 | Create DEVPOST_SUBMISSION.md | ✅ Complete |
 | 2026-01-26 | Create UX_REVIEW.md | ✅ Complete |
+| 2026-01-26 | Generate subreddit icon | ✅ 256×256 PNG, 25KB |
