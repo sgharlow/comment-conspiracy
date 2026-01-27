@@ -1,8 +1,9 @@
 # Comment Conspiracy - Complete Launch Checklist
 
-> **Last Updated**: 2026-01-26 (Critical fixes deployed, playtest complete)
+> **Last Updated**: 2026-01-26 (Full inventory completed)
 > **Hackathon Deadline**: February 12, 2026, 6:00 PM PST (17 days remaining)
 > **Demo URL**: https://reddit.com/r/CommentConspiracy
+> **60-Day Target**: Support game through March 26, 2026
 
 ---
 
@@ -11,160 +12,194 @@
 | Category | Status | Details |
 |----------|--------|---------|
 | **Development** | 100% Complete | All 20 core tasks done |
-| **Puzzle Content** | 66 puzzles | Jan 19 - Mar 25, 2026 (60 days from today) |
-| **Infrastructure** | 100% Ready | All critical fixes deployed (v0.0.12) |
-| **Devpost Submission** | Pending | Form not yet submitted |
+| **Deployment** | Live | v0.0.12 on r/CommentConspiracy |
+| **Puzzle Content** | 66 puzzles | Jan 19 - Mar 25, 2026 (59 days from today) |
+| **Infrastructure** | Ready | Devvit Redis + Scheduler configured |
+| **Devpost Submission** | PENDING | Form not yet submitted |
+| **GitHub Repo** | 5 commits behind | Need to push to origin |
 
 ---
 
-## CRITICAL ISSUES - ALL RESOLVED ✅
+## COMPLETE TODO LIST FOR DEVPOST + 60-DAY SUPPORT
 
-### Issue #1: Scheduler Job Name Mismatch - FIXED ✅
-**Resolved**: 2026-01-26
+### CRITICAL - Required Before Devpost Submission
 
-Updated `devvit.yaml` to use `daily-puzzle-post` (matching the code).
-- [x] Updated `devvit.yaml` to use `daily-puzzle-post`
-- [x] Rebuilt and redeployed (`npm run upload`)
-- [ ] Verify scheduler runs at midnight UTC (pending)
+| # | Task | Status | Owner | Notes |
+|---|------|--------|-------|-------|
+| 1 | **Push 5 commits to GitHub** | PENDING | Human | `git push origin main` |
+| 2 | **Verify GitHub repo is public** | PENDING | Human | Required for Devpost link |
+| 3 | **Verify scheduler at midnight UTC** | PENDING | Human | Wait for Jan 27 00:00 UTC |
+| 4 | **Submit to Devpost** | PENDING | Human | Use DEVPOST_SUBMISSION.md |
 
-### Issue #2: Version Mismatch in devvit.yaml - FIXED ✅
-**Resolved**: 2026-01-26
+### HIGH PRIORITY - Important for 60-Day Operation
 
-- [x] Updated `devvit.yaml` version to `0.0.12`
-- [x] Rebuilt and redeployed
+| # | Task | Status | Owner | Notes |
+|---|------|--------|-------|-------|
+| 5 | Monitor first 3 days of auto-posting | PENDING | Human | Jan 27-29 |
+| 6 | Verify modmail alerts work | PENDING | Human | Check r/CommentConspiracy modmail |
+| 7 | Create contingency for scheduler failure | DONE | Code | Manual post instructions exist |
+| 8 | Plan puzzle creation for Apr-May | PENDING | Human | Need 30+ more puzzles by Mar 20 |
 
----
+### MEDIUM PRIORITY - Recommended
 
-## Pre-Launch Checklist
+| # | Task | Status | Owner | Notes |
+|---|------|--------|-------|-------|
+| 9 | Create video demo (1-2 min) | OPTIONAL | Human | Improves Devpost submission |
+| 10 | Test logged-out experience | OPTIONAL | Human | Incognito browser test |
+| 11 | Cross-browser testing | OPTIONAL | Human | Safari, Firefox, Edge |
+| 12 | Reddit mobile app testing | OPTIONAL | Human | iOS + Android |
 
-### 1. Code Fixes (Required) - COMPLETE ✅
-- [x] Fix scheduler job name mismatch (see Critical Issue #1)
-- [x] Update devvit.yaml version (see Critical Issue #2)
-- [x] Rebuild: `npm run build`
-- [x] Redeploy: `npm run upload` - Deployed as v0.0.12
+### LOW PRIORITY - Post-Launch Polish
 
-### 2. Scheduler Verification (Required)
-**After deploying fixes:**
-- [ ] Check Devvit dashboard for registered scheduler job
-- [ ] Verify cron schedule: `0 0 * * *` (midnight UTC)
-- [ ] Wait for midnight UTC and confirm new post is created automatically
-- [ ] Verify `puzzle:current` pointer updates correctly
-- [ ] Test inventory health check sends modmail on low stock (optional)
-
-### 3. Devpost Submission (Required)
-**Priority: HIGH | Deadline: Feb 12, 6:00 PM PST**
-
-**Pre-requisites Complete:**
-- [x] App deployed to developers.reddit.com
-- [x] Demo subreddit live at r/CommentConspiracy
-- [x] At least 1 live puzzle post
-- [x] Screenshots captured (5 in `screenshots/` folder)
-
-**Submission Form:**
-- [ ] Go to hackathon Devpost page
-- [ ] Fill out submission form:
-  - Title: `Comment Conspiracy`
-  - Tagline: `One of these comments isn't human. Can you spot the imposter?`
-  - Categories: Best Daily Game, Best Use of User Contributions, Best Mobile Game Play
-  - Demo link: `https://reddit.com/r/CommentConspiracy`
-  - App link: `https://developers.reddit.com/apps/comment-conspire`
-- [ ] Upload screenshots from `screenshots/` folder
-- [ ] Submit before deadline
-
-**Screenshots Available:**
-1. `01-welcome-screen.png` - First-time user welcome
-2. `02-game-screen.png` - Active puzzle with 5 comments
-3. `03-comment-selected.png` - Comment selection state
-4. `04-confirmation-modal.png` - Guess confirmation dialog
-5. `05-correct-result.png` - Correct result with AI tells
-
-### 4. Final Playtest (Recommended) - COMPLETE ✅
-**Tested on r/CommentConspiracy - 2026-01-26**
-
-**Core Flow:**
-- [x] Welcome screen displays correctly
-- [x] Can start puzzle
-- [x] Comment selection works (tap to select/deselect)
-- [x] Confirmation modal appears
-- [x] Can cancel confirmation
-- [x] Guess submission works
-- [x] Correct result displays with AI tells
-- [x] Incorrect result displays with explanations (not tested this session)
-- [x] Already-played state works after refresh
-
-**Features:**
-- [x] Share copy button visible (Copy/Share buttons shown)
-- [x] Achievement toast appears on unlock (First Blood verified)
-- [x] Achievements display in result
-- [x] Leaderboard shows ranks (1st place, Top 100%)
-- [x] Stats panel shows community data
-- [x] Countdown timer to next puzzle works
-- [x] Contribute button opens contribution screen
-
-### 5. Public Access Verification (Recommended) - VERIFIED ✅
-- [x] Subreddit is public (confirmed in sidebar)
-- [x] Game post accessible and loads correctly
-- [x] Game content renders without errors
+| # | Task | Status | Owner | Notes |
+|---|------|--------|-------|-------|
+| 13 | Set up analytics tracking | FUTURE | Code | Player retention, popular puzzles |
+| 14 | Create puzzle submission workflow | FUTURE | Code | User contributions → puzzles |
+| 15 | Weekly community engagement posts | FUTURE | Human | Leaderboard highlights |
 
 ---
 
-## Infrastructure Status
+## DETAILED TASK BREAKDOWN
 
-| Component | Status | Details |
-|-----------|--------|---------|
-| Devvit App | DEPLOYED | v0.0.12 at developers.reddit.com/apps/comment-conspire |
-| Redis Storage | CONFIGURED | Devvit managed, no action needed |
-| Scheduler | FIXED | Job name synchronized in v0.0.12 |
-| Demo Subreddit | LIVE | r/CommentConspiracy (public, app installed) |
-| Test Subreddit | AVAILABLE | r/comment_conspire_dev (private) |
-| Puzzle Data | COMPLETE | 66 puzzles loaded in Redis |
-| Build | PASSING | `npm run build` |
-| TypeScript | PASSING | `npm run typecheck` |
-| Tests | PASSING | `npm run test` (5/5 suites) |
-| Lint | PASSING | `npm run lint` |
+### Task 1: Push Commits to GitHub
+
+**Status:** PENDING
+**Urgency:** HIGH (blocking Devpost)
+
+```bash
+cd C:/Users/sghar/CascadeProjects/comment-conspiracy
+git push origin main
+```
+
+**Commits to push:**
+- `bc13b65` - Add subreddit banner assets
+- `52d3588` - Update BOOKMARKS.md: Mark icon as ready
+- `2da3cc8` - Add subreddit icon assets
+- `1ca61d5` - Add BOOKMARKS.md with active TODOs and branding specs
+- `e20411a` - Add Devpost submission details and UX review
 
 ---
 
-## Puzzle Inventory
+### Task 2: Verify GitHub Repo is Public
 
-**Total Coverage**: 66 puzzles (Jan 19 - Mar 25, 2026)
+**Status:** PENDING
+**Urgency:** HIGH
 
-| Week | Dates | Count | File |
-|------|-------|-------|------|
-| Week 1 | Jan 19-25 | 7 | week01.json |
-| Week 2 | Jan 26 - Feb 1 | 7 | week02.json |
-| Week 3 | Feb 2-8 | 7 | week03.json |
-| Week 4 | Feb 9-15 | 7 | week04.json |
-| Week 5 | Feb 16-22 | 7 | week05.json |
-| Week 6 | Feb 23 - Mar 1 | 7 | week06.json |
-| Week 7 | Mar 2-8 | 7 | week07.json |
-| Week 8 | Mar 9-15 | 7 | week08.json |
-| Week 9 | Mar 16-19 | 4 | week09.json |
-| Week 10 | Mar 20-25 | 6 | week10.json |
+1. Go to https://github.com/sgharlow/comment-conspiracy
+2. Check visibility in repo settings
+3. If private: Settings → Danger Zone → Change visibility → Public
 
-**From Today (Jan 26)**:
-- Days of runway: 59 days (through Mar 25)
+---
+
+### Task 3: Verify Scheduler at Midnight UTC
+
+**Status:** PENDING
+**Urgency:** CRITICAL
+
+**What to check:**
+- [ ] New post appears on r/CommentConspiracy at 00:00 UTC (Jan 27)
+- [ ] Post title follows format: "Day {N}: Can You Spot the AI Comment?"
+- [ ] `puzzle:current` Redis key updated
+- [ ] Game loads and works on new post
+
+**If scheduler fails:**
+- Check Devvit dashboard for errors
+- Manual fallback: Create post via Reddit, the game will still work
+- Scheduler job name in devvit.yaml: `daily-puzzle-post`
+- Cron: `0 0 * * *` (midnight UTC)
+
+---
+
+### Task 4: Submit to Devpost
+
+**Status:** PENDING
+**Urgency:** HIGH (deadline Feb 12)
+
+**Submission URL:** [Reddit Games & Puzzles Hackathon on Devpost]
+
+**Form Fields:**
+| Field | Value |
+|-------|-------|
+| Title | Comment Conspiracy |
+| Tagline | One of these comments isn't human. Can you spot the imposter? |
+| Categories | Best Daily Game, Best Use of User Contributions, Best Mobile Game Play |
+| Demo Link | https://reddit.com/r/CommentConspiracy |
+| App Link | https://developers.reddit.com/apps/comment-conspire |
+| GitHub | https://github.com/sgharlow/comment-conspiracy |
+| Team | Solo (u/Primary-Subject-8639) |
+
+**Screenshots to upload (from `screenshots/` folder):**
+1. `01-welcome-screen.png`
+2. `02-game-screen.png`
+3. `03-comment-selected.png`
+4. `04-confirmation-modal.png`
+5. `05-correct-result.png`
+
+**Built With:**
+- Reddit Devvit Platform
+- React 18
+- TypeScript 5.x
+- Tailwind CSS
+- Devvit Redis
+- Devvit Scheduler
+
+---
+
+### Task 8: Plan Puzzle Creation for Apr-May
+
+**Status:** PENDING
+**Urgency:** MEDIUM (by Mar 20)
+
+**Current Coverage:**
+- Week 1-10: Jan 19 - Mar 25 (66 puzzles)
+- **Gap starts:** Mar 26, 2026
+
+**Required:**
+- Create week11-14.json (28 puzzles) by Mar 20
+- OR integrate user contributions into puzzle pipeline
+- Consider reducing puzzle quality standards for quantity
+
+---
+
+## PUZZLE INVENTORY STATUS
+
+| Week | Dates | Count | File | Status |
+|------|-------|-------|------|--------|
+| Week 1 | Jan 19-25 | 7 | week01.json | ✅ |
+| Week 2 | Jan 26 - Feb 1 | 7 | week02.json | ✅ |
+| Week 3 | Feb 2-8 | 7 | week03.json | ✅ |
+| Week 4 | Feb 9-15 | 7 | week04.json | ✅ |
+| Week 5 | Feb 16-22 | 7 | week05.json | ✅ |
+| Week 6 | Feb 23 - Mar 1 | 7 | week06.json | ✅ |
+| Week 7 | Mar 2-8 | 7 | week07.json | ✅ |
+| Week 8 | Mar 9-15 | 7 | week08.json | ✅ |
+| Week 9 | Mar 16-19 | 4 | week09.json | ✅ |
+| Week 10 | Mar 20-25 | 6 | week10.json | ✅ |
+| **Total** | | **66** | | |
+
+**From Today (Jan 26):**
+- Days of runway: **59 days** (through Mar 25)
 - Hackathon coverage: Full (deadline Feb 12 = Day 25)
 - Post-hackathon coverage: 42 additional days
 
 ---
 
-## Code Quality Verification
+## INFRASTRUCTURE STATUS
 
-All checks passing as of Jan 26, 2026:
-
-```bash
-npm run typecheck   # TypeScript - PASSING
-npm run lint        # ESLint - PASSING
-npm run test        # Vitest (5/5 suites) - PASSING
-npm run build       # Full build - PASSING
-```
+| Component | Status | Notes |
+|-----------|--------|-------|
+| Devvit App | ✅ DEPLOYED | v0.0.12 |
+| Redis Storage | ✅ CONFIGURED | Devvit managed |
+| Scheduler | ✅ CONFIGURED | Job: `daily-puzzle-post`, Cron: `0 0 * * *` |
+| Subreddit | ✅ LIVE | r/CommentConspiracy (public) |
+| Branding | ✅ COMPLETE | Icon (256×256) + Banner (1920×384) |
+| Screenshots | ✅ READY | 5 images in `screenshots/` |
 
 ---
 
-## Feature Completeness
+## FEATURE COMPLETENESS
 
-### Core Features (All Complete)
+### Core Features (20/20) ✅
 - [x] Daily puzzle display (5 comments, 1 AI)
 - [x] Comment selection with visual feedback
 - [x] Guess confirmation modal
@@ -173,95 +208,57 @@ npm run build       # Full build - PASSING
 - [x] Human tells explanation
 - [x] Already-played state detection
 - [x] Community statistics
-- [x] Share functionality (copy to clipboard)
-
-### Gamification (All Complete)
-- [x] Streak tracking (consecutive correct days)
-- [x] Streak leaderboard
-- [x] Accuracy leaderboard (10+ games to qualify)
-- [x] 8 achievements defined and functional
-- [x] Achievement toast notifications
-- [x] Percentile ranking display
-
-### User Contributions (All Complete)
-- [x] Contribution submission form
-- [x] Contribution voting (up/down)
-- [x] Contribution listing with filters
-- [x] My contributions view
-- [x] Top contributors leaderboard
-- [x] Accessible via "Contribute AI Comments" button
-
-### Daily Operations (Needs Fix)
-- [x] Scheduler job code implemented
-- [ ] Scheduler job name synchronized (CRITICAL)
+- [x] Share functionality
+- [x] Streak tracking
+- [x] Accuracy tracking
+- [x] 8 achievements system
+- [x] Achievement notifications
+- [x] Leaderboards (streak + accuracy)
+- [x] User contributions
+- [x] Contribution voting
+- [x] Daily scheduler
 - [x] Inventory health monitoring
-- [x] Modmail alerts for missing puzzles
-- [x] Modmail alerts for low inventory
+- [x] Mobile-responsive design
+- [x] Error handling & loading states
 
 ---
 
-## Optional Polish (Not Required for Launch)
+## RISK ASSESSMENT
 
-### Subreddit Enhancements
-- [ ] Create pinned "How to Play" post
-- [ ] Upload subreddit icon
-- [ ] Upload subreddit banner
+### HIGH RISK
+| Risk | Likelihood | Impact | Mitigation |
+|------|------------|--------|------------|
+| Scheduler doesn't run | Low | High | Manual posting fallback, monitor first 3 days |
+| Puzzle content runs out | Low | High | 59 days runway, plan creation by Mar 20 |
 
-### Additional Screenshots (Optional)
-- [ ] Incorrect result screen
-- [ ] Completed screen with leaderboard
-- [ ] Mobile view screenshot
-- [ ] Contribution screen
+### MEDIUM RISK
+| Risk | Likelihood | Impact | Mitigation |
+|------|------------|--------|------------|
+| GitHub repo private | Medium | Medium | Check before submission |
+| Video demo missing | Medium | Low | Optional, screenshots sufficient |
 
-### Video Demo (Recommended but not required)
-- [ ] 1-2 minute walkthrough of gameplay
-- [ ] Show: discover post → play puzzle → see result → share
-
-### Cross-Browser Testing (Optional)
-- [ ] Chrome (desktop)
-- [ ] Safari (desktop + iOS)
-- [ ] Firefox
-- [ ] Edge
-- [ ] Reddit mobile app (iOS)
-- [ ] Reddit mobile app (Android)
+### LOW RISK
+| Risk | Likelihood | Impact | Mitigation |
+|------|------------|--------|------------|
+| Browser compatibility | Low | Low | Works on Chrome, test others optionally |
+| User scale issues | Low | Low | Devvit handles infrastructure |
 
 ---
 
-## Timeline to Deadline
+## TIMELINE TO DEADLINE
 
 | Date | Days Left | Milestone |
 |------|-----------|-----------|
-| **Jan 26** | **17** | **TODAY** - Fix critical issues, redeploy |
-| Jan 27 | 16 | Verify scheduler works at midnight UTC |
-| Jan 28-31 | 15-12 | Final testing, optional polish |
+| **Jan 26** | **17** | **TODAY** - Complete inventory, push commits |
+| Jan 27 | 16 | Verify scheduler at midnight UTC |
+| Jan 28-31 | 15-12 | Monitor auto-posting, optional testing |
 | Feb 1-5 | 11-7 | Video demo (if desired) |
-| Feb 6-10 | 6-2 | Submit to Devpost, buffer time |
+| Feb 6-10 | 6-2 | Submit to Devpost |
 | **Feb 12** | **0** | **DEADLINE 6:00 PM PST** |
 
 ---
 
-## Completed Work Log
-
-### Jan 26, 2026
-- [x] Created r/CommentConspiracy subreddit (public)
-- [x] Configured subreddit description and sidebar
-- [x] Installed Comment Conspiracy app (v0.0.11)
-- [x] Created first puzzle post on r/CommentConspiracy
-- [x] Verified game works on new subreddit
-- [x] Comprehensive project inventory completed
-
-### Jan 25, 2026
-- [x] Created 6 new puzzles (week10.json) for Mar 20-25
-- [x] Updated bootstrapService.ts to include week10
-- [x] Verified build/typecheck/lint/test all pass
-- [x] Removed debug comments from main.tsx
-- [x] Updated documentation (GOAL.md, PLAN.md, CLAUDE.md)
-- [x] Captured 5 screenshots for Devpost
-- [x] Deployed app to v0.0.11
-
----
-
-## Quick Reference
+## QUICK REFERENCE
 
 ### Build Commands
 ```bash
@@ -276,6 +273,7 @@ npm run lint         # ESLint check
 ### Key URLs
 - **Demo**: https://reddit.com/r/CommentConspiracy
 - **Devvit Dashboard**: https://developers.reddit.com/apps/comment-conspire
+- **GitHub**: https://github.com/sgharlow/comment-conspiracy
 - **Test Subreddit**: https://reddit.com/r/comment_conspire_dev
 
 ### Key Files
@@ -283,34 +281,44 @@ npm run lint         # ESLint check
 - **App Config**: `devvit.yaml`
 - **Puzzle Data**: `src/data/bootstrap/week*.json`
 - **Bootstrap**: `src/services/bootstrapService.ts`
-- **Main App**: `src/main.tsx`
-
-### Redis Key Patterns
-- `puzzle:{YYYY-MM-DD}` - Puzzle data
-- `puzzle:current` - Today's puzzle ID
-- `user:{userId}:progress` - User stats
-- `leaderboard:streaks` - Streak rankings
-- `leaderboard:accuracy` - Accuracy rankings
 
 ---
 
-## Summary: What's Needed for Launch
+## SUMMARY: WHAT'S NEEDED FOR LAUNCH
 
-### Must Do (Blocking)
-1. Fix scheduler job name mismatch
-2. Update devvit.yaml version
-3. Rebuild and redeploy
-4. Submit to Devpost
+### Blocking (Must Do)
+1. ⬜ Push 5 commits to GitHub
+2. ⬜ Verify GitHub repo is public
+3. ⬜ Verify scheduler at midnight UTC (Jan 27)
+4. ⬜ Submit to Devpost (before Feb 12)
 
-### Should Do (Recommended)
-5. Verify scheduler runs at midnight UTC
-6. Final playtest on r/CommentConspiracy
-7. Test public access (logged-out)
+### Important (Should Do)
+5. ⬜ Monitor first 3 days of auto-posting
+6. ⬜ Plan puzzle creation for Apr-May
 
-### Nice to Have (Optional)
-8. Pinned "How to Play" post
-9. Subreddit branding (icon, banner)
-10. Video demo
-11. Cross-browser testing
+### Optional (Nice to Have)
+7. ⬜ Video demo
+8. ⬜ Cross-browser testing
+9. ⬜ Reddit mobile app testing
 
-**Bottom Line**: Fix 2 config issues, redeploy, submit to Devpost. Everything else is working.
+**Bottom Line**: Push commits, verify scheduler works, submit to Devpost. The game is fully functional with 59 days of content.
+
+---
+
+## COMPLETED WORK LOG
+
+### Jan 26, 2026
+- [x] Full project inventory completed
+- [x] All documentation updated
+- [x] Identified remaining tasks for 60-day support
+- [x] Risk assessment completed
+
+### Previous (Jan 25-26)
+- [x] Created r/CommentConspiracy subreddit
+- [x] Deployed v0.0.12 with scheduler fix
+- [x] Created subreddit icon and banner
+- [x] Captured 5 Devpost screenshots
+- [x] Fixed scheduler job name mismatch
+- [x] Created 66 puzzles (10 weeks)
+- [x] All tests passing
+- [x] Full playtest completed

@@ -1,33 +1,59 @@
 # Comment Conspiracy - Active Bookmarks
 
-> **Last Updated:** 2026-01-26
-> **Hackathon Deadline:** February 12, 2026, 6:00 PM PST
+> **Last Updated:** 2026-01-26 (Full inventory completed)
+> **Hackathon Deadline:** February 12, 2026, 6:00 PM PST (17 days)
+> **60-Day Target:** Support through March 26, 2026
+
+---
+
+## Project Status Summary
+
+| Category | Status |
+|----------|--------|
+| Development | 100% Complete (20/20 tasks) |
+| Deployment | v0.0.12 live on r/CommentConspiracy |
+| Puzzle Content | 66 puzzles (59 days from today) |
+| Infrastructure | Devvit Redis + Scheduler ready |
+| GitHub | 5 commits need pushing |
 
 ---
 
 ## Active TODO Items
 
-### HIGH PRIORITY - Required for Submission
+### CRITICAL - Required for Launch
 
 | ID | Task | Status | Notes |
 |----|------|--------|-------|
-| B1 | Submit to Devpost | PENDING | Use `DEVPOST_SUBMISSION.md` for form content |
-| B2 | Verify scheduler at midnight UTC | PENDING | Check if new puzzle post auto-creates |
+| B0 | Push 5 commits to GitHub | PENDING | `git push origin main` |
+| B1 | Verify GitHub repo is public | PENDING | Check visibility settings |
+| B2 | Verify scheduler at midnight UTC | PENDING | Jan 27 00:00 UTC |
+| B3 | Submit to Devpost | PENDING | Use `DEVPOST_SUBMISSION.md` |
+
+### HIGH PRIORITY - 60-Day Support
+
+| ID | Task | Status | Notes |
+|----|------|--------|-------|
+| B4 | Monitor first 3 days auto-posting | PENDING | Jan 27-29 |
+| B5 | Plan Apr-May puzzle creation | PENDING | Need 28+ puzzles by Mar 20 |
 
 ### MEDIUM PRIORITY - Recommended
 
 | ID | Task | Status | Notes |
 |----|------|--------|-------|
-| B3 | Upload subreddit icon | READY | `assets/subreddit-icon.png` (25KB) |
-| B4 | Upload subreddit banner | READY | `assets/subreddit-banner.png` (154KB) |
-| B5 | Create video demo (1-2 min) | OPTIONAL | Script in DEVPOST_SUBMISSION.md |
+| B6 | Create video demo (1-2 min) | OPTIONAL | Improves Devpost submission |
+| B7 | Manual incognito test | OPTIONAL | Verify logged-out experience |
+| B8 | Cross-browser testing | OPTIONAL | Safari, Firefox, Edge |
 
-### LOW PRIORITY - Optional Polish
+### COMPLETED ✅
 
-| ID | Task | Status | Notes |
-|----|------|--------|-------|
-| B6 | Manual incognito test | OPTIONAL | Verify logged-out experience |
-| B7 | Safari/Firefox testing | OPTIONAL | Cross-browser verification |
+| ID | Task | Date |
+|----|------|------|
+| ✅ | Upload subreddit icon | Jan 26 |
+| ✅ | Upload subreddit banner | Jan 26 |
+| ✅ | Fix scheduler job name | Jan 26 |
+| ✅ | Deploy v0.0.12 | Jan 26 |
+| ✅ | Full playtest | Jan 26 |
+| ✅ | Create 66 puzzles | Jan 25 |
 
 ---
 
@@ -160,3 +186,4 @@
 | 2026-01-26 | Create UX_REVIEW.md | ✅ Complete |
 | 2026-01-26 | Generate subreddit icon | ✅ 256×256 PNG, 25KB |
 | 2026-01-26 | Generate subreddit banner | ✅ 1920×384 PNG, 154KB |
+| 2026-01-26 | Upload icon & banner to subreddit | ✅ Live on r/CommentConspiracy |
