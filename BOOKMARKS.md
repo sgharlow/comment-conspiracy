@@ -14,7 +14,7 @@
 | Deployment | v0.0.12 live on r/CommentConspiracy |
 | Puzzle Content | 66 puzzles (59 days from today) |
 | Infrastructure | Devvit Redis + Scheduler ready |
-| GitHub | 5 commits need pushing |
+| GitHub | Up to date |
 
 ---
 
@@ -24,7 +24,7 @@
 
 | ID | Task | Status | Notes |
 |----|------|--------|-------|
-| B0 | Push 5 commits to GitHub | PENDING | `git push origin main` |
+| B0 | Push commits to GitHub | DONE | Pushed Jan 26 |
 | B1 | Verify GitHub repo is public | PENDING | Check visibility settings |
 | B2 | Verify scheduler at midnight UTC | PENDING | Jan 27 00:00 UTC |
 | B3 | Submit to Devpost | PENDING | Use `DEVPOST_SUBMISSION.md` |

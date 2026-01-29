@@ -1,6 +1,6 @@
 {
   "name": "comment-conspire",
-  "version": "0.0.0",
+  "version": "0.0.12",
   "description": "Daily game - spot the AI-generated comment among real Reddit comments",
   "type": "module",
   "private": true,

@@ -3,3 +3,6 @@ node_modules
 # Local status reports (not for version control)
 STATUS_REPORT.md
 .playwright-mcp/
+
+# Archived files
+archive/
