@@ -25,7 +25,7 @@
 | ID | Task | Status | Notes |
 |----|------|--------|-------|
 | B0 | Push commits to GitHub | DONE | Pushed Jan 26 |
-| B1 | Verify GitHub repo is public | PENDING | Check visibility settings |
+| B1 | Verify GitHub repo is public | DONE | Verified public Jan 28 |
 | B2 | Verify scheduler at midnight UTC | PENDING | Jan 27 00:00 UTC |
 | B3 | Submit to Devpost | PENDING | Use `DEVPOST_SUBMISSION.md` |
 

@@ -27,7 +27,7 @@
 | # | Task | Status | Owner | Notes |
 |---|------|--------|-------|-------|
 | 1 | **Push commits to GitHub** | DONE | Human | Pushed Jan 26 |
-| 2 | **Verify GitHub repo is public** | PENDING | Human | Required for Devpost link |
+| 2 | **Verify GitHub repo is public** | DONE | Human | Verified public Jan 28 |
 | 3 | **Verify scheduler at midnight UTC** | PENDING | Human | Wait for Jan 27 00:00 UTC |
 | 4 | **Submit to Devpost** | PENDING | Human | Use DEVPOST_SUBMISSION.md |
 
@@ -278,7 +278,7 @@ npm run lint         # ESLint check
 
 ### Blocking (Must Do)
 1. ✅ Push commits to GitHub (DONE)
-2. ⬜ Verify GitHub repo is public
+2. ✅ Verify GitHub repo is public (DONE)
 3. ⬜ Verify scheduler at midnight UTC (Jan 27)
 4. ⬜ Submit to Devpost (before Feb 12)
 
