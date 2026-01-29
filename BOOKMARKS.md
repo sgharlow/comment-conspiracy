@@ -26,14 +26,14 @@
 |----|------|--------|-------|
 | B0 | Push commits to GitHub | DONE | Pushed Jan 26 |
 | B1 | Verify GitHub repo is public | DONE | Verified public Jan 28 |
-| B2 | Verify scheduler at midnight UTC | PENDING | Jan 27 00:00 UTC |
+| B2 | Verify scheduler at midnight UTC | DONE | Verified Jan 27-29 |
 | B3 | Submit to Devpost | PENDING | Use `DEVPOST_SUBMISSION.md` |
 
 ### HIGH PRIORITY - 60-Day Support
 
 | ID | Task | Status | Notes |
 |----|------|--------|-------|
-| B4 | Monitor first 3 days auto-posting | PENDING | Jan 27-29 |
+| B4 | Monitor first 3 days auto-posting | DONE | Day 9-11 verified |
 | B5 | Plan Apr-May puzzle creation | PENDING | Need 28+ puzzles by Mar 20 |
 
 ### MEDIUM PRIORITY - Recommended
