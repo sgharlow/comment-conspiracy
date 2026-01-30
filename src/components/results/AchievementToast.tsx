@@ -1,6 +1,7 @@
 /**
  * AchievementToast Component
  * Displays newly unlocked achievements with celebration animation
+ * Detective theme: golden achievement badges
  */
 
 import React, { useState, useEffect } from 'react';
@@ -32,18 +33,18 @@ function AchievementCard({
   return (
     <div
       className={`
-        flex items-center gap-3 p-4 bg-gradient-to-r from-yellow-50 to-orange-50
-        border border-yellow-200 rounded-xl shadow-lg
+        flex items-center gap-3 p-4 bg-detective-card
+        border border-suspicious/50 rounded-xl shadow-lg shadow-suspicious/20
         transition-all duration-500 ease-out
         ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}
       `}
     >
       <div className="text-3xl animate-bounce">{achievement.icon}</div>
       <div className="flex-1">
-        <div className="font-bold text-gray-900">{achievement.name}</div>
-        <div className="text-sm text-gray-600">{achievement.description}</div>
+        <div className="font-bold text-textPrimary">{achievement.name}</div>
+        <div className="text-sm text-textSecondary">{achievement.description}</div>
       </div>
-      <div className="text-yellow-500 text-xl">NEW!</div>
+      <div className="text-suspicious text-sm font-bold uppercase tracking-wider">NEW!</div>
     </div>
   );
 }
@@ -88,8 +89,8 @@ export function AchievementToast({
         }}
       >
         {/* Achievement unlocked header */}
-        <div className="text-center text-sm font-semibold text-yellow-600 mb-1">
-          Achievement Unlocked!
+        <div className="text-center text-sm font-bold text-suspicious uppercase tracking-wider mb-1">
+          🏆 Achievement Unlocked!
         </div>
 
         {/* Achievement cards */}
@@ -102,7 +103,7 @@ export function AchievementToast({
         ))}
 
         {/* Tap to dismiss hint */}
-        <div className="text-center text-xs text-gray-400 mt-1">
+        <div className="text-center text-xs text-textMuted mt-1">
           Tap to dismiss
         </div>
       </div>
@@ -119,9 +120,9 @@ export function AchievementBadge({
   achievement: Achievement;
 }): React.ReactElement {
   return (
-    <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-yellow-100 border border-yellow-200 rounded-full">
+    <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-suspicious/20 border border-suspicious/40 rounded-full">
       <span className="text-lg">{achievement.icon}</span>
-      <span className="text-sm font-medium text-yellow-800">
+      <span className="text-sm font-medium text-suspicious">
         {achievement.name}
       </span>
     </div>
@@ -143,8 +144,8 @@ export function AchievementList({
   }
 
   return (
-    <div className="mt-4 p-4 bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl border border-yellow-200">
-      <h3 className="text-sm font-semibold text-yellow-700 mb-3">{title}</h3>
+    <div className="mt-4 p-4 bg-detective-card border border-suspicious/30 rounded-xl">
+      <h3 className="text-sm font-semibold text-suspicious mb-3">🏆 {title}</h3>
       <div className="flex flex-wrap gap-2">
         {achievements.map((achievement) => (
           <AchievementBadge key={achievement.id} achievement={achievement} />

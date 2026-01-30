@@ -1,6 +1,7 @@
 /**
  * ResultScreen Component
  * Shows the result after a user submits their guess
+ * Detective theme: "Case Closed" or "Case Unsolved"
  */
 
 import React from 'react';
@@ -75,7 +76,7 @@ export function ResultScreen({
         {onViewBreakdown && (
           <button
             onClick={onViewBreakdown}
-            className="w-full py-3 px-6 bg-gray-200 hover:bg-gray-300 text-gray-700 font-semibold rounded-xl transition-colors"
+            className="w-full py-3 px-6 bg-detective-card border border-detective-border hover:bg-detective-cardHover text-textPrimary font-semibold rounded-xl transition-all"
           >
             View Full Breakdown
           </button>
@@ -83,7 +84,7 @@ export function ResultScreen({
         {onContribute && (
           <button
             onClick={onContribute}
-            className="w-full py-3 px-6 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl transition-colors flex items-center justify-center gap-2"
+            className="w-full py-3 px-6 bg-ai/20 border border-ai/40 hover:bg-ai/30 text-ai font-bold rounded-xl transition-all flex items-center justify-center gap-2"
           >
             <span>+</span>
             <span>Contribute AI Comments</span>
@@ -92,7 +93,7 @@ export function ResultScreen({
         {onJoinDiscussion && (
           <button
             onClick={onJoinDiscussion}
-            className="w-full py-3 px-6 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-colors flex items-center justify-center gap-2"
+            className="w-full py-3 px-6 bg-reddit hover:bg-reddit/90 text-white font-bold rounded-xl transition-all flex items-center justify-center gap-2"
           >
             <span>💬</span>
             <span>Join Discussion</span>

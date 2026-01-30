@@ -1,6 +1,7 @@
 /**
  * Leaderboard Component
  * Displays user's rank on streak and accuracy leaderboards
+ * Detective theme: "Your Detective Rankings"
  */
 
 import React from 'react';
@@ -50,30 +51,30 @@ function RankCard({
   const hasRank = rank !== null;
 
   return (
-    <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-4 flex flex-col items-center text-center">
+    <div className="bg-detective-bg border border-detective-border rounded-xl p-4 flex flex-col items-center text-center">
       <div className="text-2xl mb-1">{icon}</div>
-      <div className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">
+      <div className="text-xs font-medium text-textSecondary uppercase tracking-wider mb-2">
         {title}
       </div>
 
       {hasRank ? (
         <>
-          <div className="text-2xl font-bold text-gray-900 mb-1">
+          <div className="text-2xl font-bold text-textPrimary mb-1">
             {formatOrdinal(rank)}
           </div>
-          <div className="text-xs text-gray-500 mb-2">
+          <div className="text-xs text-textMuted mb-2">
             {formatRankPercentile(rank, total)}
           </div>
           <div className="flex items-baseline gap-1">
-            <span className="text-lg font-semibold text-blue-600">{value}</span>
-            <span className="text-xs text-gray-500">{valueLabel}</span>
+            <span className="text-lg font-semibold text-correct">{value}</span>
+            <span className="text-xs text-textSecondary">{valueLabel}</span>
           </div>
         </>
       ) : (
         <>
-          <div className="text-lg font-semibold text-gray-400 mb-1">--</div>
+          <div className="text-lg font-semibold text-textMuted mb-1">--</div>
           {subtext && (
-            <div className="text-xs text-gray-400 max-w-[100px]">{subtext}</div>
+            <div className="text-xs text-textMuted max-w-[100px]">{subtext}</div>
           )}
         </>
       )}
@@ -95,8 +96,8 @@ export function LeaderboardPanel({
 
   return (
     <div className={`${className}`}>
-      <h3 className="text-sm font-semibold text-gray-700 mb-3 flex items-center gap-2">
-        <span>Your Rankings</span>
+      <h3 className="text-xs font-semibold text-textSecondary uppercase tracking-wider mb-3 flex items-center gap-2">
+        <span>🏆 Your Detective Rankings</span>
       </h3>
 
       <div className="grid grid-cols-2 gap-3">
@@ -126,7 +127,7 @@ export function LeaderboardPanel({
       </div>
 
       {progress.totalPlayed > 0 && progress.totalPlayed < ACCURACY_LEADERBOARD_MIN_GAMES && (
-        <div className="mt-3 text-xs text-center text-gray-500">
+        <div className="mt-3 text-xs text-center text-textMuted">
           Play {gamesRemaining} more game{gamesRemaining !== 1 ? 's' : ''} to join the accuracy leaderboard
         </div>
       )}
@@ -150,12 +151,12 @@ export function LeaderboardBadge({
   const label = type === 'streak' ? 'Streak' : 'Accuracy';
 
   return (
-    <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-blue-50 border border-blue-200 rounded-full text-sm">
+    <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-correct/10 border border-correct/30 rounded-full text-sm">
       <span>{icon}</span>
-      <span className="font-medium text-blue-800">
+      <span className="font-medium text-correct">
         {label}: {formatOrdinal(rank)}
       </span>
-      <span className="text-blue-500 text-xs">
+      <span className="text-textSecondary text-xs">
         ({formatRankPercentile(rank, total)})
       </span>
     </div>
@@ -178,22 +179,22 @@ export function AccuracyQualificationProgress({
   const remaining = ACCURACY_LEADERBOARD_MIN_GAMES - totalPlayed;
 
   return (
-    <div className="p-3 bg-gray-50 rounded-lg">
+    <div className="p-3 bg-detective-card border border-detective-border rounded-lg">
       <div className="flex justify-between items-center mb-2">
-        <span className="text-xs font-medium text-gray-600">
+        <span className="text-xs font-medium text-textSecondary">
           Accuracy Leaderboard
         </span>
-        <span className="text-xs text-gray-500">
+        <span className="text-xs text-textMuted">
           {totalPlayed}/{ACCURACY_LEADERBOARD_MIN_GAMES} games
         </span>
       </div>
-      <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
+      <div className="h-2 bg-detective-bg border border-detective-border rounded-full overflow-hidden">
         <div
-          className="h-full bg-blue-500 rounded-full transition-all duration-500"
+          className="h-full bg-correct rounded-full transition-all duration-500"
           style={{ width: `${progress}%` }}
         />
       </div>
-      <div className="text-xs text-gray-500 mt-1 text-center">
+      <div className="text-xs text-textMuted mt-1 text-center">
         {remaining} more game{remaining !== 1 ? 's' : ''} to qualify
       </div>
     </div>

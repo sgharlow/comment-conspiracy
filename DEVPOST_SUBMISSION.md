@@ -1,8 +1,32 @@
 # Comment Conspiracy - Devpost Submission
 
-> **Hackathon:** Reddit Games and Puzzles Hackathon
-> **Deadline:** February 12, 2026, 6:00 PM PST
-> **Status:** Ready to submit
+> **Hackathon:** Reddit Daily Games Hackathon 2026
+> **Deadline:** February 12, 2026 @ 6:00 PM PST
+> **Prize Pool:** $40,000 | Target: Best Daily Game ($15,000)
+> **Status:** READY TO SUBMIT
+> **Last Verified:** 2026-01-29
+
+---
+
+## Pre-Submission Checklist
+
+### Required Components (Per Devpost Rules)
+
+| Component | Status | Link/Note |
+|-----------|--------|-----------|
+| App Listing | READY | https://developers.reddit.com/apps/comment-conspire |
+| Demo Post | LIVE | https://reddit.com/r/CommentConspiracy |
+| GitHub Repo (PUBLIC) | VERIFIED | https://github.com/sgharlow/comment-conspiracy |
+| README.md | COMPLETE | In repo root |
+| Screenshots | READY | 5 images in `screenshots/` |
+
+### Technical Requirements
+
+- [x] Built on Devvit Web using approved framework (React)
+- [x] Compliant with Devvit Rules
+- [x] Launch-ready with polish and testing
+- [x] Strong daily mechanic with recurring content
+- [x] Community discussion driver
 
 ---
 
@@ -128,3 +152,41 @@ Visit https://reddit.com/r/CommentConspiracy and look for the latest "Comment Co
 - Large tap targets (44x44px minimum)
 - Responsive layout for all screen sizes
 - Share functionality with native sharing
+
+---
+
+## Judging Criteria Alignment
+
+| Criteria | How We Meet It | Evidence |
+|----------|----------------|----------|
+| **Delightful UX** | Clean UI, satisfying animations, clear feedback | Screenshots 1-5 |
+| **Polish** | v0.0.12 deployed, all features tested, 66 days content | Production live |
+| **Reddity** | Reddit comment culture, community stats, social sharing | User contributions feature |
+| **Recurring Content** | Daily puzzles at midnight UTC, streaks, leaderboards | 12+ days posted |
+
+---
+
+## Submission Steps
+
+1. Go to https://redditdailygames2026.devpost.com/
+2. Click "Enter a Submission" or "Submit Project"
+3. Fill in fields using information above
+4. Upload 5 screenshots from `screenshots/` folder
+5. (Optional) Add video URL
+6. Select prize categories: Daily Challenge, User Contributions, Mobile Game Play
+7. Review and submit
+8. Complete Developer Feedback Survey for $200 bonus prize chance
+
+---
+
+## Post-Submission Checklist
+
+- [ ] Verify submission appears in Devpost profile
+- [ ] Test all links from submission page
+- [ ] Complete Developer Feedback Survey
+- [ ] Monitor r/CommentConspiracy daily
+- [ ] Plan puzzle creation for post-March 25
+
+---
+
+*Last Verified: 2026-01-29 - Scheduler Day 12 confirmed, GitHub public verified*

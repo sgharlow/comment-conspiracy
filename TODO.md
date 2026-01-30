@@ -1,7 +1,7 @@
 # Comment Conspiracy - Complete Launch Checklist
 
-> **Last Updated**: 2026-01-26 (Full inventory completed)
-> **Hackathon Deadline**: February 12, 2026, 6:00 PM PST (17 days remaining)
+> **Last Updated**: 2026-01-29 (Dark theme UI redesign completed)
+> **Hackathon Deadline**: February 12, 2026, 6:00 PM PST (14 days remaining)
 > **Demo URL**: https://reddit.com/r/CommentConspiracy
 > **60-Day Target**: Support game through March 26, 2026
 
@@ -11,8 +11,8 @@
 
 | Category | Status | Details |
 |----------|--------|---------|
-| **Development** | 100% Complete | All 20 core tasks done |
-| **Deployment** | Live | v0.0.12 on r/CommentConspiracy |
+| **Development** | 100% Complete | All 20 core tasks done + dark theme UI |
+| **Deployment** | Live | v0.0.13 on r/CommentConspiracy |
 | **Puzzle Content** | 66 puzzles | Jan 19 - Mar 25, 2026 (59 days from today) |
 | **Infrastructure** | Ready | Devvit Redis + Scheduler configured |
 | **Devpost Submission** | PENDING | Form not yet submitted |
@@ -178,7 +178,7 @@ All commits have been pushed to `origin/main`.
 
 | Component | Status | Notes |
 |-----------|--------|-------|
-| Devvit App | ✅ DEPLOYED | v0.0.12 |
+| Devvit App | ✅ DEPLOYED | v0.0.13 (dark theme) |
 | Redis Storage | ✅ CONFIGURED | Devvit managed |
 | Scheduler | ✅ CONFIGURED | Job: `daily-puzzle-post`, Cron: `0 0 * * *` |
 | Subreddit | ✅ LIVE | r/CommentConspiracy (public) |
@@ -296,6 +296,23 @@ npm run lint         # ESLint check
 ---
 
 ## COMPLETED WORK LOG
+
+### Jan 29, 2026
+- [x] Complete dark "Detective" theme UI redesign
+- [x] Implemented custom Tailwind color palette (detective-bg, suspicious, correct, incorrect, ai)
+- [x] Redesigned WelcomeScreen: "COMMENT CONSPIRACY" title, "ONE OF THESE ISN'T HUMAN" tagline
+- [x] Redesigned GameScreen: "Case File #{dayNumber}" header, difficulty badges
+- [x] Redesigned CommentCard: "Suspect X" labels, Reddit-style metadata (upvotes, timestamps)
+- [x] Updated ConfirmModal: "FINAL ACCUSATION" theme
+- [x] Updated ResultBanner: "CASE CLOSED" / "CASE UNSOLVED" outcomes
+- [x] Updated AIExplanation: "Evidence Breakdown" header
+- [x] Updated StatsPanel: "Today's Case Stats", "Suspect Distribution"
+- [x] Updated CompletedScreen: "Case Closed for Today" header
+- [x] Updated Timer: "Next Case File In" label
+- [x] Updated Leaderboard: "Your Detective Rankings"
+- [x] Deployed v0.0.13 to Reddit
+- [x] All 497 tests passing
+- [x] Captured new screenshots with dark theme
 
 ### Jan 26, 2026
 - [x] Full project inventory completed

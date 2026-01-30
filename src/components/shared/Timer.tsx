@@ -1,6 +1,7 @@
 /**
  * Timer Component
  * Countdown timer to next puzzle (midnight UTC)
+ * Detective theme: styled for dark backgrounds
  */
 
 import React, { useState, useEffect } from 'react';
@@ -56,10 +57,10 @@ export function Timer({ className = '' }: TimerProps): React.ReactElement {
 
   return (
     <div className={`text-center ${className}`}>
-      <div className="text-sm text-gray-500 uppercase tracking-wide mb-1">
-        Next puzzle in
+      <div className="text-xs text-textSecondary uppercase tracking-wider mb-2">
+        🔍 Next Case File In
       </div>
-      <div className="text-3xl font-mono font-bold text-gray-900">
+      <div className="text-3xl font-mono font-bold text-textPrimary">
         {pad(timeLeft.hours)}:{pad(timeLeft.minutes)}:{pad(timeLeft.seconds)}
       </div>
     </div>

@@ -1,6 +1,7 @@
 /**
  * LoadingSpinner Component
  * Animated loading indicator for various loading states
+ * Detective theme: dark-friendly styling
  */
 
 import React from 'react';
@@ -36,7 +37,7 @@ export function LoadingSpinner({
     >
       <div className={`${sizeClasses[size]} animate-pulse`}>🔍</div>
       {message && (
-        <p className="mt-3 text-gray-600 text-center">{message}</p>
+        <p className="mt-3 text-textSecondary text-center">{message}</p>
       )}
       <span className="sr-only">Loading...</span>
     </div>
@@ -47,7 +48,7 @@ export function LoadingSpinner({
  * Full-page loading spinner
  */
 export function FullPageSpinner({
-  message = 'Loading puzzle...',
+  message = 'Loading case file...',
 }: {
   message?: string;
 }): React.ReactElement {

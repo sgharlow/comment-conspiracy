@@ -1,6 +1,7 @@
 /**
  * ErrorState Component
  * Displays error messages with retry option
+ * Detective theme: dark-friendly styling
  */
 
 import React from 'react';
@@ -33,12 +34,12 @@ export function getErrorMessage(error: string | Error | unknown): string {
     errorString.includes('puzzle') &&
     (errorString.includes('not found') || errorString.includes('No puzzle'))
   ) {
-    return "Today's puzzle isn't available yet. Check back soon!";
+    return "Today's case file isn't available yet. Check back soon!";
   }
 
   // Submit failures
   if (errorString.includes('submit') || errorString.includes('guess')) {
-    return "Couldn't record your guess. Please try again.";
+    return "Couldn't record your accusation. Please try again.";
   }
 
   // Generic fallback
@@ -46,7 +47,7 @@ export function getErrorMessage(error: string | Error | unknown): string {
 }
 
 export function ErrorState({
-  title = 'Oops!',
+  title = 'Investigation Failed',
   message,
   onRetry,
   retryLabel = 'Try Again',
@@ -57,13 +58,13 @@ export function ErrorState({
       className={`flex flex-col items-center justify-center p-6 text-center ${className}`}
       role="alert"
     >
-      <div className="text-4xl mb-4">😕</div>
-      <h2 className="text-lg font-semibold text-gray-900 mb-2">{title}</h2>
-      <p className="text-sm text-gray-600 mb-6 max-w-sm">{message}</p>
+      <div className="text-4xl mb-4">🚫</div>
+      <h2 className="text-lg font-semibold text-textPrimary mb-2">{title}</h2>
+      <p className="text-sm text-textSecondary mb-6 max-w-sm">{message}</p>
       {onRetry && (
         <button
           onClick={onRetry}
-          className="px-6 py-3 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-semibold rounded-xl transition-colors duration-200 touch-manipulation"
+          className="px-6 py-3 bg-reddit hover:bg-reddit/90 active:bg-reddit/80 text-white font-semibold rounded-xl transition-all duration-200 touch-manipulation"
         >
           {retryLabel}
         </button>
@@ -104,13 +105,13 @@ export function InlineError({
   onRetry?: () => void;
 }): React.ReactElement {
   return (
-    <div className="flex items-center gap-2 p-3 bg-red-50 border border-red-200 rounded-lg text-sm">
-      <span className="text-red-500">⚠️</span>
-      <span className="text-red-700 flex-1">{message}</span>
+    <div className="flex items-center gap-2 p-3 bg-incorrect/10 border border-incorrect/30 rounded-lg text-sm">
+      <span className="text-incorrect">⚠️</span>
+      <span className="text-incorrect flex-1">{message}</span>
       {onRetry && (
         <button
           onClick={onRetry}
-          className="text-red-600 hover:text-red-800 font-medium underline"
+          className="text-incorrect hover:text-incorrect/80 font-medium underline"
         >
           Retry
         </button>

@@ -1,5 +1,5 @@
 name: comment-conspire
-version: 0.0.12
+version: 0.0.13
 capabilities:
   - redis
   - scheduler

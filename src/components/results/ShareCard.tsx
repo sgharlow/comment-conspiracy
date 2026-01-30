@@ -1,6 +1,7 @@
 /**
  * ShareCard Component
  * Displays shareable result with copy/share functionality
+ * Detective theme: dark card with branded buttons
  */
 
 import React, { useState, useCallback } from 'react';
@@ -62,25 +63,25 @@ export function ShareCard({
   };
 
   return (
-    <div className="bg-gray-800 text-white rounded-xl p-4 sm:p-6">
+    <div className="bg-detective-bg border border-detective-border rounded-xl p-4 sm:p-6">
       {/* Preview of share text */}
-      <div className="font-mono text-sm sm:text-base whitespace-pre-line text-center mb-4 leading-relaxed">
+      <div className="font-mono text-sm sm:text-base whitespace-pre-line text-center mb-4 leading-relaxed text-textPrimary">
         {shareText}
       </div>
 
       {/* Action buttons */}
-      <div className="flex gap-2 justify-center">
+      <div className="flex gap-3 justify-center">
         <button
           onClick={handleCopy}
           disabled={copyState === 'copying'}
           className={`
-            flex-1 max-w-[140px] py-3 px-4 rounded-lg text-sm font-medium
-            transition-colors duration-200 touch-manipulation
+            flex-1 max-w-[140px] py-3 px-4 rounded-lg text-sm font-bold
+            transition-all duration-200 touch-manipulation border
             ${copyState === 'copied'
-              ? 'bg-green-600 text-white'
+              ? 'bg-correct/20 border-correct/40 text-correct'
               : copyState === 'error'
-              ? 'bg-red-600 text-white'
-              : 'bg-gray-700 hover:bg-gray-600 text-white'
+              ? 'bg-incorrect/20 border-incorrect/40 text-incorrect'
+              : 'bg-detective-card border-detective-border hover:bg-detective-cardHover text-textPrimary'
             }
           `}
         >
@@ -102,7 +103,7 @@ export function ShareCard({
         {canUseShare && (
           <button
             onClick={handleShare}
-            className="flex-1 max-w-[140px] py-3 px-4 bg-blue-600 hover:bg-blue-700 rounded-lg text-sm font-medium text-white transition-colors duration-200 touch-manipulation"
+            className="flex-1 max-w-[140px] py-3 px-4 bg-reddit hover:bg-reddit/90 rounded-lg text-sm font-bold text-white transition-all duration-200 touch-manipulation"
           >
             <span className="flex items-center justify-center gap-2">
               <span>🔗</span>

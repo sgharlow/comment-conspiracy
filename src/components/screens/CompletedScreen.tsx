@@ -1,6 +1,7 @@
 /**
  * CompletedScreen Component
  * Shown when user has already played today
+ * Detective theme: "Case Closed for Today"
  */
 
 import React from 'react';
@@ -33,27 +34,36 @@ export function CompletedScreen({
   return (
     <div className="flex flex-col h-full w-full max-w-2xl mx-auto px-4 py-6 overflow-y-auto">
       {/* Header Banner */}
-      <div className="text-center py-6 bg-gray-100 rounded-xl mb-6">
-        <div className="text-2xl mb-2">✓</div>
-        <h2 className="text-xl font-bold text-gray-900">YOU'VE PLAYED TODAY</h2>
+      <div className="text-center py-6 bg-detective-card border border-detective-border rounded-xl mb-6">
+        <div className="text-3xl mb-2">📋</div>
+        <h2 className="text-lg font-bold text-textPrimary uppercase tracking-wider">
+          Case Closed for Today
+        </h2>
+        <p className="text-textSecondary text-sm mt-1">
+          You've already submitted your accusation
+        </p>
       </div>
 
       {/* User's Result */}
-      <div className="bg-white border border-gray-200 rounded-xl p-4 mb-6">
-        <div className="flex items-center justify-between mb-2">
-          <span className="text-gray-600">Your answer:</span>
-          <span className="font-bold">
-            #{result.guessedIndex + 1}{' '}
+      <div className={`border rounded-xl p-4 mb-6 ${
+        result.wasCorrect
+          ? 'bg-correct/10 border-correct/30'
+          : 'bg-incorrect/10 border-incorrect/30'
+      }`}>
+        <div className="flex items-center justify-between mb-3">
+          <span className="text-textSecondary text-sm">Your verdict:</span>
+          <span className="font-bold text-textPrimary">
+            Suspect #{result.guessedIndex + 1}{' '}
             {result.wasCorrect ? (
-              <span className="text-green-600">(Correct ✓)</span>
+              <span className="text-correct">(Caught! ✓)</span>
             ) : (
-              <span className="text-red-600">(Incorrect ✗)</span>
+              <span className="text-incorrect">(Wrong ✗)</span>
             )}
           </span>
         </div>
         <div className="flex items-center justify-between">
-          <span className="text-gray-600">Streak:</span>
-          <span className="font-bold">
+          <span className="text-textSecondary text-sm">Detective streak:</span>
+          <span className="font-bold text-textPrimary">
             {result.newStreak > 0 && result.newStreak >= 3 && '🔥 '}
             {result.newStreak} {result.newStreak === 1 ? 'day' : 'days'}
           </span>
@@ -73,8 +83,8 @@ export function CompletedScreen({
 
       {/* Community Stats */}
       <div className="mb-6">
-        <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
-          Today's Community Stats
+        <h3 className="text-xs font-semibold text-textSecondary uppercase tracking-wider mb-3">
+          📊 Today's Case Stats
         </h3>
         <StatsPanel
           stats={result.stats}
@@ -85,8 +95,8 @@ export function CompletedScreen({
       </div>
 
       {/* Countdown Timer */}
-      <div className="bg-gray-900 text-white rounded-xl p-6 mb-6">
-        <Timer className="text-white" />
+      <div className="bg-detective-card border border-detective-border rounded-xl p-6 mb-6">
+        <Timer className="text-textPrimary" />
       </div>
 
       {/* Action Buttons */}
@@ -94,7 +104,7 @@ export function CompletedScreen({
         {onViewBreakdown && (
           <button
             onClick={onViewBreakdown}
-            className="w-full py-3 px-6 bg-gray-200 hover:bg-gray-300 text-gray-700 font-semibold rounded-xl transition-colors"
+            className="w-full py-3 px-6 bg-detective-card border border-detective-border hover:bg-detective-cardHover text-textPrimary font-semibold rounded-xl transition-all"
           >
             View Full Breakdown
           </button>
@@ -102,7 +112,7 @@ export function CompletedScreen({
         {onContribute && (
           <button
             onClick={onContribute}
-            className="w-full py-3 px-6 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl transition-colors flex items-center justify-center gap-2"
+            className="w-full py-3 px-6 bg-ai/20 border border-ai/40 hover:bg-ai/30 text-ai font-bold rounded-xl transition-all flex items-center justify-center gap-2"
           >
             <span>+</span>
             <span>Contribute AI Comments</span>
@@ -111,7 +121,7 @@ export function CompletedScreen({
         {onJoinDiscussion && (
           <button
             onClick={onJoinDiscussion}
-            className="w-full py-3 px-6 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-colors flex items-center justify-center gap-2"
+            className="w-full py-3 px-6 bg-reddit hover:bg-reddit/90 text-white font-bold rounded-xl transition-all flex items-center justify-center gap-2"
           >
             <span>💬</span>
             <span>Join Discussion</span>

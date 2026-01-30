@@ -1,6 +1,7 @@
 /**
  * ConfirmModal Component
  * Confirmation dialog before submitting a guess
+ * Detective theme: "Final Accusation" dramatic styling
  */
 
 import React, { useEffect, useRef } from 'react';
@@ -79,7 +80,7 @@ export function ConfirmModal({
     >
       {/* Backdrop */}
       <div
-        className="absolute inset-0 bg-black bg-opacity-50"
+        className="absolute inset-0 bg-black bg-opacity-80"
         onClick={onCancel}
         aria-hidden="true"
       />
@@ -87,45 +88,60 @@ export function ConfirmModal({
       {/* Modal */}
       <div
         ref={modalRef}
-        className="relative bg-white rounded-2xl shadow-2xl max-w-md w-full mx-4 p-6 animate-fade-in"
+        className="relative bg-detective-card border border-detective-border rounded-2xl shadow-2xl max-w-md w-full mx-4 p-6"
       >
+        {/* Warning Icon */}
+        <div className="text-center mb-4">
+          <span className="text-4xl">⚠️</span>
+        </div>
+
         {/* Title */}
         <h2
           id="confirm-modal-title"
-          className="text-xl font-bold text-gray-900 text-center mb-4"
+          className="text-xl font-bold text-suspicious text-center mb-2 uppercase tracking-wider"
         >
-          You selected Comment #{comment.displayIndex + 1}:
+          Final Accusation
         </h2>
 
+        <p className="text-center text-textSecondary text-sm mb-4">
+          You're accusing this suspect of being the AI imposter
+        </p>
+
         {/* Comment Preview */}
-        <div className="bg-gray-100 rounded-lg p-4 mb-6">
-          <div className="text-sm text-gray-500 mb-1">u/{comment.username}</div>
-          <div className="text-gray-800 italic">
+        <div className="bg-detective-bg border border-suspicious/30 rounded-lg p-4 mb-6">
+          <div className="flex items-center gap-2 text-sm text-textSecondary mb-2">
+            <span className="text-suspicious font-semibold">Suspect {comment.displayIndex + 1}</span>
+            <span>•</span>
+            <span className="text-reddit">u/{comment.username}</span>
+          </div>
+          <div className="text-textPrimary italic text-sm">
             "{truncateText(comment.text)}"
           </div>
         </div>
 
-        {/* Confirmation text */}
-        <p className="text-center text-gray-700 font-medium mb-6">
-          Is this your final answer?
-        </p>
+        {/* Warning text */}
+        <div className="bg-incorrect/10 border border-incorrect/30 rounded-lg px-4 py-2 mb-6">
+          <p className="text-center text-incorrect text-sm font-medium">
+            This cannot be undone
+          </p>
+        </div>
 
         {/* Buttons */}
         <div className="flex gap-3">
           <button
             onClick={onCancel}
             disabled={isSubmitting}
-            className="flex-1 py-4 px-6 bg-gray-200 hover:bg-gray-300 disabled:bg-gray-100 text-gray-700 font-semibold rounded-xl transition-colors duration-200"
+            className="flex-1 py-4 px-6 bg-detective-bg border border-detective-border hover:bg-detective-cardHover disabled:opacity-50 text-textPrimary font-semibold rounded-xl transition-all duration-200"
           >
-            Cancel
+            Back Off
           </button>
           <button
             ref={confirmButtonRef}
             onClick={onConfirm}
             disabled={isSubmitting}
-            className="flex-1 py-4 px-6 bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-bold rounded-xl transition-colors duration-200"
+            className="flex-1 py-4 px-6 bg-reddit hover:bg-reddit/90 disabled:bg-detective-border disabled:text-textMuted text-white font-bold rounded-xl transition-all duration-200"
           >
-            {isSubmitting ? 'Submitting...' : 'Confirm Guess'}
+            {isSubmitting ? 'Analyzing...' : '🎯 Confirm'}
           </button>
         </div>
       </div>
