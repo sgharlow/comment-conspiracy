@@ -4,7 +4,8 @@
 > **Deadline:** February 12, 2026 @ 6:00 PM PST
 > **Prize Pool:** $40,000 | Target: Best Daily Game ($15,000)
 > **Status:** READY TO SUBMIT
-> **Last Verified:** 2026-01-29
+> **Last Verified:** 2026-01-30
+> **App Version:** v0.0.14 (Dark Detective Theme)
 
 ---
 
@@ -160,7 +161,7 @@ Visit https://reddit.com/r/CommentConspiracy and look for the latest "Comment Co
 | Criteria | How We Meet It | Evidence |
 |----------|----------------|----------|
 | **Delightful UX** | Clean UI, satisfying animations, clear feedback | Screenshots 1-5 |
-| **Polish** | v0.0.12 deployed, all features tested, 66 days content | Production live |
+| **Polish** | v0.0.14 deployed, dark theme UI, 66 days content | Production live |
 | **Reddity** | Reddit comment culture, community stats, social sharing | User contributions feature |
 | **Recurring Content** | Daily puzzles at midnight UTC, streaks, leaderboards | 12+ days posted |
 
@@ -189,4 +190,4 @@ Visit https://reddit.com/r/CommentConspiracy and look for the latest "Comment Co
 
 ---
 
-*Last Verified: 2026-01-29 - Scheduler Day 12 confirmed, GitHub public verified*
+*Last Verified: 2026-01-30 - v0.0.14 deployed, dark theme active, GitHub public verified*
