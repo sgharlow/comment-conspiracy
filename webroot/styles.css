@@ -5,6 +5,86 @@
   box-sizing: border-box;
 }
 
+html, body {
+  background-color: #0f0f10;
+  color: #D7DADC;
+}
+
+/* ========================================
+   DETECTIVE THEME COLORS
+   Dark noir palette for Comment Conspiracy
+   ======================================== */
+
+/* Detective background colors */
+.bg-detective-bg { background-color: #0f0f10; }
+.bg-detective-card { background-color: #1a1a1b; }
+.bg-detective-cardHover { background-color: #222223; }
+.hover\:bg-detective-cardHover:hover { background-color: #222223; }
+
+/* Detective border colors */
+.border-detective-border { border-color: #343536; }
+
+/* Reddit orange */
+.bg-reddit { background-color: #FF4500; }
+.text-reddit { color: #FF4500; }
+.border-reddit { border-color: #FF4500; }
+.hover\:bg-reddit\/90:hover { background-color: rgba(255, 69, 0, 0.9); }
+.active\:bg-reddit\/80:active { background-color: rgba(255, 69, 0, 0.8); }
+
+/* Suspicious amber */
+.bg-suspicious { background-color: #FF6B35; }
+.text-suspicious { color: #FF6B35; }
+.border-suspicious { border-color: #FF6B35; }
+.bg-suspicious\/10 { background-color: rgba(255, 107, 53, 0.1); }
+.bg-suspicious\/20 { background-color: rgba(255, 107, 53, 0.2); }
+.border-suspicious\/20 { border-color: rgba(255, 107, 53, 0.2); }
+.border-suspicious\/30 { border-color: rgba(255, 107, 53, 0.3); }
+.shadow-suspicious { box-shadow: 0 0 20px rgba(255, 107, 53, 0.4); }
+
+/* Correct green */
+.bg-correct { background-color: #46D160; }
+.text-correct { color: #46D160; }
+.border-correct { border-color: #46D160; }
+.bg-correct\/10 { background-color: rgba(70, 209, 96, 0.1); }
+.bg-correct\/20 { background-color: rgba(70, 209, 96, 0.2); }
+.border-correct\/30 { border-color: rgba(70, 209, 96, 0.3); }
+.shadow-correct { box-shadow: 0 0 20px rgba(70, 209, 96, 0.4); }
+
+/* Incorrect red */
+.bg-incorrect { background-color: #FF4B4B; }
+.text-incorrect { color: #FF4B4B; }
+.border-incorrect { border-color: #FF4B4B; }
+.bg-incorrect\/10 { background-color: rgba(255, 75, 75, 0.1); }
+.bg-incorrect\/20 { background-color: rgba(255, 75, 75, 0.2); }
+.border-incorrect\/30 { border-color: rgba(255, 75, 75, 0.3); }
+
+/* AI purple */
+.bg-ai { background-color: #9333EA; }
+.text-ai { color: #9333EA; }
+.border-ai { border-color: #9333EA; }
+.bg-ai\/10 { background-color: rgba(147, 51, 234, 0.1); }
+.bg-ai\/20 { background-color: rgba(147, 51, 234, 0.2); }
+.border-ai\/30 { border-color: rgba(147, 51, 234, 0.3); }
+.shadow-ai { box-shadow: 0 0 20px rgba(147, 51, 234, 0.4); }
+
+/* Yellow for medium difficulty */
+.bg-yellow-500\/20 { background-color: rgba(234, 179, 8, 0.2); }
+.text-yellow-400 { color: #facc15; }
+.border-yellow-500\/30 { border-color: rgba(234, 179, 8, 0.3); }
+
+/* Dark theme text colors */
+.text-textPrimary { color: #D7DADC; }
+.text-textSecondary { color: #818384; }
+.text-textMuted { color: #6B6C6D; }
+.bg-textSecondary\/20 { background-color: rgba(129, 131, 132, 0.2); }
+.border-textSecondary\/30 { border-color: rgba(129, 131, 132, 0.3); }
+
+/* Disabled states for detective theme */
+.disabled\:bg-detective-border:disabled { background-color: #343536; }
+.disabled\:text-textMuted:disabled { color: #6B6C6D; }
+
+/* ======================================== */
+
 /* Flexbox */
 .flex { display: flex; }
 .flex-col { flex-direction: column; }
@@ -145,12 +225,15 @@
 
 /* Border radius */
 .rounded { border-radius: 0.25rem; }
+.rounded-lg { border-radius: 0.5rem; }
 .rounded-xl { border-radius: 0.75rem; }
 .rounded-full { border-radius: 9999px; }
 
 /* Shadows */
 .shadow-md { box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); }
 .shadow-lg { box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); }
+.shadow-xl { box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); }
+.hover\:shadow-xl:hover { box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); }
 
 /* Overflow */
 .overflow-hidden { overflow: hidden; }
@@ -175,6 +258,7 @@
 
 /* Cursor */
 .cursor-pointer { cursor: pointer; }
+.cursor-not-allowed { cursor: not-allowed; }
 
 /* Gradients */
 .bg-gradient-to-r { background-image: linear-gradient(to right, var(--tw-gradient-stops)); }
@@ -237,6 +321,55 @@
 /* Touch manipulation */
 .touch-manipulation { touch-action: manipulation; }
 
+/* Additional sizes */
+.text-6xl { font-size: 3.75rem; line-height: 1; }
+.text-\[10px\] { font-size: 10px; line-height: 1; }
+.w-10 { width: 2.5rem; }
+.h-10 { height: 2.5rem; }
+.min-h-\[100px\] { min-height: 100px; }
+.max-w-sm { max-width: 24rem; }
+.gap-1 { gap: 0.25rem; }
+.gap-4 { gap: 1rem; }
+.space-y-5 > * + * { margin-top: 1.25rem; }
+.py-0\.5 { padding-top: 0.125rem; padding-bottom: 0.125rem; }
+.py-1\.5 { padding-top: 0.375rem; padding-bottom: 0.375rem; }
+.py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.py-3 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+.mb-5 { margin-bottom: 1.25rem; }
+.mt-3 { margin-top: 0.75rem; }
+.right-3 { right: 0.75rem; }
+
+/* Text transforms & letter-spacing */
+.tracking-tight { letter-spacing: -0.025em; }
+.tracking-wider { letter-spacing: 0.05em; }
+.capitalize { text-transform: capitalize; }
+.inline-block { display: inline-block; }
+.inline-flex { display: inline-flex; }
+
+/* Opacity values */
+.opacity-40 { opacity: 0.4; }
+.opacity-60 { opacity: 0.6; }
+
+/* Active scale transforms */
+.active\:scale-\[0\.98\]:active { transform: scale(0.98); }
+.active\:scale-\[0\.99\]:active { transform: scale(0.99); }
+
+/* Additional border opacity variants */
+.border-suspicious\/40 { border-color: rgba(255, 107, 53, 0.4); }
+.border-correct\/40 { border-color: rgba(70, 209, 96, 0.4); }
+.border-incorrect\/40 { border-color: rgba(255, 75, 75, 0.4); }
+
+/* Hover border variants for detective theme */
+.hover\:border-textMuted:hover { border-color: #6B6C6D; }
+
+/* Group hover state */
+.group:hover .group-hover\:opacity-100 { opacity: 1; }
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 /* Responsive - sm: breakpoint */
 @media (min-width: 640px) {
   .sm\:px-4 { padding-left: 1rem; padding-right: 1rem; }
@@ -244,11 +377,14 @@
   .sm\:p-4 { padding: 1rem; }
   .sm\:p-6 { padding: 1.5rem; }
   .sm\:mb-4 { margin-bottom: 1rem; }
+  .sm\:mb-5 { margin-bottom: 1.25rem; }
   .sm\:mb-6 { margin-bottom: 1.5rem; }
   .sm\:space-y-4 > * + * { margin-top: 1rem; }
   .sm\:text-sm { font-size: 0.875rem; line-height: 1.25rem; }
   .sm\:text-base { font-size: 1rem; line-height: 1.5rem; }
   .sm\:text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+  .sm\:text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+  .sm\:text-2xl { font-size: 1.5rem; line-height: 2rem; }
   .sm\:w-24 { width: 6rem; }
 }
 

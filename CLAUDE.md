@@ -117,7 +117,7 @@ npm run lint         # ESLint check
 
 ## Current Status (Jan 26, 2026)
 
-- **r/CommentConspiracy**: Live, public, app installed (v0.0.12), game fully tested
+- **r/CommentConspiracy**: Live, public, app installed (v0.0.14), game fully tested
 - **r/comment_conspire_dev**: Available for testing (private)
 - **Puzzle inventory**: 66 days (through Mar 25)
 - **Code quality**: All checks passing

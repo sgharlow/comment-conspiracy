@@ -12,7 +12,7 @@
 | Category | Status | Details |
 |----------|--------|---------|
 | **Development** | 100% Complete | All 20 core tasks done + dark theme UI |
-| **Deployment** | Live | v0.0.13 on r/CommentConspiracy |
+| **Deployment** | Live | v0.0.14 on r/CommentConspiracy |
 | **Puzzle Content** | 66 puzzles | Jan 19 - Mar 25, 2026 (59 days from today) |
 | **Infrastructure** | Ready | Devvit Redis + Scheduler configured |
 | **Devpost Submission** | PENDING | Form not yet submitted |
@@ -178,7 +178,7 @@ All commits have been pushed to `origin/main`.
 
 | Component | Status | Notes |
 |-----------|--------|-------|
-| Devvit App | ✅ DEPLOYED | v0.0.13 (dark theme) |
+| Devvit App | ✅ DEPLOYED | v0.0.14 (dark theme CSS fix) |
 | Redis Storage | ✅ CONFIGURED | Devvit managed |
 | Scheduler | ✅ CONFIGURED | Job: `daily-puzzle-post`, Cron: `0 0 * * *` |
 | Subreddit | ✅ LIVE | r/CommentConspiracy (public) |
@@ -296,6 +296,17 @@ npm run lint         # ESLint check
 ---
 
 ## COMPLETED WORK LOG
+
+### Jan 30, 2026
+- [x] Fixed dark theme CSS not rendering (styles.css was missing detective theme colors)
+- [x] Added all detective theme colors to webroot/styles.css:
+  - Dark backgrounds: bg-detective-bg, bg-detective-card
+  - Text colors: text-textPrimary, text-textSecondary, text-textMuted
+  - Accent colors: suspicious, correct, incorrect, ai, reddit with opacity variants
+  - Additional utility classes for borders, shadows, transforms
+- [x] Deployed v0.0.14 to r/CommentConspiracy
+- [x] Verified dark theme now displays correctly in production
+- [x] Captured new dark theme screenshots (day10_dark_completed.png, day12_dark_completed.png)
 
 ### Jan 29, 2026
 - [x] Complete dark "Detective" theme UI redesign
