@@ -1,0 +1,461 @@
+{
+  "week": 16,
+  "startDate": "2026-04-30",
+  "puzzles": [
+    {
+      "id": "2026-04-30",
+      "dayNumber": 102,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "gardening",
+      "prompt": {
+        "text": "What's your biggest gardening failure?",
+        "source": "r/gardening"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "PlantKiller",
+          "text": "Bought 12 tomato plants. They all got blight within 2 weeks. Had to burn them. My neighbors grew amazing tomatoes. They gave me some out of pity. I ate them in shame.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "GardeningWisdom",
+          "text": "Gardening involves a learning curve, and setbacks are common even among experienced growers. Each failure provides valuable lessons that contribute to future success.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "OverwateredEverything",
+          "text": "killed a cactus. a CACTUS. the one plant designed to survive neglect. i loved it too much. watered it daily. it rotted from the inside. my therapist and i have discussed this",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SquirrelWars",
+          "text": "Grew beautiful sunflowers for 3 months. Woke up one morning and squirrels had eaten every single head overnight. Not one left. Just stems. I stood in my garden and screamed.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "HerbGraveyard",
+          "text": "Started an indoor herb garden. Basil, rosemary, mint, cilantro. All dead within 6 weeks. The window got 'plenty of light' according to me. It did not. My apartment smells like failure.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Involves a learning curve\" - generic gardening advice",
+          "\"Setbacks are common\" - normalization without story",
+          "\"Experienced growers\" - credibility reference",
+          "\"Valuable lessons\" and \"future success\" - motivational speak",
+          "No specific gardening failure shared"
+        ],
+        "humanTells": [
+          "#1: Specific count (12), specific disease (blight), neighbor pity",
+          "#3: Specific plant (cactus), irony emphasized, therapy mention",
+          "#4: Specific timeline (3 months), specific destroyer, emotional reaction",
+          "#5: Specific herbs listed, specific duration, apartment description"
+        ],
+        "difficulty_note": "Medium - AI gives gardening encouragement while humans share specific plant deaths"
+      },
+      "metadata": {
+        "createdAt": "2026-04-22T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-01",
+      "dayNumber": 103,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "life",
+      "prompt": {
+        "text": "What's the most awkward situation you've accidentally caused?",
+        "source": "r/tifu"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "AccidentalChaos",
+          "text": "Congratulated a coworker on her pregnancy. She was not pregnant. She was eating a burrito at the time. We still work together. It's been 4 years of avoiding eye contact.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "SocialMishaps",
+          "text": "Awkward social situations can happen to anyone and are a normal part of human interaction. These experiences, while uncomfortable, often become humorous stories over time.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "WrongFuneral_",
+          "text": "walked into the wrong funeral. sat down. realized it wasn't my aunt's service about 10 minutes in. couldn't figure out how to leave without making it worse. stayed for the whole thing",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "EmailDisaster",
+          "text": "Sent an email complaining about my boss. To my boss. By accident. He replied 'We should discuss this.' I considered faking my death. Still have that job somehow.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ParentMix",
+          "text": "Called my girlfriend's dad by my ex's dad's name. At dinner. Multiple times. Her dad corrected me. Twice. My girlfriend still brings it up 6 years later. At every holiday.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Can happen to anyone\" - generic reassurance",
+          "\"Normal part of human interaction\" - sociological framing",
+          "\"While uncomfortable\" - minimizing tone",
+          "\"Become humorous stories\" - positive spin",
+          "No specific awkward situation shared"
+        ],
+        "humanTells": [
+          "#1: Specific mistake, specific food detail, ongoing avoidance (4 years)",
+          "#3: Specific event, specific duration (10 min), stayed for whole thing",
+          "#4: Specific communication, boss's exact reply, dramatic consideration",
+          "#5: Specific name mix-up, corrections counted, ongoing family joke"
+        ],
+        "difficulty_note": "Hard - AI normalizes awkwardness while humans share specific cringe moments"
+      },
+      "metadata": {
+        "createdAt": "2026-04-22T10:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-02",
+      "dayNumber": 104,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "relationships",
+      "prompt": {
+        "text": "What's the worst first date you've ever been on?",
+        "source": "r/dating"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "DateNightmare",
+          "text": "He brought his mother. Not as a surprise appearance, she was there for the whole date. She ordered for him. She asked about my 'intentions.' I went to the bathroom and climbed out the window.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "DatingExperiences",
+          "text": "First dates can be unpredictable and sometimes disappointing. These experiences help us better understand what we're looking for in a partner and refine our expectations.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "MLMDate_",
+          "text": "halfway through dinner she started pitching me on her essential oils business. produced a catalog from her purse. asked if i wanted to 'join her team.' i was trapped for 90 more minutes",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "ExTalk",
+          "text": "He talked about his ex for 2 hours straight. I learned her entire life story. Her dog's name. Her mother's maiden name. Probably could have stolen her identity by the end.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "FoodPoisonDate",
+          "text": "We both got food poisoning from the restaurant. Spent the next 3 hours taking turns in his bathroom. Somehow we're married now. Our wedding toast included this story.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Can be unpredictable and sometimes disappointing\" - understated",
+          "\"Help us better understand\" - positive reframe",
+          "\"What we're looking for\" - self-improvement focus",
+          "\"Refine our expectations\" - therapy language",
+          "No specific bad date described"
+        ],
+        "humanTells": [
+          "#1: Specific person (mother), specific actions, bathroom escape",
+          "#3: Specific reveal (MLM), specific prop (catalog), duration trapped",
+          "#4: Specific duration (2 hours), escalating detail absurdity",
+          "#5: Specific disaster, specific outcome (married), wedding toast mention"
+        ],
+        "difficulty_note": "Expert - AI gives dating wisdom while humans share specific date disasters"
+      },
+      "metadata": {
+        "createdAt": "2026-04-22T11:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-03",
+      "dayNumber": 105,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "stories",
+      "prompt": {
+        "text": "What's the dumbest way you've ever injured yourself?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "InjuryExpert",
+          "text": "Broke my toe kicking a door in anger. The door was already open. I just... kicked the frame. Had to tell the doctor I 'tripped on something.' He didn't believe me.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "AccidentStories",
+          "text": "Physical injuries can occur in unexpected ways during daily activities. Taking safety precautions and remaining aware of our surroundings can help prevent many common accidents.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "AvocadoVictim_",
+          "text": "stabbed myself cutting an avocado. googled it. found out 'avocado hand' is so common ERs have a name for it. joined a very embarrassing club that day. still have the scar",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SneezingDanger",
+          "text": "Threw out my back sneezing. I was 29. Not lifting anything, not exercising, just sneezing. My body betrayed me. Couldn't walk for 3 days. Told people I hurt it at the gym.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "PetInjury",
+          "text": "My cat ran between my legs and I fell down the stairs avoiding her. Sprained ankle. Bruised ribs. She was fine and deeply uninterested in my suffering. Looked at me like I was dramatic.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Can occur in unexpected ways\" - vague",
+          "\"Taking safety precautions\" - safety PSA tone",
+          "\"Remaining aware of our surroundings\" - generic advice",
+          "\"Prevent many common accidents\" - preventive focus",
+          "Doesn't share any dumb injury"
+        ],
+        "humanTells": [
+          "#1: Specific injury, specific absurd detail (door open), doctor lie",
+          "#3: Specific food, specific medical term (avocado hand), scar",
+          "#4: Specific age, specific lie (gym), 3-day recovery",
+          "#5: Specific cause (cat), multiple injuries, cat's reaction"
+        ],
+        "difficulty_note": "Hard - AI gives safety tips while humans share embarrassing injuries"
+      },
+      "metadata": {
+        "createdAt": "2026-04-22T11:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-04",
+      "dayNumber": 106,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "tech",
+      "prompt": {
+        "text": "What password have you used for way too long?",
+        "source": "r/technology"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SecurityRisk",
+          "text": "My childhood pet's name followed by 123. For 18 years. Across 40+ accounts. Every security expert would weep. I finally changed them all last month. Took 6 hours.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PasswordSafety",
+          "text": "Password security is an important aspect of digital safety. Using unique, complex passwords for different accounts and updating them regularly helps protect personal information.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "LazyLogin_",
+          "text": "password1. literally just password1. for 12 years. my bank. my email. everything. i am aware this was stupid. i have since upgraded to a password manager like a functioning adult",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "BirthdayBrain",
+          "text": "My birthday backwards. Every hacker's first guess. Used it from age 13 to 32. Got hacked twice. Still used it after. Got hacked a third time. THEN I changed it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SportsPassword",
+          "text": "My favorite team name plus jersey number. LeBron changed teams and I still kept the old one. Loyalty to a password that made no sense anymore. This went on for 7 years.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Important aspect of digital safety\" - formal PSA",
+          "\"Unique, complex passwords\" - textbook advice",
+          "\"Updating them regularly\" - IT recommendation",
+          "\"Helps protect personal information\" - generic benefit",
+          "Doesn't share any old password"
+        ],
+        "humanTells": [
+          "#1: Specific pattern, specific duration (18 years), update time",
+          "#3: Exact password revealed, duration, self-aware redemption",
+          "#4: Specific pattern, age range, hack count, stubborn continuation",
+          "#5: Specific reference type, player team change, duration"
+        ],
+        "difficulty_note": "Easy - AI gives password safety tips while humans confess terrible passwords"
+      },
+      "metadata": {
+        "createdAt": "2026-04-22T12:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-05",
+      "dayNumber": 107,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "food",
+      "prompt": {
+        "text": "What's the laziest meal you've ever eaten?",
+        "source": "r/Cooking"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "NoEffortChef",
+          "text": "Shredded cheese straight from the bag over the sink at 2am. Didn't even grab a plate. Just stood there in the dark like a raccoon. No regrets.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "MealChoices",
+          "text": "Quick and simple meals can be practical solutions when time or energy is limited. The important thing is ensuring adequate nutrition regardless of preparation complexity.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "CerealDinner_",
+          "text": "cereal for dinner. not once. for an entire week. different cereals to keep it 'interesting.' fruit loops monday. frosted flakes tuesday. told myself variety counts as balanced",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "ColdFood",
+          "text": "Cold canned beans. With a fork. From the can. While standing in my kitchen wondering where my life went wrong. That was last Tuesday.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SleeveCrackers",
+          "text": "A sleeve of Ritz crackers dipped directly into the peanut butter jar. Watched an entire movie this way. Used the crackers as spoons. Called it dinner. Would do it again.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Quick and simple meals\" - reframing laziness as practicality",
+          "\"Practical solutions\" - neutral assessment",
+          "\"Time or energy is limited\" - justified excuse",
+          "\"Ensuring adequate nutrition\" - health concern",
+          "Doesn't describe any actual lazy meal"
+        ],
+        "humanTells": [
+          "#1: Specific food, specific location (sink), specific time, raccoon comparison",
+          "#3: Specific duration (week), specific cereals, self-deception",
+          "#4: Specific food, exact eating method, existential moment, specific date",
+          "#5: Specific combination, movie context, technique described"
+        ],
+        "difficulty_note": "Easy - AI discusses meal practicality while humans share shameful eating moments"
+      },
+      "metadata": {
+        "createdAt": "2026-04-22T12:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-06",
+      "dayNumber": 108,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "parenting",
+      "prompt": {
+        "text": "What's the funniest thing your kid has misunderstood?",
+        "source": "r/Parenting"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ParentLaughs",
+          "text": "My 4-year-old thought our dog was her brother because we called him 'part of the family.' She introduced him to her teacher as her brother. Conference was interesting.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ChildDevelopment",
+          "text": "Children's misunderstandings often stem from their developing cognitive abilities. These moments of confusion can be endearing and provide insight into how young minds process information.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "DadJokes_",
+          "text": "told my son we were having spaghetti for dinner. he asked where the ghetti was and why it was spa. spent 10 minutes trying to explain it's just one word. he didn't believe me",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "MomConfusion",
+          "text": "My daughter thought 'rush hour' meant everyone was in a hurry to go to the bathroom. She announced loudly in traffic 'everyone has to pee!' Had to explain actual meaning. She was disappointed.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "KidLogic",
+          "text": "Son asked why we drive on a parkway but park in a driveway. I had no answer. He's 6 and already asking questions I can't answer. I told him to go ask his mother.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Stem from their developing cognitive abilities\" - clinical explanation",
+          "\"Moments of confusion can be endearing\" - adult observation",
+          "\"Provide insight into how young minds process\" - developmental psychology",
+          "Analyzes why kids misunderstand rather than sharing an example",
+          "No specific misunderstanding mentioned"
+        ],
+        "humanTells": [
+          "#1: Specific age, specific misunderstanding, conference consequence",
+          "#3: Specific word breakdown, specific duration, child's skepticism",
+          "#4: Specific term, exact child quote, child's disappointment",
+          "#5: Specific paradox, age, parental deflection"
+        ],
+        "difficulty_note": "Medium - AI explains child cognition while parents share specific funny moments"
+      },
+      "metadata": {
+        "createdAt": "2026-04-22T13:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

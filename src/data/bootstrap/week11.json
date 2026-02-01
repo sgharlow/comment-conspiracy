@@ -1,0 +1,461 @@
+{
+  "week": 11,
+  "startDate": "2026-03-26",
+  "puzzles": [
+    {
+      "id": "2026-03-26",
+      "dayNumber": 67,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "diy",
+      "prompt": {
+        "text": "What's a DIY project that looked simple but turned into a nightmare?",
+        "source": "r/DIY"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WeekendWarrior_",
+          "text": "Replacing a toilet. YouTube said 30 minutes. 6 hours later I'm at Home Depot for the third time, there's water everywhere, and my wife is asking if we should just call a plumber.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "DIYDisaster",
+          "text": "DIY projects often require more time and expertise than initially anticipated. Proper planning and research can help mitigate unexpected challenges that may arise during the process.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "PaintingFail",
+          "text": "painting one accent wall. the tape bled, the color looked different than the sample, and now i have a room that looks like i let a toddler loose with a brush",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "TileNightmare",
+          "text": "Backsplash tiles. Watched 20 tutorials. Bought all the right tools. First tile cracked. Second tile was crooked. Third tile fell off the wall. The $200 project cost me $800 and a marriage counselor.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "IKEAVeteran",
+          "text": "IKEA furniture. The Hemnes dresser specifically. It's been 3 years and one of the drawers still doesn't close right. I refuse to disassemble it out of spite.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Require more time and expertise\" - formal analysis",
+          "\"Initially anticipated\" - stiff phrasing",
+          "\"Proper planning and research\" - advice column tone",
+          "\"Mitigate unexpected challenges\" - corporate speak",
+          "No specific project or personal disaster shared"
+        ],
+        "humanTells": [
+          "#1: Specific time contrast (30 min vs 6 hours), specific trips",
+          "#3: Specific failures listed, vivid imagery",
+          "#4: Exact dollar amounts, escalating disasters",
+          "#5: Specific product name, years-long grudge"
+        ],
+        "difficulty_note": "Medium - AI gives planning advice instead of sharing a disaster"
+      },
+      "metadata": {
+        "createdAt": "2026-03-20T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-27",
+      "dayNumber": 68,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "travel",
+      "prompt": {
+        "text": "What's the worst travel experience you've ever had?",
+        "source": "r/travel"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "NeverAgainAirlines",
+          "text": "48-hour delay in Chicago O'Hare. Slept on the floor using my backpack as a pillow. The $12 airport pizza was the only food I could afford. Spirit Airlines, never again.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "LostInTranslation_",
+          "text": "Got on the wrong train in Japan. Ended up 200km in the opposite direction. Didn't speak Japanese. Phone died. Some kind stranger helped me figure it out. Cost me an entire day of my trip.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "TravelWoes",
+          "text": "travel experiences can sometimes be challenging, but these situations often become memorable stories later. maintaining a positive attitude helps navigate unexpected difficulties during trips",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "FoodPoisoning101",
+          "text": "street food in Bangkok. thought I was being adventurous. spent the next 3 days in my hotel bathroom questioning every life choice. my husband had to slide crackers under the door",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "LuggageLoss",
+          "text": "Airline lost my luggage on a two-week European honeymoon. It showed up on day 13. Wore the same outfit to five countries. The wedding photos we took in Paris feature my airport clothes.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Sometimes be challenging\" - understated",
+          "\"Memorable stories later\" - positive spin on bad experiences",
+          "\"Maintaining a positive attitude\" - motivational poster language",
+          "Lowercase mimics casual but content is generic",
+          "Shares no actual travel disaster"
+        ],
+        "humanTells": [
+          "#1: Specific airport, price, airline named",
+          "#2: Specific distance, multiple problems, resolution",
+          "#4: Specific location, duration, physical details",
+          "#5: Specific timeline (day 13), lasting consequence (photos)"
+        ],
+        "difficulty_note": "Hard - AI offers positivity while humans share genuine suffering"
+      },
+      "metadata": {
+        "createdAt": "2026-03-20T10:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-28",
+      "dayNumber": 69,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "finance",
+      "prompt": {
+        "text": "What's the dumbest thing you've ever spent money on?",
+        "source": "r/personalfinance"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CryptoRegrets",
+          "text": "Put $5000 into a meme coin because Reddit said it was \"going to the moon.\" It went to zero. I told my wife it was a \"market fluctuation.\" I still haven't told her the truth.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "MidnightShopper",
+          "text": "A $300 juicer I used exactly twice. It's been sitting in my cabinet for 4 years judging me every time I buy orange juice from the store.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "FinancialWisdom",
+          "text": "making impulsive purchases is a common financial mistake that many people experience. developing better spending habits and creating a budget can help prevent regrettable buying decisions",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "GymMembership_",
+          "text": "paid for a gym membership for 3 years and went 4 times total. that's roughly $50 per visit. i could have hired a personal trainer to come to my house for that price",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "WeddingOverspend",
+          "text": "Spent $800 on a wedding ice sculpture. It melted before the reception even started because the venue AC broke. Nobody took a single photo of it. $800 for cold water.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Common financial mistake\" - third person perspective",
+          "\"Many people experience\" - distancing language",
+          "\"Developing better spending habits\" - advice instead of confession",
+          "\"Creating a budget\" - generic financial advice",
+          "Doesn't share any specific dumb purchase"
+        ],
+        "humanTells": [
+          "#1: Exact amount, specific outcome, ongoing secret",
+          "#2: Exact price, exact usage, personification (judging)",
+          "#4: Math breakdown, self-deprecating realization",
+          "#5: Exact amount, specific disaster, darkly funny summary"
+        ],
+        "difficulty_note": "Expert - AI gives financial counseling while humans confess their shame"
+      },
+      "metadata": {
+        "createdAt": "2026-03-20T11:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-29",
+      "dayNumber": 70,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "outdoor",
+      "prompt": {
+        "text": "What's your worst camping story?",
+        "source": "r/camping"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "NeverAgainCamping",
+          "text": "forgot the rain fly. woke up at 3am in a puddle. my sleeping bag absorbed approximately 47 gallons of water. we drove home at sunrise in complete silence",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "BearCountry",
+          "text": "Left food in the tent. At 2am something started scratching the tent. I've never been more still in my life. It was a raccoon. I still packed up and left at first light.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "OutdoorLife",
+          "text": "Camping experiences can sometimes present unexpected challenges that test our preparedness. Learning from these situations helps us become better outdoor enthusiasts over time.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "PoisonIvyVictim",
+          "text": "Went to the bathroom in what I thought was a safe bush. It was poison ivy. Every. Single. Leaf. I had to explain to my doctor where the rash was. He tried not to laugh.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "FirstTimeCamper",
+          "text": "Set up tent on a slight incline. Thought it wouldn't matter. Rolled into the tent wall every 20 minutes all night. By morning I was basically spooning the tent door.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Unexpected challenges that test our preparedness\" - formal",
+          "\"Learning from these situations\" - positive spin",
+          "\"Better outdoor enthusiasts\" - growth mindset language",
+          "Lowercase but content is generic wisdom",
+          "No actual camping disaster shared"
+        ],
+        "humanTells": [
+          "#1: Specific time, exaggerated but specific amount, consequence",
+          "#2: Specific time, specific animal, specific decision",
+          "#4: Specific plant, specific embarrassing situation",
+          "#5: Specific problem, specific frequency (20 min), vivid ending"
+        ],
+        "difficulty_note": "Hard - AI philosophizes about learning while humans share specific miseries"
+      },
+      "metadata": {
+        "createdAt": "2026-03-20T11:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-30",
+      "dayNumber": 71,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "pets",
+      "prompt": {
+        "text": "What's the most expensive thing your pet has destroyed?",
+        "source": "r/dogs"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "RIPCouch",
+          "text": "My golden retriever ate my leather couch. Not chewed. ATE. The vet bill was $400. The couch was $1200. He looked proud of himself.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PetOwnerLife",
+          "text": "Pets can sometimes cause damage to household items, which is a normal part of pet ownership. Training and providing appropriate toys can help reduce destructive behaviors in animals.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "CatastropheCat",
+          "text": "cat knocked a glass of red wine onto my macbook. $1400 repair. she made eye contact the entire time it was falling. she knew exactly what she was doing",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "ShoeGraveyard",
+          "text": "My puppy destroyed 14 pairs of shoes in her first year. Including my $300 running shoes the DAY I bought them. I now keep everything in closed closets like a bank vault.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "PassportEater",
+          "text": "Dog ate my passport two days before an international trip. Had to pay rush fees, miss my original flight, and rebook everything. Total cost: $900. He got canned food that night anyway.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Normal part of pet ownership\" - reassuring but generic",
+          "\"Training and providing appropriate toys\" - advice column",
+          "\"Reduce destructive behaviors\" - clinical language",
+          "Doesn't name any specific destroyed item",
+          "Gives pet care tips instead of sharing a story"
+        ],
+        "humanTells": [
+          "#1: Specific breed, specific costs, pet's attitude",
+          "#3: Specific damage, exact cost, eye contact detail",
+          "#4: Specific count (14 pairs), timing drama",
+          "#5: Specific consequence, specific timeline, ironic ending"
+        ],
+        "difficulty_note": "Easy - AI gives pet training advice while humans share costly disasters"
+      },
+      "metadata": {
+        "createdAt": "2026-03-20T12:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-03-31",
+      "dayNumber": 72,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "fitness",
+      "prompt": {
+        "text": "What's the most embarrassing thing that's happened to you at the gym?",
+        "source": "r/fitness"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "GymFail2024",
+          "text": "Tried to rerack the barbell on the squat rack and missed. The whole thing crashed down. Everyone looked. I packed my bag and didn't return for a month.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "TreadmillTragedy",
+          "text": "Fell off the treadmill. Not gracefully. I flew backwards and knocked over the guy's protein shake behind me. He was very nice about it. I was mortified for weeks.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "FitnessJourney",
+          "text": "Gym experiences can sometimes include embarrassing moments, but these are common and nothing to be ashamed of. Everyone starts somewhere and most gym-goers are focused on their own workouts.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "WrongMachine_",
+          "text": "used a machine completely wrong for 3 months before someone showed me. i was basically doing interpretive dance on it. they were too polite to say anything sooner",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MirrorCheck",
+          "text": "Was checking myself out in the mirror, walked directly into the Smith machine bar at chest height. Knocked the wind out of myself. The personal trainers all saw. They definitely laughed.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Can sometimes include embarrassing moments\" - understated",
+          "\"Common and nothing to be ashamed of\" - reassurance",
+          "\"Everyone starts somewhere\" - cliche encouragement",
+          "\"Most gym-goers are focused on their own workouts\" - generic comfort",
+          "Shares no specific embarrassing incident"
+        ],
+        "humanTells": [
+          "#1: Specific equipment, specific consequence (month off)",
+          "#2: Specific secondary victim, lingering embarrassment",
+          "#4: Specific duration (3 months), vivid description",
+          "#5: Specific machine, specific body part, witnesses identified"
+        ],
+        "difficulty_note": "Easy - AI reassures while humans share specific humiliations"
+      },
+      "metadata": {
+        "createdAt": "2026-03-20T12:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-01",
+      "dayNumber": 73,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "cars",
+      "prompt": {
+        "text": "What's the dumbest thing you've done with your car?",
+        "source": "r/cars"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "GasCapGenius",
+          "text": "Drove 30 miles with the gas cap hanging off the side. Multiple people honked and pointed. I waved and smiled thinking they were being friendly. Discovered it at home.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "WrongFuel_",
+          "text": "put diesel in a gas car. drove about 100 feet before it started making sounds no car should make. mechanic said it was the most expensive 100 feet of my life. $2400",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "CarCareAdvice",
+          "text": "Vehicle mistakes can happen to anyone and serve as valuable learning experiences. Regular maintenance and attention to your car's needs can help prevent common issues from occurring.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "ParkingFail",
+          "text": "Left my car in neutral instead of park on a slight incline. Watched from inside the store as it slowly rolled into a shopping cart corral. The cart guy was not amused.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "OilChangeWhat",
+          "text": "Didn't change my oil for 20,000 miles because I 'forgot.' Engine made a noise like a dying whale then just... stopped. That was my first car. I learned a $4000 lesson.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Can happen to anyone\" - generic reassurance",
+          "\"Valuable learning experiences\" - positive spin",
+          "\"Regular maintenance and attention\" - car care advice",
+          "\"Prevent common issues\" - sounds like a manual",
+          "Doesn't share any dumb car story"
+        ],
+        "humanTells": [
+          "#1: Specific distance, specific mistaken interpretation",
+          "#2: Specific distance, exact cost, mechanic quote",
+          "#4: Specific consequence, witness reaction",
+          "#5: Exact mileage, vivid sound description, lesson cost"
+        ],
+        "difficulty_note": "Medium - AI gives maintenance advice while humans confess car crimes"
+      },
+      "metadata": {
+        "createdAt": "2026-03-20T13:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

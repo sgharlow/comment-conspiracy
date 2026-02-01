@@ -20,8 +20,17 @@ import week07Data from '../data/bootstrap/week07.json';
 import week08Data from '../data/bootstrap/week08.json';
 import week09Data from '../data/bootstrap/week09.json';
 import week10Data from '../data/bootstrap/week10.json';
+import week11Data from '../data/bootstrap/week11.json';
+import week12Data from '../data/bootstrap/week12.json';
+import week13Data from '../data/bootstrap/week13.json';
+import week14Data from '../data/bootstrap/week14.json';
+import week15Data from '../data/bootstrap/week15.json';
+import week16Data from '../data/bootstrap/week16.json';
+import week17Data from '../data/bootstrap/week17.json';
+import week18Data from '../data/bootstrap/week18.json';
+import week19Data from '../data/bootstrap/week19.json';
 
-// All week data combined (66 puzzles total - 10 weeks covering Jan 19 - Mar 25, 2026)
+// All week data combined (126 puzzles total - 19 weeks covering Jan 19 - May 24, 2026)
 const allWeeksData = [
   week01Data,
   week02Data,
@@ -33,6 +42,15 @@ const allWeeksData = [
   week08Data,
   week09Data,
   week10Data,
+  week11Data,
+  week12Data,
+  week13Data,
+  week14Data,
+  week15Data,
+  week16Data,
+  week17Data,
+  week18Data,
+  week19Data,
 ] as PuzzleWeek[];
 
 /**

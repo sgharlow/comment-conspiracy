@@ -1,0 +1,461 @@
+{
+  "week": 14,
+  "startDate": "2026-04-16",
+  "puzzles": [
+    {
+      "id": "2026-04-16",
+      "dayNumber": 88,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "tabletop",
+      "prompt": {
+        "text": "What's your most memorable board game betrayal?",
+        "source": "r/boardgames"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "RiskRevenge",
+          "text": "My brother and I had a pact in Risk. We would never attack each other. He wiped out my entire army on turn 6 after I left Australia undefended. We didn't speak for a week. We were both adults.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "BoardGameNights",
+          "text": "Strategic board games often involve elements of competition and diplomacy. These moments of conflict can create memorable experiences and stories that players recall for years afterward.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "SettlersTraitor",
+          "text": "catan. my best friend blocked my only access to ore for 2 hours straight. she KNEW i needed ore. she looked me in the eyes and put down the road. ten years later i still bring it up",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "UnoDestroyer",
+          "text": "Played Uno with my 8-year-old nephew. He stacked 4 +4 cards on me. I drew 16 cards. He laughed. I questioned everything I thought I knew about that child.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MonopolyDivorce",
+          "text": "Monopoly with my wife. She traded me Baltic Avenue for Park Place because she 'didn't need it.' She had all four railroads. She bankrupted me in 20 minutes. Marriage counselor later said we should stop playing.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Elements of competition and diplomacy\" - analytical description",
+          "\"Memorable experiences and stories\" - vague positive outcome",
+          "\"Players recall for years\" - generic observation",
+          "Describes why betrayals happen rather than sharing one",
+          "No specific game or betrayal mentioned"
+        ],
+        "humanTells": [
+          "#1: Specific game, turn number, consequence (week of silence)",
+          "#3: Specific game, specific resource, duration (10 years grudge)",
+          "#4: Specific cards, exact count (16), nephew's age",
+          "#5: Specific properties, specific strategy, marriage counselor ending"
+        ],
+        "difficulty_note": "Medium - AI analyzes board game dynamics while humans share specific grudges"
+      },
+      "metadata": {
+        "createdAt": "2026-04-08T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-17",
+      "dayNumber": 89,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "life",
+      "prompt": {
+        "text": "What's a skill you thought everyone had until you found out they didn't?",
+        "source": "r/NoStupidQuestions"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "NormalToMe",
+          "text": "Wiggling my ears. Did it at a party once thinking everyone could. The room went silent. Apparently I'm a freak. My mom can do it too so I thought it was universal.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "SkillAssumption",
+          "text": "We often assume our own abilities are common until we encounter different perspectives. What seems natural to one person may be completely unfamiliar to others.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "InnerVoice_",
+          "text": "thinking in a voice. found out some people think in images or concepts with no internal monologue. my entire worldview shifted. how do you think without WORDS",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SpatialConfusion",
+          "text": "Reading maps without turning them. I can just look at a map and know which way to go. Apparently most people have to rotate the map to face the direction they're walking. Blew my mind.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "FingerCrack",
+          "text": "cracking my knuckles in sequence like a wave. did it in class once thinking it was a basic thing. my teacher was horrified. called it 'unsettling.' i still do it. constantly.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"We often assume\" - third person generalization",
+          "\"Different perspectives\" - vague",
+          "\"What seems natural\" - obvious observation",
+          "\"Unfamiliar to others\" - generic conclusion",
+          "No specific skill mentioned"
+        ],
+        "humanTells": [
+          "#1: Specific skill, party context, family genetics mentioned",
+          "#3: Specific cognitive difference, existential reaction",
+          "#4: Specific ability, specific contrast behavior",
+          "#5: Specific skill, teacher's reaction, ongoing behavior"
+        ],
+        "difficulty_note": "Hard - AI philosophizes while humans share specific shocking discoveries"
+      },
+      "metadata": {
+        "createdAt": "2026-04-08T10:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-18",
+      "dayNumber": 90,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "stories",
+      "prompt": {
+        "text": "What's the most absurd reason you've quit a job?",
+        "source": "r/antiwork"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "RetailEscape",
+          "text": "The manager made us sing the company jingle every morning as a group. I lasted 6 days. The jingle still haunts me. It's been 8 years and I can still sing it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "CareerDecisions",
+          "text": "Employment decisions can be influenced by many factors beyond compensation. Workplace culture and personal values play significant roles in job satisfaction and retention.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "ParkingRage_",
+          "text": "they gave my parking spot to someone with less seniority. i had been there 5 years. i handed in my resignation that afternoon. my wife thought i was insane. i regret nothing.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "FontCrimes",
+          "text": "The company's email font was Comic Sans. For everything. Client emails, contracts, official documents. I brought it up once and they said it was 'fun and approachable.' I left.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SnackBudget",
+          "text": "They removed the free coffee. After 3 years of free coffee, it was gone. I did the math - the coffee was worth about $30/month. I left for a job paying $50k less because they had free coffee.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Can be influenced by many factors\" - HR language",
+          "\"Beyond compensation\" - formal phrasing",
+          "\"Workplace culture and personal values\" - generic categories",
+          "\"Job satisfaction and retention\" - corporate terminology",
+          "Shares no absurd quitting story"
+        ],
+        "humanTells": [
+          "#1: Specific ritual, duration (6 days), lasting trauma",
+          "#3: Specific injustice, specific tenure, spouse reaction",
+          "#4: Specific issue (Comic Sans), direct quote, immediate action",
+          "#5: Specific benefit lost, math included, ironic outcome"
+        ],
+        "difficulty_note": "Expert - AI gives career advice while humans share petty resignation stories"
+      },
+      "metadata": {
+        "createdAt": "2026-04-08T11:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-19",
+      "dayNumber": 91,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "life",
+      "prompt": {
+        "text": "What's a life hack that actually made things worse?",
+        "source": "r/LifeProTips"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "HackFailed",
+          "text": "Put my phone in rice after dropping it in water. Rice got stuck in every port. The phone was fine until I did the rice thing. Cost $200 to clean it out.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "LifeHackAdvice",
+          "text": "Life hacks should be evaluated carefully before implementation. What works in one situation may not apply universally, and testing new methods in controlled ways can prevent unexpected issues.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "ToothpasteFail",
+          "text": "tried using toothpaste to clean my headlights like the internet said. now i have frosted headlights that look like someone sneezed on them. spent $300 replacing them.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "VinegarDisaster",
+          "text": "Cleaned my granite counters with vinegar because the internet said it was natural. Vinegar etches granite. I now have a permanent cloudy spot in the shape of my cleaning pattern.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "IceJamFix",
+          "text": "Heard you could unjam a garbage disposal with ice. Dumped in a bag of ice. It jammed harder. Plumber asked why there was a bag of ice in there. I lied and said I didn't know.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Should be evaluated carefully\" - cautious meta-advice",
+          "\"What works in one situation\" - generic disclaimer",
+          "\"Testing new methods\" - scientific language",
+          "\"Prevent unexpected issues\" - vague warning",
+          "Doesn't share any failed life hack"
+        ],
+        "humanTells": [
+          "#1: Specific issue, specific damage, specific cost ($200)",
+          "#3: Specific hack, vivid result description, cost ($300)",
+          "#4: Specific surfaces, permanent damage described",
+          "#5: Specific hack, plumber interaction, lie about it"
+        ],
+        "difficulty_note": "Hard - AI warns about life hacks while humans share specific disasters"
+      },
+      "metadata": {
+        "createdAt": "2026-04-08T11:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-20",
+      "dayNumber": 92,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "food",
+      "prompt": {
+        "text": "What's a food you were convinced you hated until you actually tried it?",
+        "source": "r/food"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SushiConvert",
+          "text": "Sushi. Was convinced raw fish was disgusting. Tried it at 28 because my date insisted. Now I spend $60 a week on sushi. My bank account hates my younger self for waiting.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "FoodDiscovery",
+          "text": "Expanding our culinary horizons can lead to delightful discoveries. Foods we initially dismiss may become favorites once we approach them with an open mind.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "OliveEnemy_",
+          "text": "olives. hated them for 32 years based on one bad pizza olive in 1997. tried a proper kalamata last year. i've been eating them straight from the jar like a goblin ever since",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "BlueCheeseFlip",
+          "text": "Blue cheese. It smelled like feet to me. Someone put it on a burger and didn't tell me. I took a bite and my brain malfunctioned. It's now my favorite cheese. Betrayed by deliciousness.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MushroomMiracle",
+          "text": "Mushrooms. Texture issues as a kid. Mom snuck them into risotto when I was 25. I asked what made it so good. She revealed her deception. I've been eating them for 10 years now.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Expanding our culinary horizons\" - food blog language",
+          "\"Delightful discoveries\" - generic positive outcome",
+          "\"Open mind\" - generic advice",
+          "No specific food mentioned",
+          "Talks about trying new foods in abstract"
+        ],
+        "humanTells": [
+          "#1: Specific age, specific weekly cost, regret",
+          "#3: Specific year (1997), specific type (kalamata), vivid eating description",
+          "#4: Specific comparison (feet), deception reveal, dramatic wording",
+          "#5: Specific dish, family deception, timeline"
+        ],
+        "difficulty_note": "Easy - AI gives food philosophy while humans share specific conversion stories"
+      },
+      "metadata": {
+        "createdAt": "2026-04-08T12:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-21",
+      "dayNumber": 93,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "pets",
+      "prompt": {
+        "text": "What's the weirdest thing your cat does?",
+        "source": "r/cats"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CatParent_",
+          "text": "Mine screams at 3am at nothing. Just stares at the corner and yells. Either she sees ghosts or she's practicing opera. I've accepted I'll never know.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "CatBehavior",
+          "text": "Cats exhibit many unique and entertaining behaviors that may seem strange to humans. These quirks are often normal feline expressions and contribute to their charm as pets.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "ToiletCat",
+          "text": "my cat follows me to the bathroom every single time and meows until i pet him. i can't use the bathroom without an audience. privacy is a myth in my house now",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "PlasticObsession",
+          "text": "She licks plastic bags. Any plastic bag. For hours if I let her. The crinkle sound makes her pupils dilate like she's on drugs. Vet says she's fine. I'm not convinced.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ChairThief",
+          "text": "Steals my chair the SECOND I stand up. Doesn't matter if I'm gone for 5 seconds. Turn around and she's there, judging me for wanting my seat back. I now own 3 chairs for one desk.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Unique and entertaining behaviors\" - generic praise",
+          "\"May seem strange to humans\" - explaining cat weirdness in general",
+          "\"Normal feline expressions\" - veterinary-sounding",
+          "\"Contribute to their charm\" - positive spin",
+          "No specific weird behavior shared"
+        ],
+        "humanTells": [
+          "#1: Specific time (3am), specific location, humor about theories",
+          "#3: Specific location, specific demand, relatable complaint",
+          "#4: Specific object, physical description, vet mention",
+          "#5: Specific behavior, timing (5 seconds), solution (3 chairs)"
+        ],
+        "difficulty_note": "Easy - AI describes cats being quirky while humans share specific weird behaviors"
+      },
+      "metadata": {
+        "createdAt": "2026-04-08T12:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-22",
+      "dayNumber": 94,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "photography",
+      "prompt": {
+        "text": "What's the worst photo mishap you've experienced?",
+        "source": "r/photography"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WeddingDisaster_",
+          "text": "Shot an entire wedding on the wrong settings. Every photo was blown out. Spent 48 hours in Lightroom saving what I could. The couple never knew. I aged 10 years that weekend.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PhotoMishaps",
+          "text": "Photography can involve technical challenges that lead to unexpected results. Learning from these experiences helps photographers develop better habits and prevent similar issues.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "MemoryCardPain",
+          "text": "corrupted memory card from a 2-week japan trip. 3000 photos gone. i sat on the floor and stared at the wall for an hour. now i back up daily like a paranoid squirrel",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "LensCapShame",
+          "text": "Filmed my daughter's entire dance recital with the lens cap on. She was the lead. I only realized when I went to show my parents. We don't talk about it. It's been 5 years.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "TripodFall",
+          "text": "Camera fell off tripod into a lake during sunrise shoot. Watched my $2000 body sink in slow motion. The sunrise was beautiful. I couldn't appreciate it. Still haven't replaced it.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Can involve technical challenges\" - understated",
+          "\"Unexpected results\" - vague",
+          "\"Learning from these experiences\" - growth mindset language",
+          "\"Prevent similar issues\" - generic advice",
+          "No specific mishap shared"
+        ],
+        "humanTells": [
+          "#1: Specific event (wedding), specific recovery time (48 hours)",
+          "#3: Specific trip, photo count, current paranoid habit",
+          "#4: Specific event, family context, duration of silence",
+          "#5: Specific equipment cost, visual description, emotional contrast"
+        ],
+        "difficulty_note": "Medium - AI gives photography wisdom while humans share specific disasters"
+      },
+      "metadata": {
+        "createdAt": "2026-04-08T13:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

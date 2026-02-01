@@ -19,6 +19,10 @@ Can you tell which comment was written by AI? Test your detection skills daily!
 - **Statistics** - See how your guesses compare to other players
 - **Share Results** - Share your streak without spoiling the answer
 
+## Demo Video
+
+Watch the gameplay demo: https://youtu.be/FEWEZMGPXPs
+
 ## Built For
 
 Reddit Games & Puzzles Hackathon 2026

@@ -1,0 +1,461 @@
+{
+  "week": 13,
+  "startDate": "2026-04-09",
+  "puzzles": [
+    {
+      "id": "2026-04-09",
+      "dayNumber": 81,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "life",
+      "prompt": {
+        "text": "What's an opinion you hold that you know is objectively wrong?",
+        "source": "r/unpopularopinion"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WrongButProud",
+          "text": "The Star Wars prequels are better than the originals. I know this is wrong. I know Jar Jar exists. I don't care. Obi-Wan's sass alone makes them superior to me.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "TasteDefender",
+          "text": "Pineapple on pizza is the best topping. I will die on this hill. Every Italian grandmother can come for me. The sweet and savory combination is perfection.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "OpinionExplorer",
+          "text": "Personal opinions are subjective and can vary widely among individuals. What one person considers objectively wrong may resonate deeply with someone else's perspective.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "HotTake_",
+          "text": "cold pizza is better than hot pizza. i know it's objectively meant to be eaten hot. but morning-after pizza from the fridge hits different and i refuse to microwave it",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MusicCriminal",
+          "text": "Nickelback isn't that bad. I said it. The memes have gone too far. Photograph is a decent song and I will play it in my car with the windows down. Judge me.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Personal opinions are subjective\" - obvious meta-statement",
+          "\"Vary widely among individuals\" - generic observation",
+          "\"Resonate deeply with someone else\" - vague philosophy",
+          "Refuses to share an actual wrong opinion",
+          "Explains the nature of opinions instead of having one"
+        ],
+        "humanTells": [
+          "#1: Specific movies, acknowledges weakness (Jar Jar), specific defense",
+          "#2: Specific food opinion, combative stance",
+          "#4: Specific scenario, specific habit (no microwave)",
+          "#5: Specific band, specific song, defiant behavior"
+        ],
+        "difficulty_note": "Medium - AI philosophizes about opinions while humans share actual hot takes"
+      },
+      "metadata": {
+        "createdAt": "2026-04-01T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-10",
+      "dayNumber": 82,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "stories",
+      "prompt": {
+        "text": "What's the most absurd thing you've cried over?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "EmotionalMess",
+          "text": "A commercial about dogs. Not a sad commercial. Just dogs being dogs. I was PMSing and one of them tilted its head and I just lost it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "TiredParent_",
+          "text": "My kid ate the last piece of cake. It was MY birthday cake. I had been saving that slice for 3 days. I cried in the pantry for 10 minutes. I'm 38.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "EmotionalExperience",
+          "text": "Crying can be triggered by many different situations, even ones that seem minor. Emotional responses are natural and healthy ways of processing our feelings and experiences.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "StressedStudent",
+          "text": "dropped my burrito on the ground during finals week. it was the one good thing happening that week. i sat on the sidewalk and sobbed. a stranger asked if i was okay. i was not.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SleepDeprivedDad",
+          "text": "The song from the end of Toy Story 3. I'm a 45-year-old man. My daughter had already left the room. I was alone. Weeping. Over animated toys. No regrets.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Can be triggered by many different situations\" - clinical explanation",
+          "\"Even ones that seem minor\" - dismissive of the prompt",
+          "\"Natural and healthy\" - reassurance instead of sharing",
+          "\"Processing our feelings\" - therapy language",
+          "Doesn't share any absurd crying moment"
+        ],
+        "humanTells": [
+          "#1: Specific trigger, self-aware context (PMSing)",
+          "#2: Specific situation, duration, age admission",
+          "#4: Finals week context, stranger interaction",
+          "#5: Specific movie, age, circumstance (alone), defiance"
+        ],
+        "difficulty_note": "Hard - AI gives emotional validation while humans share specific embarrassments"
+      },
+      "metadata": {
+        "createdAt": "2026-04-01T10:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-11",
+      "dayNumber": 83,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "relationships",
+      "prompt": {
+        "text": "What's something you pretend to like for someone else's sake?",
+        "source": "r/relationships"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "MarriageSecrets",
+          "text": "My husband's cooking. He tries so hard. The man cannot season to save his life. I've been saying 'mmm delicious' for 12 years. Love is a lie sometimes.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "RelationshipDynamics",
+          "text": "Sometimes maintaining harmony in relationships involves small compromises and showing appreciation. These gestures can strengthen bonds and demonstrate care for our loved ones.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "SportsWidow_",
+          "text": "football. my partner watches every single game. i pretend to care about first downs and touchdowns. i've been googling rules secretly for 5 years. i still don't fully get it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "FamilyDinner",
+          "text": "My mother-in-law's fruit cake. She makes one every Christmas. It tastes like cardboard soaked in regret. I eat two slices and smile. She thinks I love it. I cannot stop.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MusicTolerance",
+          "text": "My roommate's podcast. He hosts it and makes me listen. It's about obscure 1970s prog rock. I nod along every week. I don't know what a mellotron is and at this point I'm too afraid to ask.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Maintaining harmony\" - relationship counselor language",
+          "\"Small compromises and showing appreciation\" - generic advice",
+          "\"Strengthen bonds\" - relationship book phrasing",
+          "\"Demonstrate care\" - formal and distanced",
+          "Doesn't share any specific thing they pretend to like"
+        ],
+        "humanTells": [
+          "#1: Specific duration (12 years), brutal honesty about cooking",
+          "#3: Specific sport, secret Googling confession",
+          "#4: Specific food, specific timing (Christmas), visceral description",
+          "#5: Specific hobby, specific detail they don't understand"
+        ],
+        "difficulty_note": "Expert - AI gives relationship tips while humans share loving lies"
+      },
+      "metadata": {
+        "createdAt": "2026-04-01T11:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-12",
+      "dayNumber": 84,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "gaming",
+      "prompt": {
+        "text": "What's a video game you're embarrassed to admit you've never played?",
+        "source": "r/gaming"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "GamerShame",
+          "text": "Zelda. Any of them. I've been a gamer for 25 years and I've never touched a single Zelda game. I just nod when people talk about Ocarina of Time.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PCOnly_",
+          "text": "any mario game ever. i grew up without consoles and now i'm 34 and feel like it's too late. everyone has childhood memories with mario and i'm just standing there like an imposter",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "GamingCulture",
+          "text": "The gaming community has many beloved titles that are considered essential experiences. However, everyone's gaming journey is different and there's no obligation to play any specific game.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "RPGAvoider",
+          "text": "The Witcher 3. Everyone says it's the greatest game ever made. I own it. It's been in my Steam library for 6 years. Every time I try to start, I get overwhelmed and close it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ShooterSkip",
+          "text": "Half-Life. Either of them. I work in game development. People reference it constantly. I just laugh along like I understand. I've been faking it for a decade.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Beloved titles that are considered essential\" - formal categorization",
+          "\"Everyone's gaming journey is different\" - platitude",
+          "\"No obligation to play\" - reassurance instead of confession",
+          "Generic and validating rather than vulnerable",
+          "Doesn't admit to missing any specific game"
+        ],
+        "humanTells": [
+          "#1: Specific series, duration (25 years), social coping mechanism",
+          "#2: Entire series avoided, age, imposter feeling",
+          "#4: Specific game, ownership detail, repeated failure",
+          "#5: Professional relevance, duration of deception"
+        ],
+        "difficulty_note": "Hard - AI validates choices while humans share specific gaming shame"
+      },
+      "metadata": {
+        "createdAt": "2026-04-01T11:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-13",
+      "dayNumber": 85,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "life",
+      "prompt": {
+        "text": "What's your pettiest pet peeve?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "PettyPerson",
+          "text": "When people say 'I could care less.' IT'S COULDN'T. COULDN'T CARE LESS. If you could care less that means you still care. This has ruined relationships for me.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PersonalPreferences",
+          "text": "Everyone has small things that bother them more than they probably should. These minor annoyances are a normal part of daily life and help us understand our personal boundaries.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "VolumeRage_",
+          "text": "when people leave the TV volume on an odd number. why is it on 17??? just move it to 18 or 20. i will change it when you're not looking. i'm not sorry",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "ChewingHate",
+          "text": "Loud chewers. I know I shouldn't care this much. But the sound of someone smacking their food makes me want to leave the planet. I've excused myself from dinners.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "EmailOffender",
+          "text": "Reply-all when it's not necessary. You're thanking one person and you've just sent 47 of us a notification. I have folders dedicated to rage-sorting these emails.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Everyone has small things\" - generic observation",
+          "\"Normal part of daily life\" - normalizing without sharing",
+          "\"Personal boundaries\" - psychology speak",
+          "Explains pet peeves exist rather than sharing one",
+          "No specific annoyance mentioned"
+        ],
+        "humanTells": [
+          "#1: Specific phrase, capitalized rage, relationship impact",
+          "#3: Specific trigger (odd numbers), secret behavior",
+          "#4: Extreme reaction, specific consequence (leaving dinners)",
+          "#5: Specific email behavior, specific number (47), coping mechanism"
+        ],
+        "difficulty_note": "Easy - AI describes pet peeves generically while humans share specific rage triggers"
+      },
+      "metadata": {
+        "createdAt": "2026-04-01T12:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-14",
+      "dayNumber": 86,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "entertainment",
+      "prompt": {
+        "text": "What's a show everyone loves that you just couldn't get into?",
+        "source": "r/television"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "PopCultureOutcast",
+          "text": "Game of Thrones. I tried three times. Everyone at work would discuss it on Mondays and I'd just nod. I don't care about the Iron Throne. I never will.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "TVSkipper",
+          "text": "The Office. I know, I know. Everyone quotes it constantly. I watched 4 episodes and the cringe humor was too much. I had to stop for my own mental health.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "ViewingPreferences",
+          "text": "Television preferences are highly personal, and it's perfectly acceptable to have different tastes from the mainstream. Not every popular show will resonate with every viewer.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "BreakingBored",
+          "text": "breaking bad. heresy, i know. i watched the whole first season waiting for it to 'get good.' it didn't. i gave up. my friends still haven't forgiven me",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "FriendsSkip",
+          "text": "Friends. The laugh track makes me insane. Every joke is followed by cackling and I cannot focus on anything else. It's the laugh track. That's my whole problem.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Highly personal\" - generic observation",
+          "\"Perfectly acceptable\" - validating tone",
+          "\"Different tastes from the mainstream\" - distanced language",
+          "\"Not every popular show\" - obvious statement",
+          "Doesn't mention any specific show"
+        ],
+        "humanTells": [
+          "#1: Specific show, specific attempts (3), workplace context",
+          "#2: Specific episode count, specific issue (cringe)",
+          "#4: Specific show, full season watched, friend consequences",
+          "#5: Specific show, specific reason (laugh track)"
+        ],
+        "difficulty_note": "Easy - AI validates taste differences while humans name specific shows and reasons"
+      },
+      "metadata": {
+        "createdAt": "2026-04-01T12:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-15",
+      "dayNumber": 87,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "work",
+      "prompt": {
+        "text": "What's the most awkward work meeting you've been in?",
+        "source": "r/jobs"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "MeetingTrauma",
+          "text": "Boss announced layoffs and then immediately transitioned to 'fun Friday pizza party.' People were literally crying while eating pepperoni. HR did nothing.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ZoomDisaster",
+          "text": "coworker forgot to mute and we all heard her entire argument with her husband about whose turn it was to walk the dog. 8 minutes. nobody said anything. meeting continued after.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "WorkplaceObserver",
+          "text": "Work meetings can sometimes become uncomfortable due to unexpected situations or poor planning. Maintaining professionalism during these moments is important for preserving workplace relationships.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "NameForgetter_",
+          "text": "Called my boss by the wrong name in front of 30 people. Confidently. Multiple times. He didn't correct me. Someone told me after. I considered fleeing the country.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "PromotionGone",
+          "text": "Was in a meeting about my promotion. They told me I didn't get it. The person who did was also in the meeting. We had to sit there together for another hour discussing 'team goals.'",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Can sometimes become uncomfortable\" - understated",
+          "\"Unexpected situations or poor planning\" - vague causes",
+          "\"Maintaining professionalism\" - HR advice",
+          "\"Preserving workplace relationships\" - corporate speak",
+          "No specific awkward meeting described"
+        ],
+        "humanTells": [
+          "#1: Specific sequence (layoffs then pizza), visual detail",
+          "#2: Specific duration (8 minutes), content of argument",
+          "#4: Specific error, specific audience size, extreme reaction",
+          "#5: Specific context, specific duration (hour), ironic topic"
+        ],
+        "difficulty_note": "Medium - AI gives meeting tips while humans share excruciating specifics"
+      },
+      "metadata": {
+        "createdAt": "2026-04-01T13:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

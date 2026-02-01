@@ -1,0 +1,266 @@
+{
+  "week": 19,
+  "startDate": "2026-05-21",
+  "puzzles": [
+    {
+      "id": "2026-05-21",
+      "dayNumber": 123,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "running",
+      "prompt": {
+        "text": "What's the most ridiculous thing that's happened to you while running?",
+        "source": "r/running"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "TrailRunner_",
+          "text": "Got chased by a turkey for half a mile. A TURKEY. It was faster than me. I had to hide behind a tree until it lost interest. Told people I PR'd that day. Didn't mention why.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "RunningExperiences",
+          "text": "Running outdoors can lead to unexpected encounters and memorable experiences. These moments add variety and stories to share with the running community.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "RaceDay_Fail",
+          "text": "ran an entire 5k with my shorts on backwards. didn't realize until the finish line photo. bought the photo. framed it. it's in my bathroom as a reminder to check my clothes",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SprinklerVictim",
+          "text": "Ran through what I thought was a puddle. It was a sprinkler head. Got launched into the air like a cartoon. Landed on someone's lawn. They saw everything. They were laughing too hard to help.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "BirdAttack",
+          "text": "A red-winged blackbird nested along my running route. It attacked me every day for 3 weeks. I wore a helmet. The neighbors thought I was insane. Worth it. That bird was vicious.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Can lead to unexpected encounters\" - vague",
+          "\"Memorable experiences\" - generic positive",
+          "\"Add variety\" - surface-level observation",
+          "\"Stories to share\" - obvious conclusion",
+          "Doesn't share any specific running incident"
+        ],
+        "humanTells": [
+          "#1: Specific animal, distance, hiding, covered up as PR",
+          "#3: Specific wardrobe malfunction, race distance, bought photo",
+          "#4: Specific sequence of events, witness reaction",
+          "#5: Specific bird species, duration, helmet solution, neighbor judgment"
+        ],
+        "difficulty_note": "Medium - AI describes running adventures generally while humans share specific absurd moments"
+      },
+      "metadata": {
+        "createdAt": "2026-05-13T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-22",
+      "dayNumber": 124,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "life",
+      "prompt": {
+        "text": "What's the most awkward misunderstanding you've been part of?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "AwkwardMoment",
+          "text": "Waved back at someone for a solid 30 seconds before realizing they were waving at the person behind me. We made extended eye contact. Neither of us looked away. We just kept waving. I still see them at the grocery store.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "SocialSituations",
+          "text": "Misunderstandings are a natural part of human communication and can happen to anyone. These moments, while uncomfortable, are typically resolved with clarification and good humor.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "NameDisaster_",
+          "text": "called someone the wrong name for 6 months. they never corrected me. found out at their retirement party. from the cake. their name was on the cake. different name. we worked together daily. daily",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "WrongTable",
+          "text": "Sat down at a restaurant table and started eating someone else's appetizers. Thought my friend was in the bathroom. My friend was at a different restaurant. I was at the wrong restaurant. Took me 10 minutes to realize.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "PhonePickup",
+          "text": "Answered someone else's phone at a party thinking it was mine. Same case. Had a full conversation with their mom. She asked how work was going. I told her. Wasn't my mom. Wasn't my work. Took 3 minutes to figure out.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Natural part of human communication\" - generic observation",
+          "\"Can happen to anyone\" - normalizing",
+          "\"While uncomfortable\" - understated",
+          "\"Resolved with clarification\" - simplified outcome",
+          "Doesn't share any specific misunderstanding"
+        ],
+        "humanTells": [
+          "#1: Specific duration (30 seconds), extended behavior, ongoing grocery store encounters",
+          "#3: Specific duration (6 months), cake reveal, emphasis (daily repeated)",
+          "#4: Wrong restaurant entirely, specific error (appetizers eaten), realization time",
+          "#5: Same phone case, conversation with wrong mom, duration to realize"
+        ],
+        "difficulty_note": "Hard - AI discusses misunderstandings theoretically while humans share specific embarrassing ones"
+      },
+      "metadata": {
+        "createdAt": "2026-05-13T10:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-23",
+      "dayNumber": 125,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "tabletop",
+      "prompt": {
+        "text": "What's the most chaotic D&D or tabletop RPG session you've been part of?",
+        "source": "r/DnD"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "DungeonMaster_",
+          "text": "Player seduced the dragon instead of fighting it. Rolled a nat 20. I had to improv a dragon romance arc. Campaign derailed for 3 sessions. They're still together. It's been 2 years of in-game time.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "TabletopGaming",
+          "text": "Tabletop RPG sessions can become unpredictable when player creativity takes unexpected directions. These moments often become the most memorable stories that groups share for years afterward.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "NatOneChaos_",
+          "text": "our barbarian nat 1'd a simple door check. dm ruled he ran through the wall instead. into a room with the final boss. 10 sessions early. we tpk'd. started new characters. barbarian was not invited back",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SpellDisaster",
+          "text": "Cast fireball in a flour mill. Did not consider the dust explosion rules the DM had researched. Wiped out half a village. Our 'heroes' became wanted criminals. Spent the rest of the campaign in disguise.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "AccidentalGenocide",
+          "text": "Someone wished for 'no more goblins.' Genie interpreted this literally. Every goblin in the world ceased to exist. Including goblin kingdoms we didn't know about. We crashed the fantasy economy. DM needed a week off.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Can become unpredictable\" - obvious observation",
+          "\"Player creativity takes unexpected directions\" - vague",
+          "\"Most memorable stories\" - generic positive outcome",
+          "\"Groups share for years\" - surface-level appreciation",
+          "Doesn't describe any specific chaotic session"
+        ],
+        "humanTells": [
+          "#1: Specific event (dragon seduction), nat 20, ongoing consequences",
+          "#3: Specific roll, specific absurd outcome, group consequence (uninvited)",
+          "#4: Specific spell and location, unexpected rules, campaign consequence",
+          "#5: Specific wish wording, world-breaking interpretation, DM break"
+        ],
+        "difficulty_note": "Expert - AI appreciates tabletop unpredictability while players share specific campaign chaos"
+      },
+      "metadata": {
+        "createdAt": "2026-05-13T11:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-24",
+      "dayNumber": 126,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "life",
+      "prompt": {
+        "text": "What's a random skill you have that's completely useless but you're proud of?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "UselessTalent",
+          "text": "I can name every US president in order in under 30 seconds. Has never come up once in real life. But I'm READY if it does. I practice monthly. Just in case.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "UniqueAbilities",
+          "text": "Having unusual skills or talents can be a source of personal satisfaction and entertainment. These abilities, while perhaps impractical, contribute to what makes each person unique and interesting.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "ArmsChallenge_",
+          "text": "can solve a rubik's cube behind my back. learned it in 2009. still do it at parties. nobody is impressed anymore. my wife has asked me to stop. i will not stop. it's all i have",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "AnimalSounds",
+          "text": "Perfect dolphin impression. Sounds exactly like a dolphin. Got me absolutely nowhere in life. Except once I scared a toddler at an aquarium. His mother was not amused. I was.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "CardThrower",
+          "text": "I can throw playing cards with enough accuracy to stick them in fruit. Practiced for 2 years. Ruined a lot of watermelons. Can I list this on a resume? No. Do I tell everyone? Yes.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Source of personal satisfaction\" - generic positive",
+          "\"While perhaps impractical\" - hedging language",
+          "\"Contribute to what makes each person unique\" - motivational speak",
+          "\"Unique and interesting\" - generic affirmation",
+          "Doesn't share any specific useless skill"
+        ],
+        "humanTells": [
+          "#1: Specific skill, time challenge, practice schedule",
+          "#3: Specific skill, year learned, wife's plea ignored",
+          "#4: Specific impression, one application (scared toddler), mother's reaction",
+          "#5: Specific skill, practice duration, casualties (watermelons), resume question"
+        ],
+        "difficulty_note": "Hard - AI celebrates uniqueness while humans share specific useless but cherished skills"
+      },
+      "metadata": {
+        "createdAt": "2026-05-13T11:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

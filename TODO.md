@@ -44,7 +44,7 @@
 
 | # | Task | Status | Owner | Notes |
 |---|------|--------|-------|-------|
-| 9 | Create video demo (1-2 min) | OPTIONAL | Human | Improves Devpost submission |
+| 9 | Create video demo (1-2 min) | DONE | Human | https://youtu.be/FEWEZMGPXPs |
 | 10 | Test logged-out experience | OPTIONAL | Human | Incognito browser test |
 | 11 | Cross-browser testing | OPTIONAL | Human | Safari, Firefox, Edge |
 | 12 | Reddit mobile app testing | OPTIONAL | Human | iOS + Android |
@@ -287,7 +287,7 @@ npm run lint         # ESLint check
 6. ⬜ Plan puzzle creation for Apr-May
 
 ### Optional (Nice to Have)
-7. ⬜ Video demo
+7. ✅ Video demo (https://youtu.be/FEWEZMGPXPs)
 8. ⬜ Cross-browser testing
 9. ⬜ Reddit mobile app testing
 

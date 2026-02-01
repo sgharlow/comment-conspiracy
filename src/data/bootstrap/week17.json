@@ -1,0 +1,461 @@
+{
+  "week": 17,
+  "startDate": "2026-05-07",
+  "puzzles": [
+    {
+      "id": "2026-05-07",
+      "dayNumber": 109,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "finance",
+      "prompt": {
+        "text": "What's your most frugal habit that others find weird?",
+        "source": "r/frugal"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ExtremeSaver",
+          "text": "I cut my sponges in half. They work just as well. I've been doing this for 20 years. My wife thinks I'm insane but those are 20 years of half-sponge savings.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "FrugalLiving",
+          "text": "Adopting money-saving habits can lead to significant long-term financial benefits. Personal finance strategies that work for one individual may seem unusual to others with different priorities.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "ToothpasteSqueezer_",
+          "text": "i cut open tubes of toothpaste to get the last bit out. have a special pair of scissors for it. my roommate called it 'concerning.' there's like 3 more uses in there. that's free toothpaste",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "TeaBagReuser",
+          "text": "I use tea bags twice. Sometimes three times. My British coworker looked at me like I committed a war crime. But tea is expensive and the second cup is still tea.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "PlasticBagArchive",
+          "text": "I save every plastic bag from every store. Have a drawer full. My husband calls it 'the bag drawer of shame.' But when we need a bag, guess where we go.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Can lead to significant long-term financial benefits\" - finance advice",
+          "\"Personal finance strategies\" - formal categorization",
+          "\"May seem unusual to others\" - distanced observation",
+          "\"Different priorities\" - neutral framing",
+          "Shares no specific frugal habit"
+        ],
+        "humanTells": [
+          "#1: Specific item (sponges), duration (20 years), spouse reaction",
+          "#3: Specific tool (scissors), roommate quote, math (3 more uses)",
+          "#4: Specific reuse count, specific colleague reaction (war crime)",
+          "#5: Specific storage (drawer), husband's name for it, practical defense"
+        ],
+        "difficulty_note": "Medium - AI gives finance philosophy while humans share specific odd habits"
+      },
+      "metadata": {
+        "createdAt": "2026-04-29T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-08",
+      "dayNumber": 110,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "life",
+      "prompt": {
+        "text": "What's a minor inconvenience that makes you irrationally angry?",
+        "source": "r/mildlyinfuriating"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "RageQuiet",
+          "text": "When someone doesn't push in their chair. I will push in every unpushed chair in a room. It's not even my room. I don't know why I care. But I do. Deeply.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "MinorFrustrations",
+          "text": "Small annoyances can trigger disproportionate emotional responses in many people. Recognizing these reactions helps us manage our emotions and maintain perspective in daily life.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "StickersHater_",
+          "text": "when product stickers don't peel off cleanly. i will spend 20 minutes picking at residue with my fingernail. my wife has offered to buy me goo gone. i refuse. this is personal now",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "PencilSnapper",
+          "text": "Mechanical pencil lead breaking immediately after clicking it out. Every single time. I click. It breaks. I click. It breaks. I have thrown pencils. I am not proud.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "HeadphoneRage",
+          "text": "When my headphone cord catches on a door handle and rips them out of my ears. I become a different person. An angry person. A person who talks to door handles.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Can trigger disproportionate emotional responses\" - psychology explanation",
+          "\"In many people\" - third person distancing",
+          "\"Recognizing these reactions\" - self-help advice",
+          "\"Maintain perspective\" - coping language",
+          "Doesn't share any personal minor rage trigger"
+        ],
+        "humanTells": [
+          "#1: Specific action, obsessive fixing behavior, confusion about why",
+          "#3: Specific duration (20 minutes), spouse's solution offered, refused",
+          "#4: Specific cycle described, admitted violence (thrown)",
+          "#5: Specific scenario, personality change, talks to objects"
+        ],
+        "difficulty_note": "Hard - AI gives emotional regulation tips while humans share specific rage triggers"
+      },
+      "metadata": {
+        "createdAt": "2026-04-29T10:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-09",
+      "dayNumber": 111,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "life",
+      "prompt": {
+        "text": "What's your most embarrassing 'I'm turning into my parents' moment?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "DadMode",
+          "text": "Caught myself adjusting the thermostat and muttering about it. My kids weren't even home. I was alone, talking to myself about heating bills. My father's ghost is inside me.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "GenerationalPatterns",
+          "text": "Recognizing similarities between ourselves and our parents is a common experience as we age. These moments can be both amusing and insightful for personal reflection.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "MomEnergy_",
+          "text": "said 'we have food at home' to my own child and had to sit down. the sentence left my mouth and i realized my entire identity had shifted. my mom called that day. she knew somehow",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "ShoesIndoors",
+          "text": "Yelled at my nephew for wearing shoes inside. The words 'we don't wear shoes in the house!' came out in my mother's exact voice. I had an out of body experience.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "DadGrunts",
+          "text": "Made the dad noise getting up from the couch. You know the one. The 'hhhhnnngghh.' I'm 32. My back doesn't even hurt. It's purely psychological now. I've accepted my fate.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Recognizing similarities\" - distanced observation",
+          "\"Common experience as we age\" - normalizing",
+          "\"Amusing and insightful\" - surface-level analysis",
+          "\"Personal reflection\" - self-help language",
+          "Doesn't share any specific parent transformation moment"
+        ],
+        "humanTells": [
+          "#1: Specific action (thermostat), alone behavior, parent possession",
+          "#3: Exact phrase, physical reaction (sat down), mom's telepathy",
+          "#4: Exact quote, voice transformation, out-of-body description",
+          "#5: Phonetic sound, specific age, psychological analysis"
+        ],
+        "difficulty_note": "Expert - AI observes generational patterns while humans share vivid transformation moments"
+      },
+      "metadata": {
+        "createdAt": "2026-04-29T11:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-10",
+      "dayNumber": 112,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "work",
+      "prompt": {
+        "text": "What's the most ridiculous thing a boss has ever said to you?",
+        "source": "r/antiwork"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "RetailHell",
+          "text": "Was told to 'smile more' while I was getting yelled at by a customer. My boss wanted me to smile while being verbally abused. For $9/hour. I did not smile.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "WorkplaceCulture",
+          "text": "Workplace communication can sometimes include statements that seem unusual or inappropriate. Professional relationships benefit from clear expectations and mutual respect between all parties.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "StartupSufferer_",
+          "text": "ceo told us the company was 'a family' in the same meeting where he announced no raises for the third year. families don't do that, greg. families don't do that",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "PassionPay",
+          "text": "Was asked if I was 'truly passionate about insurance.' At 3am. During a server outage. The answer was no. The answer has always been no. Nobody is passionate about insurance.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "TimeOffDenied",
+          "text": "Requested time off for my wedding. Boss asked if I could 'do it on a weekend instead.' My wedding was on a Saturday. I had to explain how weddings work. To a married man.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Can sometimes include statements\" - vague and understated",
+          "\"Unusual or inappropriate\" - minimizing the absurdity",
+          "\"Professional relationships benefit\" - HR speak",
+          "\"Clear expectations and mutual respect\" - corporate solution",
+          "Shares no ridiculous boss quote"
+        ],
+        "humanTells": [
+          "#1: Specific situation, specific wage, defiant ending",
+          "#3: Direct quote, specific pattern (third year), named boss",
+          "#4: Exact question, specific time, repeated emphasis",
+          "#5: Specific request/response, irony (Saturday), boss's status (married)"
+        ],
+        "difficulty_note": "Hard - AI gives workplace advice while humans share specific absurd boss quotes"
+      },
+      "metadata": {
+        "createdAt": "2026-04-29T11:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-11",
+      "dayNumber": 113,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "pets",
+      "prompt": {
+        "text": "What's the dumbest thing your dog has ever done?",
+        "source": "r/dogs"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "DogOwnerLife",
+          "text": "Ran full speed into a glass door. Shook it off. Immediately ran into the same door again. He's been doing this for 4 years. We've tried stickers. He doesn't learn.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PetBehavior",
+          "text": "Dogs can exhibit behaviors that seem humorous or puzzling to their owners. These actions are often related to instinct or learning patterns that differ from human logic.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "LabOwner_",
+          "text": "ate an entire sock and then looked at me confused about where it went. $800 surgery. he learned nothing. tried to eat another sock a week later. we now have a sock drawer with a lock",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "BackyardDog",
+          "text": "Barks at his own reflection in the window. Every single day. He's 8 years old. That dog has been staring back at him his entire life. He still thinks it's an intruder.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "GoldenRetriever",
+          "text": "Got her head stuck in the fence trying to greet a squirrel. Had to call the fire department. They took pictures. It made the local news. She was very happy about all the attention.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Can exhibit behaviors that seem humorous\" - clinical observation",
+          "\"Puzzling to their owners\" - understated",
+          "\"Related to instinct or learning patterns\" - explanation rather than story",
+          "\"Differ from human logic\" - abstract comparison",
+          "No specific dumb dog action shared"
+        ],
+        "humanTells": [
+          "#1: Repeated specific action, duration (4 years), failed solution",
+          "#3: Specific item, specific cost, repeat offense, solution (lock)",
+          "#4: Specific behavior, dog's age, daily pattern",
+          "#5: Specific scenario, fire department, local news, dog's reaction"
+        ],
+        "difficulty_note": "Easy - AI explains dog behavior while humans share specific dumb moments"
+      },
+      "metadata": {
+        "createdAt": "2026-04-29T12:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-12",
+      "dayNumber": 114,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "gaming",
+      "prompt": {
+        "text": "What video game made you rage quit the hardest?",
+        "source": "r/gaming"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ControllerVictim",
+          "text": "Dark Souls. I threw my controller at the wall. It bounced back and hit me in the face. The game won twice that day. I didn't touch it for 6 months.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "GamingChallenges",
+          "text": "Challenging video games can evoke strong emotional responses from players. These experiences, while frustrating, often contribute to memorable gaming moments.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "CupheadCurse_",
+          "text": "cuphead. that game broke me. screamed so loud my neighbor came to check on me. i beat it eventually. took 4 months. lost 3 friends along the way. they stopped playing with me",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "GetringSekiro",
+          "text": "Sekiro boss took me 147 attempts. Counted every one. When I finally beat him I didn't feel joy, just empty. Stared at the screen for 5 minutes. Called my dad. He didn't understand but he listened.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MarioMaker",
+          "text": "Super Mario Maker 2 user levels. One person made a level called 'easy mode.' It was not easy mode. I uninstalled the game. Wrote a review. It just said 'why.'",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Can evoke strong emotional responses\" - clinical description",
+          "\"While frustrating\" - acknowledges but minimizes",
+          "\"Contribute to memorable gaming moments\" - positive spin",
+          "Generic observation about challenging games",
+          "No specific game or rage quit described"
+        ],
+        "humanTells": [
+          "#1: Specific game, physical incident, karma, break duration",
+          "#3: Specific game, neighbor intervention, time and friendships lost",
+          "#4: Exact attempt count, emotional aftermath, called dad",
+          "#5: Specific mode name irony, review content quoted"
+        ],
+        "difficulty_note": "Easy - AI describes gaming frustration while humans share specific rage stories"
+      },
+      "metadata": {
+        "createdAt": "2026-04-29T12:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-13",
+      "dayNumber": 115,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "health",
+      "prompt": {
+        "text": "What's the worst health advice you've ever followed?",
+        "source": "r/HealthyFood"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "DetoxDisaster",
+          "text": "Did a juice cleanse for 5 days. Lost 7 pounds. Gained 10 back in a week. Also fainted at work on day 3. My doctor said 'please never do that again.' I listen to doctors now.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "HealthAdvice",
+          "text": "Health advice should be evaluated carefully and preferably discussed with medical professionals. What works for one person may not be appropriate or safe for another.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "NoSleepGains_",
+          "text": "gym bro told me sleep was for the weak. i slept 4 hours a night for 3 months to work out more. my doctor asked if i was okay. i was not. gained zero muscle. lost my mind instead",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "AppleCiderScam",
+          "text": "Drank apple cider vinegar straight every morning because the internet said it 'detoxifies.' Burned my throat. Doctor confirmed I just gave myself acid reflux. My esophagus is not detoxified.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "IceBathRegrets",
+          "text": "Ice baths every morning for 'recovery.' I don't do sports. I work in accounting. Recovered from nothing except warmth. Did it for 2 months. My wife thought I'd lost my mind.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Should be evaluated carefully\" - cautious meta-advice",
+          "\"Discussed with medical professionals\" - responsible recommendation",
+          "\"What works for one person\" - generic disclaimer",
+          "\"May not be appropriate or safe\" - vague warning",
+          "Shares no specific bad advice followed"
+        ],
+        "humanTells": [
+          "#1: Specific duration and results, fainting incident, doctor quote",
+          "#3: Specific advice source, duration, specific loss (mind not muscle)",
+          "#4: Specific remedy, specific consequence, sarcastic ending",
+          "#5: Specific practice, ironic context (accounting), wife's assessment"
+        ],
+        "difficulty_note": "Medium - AI warns about health advice while humans share specific failures"
+      },
+      "metadata": {
+        "createdAt": "2026-04-29T13:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

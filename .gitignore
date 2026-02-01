@@ -6,3 +6,10 @@ STATUS_REPORT.md
 
 # Archived files
 archive/
+
+# Video files (hosted externally)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm

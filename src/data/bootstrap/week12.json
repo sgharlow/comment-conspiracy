@@ -1,0 +1,461 @@
+{
+  "week": 12,
+  "startDate": "2026-04-02",
+  "puzzles": [
+    {
+      "id": "2026-04-02",
+      "dayNumber": 74,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "education",
+      "prompt": {
+        "text": "What's the most useless thing you learned in school that you still remember?",
+        "source": "r/college"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "MitochondriaMeme",
+          "text": "The mitochondria is the powerhouse of the cell. Can't do my taxes, but I know that. It's been 20 years and that phrase is still burned into my brain.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "CursiveGang",
+          "text": "Cursive writing. Teachers swore we'd use it forever. I haven't written in cursive since 5th grade. My signature is just a scribble now and nobody cares.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "SchoolMemories",
+          "text": "Educational curricula often include content that may not seem immediately practical in adult life. However, these learning experiences contribute to cognitive development and critical thinking skills.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "HistoryNerd_",
+          "text": "the exact dates of every major Civil War battle. i can tell you Gettysburg was July 1-3, 1863 but i cannot for the life of me remember my own anniversary. priorities.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MathTrauma",
+          "text": "How to calculate the area under a curve. I'm an accountant. I use basic addition. Never once has someone asked me to integrate anything.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Educational curricula\" - formal academic language",
+          "\"May not seem immediately practical\" - hedging",
+          "\"Cognitive development and critical thinking\" - educational jargon",
+          "Defends the education system instead of sharing something useless",
+          "No specific useless fact mentioned"
+        ],
+        "humanTells": [
+          "#1: Iconic meme reference, specific timeframe (20 years)",
+          "#2: Specific grade, relatable signature complaint",
+          "#4: Specific dates, self-deprecating contrast",
+          "#5: Specific skill vs actual job, never-used reality"
+        ],
+        "difficulty_note": "Medium - AI defends education while humans mock it"
+      },
+      "metadata": {
+        "createdAt": "2026-03-25T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-03",
+      "dayNumber": 75,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "health",
+      "prompt": {
+        "text": "What's a health habit you know you should do but just... don't?",
+        "source": "r/HealthyFood"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FlossLater",
+          "text": "Flossing. My dentist asks every time. I lie every time. We both know. It's a ritual at this point. I'll floss the week before my appointment and call it good.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "WaterDrinker_",
+          "text": "Drinking enough water. I know it's important. I have three water bottles. I still end the day having had 2 coffees and a diet coke. Hydration is a myth to me.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "HealthyHabits",
+          "text": "Developing consistent health habits requires dedication and gradual implementation. Setting small, achievable goals can help establish routines that support long-term wellness and vitality.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "SunscreenSkipper",
+          "text": "sunscreen. i know skin cancer exists. i know i should wear it. do i? only at the beach. the other 360 days i'm just gambling with my face apparently",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SleepDeprived",
+          "text": "Going to bed at a reasonable hour. I stay up until 1am doing nothing important then complain about being tired. This has been happening for 15 years. I'm not changing.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Requires dedication and gradual implementation\" - self-help language",
+          "\"Setting small, achievable goals\" - generic advice",
+          "\"Long-term wellness and vitality\" - wellness blog speak",
+          "Gives health tips instead of confessing bad habits",
+          "No personal failure admitted"
+        ],
+        "humanTells": [
+          "#1: Dentist relationship dynamic, specific workaround",
+          "#2: Specific count (3 bottles), specific drinks instead",
+          "#4: Specific exception (beach), math (360 days)",
+          "#5: Specific time and duration, defiant ending"
+        ],
+        "difficulty_note": "Hard - AI gives wellness advice while humans confess their sins"
+      },
+      "metadata": {
+        "createdAt": "2026-03-25T10:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-04",
+      "dayNumber": 76,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "stories",
+      "prompt": {
+        "text": "What's the biggest lie you got away with?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "HighSchoolLiar",
+          "text": "Told my parents I was at a study group every Friday for an entire semester. I was at my girlfriend's house. They found out 10 years later at my wedding. They laughed. I almost died.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "SickDayFraud",
+          "text": "Called in sick to work for a week because I 'had COVID.' I went to Cancun. Posted zero photos. Told no one. My tan was suspicious but nobody asked.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "HonestyMatters",
+          "text": "while it may be tempting to share stories about deception, honesty is generally the best policy. building trust with others through truthful communication leads to stronger relationships over time",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "CollegeFraud_",
+          "text": "I pretended to know Spanish for two years at a job. Put it on my resume, bluffed the interview, then used Google Translate for every email. Never got caught. Left for unrelated reasons.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ChefPretender",
+          "text": "my signature dish that everyone loves? it's a frozen Trader Joe's thing I transfer to a fancy pan. 8 years. No one knows. My mother-in-law asked for the recipe. I panicked and said it was a family secret.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"While it may be tempting\" - moralizing tone",
+          "\"Honesty is generally the best policy\" - proverb instead of story",
+          "\"Building trust\" - relationship advice",
+          "Refuses to engage with the question",
+          "Lectures instead of confessing"
+        ],
+        "humanTells": [
+          "#1: Specific timeline (semester), specific reveal moment (wedding)",
+          "#2: Specific fake illness, specific destination, specific evidence (tan)",
+          "#4: Specific skill faked, specific duration, specific method",
+          "#5: Specific store, specific duration, specific cover story"
+        ],
+        "difficulty_note": "Expert - AI preaches honesty while humans share elaborate deceptions"
+      },
+      "metadata": {
+        "createdAt": "2026-03-25T11:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-05",
+      "dayNumber": 77,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "food",
+      "prompt": {
+        "text": "What food do you prepare in a way that would horrify a chef?",
+        "source": "r/Cooking"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "MicrowaveMaster",
+          "text": "I microwave my steak to reheat it. Yes, I know. I don't care. Gordon Ramsay would have me executed but it's MY leftover steak and I'll ruin it how I want.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PastaWater_",
+          "text": "i don't salt my pasta water. never have. italians would revoke my human card but the pasta tastes fine to me. my nonna is rolling in her grave probably",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "CulinaryChoices",
+          "text": "Home cooking techniques often differ from professional culinary standards. Personal preferences in food preparation are valid as long as the result is enjoyable to the individual.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "KetchupCriminal",
+          "text": "Ketchup on a well-done steak. I know it's a crime. I've been judged at restaurants. The waiter once physically winced. I've made peace with who I am.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "RiceCookerRebel",
+          "text": "I don't wash my rice. Ever. My Asian mother-in-law caught me once and didn't speak to me for three days. The rice is slightly stickier and I genuinely cannot tell the difference.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Home cooking techniques often differ\" - analytical observation",
+          "\"Professional culinary standards\" - formal comparison",
+          "\"Personal preferences are valid\" - validating but empty",
+          "\"Enjoyable to the individual\" - generic conclusion",
+          "No specific cooking crime admitted"
+        ],
+        "humanTells": [
+          "#1: Specific method, specific chef reference, defiant ownership",
+          "#2: Specific technique skipped, cultural reference, family guilt",
+          "#4: Double crime (ketchup + well-done), witnessed reactions",
+          "#5: Specific family member, specific consequence (3 days silence)"
+        ],
+        "difficulty_note": "Hard - AI validates cooking choices while humans confess culinary sins"
+      },
+      "metadata": {
+        "createdAt": "2026-03-25T11:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-06",
+      "dayNumber": 78,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "tech",
+      "prompt": {
+        "text": "What's a tech product you bought that was a complete waste of money?",
+        "source": "r/technology"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "VRDustCollector",
+          "text": "Oculus Quest. Used it for 2 weeks. It's been on my shelf for 3 years gathering dust. $400 for a very expensive paperweight.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "TechPurchases",
+          "text": "Technology purchases require careful consideration to ensure value for money. Researching products thoroughly before buying can help avoid disappointment and wasted expenditure.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "SmartHomeRegret",
+          "text": "smart fridge with a screen. paid $3000 for the ability to see inside my fridge from my phone. you know what else lets me see inside? opening the door. which is free.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "FitnessBand_",
+          "text": "Every fitness tracker I've ever owned. I have 4 in a drawer. Each one I convinced myself would 'finally motivate me.' They all just tracked how sedentary I am.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "TabletGraveyard",
+          "text": "iPad that I was sure I'd use for 'productivity.' It's been a $600 Netflix machine for 4 years. My laptop does everything it does but better. I just wanted to feel fancy.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Require careful consideration\" - consumer advice",
+          "\"Ensure value for money\" - financial guidance language",
+          "\"Researching products thoroughly\" - generic shopping tip",
+          "\"Avoid disappointment\" - vague benefit",
+          "Doesn't name any specific wasted purchase"
+        ],
+        "humanTells": [
+          "#1: Specific product, specific usage, specific cost",
+          "#3: Specific price, specific feature mocked, free alternative noted",
+          "#4: Specific count (4), pattern of behavior",
+          "#5: Specific price, actual use vs intended use, honest motivation"
+        ],
+        "difficulty_note": "Easy - AI gives shopping advice while humans share regrets"
+      },
+      "metadata": {
+        "createdAt": "2026-03-25T12:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-07",
+      "dayNumber": 79,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "creative",
+      "prompt": {
+        "text": "What's a creative hobby you tried and immediately gave up on?",
+        "source": "r/hobbies"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "PianoQuitter",
+          "text": "Piano. Bought a $500 keyboard. Learned the first 4 bars of Fur Elise. Got frustrated. It's now a very expensive shelf for my plants.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "CreativeJourney",
+          "text": "Exploring creative hobbies is a wonderful way to discover new interests and talents. While not every hobby will stick, the experience of trying something new is valuable in itself.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "KnittingFail",
+          "text": "knitting. bought $80 worth of yarn. watched 15 tutorials. produced a scarf that looks like a fishing net that got attacked. my grandmother was very kind about it",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "PotteryFlop",
+          "text": "Pottery after watching that one Ghost scene. Turns out it's really hard. Made one bowl that looks like a drunk turtle shell. Hands were clay-covered for a week. Never went back.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "WatercolorWoe",
+          "text": "Watercolor painting. YouTube made it look peaceful. My first attempt looked like a crime scene. My second attempt looked like a different crime scene. I donated my supplies.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Wonderful way to discover\" - positive spin",
+          "\"New interests and talents\" - generic growth language",
+          "\"Not every hobby will stick\" - platitude",
+          "\"Experience is valuable in itself\" - hollow consolation",
+          "No specific hobby mentioned"
+        ],
+        "humanTells": [
+          "#1: Specific cost, specific song, current use of equipment",
+          "#3: Specific cost, tutorial count, brutal self-description",
+          "#4: Pop culture reference, specific result description",
+          "#5: Repeated failure, escalating humor, specific ending"
+        ],
+        "difficulty_note": "Easy - AI celebrates exploration while humans share specific failures"
+      },
+      "metadata": {
+        "createdAt": "2026-03-25T12:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-08",
+      "dayNumber": 80,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "work",
+      "prompt": {
+        "text": "What's the worst advice you've received about your career?",
+        "source": "r/careerguidance"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "LoyaltyScam",
+          "text": "\"Stay loyal to your company and they'll take care of you.\" I stayed at one company for 8 years. Got laid off via email. The guy who job-hopped every 2 years makes double my salary now.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PassionProject",
+          "text": "\"Follow your passion and the money will follow.\" Followed my passion for art. Money did not follow. Rent was still due. Now I do graphic design for corporations. Passion: crushed.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "CareerWisdom",
+          "text": "Career advice should be evaluated carefully, as what works for one person may not apply to another's situation. Considering multiple perspectives can help in making informed professional decisions.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "DegreeDebt_",
+          "text": "\"you need a master's degree to advance.\" got one. $80k in debt. my coworker with no degree got promoted over me. we have the same job title. she makes more because she negotiated",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "NetworkingNightmare",
+          "text": "\"It's not what you know, it's who you know.\" So I went to every networking event for 2 years. Collected 500 business cards. Got zero jobs from it. Got my actual job from Indeed.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Should be evaluated carefully\" - cautious meta-advice",
+          "\"What works for one person\" - generic disclaimer",
+          "\"Multiple perspectives\" - neutral fence-sitting",
+          "\"Informed professional decisions\" - corporate speak",
+          "No specific bad advice shared"
+        ],
+        "humanTells": [
+          "#1: Specific duration (8 years), specific firing method, comparison",
+          "#2: Specific passion and pivot, emotional ending",
+          "#4: Specific debt amount, specific ironic outcome",
+          "#5: Specific effort (2 years, 500 cards), ironic actual result"
+        ],
+        "difficulty_note": "Medium - AI meta-comments on advice while humans share specific failures"
+      },
+      "metadata": {
+        "createdAt": "2026-03-25T13:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

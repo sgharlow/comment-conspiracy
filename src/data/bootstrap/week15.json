@@ -1,0 +1,461 @@
+{
+  "week": 15,
+  "startDate": "2026-04-23",
+  "puzzles": [
+    {
+      "id": "2026-04-23",
+      "dayNumber": 95,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "nostalgia",
+      "prompt": {
+        "text": "What's something from your childhood that kids today will never understand?",
+        "source": "r/nostalgia"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "DialUpKid",
+          "text": "The terror of accidentally clicking an ad and not knowing if you just gave your family a virus. Also explaining to mom why you needed the phone line for 3 hours.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "BlockbusterNights",
+          "text": "The friday night ritual of going to Blockbuster, hoping your movie was in stock, and the crushing disappointment when it wasn't. Now it's 'scroll Netflix for 45 minutes and pick nothing.'",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "ChildhoodMemories",
+          "text": "Childhood experiences differ across generations due to technological and cultural changes. What was normal for one generation may seem unfamiliar to another.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "TapeDeck_",
+          "text": "recording songs off the radio onto cassette tapes and trying to hit stop before the DJ talked. hours of effort for a mix tape that was 40% radio host voices",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "TVGuide",
+          "text": "Checking the TV Guide to see when your show was on because there was no streaming, no DVR, nothing. You either watched it live or you missed it. There was no 'I'll watch it later.'",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Differ across generations\" - sociological observation",
+          "\"Technological and cultural changes\" - academic language",
+          "\"What was normal for one generation\" - generic statement",
+          "\"May seem unfamiliar\" - obvious conclusion",
+          "Shares no specific childhood experience"
+        ],
+        "humanTells": [
+          "#1: Specific fear (virus), family phone line conflict",
+          "#2: Specific ritual, specific store, modern comparison",
+          "#4: Specific technique, specific frustration (DJ talking)",
+          "#5: Specific publication, specific limitation explained"
+        ],
+        "difficulty_note": "Medium - AI describes generational differences while humans share specific experiences"
+      },
+      "metadata": {
+        "createdAt": "2026-04-15T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-24",
+      "dayNumber": 96,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "life",
+      "prompt": {
+        "text": "What's the most expensive mistake you've ever made?",
+        "source": "r/personalfinance"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ParkingNightmare",
+          "text": "Let my parking tickets pile up because I 'would deal with it later.' $127 in tickets became $4,200 after fees, boots, and towing. I was 22 and stupid. Lesson very much learned.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "FinancialLessons",
+          "text": "Financial mistakes, while painful, often provide valuable learning opportunities. Taking responsibility and developing better habits can prevent similar costly errors in the future.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "DIYPlumbing_",
+          "text": "thought i could fix a leaky pipe myself. flooded the basement. $18,000 in water damage. plumber would have cost $200. i now call professionals for everything. including changing lightbulbs",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "WarrantyIgnored",
+          "text": "Didn't register the extended warranty on my laptop. Motherboard died 13 months later. $900 repair. The warranty was $150. I kept the receipt on my fridge as a reminder for 3 years.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "TaxProcrastinator",
+          "text": "Filed taxes late for 4 years because I was 'too busy.' $12,000 in penalties and interest. The IRS does not care that you were busy. They have very patient accountants.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"While painful, often provide valuable learning\" - silver lining approach",
+          "\"Taking responsibility\" - generic advice",
+          "\"Developing better habits\" - self-improvement speak",
+          "\"Prevent similar costly errors\" - vague conclusion",
+          "No specific mistake or cost mentioned"
+        ],
+        "humanTells": [
+          "#1: Exact amounts ($127 to $4,200), specific age",
+          "#3: Exact damage cost vs. professional cost, exaggerated lesson",
+          "#4: Specific timing (13 months), warranty vs. repair cost, fridge reminder",
+          "#5: Specific duration (4 years), exact penalty amount"
+        ],
+        "difficulty_note": "Hard - AI gives financial wisdom while humans share specific costly errors"
+      },
+      "metadata": {
+        "createdAt": "2026-04-15T10:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-25",
+      "dayNumber": 97,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "stories",
+      "prompt": {
+        "text": "What's your 'I shouldn't have survived that' story?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "LuckyToBeHere",
+          "text": "Fell asleep at the wheel on the highway. Woke up in the grass median somehow still moving. Car was fine. I was fine. Pulled over and shook for 20 minutes. Never drive tired now.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "SurvivalStories",
+          "text": "Near-miss experiences can profoundly impact our perspective on life and safety. These moments often lead to greater appreciation for life and more cautious behavior.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "TreeBranch_",
+          "text": "a massive tree branch fell exactly where i was standing about 3 seconds after i randomly decided to move. would have been directly on my head. i think about it weekly",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "RiptideEscape",
+          "text": "Got caught in a riptide at 16. Fought it for what felt like forever. A random surfer paddled over and pulled me to shore. Never got his name. Still can't swim in the ocean without anxiety.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "GasLeakSurvivor",
+          "text": "Woke up at 4am feeling sick in my apartment. Opened a window because I needed air. Turns out it was a gas leak and opening that window probably saved me. My cat was fine too, thankfully.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Profoundly impact our perspective\" - philosophical observation",
+          "\"Greater appreciation for life\" - generic positive outcome",
+          "\"More cautious behavior\" - vague lesson learned",
+          "Analyzes what near-death does to people rather than sharing one",
+          "No actual survival story"
+        ],
+        "humanTells": [
+          "#1: Specific location (highway), physical reaction (shook 20 min)",
+          "#3: Specific timing (3 seconds), ongoing impact (weekly thoughts)",
+          "#4: Specific age, anonymous savior, lasting anxiety",
+          "#5: Specific time (4am), specific instinct, pet mentioned"
+        ],
+        "difficulty_note": "Expert - AI philosophizes about survival while humans share specific close calls"
+      },
+      "metadata": {
+        "createdAt": "2026-04-15T11:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-26",
+      "dayNumber": 98,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "work",
+      "prompt": {
+        "text": "What's the worst thing you've witnessed at a company holiday party?",
+        "source": "r/jobs"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "PartyWitness",
+          "text": "CFO got drunk and announced the layoffs that weren't supposed to be announced until January. At the Christmas party. While holding a champagne flute. HR had to physically escort him out.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "WorkplaceDynamics",
+          "text": "Company social events can sometimes lead to unexpected situations when professional boundaries become relaxed. Maintaining appropriate behavior at work functions is important for career preservation.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "KaraokeDisaster",
+          "text": "my boss and his boss had a fistfight over karaoke song selection. one wanted journey, one wanted bon jovi. security was called. both still work there. no one has mentioned it since",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "OpenBarRegret",
+          "text": "Watched a senior engineer propose to his girlfriend. She said no. In front of 200 coworkers. He came to work Monday and pretended nothing happened. We all pretended too.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "DanceFloorDrama",
+          "text": "Two married coworkers (not to each other) were caught making out in the coat closet. By the CEO. Who was looking for his coat. The following Monday all-hands meeting was very awkward.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Can sometimes lead to unexpected situations\" - understated",
+          "\"Professional boundaries become relaxed\" - clinical description",
+          "\"Maintaining appropriate behavior\" - HR warning",
+          "\"Career preservation\" - formal concern",
+          "Gives advice instead of sharing a story"
+        ],
+        "humanTells": [
+          "#1: Specific role (CFO), specific timing, physical detail (champagne flute)",
+          "#3: Specific conflict (karaoke songs), specific bands, ongoing silence",
+          "#4: Specific role, specific number (200), collective denial",
+          "#5: Specific discovery (CEO), specific location, aftermath"
+        ],
+        "difficulty_note": "Hard - AI warns about party behavior while humans share specific scandals"
+      },
+      "metadata": {
+        "createdAt": "2026-04-15T11:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-27",
+      "dayNumber": 99,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "life",
+      "prompt": {
+        "text": "What's something you do that you thought was normal until someone pointed it out?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WeirdHabit",
+          "text": "I eat the stickers on apples. My wife watched me do it once and screamed. Apparently you're supposed to remove them. I've been doing this for 30 years.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "BehaviorAwareness",
+          "text": "Personal habits developed over time can seem completely normal to us while appearing unusual to others. These differences are a natural result of individual upbringing and experiences.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "ShowerOrder_",
+          "text": "i wash my legs in the shower. apparently some people think the soap running down counts?? my roommate called me insane for specifically washing my legs. WHO RAISED THESE PEOPLE",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SockSleeper",
+          "text": "Sleeping with socks on. My girlfriend acted like I was a serial killer when she found out. I run cold. My feet need warmth. This is apparently a deeply controversial stance.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "CerealAfter",
+          "text": "Putting milk in the bowl before cereal. My entire family does it this way. Apparently this makes us monsters. We think it prevents soggy cereal. We will not be changing.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Can seem completely normal to us\" - generic observation",
+          "\"Appearing unusual to others\" - obvious statement",
+          "\"Natural result of individual upbringing\" - sociological language",
+          "\"Individual upbringing and experiences\" - vague explanation",
+          "Shares no specific quirk"
+        ],
+        "humanTells": [
+          "#1: Specific quirk, spouse reaction (screamed), duration (30 years)",
+          "#3: Specific debate, roommate judgment, all-caps outrage",
+          "#4: Specific quirk, girlfriend reaction, defense offered",
+          "#5: Specific order (milk first), family-wide practice, defiant ending"
+        ],
+        "difficulty_note": "Easy - AI explains quirk psychology while humans share specific weird habits"
+      },
+      "metadata": {
+        "createdAt": "2026-04-15T12:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-28",
+      "dayNumber": 100,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "entertainment",
+      "prompt": {
+        "text": "What movie have you watched an embarrassing number of times?",
+        "source": "r/movies"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "MovieAddict",
+          "text": "The Lord of the Rings extended editions. All three. Back to back. At least once a year. That's 12 hours. My wife plans around it now like a holiday.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "FilmAppreciation",
+          "text": "Rewatching beloved films can provide comfort and nostalgia. These repeated viewings often reveal new details and deepen our appreciation for the storytelling and craft involved.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "DisneyAdult_",
+          "text": "moana. i'm 35 with no kids. i have watched it probably 80 times. i sing along. loudly. lin-manuel miranda did something to my brain and i cannot escape",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "ComfortMovie",
+          "text": "The Princess Bride. I can quote the entire thing. My family knows every line too because I've made them watch it at every Thanksgiving for 20 years. They're tired. I'm not.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ActionJunkie",
+          "text": "Die Hard. It's my Christmas tradition. I've seen it 50+ times easy. I know every beat, every line, every explosion. Still gets me every single time. It never gets old.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Can provide comfort and nostalgia\" - generic positive",
+          "\"Reveal new details\" - analysis language",
+          "\"Deepen our appreciation\" - film school speak",
+          "\"Storytelling and craft involved\" - formal appreciation",
+          "Doesn't name any specific movie"
+        ],
+        "humanTells": [
+          "#1: Specific films, specific format (extended), specific ritual",
+          "#3: Specific age, estimated count (80), specific composer",
+          "#4: Specific movie, family tradition, specific duration (20 years)",
+          "#5: Specific movie, specific count (50+), specific reaction"
+        ],
+        "difficulty_note": "Easy - AI appreciates rewatching films while humans confess specific obsessions"
+      },
+      "metadata": {
+        "createdAt": "2026-04-15T12:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-04-29",
+      "dayNumber": 101,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "diy",
+      "prompt": {
+        "text": "What home improvement project did you massively underestimate?",
+        "source": "r/homeimprovement"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WeekendProject",
+          "text": "Refinishing hardwood floors. YouTube said 'one weekend.' It took 3 weeks. I slept on an air mattress in the kitchen. My marriage was tested. The floors look good though.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "HomeImprovementTips",
+          "text": "Home renovation projects often require more time and resources than initially planned. Thorough research and realistic expectations can help homeowners prepare for potential challenges.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "WallpapperNightmare",
+          "text": "removing old wallpaper. one room. how hard could it be. 87 LAYERS of wallpaper from the 1950s. i found newspapers from the kennedy administration. it took 2 months",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "PlumbingHubris",
+          "text": "Replacing a faucet. The video was 8 minutes. The project was 6 hours. Involved 4 trips to Home Depot, a flooded kitchen, and me questioning every life decision.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "TreeRemoval_",
+          "text": "Removing a 'small' tree from my backyard. Root system was the size of a car. Took 4 weekends, a chainsaw rental, and a shovel I bent. Tree won several battles. I eventually won the war.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Often require more time and resources\" - generic observation",
+          "\"Than initially planned\" - obvious statement",
+          "\"Thorough research\" - advice rather than story",
+          "\"Realistic expectations\" - planning language",
+          "No specific project mentioned"
+        ],
+        "humanTells": [
+          "#1: Specific project, time estimate vs reality, sleeping arrangement",
+          "#3: Specific number (87 layers), historical artifact found, duration",
+          "#4: Video time vs actual time, specific trip count, flooding",
+          "#5: Specific problem (roots), specific effort, war metaphor"
+        ],
+        "difficulty_note": "Medium - AI gives renovation advice while humans share specific underestimations"
+      },
+      "metadata": {
+        "createdAt": "2026-04-15T13:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

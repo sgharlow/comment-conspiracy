@@ -1,0 +1,461 @@
+{
+  "week": 18,
+  "startDate": "2026-05-14",
+  "puzzles": [
+    {
+      "id": "2026-05-14",
+      "dayNumber": 116,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "education",
+      "prompt": {
+        "text": "What's the funniest thing a student has ever said or done?",
+        "source": "r/Teachers"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "TeacherTales",
+          "text": "Asked a 2nd grader what he wanted to be when he grew up. He said 'a chair.' I asked why. He said 'chairs get to sit all day.' I had no counterargument.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ClassroomMoments",
+          "text": "Students often say unexpected things that can bring levity to the classroom environment. These moments remind teachers of the joy and creativity that children bring to education.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "MiddleSchoolLife_",
+          "text": "kid asked to go to the bathroom. came back 20 minutes later with a sandwich. not from the cafeteria. from home. his house was a 5 minute walk away. i had no words",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "HighSchoolMath",
+          "text": "During a test, a student wrote 'I don't know the answer but here's a drawing of a duck' and drew a very detailed duck. It was a really good duck. I gave partial credit.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ElementaryTeacher",
+          "text": "A kindergartener told me her dad is a superhero. I asked what his power was. She said 'sleeping on the couch.' I met him at parent-teacher conference. She wasn't wrong.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Often say unexpected things\" - vague observation",
+          "\"Bring levity to the classroom\" - formal educational language",
+          "\"Remind teachers of the joy\" - generic sentiment",
+          "\"Creativity that children bring\" - broad generalization",
+          "Shares no specific funny student moment"
+        ],
+        "humanTells": [
+          "#1: Specific grade, exact dialogue, logical admission",
+          "#3: Specific time and action, logistics calculated, speechless",
+          "#4: Specific alternative answer, artistic detail, grading decision",
+          "#5: Specific claim, follow-up question, conference confirmation"
+        ],
+        "difficulty_note": "Medium - AI appreciates student creativity while teachers share specific stories"
+      },
+      "metadata": {
+        "createdAt": "2026-05-06T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-15",
+      "dayNumber": 117,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "life",
+      "prompt": {
+        "text": "What's the strangest thing you've seen a neighbor do?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "NeighborWatch",
+          "text": "My neighbor mows his lawn at 6am. In a full suit. Every Sunday. He doesn't go anywhere after. Just mows in formal wear and then goes back inside. I've lived here 7 years. Never asked.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "CommunityObservations",
+          "text": "Living in close proximity to others means occasionally witnessing unusual behaviors. These observations can be curious or amusing, though respecting privacy remains important.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "BackyardWitness_",
+          "text": "caught my neighbor having a full conversation with a garden gnome. not once. regularly. she has names for them. introduces new ones to the group. i pretend i don't see anything",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "MidnightGarden",
+          "text": "Neighbor gardens at 2am with a headlamp. Grows incredible vegetables. Has never explained why night gardening. We've all just accepted this is when he does it. His tomatoes are award-winning.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "CarWasher",
+          "text": "Man across the street washes his car every single day. Same car. Every day. Rain or shine. I've watched him wash it in the rain. With a hose. That car has never known dust.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Living in close proximity\" - formal phrasing",
+          "\"Occasionally witnessing unusual behaviors\" - distanced language",
+          "\"Curious or amusing\" - generic adjectives",
+          "\"Respecting privacy remains important\" - unsolicited advice",
+          "Doesn't share any specific neighbor observation"
+        ],
+        "humanTells": [
+          "#1: Specific time and outfit, routine, duration of observation",
+          "#3: Specific behavior (conversations), frequency, deliberate ignorance",
+          "#4: Specific time and equipment, unexplained, quality results",
+          "#5: Daily frequency, any weather, rain paradox"
+        ],
+        "difficulty_note": "Hard - AI discusses neighborhood living while humans share specific bizarre neighbor behaviors"
+      },
+      "metadata": {
+        "createdAt": "2026-05-06T10:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-16",
+      "dayNumber": 118,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "stories",
+      "prompt": {
+        "text": "What's the most chaotic thing that happened at a wedding you attended?",
+        "source": "r/weddingshaming"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WeddingGuest",
+          "text": "Best man's speech revealed the groom's gambling debt. To the bride. At the reception. They're divorced now. The best man is also divorced. From his wife. Who was the bride's sister.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "WeddingEtiquette",
+          "text": "Weddings can be emotional events where unexpected situations sometimes occur. Maintaining composure and discretion helps preserve the couple's special day for everyone involved.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "OpenBarChaos_",
+          "text": "mother of the groom got blackout drunk and told everyone she didn't approve of the bride. into the microphone. during toasts. bride's father asked her to leave. she refused. police were called",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "CakeDisaster",
+          "text": "The wedding cake was knocked over by a child. Not a little kid, a 14-year-old trying to get a TikTok. The mother blamed the bride for putting the cake 'in a bad spot.' They haven't spoken since.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "DoubleProposal",
+          "text": "Bride's brother proposed to his girlfriend during the reception. Without asking. The bride cried. Not happy tears. Told him to leave. He said he thought she'd be happy. She was not happy.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Can be emotional events\" - understated",
+          "\"Unexpected situations sometimes occur\" - vague and mild",
+          "\"Maintaining composure and discretion\" - advice rather than story",
+          "\"Preserve the couple's special day\" - wedding planning language",
+          "Shares no specific chaotic event"
+        ],
+        "humanTells": [
+          "#1: Specific reveal, cascading consequences, relationship outcomes",
+          "#3: Specific person, specific action (microphone), police called",
+          "#4: Specific culprit age, reason (TikTok), blame shift, ongoing rift",
+          "#5: Specific violation, repeated emphasis on unhappiness"
+        ],
+        "difficulty_note": "Expert - AI gives wedding etiquette while humans share specific disasters"
+      },
+      "metadata": {
+        "createdAt": "2026-05-06T11:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-17",
+      "dayNumber": 119,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "food",
+      "prompt": {
+        "text": "What's the worst thing you've eaten to be polite?",
+        "source": "r/Cooking"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "PolitePlate",
+          "text": "My girlfriend's mom's 'famous' casserole. It was mayonnaise, tuna, and jello. In one dish. I ate two servings. We're married now. I still eat it every Thanksgiving. Help me.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "DiningEtiquette",
+          "text": "Social dining situations sometimes require us to try foods we might not normally choose. Being gracious in these moments reflects positively on our character and relationships.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "SurpriseIngredient_",
+          "text": "coworker brought in homemade cookies. asked what was in them after eating 3. raisins and sardines. for protein. i smiled and took another one. died inside. she makes them monthly now",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "InLawDinner",
+          "text": "Father-in-law's chili. It was mostly beans, ketchup, and cinnamon. Like a lot of cinnamon. I said it was 'interesting.' He took that as a compliment. Been making it for me specifically for 8 years.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "DateNightHorror",
+          "text": "First date made me dinner. It was spaghetti with ranch dressing instead of sauce. I ate the whole plate. We dated for 6 months. I ate ranch spaghetti at least 10 more times.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Social dining situations sometimes require\" - formal framing",
+          "\"Foods we might not normally choose\" - understated",
+          "\"Being gracious\" - etiquette language",
+          "\"Reflects positively on our character\" - moral lesson",
+          "Doesn't share any specific terrible food eaten"
+        ],
+        "humanTells": [
+          "#1: Specific ingredients (mayo, tuna, jello), ongoing suffering, plea for help",
+          "#3: Specific combo (raisins, sardines), specific count eaten, monthly torture",
+          "#4: Specific ingredients, 'interesting' backfire, 8 years duration",
+          "#5: Specific wrong pairing, relationship duration, repeat count"
+        ],
+        "difficulty_note": "Hard - AI discusses dining etiquette while humans share specific horrible dishes"
+      },
+      "metadata": {
+        "createdAt": "2026-05-06T11:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-18",
+      "dayNumber": 120,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "entertainment",
+      "prompt": {
+        "text": "What song do you secretly love that you'd never admit to liking?",
+        "source": "r/Music"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SecretPlaylist",
+          "text": "Call Me Maybe. I'm a 40-year-old metal fan. It's on my gym playlist. Between Metallica and Slayer. I skip it when anyone walks by. But I never remove it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "MusicPreferences",
+          "text": "Musical tastes are personal and there's no need to feel embarrassed about enjoying any particular song. All genres have merit and personal enjoyment is what matters most.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "BoyBandShame_",
+          "text": "i know every word to backstreet boys' 'i want it that way.' i'm 38. i listen to punk rock exclusively around others. but alone? full choreography in my living room. no shame. actually lots of shame",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "TaylorSecret",
+          "text": "Shake It Off. I run a death metal podcast. My listeners would riot if they knew. But when that song comes on alone in the car? Volume maxed. Windows up. I become Taylor.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MusicalDuality",
+          "text": "Barbie Girl by Aqua. Ironically at first. Then just... not ironically. It's been 25 years. I still yell 'I'M A BARBIE GIRL' when it plays. My wife has heard it 1000 times.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Musical tastes are personal\" - generic statement",
+          "\"No need to feel embarrassed\" - reassurance",
+          "\"All genres have merit\" - inclusive platitude",
+          "\"Personal enjoyment is what matters\" - obvious conclusion",
+          "Doesn't name any specific guilty pleasure song"
+        ],
+        "humanTells": [
+          "#1: Specific song, age, playlist position, skip behavior",
+          "#3: Specific song with title, age, public vs private behavior",
+          "#4: Specific song, professional irony, specific behavior (windows up)",
+          "#5: Specific song, duration (25 years), yelling behavior, wife's exposure"
+        ],
+        "difficulty_note": "Easy - AI validates all music while humans confess specific secret favorites"
+      },
+      "metadata": {
+        "createdAt": "2026-05-06T12:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-19",
+      "dayNumber": 121,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "life",
+      "prompt": {
+        "text": "What's the strangest thing you've Googled?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WeirdSearches",
+          "text": "Do penguins have knees. It was 3am. I couldn't sleep until I knew. They do have knees. They're just hidden. I slept well after that.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "InternetQueries",
+          "text": "The internet provides access to information on virtually any topic. People often search for unusual questions out of curiosity, which demonstrates the value of accessible knowledge.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "RandomThoughts_",
+          "text": "how many squirrels would it take to lift a human. asked for no reason. the answer is approximately 300. i've thought about this daily since. i have concerns about myself",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "LateNightCuriosity",
+          "text": "What happens if you put a grape in the microwave. Don't do it. Plasma. Fire. Almost lost my microwave and my deposit. Should have just watched the YouTube video.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ExistentialGoogle",
+          "text": "Is cereal a soup. Fell into a 2-hour rabbit hole. There are CAMPS on this. Academic papers. I now have opinions on this. Strong opinions. My family is tired.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Provides access to information\" - obvious statement",
+          "\"Virtually any topic\" - generic",
+          "\"Out of curiosity\" - surface-level motivation",
+          "\"Demonstrates the value\" - essay language",
+          "Shares no specific strange search"
+        ],
+        "humanTells": [
+          "#1: Specific question, time, resolution, sleep connection",
+          "#3: Specific calculation, answer given, daily obsession",
+          "#4: Specific experiment, specific consequence, lesson learned",
+          "#5: Specific debate, duration (2 hours), academic papers, family impact"
+        ],
+        "difficulty_note": "Easy - AI praises the internet while humans share specific weird searches"
+      },
+      "metadata": {
+        "createdAt": "2026-05-06T12:30:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-05-20",
+      "dayNumber": 122,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "creative",
+      "prompt": {
+        "text": "What's the strangest piece of art you've seen in a museum?",
+        "source": "r/Art"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ArtConfused",
+          "text": "A room with a single potato on a pedestal. Lit dramatically. Price tag: $75,000. I stood there for 10 minutes trying to understand. I still don't. It was labeled 'essence of solitude.'",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "MuseumExperience",
+          "text": "Contemporary art often challenges traditional expectations and invites viewers to question their assumptions. These thought-provoking works encourage dialogue and personal interpretation.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "ModernArtMystery_",
+          "text": "a banana duct-taped to a wall. not a special banana. regular banana. someone ate it and it was called a 'performance.' the artist replaced the banana. it sold for $120,000. i need to lie down",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SculptureDoubt",
+          "text": "Just a stack of candy in the corner. You could take pieces. People were eating museum candy. The pile got smaller. They refilled it. The artist called it 'communal consumption.' I ate some. Still confused.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "InstallationArt",
+          "text": "An entire room filled with olive oil. Up to your ankles. Had to wear special boots. Stood in oil. Looked at oil. Museum called it 'immersive.' I called it 'weird.' We were both right.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Challenges traditional expectations\" - art criticism language",
+          "\"Question their assumptions\" - intellectual framing",
+          "\"Thought-provoking works\" - generic praise",
+          "\"Personal interpretation\" - open-ended defense",
+          "Describes no specific strange artwork"
+        ],
+        "humanTells": [
+          "#1: Specific item (potato), specific price, title quoted, confusion",
+          "#3: Famous real artwork, specific events, price, physical reaction needed",
+          "#4: Specific interactive piece, participation described, concept named",
+          "#5: Specific installation, physical experience, both-right conclusion"
+        ],
+        "difficulty_note": "Medium - AI defends contemporary art while humans share specific bewildering pieces"
+      },
+      "metadata": {
+        "createdAt": "2026-05-06T13:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}
