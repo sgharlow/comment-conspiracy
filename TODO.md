@@ -13,7 +13,7 @@
 |----------|--------|---------|
 | **Development** | 100% Complete | All 20 core tasks done + dark theme UI |
 | **Deployment** | Live | v0.0.14 on r/CommentConspiracy |
-| **Puzzle Content** | 66 puzzles | Jan 19 - Mar 25, 2026 (59 days from today) |
+| **Puzzle Content** | 126 puzzles | Jan 19 - May 24, 2026 (4+ months of content) |
 | **Infrastructure** | Ready | Devvit Redis + Scheduler configured |
 | **Devpost Submission** | PENDING | Form not yet submitted |
 | **GitHub Repo** | Up to date | Commits pushed |
@@ -141,7 +141,7 @@ All commits have been pushed to `origin/main`.
 **Urgency:** MEDIUM (by Mar 20)
 
 **Current Coverage:**
-- Week 1-10: Jan 19 - Mar 25 (66 puzzles)
+- Week 1-19: Jan 19 - May 24 (126 puzzles)
 - **Gap starts:** Mar 26, 2026
 
 **Required:**
@@ -165,7 +165,7 @@ All commits have been pushed to `origin/main`.
 | Week 8 | Mar 9-15 | 7 | week08.json | ✅ |
 | Week 9 | Mar 16-19 | 4 | week09.json | ✅ |
 | Week 10 | Mar 20-25 | 6 | week10.json | ✅ |
-| **Total** | | **66** | | |
+| **Total** | | **126** | | |
 
 **From Today (Jan 26):**
 - Days of runway: **59 days** (through Mar 25)
@@ -337,6 +337,6 @@ npm run lint         # ESLint check
 - [x] Created subreddit icon and banner
 - [x] Captured 5 Devpost screenshots
 - [x] Fixed scheduler job name mismatch
-- [x] Created 66 puzzles (10 weeks)
+- [x] Created 126 puzzles (19 weeks)
 - [x] All tests passing
 - [x] Full playtest completed

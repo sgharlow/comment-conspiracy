@@ -79,7 +79,7 @@ Comment Conspiracy is a daily puzzle game where players must identify which of 5
 - React 18 + TypeScript frontend via Devvit WebView
 - Redis persistence for user progress and stats
 - Automated daily posting via Devvit Scheduler
-- 66 curated puzzles (60+ days of content)
+- 126 curated puzzles (4+ months of daily content)
 
 ---
 
@@ -161,7 +161,7 @@ Visit https://reddit.com/r/CommentConspiracy and look for the latest "Comment Co
 | Criteria | How We Meet It | Evidence |
 |----------|----------------|----------|
 | **Delightful UX** | Clean UI, satisfying animations, clear feedback | Screenshots 1-5 |
-| **Polish** | v0.0.14 deployed, dark theme UI, 66 days content | Production live |
+| **Polish** | v0.0.14 deployed, dark theme UI, 126 days content | Production live |
 | **Reddity** | Reddit comment culture, community stats, social sharing | User contributions feature |
 | **Recurring Content** | Daily puzzles at midnight UTC, streaks, leaderboards | 12+ days posted |
 

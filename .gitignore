@@ -7,6 +7,9 @@ STATUS_REPORT.md
 # Archived files
 archive/
 
+# Walkthrough assets (duplicates of screenshots/)
+walkthrough/
+
 # Video files (hosted externally)
 *.mp4
 *.mov

@@ -39,7 +39,7 @@ Comment Conspiracy is a daily puzzle game where players must identify which of 5
 - Built on Reddit Devvit platform with React 18 + TypeScript
 - Redis persistence for user progress and stats
 - Automated daily posting via Devvit Scheduler
-- 66 curated puzzles covering 60+ days of content
+- 126 curated puzzles covering 4+ months of daily content
 - Dark "Detective" theme UI for immersive experience
 ```
 

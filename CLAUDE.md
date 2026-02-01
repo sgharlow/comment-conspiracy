@@ -37,7 +37,7 @@ comment-conspiracy/
 │   │   ├── puzzleService.ts     # getTodaysPuzzle, submitGuess, getPreviousResult
 │   │   ├── redisService.ts      # Low-level Redis operations
 │   │   ├── redisKeys.ts         # Redis key schema
-│   │   ├── bootstrapService.ts  # Loads 66 puzzles from JSON into Redis
+│   │   ├── bootstrapService.ts  # Loads 126 puzzles from JSON into Redis
 │   │   ├── userService.ts       # User progress management
 │   │   ├── achievementService.ts# Achievement checking/awarding
 │   │   ├── contributionService.ts# User-submitted puzzle ideas
@@ -49,7 +49,7 @@ comment-conspiracy/
 │   │   ├── shareUtils.ts    # Generate share text
 │   │   └── leaderboardUtils.ts
 │   ├── data/bootstrap/
-│   │   └── week01-10.json   # 66 pre-curated puzzles (Jan 19 - Mar 25, 2026)
+│   │   └── week01-19.json   # 126 curated puzzles (Jan 19 - May 24, 2026)
 │   └── web/
 │       └── index.tsx        # WebView React entry
 ├── webroot/                 # Built webview assets (index.html, bundle.js)
@@ -104,7 +104,7 @@ npm run lint          # ESLint check
 
 - **Live**: r/CommentConspiracy
 - **Version**: 0.0.13 (devvit.yaml)
-- **Puzzle Content**: 66 puzzles (Jan 19 - Mar 25, 2026)
+- **Puzzle Content**: 126 puzzles (Jan 19 - May 24, 2026)
 - **Hackathon Deadline**: February 12, 2026
 
 ### Key Files to Check
