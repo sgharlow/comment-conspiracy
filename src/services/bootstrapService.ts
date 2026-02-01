@@ -108,8 +108,46 @@ export async function ensurePuzzlesLoaded(ctx: RedisContext): Promise<void> {
     console.log('[Bootstrap] Seeding puzzles...');
     await seedPuzzles(ctx);
     console.log('[Bootstrap] Seeding complete');
+  } else {
+    // Check for new puzzles that need to be added incrementally
+    console.log('[Bootstrap] Checking for new puzzles to add...');
+    await seedNewPuzzles(ctx);
   }
   console.log('[Bootstrap] ensurePuzzlesLoaded done');
+}
+
+/**
+ * Seed only NEW puzzles that aren't already in Redis
+ * This handles incremental updates when new week files are added
+ */
+export async function seedNewPuzzles(ctx: RedisContext): Promise<{ added: number }> {
+  const existingIndex = await getPuzzleIndex(ctx);
+  const existingSet = new Set(existingIndex);
+
+  // Collect all puzzles from bootstrap data
+  const allPuzzles: Puzzle[] = [];
+  for (const weekData of allWeeksData) {
+    allPuzzles.push(...weekData.puzzles);
+  }
+
+  // Find puzzles that aren't in Redis yet
+  const newPuzzles = allPuzzles.filter(p => !existingSet.has(p.id));
+
+  if (newPuzzles.length === 0) {
+    console.log('[Bootstrap] No new puzzles to add');
+    return { added: 0 };
+  }
+
+  console.log(`[Bootstrap] Adding ${newPuzzles.length} new puzzles...`);
+
+  // Add new puzzles to Redis
+  for (const puzzle of newPuzzles) {
+    await setPuzzle(ctx, puzzle);
+    await addToPuzzleIndex(ctx, puzzle.id);
+  }
+
+  console.log(`[Bootstrap] Added ${newPuzzles.length} new puzzles`);
+  return { added: newPuzzles.length };
 }
 
 /**
