@@ -15,7 +15,7 @@
 | **Deployment** | Live | v0.0.14 on r/CommentConspiracy |
 | **Puzzle Content** | 126 puzzles | Jan 19 - May 24, 2026 (4+ months of content) |
 | **Infrastructure** | Ready | Devvit Redis + Scheduler configured |
-| **Devpost Submission** | PENDING | Form not yet submitted |
+| **Devpost Submission** | DONE | Submitted 2026-02-02 |
 | **GitHub Repo** | Up to date | Commits pushed |
 
 ---
@@ -29,7 +29,7 @@
 | 1 | **Push commits to GitHub** | DONE | Human | Pushed Jan 26 |
 | 2 | **Verify GitHub repo is public** | DONE | Human | Verified public Jan 28 |
 | 3 | **Verify scheduler at midnight UTC** | DONE | Human | Verified Jan 27-29, posting daily |
-| 4 | **Submit to Devpost** | PENDING | Human | Use DEVPOST_SUBMISSION.md |
+| 4 | **Submit to Devpost** | DONE | Human | Submitted 2026-02-02 |
 
 ### HIGH PRIORITY - Important for 60-Day Operation
 
@@ -280,7 +280,7 @@ npm run lint         # ESLint check
 1. ✅ Push commits to GitHub (DONE)
 2. ✅ Verify GitHub repo is public (DONE)
 3. ✅ Verify scheduler at midnight UTC (DONE)
-4. ⬜ Submit to Devpost (before Feb 12)
+4. ✅ Submit to Devpost (DONE - 2026-02-02)
 
 ### Important (Should Do)
 5. ⬜ Monitor first 3 days of auto-posting
