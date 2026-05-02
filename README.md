@@ -25,7 +25,7 @@ Watch the gameplay demo: https://youtu.be/FEWEZMGPXPs
 
 ## Built For
 
-Reddit Games & Puzzles Hackathon 2026
+Reddit Games & Puzzles Hackathon 2026 — ✅ Submitted (deadline 2026-02-12). Game is live at [r/CommentConspiracy](https://reddit.com/r/CommentConspiracy).
 
 ## Tech Stack
 

@@ -105,7 +105,7 @@ npm run lint          # ESLint check
 - **Live**: r/CommentConspiracy
 - **Version**: 0.0.13 (devvit.yaml)
 - **Puzzle Content**: 126 puzzles (Jan 19 - May 24, 2026)
-- **Hackathon Deadline**: February 12, 2026
+- **Hackathon**: ✅ Submitted to Reddit Games & Puzzles 2026 (deadline 2026-02-12). Awaiting results.
 
 ### Key Files to Check
 - `devvit.yaml` - Version and scheduled job config
