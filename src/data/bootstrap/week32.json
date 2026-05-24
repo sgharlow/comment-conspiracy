@@ -1,0 +1,461 @@
+{
+  "week": 32,
+  "startDate": "2026-08-17",
+  "puzzles": [
+    {
+      "id": "2026-08-17",
+      "dayNumber": 211,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "work",
+      "prompt": {
+        "text": "What's the most ridiculous reason you've seen someone get fired?",
+        "source": "r/WorkReform"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WorkplaceObserver",
+          "text": "Workplace terminations can sometimes occur due to misunderstandings or policy interpretations that may seem disproportionate to the circumstances. These situations highlight the importance of clear communication between employees and management.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "CubicleChronicles",
+          "text": "Guy got fired for microwaving fish. Third time. HR had a whole written policy specifically about his fish. He showed up with salmon on day one back from his final warning. Legend.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "RetailSurvivor_99",
+          "text": "coworker got let go for 'time theft' because she logged out 4 minutes early. she'd been there 11 years. 4 minutes. they had it on camera. they showed her the footage at the meeting.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "OfficeGossipMachine",
+          "text": "My boss fired the IT guy for changing the office WiFi name to 'TellMyWifiLoveHer'. Took IT two days to fix the internet after that. Worth it according to everyone except the boss.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "HRNightmares_",
+          "text": "Dude got canned for winning the company chili cook-off three years in a row. Boss said it was 'creating a hostile competitive environment.' The chili was incredible. I still think about it.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Can sometimes occur due to misunderstandings\" - vague hedging",
+          "\"Policy interpretations that may seem disproportionate\" - corporate euphemism",
+          "\"Highlight the importance of clear communication\" - generic lesson",
+          "No specific incident described whatsoever",
+          "Reads like an HR memo, not a coworker's story"
+        ],
+        "humanTells": [
+          "#2: Specific food (salmon), specific HR policy, specific pattern (third time), specific return scenario",
+          "#3: Specific duration (4 minutes, 11 years), specific evidence (camera footage shown at meeting)",
+          "#4: Specific prank (WiFi name), specific consequence (two days of broken internet)",
+          "#5: Specific trigger (winning cook-off 3 years), absurd stated reason, lingering emotional detail"
+        ],
+        "difficulty_note": "Easy - AI gives corporate-speak non-answer while everyone else has a specific unforgettable story"
+      },
+      "metadata": {
+        "createdAt": "2026-08-17T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-18",
+      "dayNumber": 212,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "school",
+      "prompt": {
+        "text": "What's the dumbest thing a teacher ever said to you that you still remember?",
+        "source": "r/Teachers"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SchoolDazeMemories",
+          "text": "5th grade. Teacher told me I'd never amount to anything if I kept drawing in the margins. I'm a graphic designer. I framed that report card. It hangs above my desk. Hi Mrs. Kowalski.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ClassroomReflections",
+          "text": "Teachers sometimes make comments that, while well-intentioned or misguided, can leave a lasting impression on students. These moments can shape how students view themselves and their relationship with learning.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "PencilCase_",
+          "text": "math teacher told me calculators were cheating and would rot my brain. she's been dead wrong for 25 years. i use a calculator every single day. my brain is fine. i think.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "LibraryKid2007",
+          "text": "My English teacher said Wikipedia would be gone in two years and we'd all feel silly for using it. That was 2006. Wikipedia is still here. My teacher is retired. Wikipedia won.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "BackRowStudent_",
+          "text": "PE teacher told me I 'threw like a girl' and I should be embarrassed. I'm a girl. He retired three years later. The girl who replaced him as coach won the state championship twice.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"While well-intentioned or misguided\" - both-sides hedging",
+          "\"Can leave a lasting impression\" - obvious observation",
+          "\"Shape how students view themselves\" - generic insight",
+          "Zero personal memory shared",
+          "Sounds like a teacher-training pamphlet"
+        ],
+        "humanTells": [
+          "#1: Specific grade, specific teacher name (Mrs. Kowalski), specific current career, specific physical artifact",
+          "#3: Specific subject and tool, specific timeframe (25 years), self-aware punchline",
+          "#4: Specific platform, specific year (2006), specific outcome tracking",
+          "#5: Specific insult, specific irony (she IS a girl), specific vindication detail"
+        ],
+        "difficulty_note": "Easy - AI reflects generically on teacher impact while humans recall exact words and lasting ironies"
+      },
+      "metadata": {
+        "createdAt": "2026-08-18T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-19",
+      "dayNumber": 213,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "sidehustle",
+      "prompt": {
+        "text": "What side hustle made you the most money you weren't expecting?",
+        "source": "r/sidehustle"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FreelanceGrinder",
+          "text": "Charged $40 to help my neighbor set up his new TV. Took 8 minutes. He told his whole street. Now I do this every weekend. Made $800 last month. My actual job pays less per hour.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PassiveIncomePete",
+          "text": "Sold printable party invitations on Etsy. Made nothing for 6 months. Then a TikTok linked one of mine and I made $3,400 in a weekend. Left the printouts on autopilot. Still getting $200-ish a month.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "ExtraIncomeTips",
+          "text": "Side hustles can offer significant financial opportunities beyond your primary income source. Many people discover that their unique skills and interests can translate into meaningful additional earnings with the right approach and persistence.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "DumpsterDiveQueen",
+          "text": "Picked up a broken printer off the curb. Fixed it for $12 in parts. Sold it for $180. Found a whole neighborhood that puts out electronics on the first of the month. I have a spreadsheet now.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "CarWrapKing_",
+          "text": "Let a local pizza place wrap my car in their logo for $300/month. I don't even drive that much. My car just sits in a visible parking lot near the highway. Free money. Slightly embarrassing.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Can offer significant financial opportunities\" - corporate phrasing",
+          "\"Unique skills and interests can translate\" - vague generalism",
+          "\"With the right approach and persistence\" - motivational filler",
+          "No dollar amounts, no specific hustle described",
+          "Could apply to any side hustle article on LinkedIn"
+        ],
+        "humanTells": [
+          "#1: Specific price ($40), specific time (8 minutes), specific monthly income, comparative insight",
+          "#2: Specific platform, specific event (TikTok link), specific weekend revenue ($3,400), ongoing passive amount",
+          "#4: Specific item, specific repair cost, specific sale price, ongoing system with spreadsheet",
+          "#5: Specific arrangement, specific amount ($300/month), specific location detail, honest admission"
+        ],
+        "difficulty_note": "Medium - AI talks about side hustle potential in abstract while everyone else has a dollar figure and a story"
+      },
+      "metadata": {
+        "createdAt": "2026-08-19T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-20",
+      "dayNumber": 214,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "office",
+      "prompt": {
+        "text": "What's the pettiest office war you've witnessed or been part of?",
+        "source": "r/antiwork"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ThermostatTerror",
+          "text": "Six month thermostat war. One guy liked 68, one liked 74. They'd adjust it whenever the other left for a meeting. Facilities put a lock on it. They both bought personal fans. The fans were pointed at each other.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "OfficePoliticsWatcher",
+          "text": "got into a 3-week passive-aggressive war over fridge space. left sticky notes. they left sticky notes. i escalated to a masking tape border. they brought in a second lunchbox just to occupy my half. i work from home now.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "ParkingLotPolitics",
+          "text": "Two managers fought over the same parking spot for 4 months even though neither of them had assigned spots. One started arriving at 6:45am just to claim it. The other bought a motorcycle to fit in smaller spaces. Nobody won.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "WorkplaceConflict_",
+          "text": "Office conflicts often arise from minor disagreements that escalate over time due to poor communication. These situations can affect team morale and productivity, and are best resolved through open dialogue and mutual respect.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "BreakroomLegend_",
+          "text": "Someone in my office labeled every item in the shared fridge including individual ice cubes. Then labeled the label maker. Then labeled the drawer where the label maker lived. HR got involved. It was me. I regret nothing.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Often arise from minor disagreements\" - textbook observation",
+          "\"Poor communication\" - generic diagnosis",
+          "\"Affect team morale and productivity\" - HR-speak",
+          "\"Open dialogue and mutual respect\" - conflict resolution boilerplate",
+          "Does not describe any actual office conflict"
+        ],
+        "humanTells": [
+          "#1: Specific temperatures, specific escalation (fans), absurd detail (fans pointed at each other)",
+          "#2: Specific duration, sticky note escalation, masking tape border, work-from-home resolution",
+          "#3: Specific months, specific sacrifice (arriving 6:45am), specific countermove (motorcycle)",
+          "#5: Specific escalating absurdity (labeled ice cubes), self-incrimination, no regret"
+        ],
+        "difficulty_note": "Medium - AI HR-speaks about conflict resolution while everyone else confesses petty escalation chains"
+      },
+      "metadata": {
+        "createdAt": "2026-08-20T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-21",
+      "dayNumber": 215,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "money",
+      "prompt": {
+        "text": "What's the biggest financial mistake you made in your 20s that you'd warn others about?",
+        "source": "r/personalfinance"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "BudgetingLate_",
+          "text": "Bought a brand-new car on a $28k salary. Insurance, payment, gas, and parking ate 60% of my take-home. Ate ramen for 14 months. Sold it at a $7k loss. Now I drive a 2009 Honda with 180k miles. Best financial decision I ever made.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "CryptoGriefSupport",
+          "text": "put $11,000 into a crypto token my college roommate swore was 'the next ethereum.' he read about it in a Discord. it is now worth $43. i have a screenshot. it's my screensaver. as a reminder.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "FinancialWisdom_",
+          "text": "Financial mistakes in your 20s can serve as valuable learning experiences that shape better money habits for the future. Understanding the importance of budgeting, saving, and avoiding high-interest debt early can have a significant positive impact on long-term financial health.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "IgnoredMy401k_",
+          "text": "Didn't enroll in my company 401k for three years because the paperwork seemed complicated. My company matched 5%. I left $9,000 on the table. Three years. The paperwork was literally one page.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SubscriptionGrave",
+          "text": "Signed up for 14 free trials in one month and forgot to cancel all of them. Noticed 8 months later when I actually read my bank statement. Had been paying $340/month for apps I'd opened once. Spotify twice.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Can serve as valuable learning experiences\" - cliche framing",
+          "\"Shape better money habits\" - generic advice column language",
+          "\"Understanding the importance of budgeting\" - surface observation",
+          "\"Significant positive impact on long-term financial health\" - financial blog boilerplate",
+          "No actual mistake described, no numbers, no specifics"
+        ],
+        "humanTells": [
+          "#1: Specific salary, specific percentage of take-home, specific loss amount, specific car detail",
+          "#2: Specific dollar invested, specific current value ($43), specific origin (Discord), screenshot-as-screensaver",
+          "#4: Specific years missed, specific match rate, specific lost total, self-aware punchline about paperwork",
+          "#5: Specific count (14 trials), specific discovery delay (8 months), specific monthly cost, absurd detail (Spotify twice)"
+        ],
+        "difficulty_note": "Hard - AI gives personal finance advice while humans confess specific dollar amounts and self-owns"
+      },
+      "metadata": {
+        "createdAt": "2026-08-21T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-22",
+      "dayNumber": 216,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "careers",
+      "prompt": {
+        "text": "What's the worst job interview experience you've ever had?",
+        "source": "r/jobs"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "InterviewedAndScarred",
+          "text": "Three-hour interview, panel of seven people, two take-home tests, a personality assessment, and a final presentation. Got to offer stage. Salary was $4k less than I currently made. They were confused I didn't take it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ZoomDisasterStory",
+          "text": "virtual interview. my cat knocked over my ring light. mid-answer. it fell on my keyboard and typed 47 jjjjj's into the chat. i tried to laugh it off. the hiring manager had already muted. they did not unmute.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "NegotiationNewbie_",
+          "text": "Interviewer asked where I saw myself in five years. I said 'ideally in a role where my growth matches the company's.' He wrote something down, showed it to the other interviewer, and they both nodded slowly. I did not get the job.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "GhostJobPosting_",
+          "text": "Showed up in person for an interview that the company had cancelled by email 20 minutes before. I didn't check my email. The receptionist told me. I sat in the lobby for a while anyway. Just to process it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "InterviewCoach_",
+          "text": "Job interviews can sometimes be stressful or poorly managed experiences that don't always reflect the best of either party. These situations, while frustrating, often provide useful insights into company culture and help candidates refine their approach for future opportunities.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "\"Can sometimes be stressful or poorly managed\" - diplomatic understatement",
+          "\"Don't always reflect the best of either party\" - both-sides framing",
+          "\"Provide useful insights into company culture\" - reframe as learning opportunity",
+          "\"Refine their approach for future opportunities\" - career coach cliche",
+          "Describes no actual interview experience"
+        ],
+        "humanTells": [
+          "#1: Specific process (three hours, seven people, two tests, presentation), specific pay gap ($4k)",
+          "#2: Specific incident (cat, ring light), specific absurd outcome (47 j's in chat), interviewer non-reaction",
+          "#3: Specific exchange, specific non-verbal reaction (nodded slowly), specific outcome",
+          "#4: Specific timeline (20 minutes before), specific discovery method (receptionist), emotional aftermath"
+        ],
+        "difficulty_note": "Expert - AI career-coaches from the sidelines while everyone else lived a specific interview disaster"
+      },
+      "metadata": {
+        "createdAt": "2026-08-22T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-23",
+      "dayNumber": 217,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "school",
+      "prompt": {
+        "text": "What's the most creative excuse you gave a professor that actually worked?",
+        "source": "r/college"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "GradedOnACurve_",
+          "text": "told my stats professor my laptop died mid-exam and I had to finish on my phone but lost the last two questions. he gave me a makeup. my laptop was fine. i just panicked. i passed the class by 2 points.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "CollegeEscapeArtist",
+          "text": "Emailed my history prof that I had a 'family obligation I couldn't discuss publicly.' She replied 'say no more' and gave me a week extension. The obligation was a concert. It was a great concert.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "DeadlineNegotiator",
+          "text": "Said my dog ate my flash drive. It was 2019. My professor laughed for 45 seconds, then said 'that's the most modern version of that excuse I've ever heard, you've got until Friday.' She seemed genuinely delighted.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "AcademicHonesty_",
+          "text": "Students often face unexpected challenges that require them to communicate honestly with instructors about their circumstances. Many professors appreciate transparency and are willing to work with students who show genuine effort and responsibility.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "ExtensionMaster99",
+          "text": "Told my biology professor I'd been in a 'minor parking situation' that required police documentation. A bird had pooped on my windshield and I'd pulled over to clean it and got a warning for improper stopping. 100% true. He loved it. Full extension.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Often face unexpected challenges\" - vague generalization",
+          "\"Communicate honestly with instructors\" - advice column voice",
+          "\"Appreciate transparency\" - generic insight",
+          "\"Genuine effort and responsibility\" - motivational filler",
+          "No excuse described, no outcome, no professor reaction"
+        ],
+        "humanTells": [
+          "#1: Specific lie, specific margin of survival (2 points), specific false claim detail",
+          "#2: Specific vague phrase used, specific professor reaction (say no more), specific reality (concert)",
+          "#3: Specific excuse, specific professor reaction (laughed 45 seconds), specific extension granted",
+          "#5: Oddly specific true story, specific animal incident, specific legality issue, professor reaction"
+        ],
+        "difficulty_note": "Hard - AI advises students to be honest while humans confess their actual successful lies"
+      },
+      "metadata": {
+        "createdAt": "2026-08-23T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

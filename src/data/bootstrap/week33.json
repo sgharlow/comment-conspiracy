@@ -1,0 +1,461 @@
+{
+  "week": 33,
+  "startDate": "2026-08-24",
+  "puzzles": [
+    {
+      "id": "2026-08-24",
+      "dayNumber": 218,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "office",
+      "prompt": {
+        "text": "What's the strangest thing someone brought to the office that caused a problem?",
+        "source": "r/mildlyinfuriating"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "OpenOfficeHorror",
+          "text": "Guy brought in a fog machine to 'set the vibe' for a presentation. The smoke alarm triggered. We evacuated for 40 minutes. The presentation was about quarterly sales figures. No vibes were set.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "OfficeItemConflict_",
+          "text": "Unusual items brought into the workplace can sometimes create unexpected disruptions or conflicts among colleagues. These situations often reveal the importance of understanding shared space norms and respecting professional environments.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "PersonalSpacePolice",
+          "text": "coworker brought her emotional support parrot. to an open plan office. for three weeks while her apartment was being renovated. it learned to say 'send it to IT' whenever a phone rang. IT was not amused.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "MeetingRoomMayhem",
+          "text": "Someone brought a hammock and hung it between two filing cabinets for 'deep thinking time.' HR found it during a client walkthrough. The client asked if it was a workplace wellness initiative. It now is. Officially.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "BreakroomWarden_",
+          "text": "New hire brought a wok and a camping burner to make stir-fry at lunch because the microwave 'couldn't do justice to her food.' It worked. It smelled incredible. She was asked to stop anyway. Tragedy.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Can sometimes create unexpected disruptions\" - passive and vague",
+          "\"Understanding shared space norms\" - HR training language",
+          "\"Respecting professional environments\" - generic lesson",
+          "No item described, no incident described",
+          "Tone matches a workplace policy document"
+        ],
+        "humanTells": [
+          "#1: Specific item (fog machine), specific reason (vibes), specific outcome (40-min evacuation), specific irony",
+          "#3: Specific animal, specific duration (3 weeks), specific learned phrase, named victim (IT)",
+          "#4: Specific item, specific discovery circumstance (client walkthrough), ironic outcome (now official policy)",
+          "#5: Specific equipment (wok + camping burner), specific stated reason, sensory detail, absurd ending"
+        ],
+        "difficulty_note": "Easy - AI generalizes about workplace norms while humans share the actual chaotic objects and what happened"
+      },
+      "metadata": {
+        "createdAt": "2026-08-24T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-25",
+      "dayNumber": 219,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "money",
+      "prompt": {
+        "text": "What's the cheapest meal you've ever eaten when you were completely broke?",
+        "source": "r/povertyfinance"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "RamenPhilosopher_",
+          "text": "One pack of ramen. No egg. No additions. Eaten over a sink because all the bowls were dirty and I couldn't afford the water bill to justify running the dishwasher. It was a Tuesday. It was fine.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "DollarMenuScholar",
+          "text": "McDonalds senior discount coffee was $0.69 at my local one. I was 23. I'm not proud of this. I went every morning for six weeks. The staff never questioned it. One lady gave me a free hash brown once.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "BudgetMealSolutions",
+          "text": "Financial hardship can require creative approaches to meal planning that prioritize nutrition and affordability. Many people discover resourceful ways to maintain adequate nutrition even during challenging economic circumstances.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "FreeCondimentGourmet",
+          "text": "ketchup packets from the gas station and a sleeve of crackers from the bulk bin at Winco. Total cost: $0.22 for the crackers. Ketchup was free. I told myself it was like bruschetta. It was not like bruschetta.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SampleCircuitPro",
+          "text": "Walked Costco samples for an entire Saturday afternoon as my lunch. Hit every station twice. Got a full meal worth of food. Felt no shame. The pizza sample lady recognized me on my second lap. She gave me two.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Creative approaches to meal planning\" - generic advice framing",
+          "\"Prioritize nutrition and affordability\" - food bank pamphlet language",
+          "\"Resourceful ways to maintain adequate nutrition\" - clinical distance",
+          "\"Challenging economic circumstances\" - euphemism for broke",
+          "No actual meal, no setting, no emotion"
+        ],
+        "humanTells": [
+          "#1: Specific meal, specific detail (no egg), specific context (dirty bowls, water bill logic), specific day",
+          "#2: Specific price ($0.69), specific age, specific duration (6 weeks), specific act of kindness",
+          "#4: Specific items, specific total cost ($0.22), specific location (Winco), honest self-delusion",
+          "#5: Specific venue, specific strategy (two laps), specific recognition and reward"
+        ],
+        "difficulty_note": "Easy - AI offers meal-planning advice while humans confess exact prices and specific acts of survival"
+      },
+      "metadata": {
+        "createdAt": "2026-08-25T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-26",
+      "dayNumber": 220,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "careers",
+      "prompt": {
+        "text": "What's something your boss did that made you immediately update your resume?",
+        "source": "r/jobs"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ResignationReady_",
+          "text": "Boss cc'd my entire team on an email correcting a typo in my report. Not a mistake. A typo. One letter. 14 people on the cc. I updated my resume before the email thread ended.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "JobSearchJourneyAI",
+          "text": "Certain managerial behaviors can signal a workplace environment that may not align with an employee's professional values or growth aspirations. These moments often prompt individuals to reassess their career trajectory and explore new opportunities.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "MeetingAboutMeetings",
+          "text": "Called a mandatory all-hands at 4:45pm on a Friday to announce we'd now be required to submit meeting agendas for all future meetings. Including the meeting we were currently in. There was no agenda for that meeting.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "CorporateEscape_",
+          "text": "my boss asked me to come in saturday to cover for someone, i said i had plans, he said 'what kind of plans?' i said personal ones. he scheduled a check-in call for 9am saturday to 'discuss priorities.' i submitted my notice monday.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "LinkedInDraftMode",
+          "text": "Manager sent a Slack message at 11pm asking if I'd 'had a chance to think about' the project she'd assigned at 10pm. Then followed up at 11:15 to say she was 'just checking.' I opened LinkedIn while still in the Slack thread.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Certain managerial behaviors can signal\" - indirect and vague",
+          "\"May not align with professional values or growth aspirations\" - HR softspeak",
+          "\"Reassess their career trajectory\" - LinkedIn buzzword",
+          "\"Explore new opportunities\" - corporate euphemism for quitting",
+          "No boss described, no incident, no timeline"
+        ],
+        "humanTells": [
+          "#1: Specific trigger (cc'd 14 people over one letter typo), specific timing (during the thread)",
+          "#3: Specific time (4:45 Friday), specific absurdity (meeting about meetings had no agenda)",
+          "#4: Specific exchange, specific escalation (Saturday call), specific outcome (notice Monday)",
+          "#5: Specific platform, specific timestamps (10pm, 11pm, 11:15pm), specific real-time reaction"
+        ],
+        "difficulty_note": "Medium - AI philosophizes about workplace values while humans describe exact moments of last-straw clarity"
+      },
+      "metadata": {
+        "createdAt": "2026-08-26T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-27",
+      "dayNumber": 221,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "sidehustle",
+      "prompt": {
+        "text": "What side hustle completely flopped despite your best efforts?",
+        "source": "r/Entrepreneur"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FailedFounder2024",
+          "text": "Started a subscription box for left-handed people. Sourced 40 products. Built a whole website. Sold 6 boxes. Two were to my mom. One was a duplicate order. Inventory is still in my garage. The scissors are nice though.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "DropshipperRIP_",
+          "text": "dropshipped novelty spatulas for 4 months. made $31 in profit after fees. spent $200 on facebook ads. got one 5-star review that just said 'it is a spatula.' that review was from my neighbor. i gave him a spatula.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "VentureFailures_",
+          "text": "Not every entrepreneurial venture succeeds, and that's a natural part of the business journey. Failed side hustles often provide valuable experience and lessons that inform future, more successful endeavors.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "FleaMarketMath_",
+          "text": "Rented a flea market booth for 3 months to sell vintage maps. Spent $600 on booth fees and stock. Sold $78 total. One guy spent 20 minutes examining a 1974 Ohio road atlas and then said 'eh' and put it down.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "CourseCreatorCry",
+          "text": "Made a 6-hour online course on Excel pivot tables. Priced it at $49. Sold 2 copies in 8 months. One was me buying it to test the checkout. Enrolled 2 students. Instructor and tester. Zero organic sales.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Natural part of the business journey\" - startup-culture cliche",
+          "\"Provide valuable experience and lessons\" - motivational poster speak",
+          "\"Inform future, more successful endeavors\" - generic optimism",
+          "No hustle named, no money lost, no specific outcome",
+          "Could be a TED Talk opening sentence"
+        ],
+        "humanTells": [
+          "#1: Specific niche (left-handed), specific number sold (6, 2 from mom), inventory still present, specific silver lining",
+          "#2: Specific profit ($31), specific ad spend ($200), absurd review text, neighbor origin story",
+          "#4: Specific duration, specific costs vs revenue, specific customer who walked away",
+          "#5: Specific price, specific sales count (2), specific self-purchase admission"
+        ],
+        "difficulty_note": "Medium - AI reframes failure as learning while humans share exact losing numbers with no spin"
+      },
+      "metadata": {
+        "createdAt": "2026-08-27T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-28",
+      "dayNumber": 222,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "work",
+      "prompt": {
+        "text": "What's the most unhinged thing a coworker ever said during a performance review?",
+        "source": "r/WorkReform"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ReviewRoomSurvivor",
+          "text": "coworker told his manager 'i don't believe in performance reviews' and then cited a harvard study. the manager had printed the review form himself that morning. they sat in silence for 90 seconds. the review still happened.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PeerFeedbackPanic",
+          "text": "During a 360 review, a colleague told our manager she didn't feel comfortable giving feedback about anyone unless she could do it 'anonymously, in writing, via a third party.' She was IN a one-on-one. With the manager.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "PerformanceReviewAI",
+          "text": "Performance reviews can be high-pressure situations that sometimes lead employees to express unexpected thoughts or frustrations. These conversations, while uncomfortable, can create opportunities for meaningful dialogue between employees and management.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "AnnualReviewFails_",
+          "text": "Guy asked his manager for a raise mid-review, got denied, then counter-offered with 'what if I just worked four days a week for the same pay.' The manager said no. He immediately said 'three days?' They did not reach a deal.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "HRWitnessProtect",
+          "text": "My coworker handed her manager a printed list of 22 grievances — numbered, formatted, with section headers — at the start of her review. Said 'we can discuss your agenda after mine.' HR was not in the room. HR heard about it.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Can be high-pressure situations\" - understated obvious observation",
+          "\"Express unexpected thoughts or frustrations\" - bland descriptor",
+          "\"Create opportunities for meaningful dialogue\" - HR playbook",
+          "No actual review scenario, no coworker, no quote",
+          "Describes reviews theoretically as a concept"
+        ],
+        "humanTells": [
+          "#1: Specific citation (Harvard study), specific silence (90 seconds), specific outcome (review happened anyway)",
+          "#2: Specific review type (360), specific absurd demand (third party, in writing), specific irony (she was in a one-on-one)",
+          "#4: Specific negotiation progression (4 days, 3 days), specific outcome",
+          "#5: Specific document detail (22 grievances, numbered, headers), specific line used, specific aftermath"
+        ],
+        "difficulty_note": "Hard - AI frames reviews as dialogue opportunities while humans transcribe specific absurd coworker power moves"
+      },
+      "metadata": {
+        "createdAt": "2026-08-28T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-29",
+      "dayNumber": 223,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "school",
+      "prompt": {
+        "text": "What happened during a group project that made you swear off group projects forever?",
+        "source": "r/college"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "GroupProjectVictim",
+          "text": "Four-person group. I did all of it. One person emailed to say they were 'conceptually contributing.' One disappeared. The fourth showed up for the presentation, stood at the front, and answered the first question. Got the same grade as me.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "CollabKilledMe_",
+          "text": "Our group project was a 20-page paper. I wrote 18 pages. Person 2 wrote the title page. Person 3 added a decorative border. Person 4 submitted it and put her name first. We got an A. I have never forgiven any of them.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "TeamDynamicsInsight",
+          "text": "Group projects can present challenges when team members have different levels of engagement or commitment. These experiences, while sometimes frustrating, can help develop skills in collaboration, communication, and managing shared expectations.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "PresentationDay_",
+          "text": "my partner forgot we had a presentation. not the date — he forgot we were doing a project. he sat in the audience while i presented. made eye contact with me twice. clapped at the end. professor gave us both Bs.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "GradeInflationVictim",
+          "text": "Group of five. One person did the whole project, me. Submitted it. Got a 94. Professor redistributed the grade 'equally across the group' per policy. Everyone got 94. The guy who didn't open a single shared doc got 94. We don't talk.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Can present challenges when team members have different levels of engagement\" - clinical softening of freeloading",
+          "\"While sometimes frustrating\" - massive understatement",
+          "\"Help develop skills in collaboration\" - glass-half-full framing",
+          "\"Managing shared expectations\" - corporate language applied to college",
+          "No group, no project, no injustice described"
+        ],
+        "humanTells": [
+          "#1: Specific group size, specific non-contribution types, specific presentation moment, specific outcome",
+          "#2: Specific page counts per person, specific final contribution (border), specific submission detail, lingering grudge",
+          "#4: Specific amnesia type (forgot the project entirely), specific behavior (sat in audience, clapped), specific grade",
+          "#5: Specific group size, specific grade (94), specific policy used against justice, specific relationship outcome"
+        ],
+        "difficulty_note": "Expert - AI reframes group project failure as a learning opportunity while humans document specific injustices with receipts"
+      },
+      "metadata": {
+        "createdAt": "2026-08-29T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-30",
+      "dayNumber": 224,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "money",
+      "prompt": {
+        "text": "What's the most creative thing you did to save money that you're not ashamed of?",
+        "source": "r/Frugal"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FrugalInnovator_",
+          "text": "Turned my gym membership into my only hot shower location for 8 months when my water heater died and the repair cost too much. Worked out whether I wanted to or not. Lost 12 pounds. Cheapest gym membership payoff ever.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "CouponKingPrime",
+          "text": "stacked three grocery apps, two manufacturer coupons, and a store credit card's cashback on a single $4 block of cheese. ended up making $0.17 on the transaction. the cashier called a manager. the manager approved it. i was polite.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "FrugalMindsetTips",
+          "text": "Creative approaches to saving money often reflect resourcefulness and a commitment to financial goals. Many frugal strategies can help individuals stretch their budgets while maintaining their quality of life and personal values.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "LibraryMaximizer_",
+          "text": "Realized my library card gave access to Kanopy, Hoopla, Libby, and free museum passes. Cancelled Netflix, Audible, and Hulu the same afternoon. Saved $62/month. Library card cost: $0. I've become evangelical about it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ReturnsArbitrage",
+          "text": "Bought a tuxedo from a rental place's clearance rack for $28. Wore it to three weddings, one job interview, and a fancy dinner. Dry-cleaned it between events. Total cost-per-wear: $5.60. No regrets. It fits perfectly.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Creative approaches to saving money often reflect resourcefulness\" - circular statement",
+          "\"Commitment to financial goals\" - generic framing",
+          "\"Stretch their budgets\" - budgeting article cliche",
+          "\"Maintaining quality of life and personal values\" - vague and uncommitted",
+          "No strategy described, no dollar saved, no actual story"
+        ],
+        "humanTells": [
+          "#1: Specific duration (8 months), specific reason (water heater), specific outcome (lost 12 pounds)",
+          "#2: Specific stack of methods, specific transaction result ($0.17 profit), specific witness reaction",
+          "#4: Specific services (Kanopy, Hoopla, Libby), specific savings ($62/month), specific card cost ($0)",
+          "#5: Specific price ($28), specific use count (5 events), specific cost-per-wear math"
+        ],
+        "difficulty_note": "Hard - AI describes frugality in abstract terms while humans share specific dollar amounts, methods, and outcomes"
+      },
+      "metadata": {
+        "createdAt": "2026-08-30T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

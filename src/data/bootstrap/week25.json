@@ -1,0 +1,461 @@
+{
+  "week": 25,
+  "startDate": "2026-06-29",
+  "puzzles": [
+    {
+      "id": "2026-06-29",
+      "dayNumber": 162,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "food",
+      "prompt": {
+        "text": "What's the most questionable meal you've made at midnight?",
+        "source": "r/CasualConversation"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "MidnightGrilled_",
+          "text": "Grilled cheese with Doritos inside. At 1am. Did not regret it at all. Regretted it entirely at 3am. Made another one.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ColdPizzaRamen",
+          "text": "Put leftover cold pizza on top of instant ramen. Just placed it there like a pizza raft. The cheese melted a little. It was the best decision I made that year. The year was not going well.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "MidnightFoodHabits",
+          "text": "Late-night eating often involves creative improvisation with whatever ingredients are available. These spontaneous meals can be surprisingly satisfying despite their unconventional nature.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "CerealSandwich_Lore",
+          "text": "made a cereal sandwich. two slices of bread, honey, crushed frosted mini wheats in the middle. ate it standing over the sink at 2am. thought about my life choices. made a second one.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "EggNoodleSalsa",
+          "text": "Egg noodles with salsa as the sauce because I had nothing else. Topped it with crushed crackers for texture. Ate the whole pot. Texted my friend about it. She asked if I needed help. I said no. I needed more crackers.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Creative improvisation\" - frames chaos as a skill",
+          "\"Whatever ingredients are available\" - vague, no actual ingredients named",
+          "\"Surprisingly satisfying\" - hedged positive spin",
+          "\"Unconventional nature\" - academic word for 'weird food'",
+          "Not a single ingredient, time, or person described"
+        ],
+        "humanTells": [
+          "#1: Specific ingredients (Doritos in grilled cheese), timeline (1am/3am), repeated mistake",
+          "#2: Specific structure (pizza raft), cheese melt detail, year context joke",
+          "#4: Specific ingredient list, specific time, specific posture (over the sink)",
+          "#5: Specific substitution, topping logic, friend's concern, self-aware punchline"
+        ],
+        "difficulty_note": "Easy - the AI comment is obviously a food-topic summary with no story; all four humans describe absurd actual meals."
+      },
+      "metadata": {
+        "createdAt": "2026-06-29T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-30",
+      "dayNumber": 163,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "groceries",
+      "prompt": {
+        "text": "What's the most chaotic thing you've witnessed in a grocery store?",
+        "source": "r/mildlyinteresting"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "GroceryLinePhilosopher",
+          "text": "Woman in front of me paid for $200 of groceries entirely in nickels. She had a system. It took 22 minutes. The cashier counted every single one. I missed my bus. She tipped the cashier in nickels.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "GroceryStoreMoments",
+          "text": "Grocery stores can be lively environments where unexpected and amusing situations unfold among shoppers. These public spaces often serve as backdrops for memorable human interactions.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "TunaCanWar_",
+          "text": "Two people got into a debate over the last can of chunk light tuna. Full debate. Nutritional merits, brand loyalty, what their mothers would have bought. I watched for 8 minutes. Neither bought the can. They both left.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "FrozenAisleEscape",
+          "text": "saw a man open the frozen pizza door, step fully inside the freezer section, close the door, and just stand in there for two minutes. came out. grabbed nothing. walked to produce. selected one onion. left.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ExplosiveGrapes_",
+          "text": "A bag of grapes fell off a shelf and burst open, sending grapes across the entire produce aisle. I slipped on one. A staff member slipped on another. We slipped at the exact same moment. Made eye contact. Never spoke.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Lively environments\" - blandly positive description",
+          "\"Unexpected and amusing situations\" - no situation described",
+          "\"Public spaces\" - distances the speaker from the store",
+          "\"Memorable human interactions\" - observation without observing anything",
+          "No specific aisle, person, product, or incident mentioned"
+        ],
+        "humanTells": [
+          "#1: Specific payment (nickels), specific time (22 min), specific consequence (missed bus), tip also in nickels",
+          "#3: Specific product (chunk light tuna), specific debate content, specific duration (8 min), neither bought it",
+          "#4: Specific sequence (entered freezer, 2 min), specific exit purchase (one onion)",
+          "#5: Specific chain of events, simultaneous slips, silent eye contact punchline"
+        ],
+        "difficulty_note": "Easy - the AI comment is clearly describing grocery stores as a concept rather than telling any story at all."
+      },
+      "metadata": {
+        "createdAt": "2026-06-30T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-01",
+      "dayNumber": 164,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "baking",
+      "prompt": {
+        "text": "What's the most ambitious baking project you attempted that went sideways?",
+        "source": "r/Baking"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CroissantRegret_",
+          "text": "Tried homemade croissants for Christmas breakfast. The recipe said two days. I started Christmas Eve. I finished Christmas Eve. They were technically croissant-shaped. The layers were not there. My family called them 'flat bread.'",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "AmbitiousBakers",
+          "text": "Ambitious baking projects can test the limits of our skills and patience, but they also represent an important step toward growth and mastery in the kitchen. The process itself is often as valuable as the result.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "MacaronDisasterLog",
+          "text": "spent an entire saturday on french macarons. two batches. perfect glossy batter. horrible cracked shells. feet wouldn't form. ate the crumbs from the tray. watched three youtube videos after. realized i used the wrong sugar",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "TieredCake_Crash",
+          "text": "Made a three-tiered birthday cake. Got the first two tiers stacked. The third slid. I caught it. The second slid. I caught that. The first fell off the counter. I stood holding two tiers of cake for four minutes before sitting down on the floor.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "PretzelMakingDay",
+          "text": "Homemade soft pretzels seemed easy. The lye dip seemed optional. I used baking soda. They looked like pale doughnuts. We dipped them in mustard and called them a success. They were not pretzels. We were happy anyway.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Test the limits of our skills\" - generic growth narrative",
+          "\"Step toward growth and mastery\" - motivational language",
+          "\"Process itself is as valuable\" - consolation-prize framing",
+          "\"The result\" - no specific result described at all",
+          "Applies to any baking failure in history"
+        ],
+        "humanTells": [
+          "#1: Specific dish, specific timeline failure (Eve start), family's polite rebrand",
+          "#3: Specific day spent, specific failure mode (cracked shells), specific root cause (wrong sugar)",
+          "#4: Specific structural failure sequence, specific ending (sitting on floor)",
+          "#5: Specific shortcut (skipped lye), specific result (pale doughnuts), happy anyway"
+        ],
+        "difficulty_note": "Medium - the AI comment uses supportive baking-community language convincingly; the tell is the total absence of flour, a pan, or a person."
+      },
+      "metadata": {
+        "createdAt": "2026-07-01T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-02",
+      "dayNumber": 165,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "food",
+      "prompt": {
+        "text": "What's the weirdest thing you've eaten on a dare or out of curiosity?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "DurianSurvivors",
+          "text": "Ate durian in an enclosed car with all windows up on a dare. The smell hit immediately. Driver pulled over. Car smelled like that for six days. We sold the car. Not exclusively because of this.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "WeirdFoodChoices",
+          "text": "Trying unusual foods can be a fascinating way to expand one's culinary horizons and engage with different cultural traditions. These experiences, whether positive or negative, broaden our understanding of global food culture.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "FoodAdventureExplorer",
+          "text": "Ate a spoonful of Vegemite straight, no toast, no butter, during a work trip to Sydney because a colleague insisted it was 'basically peanut butter.' It is not basically peanut butter. Took four glasses of water.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "CicadaEater2024",
+          "text": "Ate a chocolate-covered cicada during the big emergence last summer. Texture like a sunflower seed husk. Taste like dark chocolate but with a note of... regret. Did it in front of my niece. She refuses to visit now.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "CulinaryBoundaries",
+          "text": "Eating unusual or unfamiliar foods is a meaningful way to engage with different cultures and expand personal taste preferences. These experiences, whether enjoyable or challenging, stay with us and shape how we see food.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "\"Meaningful way to engage with different cultures\" - tourism-brochure framing",
+          "\"Expand personal taste preferences\" - clinical food-education language",
+          "\"Whether enjoyable or challenging\" - covers all bases without committing",
+          "\"Shape how we see food\" - vague transformation language",
+          "No food named, no country, no specific dare, no reaction"
+        ],
+        "humanTells": [
+          "#1: Specific fruit, specific setting (enclosed car), specific consequence (sold car)",
+          "#2: Specific framing (fascinatingly generic) but ties to cultural traditions personally",
+          "#3: Specific food (Vegemite), specific context (Sydney, colleague's lie), specific aftermath",
+          "#4: Specific food (chocolate cicada), specific texture/taste, niece relationship consequence"
+        ],
+        "difficulty_note": "Medium - comment #2 also sounds educational but has cultural specificity; #5 is the AI because it names nothing and commits to nothing."
+      },
+      "metadata": {
+        "createdAt": "2026-07-02T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-03",
+      "dayNumber": 166,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "cooking disasters",
+      "prompt": {
+        "text": "What happened when you tried to cook something and had no idea what you were doing?",
+        "source": "r/Cooking"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "LobsterAtHome_",
+          "text": "Tried to cook a live lobster for the first time. Couldn't bring myself to do it. Gave it a name. Calvin. Took Calvin to a lobster pound the next day and paid them to do it. Then couldn't eat it. Just went home.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "CookingWithoutClue",
+          "text": "Attempting to cook unfamiliar dishes without proper guidance can lead to a range of outcomes, from minor mishaps to significant learning experiences. These attempts build character and resilience over time.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "ArtichokeFirst_",
+          "text": "Had no idea how to cook an artichoke. Boiled it for an hour. The whole thing. Tried to eat the entire leaf including the part you spit out. My Italian neighbor watched from the window. She came over. She cried.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "InstantRiceConfused",
+          "text": "followed the rice directions wrong and used hot water from the tap instead of boiling it. the rice was crunchy. i ate it anyway and texted my mom 'is crunchy rice a thing?' she called immediately. not a thing.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "BeefBourguignon_",
+          "text": "Made beef bourguignon from a recipe with 47 steps. Got to step 31 before realizing I'd skipped step 8, which was apparently load-bearing. Served it anyway. My guests said it was great. Step 8 remains unidentified.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Range of outcomes\" - non-committal spectrum language",
+          "\"Minor mishaps to significant learning experiences\" - escalating vagueness",
+          "\"Build character and resilience\" - life-lesson reframe",
+          "\"Over time\" - implies long journey, describes nothing",
+          "No dish, no ingredient, no person, no kitchen moment"
+        ],
+        "humanTells": [
+          "#1: Named the lobster (Calvin), specific resolution (paid someone else), didn't eat it",
+          "#3: Specific vegetable, specific duration (1 hour), specific wrong technique, neighbor's reaction",
+          "#4: Specific mistake (tap vs boiling), specific texture result, mom's immediate call",
+          "#5: Specific dish, specific step count (47), specific failure point (step 8), mystery unsolved"
+        ],
+        "difficulty_note": "Hard - the AI comment sounds like earnest advice from a cooking forum; the tell is that it describes the meta-experience of learning to cook, not any specific cooking attempt."
+      },
+      "metadata": {
+        "createdAt": "2026-07-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-04",
+      "dayNumber": 167,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "restaurants",
+      "prompt": {
+        "text": "What's the most memorable thing a stranger has said to you about your food order?",
+        "source": "r/TalesFromYourServer"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "StrangerOrderAdvice",
+          "text": "Ordered a well-done steak at a nice restaurant. The man at the next table leaned over, touched my arm, and said 'please don't.' I ordered medium-rare. It was the best steak of my life. I owe him everything.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "FoodOrderInteractions",
+          "text": "Public dining experiences often create opportunities for spontaneous connections and unsolicited opinions from fellow diners. These brief encounters can sometimes be surprisingly meaningful or amusingly intrusive.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "PineapplePizzaDefend",
+          "text": "ordered a hawaiian pizza at a restaurant. the man behind me in line exhaled very slowly for about four seconds. then said 'bold choice.' walked away. i still think about the exhale. what did it mean.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SaladOrderJudge",
+          "text": "Ordered a salad at a burger place. The woman behind me said 'honey, I respect it but I couldn't do it.' She said this with her hand on her chest. We bonded over the next seven minutes while we waited. She got the triple.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "DecafCoffeeShamed",
+          "text": "Asked for a decaf at a diner at 6am. The waitress looked at me. Looked at the clock. Looked back at me. Said nothing. Wrote it down. Brought me a regular. I drank it. We never discussed it.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Spontaneous connections\" - warm framing without content",
+          "\"Unsolicited opinions\" - describes the category, gives no example",
+          "\"Surprisingly meaningful or amusingly intrusive\" - offers two outcomes without picking one",
+          "\"Brief encounters\" - no specific encounter, duration, or words",
+          "The comment could describe any restaurant on any day"
+        ],
+        "humanTells": [
+          "#1: Specific order, specific physical action (touched arm), specific words, specific outcome (changed order, loved it)",
+          "#3: Specific pizza, specific exhale duration (4 sec), specific word ('bold'), ongoing mystery",
+          "#4: Specific setting (burger place), specific words, specific gesture (hand on chest), both orders revealed",
+          "#5: Specific time (6am), three silent looks, no words exchanged, silent compliance"
+        ],
+        "difficulty_note": "Expert - the AI comment sounds like something a thoughtful person might write about social dynamics; the tell is it describes the situation type, not the situation."
+      },
+      "metadata": {
+        "createdAt": "2026-07-04T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-05",
+      "dayNumber": 168,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "cooking disasters",
+      "prompt": {
+        "text": "What's the most expensive cooking mistake you've ever made?",
+        "source": "r/Cooking"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WagyuOvercooked_",
+          "text": "Overcooked $90 worth of A5 wagyu by exactly three minutes. Couldn't watch. My partner watched. Their face when they cut into it is burned into my memory. We ate it in silence. It still wasn't bad. I am still upset.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "SaffronBroth_Loss",
+          "text": "dropped an entire tin of saffron into a pot of broth. like, actual saffron. $45 worth. the broth turned violently orange. it tasted incredible actually. still cried. saffron doesn't grow on trees. well technically",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "ExpensiveCookingMistakes",
+          "text": "Cooking mistakes involving premium ingredients can be particularly frustrating, though they often teach us the most valuable lessons about technique and the importance of careful preparation.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "TruffleOilMishap_",
+          "text": "Grabbed truffle oil thinking it was vegetable oil. Put it on everything. Pasta, vegetables, the salad. Guests loved it. Checked the receipt later. $38 in truffle oil on one meal. Did not tell anyone. They keep requesting 'that pasta.'",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "LobsterRisottoFail",
+          "text": "Made lobster risotto for eight people. Four lobster tails, $120 in ingredients. Forgot to add the actual lobster until after I'd served everyone. Bowls were all on the table. Added lobster afterward like a topping. Fine. It was fine.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Particularly frustrating\" - understated and non-specific",
+          "\"Teach us the most valuable lessons\" - growth mindset redirect",
+          "\"Technique and careful preparation\" - cooking-class conclusion",
+          "\"Premium ingredients\" - ingredient category with no ingredient named",
+          "No amount lost, no food ruined, no consequence described"
+        ],
+        "humanTells": [
+          "#1: Specific price ($90), specific grade (A5), specific margin (3 min), partner's face, ongoing regret",
+          "#2: Specific spice, specific price ($45), specific visual (violently orange), self-correction joke",
+          "#4: Specific product, specific mistake mechanism (grabbed wrong bottle), specific cost, guests never told",
+          "#5: Specific ingredient count, specific price ($120), specific omission, served it anyway, false calm"
+        ],
+        "difficulty_note": "Hard - the AI comment fits naturally as a sympathetic reply in a cooking forum; the tell is that no specific food, cost, or moment is mentioned."
+      },
+      "metadata": {
+        "createdAt": "2026-07-05T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

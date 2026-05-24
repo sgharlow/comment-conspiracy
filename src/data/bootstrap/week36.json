@@ -1,0 +1,461 @@
+{
+  "week": 36,
+  "startDate": "2026-09-14",
+  "puzzles": [
+    {
+      "id": "2026-09-14",
+      "dayNumber": 239,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "relationships",
+      "prompt": {
+        "text": "What's the most embarrassing thing you've done to impress someone you liked?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FakeSki_Disaster",
+          "text": "Told a girl I could ski. Could not ski. She found out immediately. The bunny slope found out too. The ski patrol found out shortly after. She still married me. We do not ski.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "GuitarLie_Dan",
+          "text": "told my crush i played guitar. borrowed one. spent two weeks learning one song. played it for her. she said that's sweet but i just play that song on repeat in my car. she owned the same song on cd. did not help.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "ImpressingSomeone",
+          "text": "Trying to impress someone we care about is a very human experience that can sometimes lead to unexpected situations. These moments, while occasionally awkward, often reveal our genuine enthusiasm and desire to connect.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "CookingCatastrophe",
+          "text": "Claimed I could cook. Invited her to dinner. Googled 'impressive dinner' at 4pm. Attempted beef bourguignon. Served it at 11pm. She ate it out of pity. I married her. She does the cooking now.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "PoolSharkFail_",
+          "text": "Bragged I was good at pool in front of my crush. Scratched on the break shot. The cue ball flew off the table and hit the jukebox. It started playing a song. The song was 'Hit Me Baby One More Time.'",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Very human experience\" - distancing, clinical phrasing",
+          "\"Genuine enthusiasm and desire to connect\" - therapy-speak, not Reddit-speak",
+          "\"Occasionally awkward\" - massive understatement with no example",
+          "\"Unexpected situations\" - no situation described",
+          "No person, no stunt, no backfire, no consequence"
+        ],
+        "humanTells": [
+          "#1: Fake skiing, bunny slope, ski patrol, she married him anyway, no more skiing",
+          "#2: One song on repeat, crush owned it on CD, specific irony",
+          "#4: Googled at 4pm, beef bourguignon, served at 11pm, she does the cooking now",
+          "#5: Cue ball off table, hit jukebox, specific song named"
+        ],
+        "difficulty_note": "Easy - AI is mid-list and avoids any specifics while all four humans have embarrassing punchlines"
+      },
+      "metadata": {
+        "createdAt": "2026-09-14T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-15",
+      "dayNumber": 240,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "holidays",
+      "prompt": {
+        "text": "What's the most chaotic holiday meal you've been part of?",
+        "source": "r/thanksgiving"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "TurkeyFire2019_",
+          "text": "My uncle deep-fried the turkey in the garage. Caught fire. We ate KFC. The garage did not burn down but it did need repainting. We have done this every year since. He has not improved.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "HolidayMealMoments",
+          "text": "Holiday meals can sometimes take on a life of their own when family dynamics and kitchen logistics combine. Despite any chaos, these gatherings often create the most treasured memories we carry with us.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "WrongOven_Temp",
+          "text": "my mom set the oven to 450 instead of 350 by mistake. turkey was done in 90 minutes. we ate at 2pm instead of 6pm. grandpa called it the best thanksgiving of his life. he'd been waiting since 10am.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "ChristmasVeganGate",
+          "text": "My cousin announced she'd gone vegan at Christmas dinner. In front of the roast. My grandmother stared at her for a full 30 seconds without speaking. Then she served my cousin potatoes and didn't say a word for the rest of dinner.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "EasterDogStrike",
+          "text": "Our dog grabbed the Easter lamb off the counter during grace. Full leg of lamb. Dragged it under the table. We were mid-prayer. Nobody moved for 10 seconds. Then everyone moved at once.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Family dynamics and kitchen logistics\" - abstract framing",
+          "\"Treasured memories we carry with us\" - generic positive sentiment",
+          "\"Take on a life of their own\" - cliche with no event attached",
+          "No meal, no relative, no disaster described",
+          "Zero humor, zero specificity"
+        ],
+        "humanTells": [
+          "#1: Deep-frying fire, KFC backup, garage repaint, still happens annually",
+          "#3: Wrong temperature, 90-minute turkey, grandpa waited since 10am",
+          "#4: Vegan announcement mid-roast, 30-second grandmother stare, silent potatoes",
+          "#5: Dog took entire leg of lamb during grace, 10-second frozen moment, simultaneous scramble"
+        ],
+        "difficulty_note": "Easy - AI is second in line and immediately stands out as the one with no actual holiday disaster"
+      },
+      "metadata": {
+        "createdAt": "2026-09-15T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-16",
+      "dayNumber": 241,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "strangers",
+      "prompt": {
+        "text": "What's a time a stranger helped you in an unexpectedly big way?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "MissedFlight_Help",
+          "text": "Missed my connection in Dallas. A stranger saw me panicking and just handed me his Priority Pass card. Said he was flying home anyway and wouldn't use the lounge. I ate a full meal and caught the next flight. Never got his name.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "StrangerKindness_",
+          "text": "a woman at a gas station noticed i was reading a map wrong (yes a paper map) and spent 20 minutes re-routing my whole trip. drew on the map. folded it correctly. handed it back like she was a navigator. she kind of was.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "RandomActsMoments",
+          "text": "Strangers can have a profound impact on our lives in ways we might not expect. A simple act of generosity or kindness from someone we've never met can leave a lasting impression and restore our faith in humanity.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "FlatTireSavior_",
+          "text": "Got a flat tire on an empty stretch of highway at night. A semi-truck stopped. The driver changed my tire in 12 minutes flat, in the dark, with his own equipment, then drove away before I could offer money. Just honked.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "HospitalDirections",
+          "text": "Was trying to find a hospital in an unfamiliar city for a family emergency. A woman overheard me asking someone. She said 'follow me.' Got in her car. Drove me there. Waited in the parking lot to make sure I got in. Then left.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Restore our faith in humanity\" - cliche phrase that signals AI framing",
+          "\"Lasting impression\" - no impression described",
+          "\"Profound impact\" without any impact described",
+          "\"Someone we've never met\" - redundant given the prompt is about strangers",
+          "No stranger, no situation, no action, no outcome"
+        ],
+        "humanTells": [
+          "#1: Priority Pass card handed over, full meal eaten, caught next flight, name unknown",
+          "#2: Paper map correction, 20-minute re-route, drew on the map, folded it properly",
+          "#4: Semi driver, 12 minutes, dark highway, drove away before payment, just honked",
+          "#5: Overheard conversation, led to hospital in own car, waited in parking lot"
+        ],
+        "difficulty_note": "Medium - AI uses inspirational language that sounds heartfelt but describes nothing; humans have specific gestures and outcomes"
+      },
+      "metadata": {
+        "createdAt": "2026-09-16T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-17",
+      "dayNumber": 242,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "travel",
+      "prompt": {
+        "text": "What's the most bizarre hotel or Airbnb experience you've had?",
+        "source": "r/travel"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "HostGhostStory",
+          "text": "Airbnb host texted me at 2am to tell me about the ghost in the master bedroom. Said she 'forgot to mention it in the listing.' Said it's friendly but doesn't like men. I'm a man. Slept with the light on.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "HotelKeyMystery",
+          "text": "Checked into my room and found someone else's suitcase open on the bed. Clothes everywhere. Toothbrush in the bathroom. Called the front desk. They said that room was checked out this morning. It was not.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "TravelExperiences",
+          "text": "Hotels and short-term rentals can offer a wide range of experiences, from the unexpected to the memorable. These accommodations are often a significant part of any travel story and can shape how we remember a trip.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "CheckoutClock_",
+          "text": "stayed at a B&B in vermont where breakfast was served at exactly 7am and if you weren't there you got nothing. i woke up at 6:58. sprinted. they had already cleared my plate. the host watched me arrive. did not offer food.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SaunaHotelRoom",
+          "text": "Booked a 'wellness suite' in Finland. It had a sauna in the bathroom. The sauna was larger than the bed. I used the sauna at midnight. A neighbor knocked to ask if everything was okay. I said yes. It was.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Wide range of experiences, from the unexpected to the memorable\" - covers everything by naming nothing",
+          "\"Shape how we remember a trip\" - generic travel-blog filler",
+          "\"Significant part of any travel story\" - hollow observation",
+          "No hotel, no room, no host, no incident described",
+          "Could apply to literally any accommodation ever"
+        ],
+        "humanTells": [
+          "#1: 2am ghost text, friendly ghost dislikes men, he is a man, slept with light on",
+          "#2: Occupied room listed as checked out, stranger's toothbrush present",
+          "#4: 7am sharp breakfast, 6:58 wake-up sprint, plate cleared, host watched without acting",
+          "#5: Sauna larger than bed, midnight sauna, neighbor check-in, all fine"
+        ],
+        "difficulty_note": "Medium - AI is mid-list and sounds like a travel article intro; all human comments have a specific absurdity"
+      },
+      "metadata": {
+        "createdAt": "2026-09-17T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-18",
+      "dayNumber": 243,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "pets",
+      "prompt": {
+        "text": "What's the most dramatic thing your pet has faked or exaggerated?",
+        "source": "r/dogs"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "LimpSwitchdog",
+          "text": "My dog limped on his front left leg for two days. Vet said nothing was wrong. He limped on his front RIGHT leg leaving the vet's office. He's been fine ever since. The vet added a note to his file.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "HungerStrike_Cat",
+          "text": "my cat refused to eat her food for four days straight. vet checkup: completely fine. i gave up and bought her the fancy expensive food. she ate immediately. looked me dead in the eye while doing it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "DeadDog_Drama",
+          "text": "My golden retriever plays dead when he doesn't want to go inside. Full body flop, eyes closed, unresponsive. Won't move for treats. Will move if I pick up his leash and pretend to leave without him. He's 8. He invented this at 3.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "PetExpressions_",
+          "text": "Pets have a remarkable ability to communicate their feelings and preferences through behavior, even if the methods can be surprising. These moments reveal just how emotionally intelligent and expressive our animal companions can be.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "BreakfastActor_",
+          "text": "My dog acts like she's starving every morning. Full drama. Crying, spinning, pawing at the bowl. Then I found out my partner feeds her before I wake up. She has been double-collecting breakfast for six months. We compared notes.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Remarkable ability to communicate\" - generic praise",
+          "\"Emotionally intelligent and expressive\" - buzzwords, not a behavior",
+          "\"Animal companions\" - formal phrasing, not how Reddit pet owners talk",
+          "\"Even if the methods can be surprising\" - vague hedge",
+          "No specific pet, no drama faked, no outcome described"
+        ],
+        "humanTells": [
+          "#1: Limped on wrong leg leaving vet, vet added a note to file",
+          "#2: Four-day hunger strike, capitulated to fancy food, eye contact during eating",
+          "#3: Full flop, won't take treats, responds to fake departure, invented at age 3",
+          "#5: Double-collecting breakfast for six months, discovered by comparing notes"
+        ],
+        "difficulty_note": "Hard - AI is fourth, uses praise language that sounds engaged but describes no animal or behavior"
+      },
+      "metadata": {
+        "createdAt": "2026-09-18T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-19",
+      "dayNumber": 244,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "relationships",
+      "prompt": {
+        "text": "What's a small thing your partner does that you realized you'd deeply miss if it stopped?",
+        "source": "r/relationship_advice"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "MorningMumbler_",
+          "text": "My wife narrates the fridge every morning. Opens it, says 'well' very quietly, and closes it. She has been doing this for nine years. I have no idea what she is evaluating. I'm afraid to ask.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PocketSnackGuy",
+          "text": "my boyfriend always has a snack in his pocket. not for himself. for me. granola bar, wrapped candy, one time an orange. he started this on our second date and never explained it. i've never asked. the snacks keep coming.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "WeatherReporter_GF",
+          "text": "She texts me the weather forecast every morning even though I have the same weather app she does. She adds commentary. 'Dress warm. Not that warm. Your blue jacket.' This has been happening for 4 years.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "RelationshipSmalls",
+          "text": "The small, consistent gestures we share with our partners often carry more meaning than grand romantic expressions. These everyday moments quietly build the foundation of intimacy and remind us why we chose each other.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "SockSorter_Husband",
+          "text": "My husband sorts my socks differently than his own. His are stuffed into balls. Mine are folded flat. He's never mentioned it. I only noticed after 6 years. When I brought it up he acted like it was obvious and changed the subject.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Grand romantic expressions\" - cliche framing",
+          "\"Quietly build the foundation of intimacy\" - abstract and elevated",
+          "\"Remind us why we chose each other\" - hallmark-card conclusion",
+          "\"Carry more meaning\" - comparative claim with no comparison",
+          "No specific gesture, no person, no habit described at all"
+        ],
+        "humanTells": [
+          "#1: Fridge narration, nine years, single word 'well,' afraid to ask what it means",
+          "#2: Pocket snack policy, started second date, never explained, one time an orange",
+          "#3: Weather texts with wardrobe commentary, specific jacket named, four years",
+          "#5: Sock-folding asymmetry noticed after 6 years, subject changed when raised"
+        ],
+        "difficulty_note": "Expert - AI uses warm relational language that fits the prompt perfectly; only the absence of any specific gesture gives it away"
+      },
+      "metadata": {
+        "createdAt": "2026-09-19T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-20",
+      "dayNumber": 245,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "strangers",
+      "prompt": {
+        "text": "What's the most unexpected place you've made an unlikely friendship?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ERWaitingRoom_Pals",
+          "text": "Spent 7 hours in an ER waiting room next to a 78-year-old man who taught me to play gin rummy on a hospital tray. We exchanged numbers. He texts me every Thursday. I lose every time we play.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ImpoundLotFriend",
+          "text": "met my best friend waiting for our cars at the impound lot. we'd both been towed from the same block on the same night. we split a cab to the ATM. we've been friends for 11 years. both still park badly.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "FuneralReception_M",
+          "text": "Bonded with a stranger at a funeral reception. Turns out we were both there for different people and neither of us recognized anyone else. We left together, got coffee, and have met up annually ever since.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "UnlikelyConnections",
+          "text": "Friendships can form in the most unexpected places and circumstances, often when we least expect them. These connections remind us that human bonds can transcend the ordinary settings of daily life.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "JuryDutyBuddy_",
+          "text": "Made a close friend during three weeks of jury duty on a complicated case. We were not allowed to discuss the case. We talked about everything else. We still text. We agreed never to tell each other our verdicts.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"When we least expect them\" - redundant given the prompt asks about 'unexpected'",
+          "\"Human bonds can transcend\" - elevated language for a Reddit comment",
+          "\"Ordinary settings of daily life\" - vague placeholder",
+          "No setting, no person, no activity, no ongoing relationship described",
+          "Generic enough to be a response to almost any friendship-related prompt"
+        ],
+        "humanTells": [
+          "#1: ER waiting room, gin rummy on hospital tray, Thursday texts, always loses",
+          "#2: Same tow, same block, same night, cab to ATM, 11 years, still park badly",
+          "#3: Both at wrong funeral, neither knew anyone, annual coffee meetup",
+          "#5: Jury duty, 3-week complicated case, no verdict disclosure agreement"
+        ],
+        "difficulty_note": "Hard - AI uses language that fits the prompt emotionally but provides no friendship, no setting, no person"
+      },
+      "metadata": {
+        "createdAt": "2026-09-20T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

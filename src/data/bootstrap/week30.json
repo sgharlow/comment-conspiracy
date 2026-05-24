@@ -1,0 +1,454 @@
+{
+  "week": 30,
+  "startDate": "2026-08-03",
+  "puzzles": [
+    {
+      "id": "2026-08-03",
+      "dayNumber": 197,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "hiking",
+      "prompt": {
+        "text": "What's the biggest mistake you made on a hike that you'll never repeat?",
+        "source": "r/hiking"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "NoWaterMike",
+          "text": "Did a 14-mile desert trail in Arizona in July with 16 oz of water. Thought I'd be fine. I was not fine. Ranger found me sitting under a rock at mile 9 eating a granola bar I'd been saving since 2019.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "WrongBoots_Hike",
+          "text": "Wore brand new boots for a 12-mile hike. Zero break-in time. Got 3 miles in and both heels were bleeding. Finished the hike in my wool socks. Threw the boots in the trailhead dumpster on the way out.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "HikingLessons_",
+          "text": "Hiking mistakes are valuable learning experiences that help outdoor enthusiasts develop better preparedness and judgment for future adventures. Many experienced hikers cite early errors as the foundation of their safety knowledge.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "PhoneDeadTrail",
+          "text": "Left my phone at 4% battery and didn't bring a map. Trail split 8 different ways at the summit. Phone died. Picked a direction. It was wrong. Added 6 miles and 2 hours. Arrived at dark.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "CottonKiller_",
+          "text": "Hiked 11 miles in a cotton t-shirt in November in the Smokies. Got rained on at mile 5. The shirt held all the rain. Hypothermia warning by mile 8. A stranger gave me his fleece. Still have it.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Valuable learning experiences\" - recycled motivational phrase",
+          "\"Outdoor enthusiasts\" - generic audience label",
+          "\"Foundation of their safety knowledge\" - abstract without any incident",
+          "Mentions no hike, mistake, trail, or person"
+        ],
+        "humanTells": [
+          "#1: Specific state, specific month, specific mileage, specific water amount, specific ranger rescue, expired snack detail",
+          "#2: Specific mileage, specific injury, barefoot finish, dumpster disposal",
+          "#4: Exact battery %, summit splits, wrong choice, exact added distance and time",
+          "#5: Specific trail, month, mileage, specific cold-weather fabric failure, stranger's fleece still owned"
+        ],
+        "difficulty_note": "Easy - AI comment reads like a trail safety pamphlet opening paragraph with zero story"
+      },
+      "metadata": {
+        "createdAt": "2026-08-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-04",
+      "dayNumber": 198,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "gaming",
+      "prompt": {
+        "text": "What's a game mechanic you hated at first but ended up loving?",
+        "source": "r/gaming"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "StaminaBarHater",
+          "text": "Breath of the Wild's stamina wheel. Hated it. Kept falling off cliffs mid-climb in the rain. Screamed at it. Then realized I had to think and plan routes. Now I love games that force patience. Still hate rain climbing.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "GameMechanics_",
+          "text": "Game mechanics that initially feel frustrating often reveal deeper strategic value as players become more familiar with the system. This learning curve is an important part of player growth and engagement.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "PermadeathConvert",
+          "text": "Permadeath in Hades. Died 50 times and rage-quit three separate sessions. Then I started using each run to learn one new thing. Beat it on run 74. The death mechanic IS the story. Never going back to normal saves.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "TurnBasedHater",
+          "text": "Turn-based combat in Divinity: Original Sin 2. Thought it was slow and annoying coming from action RPGs. By hour 10 I was spending 20 minutes planning a single fight. My wife calls it chess. She's not wrong.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ManageFatigue_",
+          "text": "Sleep mechanic in Stardew Valley. Was so annoyed having to stop at 2am. Pushed past it constantly and passed out every night, losing items. Eventually learned to respect it. Farm runs smoother. Still angry about the fishing minigame though.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Reveal deeper strategic value\" - game-review buzzword phrasing",
+          "\"Learning curve\" - generic gaming phrase used without context",
+          "\"Player growth and engagement\" - developer/analyst language",
+          "Zero specific game, mechanic, or personal experience mentioned"
+        ],
+        "humanTells": [
+          "#1: Specific game, specific frustration (rain climbing), specific revelation, ongoing nuance",
+          "#3: Specific game, specific death count, specific strategy shift, specific win run number",
+          "#4: Specific game, specific prior genre, specific time investment, spouse's apt comparison",
+          "#5: Specific game, specific mechanic, specific consequence (losing items), specific remaining grievance"
+        ],
+        "difficulty_note": "Easy - AI comment sounds like a game-studies textbook sentence dropped into a personal story thread"
+      },
+      "metadata": {
+        "createdAt": "2026-08-04T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-05",
+      "dayNumber": 199,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "fitness",
+      "prompt": {
+        "text": "What's the weirdest compliment or comment you've ever gotten about your workout?",
+        "source": "r/Fitness"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WeirdCompliment_",
+          "text": "Guy came up to me after I finished squats and said 'You have very efficient hips.' That's it. He walked away. I've been thinking about it for 3 years. I don't know if it's a compliment.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "GymCommentLog",
+          "text": "A woman watched me do pull-ups for a while and then said 'You look like you're trying really hard.' I was. That was my max set. She seemed genuinely sympathetic. I thanked her. Awkward.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "GlutesAreMagic",
+          "text": "Personal trainer watched me deadlift and said 'Your glutes are telling a story.' Then he wrote something in his notepad and left. I still wonder what was in that notepad.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "LoudBreatherGuy",
+          "text": "Someone told me I breathe 'very cinematically.' I didn't know what that meant. He explained that I exhale like a movie trailer. I've never been able to breathe normally at the gym since.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "FitnessGrowth_",
+          "text": "Receiving feedback and comments at the gym can be a positive part of building community and staying motivated on your fitness journey. Even unusual comments can help create connections among gym-goers.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "\"Building community\" - gym-culture buzzword",
+          "\"Fitness journey\" - overused wellness phrase",
+          "\"Create connections among gym-goers\" - abstract and non-personal",
+          "No specific comment, compliment, exercise, or person mentioned"
+        ],
+        "humanTells": [
+          "#1: Specific body part named, specific duration of confusion, ambiguity left unresolved",
+          "#2: Specific exercise, observation timing, sympathetic delivery, awkward thank-you",
+          "#3: Specific movement, cryptic metaphor, notepad mystery still unsolved",
+          "#4: Specific unusual adjective, explanation requested, lasting behavioral change"
+        ],
+        "difficulty_note": "Medium - AI fitness-speak is recognizable but fits loosely into the comment thread topic"
+      },
+      "metadata": {
+        "createdAt": "2026-08-05T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-06",
+      "dayNumber": 200,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "collecting",
+      "prompt": {
+        "text": "What's the best find you've ever scored at a garage sale, flea market, or thrift store?",
+        "source": "r/flipping"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "GarageSaleGold",
+          "text": "Paid $2 for a box of 'old junk.' Inside was a 1952 Topps Mickey Mantle rookie card in a plastic sleeve. The seller had no idea. I had no idea until I got home. Sold it 14 months later for $4,100.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ThriftFlipKing",
+          "text": "Found an original 1977 Star Wars lobby card set at a Goodwill for $4. All 8 cards, complete, in a manila envelope. Sold to a collector within 72 hours on eBay for $610. The Goodwill was 20 minutes away.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "FlippingFinds_",
+          "text": "Secondhand shopping can uncover incredible treasures for those with a good eye and patience. These discoveries reflect the unpredictable nature of the resale market and the rewards of dedicated searching.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "RecordDealHunter",
+          "text": "Garage sale box of records, marked $1 each. Pulled an original pressing of Kind of Blue by Miles Davis and a sealed copy of Dark Side of the Moon. Paid $2 total. Played one and sold the other for $280.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "GarageJewelry_",
+          "text": "Bought a bag of \"costume jewelry\" for $5 at an estate sale. One ring had a maker's mark I looked up at home. It was a 1940s platinum and emerald cocktail ring. Appraised at $3,200. Still wearing it.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Good eye and patience\" - cliche collector phrase",
+          "\"Unpredictable nature of the resale market\" - abstract market-speak",
+          "\"Rewards of dedicated searching\" - motivational filler",
+          "No specific item, price, find, or venue described"
+        ],
+        "humanTells": [
+          "#1: Specific card, specific year, specific price paid, specific sale price, specific delay before selling",
+          "#2: Specific item set, specific store, specific price, specific time to sell, specific amount",
+          "#4: Specific artists/albums, specific price, specific action (played one, sold the other), amount",
+          "#5: Specific purchase price, specific identification method, specific jewelry description, still wearing it"
+        ],
+        "difficulty_note": "Medium - AI comment sounds like a thrift-shopping article intro; blends with the topic but has zero personal story"
+      },
+      "metadata": {
+        "createdAt": "2026-08-06T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-07",
+      "dayNumber": 201,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "sports",
+      "prompt": {
+        "text": "What's the most intense rivalry you've witnessed or been part of in a local sports league?",
+        "source": "r/sports"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "RecLeagueWars_",
+          "text": "Adult rec softball league. Two teams hadn't spoken since a disputed 2017 call at home plate. Both coaches told new players about the Incident before the first game. Opposing coaches won't shake hands. The umpire quit.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "BowlingRivalry_",
+          "text": "Thursday night bowling league, same two teams in the finals for 7 straight years. By year 4 they had matching team shirts with inside jokes about each other on the back. By year 7 they were carpooling together.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "LocalRivalry_",
+          "text": "Local sports rivalries can create powerful bonds within communities while also driving competitive intensity that elevates the quality of play. These relationships are often defining features of recreational leagues.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "PuddleHockeyFued",
+          "text": "Our pond hockey rivalry started when someone accused the other team of using longer sticks than the league allowed. Measurements were taken. Accusations made. Both teams now travel with a ruler.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "KidSoccerParents",
+          "text": "It wasn't the kids who were rivals. It was the sideline parents. Our 8-year-olds hugged after games. The parents had a separate Facebook group dedicated to documenting referee injustices. I was in that group.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Powerful bonds within communities\" - civics-essay language",
+          "\"Elevates the quality of play\" - sports-analysis cliche",
+          "\"Defining features of recreational leagues\" - abstract observation",
+          "No specific sport, team, incident, or league described"
+        ],
+        "humanTells": [
+          "#1: Specific sport, specific year of origin, specific behavior (handshake refusal), umpire casualty",
+          "#2: Specific sport, specific duration (7 years), evolution arc from rivals to carpoolers",
+          "#4: Specific sport, specific accusation, specific resolution (rulers), ongoing absurdity",
+          "#5: Inversion of expected rivalry (kids fine, parents not), Facebook group, self-inclusion confession"
+        ],
+        "difficulty_note": "Hard - AI uses the right community-sport vocabulary but offers only thesis sentences where humans tell stories"
+      },
+      "metadata": {
+        "createdAt": "2026-08-07T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-08",
+      "dayNumber": 202,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "hobbies",
+      "prompt": {
+        "text": "What's the most unexpected skill you developed as a side effect of a hobby?",
+        "source": "r/hobbies"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CheeseByAccident",
+          "text": "Got into home brewing beer. Needed to control fermentation temps. Built a temp controller. Now I'm an electrician-level wiring hobbyist who makes cheese on the side because the fermentation equipment does both.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "OrigamiPhysicist",
+          "text": "Started doing origami. Three years later I was reading papers on computational origami geometry and designing my own crease patterns. Got a paper accepted to a math journal. It started with a paper crane.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "HobbySkillGrowth",
+          "text": "Hobbies frequently develop transferable skills and unexpected competencies that enrich both the activity itself and other areas of life. The process of pursuing something you enjoy naturally builds capabilities you didn't anticipate.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "CosplaySewing_",
+          "text": "Started cosplay to wear the costumes. Ended up learning pattern drafting, thermoplastics forming, and LED circuit design. Now I do custom prop commissions. None of that was the plan. The plan was just to wear a cape.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "GardenToFerment",
+          "text": "Grew a garden to save money on vegetables. Had too many hot peppers. Made hot sauce. Hot sauce needed labels. Learned graphic design. Now I sell 200+ bottles a year of sauce with labels I designed. The garden still loses money.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "Opens with a charming setup but the punchline (\"garden still loses money\") is too clean and pre-packaged",
+          "\"200+ bottles\" and \"graphic design\" specifics are present but lack any gritty detail (no pepper variety, no label tool, no customer story)",
+          "Sentence rhythm is more polished than a casual Reddit post — each sentence is complete and well-formed",
+          "No friction or failure arc; the skill chain is too linear and tidy"
+        ],
+        "humanTells": [
+          "#1: Skill chain driven by a real problem (temp control), unexpected cheese side effect, equipment reuse logic",
+          "#2: Specific discipline (computational origami geometry), specific milestone (journal paper), humble origin (paper crane)",
+          "#4: Named specific materials (thermoplastics, LEDs), named specific outcome (prop commissions), remembered the original goal",
+          "#3 (Note: also generic but less subtle than #5): This is the obvious decoy — #5 is the actual AI"
+        ],
+        "difficulty_note": "Expert - AI comment uses a real hobby, real skills, and a comedic closer, making it very difficult to distinguish from genuine stories"
+      },
+      "metadata": {
+        "createdAt": "2026-08-08T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-09",
+      "dayNumber": 203,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "gaming",
+      "prompt": {
+        "text": "What's the most devoted thing you've ever done for a video game?",
+        "source": "r/gaming"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "AllNighterGamer",
+          "text": "Took a day off work to play the Elden Ring DLC launch. Set an alarm for 5am for the midnight Eastern release. Realized I'm in Pacific time. Stayed up until 3am. Played until 2pm. Called in sick again the next day.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "GamingDedication",
+          "text": "True gaming devotion often reflects a deep passion for interactive experiences and the desire to fully engage with crafted worlds and challenges. Many players form lasting memories through these committed gaming efforts.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "HundredPercentRun",
+          "text": "100%-completed Red Dead Redemption 2 in a single playthrough with no guides. Took 187 hours. Found all 178 plants. The last one was in a swamp I'd walked through 40 times. I cried when the achievement unlocked.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SpeedrunPractice_",
+          "text": "Practiced the same 47-second segment of a Super Mario 64 speedrun for 9 months. Reset 12,000 times by my estimate. Got the movement perfect. The category died 2 weeks later when a new route was found. Retired.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MinecraftArchitect",
+          "text": "Spent 4 years building a 1:500 scale replica of medieval Paris in Minecraft. Alone. No mods. 11 districts, 6,200 individual structures. Someone made a YouTube video about it without asking. 2.1 million views. They got paid. I got nothing.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Deep passion for interactive experiences\" - gaming-journalist boilerplate",
+          "\"Fully engage with crafted worlds\" - developer-speak",
+          "\"Lasting memories through committed gaming efforts\" - abstract and hollow",
+          "Describes no game, player, action, or sacrifice"
+        ],
+        "humanTells": [
+          "#1: Specific game, time zone error, specific hours played, sick day escalation",
+          "#3: Exact playtime, exact collectible count, exact remaining item location, emotional payoff",
+          "#4: Exact segment length, exact months practiced, approximate reset count, career-ending twist",
+          "#5: Exact years, exact scale, exact district count, exact structure count, YouTube injustice punchline"
+        ],
+        "difficulty_note": "Hard - AI placed second; surrounded by specific human stories which make the generic language contrast obvious"
+      },
+      "metadata": {
+        "createdAt": "2026-08-09T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "week": 24,
+  "startDate": "2026-06-22",
+  "puzzles": [
+    {
+      "id": "2026-06-22",
+      "dayNumber": 155,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "food",
+      "prompt": {
+        "text": "What's the most ridiculous thing you've eaten out of laziness?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "LazyEatingHabits",
+          "text": "When people are feeling lazy, they often make creative food choices that prioritize convenience over nutritional value. These moments reflect how hunger and effort interact in our daily routines.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "DryPastaEnjoyer",
+          "text": "Ate dry instant noodles out of the bag like chips. Didn't have the energy to boil water. That's not a metaphor. The pan was right there. I simply chose not to use it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "ColdSoupSurvivor",
+          "text": "ate soup directly from the can, cold, with a fork because all the spoons were dirty and i didn't want to wash one. the fork was also dirty but i rinsed it. standards exist",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "FrozenWaffle_Raw",
+          "text": "Ate a frozen waffle straight from the freezer. Untoasted. Ice crystals and everything. My roommate saw me. Hasn't spoken about it directly but I caught him googling 'is my roommate ok' the next day.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "CerealWithOJ",
+          "text": "Ran out of milk. Used orange juice on cereal. It was 2am and I had committed to cereal. Made a full bowl. Ate the whole thing. Would not repeat. Would not recommend. Could not explain.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Creative food choices\" - positive spin on eating poorly",
+          "\"Prioritize convenience over nutritional value\" - clinical framing",
+          "\"Hunger and effort interact\" - abstract sociology, not a story",
+          "\"Daily routines\" - could describe anyone anywhere",
+          "No food item, no time, no specific person mentioned"
+        ],
+        "humanTells": [
+          "#2: Specific food (dry noodles), pan proximity noted, deliberate choice",
+          "#3: Specific utensil logic, fork rinse compromise, dry wit",
+          "#4: Specific evidence (roommate's Google search), specific texture detail",
+          "#5: Specific time (2am), specific substitute, three-part punchline"
+        ],
+        "difficulty_note": "Easy - the AI comment is immediately recognizable as generic food-behavior commentary with no story whatsoever."
+      },
+      "metadata": {
+        "createdAt": "2026-06-22T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-23",
+      "dayNumber": 156,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "coffee",
+      "prompt": {
+        "text": "What's the most desperate thing you've done when you ran out of coffee?",
+        "source": "r/Coffee"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ColdBrewFromScratch",
+          "text": "Found old coffee grounds in the back of the cupboard. Label said 2019. Made a cold brew. Drank the whole thing. It tasted like a bad decision and mild regret. Still worked. 10/10 would do again.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "CaffeineDeprivation",
+          "text": "Running out of coffee can prompt resourceful and sometimes extreme measures as people seek to manage caffeine dependency. These situations highlight how central coffee has become to modern daily life.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "EspressoShot_Raw",
+          "text": "ate a spoonful of ground espresso straight. no water. no milk. just powder. it worked faster than any cup of coffee i've ever had. my hands shook for an hour. zero regrets. huge regrets.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "TeaSteepedTwice",
+          "text": "Steeped the same teabag six times trying to get enough caffeine. By cup three it was basically hot water with ambition. Drank all six. Told myself it was fine. Called my mom. She knew immediately something was wrong.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ChocolateChipCoffee",
+          "text": "Melted dark chocolate chips into hot water and drank it as coffee. Did this for three days before I went to the store. My coworkers noticed something was different. I did not tell them what.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Resourceful and sometimes extreme measures\" - vague without an example",
+          "\"Manage caffeine dependency\" - clinical phrasing",
+          "\"Central to modern daily life\" - sociological observation",
+          "\"Highlight how\" - analysis instead of anecdote",
+          "No specific substitution, no timeline, no person"
+        ],
+        "humanTells": [
+          "#1: Specific year on grounds, specific assessment (regret + worked), rating",
+          "#3: Specific method, physical consequence (shaking hands), self-contradiction punchline",
+          "#4: Specific count (6 steepings), diminishing returns described, mom's intuition",
+          "#5: Specific ingredient, specific duration (3 days), coworkers noticing, secret kept"
+        ],
+        "difficulty_note": "Easy - the AI comment reads like a health article intro; no one who actually ran out of coffee describes the experience this clinically."
+      },
+      "metadata": {
+        "createdAt": "2026-06-23T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-24",
+      "dayNumber": 157,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "restaurants",
+      "prompt": {
+        "text": "What's the worst restaurant experience you've ever had that still makes you laugh?",
+        "source": "r/TalesFromYourServer"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WrongOrderEveryTime",
+          "text": "Ordered a veggie burger. Got a regular burger. Sent it back. Got the same burger with a leaf of lettuce added. Sent it back again. Got my original burger back. I could tell because it had my bite mark.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "TableCollapse_Real",
+          "text": "The table folded in half mid-meal. Full plates of pasta everywhere. The waiter just stood there for a moment, then asked if we'd like another table. Yes. We would like another table. We'd like several things.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "DiningOutStories",
+          "text": "Waitress called me by the wrong name for the entire two-hour meal. I let it happen. When the check came she wrote 'Thanks Todd!' I'm not Todd. I left Todd a good tip. Todd deserved it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "MusicTooLoud_Date",
+          "text": "first date at a tapas place where the music was so loud we couldn't hear each other. we spent the meal nodding and smiling. at the end she leaned over and yelled 'i'm actually vegetarian' at my meat platter. still married",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "RestaurantLaughs_",
+          "text": "Bad restaurant experiences often turn into the best stories. Whether it's a mix-up with orders, an awkward server interaction, or unexpected surprises, dining out always has the potential to be memorable.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "\"Often turn into the best stories\" - retrospective positivity, no actual story",
+          "\"Mix-up with orders, awkward server interaction\" - lists categories, not experiences",
+          "\"Always has the potential\" - hedged optimism",
+          "\"Unexpected surprises\" - redundant vagueness",
+          "No specific restaurant, no specific incident, no specific person"
+        ],
+        "humanTells": [
+          "#1: Specific order, specific proof (bite mark), escalation chain",
+          "#2: Specific structural failure, waiter underreaction, sarcastic internal response",
+          "#3: Wrong name (Todd), let it happen, tipped Todd, sincere",
+          "#4: Specific setting (tapas), specific reveal (vegetarian + meat platter), married them"
+        ],
+        "difficulty_note": "Medium - AI sounds supportive and relatable but refuses to commit to any specific dining disaster."
+      },
+      "metadata": {
+        "createdAt": "2026-06-24T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-25",
+      "dayNumber": 158,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "baking",
+      "prompt": {
+        "text": "What's the biggest baking substitution disaster you've made?",
+        "source": "r/Baking"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ApplesauceForButter",
+          "text": "Swapped butter for applesauce in brownies because the internet said you could. The internet was technically correct. The brownies were also technically food. My husband took one bite and asked what had happened to them.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "BakingSubstitutions",
+          "text": "Ingredient substitutions in baking can produce unexpected results since baking relies on precise chemical reactions. Experimenting with alternatives can be both educational and humbling for home bakers.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "BakingSubs_Gone_Bad",
+          "text": "Substituting key baking ingredients often leads to results that teach us how precisely balanced these recipes truly are. Each surprising outcome is an opportunity to better understand the science behind our favorite treats.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "VinegarForEggs",
+          "text": "used vinegar and baking soda to replace eggs in a cake. technically a legitimate vegan substitute. the cake rose six inches and immediately collapsed when i opened the oven. it tasted like a chemistry class smells",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "OilForFlour_Oops",
+          "text": "Added twice the oil because I was multitasking and lost count. Muffins came out translucent. You could see through them a little. Somehow still edible. Gave them to my neighbor and watched her face.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Precisely balanced\" - technical framing, no personal stakes",
+          "\"Each surprising outcome is an opportunity\" - growth mindset boilerplate",
+          "\"Better understand the science\" - educational pivot avoids telling a story",
+          "\"Favorite treats\" - generic warmth",
+          "No substitute named, no specific result described"
+        ],
+        "humanTells": [
+          "#1: Specific swap (applesauce/butter), specific outcome, husband's exact reaction",
+          "#2: Has similar tone but names chemical reactions and has \"humbling\" as personal admission",
+          "#4: Specific substitute (vinegar+baking soda), specific failure (collapsed), sensory detail",
+          "#5: Specific mistake (double oil), specific visual result (translucent), neighbor's face"
+        ],
+        "difficulty_note": "Medium - comments #2 and #3 both sound somewhat educational, but #3 is more abstract and never names an ingredient or result."
+      },
+      "metadata": {
+        "createdAt": "2026-06-25T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-26",
+      "dayNumber": 159,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "cooking disasters",
+      "prompt": {
+        "text": "What's the meal you attempted that ended in the most chaos?",
+        "source": "r/casualiama"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ThanksgivingTurkey_",
+          "text": "Deep fried a turkey for the first time Thanksgiving 2019. Oil temperature wrong. Turkey went in. Fire went up. Neighbors called 911. Fire department ate leftovers. Dad hasn't let me cook since.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ChaoticCookingMeals",
+          "text": "Ambitious cooking projects sometimes spiral into unexpected challenges that test our patience and problem-solving abilities. These experiences, while stressful in the moment, often become cherished memories.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "HomemadePastaFail_",
+          "text": "Made homemade pasta. Rolled it too thin. It disintegrated in boiling water. The pot was full of wet flour. I strained it. I served the paste. My family called it 'soup.' They were being generous.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "WokOnFireAlarm",
+          "text": "first time using a wok on high heat. oil went everywhere. smoke alarm went off. boyfriend ran in from the shower. he slipped. the wok tipped. we ordered sushi. the kitchen still has a scorch mark",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SouffleCollapse_",
+          "text": "Made a cheese souffle for a dinner party. Six guests. Nailed the rise — it looked gorgeous through the oven window. Opened the door one second too soon. Watched it die in real time. Served it as 'rustic egg gratin.'",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Spiral into unexpected challenges\" - softens chaos into abstraction",
+          "\"Test our patience and problem-solving\" - life-coach framing",
+          "\"While stressful in the moment\" - dismisses the actual stress",
+          "\"Cherished memories\" - overly optimistic wrap",
+          "Not a single meal, ingredient, or person mentioned"
+        ],
+        "humanTells": [
+          "#1: Specific year, specific method (deep fry), specific consequence (911, firefighters ate)",
+          "#3: Specific failure mode (too thin, dissolved), family's polite lie",
+          "#4: Specific chain of events (shower, slip, tip), lasting evidence (scorch mark)",
+          "#5: Specific dish, specific guest count, specific pivot name ('rustic egg gratin')"
+        ],
+        "difficulty_note": "Hard - the AI comment sounds like something a supportive cooking coach would say; real chaos stories are always scene-specific."
+      },
+      "metadata": {
+        "createdAt": "2026-06-26T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-27",
+      "dayNumber": 160,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "food",
+      "prompt": {
+        "text": "What food did you think was normal growing up that turned out to be your family's unique invention?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "KetchupOnEggs_Was",
+          "text": "We always had ketchup on scrambled eggs. Like, a lot of ketchup. As in the eggs were more ketchup than egg. Thought this was universal. A college roommate saw me eat breakfast and cried a little.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "MayoOnWaffles",
+          "text": "My grandmother put mayo on waffles instead of butter. Called it 'cream.' We believed her. When I ordered waffles at a diner and asked for cream the server brought me coffee creamer and I had to eat it that way.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "PastaWithMilk",
+          "text": "Family pasta sauce had evaporated milk in it. We called it 'pink sauce.' Assumed this was Italian. Made it for Italian friends in college. They were quiet for a very long time before asking follow-up questions.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "FamilyFoodTraditions",
+          "text": "Growing up with unique family food traditions can shape our tastes and assumptions about what is normal. Discovering these variations through outside perspectives often leads to amusing and eye-opening moments of cultural self-discovery.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "SaltedOranges_",
+          "text": "My family salted oranges. Heavily salted. Like you'd salt fries. When I offered a friend a salt-orange at school, she looked at me like I'd handed her a live animal. I still salt them. I am not wrong.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Shape our tastes and assumptions\" - abstract framing",
+          "\"Amusing and eye-opening\" - thin emotional language",
+          "\"Cultural self-discovery\" - academic buzzword for 'someone told me this was weird'",
+          "\"Outside perspectives\" - no specific friend, no specific moment",
+          "No food item, no family, no actual revelation"
+        ],
+        "humanTells": [
+          "#1: Specific ratio (more ketchup than egg), college roommate cried",
+          "#2: Grandmother's specific euphemism ('cream'), diner confusion with coffee creamer",
+          "#3: Specific ingredient (evaporated milk), name ('pink sauce'), Italian friends' silence",
+          "#5: Specific comparison (like fries), friend's exact reaction, maintained stance"
+        ],
+        "difficulty_note": "Expert - the AI comment could almost pass as a reflective personal observation; the tell is that it describes the phenomenon without ever living in it."
+      },
+      "metadata": {
+        "createdAt": "2026-06-27T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-28",
+      "dayNumber": 161,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "cooking disasters",
+      "prompt": {
+        "text": "What cooking shortcut completely backfired on you?",
+        "source": "r/Cooking"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "InstantPotatoChef",
+          "text": "Used instant mashed potato flakes to thicken a beef stew. Added too many. The stew became a solid. I served it in slices. My family ate it. Nobody mentioned it. We don't talk about the Stew.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ShortcutsCooking_",
+          "text": "Taking shortcuts in cooking can sometimes lead to results that don't meet our expectations. These moments remind us that following established techniques often exists for good reasons.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "BlenderSoupHot_",
+          "text": "blended hot soup in a regular blender with the lid on. physics happened. lid launched. soup covered the ceiling. have you ever cleaned cream of tomato off a ceiling fan? you use a lot of paper towels",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "CookingShortcutFails",
+          "text": "Cooking shortcuts that seem efficient in the moment can sometimes create more work or produce unexpected outcomes. Understanding why recipes call for specific methods helps us make better decisions in the kitchen.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "MicrowavedMeat_",
+          "text": "Microwaved a steak to defrost it quickly before a dinner party. Cooked it all the way through. Grey, uniform, sad. Served it. Guests were polite. One asked if it was pork. It was a ribeye. A very expensive ribeye.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Efficient in the moment\" - framing with no personal experience",
+          "\"Unexpected outcomes\" - sanitized word for disaster",
+          "\"Understanding why recipes call for\" - lesson mode, not story mode",
+          "\"Better decisions in the kitchen\" - prescriptive conclusion",
+          "No shortcut named, no result, no kitchen described"
+        ],
+        "humanTells": [
+          "#1: Specific ingredient, specific failure mode (solid stew), served in slices, family silence",
+          "#2: Also somewhat general but has a tone of personal admission with 'our expectations'",
+          "#3: Specific appliance failure, physics joke, specific cleanup detail (ceiling fan)",
+          "#5: Specific cut (ribeye), specific cost implication, guest's mistaken ID"
+        ],
+        "difficulty_note": "Hard - comment #2 also sounds somewhat generic, making it tricky; but #4 is the one that teaches a lesson without experiencing one."
+      },
+      "metadata": {
+        "createdAt": "2026-06-28T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

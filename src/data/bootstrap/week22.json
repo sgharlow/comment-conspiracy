@@ -1,0 +1,454 @@
+{
+  "week": 22,
+  "startDate": "2026-06-08",
+  "puzzles": [
+    {
+      "id": "2026-06-08",
+      "dayNumber": 141,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "food fails",
+      "prompt": {
+        "text": "What's the most confidently wrong thing you've ever said about food?",
+        "source": "r/Cooking"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SashimiExpert_",
+          "text": "Told a table full of people that sashimi was just sushi without the seaweed. A Japanese chef was at the table. He corrected me very gently. For a very long time. I nodded throughout. I knew less at the end than I did at the start.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "FoodOpinions_",
+          "text": "Sharing food opinions confidently is a common experience that can lead to both connection and correction. These moments remind us that food is a rich and complex subject with something new to learn for everyone.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "GlutenExpert_",
+          "text": "i once argued confidently that gluten was a vegetable. for 8 minutes. to a group of people who all knew it wasn't. nobody corrected me mid-argument. only after. all of them had just waited. i found out from someone who wasn't there",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "BaconPlant_",
+          "text": "Told my nephew that bacon comes from a 'bacon plant.' He was 6. He believed me. Three years later he told his science class that bacon was a vegetable. His teacher called us. He was 9. I had to explain I was the source. We don't talk about this.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "CaviarsPrice_",
+          "text": "Loudly told my girlfriend that caviar was 'overrated fish eggs that anyone could make at home.' The restaurant owner was standing directly behind me. He had just come out of the kitchen. I ordered the pasta. The pasta was great. I never came back.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Rich and complex subject\" - generic food-writing phrase",
+          "\"Something new to learn for everyone\" - stock educational observation",
+          "\"Connection and correction\" - balanced framing with no personal stake",
+          "No specific food claim or embarrassing moment described"
+        ],
+        "humanTells": [
+          "#1: Japanese chef at table, long gentle correction, admitted knowing less after",
+          "#3: 8-minute monologue on gluten as vegetable, crowd waited silently, learned from a bystander",
+          "#4: Nephew believed the lie for 3 years, science class incident, age timeline tracked, still taboo",
+          "#5: Restaurant owner directly behind, specific food ordered as retreat, never returned"
+        ],
+        "difficulty_note": "Easy - the AI narrates food conversations abstractly; humans have specific witnesses, durations, and lasting consequences for their food opinions"
+      },
+      "metadata": {
+        "createdAt": "2026-06-08T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-09",
+      "dayNumber": 142,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "technology",
+      "prompt": {
+        "text": "What's the most embarrassing tech mistake you've made in front of others?",
+        "source": "r/talesfromtechsupport"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "PrinterMagic_",
+          "text": "Spent 40 minutes on a support call trying to fix my printer. They asked if it was plugged in. It was not. I had a master's degree at the time. I mentioned this unprompted during the call. The technician paused before continuing.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ScrollBarStruggle",
+          "text": "my whole team watched me struggle with a presentation for 3 minutes because the slides weren't advancing. i kept clicking. someone finally said 'you're clicking the wrong window.' the powerpoint was behind my email. i had been clicking my inbox for 3 minutes.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "AutocorrectEmail",
+          "text": "Sent a company-wide email. Autocorrect changed 'public' to something else. IT caught it in 4 minutes. Was not fast enough. 47 people replied. Our email policy changed that week. I was not fired but the word 'incident' was used in the meeting.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "VideoCallFail_",
+          "text": "thought i was muted on a video call. gave a full running commentary on the meeting to my dog for 6 minutes. the dog was not helpful. 14 people heard everything. my manager asked 'any thoughts from you?' after i finished. i had to respond coherently. i did not",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "TechMistakeMoments",
+          "text": "Technology mishaps in professional settings are more common than many people realize and can happen to even the most experienced users. These moments, while uncomfortable, are a shared part of navigating modern digital tools.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "\"More common than many people realize\" - soft reassurance with no substance",
+          "\"Even the most experienced users\" - broad sympathy signal",
+          "\"Shared part of navigating modern digital tools\" - corporate-training framing",
+          "No specific tech mistake described at all"
+        ],
+        "humanTells": [
+          "#1: 40-minute call, unplugged printer, master's degree mentioned unprompted, technician's pause",
+          "#2: Wrong window for 3 minutes, entire team watching, email was behind PowerPoint",
+          "#3: Autocorrect disaster, 47 replies, policy changed, word 'incident' used officially",
+          "#4: 6-minute dog commentary, 14 witnesses, manager's invitation to respond, failure to recover"
+        ],
+        "difficulty_note": "Easy - the AI offers blanket reassurance with zero specifics while humans have timestamped disasters with named consequences"
+      },
+      "metadata": {
+        "createdAt": "2026-06-09T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-10",
+      "dayNumber": 143,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "exercise",
+      "prompt": {
+        "text": "What happened the first time you went to the gym and had no idea what you were doing?",
+        "source": "r/Fitness"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FirstGymExperience",
+          "text": "Starting at a gym for the first time can feel intimidating, but it is also an exciting step toward a healthier lifestyle. Most gym-goers are focused on their own routines and are generally happy to offer guidance if asked.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "MachineBackwards_",
+          "text": "used a leg press machine backwards for my entire first session. didn't know. felt like a great workout. saw someone use it correctly the following week. went home. sat quietly for a while.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "TreadmillEject_",
+          "text": "Got on the treadmill. It was already set to 9.5 mph by whoever used it before. Did not check. Did not reduce the speed. Started walking. Was ejected off the back within 4 seconds. A personal trainer witnessed this from across the room. We made eye contact. He looked away first.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "WeightRackWrong_",
+          "text": "Picked up a 45lb dumbbell, convinced it was light, and dropped it immediately on my own foot. The noise was significant. Six people looked. I pretended I was inspecting the floor. Hobbled to the locker room. Came back and did cardio with a visible limp.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "LockerRoomMap_",
+          "text": "spent 12 minutes looking for the locker room at my first gym. it was labeled. it was on my membership card map. i asked the front desk. they walked me to a door that was 8 feet from the front desk. it had a sign. the sign said locker room",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Exciting step toward a healthier lifestyle\" - wellness-marketing phrasing",
+          "\"Focused on their own routines\" - reassuring platitude with no incident",
+          "\"Generally happy to offer guidance\" - stock gym-newcomer encouragement",
+          "No first gym experience described whatsoever"
+        ],
+        "humanTells": [
+          "#2: Entire first session backwards, one-week delay to correct understanding, quiet reckoning",
+          "#3: Treadmill speed (9.5 mph), 4-second ejection, trainer eye contact, trainer looked away first",
+          "#4: 45lb dumbbell, foot drop, floor inspection cover, visible limp at cardio",
+          "#5: 12 minutes, membership card had a map, desk staff walked 8 feet, sign was visible"
+        ],
+        "difficulty_note": "Medium - the AI sounds like a gym welcome brochure while humans describe specific equipment failures and spatial confusion"
+      },
+      "metadata": {
+        "createdAt": "2026-06-10T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-11",
+      "dayNumber": 144,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "gift giving",
+      "prompt": {
+        "text": "What's the worst gift you've ever given or received, and how did it go?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ScaleGift_",
+          "text": "My aunt gave me a bathroom scale for my 16th birthday. Wrapped it in birthday paper. With a bow. No card. I said thank you and meant it because I didn't know what else to do. She nodded like she'd nailed it. She had not nailed it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "GiftGiving_Tips",
+          "text": "Gift-giving experiences can vary widely and sometimes lead to unexpected moments. The intention behind a gift often matters more than the gift itself, and these situations can reveal a lot about relationships and communication styles.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "ReGiftCaught_",
+          "text": "Regifted a candle. Was caught. The original gift card was still inside the candle box. With my name on it. From the person I regifted it to. She had given me that candle. The candle completed a full circuit in 8 months.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "WrappingFail_",
+          "text": "Gave my dad a 'World's Best Dad' mug for Father's Day. He has 3 already. Different sizes. All from me. He lines them up on the shelf. Doesn't say anything. Just points to the shelf when I walk in. I keep buying them.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "GiftListLogic",
+          "text": "bought someone exactly what they asked for on their wish list. crossed it off the list. the list was for their OWN shopping reference. not a gift list. they bought it themselves 2 weeks later. we now have 2. they have not returned mine. i have not asked",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Vary widely\" and \"unexpected moments\" - vague and uncommitted",
+          "\"Intention behind a gift often matters more\" - greeting-card philosophy",
+          "\"Reveal a lot about relationships and communication styles\" - pop-psychology framing",
+          "No specific gift or giver or reaction described"
+        ],
+        "humanTells": [
+          "#1: Specific gift (scale), specific age (16), aunt's confident nod, deadpan final verdict",
+          "#3: Regift caught, gift card still inside, original giver was the recipient, 8-month cycle",
+          "#4: 3 prior mugs from same person, shelf lineup, silent pointing ritual",
+          "#5: Wish list misread as gift list, duplicate item, neither party addressing it"
+        ],
+        "difficulty_note": "Medium - the AI comment sounds like a gift etiquette article; each human story has a specific failed transaction with a named irony"
+      },
+      "metadata": {
+        "createdAt": "2026-06-11T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-12",
+      "dayNumber": 145,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "workplace",
+      "prompt": {
+        "text": "What's the most embarrassing thing that's happened to you at a job?",
+        "source": "r/WorkStories"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "MeetingAsleep_",
+          "text": "Fell asleep in a company-wide meeting. Woke up when people started clapping. Joined in. My manager was the one they were clapping for. She saw me join in half a second late. She has mentioned it once a year at my review since. It's been 4 years.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "WrongFloor_",
+          "text": "had my first week at a new job. got off on the wrong floor. spent 45 minutes working at a desk before realizing i was at a completely different company. same building. different company. they were very polite. walked me to the elevator. did not offer me a job",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "BossRoast_",
+          "text": "Made a joke about my boss in the break room. Turned around. My boss was directly behind me with a coffee. He had heard everything. He laughed. But it was the kind of laugh where you know you're not getting the good projects for a while.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "ResumeBlunder_",
+          "text": "put my old company's name on a client proposal instead of the client's company name. sent it to 12 people. including the client. the account manager caught it 11 minutes after it was sent. client mentioned it in the next call with a smile. it was not a good smile",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "JobExperiences_",
+          "text": "Workplace moments that feel embarrassing in the moment often become the stories that define a team's culture and create lasting bonds. Most colleagues respond with empathy and humor when these situations arise.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "\"Define a team's culture and create lasting bonds\" - corporate values language",
+          "\"Respond with empathy and humor\" - HR training phrasing",
+          "No specific workplace incident described",
+          "\"In the moment\" - hedging phrase that avoids committing to any outcome"
+        ],
+        "humanTells": [
+          "#1: Clapping half a second late, manager saw it, 4-year annual review tradition",
+          "#2: 45 minutes at wrong company's desk, polite escort to elevator, no job offer noted wryly",
+          "#3: Boss directly behind with coffee, laugh described with specific subtext",
+          "#4: 12 recipients, 11-minute catch window, client's specific unsmiling smile on call"
+        ],
+        "difficulty_note": "Hard - the AI sounds like a corporate retreat facilitator; humans share specific moments of professional exposure with named observers and lasting consequences"
+      },
+      "metadata": {
+        "createdAt": "2026-06-12T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-13",
+      "dayNumber": 146,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "parenting",
+      "prompt": {
+        "text": "What's something a kid said that you had absolutely no good answer for?",
+        "source": "r/Parenting"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WhyIsGrassGreen",
+          "text": "My 5-year-old asked why grass is green. I said chlorophyll. She asked why chlorophyll is green. I said photons. She asked what a photon is. I said 'it's a kind of light.' She said 'but what IS it.' I told her we'd look it up later. We never looked it up. She's 9 now.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ChildrenQuestions",
+          "text": "Children's questions can be surprisingly deep and thought-provoking, often catching adults off guard with their natural curiosity. These moments are wonderful opportunities to explore ideas together and model intellectual humility.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "WhoMadeGod_",
+          "text": "son asked 'who made God?' i said nobody. he said 'but everything has a maker.' i said that's different. he said 'how.' i said 'because.' he looked at me for about 4 seconds and went back to watching cartoons. i felt like i had failed a philosophy exam",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "DieQuestion_",
+          "text": "Daughter asked when I'm going to die. I said not for a long time. She asked how long. I said I don't know. She said 'but you're already pretty old.' She was 4. She went back to coloring. I sat with that for the rest of the afternoon.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "FavoriteParent_",
+          "text": "my kid asked 'do you ever wish i was different?' i had been a parent for 6 years and was not ready for this question. i said no absolutely not. she said 'even when you're mad at me?' i said especially then. she nodded. went upstairs. i cried a little in the kitchen",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Surprisingly deep and thought-provoking\" - patronizing framing about kids",
+          "\"Wonderful opportunities to explore ideas together\" - parenting-blog language",
+          "\"Model intellectual humility\" - educational jargon with no situation attached",
+          "No specific question or child mentioned at all"
+        ],
+        "humanTells": [
+          "#1: Full regression chain of questions (chlorophyll, photon), promised follow-up never happened, 4-year gap noted",
+          "#3: 'How' countered with 'because', child's 4-second assessment, cartoon return, philosophy exam metaphor",
+          "#4: 'Already pretty old' at age 4, coloring resumed, afternoon-long residue",
+          "#5: 6-year parenting experience, follow-up question about anger, kitchen cry"
+        ],
+        "difficulty_note": "Expert - the AI offers a parenting-coach summary; human stories have exact child ages, specific dialogue chains, and emotional aftermath that's hard to fake"
+      },
+      "metadata": {
+        "createdAt": "2026-06-13T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-14",
+      "dayNumber": 147,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "apartment living",
+      "prompt": {
+        "text": "What's the strangest situation you've been in because of thin walls or shared spaces in an apartment?",
+        "source": "r/mildlyinfuriating"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ApartmentLife_",
+          "text": "Apartment living often means navigating shared spaces and thin walls with creativity and patience. These experiences, while sometimes frustrating, build a sense of community and offer a unique window into the lives of those around us.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "SharedWallStories",
+          "text": "neighbors above me were learning to play bongos. badly. for 4 months. i could map their progress. i knew when they hit a milestone because the rhythm would change. by month 3 i was genuinely rooting for them. they stopped right when they were getting good",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "LaundryRoomDrama",
+          "text": "Shared laundry room, left my clothes in the dryer 11 minutes too long. When I came back, my clothes were in a neat pile on top of the dryer and a note had been placed underneath that said 'please be timely.' The note was laminated. This was not the first note.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "ThinWalls_Larry",
+          "text": "Could hear my neighbor's phone alarm through the wall every morning at 6:15. He slept through it for 22 minutes every time. Same pattern. For 8 months. I synced my schedule to his alarm. He moved out. I still wake up at 6:15. He took his alarm and left me with the habit.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ElevatorEncounter",
+          "text": "My upstairs neighbor knocked on my door to tell me my cooking smelled great and asked what I was making. I told her. She asked for the recipe. I gave it to her. A week later she knocked again to say it turned out well. We have never introduced ourselves. I don't know her name. She knows my recipe.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Navigating shared spaces with creativity and patience\" - property management brochure language",
+          "\"Build a sense of community\" - generic positive spin",
+          "\"Unique window into the lives of those around us\" - abstract framing, no situation",
+          "No specific shared-wall or apartment incident described"
+        ],
+        "humanTells": [
+          "#2: 4-month bongo arc, progress mapped, milestone recognition, stopped at peak",
+          "#3: 11-minute overstay, laminated note, phrase on note quoted, not first offense implied",
+          "#4: 6:15 alarm, 22-minute snooze pattern, 8 months tracked, habit outlasted neighbor's tenancy",
+          "#5: Recipe exchange over two visits, no names exchanged, asymmetric knowledge (recipe known, name not)"
+        ],
+        "difficulty_note": "Hard - the AI sounds like apartment-complex marketing copy while humans have tracked neighbor behaviors with specific timelines and one-sided relationship dynamics"
+      },
+      "metadata": {
+        "createdAt": "2026-06-14T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "week": 31,
+  "startDate": "2026-08-10",
+  "puzzles": [
+    {
+      "id": "2026-08-10",
+      "dayNumber": 204,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "fitness",
+      "prompt": {
+        "text": "What exercise did you think was easy until you actually tried it?",
+        "source": "r/Fitness"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "JumpRopeHumbled",
+          "text": "Jump rope. I laughed at the elementary school kids struggling with it at double dutch. Picked one up at 31. Could not complete 10 consecutive jumps. Caught it on my shins 40 times in 5 minutes. Humbling.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ExerciseDifficulty",
+          "text": "Many exercises that appear simple can present surprising challenges due to the specific muscle groups and coordination patterns they require. This discovery is a common and motivating part of starting a new fitness routine.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "WallSitVictim_",
+          "text": "Wall sit. Looked easy. Lasted 23 seconds my first attempt. The burn started at 8 seconds. I told no one. Practiced privately for 3 weeks before trying it in front of anyone again.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "YogaNotEasy_",
+          "text": "Tree pose in yoga class. I'm a 220-pound former linebacker. Fell over into the person next to me 4 times. She was very patient. Her mat is now far away from mine. We both prefer it this way.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "BurpeeEnemy_",
+          "text": "Burpees. Trainer said 'do 20.' I did 6 and had to stop. He watched patiently. I finished in 3 minutes. He said 'good effort.' Those are the two worst words I've ever heard.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Specific muscle groups and coordination patterns\" - textbook exercise physiology language",
+          "\"Common and motivating part\" - generic encouragement",
+          "\"Starting a new fitness routine\" - assumes context rather than sharing one",
+          "No exercise named, no attempt described, no failure moment recounted"
+        ],
+        "humanTells": [
+          "#1: Specific exercise, specific prior mockery, specific age, specific attempt count, specific injury (shins)",
+          "#3: Specific exercise, exact seconds lasted, exact burn onset time, 3-week private practice",
+          "#4: Specific exercise, specific personal stats, specific fall count, specific spatial outcome",
+          "#5: Specific exercise, specific count assigned vs achieved, exact time, damning two-word quote"
+        ],
+        "difficulty_note": "Easy - AI uses fitness-instruction voice with no personal story; contrast with specific failure accounts is immediate"
+      },
+      "metadata": {
+        "createdAt": "2026-08-10T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-11",
+      "dayNumber": 205,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "hiking",
+      "prompt": {
+        "text": "What's the funniest thing you've seen another hiker do on the trail?",
+        "source": "r/hiking"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "HikerMoments_",
+          "text": "Trails bring together people of all experience levels, leading to memorable and sometimes humorous interactions. Observing fellow hikers can be a delightful part of the outdoor experience.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "MapConfusion_",
+          "text": "Watched a guy confidently leading a group of 6 people, then stop and rotate his paper map 4 times, turn around, and lead them back the exact direction they came. Nobody questioned him. They just followed.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "TrekPolesMishap",
+          "text": "Guy on a flat paved path was using trekking poles with extreme intensity. Like summiting Everest. Swinging them hard, breathing heavy, full-body commitment. The path was 200 meters long and ended at a parking lot.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "DogBackpackHike",
+          "text": "Man had a tiny Chihuahua in a backpack carrier with its little head sticking out wearing sunglasses. The dog had better gear than most of the humans on the trail. The dog also looked completely miserable.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "LostButConfident",
+          "text": "A couple had a full argument for 10 minutes at a junction about which trail was which. Both were wrong. A 7-year-old read the sign and told them. They thanked him and walked away like nothing happened.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"People of all experience levels\" - generic inclusivity phrase",
+          "\"Memorable and sometimes humorous interactions\" - vague non-observation",
+          "\"Delightful part of the outdoor experience\" - travel-brochure closing",
+          "Describes no specific trail, hiker, or funny incident"
+        ],
+        "humanTells": [
+          "#2: Map rotation count, group size, reversal, follower compliance — specific sequence",
+          "#3: Specific terrain (flat paved path), specific poles usage, specific path length, ironic endpoint",
+          "#4: Specific dog breed, specific accessories (sunglasses), specific dog emotional state, gear comparison",
+          "#5: Specific dispute duration, junction setting, child intervener, no-acknowledgment resolution"
+        ],
+        "difficulty_note": "Easy - AI comment placed first; immediately recognizable as vague against highly specific stories"
+      },
+      "metadata": {
+        "createdAt": "2026-08-11T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-12",
+      "dayNumber": 206,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "gaming",
+      "prompt": {
+        "text": "What's the longest you've ever been stuck on a single puzzle or boss in a game?",
+        "source": "r/gaming"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WaterTempleWoes",
+          "text": "Water Temple in Ocarina of Time. 1998. 6 days. No internet. Called the Nintendo hotline. Put on hold. Solved it while on hold. Never mentioned it to the operator when they picked up.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "RubberDuckSaved",
+          "text": "Stuck on a Professor Layton puzzle for 11 days. Thought it was broken. Explained it to my roommate in frustration. Mid-explanation, I solved it. He said 'I didn't do anything.' Correct. But also critical.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "MargolemFight_",
+          "text": "Malenia in Elden Ring. 47 attempts. Gave up. Came back 3 weeks later. Beat her on attempt 48. I recorded it. I've watched the recording 12 times. I would do it again.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "GamingPersistence",
+          "text": "Challenging game sections test player persistence and problem-solving skills in meaningful ways. Many gamers look back on their most difficult gaming hurdles as some of their most rewarding accomplishments.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "MazesScarredMe",
+          "text": "Myst. Age 11. One puzzle. 2 weeks. My dad solved it in 20 minutes by approaching it logically. I'd been clicking randomly. He never let me forget it. I'm 38. He still brings it up at Thanksgiving.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Test player persistence and problem-solving skills\" - game-design textbook language",
+          "\"Meaningful ways\" - empty qualifier",
+          "\"Most rewarding accomplishments\" - generic positive outcome",
+          "No game, boss, puzzle, or duration mentioned"
+        ],
+        "humanTells": [
+          "#1: Specific game, specific year, specific days, Nintendo hotline, solved-while-on-hold irony",
+          "#2: Specific game, specific days, rubber-duck debugging dynamic, roommate's correct disclaimer",
+          "#3: Specific boss, exact attempts, 3-week break, recording habit, repeat willingness",
+          "#5: Specific game, specific age, specific weeks, dad's 20-minute solve, ongoing family legacy"
+        ],
+        "difficulty_note": "Medium - AI comment placed 4th; specific gaming stories before and after make the generic language obvious"
+      },
+      "metadata": {
+        "createdAt": "2026-08-12T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-13",
+      "dayNumber": 207,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "sports",
+      "prompt": {
+        "text": "What's the most dramatic finish to a game or match you've ever witnessed in person?",
+        "source": "r/sports"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "OvertimeStunner",
+          "text": "High school state hockey championship. 0-0 after 3 overtime periods. Shootout went 9 rounds. The last shooter was a freshman who'd never taken a shootout shot before. He scored. The bench erupted and knocked over the coach.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "WalkOffMemory_",
+          "text": "Minor league baseball walk-off grand slam in the bottom of the 9th. Down by 3. Two outs. Full count. The ball cleared the fence by 2 feet. Grown man next to me sobbed. We'd never met. We hugged.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "SoccerGoalMiracle",
+          "text": "Youth soccer. 3-0 down at halftime. Coach gave the worst halftime speech I've ever heard — just shrugged. Team scored 4 in 8 minutes. Winning goal was an own goal. We celebrated like we'd won the World Cup.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SportsDramaFan",
+          "text": "Live sporting events frequently produce unforgettable moments of drama that bring fans and participants together in shared emotional experiences. These finishes create lasting memories that define a fan's connection to their sport.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "TennisTiebreak_",
+          "text": "College tennis match tiebreak, 12-12. Both players had cramped up. Each point took 3 minutes. The crowd of 40 people was completely silent. The winner collapsed on court. His team carried him off. Nobody spoke for a minute.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Bring fans and participants together\" - sports-commentary cliche",
+          "\"Shared emotional experiences\" - generic fan-engagement language",
+          "\"Define a fan's connection to their sport\" - abstract thesis sentence",
+          "No sport, score, match, or moment described"
+        ],
+        "humanTells": [
+          "#1: Specific sport, specific match context, overtime count, shootout rounds, shooter's experience level, physical bench collision",
+          "#2: Specific sport, specific deficit, specific count, specific clearance distance, specific stranger interaction",
+          "#3: Specific scoreline, worst-speech description, specific goal count and time, own goal irony",
+          "#5: Specific score, cramp detail, point duration, crowd size, silent collapse, group carrying"
+        ],
+        "difficulty_note": "Medium - AI placed 4th of 5; the pattern breaks so it requires reading all comments to detect"
+      },
+      "metadata": {
+        "createdAt": "2026-08-13T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-14",
+      "dayNumber": 208,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "collecting",
+      "prompt": {
+        "text": "What's the one that got away — a collectible you passed on that you still regret?",
+        "source": "r/collecting"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "MissedPressings",
+          "text": "1973 original UK pressing of Dark Side of the Moon at a record fair. $60. Thought it was too much. Current value: $400-600 in that condition. That was 2009. I've checked eBay maybe 1,000 times since.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "RegretablePass_",
+          "text": "Found an original Kenner Boba Fett with rocket-firing backpack at a garage sale. Untested. $25. I put it back. Google said yes the same afternoon. It was gone. Rockets are why that version is worth $2,000+.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "CollectingRegret",
+          "text": "The regret of passing on a great find is a shared experience among collectors that often motivates more careful consideration in future hunting. These near-misses become memorable reminders of the unpredictability of the market.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "ComicMissed_",
+          "text": "Action Comics #1 reprint, 1976, found in a box I was sorting through at an estate sale. Passed on it thinking reprints were worthless. Looked it up driving home. Depending on condition: $200-800. Still in that box probably.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SneakerWalkedBy",
+          "text": "2003 Nike Air Yeezy sample pair — before Kanye's deal was public. Friend bought three pairs. I said 'sneakers aren't an investment.' They sold two pairs in 2012 for $8,000 each. I was wrong. Still friends. Barely.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "The story is too smooth — dates, figures, and a tidy punchline all line up perfectly",
+          "\"Still friends. Barely.\" is a polished comedy button that real collectors don't tend to end on",
+          "The specific items (Yeezy samples, pre-deal timeline) are accurate but the narrative arc is structurally too clean",
+          "No texture of doubt, research, or follow-up checking — just a complete resolved anecdote"
+        ],
+        "humanTells": [
+          "#1: Specific pressing details, specific price, ongoing eBay checking behavior (1,000 times)",
+          "#2: Exact find, price, specific research trigger, specific reason for item's value (rocket mechanism)",
+          "#4: Specific issue, specific year, specific reason passed, driving-home discovery, trailing uncertainty (\"still in that box probably\")",
+          "#3 (Note: sounds generic but is not the AI - it's a recognizable collector-community sentiment shared verbally) — #5 is the actual AI"
+        ],
+        "difficulty_note": "Hard - AI uses real collector knowledge with a punchy voice; the tell is the too-perfect story structure and the absence of ongoing uncertainty"
+      },
+      "metadata": {
+        "createdAt": "2026-08-14T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-15",
+      "dayNumber": 209,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "hobbies",
+      "prompt": {
+        "text": "What's the most obsessive research rabbit hole a hobby has pulled you into?",
+        "source": "r/hobbies"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WatchServicing_",
+          "text": "Bought a broken vintage Omega for $40 to learn watchmaking. To service it properly I needed to understand lubricant viscosity grades. That led to tribology papers. I have a folder with 340 PDFs. The watch runs now.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "BreadCrumbTrail",
+          "text": "Started baking sourdough. To improve my starter I read microbiology papers on wild yeast populations. Then I started swabbing different environments for yeast cultures. I now have 14 active cultures from different cities. The bread is excellent.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "ModelTrainDepth",
+          "text": "HO scale model railroading. To weather my locomotives accurately I needed to know the exact paint formulas used by Union Pacific in 1962. Found a retired UP painter on a forum. He mailed me paint chips. Still writing to him.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "HobbyResearch_",
+          "text": "Hobbies have a way of expanding far beyond their initial scope, leading enthusiasts into specialized fields of knowledge they never expected to explore. This depth of engagement is one of the most rewarding aspects of pursuing a passion.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "PhotographyLight",
+          "text": "Film photography led me into optics theory, which led into 19th century photographic chemistry, which led into sourcing original Victorian-era darkroom chemicals that are now controlled substances. Three months of paperwork. I can now develop tintypes.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Expanding far beyond their initial scope\" - generic self-help phrasing",
+          "\"Specialized fields of knowledge they never expected\" - vague without any field named",
+          "\"Most rewarding aspects of pursuing a passion\" - motivational closer",
+          "No hobby, research path, topic, or discovery described"
+        ],
+        "humanTells": [
+          "#1: Specific watch brand, specific price, specific discipline (tribology), specific PDF count, specific outcome",
+          "#2: Specific field (microbiology), specific research method (environmental swabbing), specific culture count, specific geographic detail",
+          "#3: Specific scale, specific railroad, specific year, specific sourcing story, ongoing pen-pal relationship",
+          "#5: Specific discipline chain (photography → optics → chemistry → controlled substances), paperwork detail, specific output (tintypes)"
+        ],
+        "difficulty_note": "Expert - AI is position 4 of 5 and surrounded by extremely deep and specific rabbit holes; generic phrasing is the only tell"
+      },
+      "metadata": {
+        "createdAt": "2026-08-15T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-16",
+      "dayNumber": 210,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "fitness",
+      "prompt": {
+        "text": "What's the most surprising thing you discovered about your own body through exercise?",
+        "source": "r/Fitness"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "BodyDiscovery_",
+          "text": "Exercise often reveals surprising things about individual physiology and physical capabilities that people would never discover without deliberately challenging their bodies. These revelations can reshape training approaches and personal understanding.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "LeftLegStronger",
+          "text": "Found out my left leg was significantly stronger than my right from 15 years of driving. Single-leg press confirmed it. Now I do unilateral leg work exclusively. My right leg is almost caught up after 8 months.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "HeartRateWeird_",
+          "text": "My resting heart rate was 54 bpm when I started tracking it. After 18 months of running I got it down to 41. Doctor said 'that's either excellent or concerning, let's test.' It was excellent. Barely.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "FlexibilityShock",
+          "text": "Started yoga at 44. Couldn't touch my toes week 1. By month 3 I could put my palms flat on the floor. Orthopedic surgeon said my hip flexors were 'historically tight' based on x-rays. I'm now looser than my 25-year-old coworker.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MigraineGone_",
+          "text": "Had migraines every 10 days for 6 years. Started lifting weights. Migraines dropped to once a month after 4 months. Neurologist had no explanation. She asked if I'd changed anything. I said 'yeah, I deadlift now.' She wrote it down.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Individual physiology and physical capabilities\" - clinical-textbook phrasing",
+          "\"Deliberately challenging their bodies\" - exercise-science speak",
+          "\"Reshape training approaches\" - coaching-manual language",
+          "No specific discovery, exercise, measurement, or body part mentioned"
+        ],
+        "humanTells": [
+          "#2: Specific cause (driving), specific test (single-leg press), specific duration of correction, specific progress",
+          "#3: Exact starting and ending heart rate, exact duration, doctor's specific hedging quote",
+          "#4: Specific age, specific week-1 inability, specific month-3 milestone, surgeon's specific diagnosis term, peer comparison",
+          "#5: Exact migraine frequency, exact years, exact reduction, exact time to change, specific doctor note behavior"
+        ],
+        "difficulty_note": "Hard - AI leads the list with exercise-science vocabulary; harder to spot as the first comment sets the tone"
+      },
+      "metadata": {
+        "createdAt": "2026-08-16T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

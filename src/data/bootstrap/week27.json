@@ -1,0 +1,461 @@
+{
+  "week": 27,
+  "startDate": "2026-07-13",
+  "puzzles": [
+    {
+      "id": "2026-07-13",
+      "dayNumber": 176,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "social-media",
+      "prompt": {
+        "text": "What's the most embarrassing thing you've ever accidentally posted publicly instead of privately?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "PublicPostSurvivor",
+          "text": "Posted my grocery list to my LinkedIn instead of my Notes app. 37 people liked it. Three recruiters commented 'love the hustle!' I left it up. It's still my most engaged post.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "StoryFail_Keisha",
+          "text": "Accidentally put my screen recording of me rage-quitting a game as a Facebook story instead of saving it to my camera roll. My aunt watched it. She called my mom. My mom called me. I am 34.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "DraftDisasterDan",
+          "text": "Hit 'publish' on a blog draft titled 'PLACEHOLDER DO NOT POST — my boss is a complete nightmare'. It had 200 words of me venting. He read it. He called it 'feedback he could work with.'",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "AccidentalPublicPosts",
+          "text": "Social media platforms can make it easy to accidentally share content more broadly than intended, leading to awkward or embarrassing situations that require a quick response.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "WrongGroupText_",
+          "text": "Sent a voice memo to my entire work Slack instead of my friend. It was me singing along to Shania Twain in my car, full commitment, not holding back. I got a standing ovation in the next all-hands.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Can make it easy to accidentally share\" - passive framing of a universal accident",
+          "\"More broadly than intended\" - euphemistic",
+          "\"Leading to awkward or embarrassing situations\" - generic outcome",
+          "\"Require a quick response\" - bland crisis management language",
+          "No specific platform, content, or personal reaction"
+        ],
+        "humanTells": [
+          "#1: LinkedIn grocery list, specific engagement (37 likes), recruiter comments, kept it up",
+          "#2: Specific platform (Facebook story), family chain reaction, age detail for irony",
+          "#3: Exact title, specific word count, boss's exact gracious response",
+          "#5: Specific platform (Slack), specific content (Shania Twain), workplace consequence"
+        ],
+        "difficulty_note": "Easy - AI offers bland social media safety tips while humans share vivid specific public humiliations"
+      },
+      "metadata": {
+        "createdAt": "2026-07-13T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-14",
+      "dayNumber": 177,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "programming",
+      "prompt": {
+        "text": "What's the worst variable name you've ever used or encountered in actual code?",
+        "source": "r/ProgrammerHumor"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CodeReviewNightmares",
+          "text": "Inherited a codebase where every variable in a 3000-line file was named after characters from Seinfeld. The core business logic was in a function called `george`. I never fixed it. I was afraid.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "VariableNameObserver",
+          "text": "Variable naming conventions are an important aspect of code readability and maintainability. Poor naming choices can create confusion and make future debugging significantly more challenging.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "TempTempTemp_",
+          "text": "Wrote a function 4 years ago with a variable called `temp_temp_ACTUAL_final_v3_USE_THIS`. Found it in prod last week. It's still there. I wrote a comment next to it. The comment says 'I know.'",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "NamingConventionFail",
+          "text": "Senior dev at my last job named every boolean variable with the prefix `isNotBadly`. So you'd have `isNotBadlyValid`. Logic was double-negated everywhere. He had 15 years of experience. I left.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "FooBarVeteran",
+          "text": "Found a variable called `dontTouchThisOrEverythingBreaks` in a 12-year-old codebase. It was referenced in 47 files. Nobody knew what it did. It had no comments. We touched it. Everything broke.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Important aspect of code readability\" - textbook software engineering language",
+          "\"Maintainability\" - jargon without irony or story",
+          "\"Significantly more challenging\" - safe corporate understatement",
+          "Sounds like it was pulled from a coding style guide",
+          "No war story, no specific name, no consequences"
+        ],
+        "humanTells": [
+          "#1: Specific codebase size (3000 lines), Seinfeld theme, specific function name, fear as reason for inaction",
+          "#3: Exact variable name with version suffix, prod lifespan (4 years), self-aware comment",
+          "#4: Specific prefix pattern, double-negation logic flaw, years of experience (15), resignation",
+          "#5: Exact variable name, file count (47), total ignorance, confirmed catastrophic touch"
+        ],
+        "difficulty_note": "Easy - AI recites coding best practices while programmers share specific legendary naming disasters"
+      },
+      "metadata": {
+        "createdAt": "2026-07-14T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-15",
+      "dayNumber": 178,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "internet",
+      "prompt": {
+        "text": "What's a website, forum, or online community that genuinely changed how you think about something?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ForumShapedMe",
+          "text": "Found a forum for people who restore vintage typewriters in 2011. I went in thinking it was nerdy. Left 4 hours later having learned more about mechanical tolerances than my engineering degree taught me.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "InternetMindshift",
+          "text": "Discovering online communities dedicated to specific areas of knowledge or interest can genuinely expand perspectives and provide insights that traditional media rarely covers.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "DebtFreeCommunity",
+          "text": "r/personalfinance changed everything for me at 26. Was making $52k and had zero savings. Followed the flowchart. Didn't understand half of it. Did it anyway. At 31 I had $40k saved. Chart works.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "ChessComForever",
+          "text": "Chess.com's puzzle rush at midnight made me understand pattern recognition in a way 10 years of school never did. Now I apply it to debugging code. I'm a better programmer because of a chess website.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "StackOverflowDad",
+          "text": "Stack Overflow taught me humility. Posted my first question confidently at 22. Got a three-paragraph comment explaining why my entire approach was wrong. Got a downvote. Cried a little. Am now a better engineer.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Dedicated to specific areas of knowledge or interest\" - vague placeholder category",
+          "\"Genuinely expand perspectives\" - buzzword pairing",
+          "\"Traditional media rarely covers\" - generic contrast with no specifics",
+          "No specific website, no specific belief changed, no before/after",
+          "Could describe any online community ever"
+        ],
+        "humanTells": [
+          "#1: Specific niche (vintage typewriters), specific year (2011), specific insight (mechanical tolerances), compared to degree",
+          "#3: Specific subreddit, specific age, specific income, specific savings outcome, trusts the flowchart",
+          "#4: Specific platform feature (puzzle rush), specific time (midnight), cross-domain transfer (debugging)",
+          "#5: Specific experience (downvoted first question), emotional response, long-term outcome"
+        ],
+        "difficulty_note": "Medium - AI speaks generically about 'online communities' while humans name specific platforms and track real changes"
+      },
+      "metadata": {
+        "createdAt": "2026-07-15T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-16",
+      "dayNumber": 179,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "tech",
+      "prompt": {
+        "text": "What's a tech thing your non-techy family member does that you've completely given up trying to fix?",
+        "source": "r/techsupport"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FamilyTechSupport",
+          "text": "My dad closes every Chrome tab individually, then closes the browser, then restarts the computer before opening Chrome again. Every single time. I've explained this four times. He says 'this is how I know it saved.'",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "GaveUpExplaining_",
+          "text": "My uncle takes a photo of his laptop screen with his phone to send screenshots. Refuses to learn keyboard shortcuts. The photos are always at an angle. He crops them in Instagram before sending.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "FamilyTechPatterns",
+          "text": "Many people develop their own intuitive approaches to using technology that may not align with standard practices but work well enough for their individual needs and habits.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "PrinterPanicMom",
+          "text": "My mom prints every email she receives. Has since 2003. Files them in binders by month. Can find anything in under 2 minutes. I spent 20 minutes looking for something yesterday. She found it in her binders first.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "BrowserHistoryDad",
+          "text": "My dad types the full URL into Google search instead of the address bar. Every time. Has done this since 2009. Got malware once from a phishing result. Still uses Google to reach Google.com.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Intuitive approaches\" - diplomatic AI framing for objectively wrong behavior",
+          "\"May not align with standard practices\" - hedging",
+          "\"Work well enough for their individual needs\" - non-committal validation",
+          "No specific person, no specific behavior, no frustrated resignation",
+          "Sounds like UX research describing user personas"
+        ],
+        "humanTells": [
+          "#1: Specific behavior sequence, specific explanation count (4), quoted dad's logic",
+          "#2: Specific relative (uncle), specific screenshot method (angled phone photo), Instagram crop detail",
+          "#4: Specific start year (2003), binder system, ironic productivity comparison",
+          "#5: Specific year (2009), specific incident (malware), ultimate irony (googles Google)"
+        ],
+        "difficulty_note": "Medium - AI diplomatically describes habits in abstract while humans document specific family tech trauma"
+      },
+      "metadata": {
+        "createdAt": "2026-07-16T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-17",
+      "dayNumber": 180,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "smarthome",
+      "prompt": {
+        "text": "What home automation project was supposed to make your life easier but made it significantly worse?",
+        "source": "r/homeautomation"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "HomeAssistantHell",
+          "text": "Spent 3 weekends automating my lights to turn on when I walk into a room. Motion sensors too sensitive. Lights started turning on when my cat walked by. Cat learned this. Cat now turns lights on at 4am deliberately.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "SmartLockNightmare",
+          "text": "Installed a smart lock with auto-lock. Set it to lock after 30 seconds. Locked myself out the first night carrying groceries. Locksmith cost $180. The lock cost $160. I now own a $340 regular lock.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "VoiceControlChaos_",
+          "text": "Set up voice-controlled everything. Impressive for two weeks. Then my toddler discovered she could turn off the TV mid-game by yelling. She did this for sport. We now have manual switches. She considers them a challenge.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "HomeAutomationPerspective",
+          "text": "Home automation projects offer significant potential benefits but can introduce unexpected complexities that sometimes outweigh the initial convenience they were designed to provide.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "RoboticVacuumRegret",
+          "text": "Scheduled the robot vacuum for 7am every day while I work from home. Sounds like a helicopter fighting a washing machine. Every single call at 7am. I've tried pausing it. It overrides me. I think it resents me.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Significant potential benefits\" - product launch boilerplate",
+          "\"Unexpected complexities\" - safe umbrella phrase",
+          "\"Sometimes outweigh the initial convenience\" - measured, both-sides framing",
+          "No specific device, project, cost, or personal failure",
+          "Written as if the author has never touched a smart home device"
+        ],
+        "humanTells": [
+          "#1: Specific timeframe (3 weekends), specific failure mode (cat exploit), cat's deliberate pattern",
+          "#2: Specific auto-lock duration (30 seconds), specific costs ($180 locksmith vs $160 lock), math punchline",
+          "#3: Specific child behavior, escalation arc, manual switch workaround, toddler arms race",
+          "#5: Specific schedule (7am), specific sound description, failed override attempts, anthropomorphized vacuum"
+        ],
+        "difficulty_note": "Hard - AI uses project-management language while homeowners document their specific automation disasters with costs and timelines"
+      },
+      "metadata": {
+        "createdAt": "2026-07-17T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-18",
+      "dayNumber": 181,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "gadgets",
+      "prompt": {
+        "text": "What's the most ridiculous troubleshooting step that actually fixed your problem?",
+        "source": "r/talesfromtechsupport"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "TurnItOffAndOn_",
+          "text": "Network switch at work kept dropping connections. IT tried everything for 6 hours. I walked by, bumped the rack, it came back. The fix was officially documented as 'percussive maintenance — one unit of force applied laterally.'",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "HairDryerSysadmin",
+          "text": "Production server kept throwing thermal errors. Couldn't find the source. Sysadmin borrowed a hair dryer from reception and blew it at the server rack. Errors stopped. Turned out the intake fan had a loose blade. Hair dryer vibrated it back into alignment.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "WalkAwayFix_Jake",
+          "text": "3D printer kept failing at exactly layer 47 of every print. Changed settings, replaced the nozzle, recalibrated twice. My roommate walked in, asked if I tried printing something else first. I did. Printed fine. Tried original file again. Printed fine. Never understood why.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "TroubleshootingInsights",
+          "text": "Technical troubleshooting sometimes yields surprising results when unconventional methods are applied, revealing that the root cause of an issue may be simpler or stranger than initially expected.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "StackedBookFix_",
+          "text": "Laptop overheated constantly. Bought a cooling pad. Still overheated. Placed a hardcover copy of Clean Code under it at a 5-degree angle. Never overheated again. The book has not moved in 3 years. It is load-bearing.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Unconventional methods are applied\" - passive, distanced",
+          "\"Root cause may be simpler or stranger than initially expected\" - fortune-cookie observation",
+          "\"Surprising results\" - vague and non-committal",
+          "No specific device, no specific fix, no consequence or resolution",
+          "Uses the word 'yielding' — a tell for formal AI register"
+        ],
+        "humanTells": [
+          "#1: Specific timeframe (6 hours), specific fix action (bumped rack), official documentation of the fix",
+          "#2: Specific source of borrowed tool (reception), specific root cause (loose fan blade), vibration mechanism",
+          "#3: Specific failure layer (47), specific attempted fixes, observer's suggestion, inexplicable resolution",
+          "#5: Specific book (Clean Code), specific angle (5 degrees), duration (3 years), load-bearing joke"
+        ],
+        "difficulty_note": "Expert - AI comment sounds plausibly observational and lacks obvious tells; humans provide absurdly specific mechanical details"
+      },
+      "metadata": {
+        "createdAt": "2026-07-18T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-19",
+      "dayNumber": 182,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "social-media",
+      "prompt": {
+        "text": "What's something that absolutely blew up online that you genuinely did not understand the appeal of?",
+        "source": "r/OutOfTheLoop"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ViralMissed_Theo",
+          "text": "The Bean video. All of Twitter was losing it. I watched it four times. I asked three coworkers to explain it. Nobody could. We all agreed it was funny but none of us knew why. Still think about it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "NeverGetNFTs",
+          "text": "NFTs. I spent a full weekend trying to understand the appeal. Read 12 articles. Watched 6 YouTube explainers. Asked a friend who owned one why he bought it. He said 'vibes.' I still own zero. Zero regrets.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "ViralContentPatterns",
+          "text": "Online trends and viral content often reflect broader cultural moments that resonate deeply with certain audiences while remaining puzzling or inaccessible to others who encounter them later.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "PokemonGoSurvivor",
+          "text": "Pokemon Go in 2016. Colleagues were wandering into the parking lot mid-meeting to catch something called a Snorlax. I downloaded it. Walked into a parking meter in front of 20 people. Deleted it immediately.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "IceBucketSkeptic",
+          "text": "Ice bucket challenge. I get the fundraising part. But my neighbor did it seven times in one week in different outfits. Each video had a unique hashtag. He nominated the same three people each time. They did it every time.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Reflect broader cultural moments\" - academic framing with zero substance",
+          "\"Resonate deeply with certain audiences\" - vague audience segmentation language",
+          "\"Puzzling or inaccessible to others who encounter them later\" - attempts empathy with both camps but says nothing",
+          "No specific trend, moment, or personal confusion",
+          "Structured like a media studies paper, not a Reddit comment"
+        ],
+        "humanTells": [
+          "#1: Named specific thing (Bean video), specific watch count (4), coworker confirmation, shared collective bafflement",
+          "#2: Specific research effort (12 articles, 6 videos), friend's exact explanation ('vibes'), specific stance (zero regrets)",
+          "#4: Specific year (2016), specific pokemon (Snorlax), physical accident (parking meter), specific witness count",
+          "#5: Specific repeat count (seven times), unique hashtag detail, recurring nominations, escalating commitment from nominees"
+        ],
+        "difficulty_note": "Hard - AI sounds like a media analyst while humans document their specific bewilderment with vivid evidence"
+      },
+      "metadata": {
+        "createdAt": "2026-07-19T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

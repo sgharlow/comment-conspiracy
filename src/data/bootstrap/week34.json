@@ -1,0 +1,461 @@
+{
+  "week": 34,
+  "startDate": "2026-08-31",
+  "puzzles": [
+    {
+      "id": "2026-08-31",
+      "dayNumber": 225,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "work",
+      "prompt": {
+        "text": "What's the most ridiculous meeting you've ever had to sit through?",
+        "source": "r/antiwork"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "MeetingsShouldDie",
+          "text": "Workplace meetings can sometimes lack clear purpose or agenda, leading to inefficient use of time and employee frustration. Organizations benefit from evaluating meeting necessity and ensuring that gatherings have defined objectives and desired outcomes.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "AgendaItemZero_",
+          "text": "Two-hour meeting to decide the color of the new office chairs. Blue or grey. Options presented by PowerPoint. Twelve slides. Slide 6 was a photo of someone sitting in a chair. We voted. Grey won. Six people cried. I am not kidding.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "ZoomHell_",
+          "text": "sat through a 90-minute 'alignment meeting' where every person said 'so, just to make sure we're all aligned' before speaking. we were all aligned before the meeting. the meeting was the problem. we scheduled a follow-up.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "CalendarBlocker_",
+          "text": "My manager booked a recurring 30-minute meeting every Monday titled 'check-in.' For 6 months it was just him asking if I had any questions and me saying no. We cancelled it in a meeting. That meeting also had no questions.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MeetingMinutesMike",
+          "text": "Mandatory town hall where the CEO spent 45 minutes explaining why the company was 'pivoting toward a more synergistic paradigm.' Nobody knew what that meant. He didn't take questions. There was a quiz after. I failed the quiz.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Can sometimes lack clear purpose or agenda\" - hedge-heavy and obvious",
+          "\"Inefficient use of time\" - management consultant language",
+          "\"Evaluating meeting necessity\" - corporate meta-meeting speak",
+          "\"Defined objectives and desired outcomes\" - meeting-about-meetings boilerplate",
+          "No specific meeting, no attendees, no outcome described"
+        ],
+        "humanTells": [
+          "#2: Specific duration (2 hours), specific decision (chair color), specific slide count (12), specific emotional outcome (6 people cried)",
+          "#3: Specific phrase repeated, specific pre-meeting state (already aligned), ironic follow-up scheduled",
+          "#4: Specific recurring format (30 min Mondays), specific duration (6 months), specific cancellation irony",
+          "#5: Specific executive, specific phrase (synergistic paradigm), specific format (quiz), specific outcome (failed)"
+        ],
+        "difficulty_note": "Easy - AI gives a corporate memo on meeting best practices while everyone else survived a specific pointless one"
+      },
+      "metadata": {
+        "createdAt": "2026-08-31T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-01",
+      "dayNumber": 226,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "school",
+      "prompt": {
+        "text": "What's a class you took in school that turned out to be completely useless?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CurriculumCritique_",
+          "text": "Keyboarding class. Mandatory. Eighth grade. The teacher made us cover our hands so we couldn't see the keyboard. She used a metronome. We typed to a metronome. I type 90 WPM now and I still hear that ticking.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ElectiveMistakes_",
+          "text": "took a semester-long class on cursive handwriting in 2011. we practiced every day. the teacher said it would be required for our whole lives. i have not written cursive once since 2012. my signature is a scribble and a loop. it passes.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "FutureApplications_",
+          "text": "Not all educational experiences translate directly into practical adult skills, and that's a normal part of any curriculum. However, many courses build foundational knowledge, critical thinking, and discipline that serve students in ways that aren't always immediately obvious.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "CheckbookBalancer_",
+          "text": "Spent an entire semester learning to balance a physical checkbook. It was 2009. I have never owned a checkbook. My bank app does this in real time. The teacher warned us 'banks make mistakes.' Mine has not.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SewingMachineSurvivor",
+          "text": "Home Ec, mandatory, 7th grade. Sewed a pillowcase for 9 weeks. It was terrible. The teacher kept saying 'you'll thank me someday.' I bought a pillow last year. It came with a case. I have not thanked her.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Not all educational experiences translate directly\" - academic distancing language",
+          "\"Normal part of any curriculum\" - defensive framing",
+          "\"Build foundational knowledge, critical thinking\" - education-policy speak",
+          "\"Aren't always immediately obvious\" - hedge that negates the premise",
+          "No class named, no year, no skill remembered or forgotten"
+        ],
+        "humanTells": [
+          "#1: Specific class, specific grade, specific teaching method (metronome + covered hands), specific lingering effect",
+          "#2: Specific year (2011), specific duration, specific teacher prediction, specific current signature",
+          "#4: Specific skill, specific year (2009), specific prediction made vs reality, specific bank track record",
+          "#5: Specific class, specific grade, specific timeline (9 weeks), specific teacher quote, specific recent counter-example"
+        ],
+        "difficulty_note": "Easy - AI defends curricula abstractly while humans name the specific class and why it was pointless"
+      },
+      "metadata": {
+        "createdAt": "2026-09-01T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-02",
+      "dayNumber": 227,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "sidehustle",
+      "prompt": {
+        "text": "What's the weirdest gig you ever took for money?",
+        "source": "r/sidehustle"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "GigWorkerConfess",
+          "text": "Got paid $80 to stand in a line for someone at the DMV for 4 hours. Brought a book. Left with a number. He showed up with 10 minutes to spare, took the number, and got his license renewed. He tipped $20. 10/10 gig.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "TaskRabbitVeteran",
+          "text": "assembled ikea furniture for strangers for two years. the money was fine. what haunts me is the couple who made me assemble a bunk bed, watched me the whole time, then had a full argument about whether it was level while i was still there. i left during the argument.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "HumanBillboard_",
+          "text": "Wore a hotdog costume and danced on a street corner for a grand opening. $15/hour. Did it for 6 hours. Made $90. A child tried to eat my arm. Their parent apologized. I was not offended. It was a good hotdog costume.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "FlexibleIncome_",
+          "text": "The gig economy offers a wide range of unconventional earning opportunities that can appeal to people seeking flexible income outside of traditional employment. These experiences can be memorable and sometimes provide unexpected personal or financial rewards.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "ProfessionalNapper_",
+          "text": "Signed up for a sleep study that paid $400 for two overnight stays at a university lab. They monitored everything. I had to stay awake until 3am and then sleep in a room with sensors on my head. Best $400 I ever made. I also have excellent sleep data.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Wide range of unconventional earning opportunities\" - generic overview",
+          "\"Appeal to people seeking flexible income\" - gig-economy talking point",
+          "\"Outside of traditional employment\" - definition of gig work restated",
+          "\"Unexpected personal or financial rewards\" - vague optimism",
+          "No actual gig, no dollar amount, no event described"
+        ],
+        "humanTells": [
+          "#1: Specific task (DMV line), specific pay ($80), specific duration (4 hours), specific tip ($20), specific rating",
+          "#2: Specific gig type, specific duration (two years), specific incident (argument while still present)",
+          "#3: Specific costume, specific rate ($15/hour), specific duration, specific revenue, specific child incident",
+          "#5: Specific payment ($400), specific conditions (sensors, 3am wake time), specific bonus (sleep data)"
+        ],
+        "difficulty_note": "Medium - AI summarizes gig work as a concept while everyone else has a costume, a sensor, or a stranger's argument"
+      },
+      "metadata": {
+        "createdAt": "2026-09-02T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-03",
+      "dayNumber": 228,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "office",
+      "prompt": {
+        "text": "What was the most passive-aggressive thing ever done in your workplace?",
+        "source": "r/mildlyinfuriating"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "StickieNoteArmy_",
+          "text": "Someone left a sticky note on the communal printer saying 'please be mindful.' Within a week there were 14 sticky notes debating what 'mindful' meant. One note said 'this note is not mindful.' That note got a response note.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PassiveAggression101",
+          "text": "Passive-aggressive behavior in the workplace often develops when direct communication feels unsafe or unwelcome. These indirect expressions of frustration can create tension and undermine team cohesion if not addressed through open dialogue.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "LunchLabelLawyer",
+          "text": "After someone stole my lunch three times I printed a laminated sign that said 'I know who you are. I'm watching. Enjoy the curry.' I did not know who it was. There was no curry in any of my lunches. The thefts stopped.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "EmailChainSurvivor",
+          "text": "coworker who didn't get a promotion started cc'ing the director on literally every email he sent. for 6 months. every internal email. the director eventually replied to one just saying 'please stop.' he did not stop immediately.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MeetingOptOut_",
+          "text": "Guy who hated mandatory fun events started accepting all calendar invites and then not attending. For a year. His response to event invites was always 'looking forward to it!' He came to zero. HR tracked it. He kept going.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Often develops when direct communication feels unsafe\" - clinical psychology framing",
+          "\"Indirect expressions of frustration\" - sanitized description",
+          "\"Undermine team cohesion\" - workplace-training buzzword",
+          "\"Addressed through open dialogue\" - conflict-resolution template",
+          "Zero passive aggression described — entirely meta"
+        ],
+        "humanTells": [
+          "#1: Specific escalating note war, specific count (14 notes), specific note content, recursive self-reference",
+          "#3: Specific theft frequency (3 times), specific bluff, specific result (thefts stopped), specific lie admitted",
+          "#4: Specific trigger (missed promotion), specific duration (6 months), specific director response, defiance detail",
+          "#5: Specific evasion tactic, specific duration (year), specific RSVP phrase, specific tracking, continued defiance"
+        ],
+        "difficulty_note": "Medium - AI analyzes passive aggression academically while humans were in the trenches of actual petty warfare"
+      },
+      "metadata": {
+        "createdAt": "2026-09-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-04",
+      "dayNumber": 229,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "careers",
+      "prompt": {
+        "text": "What's the most embarrassing thing that happened during your first week at a new job?",
+        "source": "r/jobs"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "Day1Disaster_",
+          "text": "Replied-all to a company-wide email instead of forwarding it to my friend. The email said 'this place is kind of a lot.' 847 recipients. My manager was among them. She replied 'we are a lot. welcome.' It has been six years.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "NewHireNightmares",
+          "text": "Starting a new job often comes with a learning curve and some initial mistakes as employees adjust to a new environment and culture. Most employers understand that new hires need time to acclimate and typically respond with patience and support.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "WrongBuildingBob",
+          "text": "showed up to the wrong building on day one. same company, different campus, 20 minutes away. called my new manager to ask where to badge in. she asked what i saw outside. i described a taco bell. that was not the office.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "BadgeGameFail_",
+          "text": "Introduced myself in the first all-hands as 'the new guy from Marketing.' I was hired for Finance. Entire company learned this before my department did. My Finance director heard it live. He laughed. I still work there. We don't discuss it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "LunchRoomLost_",
+          "text": "Accidentally sat in the CEO's personal chair in the cafeteria. It had no label. He came in, looked at me, and said 'that's my chair.' I stood up so fast I knocked over my tray. He sat down, watched me clean it up, and asked how my first day was going.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Often comes with a learning curve\" - generic onboarding language",
+          "\"Adjust to a new environment and culture\" - HR onboarding pamphlet",
+          "\"Respond with patience and support\" - best-case framing",
+          "No first-week incident described at all",
+          "Reads as advice to a new hire, not a story from one"
+        ],
+        "humanTells": [
+          "#1: Specific send mistake, specific email content, specific recipient count (847), specific manager reply, specific tenure (6 years)",
+          "#3: Specific error (wrong campus), specific locating method (call manager), specific landmark (Taco Bell)",
+          "#4: Specific wrong department claimed, specific live witness (Finance director), specific ongoing silence",
+          "#5: Specific chair incident, specific CEO response, specific physical consequence, specific follow-up question"
+        ],
+        "difficulty_note": "Hard - AI reassures new hires while humans relive specific first-week disasters that are now office legend"
+      },
+      "metadata": {
+        "createdAt": "2026-09-04T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-05",
+      "dayNumber": 230,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "money",
+      "prompt": {
+        "text": "What's the sneakiest way you found to negotiate a higher salary?",
+        "source": "r/personalfinance"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "NegotiationNinja_",
+          "text": "Got a competing offer I wasn't going to take and used it to get a $14k raise at my current job. The competing company was 90 minutes away and paid in a higher cost-of-living city. My boss didn't know any of that. I still work here.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "SalaryDataSleuth",
+          "text": "Found out a coworker with the same title made $18k more by looking at their accidentally-shared Google Sheet. HR had sent it to a distribution list instead of to one person. I forwarded it to myself, then requested a review citing 'market data.' Got $12k.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "OfferLetterTiming_",
+          "text": "Asked for a raise on the exact date my boss needed me to train my replacement for a project I exclusively owned. Said nothing about timing. Boss approved in the same meeting. I trained the replacement after the approval was in writing.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "CompensationStrategy",
+          "text": "Salary negotiation can be more successful when approached strategically with research, timing, and a clear understanding of your value to the organization. Many professionals find that being prepared with market data and a confident ask leads to positive outcomes.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "SilenceIsGolden_",
+          "text": "Said my number and then just stopped talking. Silence for eleven seconds. My interviewer filled it by saying 'we can probably do better than that.' I had said a number I was happy with. I did not correct their assumption. Got $9k more.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Can be more successful when approached strategically\" - coaching-speak",
+          "\"Clear understanding of your value to the organization\" - LinkedIn influencer phrase",
+          "\"Being prepared with market data\" - advice without a story",
+          "\"Confident ask leads to positive outcomes\" - motivational filler",
+          "No tactic described, no number, no employer, no outcome"
+        ],
+        "humanTells": [
+          "#1: Specific raise amount ($14k), specific leverage (competing offer), specific disqualifying details kept hidden",
+          "#2: Specific discovery method (accidental Google Sheet), specific raise amount ($12k), specific cover story",
+          "#3: Specific leverage moment (training their replacement), specific sequencing of approval before compliance",
+          "#5: Specific number said, specific silence duration (11 seconds), specific result ($9k more via their assumption"
+        ],
+        "difficulty_note": "Expert - AI gives salary advice as a life coach while humans share specific dollar amounts and the exact leverage they used"
+      },
+      "metadata": {
+        "createdAt": "2026-09-05T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-06",
+      "dayNumber": 231,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "sidehustle",
+      "prompt": {
+        "text": "What's the most you've ever made in a single day from a side hustle?",
+        "source": "r/sidehustle"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FlipperPro2024_",
+          "text": "Bought a gaming chair listed as 'broken, powers on' for $20. The remote was unplugged. Plugged it in. Sold it for $280 the same afternoon. Full day including pickup, listing photos, and sale: 3 hours. Best $260 I ever made.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "BoothDayBlitz_",
+          "text": "Set up at a craft fair selling home-baked dog treats. Made $0 the first hour. Then a golden retriever tried one and started doing zoomies in the aisle. Owner bought $90 worth. Everyone in line bought something after that. Cleared $740 by 2pm.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "SideIncomeInsights",
+          "text": "Single-day earnings from side hustles can vary widely depending on factors like effort, market conditions, and the specific opportunity pursued. Some individuals experience significant one-time windfalls that can be motivating milestones in their financial journey.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "MovingTruckMike_",
+          "text": "Borrowed my dad's truck on a Saturday and posted on Nextdoor offering to haul junk. Got three calls. Made $420 in one day hauling old furniture and two broken treadmills. Charged by the load. Dump fees were $35. Best ROI weekend ever.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "NotarizationNinja",
+          "text": "Got my mobile notary certification on a Thursday. My first signing appointment was Saturday. Estate closing. Paid $225 for 45 minutes of work and one tank of gas. Cried in the parking lot after. Good crying. Called my mom.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Can vary widely depending on factors\" - vague hedging",
+          "\"Effort, market conditions, and the specific opportunity\" - generic variables list",
+          "\"Significant one-time windfalls\" - imprecise, no amount named",
+          "\"Motivating milestones in their financial journey\" - personal-finance blog cliche",
+          "No hustle named, no dollar earned, no day described"
+        ],
+        "humanTells": [
+          "#1: Specific buy price ($20), specific fix (unplugged remote), specific sell price ($280), specific time investment (3 hours)",
+          "#2: Specific slow start, specific viral dog moment, specific first sale ($90), specific end total ($740), specific time",
+          "#4: Specific vehicle, specific platform, specific day total ($420), specific items, specific cost ($35 dump fees)",
+          "#5: Specific certification timeline, specific first gig type, specific pay ($225), specific duration (45 minutes), specific emotional reaction"
+        ],
+        "difficulty_note": "Hard - AI generalizes about side hustle variability while humans remember the exact dollar amount and exactly what made that day special"
+      },
+      "metadata": {
+        "createdAt": "2026-09-06T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

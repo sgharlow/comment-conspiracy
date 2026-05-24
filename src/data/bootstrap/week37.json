@@ -1,0 +1,461 @@
+{
+  "week": 37,
+  "startDate": "2026-09-21",
+  "puzzles": [
+    {
+      "id": "2026-09-21",
+      "dayNumber": 246,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "pets",
+      "prompt": {
+        "text": "What is your pet's most ridiculous daily ritual?",
+        "source": "r/aww"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "DoorGreeter_Dog",
+          "text": "My dog greets me at the door every day by bringing me a shoe. Not a pair. One shoe. Always from a different pair. We have no idea how she chooses. The mudroom is organized chaos.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "MirrorCat_Daily",
+          "text": "my cat checks himself in the bathroom mirror every morning. stands on the sink. looks at himself for 30 seconds. sometimes touches the glass. then leaves. he has been doing this for 3 years. we don't question it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "PetRituals_Post",
+          "text": "Pets often develop their own unique daily routines and rituals that can bring joy and amusement to their owners. These behaviors are a charming reminder of the individuality and character that pets bring to our homes.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "ZucchiniDog_",
+          "text": "My dog barks once at the back yard every morning at exactly 7:15am. Nothing is ever out there. He checks, confirms nothing is wrong, goes back inside. He has been doing quality control on the yard since 2021.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "PreBedRabbit",
+          "text": "My rabbit runs three laps around the couch every night before bed. Not two. Not four. Three. If something interrupts him during lap two he starts over. We found this out by accident.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Bring joy and amusement\" - generic positive emotion, no specific ritual",
+          "\"Charming reminder of individuality\" - filler phrasing",
+          "\"Character that pets bring to our homes\" - generic and empty",
+          "No pet named, no behavior described, no duration or outcome",
+          "Could be a caption for literally any pet photo"
+        ],
+        "humanTells": [
+          "#1: Always one shoe, never a pair, different pairs each time, mudroom described",
+          "#2: Mirror self-check, 30 seconds, sometimes touches glass, 3-year habit",
+          "#4: 7:15am barks exactly once, nothing out there, yard quality control since 2021",
+          "#5: Three laps exactly, restarts if interrupted, discovered by accident"
+        ],
+        "difficulty_note": "Easy - AI is third and immediately identifiable as the only comment with no animal behavior described"
+      },
+      "metadata": {
+        "createdAt": "2026-09-21T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-22",
+      "dayNumber": 247,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "travel",
+      "prompt": {
+        "text": "What's one food you ate abroad that you still think about?",
+        "source": "r/solotravel"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "TaiwanNoodleDream",
+          "text": "A bowl of beef noodle soup from a night market stall in Taipei. The owner was 80 years old. Didn't speak English. Pointed at the soup and nodded. It was the best thing I have eaten in 34 years of life.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "TravelFoodMemories",
+          "text": "Food experiences while traveling can be some of the most memorable and meaningful parts of a journey. Trying local cuisine abroad often opens us up to new cultures and creates lasting connections to the places we visit.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "PortugalPastelFan",
+          "text": "a pastel de nata from a bakery in lisbon that opened at 7am. i got there at 6:45. there was already a line. the pastry was still warm. i went back three times that trip. they were always out by 9.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "CzechSvickova_",
+          "text": "Svíčková in Prague. Tender beef in cream sauce with a bread dumpling. Got it at a restaurant with vinyl tablecloths and a TV playing football. Cost four dollars. I've tried to recreate it at home eight times. Cannot do it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MexicoCityTaco_",
+          "text": "Tacos al pastor from a guy with a vertical spit on the corner of Roma Norte in Mexico City at 11pm. I ate four. Then three more. I have tried to find the exact address again. I cannot. That block haunts me.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Memorable and meaningful parts of a journey\" - generic travel writing",
+          "\"Opens us up to new cultures\" - cliche without any culture mentioned",
+          "\"Lasting connections to the places we visit\" - no place, no connection described",
+          "No food item, no country, no restaurant, no flavor",
+          "Could be the intro paragraph of any travel article"
+        ],
+        "humanTells": [
+          "#1: Beef noodle soup, Taipei night market, 80-year-old owner, best in 34 years of life",
+          "#3: Specific pastry, 6:45am queue, warm, returned three times, gone by 9",
+          "#4: Svíčková named, vinyl tablecloths, four dollars, eight failed home attempts",
+          "#5: Specific taco type, specific neighborhood and hour, seven tacos eaten, address lost"
+        ],
+        "difficulty_note": "Easy - AI is second and uses no food words at all while four humans describe specific dishes vividly"
+      },
+      "metadata": {
+        "createdAt": "2026-09-22T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-23",
+      "dayNumber": 248,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "holidays",
+      "prompt": {
+        "text": "What's the most unexpected gift you've ever received?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "TractorGift2014_",
+          "text": "My grandfather gave me a riding lawn mower for my birthday. I live in a third-floor apartment. He said I'd need it someday. I stored it at his house. He mowed with it for 7 years. He passed it down again in his will.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "GiftWrappedBrick",
+          "text": "my dad wrapped a brick for christmas one year and put it under the tree. said he wanted to see how i'd react. i was 9. i cried. he felt bad. the real gift was behind the tv. i got a gameboy. i still have the brick too.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "GiftMomentsMatter",
+          "text": "Receiving a truly unexpected gift can be a moving experience that speaks to how well someone knows and appreciates you. These moments of thoughtful generosity often strengthen our relationships in meaningful ways.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "LifetimeOfCheese_",
+          "text": "Got a 24-month aged parmesan wheel for Christmas from my aunt. She said it was because I kept saying I wanted good cheese. She was not joking. It weighed 80 pounds. We kept it in the basement. It lasted two years.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "FrozenFishGift",
+          "text": "My coworker gave me an actual frozen salmon as a farewell gift. Whole salmon. Wrapped in brown paper. She said she caught it herself and wanted me to have the best one. I had to find a cooler. Drove it four hours home.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"How well someone knows and appreciates you\" - generic relational framing",
+          "\"Thoughtful generosity\" - no gift, no giver, no occasion mentioned",
+          "\"Strengthen our relationships in meaningful ways\" - motivational filler",
+          "\"Moving experience\" - vague emotional claim",
+          "Does not describe any gift at all"
+        ],
+        "humanTells": [
+          "#1: Riding mower for apartment-dweller, stored at grandfather's, used for 7 years, willed back",
+          "#2: Gift-wrapped brick, age 9, cried, real gift was Gameboy, kept the brick",
+          "#4: 80-pound parmesan wheel, kept in basement, lasted two full years",
+          "#5: Whole frozen salmon, brown paper, four-hour drive, needed a cooler"
+        ],
+        "difficulty_note": "Medium - AI is mid-list and sounds warm and appropriate; the total absence of any gift is the tell"
+      },
+      "metadata": {
+        "createdAt": "2026-09-23T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-24",
+      "dayNumber": 249,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "relationships",
+      "prompt": {
+        "text": "What's the weirdest thing you and your sibling bonded over?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SiblingChallenge_",
+          "text": "My brother and I spent an entire summer ranking every cereal we could find by sogginess rate. We had a spreadsheet. 47 cereals. We presented the results to our parents. They were not interested. The data still exists.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "FamilyBondingTime",
+          "text": "Siblings often find common ground in the most unexpected ways, creating bonds through shared experiences and inside jokes that can last a lifetime. These connections are among the most enduring we form in childhood.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "SistersMap_Hobby",
+          "text": "my sister and i spent two years making a detailed map of our neighborhood including every house with a dog, every yard with good hiding spots, and a rating system for driveways. we updated it monthly. i found it last year. still accurate.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "BrotherBirdwatch",
+          "text": "My brother and I started keeping a log of every bird that landed on our mailbox. Started as a bet about whether pigeons outnumber sparrows. That was 2009. The log is still going. He mails me updates from across the country.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "TwinPizzaStudy",
+          "text": "My twin and I systematically rated every pizza place in our town between ages 12 and 16. Crust, sauce, cheese, value, vibe. We had 23 locations. We were taken very seriously by no one. Our opinions were correct.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Find common ground in the most unexpected ways\" - generic phrasing for a prompt about unexpected bonds",
+          "\"Inside jokes that can last a lifetime\" - no inside joke described",
+          "\"Most enduring we form in childhood\" - broad claim, no childhood described",
+          "\"Shared experiences\" - circular non-answer to a prompt about shared experiences",
+          "No sibling, no activity, no result"
+        ],
+        "humanTells": [
+          "#1: 47-cereal sogginess spreadsheet, summer-long project, presented to uninterested parents",
+          "#3: Neighborhood map, dog-house tracking, driveway ratings, monthly updates, still accurate",
+          "#4: Mailbox bird log since 2009, pigeon vs sparrow bet, mailed updates",
+          "#5: 23 pizza locations rated age 12-16, five criteria, taken seriously by no one"
+        ],
+        "difficulty_note": "Medium - AI is second and sounds plausible; four humans have obsessive cataloguing projects that are unmistakably real"
+      },
+      "metadata": {
+        "createdAt": "2026-09-24T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-25",
+      "dayNumber": 250,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "strangers",
+      "prompt": {
+        "text": "What's a time a complete stranger said something that stuck with you for years?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "TrainSeatStory_",
+          "text": "An elderly man on a train told me: 'Never apologize for needing extra time.' I was holding up the line fumbling with my suitcase. I think about it every time I'm slow somewhere. That was 11 years ago. Still works.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "GasStationWisdom",
+          "text": "A woman at a gas station told me I looked like someone who'd figure it out. I'd been crying in the parking lot for 20 minutes over a breakup. I still don't know what made her say it. But she was right.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "StrangerInsights_",
+          "text": "Sometimes the words of a stranger can reach us in ways that the people closest to us cannot. These brief encounters and offhand comments have an unexpected power to shift our perspective and stay with us for years.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "ParkBenchQuote",
+          "text": "Old man on a park bench asked if I was worried about something. I said yes. He said 'pick a date when you'll stop worrying about it.' I picked one. When the date came I had forgotten what I was worried about.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "AirportStrangerQ",
+          "text": "A woman at an airport gate asked me what I was running toward, not running from. I didn't have an answer. I was 24. I thought about it for three flights. I still don't fully have an answer. But I keep asking.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Reach us in ways that the people closest to us cannot\" - philosophical framing with no story",
+          "\"Unexpected power to shift our perspective\" - generic insight claim",
+          "\"Brief encounters and offhand comments\" - describes the category not any instance",
+          "\"Stay with us for years\" - the prompt already says this; AI just echoes it",
+          "No stranger, no setting, no words spoken, no time frame"
+        ],
+        "humanTells": [
+          "#1: Specific advice, fumbled suitcase context, 11 years, still applies",
+          "#2: Gas station, 20 minutes crying over a breakup, specific phrase, still unexplained",
+          "#4: Park bench, specific technique (pick a date), forgot the worry by the date",
+          "#5: Airport gate, age 24, three flights of thought, still asking"
+        ],
+        "difficulty_note": "Hard - AI perfectly matches the emotional register of the prompt but offers only meta-commentary on stranger wisdom, not a single stranger"
+      },
+      "metadata": {
+        "createdAt": "2026-09-25T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-26",
+      "dayNumber": 251,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "dating",
+      "prompt": {
+        "text": "What's the most painfully awkward way you've accidentally ended a date?",
+        "source": "r/dating_advice"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "AccidentalSplit_",
+          "text": "Walked my date to the subway, said goodnight, turned around, and walked directly into a closed deli door so hard my glasses flew off. She was still standing there. She picked them up. We dated for three months. She called it our 'meet-ugly.'",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "WrongNameGoodbye",
+          "text": "Said the wrong name when saying goodbye. His name was James. I called him Jason. I don't know anyone named Jason. He stared at me for a moment and then just walked away. I did not clarify. There was no second date.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "LockKeyDateEnd",
+          "text": "tried to do the smooth 'walk her to her door' thing. she lived in an apartment building. i didn't have the lobby key. she did. she used it. i stood outside. she turned and waved at me through the glass door. i waved back. we both waited for the other to leave first.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "DateEndingReflect",
+          "text": "The endings of dates can be unexpectedly tense moments where small mistakes become memorable in hindsight. Looking back, these awkward farewells often reveal more about our nervousness and genuine interest than we intended to show.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "HugHandshakeHybrid",
+          "text": "She went in for a hug. I went for a handshake. We ended up in a hug-handshake hybrid that lasted too long because neither of us knew how to exit it. Her roommate walked by. Saw everything. Went back inside without speaking.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Unexpectedly tense moments\" - describes the situation type, not a situation",
+          "\"Memorable in hindsight\" - the prompt already confirms these are memorable",
+          "\"Reveal more about our nervousness\" - psychological analysis of nothing",
+          "\"Genuine interest than we intended to show\" - sophisticated phrasing without a date",
+          "No date, no ending, no mistake, no person described"
+        ],
+        "humanTells": [
+          "#1: Glasses flew off into deli door, she picked them up, 'meet-ugly' nickname, dated 3 months",
+          "#2: Wrong name (Jason not James), stared, walked away, no clarification given",
+          "#3: Lobby key problem, both waited through glass door, wave standoff",
+          "#5: Hug-handshake hybrid, roommate witnessed, went back inside silent"
+        ],
+        "difficulty_note": "Expert - AI uses introspective language appropriate to the topic; only the complete absence of any specific date moment distinguishes it"
+      },
+      "metadata": {
+        "createdAt": "2026-09-26T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-27",
+      "dayNumber": 252,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "travel",
+      "prompt": {
+        "text": "What's the most unexpected thing that happened when you visited a place you'd always dreamed of?",
+        "source": "r/travel"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ParisRainGlory",
+          "text": "Finally got to Paris. It rained every single day for 10 days. I mean: every day. I bought a beret to keep dry ironically. I wore it unironically by day 4. I still wear it. Paris broke me in the best way.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "GrandCanyonSurprise",
+          "text": "drove 14 hours to the grand canyon. got there at dawn for the perfect light. fog. could not see the canyon. stayed two extra days. saw it on the third morning. it was absolutely worth the wait. also worth the extra $400 in motel fees.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "KyotoLostFound_",
+          "text": "Got hopelessly lost in the back streets of Kyoto looking for a temple. Wandered into a neighborhood festival I hadn't heard of. A family invited me to eat with them. I missed the temple entirely. That festival was the trip.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "MaldivesJellyfish",
+          "text": "Saved for 3 years to swim in the Maldives. First snorkel session: jellyfish bloom. Hundreds of jellyfish. I got stung 9 times. The resort gave me a free massage as compensation. The massage was the best part of the trip.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "DreamTravelMoments",
+          "text": "Visiting a long-anticipated destination can sometimes exceed our expectations in ways we didn't foresee, but it can also humble us with the unexpected. Either way, these experiences often become the most meaningful travel stories we tell.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "\"Exceed our expectations in ways we didn't foresee\" - circular and vague",
+          "\"Humble us with the unexpected\" - vague and applies to any travel story",
+          "\"Most meaningful travel stories we tell\" - describes the category instead of a story",
+          "No destination, no dream, no unexpected event described",
+          "Covers both possible outcomes (exceeded OR humbled) — classic AI hedge"
+        ],
+        "humanTells": [
+          "#1: Paris rain 10 days, ironic beret became sincere, still wears it",
+          "#2: 14-hour drive, fog at dawn, two extra days, $400 motel fees, canyon finally seen",
+          "#3: Lost in Kyoto, neighborhood festival, family meal invitation, missed the temple entirely",
+          "#4: 3-year savings, jellyfish bloom, 9 stings, free massage, massage was best part"
+        ],
+        "difficulty_note": "Hard - AI is last and uses warm travel-essay language; players must notice it's the only comment with no destination or event"
+      },
+      "metadata": {
+        "createdAt": "2026-09-27T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

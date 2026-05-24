@@ -1,0 +1,461 @@
+{
+  "week": 28,
+  "startDate": "2026-07-20",
+  "puzzles": [
+    {
+      "id": "2026-07-20",
+      "dayNumber": 183,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "phones",
+      "prompt": {
+        "text": "What's the most chaotic group chat you've ever been part of?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "GroupChatAnarchy_",
+          "text": "A 47-person group chat for a wedding where the maid of honor and the groom's ex were both in it. Nobody noticed for 3 days. The ex RSVP'd. The maid of honor noticed. What followed was 4 hours of texts I still screenshot.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "WorkChatSurvivor",
+          "text": "Company all-hands Slack during a system outage. 300 people. 11 people posted memes in the first 5 minutes. IT pinned a status update. Someone replied 'lol' to the status update. It got 47 emoji reactions.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "GroupChatDynamics",
+          "text": "Group chats can develop their own unique dynamics and cultures over time, sometimes leading to unexpected interactions that range from chaotic to surprisingly productive.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "NeighborhoodChatFail",
+          "text": "HOA neighborhood chat. Someone posted a photo of an 'abandoned' car. Turns out it was the HOA president's car. She had been reading the thread the whole time. Replied with a single period. Chat went dead for 11 days.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "FamilyReunionTexts",
+          "text": "Family reunion planning chat for 63 relatives. Aunt argued about potato salad for 4 days. Uncle posted flight info nobody asked for. Grandma sent 'test' every morning for a week. We never actually planned the reunion.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Unique dynamics and cultures over time\" - corporate team-building language",
+          "\"Ranging from chaotic to surprisingly productive\" - both-sides hedging",
+          "\"Unexpected interactions\" - vague non-description",
+          "No specific chat, no specific incident, no stakes",
+          "Reads like a Slack product page"
+        ],
+        "humanTells": [
+          "#1: Specific member count (47), specific social bomb (groom's ex), specific timeline (3 days), screenshot evidence",
+          "#2: Specific count (300 people, 11 memes in 5 min, 47 reactions), specific catalytic reply ('lol')",
+          "#4: Specific resolution: HOA president's reply (single period), exact dead-chat duration (11 days)",
+          "#5: Specific relative count (63), specific conflict (potato salad, 4 days), grandma's daily test, no reunion achieved"
+        ],
+        "difficulty_note": "Easy - AI comment is vague product-speak while humans supply exact counts, timelines, and punchlines"
+      },
+      "metadata": {
+        "createdAt": "2026-07-20T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-21",
+      "dayNumber": 184,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "tech",
+      "prompt": {
+        "text": "What's a piece of old technology you still use and refuse to give up?",
+        "source": "r/malelivingspace"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "iPodClassicForever",
+          "text": "160GB iPod Classic. Still use it every day. Has every album I've ever owned. Never needs an app update. Never serves me an ad. Battery lasts 36 hours. It is the last piece of technology that does exactly what I want.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "LegacyTechLoyalty",
+          "text": "Many people find that older technology continues to meet their needs effectively, whether due to reliability, simplicity, or emotional attachment to a familiar device or format.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "CRTTVStillGoingStrong",
+          "text": "1997 Sony Trinitron CRT. It's in my bedroom. Zero lag. Perfect for retro games. Weighs 86 pounds. Movers refused to touch it in 2021. I moved it myself. Threw my back out. Worth it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "FlipPhoneRebel_",
+          "text": "I used a Motorola Razr V3 until 2022. Not the new one. The 2004 one. My data plan was $8 a month. Everyone laughed at meetings. I was never distracted during meetings. I was promoted in 2021.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "PrinterFrom2003_",
+          "text": "HP LaserJet 1020 from 2003. Print quality still perfect. Zero wireless nonsense. Doesn't demand firmware updates. Costs $0 per month to run. I've replaced the toner once in 7 years. It will outlive me.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Continues to meet their needs effectively\" - corporate product language",
+          "\"Whether due to reliability, simplicity, or emotional attachment\" - generic categorization",
+          "\"Familiar device or format\" - distanced third-person framing",
+          "No specific device, no specific reason, no personal loyalty",
+          "Could describe anyone keeping any old thing"
+        ],
+        "humanTells": [
+          "#1: Specific model (160GB iPod Classic), specific battery life (36 hours), specific grievances (ads, updates) being absent",
+          "#3: Specific TV (1997 Sony Trinitron), specific weight (86 lbs), movers refusing, back injury accepted as cost",
+          "#4: Specific phone (Razr V3 2004), specific data cost ($8/month), promotion timeline",
+          "#5: Specific model (HP LaserJet 1020), specific year (2003), toner change count (once in 7 years), mortality joke"
+        ],
+        "difficulty_note": "Easy - AI describes retro-tech loyalty in generic terms while humans lovingly itemize exactly why their specific relic is irreplaceable"
+      },
+      "metadata": {
+        "createdAt": "2026-07-21T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-22",
+      "dayNumber": 185,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "programming",
+      "prompt": {
+        "text": "What comment left in code by a previous developer made you genuinely question their sanity?",
+        "source": "r/ProgrammerHumor"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CodeCommentHorrors",
+          "text": "Found a comment that said: '// This took me 3 weeks. I do not understand why it works. If you change it, it will stop working. Please do not change it. I am begging you.' It was above a single line of SQL.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "LegacyCommentTherapy",
+          "text": "Inherited a function with the comment '// This is wrong but fixing it breaks everything else that is also wrong. Leave it.' Below that: '// I know. - Mike 2017'. I found Mike. He said he still thinks about it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "DevCommentInsights",
+          "text": "Code comments left by previous developers can provide valuable context about technical decisions, even when those decisions may seem unconventional or counterintuitive at first glance.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "MagicNumbersForever",
+          "text": "Found a file with 47 constants named MAGIC_NUMBER_1 through MAGIC_NUMBER_47. No documentation. No context. Used throughout billing logic. I asked the team lead. He said, quote: 'those are Steve's numbers.' Steve left in 2018.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "TodoGraveyard_",
+          "text": "Entire module where every function had '// TODO: fix this properly' at the top. Module was 6 years old. I added '// TODO: fix the above TODO' to every one. My manager called it 'a documentation improvement.'",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Valuable context about technical decisions\" - reframes bad code as wisdom",
+          "\"Even when those decisions may seem unconventional\" - diplomatic euphemism for insane",
+          "\"Counterintuitive at first glance\" - implies it makes sense on second glance (it doesn't)",
+          "No specific comment, no specific language, no developer backstory",
+          "Written from outside looking in, not a developer with scar tissue"
+        ],
+        "humanTells": [
+          "#1: Exact quoted comment, specific target (single SQL line), emotional register (begging)",
+          "#2: Exact quotes from two devs, year attribution (Mike 2017), found Mike, Mike's ongoing regret",
+          "#4: Specific count (47 constants), specific naming pattern, specific area (billing), specific departure year",
+          "#5: Specific age (6 years), specific fix (adding meta-TODOs), manager's diplomatic spin"
+        ],
+        "difficulty_note": "Medium - AI reframes bad code charitably while devs quote the unhinged comments verbatim and name names"
+      },
+      "metadata": {
+        "createdAt": "2026-07-22T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-23",
+      "dayNumber": 186,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "apps",
+      "prompt": {
+        "text": "What app did you download, use obsessively for two weeks, and never open again?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "HabitAppGraveyard",
+          "text": "Streaks. Used it religiously for 16 days. Missed one day. Lost my streak. Opened it to restart and saw all my previous progress zeroed out. Closed it. Never opened it again. Started lying to myself for free.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "LanguageAppCorpse",
+          "text": "Babbel. 11 days of Spanish. Learned to say 'the library is near the post office' and 'my uncle enjoys swimming.' Made zero progress on anything I would ever say. Visited Mexico. Could not function. App still installed.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "AppDownloadPatterns",
+          "text": "Mobile apps are often downloaded with the best intentions during moments of motivation, but user engagement tends to drop significantly after the initial novelty period fades.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "BudgetAppDeceased",
+          "text": "YNAB. Downloaded it, watched all the tutorials, set up every category. Budget was perfect on paper. Spent $60 on random Amazon stuff on day 3. Entered it into YNAB. The app told me I was over budget. I uninstalled it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MeditationFailed_",
+          "text": "Calm. Used it every day for exactly 13 days. App sent me a '13-day streak!' notification at 11pm. I was already asleep. It woke me up. Could not fall back asleep. Worst night of sleep that month. Deleted next morning.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Downloaded with the best intentions\" - sympathetic but generic",
+          "\"During moments of motivation\" - armchair psychology",
+          "\"User engagement tends to drop\" - product analytics language",
+          "\"Initial novelty period fades\" - Silicon Valley UX jargon",
+          "No specific app, no specific day count, no specific humiliating reason for quitting"
+        ],
+        "humanTells": [
+          "#1: Specific app (Streaks), specific streak length (16 days), specific trigger (one missed day), sardonic conclusion",
+          "#2: Specific app (Babbel), specific day count (11), specific useless phrases learned, real-world test failure",
+          "#4: Specific app (YNAB), specific categories setup, specific transgression ($60 Amazon), app's accurate judgment",
+          "#5: Specific app (Calm), specific streak (13 days), specific notification time (11pm), specific consequence (disrupted sleep)"
+        ],
+        "difficulty_note": "Medium - AI describes app abandonment as a product trend while users supply their exact app, exact day count, and exact humiliating final moment"
+      },
+      "metadata": {
+        "createdAt": "2026-07-23T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-24",
+      "dayNumber": 187,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "internet",
+      "prompt": {
+        "text": "What's a conspiracy theory you went down the rabbit hole on before realizing it was completely made up?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FlatEarthWeekend_",
+          "text": "Spent a full Saturday watching flat earth videos. Not because I believed it — I was bored. By hour 6 I had found one video that almost had me. Almost. The bit about Antarctic flight routes. Googled it. Explained in 8 seconds. Still took me 20 more minutes to close the tab.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "BirdsArentReal_Cam",
+          "text": "Birds Aren't Real. Read everything. Watched all the rallies. Bought the shirt unironically. My friend had to sit me down and explain it was satire. I had been telling coworkers about drone surveillance for 3 weeks.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "OnlineConspiracies",
+          "text": "Online misinformation and conspiracy theories can be compelling for a variety of reasons, often exploiting cognitive biases and the desire for alternative explanations of complex events.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "MandalaEffectVictim",
+          "text": "Spent 2 hours convinced the Mandela Effect proved parallel universes because I remembered Fruit Loops spelled differently. Found my 1997 cereal box in my mom's basement. It was spelled the way it's always been spelled. I sat with that for a while.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "TartariaDiscoverer",
+          "text": "Tartaria. Old empire erased from history. Beautiful maps. Compelling architecture theory. Went in deep for a week. Presented it to my history-professor sister at dinner. She spent 45 minutes not yelling at me. Still counts as winning.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Compelling for a variety of reasons\" - vague academic framing",
+          "\"Exploiting cognitive biases\" - psychology textbook language",
+          "\"Desire for alternative explanations\" - third-person distancing",
+          "No specific theory, no personal belief, no moment of realization",
+          "Reads like a media literacy worksheet"
+        ],
+        "humanTells": [
+          "#1: Specific theory (flat earth), specific vulnerable point (Antarctic routes), specific Googling time (8 seconds), inability to close tab",
+          "#2: Specific theory (Birds Aren't Real), bought merchandise, 3-week coworker period, friend's intervention",
+          "#4: Specific theory (Mandela Effect), specific cereal (Fruit Loops), physical evidence (1997 box), silent reckoning",
+          "#5: Specific theory (Tartaria), weeklong commitment, professor sister, 45-minute non-yelling as victory"
+        ],
+        "difficulty_note": "Hard - AI describes misinformation theoretically while humans admit which specific rabbit holes captured them and how they escaped"
+      },
+      "metadata": {
+        "createdAt": "2026-07-24T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-25",
+      "dayNumber": 188,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "smarthome",
+      "prompt": {
+        "text": "What's a completely unintended consequence of a technology you bought that you now kind of rely on?",
+        "source": "r/mildlyinteresting"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "EchoAlarmClock_",
+          "text": "Bought an Echo for music. Never use it for music. It is now my primary alarm clock, grocery list, and the thing that tells my dog 'settle' when I'm on a call. The dog responds. I don't know when that started.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "SmartPlugParenting",
+          "text": "Bought wifi plugs to automate my desk lamp. Used them to cut power to my kid's gaming setup at 10pm instead. He found a workaround using a power strip. I found a plug for the power strip. It's an arms race. He is 11.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "UnintendedTechUse",
+          "text": "Technology often finds its most meaningful use in ways that designers never anticipated, as users adapt tools creatively to fit their own routines and needs.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "SecurityCamTherapy",
+          "text": "Put a Wyze cam in my backyard for security. Never catches anything suspicious. Does catch my dog stealing tomatoes from the garden every morning at 8:03am. Have watched this footage every day for 7 months. No regrets.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "RoombaNightlight_",
+          "text": "My Roomba's docking station light is the perfect nightlight for my hallway. That's it. That's the whole story. I spent $400 on a robot vacuum that I primarily use as a $400 nightlight.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Most meaningful use in ways designers never anticipated\" - design-thinking seminar language",
+          "\"Users adapt tools creatively\" - Silicon Valley innovation framing",
+          "\"Fit their own routines and needs\" - UX research summary",
+          "No specific device, no specific repurposed use, no funny gap between intent and reality",
+          "Written as if admiring the phenomenon from the outside"
+        ],
+        "humanTells": [
+          "#1: Specific device (Echo), specific original intent (music), three specific current uses including dog training",
+          "#2: Specific original intent (lamp), arms race timeline, child's age (11), specific escalation steps",
+          "#4: Specific camera (Wyze), specific criminal (dog), specific vegetable (tomatoes), specific time (8:03am), duration (7 months)",
+          "#5: Single-function repurposing, specific cost ($400), deadpan repeat of price as punchline"
+        ],
+        "difficulty_note": "Expert - AI uses design-thinking framing that almost sounds authentic; humans all share a specific device with a specific gap between purchase and actual use"
+      },
+      "metadata": {
+        "createdAt": "2026-07-25T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-26",
+      "dayNumber": 189,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "social-media",
+      "prompt": {
+        "text": "What's a social media trend or challenge that you participated in and immediately regretted?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CinnamonChallenge_",
+          "text": "The cinnamon challenge in 2012. I was 19. I was an adult who knew better. I inhaled cinnamon dust. My roommate filmed it. Posted it without asking. It got 4,000 views. My mom found it by searching my name. She called it 'concerning.'",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "BeReal_Regret",
+          "text": "BeReal. Got the notification in a meeting and reflexively opened the app. Took the photo. Front camera caught me visibly bored and slouched. Back camera caught my CEO presenting on the screen behind me. Posted it. He saw it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "NightStandChallenge",
+          "text": "Whatever challenge was going around where you showed your nightstand. Participated on impulse. My nightstand has 3 phone chargers, an empty glass, a book I haven't opened in 8 months, and medication. Comments were very supportive. Too supportive.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "GlowUpChallenge_",
+          "text": "Did a 'glow up' before/after post. Posted my 2012 photo. Immediate regret. The 2012 photo got more comments than the current one. Most comments were on 2012 me. My aunt said 'you were so handsome.' Past tense.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SocialTrendParticipant",
+          "text": "Social media challenges can be a fun way to engage with trending content and connect with others, though it's important to consider the potential outcomes before participating.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "\"Fun way to engage with trending content\" - PR-speak enthusiasm with no regret",
+          "\"Connect with others\" - generic community benefit language",
+          "\"Consider the potential outcomes before participating\" - safety-tip framing, not a personal story",
+          "No specific trend named, no specific platform, no embarrassing moment",
+          "Reads like a social media literacy guide for teenagers"
+        ],
+        "humanTells": [
+          "#1: Specific challenge (cinnamon), specific year (2012), specific age (19), view count (4,000), mom's exact word",
+          "#2: Specific app (BeReal), dual-camera disaster, CEO identified in photo, no way to un-post",
+          "#3: Specific challenge (nightstand), specific inventory items, community's over-supportive reaction",
+          "#4: Specific challenge (glow up), 2012 photo, comment ratio favoring past self, aunt's past-tense compliment"
+        ],
+        "difficulty_note": "Hard - AI sounds vaguely encouraging with no stakes; humans are specific, cringing, and fully committed to their regret"
+      },
+      "metadata": {
+        "createdAt": "2026-07-26T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

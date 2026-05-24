@@ -1,0 +1,461 @@
+{
+  "week": 23,
+  "startDate": "2026-06-15",
+  "puzzles": [
+    {
+      "id": "2026-06-15",
+      "dayNumber": 148,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "cooking disasters",
+      "prompt": {
+        "text": "What's the worst cooking disaster you've ever survived?",
+        "source": "r/Cooking"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "KitchenCasualty",
+          "text": "Cooking can sometimes lead to unexpected results and valuable learning experiences in the kitchen. These moments help us grow as home cooks and develop better culinary awareness.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "SmokeAlarm_Stories",
+          "text": "Set off the smoke alarm making toast. Not burnt toast. Plain bread in the toaster. The toaster was unplugged. I don't know what happened. Fire department was very confused.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "GarlicBreadVictim",
+          "text": "forgot garlic bread in the oven for 90 minutes. came back to charcoal. the smoke was so thick the neighbors called to check if we were alive. we were not. spiritually.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "PressureCooker_Tale",
+          "text": "Pressure cooker lid wasn't sealed right. Tomato soup hit the ceiling, the walls, the dog, my wedding photo. Spent four hours cleaning. Dog smelled like marinara for a week. Spouse was not happy.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MicrowaveEgg_Lore",
+          "text": "Microwaved a hard-boiled egg to reheat it. Forgot this was illegal. It exploded the second I bit into it. My entire face. My shirt. The coworker across the table. Ate a granola bar for lunch.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Unexpected results\" - vague and sanitized",
+          "\"Valuable learning experiences\" - motivational framing",
+          "\"Grow as home cooks\" - generic self-improvement language",
+          "\"Culinary awareness\" - corporate food-blog phrasing",
+          "Doesn't describe any actual disaster"
+        ],
+        "humanTells": [
+          "#2: Specific absurd detail (unplugged toaster), fire department reaction",
+          "#3: Specific time (90 min), neighbor reaction, spiritual death",
+          "#4: Specific mess inventory (ceiling/walls/dog/photo), lasting consequence (dog smell)",
+          "#5: Specific setting (coworker), escalation, defeated resolution"
+        ],
+        "difficulty_note": "Easy - the AI comment describes cooking disasters philosophically with zero specifics while every human has a vivid, chaotic story."
+      },
+      "metadata": {
+        "createdAt": "2026-06-15T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-16",
+      "dayNumber": 149,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "coffee",
+      "prompt": {
+        "text": "What's the most unhinged thing you've done before your morning coffee?",
+        "source": "r/CasualConversation"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "PreCoffee_Logic",
+          "text": "Put the cereal in the fridge and the milk in the cupboard. Didn't notice until noon. The milk was fine. The cereal was cold. Honestly preferred it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "MorningMinds",
+          "text": "Morning routines before caffeine can sometimes lead to amusing mix-ups and forgetful moments. Many people find that coffee plays an important role in jumpstarting their cognitive functions.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "ToothpasteOnFace",
+          "text": "brushed my teeth with my wife's facial cleanser. entire tube. stood there for two full minutes thinking 'this tastes weird but ok'. had to call into work 20 min late because i couldn't stop rinsing",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "WrongCarKeys",
+          "text": "Spent 8 minutes trying to unlock a car that wasn't mine. In my defense it was the same color. The actual owner showed up. We had a long stare. I had to walk to the next row.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "PhoneInFreezer",
+          "text": "Found my phone in the freezer. It had been there since Tuesday. It was Friday. I had reported it stolen. The police case was open. The officer was not amused when I called back.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Amusing mix-ups\" - blandly framing chaos",
+          "\"Forgetful moments\" - understated and generic",
+          "\"Jumpstarting cognitive functions\" - clinical language for a funny topic",
+          "\"Many people find\" - distancing, no personal story",
+          "Zero specific event described"
+        ],
+        "humanTells": [
+          "#1: Specific items swapped, specific outcome (cold cereal), liked it anyway",
+          "#3: Specific product, specific duration (2 min), specific consequence (late to work)",
+          "#4: Specific duration (8 min), same-color detail, awkward witness",
+          "#5: Specific timeline (Tues to Fri), police report, callback awkwardness"
+        ],
+        "difficulty_note": "Easy - AI talks about mornings abstractly with clinical vocabulary; all four humans share weird, specific pre-coffee incidents."
+      },
+      "metadata": {
+        "createdAt": "2026-06-16T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-17",
+      "dayNumber": 150,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "baking",
+      "prompt": {
+        "text": "What happened the first time you tried to bake something from scratch?",
+        "source": "r/Baking"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FlourEverywhere",
+          "text": "Made banana bread. Forgot to add bananas. Didn't realize until it came out of the oven. It was just... bread. My family ate it quietly. Nobody said a word. We never spoke of it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "SugarVsSalt_Lore",
+          "text": "Used salt instead of sugar in chocolate chip cookies. A full cup. Guests were polite for three bites. Then someone asked if these were a new type of pretzel. They were not.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "BakingFirstAttempts",
+          "text": "First baking attempts can be unpredictable and educational. Many bakers find that early failures build foundational skills and a deeper appreciation for the precision that baking requires.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "YeastMishap_",
+          "text": "made pizza dough and added 10x the yeast by mistake. went to watch tv for an hour. came back to dough consuming the entire counter and starting on the stove. it smelled incredible. it was terrifying.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "FondantNightmare",
+          "text": "Tried to make a fondant cake for my mom's birthday. It looked like a melting head. We ate it. The frosting tasted fine. Mom has the photo framed. Says it's her favorite gift ever.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Unpredictable and educational\" - generic lesson framing",
+          "\"Foundational skills\" - abstract baking-blog language",
+          "\"Deeper appreciation\" - motivational speak",
+          "\"Precision that baking requires\" - observation, not story",
+          "No specific ingredient, recipe, or outcome mentioned"
+        ],
+        "humanTells": [
+          "#1: Specific missing ingredient, family silence as punchline",
+          "#2: Specific swap (salt/sugar), quantity, guest polite-then-honest reaction",
+          "#4: Specific multiplier (10x), specific spread (counter to stove), sensory contrast",
+          "#5: Specific occasion, specific description (melting head), mom's response"
+        ],
+        "difficulty_note": "Medium - AI uses baking-class language while humans describe gloriously specific disasters with witnesses and aftermath."
+      },
+      "metadata": {
+        "createdAt": "2026-06-17T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-18",
+      "dayNumber": 151,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "restaurants",
+      "prompt": {
+        "text": "What's the most embarrassing thing that's happened to you at a restaurant?",
+        "source": "r/TrueOffMyChest"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SoupSpillChampion",
+          "text": "Knocked an entire bowl of French onion soup onto myself on a first date. The cheese was still melted. It bonded to my shirt. Had to sit in soup-smell for two more hours because she insisted we stay for dessert.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "WrongTableOrder_",
+          "text": "confidently ordered for the wrong table. walked up and just started listing my choices to strangers. they nodded and let me finish. the waiter watched in silence. i had to do a full 180 walk of shame",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "RestaurantMoments",
+          "text": "Dropped a full pint glass reaching for the bread basket. It shattered. The table next to us started clapping. Slowly. I took a bow. Waiter brought me a new drink on the house. Best night out I've had.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "TipCalculatorFail",
+          "text": "Did math wrong on the tip. Left a 300% tip on a $40 bill. Realized when I checked my bank at home. The waiter had already left for the night. The restaurant just said 'thanks, come back soon.'",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "DiningOutReflections",
+          "text": "Embarrassing moments at restaurants are a natural part of the dining experience. These situations, while uncomfortable, often become funny stories we look back on and share with others over time.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "\"Natural part of the dining experience\" - normalizing without story",
+          "\"While uncomfortable\" - hedging the embarrassment",
+          "\"Funny stories we look back on\" - generic retrospective framing",
+          "\"Share with others over time\" - obvious conclusion, no specifics",
+          "Describes no restaurant, no food, no person"
+        ],
+        "humanTells": [
+          "#1: Specific dish, melted cheese detail, date context, forced dessert stay",
+          "#2: Specific action sequence, strangers' passive reaction, waiter witness",
+          "#3: Specific accident (glass), crowd slow clap, took a bow, free drink",
+          "#4: Specific numbers ($40, 300%), specific outcome (restaurant kept it)"
+        ],
+        "difficulty_note": "Medium - AI wraps restaurant embarrassment in warm retrospective language; humans each deliver a concrete, witnessed, escalating scene."
+      },
+      "metadata": {
+        "createdAt": "2026-06-18T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-19",
+      "dayNumber": 152,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "weird food combos",
+      "prompt": {
+        "text": "What's the weirdest food combination you actually enjoy and won't apologize for?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "PeanutButterOnion",
+          "text": "Peanut butter and pickle on white bread. Been eating it since I was seven. My wife refuses to be in the kitchen when I make it. Guests have left. It tastes incredible. I am at peace with who I am.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "CheeseHotChocolate",
+          "text": "Sharp cheddar dunked in hot chocolate. Discovered it by accident when my cheese fell in. Served it to my dad once without warning. He sat there for a minute then asked for another piece. Family tradition now.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "UnusualFoodPairings",
+          "text": "Exploring unconventional food pairings can be a rewarding culinary adventure that challenges our palates and expands our appreciation for diverse flavor profiles and taste combinations.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "HotSauceVanillaIce",
+          "text": "Hot sauce on vanilla ice cream. Specifically Cholula. Not Tabasco, not Frank's. Cholula only. Tried it at a state fair dare and never went back. My friends staged a concern meeting. I brought the combo.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "FrenchFriesMilkshake",
+          "text": "fries dipped in a chocolate shake. i know this is technically normal but i dip them until they're fully saturated. like they need to absorb. i eat the soggy ones last. that's where the flavor lives.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Rewarding culinary adventure\" - food magazine language",
+          "\"Challenges our palates\" - generic food-writing phrase",
+          "\"Diverse flavor profiles\" - buzzword stacking",
+          "No specific food, no personal experience",
+          "Reads like an intro paragraph to a recipe blog"
+        ],
+        "humanTells": [
+          "#1: Specific ingredients, age started, wife/guest reactions, resolved peace",
+          "#2: Discovery accident, dad's reaction, family tradition outcome",
+          "#4: Brand-specific (Cholula only), origin story, friends' concern meeting",
+          "#5: Specific technique (saturated dips), specific reasoning, last bite ritual"
+        ],
+        "difficulty_note": "Hard - AI uses food journalism language convincingly; the tell is zero personal specifics and no brand/ingredient names."
+      },
+      "metadata": {
+        "createdAt": "2026-06-19T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-20",
+      "dayNumber": 153,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "groceries",
+      "prompt": {
+        "text": "What's a grocery store moment that still haunts you?",
+        "source": "r/mildlyinfuriating"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CartWheelInfamy",
+          "text": "My cart wheel locked up mid-aisle and I walked into a display of glass olive oil bottles. Twelve bottles. They all survived. The store employee gave me a slow clap. I bought olive oil out of guilt.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ExpiredYogurtStand",
+          "text": "Stood in the dairy aisle checking every single yogurt for the latest expiration date for 15 minutes. Another customer watched me. I explained my system. She joined. We were both late to things.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "GroceryExperiences",
+          "text": "Grocery shopping can sometimes involve unexpected and occasionally frustrating situations. These experiences are a common part of navigating busy retail environments and interacting with other shoppers.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "SelfCheckoutMeltdown",
+          "text": "Self-checkout told me to place the item in the bagging area seventeen times for one avocado. The attendant came over. She pressed the same button I pressed. It worked immediately. She didn't look at me.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "WrongNameReward",
+          "text": "gave a fake name at the deli counter because i was nervous. they called 'BRENDA' three times very loudly. i didn't respond because i forgot i was brenda. i left without my turkey. went home. ordered pizza.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Unexpected and occasionally frustrating\" - toned-down hedge",
+          "\"Common part of navigating\" - sociological framing",
+          "\"Busy retail environments\" - describes a grocery store without naming it",
+          "\"Interacting with other shoppers\" - no actual interaction described",
+          "Vague enough to apply to any shopping trip anywhere"
+        ],
+        "humanTells": [
+          "#1: Specific item count (12 bottles), specific survival, guilt purchase",
+          "#2: Specific duration (15 min), recruits a stranger, mutual lateness",
+          "#4: Specific count (17 times), specific item (avocado), attendant's silence",
+          "#5: Specific fake name (Brenda), forgetting own lie, left without food"
+        ],
+        "difficulty_note": "Expert - the AI comment sounds plausibly relatable; spotting it requires noticing it describes a category of experience rather than a specific one."
+      },
+      "metadata": {
+        "createdAt": "2026-06-20T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-21",
+      "dayNumber": 154,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "cooking disasters",
+      "prompt": {
+        "text": "What dish have you confidently made for guests that went completely wrong?",
+        "source": "r/Cooking"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "BeefWellingtonFail",
+          "text": "Made beef Wellington for a dinner party. Watched the tutorial six times. It came out raw in the middle and somehow burnt on the outside. Told guests it was 'deconstructed.' They were very understanding. I was not.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "RisottoDisasterChef",
+          "text": "Risotto for eight people. Tasted it at 45 minutes and thought it needed more salt. Added salt four more times. It was inedible. Like a salt lick. We ordered pizza. The risotto is still in my fridge. I'm afraid of it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "HomemadeSushiFail",
+          "text": "made sushi for a friend's birthday. spent $80 on fish. googled it that morning. the rice was wrong. the rolls fell apart on the way to the table. we ate it with spoons. she still asks about it",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "CookingForGuests",
+          "text": "Preparing meals for guests can be a wonderful opportunity to share your passion for cooking, though results don't always match our ambitions. These moments often become memorable stories we laugh about later.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "CremeBruleeScorch",
+          "text": "Rented a kitchen torch for creme brulee. Practiced on one ramekin successfully. Did the rest at the table in front of guests. Caramelized perfectly on three, turned the fourth into pure carbon. Ate the three. Hid the fourth.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Wonderful opportunity to share your passion\" - enthusiastic but hollow",
+          "\"Results don't always match our ambitions\" - vague euphemism for failure",
+          "\"Memorable stories we laugh about later\" - generic optimism",
+          "No specific dish, no specific guests, no specific outcome",
+          "Encourages rather than recounts"
+        ],
+        "humanTells": [
+          "#1: Specific dish, specific preparation (6 tutorials), creative pivot, self-deprecation",
+          "#2: Specific guest count, specific mistake (salt x4), physical description, current status",
+          "#3: Specific cost ($80), specific morning prep, specific fallback (spoons)",
+          "#5: Specific tool (rented torch), specific numbers (4 ramekins), hiding the evidence"
+        ],
+        "difficulty_note": "Hard - the AI comment sounds like something a cooking enthusiast might say, but contains no concrete personal failure."
+      },
+      "metadata": {
+        "createdAt": "2026-06-21T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

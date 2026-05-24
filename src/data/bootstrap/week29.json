@@ -1,0 +1,456 @@
+{
+  "week": 29,
+  "startDate": "2026-07-27",
+  "puzzles": [
+    {
+      "id": "2026-07-27",
+      "dayNumber": 190,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "gaming",
+      "prompt": {
+        "text": "What's the dumbest way you've ever died in a video game?",
+        "source": "r/gaming"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "RespawnRequired",
+          "text": "Video game deaths can sometimes occur due to unexpected or avoidable circumstances. These moments often provide humorous memories and valuable learning experiences for players.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "FellOffACliff_",
+          "text": "Spent 45 minutes clearing a dungeon in Skyrim. Walked out victorious. Immediately stepped backward off a cliff I'd walked past 6 times. 0 fall damage resistance. Reloaded from the dungeon entrance.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "GrenadeOops",
+          "text": "Threw a grenade in CoD, it bounced off a wall and came back and hit me directly in the face. Team watched. Nobody said anything. We all just sat in silence for a moment.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "PauseButtonFail",
+          "text": "Tried to pause Dark Souls to answer the door. That game doesn't pause. I came back 90 seconds later to a death screen and a lost 40,000 souls. Pizza guy got a terrible tip.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "FriendlyFireVic",
+          "text": "My friend shot me accidentally in co-op. I laughed so hard I walked my character into a campfire. Burned to death while laughing. He felt awful. Still brings it up.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Can sometimes occur\" - passive hedging",
+          "\"Unexpected or avoidable circumstances\" - vague non-description",
+          "\"Humorous memories\" - generic positive framing",
+          "\"Valuable learning experiences\" - corporate-speak",
+          "Describes no specific game or death at all"
+        ],
+        "humanTells": [
+          "#2: Specific game (Skyrim), specific time spent, specific event sequence, exact reload point",
+          "#3: Specific game (CoD), specific weapon, team witness, silent aftermath",
+          "#4: Specific game (Dark Souls), exact souls lost, real-world cause (pizza guy), callback punishment",
+          "#5: Specific cause chain (laugh → fire), co-op context, friend's guilt still ongoing"
+        ],
+        "difficulty_note": "Easy - AI comment is immediately identifiable by total absence of any specific game or death"
+      },
+      "metadata": {
+        "createdAt": "2026-07-27T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-28",
+      "dayNumber": 191,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "sports",
+      "prompt": {
+        "text": "What's the most embarrassing thing that's happened to you while playing or watching a sport?",
+        "source": "r/sports"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "StandingO_Wrong",
+          "text": "Stood up to cheer at a baseball game. Wrong team scored. I was the only one standing in a section of 200 people. Sat back down very slowly. Kept my hat low the rest of the game.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "KickballLegend",
+          "text": "Swung so hard at a kickball that both my shoes flew off simultaneously. Different directions. Barefoot at home plate. Kids in the outfield were pointing.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "SportsMoments_",
+          "text": "Participating in or watching sports can lead to memorable moments that bring communities together. These shared experiences, even the embarrassing ones, are part of what makes sports so engaging and relatable.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "GoalieGoofed",
+          "text": "I was the goalie in a soccer game and let in a ball that rolled. Rolled. A toddler could have stopped it. I just stepped aside. Still don't know why. Coach never put me in goal again.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "WrongTeamDad",
+          "text": "Cheered loudly for my kid's team when the kid scored. It was the other team's kid. My son was on the bench. His teammates heard me. He transferred schools.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Bring communities together\" - irrelevant platitude",
+          "\"Shared experiences\" - generic non-answer",
+          "\"What makes sports so engaging\" - motivational filler",
+          "No specific sport, event, or embarrassing moment mentioned"
+        ],
+        "humanTells": [
+          "#1: Specific sport, specific section size, specific post-event behavior",
+          "#2: Specific sport, specific physical comedy, specific witness reaction",
+          "#4: Specific sport/position, specific ball description, specific consequence",
+          "#5: Specific scenario, mis-cheering their own kid, school transfer punchline"
+        ],
+        "difficulty_note": "Easy - AI platitudes about community and togetherness stand out immediately against specific embarrassing stories"
+      },
+      "metadata": {
+        "createdAt": "2026-07-28T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-29",
+      "dayNumber": 192,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "fitness",
+      "prompt": {
+        "text": "What's the worst thing that's happened to you at the gym?",
+        "source": "r/Fitness"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "BenchPressFail",
+          "text": "Dropped the bar on my chest doing bench press. Alone. Had to roll it down to my stomach, then hips, then shimmy it off. Took 4 minutes. Everybody saw. Nobody helped. They looked away to protect my dignity.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ProteinShakeRIP",
+          "text": "Shook my protein shake without putting the lid on. Covered myself, the mirror, and the guy next to me in chocolate whey. He had a white shirt. Offered to pay for dry cleaning. He declined. Uncomfortably.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "TreadmillMoment",
+          "text": "Fell off the treadmill at max speed. Landed on the ground and slid into the weight rack. Knocked over two dumbbells. Stayed on the floor for a second wondering if I could just live there.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "GymExperiences_",
+          "text": "The gym environment can present various challenges and unexpected situations for people at all fitness levels. These experiences, while sometimes uncomfortable, can provide motivation and perspective on the fitness journey.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "MirrorGymOops",
+          "text": "Flexed in the mirror thinking no one was watching. Coach was right behind me watching the whole time. He nodded. Said nothing. I have not flexed in the mirror since. That was 3 years ago.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Various challenges and unexpected situations\" - empty filler",
+          "\"All fitness levels\" - generic audience broadening",
+          "\"Motivation and perspective\" - gym-poster language",
+          "\"Fitness journey\" - buzzword with no personal story",
+          "Zero specific incident or gym described"
+        ],
+        "humanTells": [
+          "#1: Specific equipment, specific escape sequence, bystander non-response",
+          "#2: Specific product, specific victim (white shirt), specific aftermath",
+          "#3: Specific equipment, collision chain, sardonic inner monologue",
+          "#5: Specific consequence (3-year behavior change), coach's silent judgment"
+        ],
+        "difficulty_note": "Medium - AI gym-speak blends slightly more with genuine posts but lacks any story"
+      },
+      "metadata": {
+        "createdAt": "2026-07-29T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-30",
+      "dayNumber": 193,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "hiking",
+      "prompt": {
+        "text": "What's the most unexpected thing you've encountered on a hike?",
+        "source": "r/hiking"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "TrailSurprise_",
+          "text": "Found an entire couch on a mountain trail. Full sofa. 8 miles in. Someone had carried it up there. It had a throw pillow. I sat on it and ate my lunch. No regrets.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "HikingEncounter",
+          "text": "Hiking trails offer opportunities to encounter a wide variety of nature and interesting discoveries. These unexpected moments are part of what makes outdoor exploration so rewarding and memorable.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "BearMeetup_",
+          "text": "Rounded a switchback and came face to face with a black bear eating blueberries. We stared at each other for 10 seconds. He went back to his berries. I went back to my car. Hike was over.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "WeddingOnTrail",
+          "text": "Stumbled into a wedding ceremony mid-hike. They were having it at a scenic overlook. I was sweaty and had trekking poles. The photographer captured me walking through the background. They sent me the photo later.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "AbandonedCabin",
+          "text": "Found a fully furnished cabin 6 miles from any trailhead. No trail to it. Tables set, canned goods on shelves, chairs around a fireplace. No signs of recent use. Left immediately. Still think about it.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Wide variety of nature\" - vague generic phrase",
+          "\"Interesting discoveries\" - no specifics whatsoever",
+          "\"Outdoor exploration so rewarding\" - brochure language",
+          "Mentions no trail, location, or specific encounter"
+        ],
+        "humanTells": [
+          "#1: Specific object (couch with pillow), specific distance, specific action taken",
+          "#3: Specific animal, specific berry, 10-second standoff, specific outcome",
+          "#4: Specific event (wedding), specific props (poles), background photo sent afterward",
+          "#5: Specific distance, specific furnishings, creepy detail, ongoing psychological impact"
+        ],
+        "difficulty_note": "Medium - AI comment sounds like outdoor blog copy compared to vivid first-person stories"
+      },
+      "metadata": {
+        "createdAt": "2026-07-30T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-31",
+      "dayNumber": 194,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "collecting",
+      "prompt": {
+        "text": "What's the most you've ever spent on something for your collection, and was it worth it?",
+        "source": "r/collecting"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "VinylObsessed_",
+          "text": "Paid $340 for an original 1967 pressing of Sgt. Pepper's that turned out to be a very good bootleg. The seller was apologetic. I still play it. Sounds fine. Hate myself a little.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "CardboardGold_",
+          "text": "Dropped $800 on a graded 1986 Fleer Michael Jordan rookie card. PSA 7, not 8. Paid 8-grade money. Realized after. Kept it anyway. It's worth more now. Still mad about the overpay.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "CollectionValue",
+          "text": "Investing in collectibles can be a meaningful way to connect with your passions and build something of lasting personal and financial value. The decision of whether it's worth it is deeply personal.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "MinifigHoarder",
+          "text": "Spent $650 on a LEGO Millennium Falcon (10179, original run) at an estate sale. Opened it. Someone had replaced 47 pieces with off-brand bricks. Spent another 6 months sourcing originals. Yes. Worth it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "StampNerd1947",
+          "text": "Bought what I thought was a 1918 Inverted Jenny stamp at an auction for $2,200. Expert said it was a reproduction. From the 1970s. Still framed it. Tells a better story than the real one would.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Connect with your passions\" - motivational-speak",
+          "\"Lasting personal and financial value\" - investment-brochure phrasing",
+          "\"Deeply personal\" - deflects instead of answering",
+          "Mentions no specific collection, item, price, or personal experience"
+        ],
+        "humanTells": [
+          "#1: Specific item, specific price, specific outcome (bootleg), self-aware regret",
+          "#2: Specific card, specific grade, specific price error, contradictory outcome",
+          "#4: Specific set/model number, specific defect count, 6-month resolution",
+          "#5: Specific stamp, specific price, authentication story, reframe of failure"
+        ],
+        "difficulty_note": "Hard - AI uses collector vocabulary (\"passions\", \"value\") that could sound plausible but avoids any actual purchase"
+      },
+      "metadata": {
+        "createdAt": "2026-07-31T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-01",
+      "dayNumber": 195,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "hobbies",
+      "prompt": {
+        "text": "What hobby did you pick up that completely took over your life?",
+        "source": "r/hobbies"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WoodworkingHole",
+          "text": "Bought a $30 hand plane at a garage sale. YouTube rabbit hole. Now I have a 400 sq ft dedicated workshop, $14,000 in tools, and I've made my spouse a promise that I will not buy more clamps. I currently need more clamps.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "SourdoughSlave_",
+          "text": "Started baking sourdough in 2020. I now have 3 active starters named Gerald, Donna, and Backup Donna. I wake up at 5am on weekends. My fridge is 40% flour. I haven't bought bread since March 2020.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "FishTankVortex",
+          "text": "One goldfish. Now I have a 180-gallon planted tank, a 40-gallon fry tank, and a 20-gallon hospital tank. I test water parameters daily. The goldfish died in week two. The tanks stayed.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "KnittingTrapped",
+          "text": "Learned to knit to \"relax.\" Four years later I have 2 floor-to-ceiling yarn shelves, I'm in 3 knitting groups, and I've knitted socks for 11 people who didn't ask. One refused to accept them. I left them on her porch.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MiniPaintAddict",
+          "text": "Started painting Warhammer minis to save money (cheaper than buying pre-painted). Spent $3,400 on paints, brushes, and lighting in 18 months. Painted 214 minis. Have played exactly 0 games.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "Starts with a specific-sounding setup but shifts to vague jokes without committing",
+          "\"$14,000 in tools\" followed by a generic clamp punchline — lacks the earned specificity of real hobbyists",
+          "Mentions a dollar amount and item but no named tool, project, or workshop detail",
+          "\"Promise\" framing is too tidy and self-aware compared to genuine over-the-top accounts"
+        ],
+        "humanTells": [
+          "#2: Three named starters, specific wake time, fridge percentage, exact date stopped buying bread",
+          "#3: Exact tank sizes, named purpose of each tank, original fish died — tanks survived irony",
+          "#4: Specific group count, specific unwanted-sock count, specific refused recipient, porch delivery",
+          "#5: Exact spend, exact mini count, zero games played — pure contradiction punchline"
+        ],
+        "difficulty_note": "Expert - AI comment mimics a hobbyist voice with a dollar figure and joke structure, but lacks the layered concrete detail of real accounts"
+      },
+      "metadata": {
+        "createdAt": "2026-08-01T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-08-02",
+      "dayNumber": 196,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "sports",
+      "prompt": {
+        "text": "What's the best or worst call a referee ever made in a game you were playing or watching?",
+        "source": "r/sports"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "OffsidesForever",
+          "text": "Ref called my goal offside. Checked the replay 40 times. I was a full yard onside. The ref had his back to the play. Still brings up my blood pressure. That was 2011. We lost by one.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "RefDecidesGame",
+          "text": "Ref awarded a penalty kick with 89 minutes on the clock in a championship match I was playing in. No contact made. The opposing striker had tripped over his own feet. Still haunts my recreational soccer league.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "RefereeCalls_",
+          "text": "Officiating in sports requires making rapid decisions under pressure, and these calls can significantly affect the outcome and emotional experience of participants and viewers.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "BasketballRef_",
+          "text": "Ref called a technical foul on our coach for arguing a call. Coach hadn't said anything yet. He was just walking toward the ref. Ref said 'I know where this is going.' Coach was speechless. We all were.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "GoodCallActually",
+          "text": "Ref made a call against my team that I thought was terrible. Then I watched the video. It was correct. The ref was right. I had been wrong and loud. Had to apologize to a stranger in the stands. Humbling.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Rapid decisions under pressure\" - textbook sports-commentary phrase",
+          "\"Significantly affect the outcome\" - stating the obvious without any story",
+          "\"Emotional experience of participants and viewers\" - vague audience description",
+          "No sport, game, call, or referee described"
+        ],
+        "humanTells": [
+          "#1: Specific sport, specific distance, specific replay count, specific year, specific score consequence",
+          "#2: Specific minute, specific match type, specific non-event (own trip), ongoing context (rec league)",
+          "#4: Pre-emptive technical foul, specific justification, universal speechlessness",
+          "#5: Self-correction arc, public apology to stranger, earned humility"
+        ],
+        "difficulty_note": "Hard - AI sounds like a sports analyst intro paragraph; harder to spot against opinionated fan comments"
+      },
+      "metadata": {
+        "createdAt": "2026-08-02T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

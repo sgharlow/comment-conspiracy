@@ -1,0 +1,461 @@
+{
+  "week": 26,
+  "startDate": "2026-07-06",
+  "puzzles": [
+    {
+      "id": "2026-07-06",
+      "dayNumber": 169,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "phones",
+      "prompt": {
+        "text": "What's the dumbest thing you've done because autocorrect or predictive text betrayed you?",
+        "source": "r/mildlyinfuriating"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "AutocorrectVictim99",
+          "text": "Autocorrect and predictive text features, while helpful in many situations, can sometimes lead to embarrassing or unintended messages that require clarification.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "TextDisaster_Gwen",
+          "text": "Texted my boss 'be there in a sex' instead of 'sec'. He responded with just '...'. I wanted to combust. Still haven't lived it down. That was 2019.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "DuckingMadAboutIt",
+          "text": "Sent my entire family group chat 'Happy Thanksgiving everyone, go duck yourselves.' Autocorrect changed the last word FROM duck. My grandma replied with three question marks.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "PredictivePain_",
+          "text": "Tried to text my roommate 'can you grab eggs' and sent 'can you grab eggnog hemorrhoids'. I don't even know how that word was in my keyboard history. He never questioned it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SwipeTypeSurvivor",
+          "text": "Swipe-typed 'I'll be right there' to my date and sent 'I'll be right throbbing'. Showed up to the restaurant and they were already laughing. We've been together 4 years.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"While helpful in many situations\" - classic hedging",
+          "\"Can sometimes lead to\" - wishy-washy framing",
+          "\"Require clarification\" - sterile corporate wrap-up",
+          "Zero personal story or specific incident",
+          "Reads like a product disclaimer, not a Reddit comment"
+        ],
+        "humanTells": [
+          "#2: Specific word, boss's terse reaction, years-later lingering embarrassment",
+          "#3: Specific holiday, family group chat, grandma's baffled response",
+          "#4: Exact bizarre autocorrect output, mysterious keyboard history note",
+          "#5: Specific context (date), exact wrong word, relationship outcome"
+        ],
+        "difficulty_note": "Easy - AI comment is a dry product description while humans share cringeworthy specific stories"
+      },
+      "metadata": {
+        "createdAt": "2026-07-06T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-07",
+      "dayNumber": 170,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "smarthome",
+      "prompt": {
+        "text": "What's the worst thing your smart home device did completely on its own?",
+        "source": "r/smarthome"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SmartBulbHater",
+          "text": "My Hue lights turned on at full brightness and strobed red at 3am during a 'fire alert' triggered by my smoke detector detecting burnt toast. I bolted outside in boxers. Neighbors applauded.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "AlexaHatesMe",
+          "text": "Alexa randomly announced 'your dog food is running low' in the middle of a conference call I had on speakerphone with my CEO. I don't own a dog. I had ordered dog treats once as a gift.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "SmartHomeExperiences",
+          "text": "Smart home devices are designed to improve convenience and efficiency, but occasional unexpected behaviors can create surprising and sometimes humorous situations for users.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "ThermostatTerror",
+          "text": "My Nest decided it was 'away' mode while I was home sick with a fever. Set the house to 58 degrees. I was buried under three blankets arguing with an app about whether I existed.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "RoombaTragedy_",
+          "text": "Roomba found the dog's accident in the dark and proceeded to distribute it across every room at 2am. I call it the great smearing of 2023. Insurance did not cover it.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Designed to improve convenience and efficiency\" - marketing language",
+          "\"Occasional unexpected behaviors\" - bureaucratic euphemism for disaster",
+          "\"Surprising and sometimes humorous\" - vague positive spin",
+          "No specific device, brand, incident, or personal story",
+          "Could be lifted from a product brochure"
+        ],
+        "humanTells": [
+          "#1: Specific brand (Hue), specific trigger (toast), specific time, neighbor witness",
+          "#2: Specific device (Alexa), specific announcement, CEO on call, dog treat backstory",
+          "#4: Specific brand (Nest), specific temperature, sick-with-fever detail, app argument",
+          "#5: Specific incident name, specific time, insurance joke"
+        ],
+        "difficulty_note": "Easy - AI uses abstract product-speak while humans describe specific chaotic smart-home disasters"
+      },
+      "metadata": {
+        "createdAt": "2026-07-07T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-08",
+      "dayNumber": 171,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "programming",
+      "prompt": {
+        "text": "What's the most absurd bug you've ever shipped to production?",
+        "source": "r/programminghorror"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "DeployedNightmares",
+          "text": "Shipped a date comparison that worked in every timezone except one city in Indiana. Found out from a furious customer in Muncie. Hotfix took 4 hours. The bug was a single equals sign.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "OffByOneDev",
+          "text": "Accidentally made user IDs start at 0 instead of 1. The user with ID 0 couldn't be deleted. Couldn't be edited. Was immortal. We named him Gerald. Gerald lasted 8 months.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "ProdOutageStories",
+          "text": "Pushed a config change that set the maximum file upload size to 0. Worked fine in staging. Every user upload silently succeeded and stored nothing. Discovered on a Monday.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "QualityCodeSolutions",
+          "text": "Production bugs can occur even with thorough testing processes in place. These experiences, while frustrating, often provide valuable learning opportunities for development teams.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "RegexRuinedMyLife",
+          "text": "Deployed a regex to validate phone numbers that rejected every number with a 4 in it. Completely by accident. We had a client whose entire office had 4s in their numbers. Found out on day 1.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Even with thorough testing processes\" - defensive corporate hedging",
+          "\"These experiences, while frustrating\" - distancing acknowledgment",
+          "\"Valuable learning opportunities\" - HR-speak cliche",
+          "No specific language, bug, or team story",
+          "Generic enough to apply to any industry"
+        ],
+        "humanTells": [
+          "#1: Specific city (Muncie), specific fix duration, specific root cause (equals sign)",
+          "#2: Specific anomaly (ID 0), gave it a name (Gerald), specific duration (8 months)",
+          "#3: Specific config change, specific failure mode (silent success), specific discovery day",
+          "#5: Specific regex behavior (blocks 4s), specific client impact, day-1 discovery"
+        ],
+        "difficulty_note": "Medium - AI gives generic dev-team advice while engineers share specific production horror stories"
+      },
+      "metadata": {
+        "createdAt": "2026-07-08T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-09",
+      "dayNumber": 172,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "internet",
+      "prompt": {
+        "text": "What's the weirdest rabbit hole the internet has ever sent you down at 2am?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WikipediaSpiral_",
+          "text": "Started on the Wikipedia page for staplers. Ended up reading about the 1989 Tiananmen Square protests 4 hours later. I cannot explain the path. I tried to retrace it. I could not.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "LateNightLoreSeeker",
+          "text": "Spent 3 hours reading about the Salish Sea human foot discoveries. Then the Dyatlov Pass. Then competitive eating records. Then whether owls have knees. They do. I went to work on 2 hours of sleep.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "YoutubeVortex2am",
+          "text": "Started watching a video about how pencils are made. Six videos later I was watching a guy in Finland who silently restores Soviet-era radios. His channel has 3 subscribers. I subscribed. I still watch.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "ForumArchaeologist",
+          "text": "Found a 2007 Yahoo Answers thread about a guy who claimed his cat could predict rain. Read 14 pages of replies. Got invested in whether they reconciled with their neighbor. Still no resolution.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SoundcloudDetective",
+          "text": "Followed a rabbit hole into the world of forgotten Soundcloud rappers who had one song go semi-viral in 2014. Found the guy. He was now selling insurance in Nebraska. He responded to my DM.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "Suspiciously well-organized list of rabbit hole topics — too thematically neat",
+          "Each topic pivot reads like examples chosen to sound authentic, not actual memory",
+          "\"They do. I went to work\" - attempts casualness but feels inserted",
+          "No emotional stakes or genuine confusion about how they got there",
+          "The four topics are all well-known internet curiosities — suspiciously 'correct'"
+        ],
+        "humanTells": [
+          "#1: Impossible-to-explain path from staplers to Tiananmen, failed attempt to retrace",
+          "#3: Specific location (Finland), specific detail (3 subscribers), ongoing subscription",
+          "#4: Specific year (2007), specific platform (Yahoo Answers), unresolved personal drama",
+          "#5: Specific outcome (insurance in Nebraska), direct contact with subject"
+        ],
+        "difficulty_note": "Medium - AI comment uses a plausible list format but lacks genuine bewilderment and has too-clean topic choices"
+      },
+      "metadata": {
+        "createdAt": "2026-07-09T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-10",
+      "dayNumber": 173,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "gadgets",
+      "prompt": {
+        "text": "What gadget purchase turned out to be a total waste of money — or saved you in a completely unexpected way?",
+        "source": "r/gadgets"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "GadgetRegrets_",
+          "text": "Bought a $300 smart juicer that required proprietary juice packs. App-controlled squeezing. The packs were discontinued 8 months after launch. It is now a very expensive paperweight shaped like a lemon.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "UnexpectedSave_Dave",
+          "text": "Bought a cheap dashcam as an afterthought. Guy rear-ended me on the highway, claimed I cut him off. Dashcam footage showed him on his phone drifting into my lane. Insurance payout covered my next car.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "WastedMoneyOnTech",
+          "text": "Gadget purchases can sometimes lead to unexpected outcomes, whether the device underdelivers on its promises or ends up being more useful than originally anticipated.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "SmartRingDisaster",
+          "text": "Bought an Oura ring to optimize my sleep. Became obsessed with my sleep score. Started sleeping worse because I was anxious about my sleep score. Sold it on eBay for $40 less than I paid.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "WifiPlugHero",
+          "text": "Put a $12 wifi plug on my mom's space heater 800 miles away. She forgets to turn it off. I check it from my phone every night before bed. It's saved me more panic calls than I can count.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Can sometimes lead to unexpected outcomes\" - vague non-statement",
+          "\"Underdelivers on its promises\" - generic product review language",
+          "\"More useful than originally anticipated\" - empty positive spin",
+          "Presents both sides without committing to either — classic hedging",
+          "No specific gadget, dollar amount, or personal consequence"
+        ],
+        "humanTells": [
+          "#1: Specific price ($300), specific failure mode (proprietary packs discontinued), visual punchline",
+          "#2: Specific incident, specific evidence type, specific financial outcome",
+          "#4: Specific product (Oura ring), ironic consequence, specific resale loss",
+          "#5: Specific price ($12), specific distance (800 miles), specific behavior pattern"
+        ],
+        "difficulty_note": "Hard - AI sits on the fence with balanced platitudes while humans commit to vivid specific outcomes"
+      },
+      "metadata": {
+        "createdAt": "2026-07-10T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-11",
+      "dayNumber": 174,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "tech",
+      "prompt": {
+        "text": "What's the most creative (or chaotic) workaround you've ever seen someone use when technology refused to cooperate?",
+        "source": "r/talesfromtechsupport"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ITSupportWars",
+          "text": "User couldn't figure out dual monitors. IT tried for two days. User's solution: turned off second monitor, taped a printout of the spreadsheet to it. When asked why, she said 'now I can see both.' She was right.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "NetworkNightmare_",
+          "text": "Our office printer only worked if you stood next to it and breathed on it. Literally. We think it was picking up CO2 as a humidity sensor trigger. We kept a stool next to it. Greg was the designated breather.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "CreativeSolutions_",
+          "text": "When faced with technological limitations, resourceful individuals often find clever and unconventional approaches that achieve their goals in ways developers never anticipated.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "ProductionHackLegacy",
+          "text": "Server kept rebooting at 3am because the HVAC kicked on and caused a voltage spike. Our fix: a UPS from 2006, a hockey puck wedged under a rack leg, and a sticky note that said 'don't touch Greg.' The Greg was the puck.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "CableManagement101",
+          "text": "Client's firewall crashed if the ethernet cable was touched. The cable was coiled 47 times and secured with bread ties. A sign on the rack said 'DO NOT UNCOIL OR WE LOSE KENTUCKY'. They had an office in Kentucky.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Resourceful individuals often find\" - distanced third-person observation",
+          "\"Clever and unconventional approaches\" - vague positive descriptor",
+          "\"Ways developers never anticipated\" - generic observation anyone could write",
+          "No specific person, workaround, technology, or consequence",
+          "Sounds like a LinkedIn post, not a tech support story"
+        ],
+        "humanTells": [
+          "#1: Specific user behavior (printout taped to monitor), specific IT effort (two days), user's logic",
+          "#2: Named person (Greg), specific theory (CO2 sensor), ongoing institutional solution",
+          "#4: Specific cause (HVAC voltage), specific named puck (also Greg), sticky note text",
+          "#5: Specific coil count (47), specific fastener (bread ties), sign text, Kentucky office detail"
+        ],
+        "difficulty_note": "Expert - AI comment uses plausible tech-support framing but floats above all specifics; humans anchor every claim in absurd detail"
+      },
+      "metadata": {
+        "createdAt": "2026-07-11T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-07-12",
+      "dayNumber": 175,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "apps",
+      "prompt": {
+        "text": "What app notification has genuinely made your life worse?",
+        "source": "r/androidapps"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "StepCounterAnxiety",
+          "text": "My fitness app sends a notification at 9pm if I haven't hit my step goal. Last night it said 'You're 47 steps away! Go for a quick walk!' I walked to the fridge and back four times. I hit my goal. I'm not proud.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "BankingAppNightmares",
+          "text": "My bank app sends 'you've spent $X this month on dining!' notifications. Saw one mid-bite at a restaurant with my parents. $340. My mom asked what was wrong. I showed her. We ate in silence.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "AppNotificationThoughts",
+          "text": "Push notifications, while intended to provide timely and relevant information, can sometimes add unnecessary stress or distraction depending on the context and content of the message.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "SleepTrackerHate",
+          "text": "Sleep tracking app tells me every morning how bad my REM was. Today: 'You barely reached deep sleep.' Yesterday: 'Restless night detected.' I was sleeping fine until I got this app. Uninstalling felt like therapy.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "Duolingo_Survived",
+          "text": "Duolingo's owl went from friendly to passive-aggressive to existentially threatening over 3 weeks of skipping. 'You haven't practiced in 21 days. Disappointed.' I reinstalled just to make the owl stop.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"While intended to provide timely and relevant information\" - textbook product framing",
+          "\"Can sometimes add unnecessary stress\" - cautious understatement",
+          "\"Depending on the context and content\" - hedges with no commitment",
+          "No specific app, notification text, or personal moment",
+          "Reads like a UX research summary, not a person venting"
+        ],
+        "humanTells": [
+          "#1: Specific step count (47), specific workaround (fridge laps), specific self-awareness",
+          "#2: Specific amount ($340), family dinner setting, silent aftermath",
+          "#4: Specific quotes from app, before/after contrast, uninstall as emotional release",
+          "#5: Specific app (Duolingo), escalating tone arc, specific days (21), reinstall motivation"
+        ],
+        "difficulty_note": "Hard - AI describes notifications analytically while humans document specific emotional damage in real time"
+      },
+      "metadata": {
+        "createdAt": "2026-07-12T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

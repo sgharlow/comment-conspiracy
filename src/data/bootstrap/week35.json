@@ -1,0 +1,461 @@
+{
+  "week": 35,
+  "startDate": "2026-09-07",
+  "puzzles": [
+    {
+      "id": "2026-09-07",
+      "dayNumber": 232,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "travel",
+      "prompt": {
+        "text": "What's the worst thing that ever happened to you at an airport?",
+        "source": "r/travel"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "GateSprintChamp",
+          "text": "Sprinted to my gate with 4 minutes to spare, tripped on my carry-on strap, slid about 10 feet on the terminal floor. Gate agent slow-clapped. I made the flight. Didn't make eye contact for 6 hours.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "LuggageRoulette",
+          "text": "watched the carousel for 45 minutes before realizing i was at baggage claim for a different airline. my bag had been sitting at the correct carousel the whole time. i walked past it twice.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "TSA_Nightmare99",
+          "text": "TSA pulled me aside to inspect my bag. Turned out it was not my bag. Found out when they pulled out someone else's medication and a child's stuffed unicorn. Still no idea how that happened.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "WrongTerminal_Liz",
+          "text": "Took the airport shuttle to the wrong terminal, went through security again, ran to the gate, got on the plane. Three hours later landed in Cincinnati instead of Charlotte. Different gate, different plane.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SleepyLayover",
+          "text": "Fell asleep during a layover, woke up to an empty gate. My flight had boarded. I was still there. They had announced my name 4 times. Security escorted me to another flight. Never set an alarm since.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Slow-clapped\" is theatrical but the surrounding detail feels constructed rather than lived-in",
+          "\"Didn't make eye contact for 6 hours\" - vague consequence, no specifics about seat, seatmate, or arrival",
+          "Story structure is too neat: sprint → trip → slide → clap → flight",
+          "No sensory detail: no gate number, no city, no time of day",
+          "Missing the chaos and embarrassment aftermath a real traveler would describe"
+        ],
+        "humanTells": [
+          "#2: Wrong airline carousel, specific duration (45 min), walked past it twice",
+          "#3: Wrong bag, unexpected contents listed specifically (medication, stuffed unicorn)",
+          "#4: Specific wrong cities named, logical chain of exact errors",
+          "#5: Name announced 4 times, security escort, lasting behavioral change"
+        ],
+        "difficulty_note": "Easy - AI story is polished and tidy; humans are chaotic and embarrassingly specific"
+      },
+      "metadata": {
+        "createdAt": "2026-09-07T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-08",
+      "dayNumber": 233,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "pets",
+      "prompt": {
+        "text": "What's the most destructive thing your pet has ever done?",
+        "source": "r/dogs"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CouchRIPMemorial",
+          "text": "My dog ate the entire corner of our sectional couch while we were at a wedding. Left the stuffing in a neat pile. The couch was six weeks old. He looked very proud of himself.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PetOwnerJourney",
+          "text": "Pets can sometimes engage in behaviors that cause unexpected damage to our belongings. While challenging, these experiences are often part of the journey of pet ownership and can even become cherished memories.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "PassportCat",
+          "text": "cat chewed through my passport while i was packing for a trip. flight was in 14 hours. emergency passport office at 6am. made my flight by 11 minutes. cat was asleep when i got back. no remorse.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "DryWallDog",
+          "text": "Left my border collie alone for 3 hours. Came back to a hole in the drywall the size of a dinner plate. He had started on a second hole. The vet said he wasn't anxious. He was just bored.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "TaxReturnRIP",
+          "text": "My rabbit ate my tax documents. All of them. Three years of receipts in a folder. I called the IRS and told them. They did not find it funny. The rabbit is still alive. He lives rent-free.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Unexpected damage to our belongings\" - extremely vague, no specific pet or item",
+          "\"Part of the journey of pet ownership\" - motivational-poster phrasing",
+          "\"Cherished memories\" - no real owner calls destruction cherished without specifics",
+          "Doesn't mention any animal, incident, or consequence",
+          "No emotion: no frustration, no humor, no cost"
+        ],
+        "humanTells": [
+          "#1: Six-week-old couch, wedding, neat pile of stuffing, proud dog",
+          "#3: Passport, 14-hour countdown, emergency office, 11-minute margin",
+          "#4: Border collie, 3-hour absence, dinner-plate-sized hole, second hole started",
+          "#5: Rabbit, tax documents, IRS call, specific wry punchline"
+        ],
+        "difficulty_note": "Easy - AI uses zero specifics and leans into generic positivity while humans describe actual disasters"
+      },
+      "metadata": {
+        "createdAt": "2026-09-08T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-09",
+      "dayNumber": 234,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "strangers",
+      "prompt": {
+        "text": "What's the weirdest conversation you've ever had with a stranger?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "BusStopBart",
+          "text": "Guy at a bus stop spent 20 minutes explaining to me why he believes pigeons are government drones. Had diagrams. On actual paper. He'd laminated them. He offered me a copy. I took it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ElevatorPhilosopher",
+          "text": "Woman in an elevator asked if I thought chairs were arrogant. Like, do chairs know they're chairs. I said I wasn't sure. She nodded very seriously and got off at floor 3. Never saw her again.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "LaundroMat_Larry",
+          "text": "guy at the laundromat told me his entire romantic history while folding his shirts. three ex-wives, a parrot named gerald, and a timeshare in branson. i was there for 40 minutes. he was very thorough.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "StrangerMeetings",
+          "text": "Conversations with strangers can take unexpected turns and lead to fascinating exchanges. These chance encounters often offer a unique window into other people's perspectives and life experiences.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "GroceryConfession",
+          "text": "Woman in the cereal aisle told me she hadn't spoken to her sister in 14 years and wasn't sure if she should reach out. I'm a complete stranger. We talked for an hour. I missed my dentist appointment.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Unique window into other people's perspectives\" - generic observation",
+          "\"Fascinating exchanges\" - no exchange described at all",
+          "\"Chance encounters\" - abstract framing instead of a story",
+          "\"Life experiences\" - motivational language with zero specifics",
+          "Does not recount any actual conversation or stranger"
+        ],
+        "humanTells": [
+          "#1: Laminated diagrams about pigeon drones, took a copy",
+          "#2: Specific philosophical question (arrogant chairs), floor 3 exit",
+          "#3: Three ex-wives, parrot named Gerald, Branson timeshare, 40 minutes",
+          "#5: 14-year estrangement, missed dentist, hour-long conversation"
+        ],
+        "difficulty_note": "Medium - AI index is 3 so players must read to the fourth comment before spotting the bland one"
+      },
+      "metadata": {
+        "createdAt": "2026-09-09T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-10",
+      "dayNumber": 235,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "holidays",
+      "prompt": {
+        "text": "What holiday tradition in your family is completely inexplicable to outsiders?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SpaghettiXmas",
+          "text": "We eat spaghetti on Christmas Eve instead of presents. No fish, no ham. My dad started it in 1987 as a joke. We are Italian. The irony is not lost on us.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ThanksgivingOlive",
+          "text": "Every Thanksgiving my family hides a single black olive somewhere in the house. The kid who finds it before dinner gets $20. We've done this for 30 years. Nobody remembers who started it. The $20 is never adjusted for inflation.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "FamilyTraditionHub",
+          "text": "Family holiday traditions are a wonderful way to create lasting bonds and shared memories. These unique rituals, however unusual they may seem, help define a family's identity and bring generations together.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "EasterWrestling",
+          "text": "On Easter, all the male cousins under 40 arm wrestle in the garage. Losers wash dishes. Winners get pie first. My grandmother watches and scores with a notebook. She has been doing this since 1979.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "NewYearSoup_",
+          "text": "My family eats the same soup every New Year's Eve. It's been the same pot, never fully emptied, just topped up, for eleven years. The soup predates two divorces and a house fire. The soup endures.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Wonderful way to create lasting bonds\" - greeting-card phrasing",
+          "\"However unusual they may seem\" - hedging without committing to anything specific",
+          "\"Bring generations together\" - generic conclusion",
+          "\"Help define a family's identity\" - surface-level observation",
+          "No specific tradition, family member, year, or outcome"
+        ],
+        "humanTells": [
+          "#1: Spaghetti on Christmas Eve, Italian family, started 1987 as a joke",
+          "#2: Hidden olive, $20 prize, 30-year duration, never adjusted for inflation",
+          "#4: Arm wrestling, dish-washing stakes, pie priority, grandmother with a notebook since 1979",
+          "#5: Eleven-year-old perpetual soup, survived divorces and a house fire"
+        ],
+        "difficulty_note": "Medium - AI is mid-list and dressed up positively; humans have absurd concrete details that make the traditions real"
+      },
+      "metadata": {
+        "createdAt": "2026-09-10T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-11",
+      "dayNumber": 236,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "dating",
+      "prompt": {
+        "text": "What's the most memorable first date disaster you've experienced or witnessed?",
+        "source": "r/dating"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FirstDateFlop",
+          "text": "Showed up to what I thought was a first date. It was a group dinner. She had brought 7 other people. We didn't sit near each other. She texted me 'fun right?' after. No second date.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "WrongRestaurant_Date",
+          "text": "My date went to the right restaurant name, wrong neighborhood. Same name, different location. I waited 40 minutes, then went and found him at the other one. We were both already at the check. We paid separately.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "DateMoments",
+          "text": "First dates can be nerve-wracking experiences that sometimes go in unexpected directions. Despite any awkward moments, these situations can provide valuable insights about compatibility and often make for great stories to look back on.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "AllergyAlert_Date",
+          "text": "took a girl to a fancy sushi place. she was allergic to fish. i didn't ask beforehand. she didn't say anything until we were seated. we left and got tacos. the tacos were great. we dated for two years.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ThirdWheelForever",
+          "text": "Went on a date to a comedy show. His ex was performing. He didn't know until she walked onstage. She recognized him from the stage. Made eye contact. He waved. I watched all of this happen in real time.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Nerve-wracking experiences\" - generic emotional framing",
+          "\"Valuable insights about compatibility\" - clinical language no dater would use",
+          "\"Great stories to look back on\" - positive spin without a single story",
+          "\"Go in unexpected directions\" - vague without any direction specified",
+          "No date, no person, no setting, no outcome described"
+        ],
+        "humanTells": [
+          "#1: Group dinner surprise, 7 people, didn't sit together, 'fun right?' text",
+          "#2: Same restaurant name, different neighborhood, already paid separately",
+          "#4: Sushi + fish allergy, pivoted to tacos, dated two years",
+          "#5: Ex performing comedy, recognized from stage, waved, witness perspective"
+        ],
+        "difficulty_note": "Hard - AI is mid-list and uses emotional language that sounds plausible; specifics in human comments are the tell"
+      },
+      "metadata": {
+        "createdAt": "2026-09-11T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-12",
+      "dayNumber": 237,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "travel",
+      "prompt": {
+        "text": "What's a time you were completely lost while traveling and how did you get out of it?",
+        "source": "r/solotravel"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "TokyoMazeRunner",
+          "text": "Got on the Tokyo metro going the wrong direction for 45 minutes. Didn't realize until I saw the ocean. Ended up in a fishing village. Ate the best tempura of my life at a place with no English menu. No regrets.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "NightBusMorocco",
+          "text": "Caught the wrong overnight bus in Morocco. Woke up in a city I couldn't spell. No phone signal. Found a pharmacy where the owner spoke French. He called his cousin who spoke Spanish. My Spanish is bad. Got home in 9 hours.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "LisbonHillCrawl",
+          "text": "wandered uphill in lisbon for two hours thinking i was heading toward the castle. it was the wrong hill. there are many hills. a 74-year-old woman finally pointed me right without me asking. she'd seen enough tourists.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "BangkokTukTuk_",
+          "text": "Trusted a tuk-tuk driver in Bangkok who said my guesthouse had 'moved.' It hadn't. He took me to his cousin's guesthouse. It was actually fine. But my original place called my emergency contact thinking I was missing.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "IcelandRoadFail",
+          "text": "Drove past the same gas station in Iceland three times because I thought I was going in a loop. I was. Ring Road goes in a complete circle. I had not fully processed that concept before renting the car.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Best tempura of my life\" - superlative with no supporting detail (no texture, no dish, no vendor)",
+          "Story arc is suspiciously tidy: mistake → discovery → reward → \"no regrets\"",
+          "\"No English menu\" adds exotic flavor but no real friction or problem-solving",
+          "Missing the actual recovery mechanic — how did they get back?",
+          "Tone is travel-blog polished rather than genuinely recounted"
+        ],
+        "humanTells": [
+          "#2: Specific country, pharmacy chain of translation (French→Spanish), 9-hour return",
+          "#3: Wrong hill among many hills, 74-year-old woman intervened without being asked",
+          "#4: Tuk-tuk cousin scheme, original place called emergency contact",
+          "#5: Ring Road misunderstanding, drove past same gas station three times"
+        ],
+        "difficulty_note": "Expert - AI story sounds authentic and entertaining; the tell is in what's missing (actual solution, sensory failure, real embarrassment)"
+      },
+      "metadata": {
+        "createdAt": "2026-09-12T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-13",
+      "dayNumber": 238,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "pets",
+      "prompt": {
+        "text": "What's the strangest thing your pet has ever become obsessed with?",
+        "source": "r/cats"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CeilingFanCat",
+          "text": "My cat is obsessed with the ceiling fan. Not when it's moving. When it's off. She stares at it for hours. We had it inspected. Nothing wrong with it. She knows something we don't.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PlasticBagPuppy",
+          "text": "my dog goes absolutely feral for plastic grocery bags. not what's in them. the bags. he hears a bag crinkle from two rooms away and sprints. we now whisper when unpacking groceries.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "PetBehaviorPost",
+          "text": "Pets often develop fascinating fixations and preferences that can seem puzzling to their owners. These behaviors are a reminder of how much personality and individuality our animal companions bring to our lives.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "RoombaCatRider",
+          "text": "My cat became obsessed with sitting on the Roomba while it runs. Not riding it. Sitting very still on top of it like a king being carried. We bought a second Roomba so she has a day shift and a night shift.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "TunaCanLid_",
+          "text": "Rabbit fixated on a specific tuna can lid for three years. We tried to throw it away. He found it in the trash. We tried hiding it. He found it under the couch. It's in his enclosure now. He's won.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Fascinating fixations and preferences\" - vague, no animal or behavior cited",
+          "\"Puzzling to their owners\" - generic framing",
+          "\"Personality and individuality\" - motivational filler",
+          "\"Animal companions\" - formal phrasing nobody uses casually on Reddit",
+          "No specific pet, no specific obsession, no outcome or punchline"
+        ],
+        "humanTells": [
+          "#1: Ceiling fan only when OFF, had it inspected, ominous conclusion",
+          "#2: Grocery bag crinkle from two rooms away, whispering while unpacking",
+          "#4: Roomba throne behavior, bought second Roomba, day/night shift schedule",
+          "#5: Specific tuna can lid, three years, found in trash, found under couch, now enshrined"
+        ],
+        "difficulty_note": "Hard - AI blends in as a plausible comment but is the only one with no animal or behavior named"
+      },
+      "metadata": {
+        "createdAt": "2026-09-13T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "week": 21,
+  "startDate": "2026-06-01",
+  "puzzles": [
+    {
+      "id": "2026-06-01",
+      "dayNumber": 134,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "grocery shopping",
+      "prompt": {
+        "text": "What's the most embarrassing thing that's happened to you at a grocery store?",
+        "source": "r/mildlyinfuriating"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CartCollision_",
+          "text": "Grocery shopping experiences can sometimes lead to unexpected and memorable moments. These minor embarrassments are a relatable part of everyday life that most people can connect with and laugh about afterward.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "WrongShopping_Cart",
+          "text": "pushed someone else's full cart for an entire aisle before realizing it wasn't mine. my cart was one row over. same brand of cart. but the person's stuff was clearly different. i had reorganized some of their items. they watched me do this.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "LoudPhoneCall",
+          "text": "My phone accidentally called my mom while I was arguing with myself over whether to buy the name-brand or generic cereal. She heard 4 minutes of this. Called it 'a very concerning voicemail.' I bought the generic. It was worse.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SlipAndScan",
+          "text": "Slipped on a wet floor sign. Not the wet floor. The sign itself. Knocked over a display of individually wrapped cheeses. Staff had to help me up. Someone clapped. I bought the cheese out of guilt. $47 of cheese.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "WrongNameGreet",
+          "text": "greeted a stranger with 'hey linda!' because she had the same haircut as my aunt linda. she was not linda. we had a conversation anyway. i never admitted i thought she was linda. linda never found out. linda is my aunt not a stranger",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Unexpected and memorable moments\" - vague positive framing",
+          "\"Relatable part of everyday life\" - generic observer language",
+          "\"Most people can connect with\" - broad generalization, no story",
+          "No specific embarrassment described at all"
+        ],
+        "humanTells": [
+          "#2: Specific action (reorganized items), witness detail, wrong cart not noticed for a full aisle",
+          "#3: 4-minute pocket call, specific decision (name-brand vs generic), verdict on the cereal",
+          "#4: Irony of slipping on the sign not the floor, $47 guilt cheese, crowd clap",
+          "#5: Specific name (Linda), sustained conversation without admitting mistake, clarification at end"
+        ],
+        "difficulty_note": "Easy - the AI gives a motivational-speaker summary of embarrassment while humans describe specific mortifying sequences"
+      },
+      "metadata": {
+        "createdAt": "2026-06-01T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-02",
+      "dayNumber": 135,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "sleep",
+      "prompt": {
+        "text": "What's the strangest thing you've done or said while half-asleep?",
+        "source": "r/tifu"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SleepWalker_Steve",
+          "text": "woke up in my kitchen holding a can of chickpeas and a spatula. no memory of going there. chickpeas were open. spatula had residue. something happened. i will never know what",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "MidnightEmail_",
+          "text": "Sent a work email at 3 AM while half-asleep. It just said 'the numbers are wrong but also the dog.' We don't have a dog at work. My manager replied asking which numbers. I had to pretend I knew.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "SleepPhoneCall",
+          "text": "Sleep-called my college roommate at 2 AM and told him I needed to 'return the moon.' He talked me through it for 11 minutes trying to figure out what I meant. I woke up mid-sentence. We still text about it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SleepingHabits",
+          "text": "Sleep-related behaviors and half-awake states can produce genuinely puzzling actions and statements. These moments, while disorienting, are a fascinating window into how the mind processes information during rest.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "AlarmClock_Negotiator",
+          "text": "My partner caught me negotiating with my alarm clock at 5:45 AM. I was saying 'just five more points' while holding it up like a phone. I thought I was in a meeting. I was a project manager. This was not a good sign.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Fascinating window into how the mind processes information\" - pop-science framing",
+          "\"Genuinely puzzling actions\" - describes the category without an example",
+          "\"During rest\" - clinical sign-off language",
+          "No specific sleep incident described at all"
+        ],
+        "humanTells": [
+          "#1: Specific props (chickpeas, spatula), open can with residue, accepted mystery",
+          "#2: Specific email text verbatim, dog caveat, manager's follow-up, improvised cover story",
+          "#3: Specific request ('return the moon'), 11-minute call, still referenced in friendship",
+          "#5: Exact time (5:45 AM), specific phrase used ('five more points'), job context adds irony"
+        ],
+        "difficulty_note": "Easy - the AI speaks like a neuroscience summary paragraph; humans have absurd specific incidents with dialogue and props"
+      },
+      "metadata": {
+        "createdAt": "2026-06-02T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-03",
+      "dayNumber": 136,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "commuting",
+      "prompt": {
+        "text": "What's the most awkward thing that's happened to you on public transit?",
+        "source": "r/PublicFreakout"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SubwayNapper_",
+          "text": "fell asleep on the subway and woke up on a stranger's shoulder. they were also asleep. i gently moved. they stayed asleep. got off at my stop. never made eye contact. we were both asleep on each other for at least 3 stops",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "BusMistake_",
+          "text": "Confidently got on the wrong bus and rode it for 20 minutes before looking up. I was heading to the airport. I ended up at a botanical garden. My flight was in 90 minutes. I made it. Barely. Have never told my wife how close it was.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "HeadphonesLie_",
+          "text": "Had headphones in with no music playing because I didn't want to talk. Guy next to me started talking. I nodded. For 25 minutes I nodded. Got off two stops early to escape. Walked 12 blocks. It was raining.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "TrainDoubleSit",
+          "text": "Sat down in a reserved seat accidentally. Owner came. I apologized and moved. Moved into another reserved seat. Owner came. I apologized and moved again. Third seat: reserved. At this point I just stood. Four people watched this unfold.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "PublicTransitLife",
+          "text": "Public transit brings together people from all walks of life, creating situations that can be both unexpected and character-building. These shared experiences often become the stories we tell for years afterward.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "\"People from all walks of life\" - stock transit-poster phrase",
+          "\"Character-building\" - optimistic generalization with no situation",
+          "\"Stories we tell for years\" - vague future outcome, no current story",
+          "No transit incident described at all"
+        ],
+        "humanTells": [
+          "#1: Mutual sleeping, 3 stops estimated, departure without eye contact",
+          "#2: Wrong destination (botanical garden vs airport), 90-minute window, wife still unaware",
+          "#3: Silent nodding duration (25 minutes), two stops early exit, 12-block rain walk",
+          "#4: Three consecutive reserved seats, escalating audience of four"
+        ],
+        "difficulty_note": "Medium - the AI offers an uplifting transit philosophy while humans catalogued specific sequences of social failure"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-04",
+      "dayNumber": 137,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "laundry",
+      "prompt": {
+        "text": "What's the most inconvenient laundry disaster you've ever experienced?",
+        "source": "r/Wellthatsucks"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ShrinkWashed_",
+          "text": "Washed my boyfriend's favorite hoodie on hot. It emerged the size of a large sock. I bought an identical replacement online overnight shipping. Swapped them. He has never noticed. It's been 3 years. The original is in a box under my bed.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "RedSockInfection",
+          "text": "a single red sock. one. got into my whites. now i own 12 pale pink undershirts. i wear them. have never told anyone. this happened in 2019. i still think about that sock.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "LaundryRoomLessons",
+          "text": "Laundry mishaps can happen to anyone and often serve as useful reminders to sort clothes properly and check care labels. Most clothing disasters, while inconvenient, can be managed or turned into learning opportunities.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "PocketTissue_",
+          "text": "Forgot a tissue in my jeans. The entire load was coated in white shreds. Spent 47 minutes with a lint roller getting it off my black work pants. Gave up on the sheets. Still had specks at my meeting. Someone pointed it out. I said it was confetti from a birthday. Nobody asked whose.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "WrongDryerLoad",
+          "text": "Accidentally put someone else's laundry in my dryer at the laundromat. Their stuff dried fine. Mine sat wet for 45 minutes before I noticed. Confessed to the owner of the other clothes. She was very nice about it. I was still mortified. Folded her stuff by accident while panicking.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Useful reminders to sort clothes properly\" - instruction-manual tone",
+          "\"Check care labels\" - practical tip with no story",
+          "\"Turned into learning opportunities\" - classic AI-positive reframe",
+          "No laundry disaster described whatsoever"
+        ],
+        "humanTells": [
+          "#1: Replacement purchased overnight, original preserved in box, 3 years of concealment",
+          "#2: 12 pink undershirts still worn, specific year (2019), emotional weight on one sock",
+          "#4: 47-minute lint roll, confetti lie, birthday left anonymous, presenter still visible",
+          "#5: 45-minute wet wait, confession made, accidentally folded stranger's clothes while panicking"
+        ],
+        "difficulty_note": "Medium - the AI gives a laundry safety tip while humans describe cascading disasters with specific counts, durations, and cover stories"
+      },
+      "metadata": {
+        "createdAt": "2026-06-04T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-05",
+      "dayNumber": 138,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "outdoor chores",
+      "prompt": {
+        "text": "What's the most cursed thing that's happened to you while doing yard work?",
+        "source": "r/lawncare"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "YardWorkRewards",
+          "text": "Yard work and outdoor maintenance can sometimes lead to unexpected discoveries and interesting challenges. Approaching these tasks with patience and a sense of humor makes them more manageable and rewarding overall.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "LawnMower_Escape",
+          "text": "ran over my garden hose with the mower. the hose turned into a sprinkler. directed at me specifically. full pressure. i finished the lawn. i was soaked by the first pass and kept going. i don't know why. neighbors watched. one filmed it",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "WaspNestDiscovery",
+          "text": "Found a wasp nest in my gas grill. While the grill was on. Mid-cookout. There were 9 adults present. I calmly closed the lid and announced we were 'going with a slower cook today.' Ordered pizza 30 minutes later. Said nothing about the wasps until 2022, 4 years after it happened.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SnakeInTheMulch",
+          "text": "Grabbed a handful of mulch and pulled out a snake. Not a dangerous one. But I didn't know that at the time. Screamed loudly enough that my neighbor came outside and called animal control. Animal control confirmed it was a garter snake. They were very professional. I was not.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "TreeTrimNightmare",
+          "text": "hired someone to trim a single branch. they trimmed the wrong branch. the right branch fell anyway two days later. on my car. the wrong branch they trimmed is still thriving. i now have two problems and no money",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Unexpected discoveries and interesting challenges\" - vague upbeat framing",
+          "\"Patience and a sense of humor\" - stock motivational advice",
+          "\"More manageable and rewarding\" - positive spin with no grounding in reality",
+          "No yard work incident described at all"
+        ],
+        "humanTells": [
+          "#2: Accidental sprinkler, kept mowing while soaked, one neighbor filmed it",
+          "#3: Specific guest count (9), cover phrase used verbatim, 4-year concealment timeline",
+          "#4: Non-dangerous snake, animal control called, official identification, personal contrast",
+          "#5: Wrong branch cut, right branch fell anyway, car damaged, financial double loss"
+        ],
+        "difficulty_note": "Hard - the AI sounds like a gardening-club newsletter while humans describe outdoor disasters with specific victims, witnesses, and ironic outcomes"
+      },
+      "metadata": {
+        "createdAt": "2026-06-05T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-06",
+      "dayNumber": 139,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "DIY projects",
+      "prompt": {
+        "text": "What DIY project did you start confidently and immediately regret?",
+        "source": "r/DIY"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "TileDisaster_",
+          "text": "Decided to retile my bathroom. Watched 3 YouTube videos. Was confident. Cracked the subfloor on day 1. Hired a contractor on day 2. Showed him my tilework. He shook his head slowly for a full 5 seconds without speaking. Cost me $2,800 more than just hiring him first.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PlumbingVictim_",
+          "text": "tried to replace a bathroom faucet. turned off what i thought was the right shutoff valve. turned out i shut off water to the whole street. neighbor knocked on my door an hour later. very confused. very polite. i fixed the faucet. eventually",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "WallRemoval_Oops",
+          "text": "Knocked out what I was sure was a non-load-bearing wall. The ceiling visibly sagged within the hour. My contractor friend came over, looked up, looked at me, and said 'you need to not be here right now.' We propped it up with a 4x4 for six weeks.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "DIYProjects_Worth",
+          "text": "Taking on DIY home projects can be a rewarding way to develop new skills and personalize your space. While challenges may arise along the way, the experience gained often makes future projects more approachable.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "PaintingPanic",
+          "text": "Decided to paint my living room. Bought the wrong sheen (semi-gloss for the walls, not trim). Painted one full wall before realizing. It looked wet. Permanently. Like the wall was always sweating. Repainted. Put the original color back. Net change: zero. Net cost: $340.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Rewarding way to develop new skills\" - DIY channel intro language",
+          "\"Personalize your space\" - real-estate marketing phrasing",
+          "\"Experience gained makes future projects more approachable\" - silver-lining pivot",
+          "No specific project, mistake, or regret mentioned"
+        ],
+        "humanTells": [
+          "#1: 3 videos watched, specific contractor reaction (5 seconds of silence), exact extra cost ($2,800)",
+          "#2: Wrong valve, entire street affected, neighbor arrival timeline",
+          "#3: Ceiling sagged, specific contractor phrase quoted, 4x4 support for 6 weeks",
+          "#5: Specific error (wrong sheen), sweating wall description, net cost vs net change irony"
+        ],
+        "difficulty_note": "Expert - the AI sounds exactly like a DIY website intro section; human stories have specific dollar amounts, contractor reactions, and structural consequences"
+      },
+      "metadata": {
+        "createdAt": "2026-06-06T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-06-07",
+      "dayNumber": 140,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "social faux pas",
+      "prompt": {
+        "text": "What's a small social mistake you made that you still cringe about years later?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "YouTooBurger_",
+          "text": "Server said 'enjoy your meal' and I said 'you too.' She was not eating a meal. She was working. She heard me. I have thought about this at least 400 times since 2014.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "WrongHandshake",
+          "text": "tried to fist bump someone who was going in for a handshake. then i adjusted to handshake, they adjusted to fist bump. we did this 3 times. we both gave up and just nodded. this was at a job interview. i got the job somehow. never mentioned it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "LingeringCringe",
+          "text": "Social missteps are a universal part of human experience and can leave a lasting impression long after the moment has passed. With time, most people find that these memories, while uncomfortable, gradually lose their emotional intensity.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "HappyBirthdayBack",
+          "text": "A coworker wished me happy birthday in a meeting. I panicked and said 'happy birthday to you too.' It was not her birthday. Everyone in the room knew it was not her birthday. She said thank you anyway. I wanted to leave the building.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "WavingAtNobody_",
+          "text": "thought someone was waving at me in a parking lot. waved back enthusiastically. they were flagging down a taxi behind me. the taxi driver waved back at me instead. we both drove away having waved at the wrong people. full circle",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Universal part of human experience\" - overly broad framing",
+          "\"Gradually lose their emotional intensity\" - therapeutic generalization",
+          "\"With time\" - vague time-heals platitude",
+          "No specific cringe moment described at all"
+        ],
+        "humanTells": [
+          "#1: Specific year (2014), specific replay count (~400), specific context (server at work)",
+          "#2: Three rounds of greeting negotiation, nod as final resolution, job interview stakes",
+          "#4: Meeting context, room-wide awareness, coworker's gracious recovery, exit instinct",
+          "#5: Taxi as actual target, taxi driver waves back, narrative closes as full circle"
+        ],
+        "difficulty_note": "Hard - the AI offers therapeutic reframing while humans have catalogued their cringe with specific dates, witnesses, and replay counts"
+      },
+      "metadata": {
+        "createdAt": "2026-06-07T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}
