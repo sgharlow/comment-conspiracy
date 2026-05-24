@@ -37,7 +37,7 @@ comment-conspiracy/
 │   │   ├── puzzleService.ts     # getTodaysPuzzle, submitGuess, getPreviousResult
 │   │   ├── redisService.ts      # Low-level Redis operations
 │   │   ├── redisKeys.ts         # Redis key schema
-│   │   ├── bootstrapService.ts  # Loads 126 puzzles from JSON into Redis
+│   │   ├── bootstrapService.ts  # Loads all bootstrap puzzles into Redis (252 across weeks 01-37)
 │   │   ├── userService.ts       # User progress management
 │   │   ├── achievementService.ts# Achievement checking/awarding
 │   │   ├── contributionService.ts# User-submitted puzzle ideas
@@ -104,7 +104,7 @@ npm run lint          # ESLint check
 
 - **Live**: r/CommentConspiracy
 - **Version**: 0.0.16 (devvit.yaml + package.json; `@devvit/public-api ^0.12.18`)
-- **Puzzle Content**: 126 puzzles (Jan 19 - May 24, 2026) — **content exhausts 2026-05-24**
+- **Puzzle Content**: 252 puzzles (2026-01-19 - 2026-09-27) — extended +18 weeks (weeks 20-37) on 2026-05-24; runs ~4 months out (deploy with `npm run upload`)
 - **Hackathon**: ✅ Submitted to Reddit Daily Games Hackathon 2026 (deadline 2026-02-12). Awaiting results.
 - **Post-submission migration**: commit `320a7a3` migrated from Devvit Blocks renderer to `useWebView()` ahead of the Devvit Blocks June-30-2026 deprecation.
 
