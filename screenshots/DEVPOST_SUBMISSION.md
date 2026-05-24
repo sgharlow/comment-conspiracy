@@ -3,7 +3,7 @@
 > **Hackathon:** Reddit Daily Games Hackathon 2026
 > **Deadline:** February 12, 2026 @ 6:00 PM PST
 > **Prize Pool:** $40,000 | Target: Best Daily Game ($15,000)
-> **Status:** READY TO SUBMIT
+> **Status:** SUBMITTED 2026-02-02
 > **Last Verified:** 2026-01-30
 > **App Version:** v0.0.14 (Dark Detective Theme)
 
@@ -190,4 +190,4 @@ Visit https://reddit.com/r/CommentConspiracy and look for the latest "Comment Co
 
 ---
 
-*Last Verified: 2026-01-30 - v0.0.14 deployed, dark theme active, GitHub public verified*
+*Submitted: 2026-02-02 - v0.0.14 deployed, dark theme active, GitHub public verified. Post-submission: v0.0.16 deployed (commit `320a7a3` migrated to `useWebView()` ahead of Devvit Blocks June-30-2026 deprecation).*

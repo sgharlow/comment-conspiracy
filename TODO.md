@@ -1,5 +1,11 @@
 # Comment Conspiracy - Complete Launch Checklist
 
+> **OWNER ACTION REQUIRED — PUZZLE EXHAUSTION 2026-05-24 (TOMORROW)**
+> Pre-seeded puzzle content (126 puzzles, week01–19) ends on 2026-05-24.
+> No new puzzles will post automatically from 2026-05-25 onward.
+> If r/CommentConspiracy is still live, add new puzzle JSON files and re-run `npm run upload`,
+> OR explicitly confirm the game is dormant and stop the scheduler.
+
 > **Last Updated**: 2026-01-29 (Dark theme UI redesign completed)
 > **Hackathon Deadline**: February 12, 2026, 6:00 PM PST (14 days remaining)
 > **Demo URL**: https://reddit.com/r/CommentConspiracy

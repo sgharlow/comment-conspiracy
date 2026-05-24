@@ -1,6 +1,6 @@
 # Comment Conspiracy
 
-Daily Reddit game where players identify which comment among 5 is AI-generated. Built for the Reddit Games & Puzzles Hackathon 2026.
+Daily Reddit game where players identify which comment among 5 is AI-generated. Built for the Reddit Daily Games Hackathon 2026.
 
 ## Tech Stack
 
@@ -15,7 +15,7 @@ Daily Reddit game where players identify which comment among 5 is AI-generated. 
 ```
 comment-conspiracy/
 ├── devvit.yaml              # Devvit app config (name, version, capabilities)
-├── package.json             # v0.0.12, @devvit/public-api 0.12.8
+├── package.json             # v0.0.16, @devvit/public-api ^0.12.18
 ├── src/
 │   ├── main.tsx             # Devvit entry: WebView host, message handlers, triggers
 │   ├── types/               # TypeScript definitions
@@ -103,9 +103,10 @@ npm run lint          # ESLint check
 ## Current Status
 
 - **Live**: r/CommentConspiracy
-- **Version**: 0.0.13 (devvit.yaml)
-- **Puzzle Content**: 126 puzzles (Jan 19 - May 24, 2026)
-- **Hackathon**: ✅ Submitted to Reddit Games & Puzzles 2026 (deadline 2026-02-12). Awaiting results.
+- **Version**: 0.0.16 (devvit.yaml + package.json; `@devvit/public-api ^0.12.18`)
+- **Puzzle Content**: 126 puzzles (Jan 19 - May 24, 2026) — **content exhausts 2026-05-24**
+- **Hackathon**: ✅ Submitted to Reddit Daily Games Hackathon 2026 (deadline 2026-02-12). Awaiting results.
+- **Post-submission migration**: commit `320a7a3` migrated from Devvit Blocks renderer to `useWebView()` ahead of the Devvit Blocks June-30-2026 deprecation.
 
 ### Key Files to Check
 - `devvit.yaml` - Version and scheduled job config
