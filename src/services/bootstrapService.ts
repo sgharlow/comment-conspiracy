@@ -47,8 +47,15 @@ import week34Data from '../data/bootstrap/week34.json';
 import week35Data from '../data/bootstrap/week35.json';
 import week36Data from '../data/bootstrap/week36.json';
 import week37Data from '../data/bootstrap/week37.json';
+import week38Data from '../data/bootstrap/week38.json';
+import week39Data from '../data/bootstrap/week39.json';
+import week40Data from '../data/bootstrap/week40.json';
+import week41Data from '../data/bootstrap/week41.json';
+import week42Data from '../data/bootstrap/week42.json';
+import week43Data from '../data/bootstrap/week43.json';
 
-// All week data combined (252 puzzles total - 37 weeks covering 2026-01-19 - 2026-09-27)
+// All week data combined (282 puzzles - 43 weeks; 2026-01-19 - 2026-11-06 minus the 5-25..6-03 dry window,
+// whose 10 puzzles were re-dated to week38-39 at 2026-09-28 - 2026-10-07)
 const allWeeksData = [
   week01Data,
   week02Data,
@@ -87,6 +94,12 @@ const allWeeksData = [
   week35Data,
   week36Data,
   week37Data,
+  week38Data,
+  week39Data,
+  week40Data,
+  week41Data,
+  week42Data,
+  week43Data,
 ] as PuzzleWeek[];
 
 /**

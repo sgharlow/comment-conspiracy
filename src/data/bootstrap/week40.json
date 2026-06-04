@@ -1,0 +1,454 @@
+{
+  "week": 40,
+  "startDate": "2026-10-12",
+  "puzzles": [
+    {
+      "id": "2026-10-12",
+      "dayNumber": 257,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "houseplants",
+      "prompt": {
+        "text": "What's a houseplant you absolutely cannot keep alive no matter what?",
+        "source": "r/houseplants"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FiddleLeafFailure",
+          "text": "Fiddle leaf fig. Killed four. FOUR. I moved one closer to the window and it dropped six leaves in protest. I moved it back and it dropped four more out of spite. I now have a fake one. It looks judgmental.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "PlantParentJourney",
+          "text": "Caring for houseplants can be a rewarding but sometimes challenging experience. Every plant has its own needs, and learning to meet them is part of the joy of being a plant parent, even when some don't survive.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "BasilGraveyard_",
+          "text": "basil. i can grow a literal cactus into a small tree but supermarket basil dies in my kitchen within 9 days every single time. i've tried 6 different windows. i think it's me. the basil knows.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "CalatheaCurse",
+          "text": "Calathea. The crispy-edge queen. I bought a humidifier, a hygrometer, and distilled water specifically for her. She rewarded me with the saddest brown edges you've ever seen. I have spent $60 to disappoint one plant.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "OrchidReboundGuy",
+          "text": "orchids. everyone says they're easy once they rebloom. mine bloomed once in 2021, dropped everything, and has been a green stick in a pot for three years. i keep watering the stick. the stick and i have an understanding now.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "Comment #2 is the AI: \"rewarding but sometimes challenging\" generic framing",
+          "\"Every plant has its own needs\" - truism, no plant named",
+          "\"Part of the joy of being a plant parent\" - motivational filler",
+          "Note: the AI here is #2, which describes plant care in the abstract with no specific plant or failure"
+        ],
+        "humanTells": [
+          "#1: Fiddle leaf fig, four dead, leaf-drop 'out of spite', judgmental fake replacement",
+          "#3: Can grow a cactus but basil dies in 9 days, 6 windows tried",
+          "#4: Calathea, $60 of humidifier/hygrometer/distilled water, brown edges anyway",
+          "#5: Orchid bloomed once in 2021, a green stick for 3 years, still watering it"
+        ],
+        "difficulty_note": "Easy - the bland abstract entry (#2) is the AI; it praises 'plant parenting' without ever naming a plant it can't keep alive"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-13",
+      "dayNumber": 258,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "car trouble",
+      "prompt": {
+        "text": "What's the dumbest reason your car ever left you stranded?",
+        "source": "r/cars"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "GasGaugeLiar_",
+          "text": "My gas gauge was broken and stuck on half a tank. I drove on 'half a tank' for two weeks before running completely dry on an on-ramp. A trucker gave me a gallon from a jug he keeps for exactly this kind of idiot. His words.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "KeyFobChaos",
+          "text": "dead key fob battery in a parking garage with no cell signal. car wouldn't start, couldn't call anyone, couldn't figure out the hidden physical key slot. sat there 40 minutes until a teenager walked by and showed me the slot in 4 seconds.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "MouseNestMotor",
+          "text": "Mice built a nest on my engine block and chewed through a wire. Car wouldn't start. Mechanic pulled out an entire nest, two acorns, and a chewed-up receipt that was somehow MINE from a store I went to in 2019. How.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "VehicleMishaps_",
+          "text": "Car troubles always seem to happen at the worst possible moments. Whether it's a small mechanical issue or simple bad luck, being stranded is a frustrating experience that most drivers can relate to at some point.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "ParkingBrakeDrive",
+          "text": "drove 30 miles with the parking brake fully on because the warning light bulb was burned out. smelled smoke. thought it was the car in front of me. it was my own car. it was always my own car. the brakes were never the same.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Worst possible moments\" - generic timing observation",
+          "\"Small mechanical issue or simple bad luck\" - covers everything, commits to nothing",
+          "\"Most drivers can relate to\" - audience appeal, no story",
+          "No car, no reason, no place — just sympathy for the concept of being stranded"
+        ],
+        "humanTells": [
+          "#1: Stuck gas gauge, ran dry on an on-ramp, trucker's 'idiot jug'",
+          "#2: Dead fob in a no-signal garage, 40 minutes, teenager finds the slot in 4 seconds",
+          "#3: Mouse nest on engine block, acorns, a chewed 2019 receipt that was his",
+          "#5: 30 miles with parking brake on, blamed the car in front, ruined brakes"
+        ],
+        "difficulty_note": "Easy - the AI offers blanket sympathy for car trouble while four humans confess specific, ridiculous failures"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-14",
+      "dayNumber": 259,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "concerts",
+      "prompt": {
+        "text": "What's the most memorable thing that happened to you at a live concert?",
+        "source": "r/Music"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CrowdSurfShoe",
+          "text": "Lost a shoe crowd-surfing at a festival in 2017. Just one. The crowd passed it around for like ten minutes trying to find the owner. I was the owner. I was also still crowd-surfing. We never reconnected. I drove home with one shoe.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "LiveMusicMoments_",
+          "text": "Live concerts have a unique energy that brings people together through a shared love of music. The atmosphere, the crowd, and the performance combine to create memories that often stay with us long after the show ends.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "PulledOnStage99",
+          "text": "got pulled on stage at a small bar show to sing backup on one chorus. i don't know the words. i mouthed 'watermelon watermelon' the whole time like they teach extras to do. there's a video. you can see me not knowing a single word. i look thrilled.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "RainShowRefund",
+          "text": "Outdoor show got rained out mid-set. Instead of refunding, the band moved everyone into a nearby parking garage and played acoustic for an hour. Best show I've ever seen. The acoustics in a concrete garage are insane. 200 of us, soaked, grinning.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "WrongOpenerFan",
+          "text": "Showed up two hours early, watched the opener, screamed every word, told everyone around me they were my favorite band. Turned out the opener had swapped last minute. I had been worshipping a band whose name I still don't know. They were great though.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Unique energy that brings people together\" - concert-poster boilerplate",
+          "\"Atmosphere, the crowd, and the performance combine\" - lists components, no event",
+          "\"Memories that often stay with us\" - vague aftermath, no specific moment",
+          "Could describe any concert ever; no band, no incident"
+        ],
+        "humanTells": [
+          "#1: Lost one shoe crowd-surfing 2017, crowd-passed while he kept surfing, drove home with one shoe",
+          "#3: Pulled onstage, mouthed 'watermelon', the incriminating video",
+          "#4: Rainout moved to a parking garage, acoustic hour, 200 soaked grinning people",
+          "#5: Worshipped a swapped-in opener whose name he still doesn't know"
+        ],
+        "difficulty_note": "Medium - the AI sounds like a tourism blurb about live music; the humans each have a precise, funny incident"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-15",
+      "dayNumber": 260,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "first jobs",
+      "prompt": {
+        "text": "What's something absurd that happened at your very first job?",
+        "source": "r/antiwork"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "MascotMeltdown_",
+          "text": "First job was wearing a hot dog costume to wave at traffic. Day three a goose decided the costume was a threat and chased me into a CVS. I could not see well in the costume. I knocked over a sunglasses display. I was 16. I quit by text.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "IceCreamScoopPro",
+          "text": "scooped ice cream and my manager's entire personality was the freezer temperature. he kept a log. an ACTUAL log book. if a customer held the door open too long he'd appear out of nowhere. i once saw him sprint across the store for an open door. olympic.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "PaperRouteDog_",
+          "text": "paper route. one house had a dog that learned my schedule and would steal the paper before the customer got it. every day. the customer thought i wasn't delivering. i had to film the dog to prove it. the dog was a golden retriever named, i learned, Kevin.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "RegisterPanicKid",
+          "text": "Cashier at 15. The register froze during a rush and I genuinely did not know money existed outside of the machine. A 70-year-old customer leaned over, did the math in her head, told me the change, and counted it out for me. I just nodded and obeyed.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "WorkplaceBeginnings_",
+          "text": "First jobs are often a memorable introduction to the working world, full of new experiences and lessons. Looking back, even the difficult or strange moments tend to become stories we appreciate as part of our growth.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "\"Memorable introduction to the working world\" - generic life-lesson framing",
+          "\"Full of new experiences and lessons\" - vague, no job named",
+          "\"Stories we appreciate as part of our growth\" - sentimental hindsight, no story",
+          "Describes first jobs as a concept with zero specifics"
+        ],
+        "humanTells": [
+          "#1: Hot dog costume, goose chase into CVS, toppled sunglasses, quit by text",
+          "#2: Manager's freezer-log obsession, Olympic sprint to close a door",
+          "#3: Paper-thieving golden retriever named Kevin, had to film it as proof",
+          "#4: Frozen register at 15, 70-year-old does the change math, kid just obeys"
+        ],
+        "difficulty_note": "Medium - the AI's warm 'first jobs teach us so much' tone fits the prompt, but it names no job and no absurd event"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-16",
+      "dayNumber": 261,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "small regrets",
+      "prompt": {
+        "text": "What's a tiny, harmless decision you still oddly regret years later?",
+        "source": "r/CasualConversation"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "NotBuyingTheJacket",
+          "text": "Didn't buy a green corduroy jacket in a thrift store in 2014 because it was $8 and I was 'saving money.' I think about that jacket maybe once a month. I have looked for it online. It does not exist. It was the one. I had $8. I am unwell about this.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "TheUnsaidGoodbye",
+          "text": "didn't say goodbye properly to a coworker on her last day because i was 'busy' replying to an email that did not matter. she moved across the country. that was the last time i'd ever see her. i don't even remember what the email said. probably nothing.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "SkippedTheEncore",
+          "text": "left a concert before the encore in 2011 to 'beat traffic.' they brought out a surprise guest for a once-ever duet. i was in a parking lot. i saved maybe twelve minutes of driving. i have never beaten traffic again on principle. it's a whole thing now.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "WrongPhotoAngle",
+          "text": "At my grandmother's 90th I had one chance to take a photo of her laughing and I fumbled the phone and got a blurry one of the ceiling. She passed eight months later. I have her ceiling. The blurry ceiling photo. I kept it. It's the closest thing I have.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ReflectionsOnTime_",
+          "text": "It's interesting how even the smallest choices can linger in our memory over time. Often these regrets aren't about the decision itself, but about the path not taken and the quiet wondering of what might have been.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "\"Smallest choices can linger in our memory\" - philosophical observation, no choice",
+          "\"Not about the decision itself, but about the path not taken\" - tidy thesis, generic",
+          "\"Quiet wondering of what might have been\" - poetic, content-free",
+          "Reflects on the nature of regret without confessing a single one"
+        ],
+        "humanTells": [
+          "#1: $8 green corduroy thrift jacket, 2014, searched online, 'I am unwell about this'",
+          "#2: Skipped a proper goodbye over a forgotten email, coworker moved away",
+          "#3: Left before a once-ever encore duet to save 12 minutes of traffic",
+          "#4: Fumbled photo of laughing grandmother, kept the blurry ceiling shot"
+        ],
+        "difficulty_note": "Hard - the AI matches the wistful tone perfectly and even theorizes about regret, but it never names a decision; the humans each have one oddly specific one"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-17",
+      "dayNumber": 262,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "weddings",
+      "prompt": {
+        "text": "What's the most chaotic thing you've witnessed at a wedding?",
+        "source": "r/weddingstories"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "RingBearerRevolt",
+          "text": "Four-year-old ring bearer made it halfway down the aisle, sat down, and refused to move. Full strike. The best man tried to carry him and the kid went limp like a protester. They had to restart the processional. The kid is now my brother-in-law's whole personality.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "CakeCollapseLive",
+          "text": "the caterer set the cake table next to a space heater in october. by the toasts the bottom tier had structurally surrendered. the whole thing leaned like the tower of pisa and then just sighed onto the floor during the maid of honor's speech. she did not stop talking.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "WeddingDayReflect_",
+          "text": "Weddings bring together so many people and emotions that a few unexpected moments are almost inevitable. While not everything goes according to plan, these surprises often become the stories families lovingly retell for years to come.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "TwoDJsOneFloor",
+          "text": "Both families secretly hired a DJ as a 'surprise gift.' Neither knew. Both showed up. Both set up. There was a 20-minute standoff in the parking lot. They eventually agreed to alternate songs and it became a genre war. Honestly the best reception music I've heard.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "GroomFaintdrop",
+          "text": "Groom locked his knees during the vows and went down like a felled tree, full timber. Bride didn't flinch, just crouched down and finished her vows to him on the floor. He came to, said 'I do' from a seated position, and they got a standing ovation. Iconic.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"So many people and emotions\" - generic crowd framing",
+          "\"A few unexpected moments are almost inevitable\" - hedged truism",
+          "\"Stories families lovingly retell for years\" - describes the outcome, not the chaos",
+          "Acknowledges weddings get chaotic without naming a single chaotic thing"
+        ],
+        "humanTells": [
+          "#1: Ring bearer sit-down strike, limp like a protester, restarted processional",
+          "#2: Space-heater cake collapse during the speech, MoH never stopped talking",
+          "#4: Two secret DJs, parking-lot standoff, alternating-song genre war",
+          "#5: Knee-lock groom timber, bride finishes vows on the floor, standing ovation"
+        ],
+        "difficulty_note": "Expert - the AI's polished 'these become beloved family stories' framing is exactly what a real warm commenter might write, but it stays entirely abstract while the others give vivid set pieces"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-18",
+      "dayNumber": 263,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "road trips",
+      "prompt": {
+        "text": "What's the most unexpected detour that turned out to be the best part of a road trip?",
+        "source": "r/roadtrip"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "WorldsLargestBall",
+          "text": "Took a wrong exit in Kansas and ended up at the world's largest ball of twine. There's a guy who maintains it. He let us add a piece. We have a Polaroid of us adding twine. It's framed in our hallway. We meant to go to a national park. Never made it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "DinerPieDetour_",
+          "text": "phone died so we followed a hand-painted 'PIE' sign down a gravel road for 11 miles. dead end was a farmhouse diner run by two sisters. best sour cherry pie of my life. they gave us a jar of cherries for the road. we still mail them a christmas card.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "FlatTireFestival",
+          "text": "Got a flat outside a tiny town that happened to be having its annual garlic festival. Changed the tire, smelled garlic, followed our noses. Ate garlic ice cream. Bought a garlic-themed t-shirt I still wear. The tire was honestly a gift in hindsight.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "JourneyNotDestination",
+          "text": "There's something special about the unplanned moments of a road trip. The detours and surprises along the way often end up being more memorable than the destination itself, reminding us that the journey truly matters as much as where we're going.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "GhostTownNoon_",
+          "text": "Followed a brown historical-marker sign and found a ghost town with exactly one resident: an 84-year-old woman who runs the 'museum' (her front porch) for a dollar. She talked to us for two hours. Gave us a hand-drawn map. We were her first visitors in nine days.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Unplanned moments of a road trip\" - generic, no detour",
+          "\"More memorable than the destination itself\" - restates the prompt as if it's an answer",
+          "\"The journey truly matters as much as where we're going\" - bumper-sticker cliche",
+          "No place, no detour, no discovery described"
+        ],
+        "humanTells": [
+          "#1: World's largest twine ball in Kansas, added a piece, framed Polaroid, never reached the park",
+          "#2: Hand-painted PIE sign, 11-mile gravel road, two-sister diner, ongoing Christmas cards",
+          "#3: Flat tire into a garlic festival, garlic ice cream, garlic t-shirt still worn",
+          "#5: Ghost town with one 84-year-old resident, $1 porch museum, hand-drawn map"
+        ],
+        "difficulty_note": "Hard - the AI delivers the exact 'journey not destination' sentiment the prompt invites, but it's the only comment with no actual detour"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

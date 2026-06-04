@@ -4,7 +4,7 @@
   "puzzles": [
     {
       "id": "2026-08-03",
-      "dayNumber": 197,
+      "dayNumber": 187,
       "difficulty": "easy",
       "dayOfWeek": "monday",
       "category": "hiking",
@@ -68,7 +68,7 @@
     },
     {
       "id": "2026-08-04",
-      "dayNumber": 198,
+      "dayNumber": 188,
       "difficulty": "easy",
       "dayOfWeek": "tuesday",
       "category": "gaming",
@@ -132,7 +132,7 @@
     },
     {
       "id": "2026-08-05",
-      "dayNumber": 199,
+      "dayNumber": 189,
       "difficulty": "medium",
       "dayOfWeek": "wednesday",
       "category": "fitness",
@@ -196,7 +196,7 @@
     },
     {
       "id": "2026-08-06",
-      "dayNumber": 200,
+      "dayNumber": 190,
       "difficulty": "medium",
       "dayOfWeek": "thursday",
       "category": "collecting",
@@ -260,7 +260,7 @@
     },
     {
       "id": "2026-08-07",
-      "dayNumber": 201,
+      "dayNumber": 191,
       "difficulty": "hard",
       "dayOfWeek": "friday",
       "category": "sports",
@@ -324,7 +324,7 @@
     },
     {
       "id": "2026-08-08",
-      "dayNumber": 202,
+      "dayNumber": 192,
       "difficulty": "expert",
       "dayOfWeek": "saturday",
       "category": "hobbies",
@@ -388,7 +388,7 @@
     },
     {
       "id": "2026-08-09",
-      "dayNumber": 203,
+      "dayNumber": 193,
       "difficulty": "hard",
       "dayOfWeek": "sunday",
       "category": "gaming",

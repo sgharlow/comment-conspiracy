@@ -104,7 +104,7 @@ npm run lint          # ESLint check
 
 - **Live**: r/CommentConspiracy
 - **Version**: 0.0.16 (devvit.yaml + package.json; `@devvit/public-api ^0.12.18`)
-- **Puzzle Content**: 252 puzzles (2026-01-19 - 2026-09-27) — extended +18 weeks (weeks 20-37) on 2026-05-24; runs ~4 months out (deploy with `npm run upload`)
+- **Puzzle Content**: 282 puzzles (2026-01-19 - 2026-11-06, weeks 01-43). 2026-06-03: the never-served 5-25..6-03 "dry window" puzzles (upload gap) were re-dated +126 days to 9-28..10-07 (weeks 38-39, `scripts/redate-dry-window-2026-06-03.mjs`) and 30 new puzzles added for 10-08..11-06 (weeks 39-43). Deployed + installed on r/CommentConspiracy same day (v0.1.3+).
 - **Hackathon**: ✅ Submitted to Reddit Daily Games Hackathon 2026 (deadline 2026-02-12). Awaiting results.
 - **Post-submission migration**: commit `320a7a3` migrated from Devvit Blocks renderer to `useWebView()` ahead of the Devvit Blocks June-30-2026 deprecation.
 

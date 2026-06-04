@@ -4,7 +4,7 @@
   "puzzles": [
     {
       "id": "2026-06-29",
-      "dayNumber": 162,
+      "dayNumber": 152,
       "difficulty": "easy",
       "dayOfWeek": "monday",
       "category": "food",
@@ -69,7 +69,7 @@
     },
     {
       "id": "2026-06-30",
-      "dayNumber": 163,
+      "dayNumber": 153,
       "difficulty": "easy",
       "dayOfWeek": "tuesday",
       "category": "groceries",
@@ -134,7 +134,7 @@
     },
     {
       "id": "2026-07-01",
-      "dayNumber": 164,
+      "dayNumber": 154,
       "difficulty": "medium",
       "dayOfWeek": "wednesday",
       "category": "baking",
@@ -199,7 +199,7 @@
     },
     {
       "id": "2026-07-02",
-      "dayNumber": 165,
+      "dayNumber": 155,
       "difficulty": "medium",
       "dayOfWeek": "thursday",
       "category": "food",
@@ -264,7 +264,7 @@
     },
     {
       "id": "2026-07-03",
-      "dayNumber": 166,
+      "dayNumber": 156,
       "difficulty": "hard",
       "dayOfWeek": "friday",
       "category": "cooking disasters",
@@ -329,7 +329,7 @@
     },
     {
       "id": "2026-07-04",
-      "dayNumber": 167,
+      "dayNumber": 157,
       "difficulty": "expert",
       "dayOfWeek": "saturday",
       "category": "restaurants",
@@ -394,7 +394,7 @@
     },
     {
       "id": "2026-07-05",
-      "dayNumber": 168,
+      "dayNumber": 158,
       "difficulty": "hard",
       "dayOfWeek": "sunday",
       "category": "cooking disasters",

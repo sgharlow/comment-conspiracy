@@ -4,7 +4,7 @@
   "puzzles": [
     {
       "id": "2026-09-14",
-      "dayNumber": 239,
+      "dayNumber": 229,
       "difficulty": "easy",
       "dayOfWeek": "monday",
       "category": "relationships",
@@ -69,7 +69,7 @@
     },
     {
       "id": "2026-09-15",
-      "dayNumber": 240,
+      "dayNumber": 230,
       "difficulty": "easy",
       "dayOfWeek": "tuesday",
       "category": "holidays",
@@ -134,7 +134,7 @@
     },
     {
       "id": "2026-09-16",
-      "dayNumber": 241,
+      "dayNumber": 231,
       "difficulty": "medium",
       "dayOfWeek": "wednesday",
       "category": "strangers",
@@ -199,7 +199,7 @@
     },
     {
       "id": "2026-09-17",
-      "dayNumber": 242,
+      "dayNumber": 232,
       "difficulty": "medium",
       "dayOfWeek": "thursday",
       "category": "travel",
@@ -264,7 +264,7 @@
     },
     {
       "id": "2026-09-18",
-      "dayNumber": 243,
+      "dayNumber": 233,
       "difficulty": "hard",
       "dayOfWeek": "friday",
       "category": "pets",
@@ -329,7 +329,7 @@
     },
     {
       "id": "2026-09-19",
-      "dayNumber": 244,
+      "dayNumber": 234,
       "difficulty": "expert",
       "dayOfWeek": "saturday",
       "category": "relationships",
@@ -394,7 +394,7 @@
     },
     {
       "id": "2026-09-20",
-      "dayNumber": 245,
+      "dayNumber": 235,
       "difficulty": "hard",
       "dayOfWeek": "sunday",
       "category": "strangers",

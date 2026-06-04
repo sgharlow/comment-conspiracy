@@ -1,0 +1,454 @@
+{
+  "week": 39,
+  "startDate": "2026-10-05",
+  "puzzles": [
+    {
+      "id": "2026-10-05",
+      "dayNumber": 250,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "grocery shopping",
+      "prompt": {
+        "text": "What's the most embarrassing thing that's happened to you at a grocery store?",
+        "source": "r/mildlyinfuriating"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CartCollision_",
+          "text": "Grocery shopping experiences can sometimes lead to unexpected and memorable moments. These minor embarrassments are a relatable part of everyday life that most people can connect with and laugh about afterward.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "WrongShopping_Cart",
+          "text": "pushed someone else's full cart for an entire aisle before realizing it wasn't mine. my cart was one row over. same brand of cart. but the person's stuff was clearly different. i had reorganized some of their items. they watched me do this.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "LoudPhoneCall",
+          "text": "My phone accidentally called my mom while I was arguing with myself over whether to buy the name-brand or generic cereal. She heard 4 minutes of this. Called it 'a very concerning voicemail.' I bought the generic. It was worse.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SlipAndScan",
+          "text": "Slipped on a wet floor sign. Not the wet floor. The sign itself. Knocked over a display of individually wrapped cheeses. Staff had to help me up. Someone clapped. I bought the cheese out of guilt. $47 of cheese.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "WrongNameGreet",
+          "text": "greeted a stranger with 'hey linda!' because she had the same haircut as my aunt linda. she was not linda. we had a conversation anyway. i never admitted i thought she was linda. linda never found out. linda is my aunt not a stranger",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Unexpected and memorable moments\" - vague positive framing",
+          "\"Relatable part of everyday life\" - generic observer language",
+          "\"Most people can connect with\" - broad generalization, no story",
+          "No specific embarrassment described at all"
+        ],
+        "humanTells": [
+          "#2: Specific action (reorganized items), witness detail, wrong cart not noticed for a full aisle",
+          "#3: 4-minute pocket call, specific decision (name-brand vs generic), verdict on the cereal",
+          "#4: Irony of slipping on the sign not the floor, $47 guilt cheese, crowd clap",
+          "#5: Specific name (Linda), sustained conversation without admitting mistake, clarification at end"
+        ],
+        "difficulty_note": "Easy - the AI gives a motivational-speaker summary of embarrassment while humans describe specific mortifying sequences"
+      },
+      "metadata": {
+        "createdAt": "2026-06-01T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-06",
+      "dayNumber": 251,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "sleep",
+      "prompt": {
+        "text": "What's the strangest thing you've done or said while half-asleep?",
+        "source": "r/tifu"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SleepWalker_Steve",
+          "text": "woke up in my kitchen holding a can of chickpeas and a spatula. no memory of going there. chickpeas were open. spatula had residue. something happened. i will never know what",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "MidnightEmail_",
+          "text": "Sent a work email at 3 AM while half-asleep. It just said 'the numbers are wrong but also the dog.' We don't have a dog at work. My manager replied asking which numbers. I had to pretend I knew.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "SleepPhoneCall",
+          "text": "Sleep-called my college roommate at 2 AM and told him I needed to 'return the moon.' He talked me through it for 11 minutes trying to figure out what I meant. I woke up mid-sentence. We still text about it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SleepingHabits",
+          "text": "Sleep-related behaviors and half-awake states can produce genuinely puzzling actions and statements. These moments, while disorienting, are a fascinating window into how the mind processes information during rest.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "AlarmClock_Negotiator",
+          "text": "My partner caught me negotiating with my alarm clock at 5:45 AM. I was saying 'just five more points' while holding it up like a phone. I thought I was in a meeting. I was a project manager. This was not a good sign.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Fascinating window into how the mind processes information\" - pop-science framing",
+          "\"Genuinely puzzling actions\" - describes the category without an example",
+          "\"During rest\" - clinical sign-off language",
+          "No specific sleep incident described at all"
+        ],
+        "humanTells": [
+          "#1: Specific props (chickpeas, spatula), open can with residue, accepted mystery",
+          "#2: Specific email text verbatim, dog caveat, manager's follow-up, improvised cover story",
+          "#3: Specific request ('return the moon'), 11-minute call, still referenced in friendship",
+          "#5: Exact time (5:45 AM), specific phrase used ('five more points'), job context adds irony"
+        ],
+        "difficulty_note": "Easy - the AI speaks like a neuroscience summary paragraph; humans have absurd specific incidents with dialogue and props"
+      },
+      "metadata": {
+        "createdAt": "2026-06-02T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-07",
+      "dayNumber": 252,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "commuting",
+      "prompt": {
+        "text": "What's the most awkward thing that's happened to you on public transit?",
+        "source": "r/PublicFreakout"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SubwayNapper_",
+          "text": "fell asleep on the subway and woke up on a stranger's shoulder. they were also asleep. i gently moved. they stayed asleep. got off at my stop. never made eye contact. we were both asleep on each other for at least 3 stops",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "BusMistake_",
+          "text": "Confidently got on the wrong bus and rode it for 20 minutes before looking up. I was heading to the airport. I ended up at a botanical garden. My flight was in 90 minutes. I made it. Barely. Have never told my wife how close it was.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "HeadphonesLie_",
+          "text": "Had headphones in with no music playing because I didn't want to talk. Guy next to me started talking. I nodded. For 25 minutes I nodded. Got off two stops early to escape. Walked 12 blocks. It was raining.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "TrainDoubleSit",
+          "text": "Sat down in a reserved seat accidentally. Owner came. I apologized and moved. Moved into another reserved seat. Owner came. I apologized and moved again. Third seat: reserved. At this point I just stood. Four people watched this unfold.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "PublicTransitLife",
+          "text": "Public transit brings together people from all walks of life, creating situations that can be both unexpected and character-building. These shared experiences often become the stories we tell for years afterward.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "\"People from all walks of life\" - stock transit-poster phrase",
+          "\"Character-building\" - optimistic generalization with no situation",
+          "\"Stories we tell for years\" - vague future outcome, no current story",
+          "No transit incident described at all"
+        ],
+        "humanTells": [
+          "#1: Mutual sleeping, 3 stops estimated, departure without eye contact",
+          "#2: Wrong destination (botanical garden vs airport), 90-minute window, wife still unaware",
+          "#3: Silent nodding duration (25 minutes), two stops early exit, 12-block rain walk",
+          "#4: Three consecutive reserved seats, escalating audience of four"
+        ],
+        "difficulty_note": "Medium - the AI offers an uplifting transit philosophy while humans catalogued specific sequences of social failure"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-08",
+      "dayNumber": 253,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "weather",
+      "prompt": {
+        "text": "What's the wildest weather event you've personally lived through?",
+        "source": "r/weather"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "HailDentDave",
+          "text": "Softball-sized hail in Texas in 2019. Dented the hood of my truck so bad it looked like a golf ball. One stone went through the back windshield and landed on the passenger seat. I kept it in the freezer for a week to show people.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "WeatherReflections_",
+          "text": "Extreme weather events can be both awe-inspiring and humbling, reminding us of the raw power of nature. Living through one often leaves a lasting impression and a deeper appreciation for the calm that follows.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "FogBankFran",
+          "text": "drove into a fog bank near the coast so thick i couldn't see my own hood ornament. had to follow another car's tail lights at 8 mph for 40 minutes. lost them at an exit. pulled over and waited two hours. ate all my emergency granola bars.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "DerechoSurvivor22",
+          "text": "Derecho hit Iowa August 2020. 100+ mph straight-line winds for like 45 minutes. Flattened a cornfield behind my house completely flat. No power for 9 days. We grilled everything in the freezer and the whole street had a block party out of necessity.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ThundersnowTom",
+          "text": "Thundersnow during a blizzard in Buffalo. Lightning lit up the whole sky while three feet of snow came down. I'd never heard thunder muffled by snow before. Sounded like someone hitting a pillow with a bass drum. Genuinely eerie.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Awe-inspiring and humbling\" - paired abstract adjectives, no event",
+          "\"Raw power of nature\" - stock weather-poster phrase",
+          "\"Deeper appreciation for the calm that follows\" - sentimental sign-off, no specifics",
+          "No location, no date, no actual weather described"
+        ],
+        "humanTells": [
+          "#1: Softball hail 2019 Texas, windshield breach, hailstone kept in freezer",
+          "#3: Fog so thick the hood ornament vanished, 8 mph tail-light chase, granola bars eaten",
+          "#4: Iowa derecho Aug 2020, 9 days no power, freezer-clearing block party",
+          "#5: Buffalo thundersnow, muffled thunder compared to a pillow + bass drum"
+        ],
+        "difficulty_note": "Medium - the AI gives a nature-documentary voiceover while every human names a storm, place, and consequence"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-09",
+      "dayNumber": 254,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "dreams",
+      "prompt": {
+        "text": "What's a recurring dream you've had that you've never been able to explain?",
+        "source": "r/Dreams"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "StaircaseDreamer",
+          "text": "Same dream since I was 12: I'm in my childhood house but there's an extra staircase behind the pantry that goes down forever. I never reach the bottom. I always wake up before I do. I'm 38 now. The pantry in real life is just a pantry.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "TeethAgainUgh",
+          "text": "my teeth fall out one by one and i catch them in my hand and they keep multiplying until i'm holding like 40 teeth. i count them in the dream. always 40-something. i looked it up and apparently it means stress but i'm pretty relaxed honestly",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "DreamMeaningGuide",
+          "text": "Recurring dreams can be a fascinating window into our subconscious, often reflecting unresolved emotions or patterns in our waking lives. While the imagery may feel mysterious, these dreams frequently carry personal significance unique to the dreamer.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "WrongHouseKey",
+          "text": "i keep dreaming i'm standing outside my apartment but my key won't work and through the window i can see someone else's furniture. a green couch. i don't own a green couch. the person inside never looks up. i've had this maybe 50 times.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ExamHallNever",
+          "text": "It's always finals week for a class I never attended. I can't find the room. The hallway keeps getting longer. I graduated 14 years ago. Once I lucid-dreamed and just sat down in the hallway and the dream got confused and ended.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Fascinating window into our subconscious\" - pop-psychology framing",
+          "\"Reflecting unresolved emotions or patterns\" - hedged generality, no dream",
+          "\"Personal significance unique to the dreamer\" - covers all cases, commits to none",
+          "Describes the concept of recurring dreams without describing one"
+        ],
+        "humanTells": [
+          "#1: Extra staircase behind the pantry, since age 12, never reaches bottom",
+          "#2: Teeth multiplying to 40+, counted in-dream, skeptical of the stress explanation",
+          "#4: Key won't work, stranger's green couch through the window, ~50 times",
+          "#5: Phantom finals, lengthening hallway, lucid-dream sit-down that broke the dream"
+        ],
+        "difficulty_note": "Hard - the AI mirrors the introspective register of a dreams sub but supplies only meta-commentary; humans each have a fixed, weird, specific scene"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-10",
+      "dayNumber": 255,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "superstitions",
+      "prompt": {
+        "text": "What's a private superstition you follow that you can't logically justify?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "TwoTapsDoor",
+          "text": "I tap the roof of my car twice every time I drive over train tracks. Started because my grandfather did it. He's been gone 11 years. I have no idea why he did it and I never asked. If I forget I feel weird about it for the rest of the drive.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "OddVolumeOnly",
+          "text": "the tv or car volume has to be on an even number or i can't relax. odd numbers are fine for the thermostat but not audio. i don't know the difference. my wife sets it to 17 to mess with me and i WILL notice within ten seconds.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "GreenLightThanks",
+          "text": "I say 'thank you' out loud to green lights when I'm running late. Not red lights. Only green ones, and only when I'm late. If I'm on time I don't bother. I've never told anyone this. My carpool found out last month and now they do it too.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "RitualPerspective_",
+          "text": "Personal superstitions often persist because they give us a small sense of control in an unpredictable world. Even when we recognize they have no logical basis, the comfort and routine they provide can be surprisingly meaningful in daily life.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "LastBiteLeaver",
+          "text": "I always leave the last bite of any meal uneaten. My mom said it 'feeds your luck.' I'm 40. I've left a single bite of food on every plate for my entire adult life. Restaurants think I didn't like it. I always liked it. The luck is non-negotiable.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Small sense of control in an unpredictable world\" - textbook explanation, not a superstition",
+          "\"Recognize they have no logical basis\" - echoes the prompt's own wording",
+          "\"Comfort and routine they provide\" - generalizes instead of confessing one ritual",
+          "Analyzes why people are superstitious rather than naming a private habit"
+        ],
+        "humanTells": [
+          "#1: Double roof-tap over train tracks, inherited from grandfather, never asked why",
+          "#2: Even-number-only audio volume, the deliberate 17 prank, 10-second detection",
+          "#3: Thanking only green lights only when late, carpool adopted it",
+          "#5: Leaves the last bite to 'feed luck', 40 years, restaurants misread it"
+        ],
+        "difficulty_note": "Expert - the AI reads like a thoughtful confession and even concedes the illogic, but it explains the category instead of owning a single concrete ritual"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-11",
+      "dayNumber": 256,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "haunted places",
+      "prompt": {
+        "text": "What's the most genuinely unsettling experience you've had in an old building?",
+        "source": "r/Paranormal"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "AtticFootsteps_",
+          "text": "Rented a 1890s farmhouse. Every night around 2am you'd hear slow footsteps in the attic. We checked: no animals, no access hatch even. Sold it after a year. New owners asked us at closing if we'd 'heard the upstairs guy.' We just nodded.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "OldTheaterUsher",
+          "text": "worked at a 1920s theater. one seat in the balcony, J14, would fold down on its own during quiet matinees. always J14. maintenance tightened the hinge four times. still did it. we stopped selling that seat. nobody complained because nobody believed us anyway.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "HotelHallChill",
+          "text": "Stayed in a 1900s hotel where the hallway on the third floor was always 15 degrees colder than the rest of the building. The thermostat read normal. Front desk just said 'oh, third floor.' Like it was a known thing. They gave me a fan. I did not need a fan.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "EerieAtmosphere_",
+          "text": "Old buildings have a way of holding onto history, and their creaks and shadows can easily play tricks on the mind. Whether or not anything truly supernatural is at work, these atmospheric spaces have a unique power to unsettle and intrigue us.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "BasementRadioGuy",
+          "text": "Our church basement had an old radio with the cord cut off — physically no cord — that would occasionally play big band music for about 20 seconds. The pastor knew about it. He'd just say 'turn it back off, would you?' and go back to his coffee.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Way of holding onto history\" - atmospheric cliche, no building",
+          "\"Creaks and shadows can easily play tricks on the mind\" - both-sides hedge",
+          "\"Unique power to unsettle and intrigue us\" - generic mood claim",
+          "No place, no event, no detail — describes the vibe of old buildings in general"
+        ],
+        "humanTells": [
+          "#1: 1890s farmhouse, 2am attic footsteps, no hatch, new owners' 'upstairs guy' question",
+          "#2: 1920s theater, seat J14 self-folding, hinge tightened four times, seat pulled from sale",
+          "#3: 1900s hotel, third floor 15 degrees colder, front desk's resigned 'oh, third floor'",
+          "#5: Corded-cut radio playing big band 20 seconds, pastor's unbothered reaction"
+        ],
+        "difficulty_note": "Hard - the AI nails the eerie tone and even hedges skeptically like a real poster, but it commits to zero specifics while four humans give named, repeatable phenomena"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "week": 41,
+  "startDate": "2026-10-19",
+  "puzzles": [
+    {
+      "id": "2026-10-19",
+      "dayNumber": 264,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "snacks",
+      "prompt": {
+        "text": "What's your weirdest snack combination that you'll defend to the death?",
+        "source": "r/food"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "PicklePeanutGuy",
+          "text": "dill pickle dipped in peanut butter. crunchy peanut butter specifically. my dad did it, his dad did it, i do it. when i tell people they recoil but every single person who has actually tried it has gone quiet and then asked for the pickle back.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "OrangeCheddarApple",
+          "text": "apple slices with extra sharp cheddar AND a little hot sauce. yes all three. it makes sense in your mouth even if it doesn't on paper. i bring it to parties. nobody eats it. then one brave person tries it. then the plate is empty. every time.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "FritoIceCreamFan",
+          "text": "Vanilla ice cream with Fritos crushed on top. The salt, the corn, the cold. My college roommate filmed me eating it once like it was evidence for a trial. I have converted four people. The roommate is now person number five. He denies it publicly.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SnackEnthusiast_",
+          "text": "Everyone has their own unique taste when it comes to snacks, and unusual combinations can be surprisingly delicious. It's all about personal preference and being open to trying new things, even if they seem strange to others.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "SaltineHoneyStack",
+          "text": "Saltines with a thin layer of butter and then honey on top, stacked into a little sandwich. My grandma called it 'poor man's baklava.' I've eaten roughly 9,000 of these in my life. I will eat 9,000 more. The math checks out. Do not question grandma.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Everyone has their own unique taste\" - generic preference statement",
+          "\"Unusual combinations can be surprisingly delicious\" - no actual combination",
+          "\"Being open to trying new things\" - motivational filler, no snack",
+          "Endorses weird snacks in theory without naming a single one"
+        ],
+        "humanTells": [
+          "#1: Dill pickle dipped in crunchy peanut butter, three generations, converts skeptics",
+          "#2: Apple + sharp cheddar + hot sauce, party plate always emptied",
+          "#3: Vanilla ice cream + crushed Fritos, filmed 'like evidence', five converts",
+          "#5: Saltine-butter-honey 'poor man's baklava', ~9,000 eaten, grandma authority"
+        ],
+        "difficulty_note": "Easy - the AI praises the idea of weird snacks without naming one, while everyone else has a fiercely specific combo"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-20",
+      "dayNumber": 265,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "neighbors",
+      "prompt": {
+        "text": "What's the most baffling thing a neighbor of yours has ever done?",
+        "source": "r/neighborsfromhell"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "LawnPaintNeighbor",
+          "text": "My neighbor spray-paints his dead grass green. Not sod. Not seed. Spray paint. Every spring. From a distance it looks great. Up close it looks like a crime scene. He once offered to do mine. I said no. We have not spoken since. The grass is still green.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "TrashCanGuardian",
+          "text": "guy across the street brings his trash cans in at exactly 4:47pm. i know because i can set a clock by it. one day they were late by ten minutes and i genuinely worried. he was fine. he'd switched to a new watch. he told me this unprompted over the fence.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "MidnightMowerMan",
+          "text": "Neighbor mows his lawn at 11pm with a headlamp. Claims it's 'cooler for the grass.' This is not a thing. The mower has a light he installed himself. He waves at me while doing it. I wave back. We have never discussed it during daylight hours.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "GnomeArmyExpands",
+          "text": "the lady next door adds one garden gnome per week. it started with one. it is now an army. i counted 61 last sunday. they face the street. some have tiny seasonal hats now. i don't know where she gets them. i'm a little afraid to ask. they're watching.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "CommunityLiving_",
+          "text": "Living near others can sometimes lead to surprising and memorable interactions. People have their own habits and routines, and what seems unusual to one person may be perfectly normal to another. It's all part of being in a community.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "\"Surprising and memorable interactions\" - generic neighbor framing",
+          "\"People have their own habits and routines\" - truism, no neighbor",
+          "\"Part of being in a community\" - feel-good filler, no baffling act",
+          "Philosophizes about neighbors instead of describing one"
+        ],
+        "humanTells": [
+          "#1: Spray-paints dead grass green every spring, offered to do hers, silence since",
+          "#2: 4:47pm trash-can precision, ten-minute anomaly, new-watch confession",
+          "#3: 11pm headlamp mowing 'cooler for the grass', daytime silence about it",
+          "#4: +1 gnome per week, 61 counted, seasonal hats, 'they're watching'"
+        ],
+        "difficulty_note": "Easy - the AI gives an HOA-newsletter platitude about community while four humans describe specific, unhinged neighbor behavior"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-21",
+      "dayNumber": 266,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "camping",
+      "prompt": {
+        "text": "What went hilariously wrong on a camping trip you'll never forget?",
+        "source": "r/camping"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "TentRiverGuy",
+          "text": "Pitched the tent in the dark on what we thought was flat ground. It was a dry creek bed. It rained. At 3am the creek was no longer dry. We woke up floating, gently, downstream, still inside the tent. Calmest emergency of my life. We just rode it out.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "BearVaultFail",
+          "text": "spent 40 minutes hanging our food bag in a tree to be 'bear safe.' a raccoon walked up the trunk like it was a hallway, untied my knot, and took a single granola bar. left everything else. it was a quality-control raccoon. we named him inspector.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "OutdoorMemories_",
+          "text": "Camping trips often come with their share of unexpected challenges, but those are usually the moments that make for the best stories later. Being out in nature has a way of testing us while also creating lasting memories with the people we share it with.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "AirMattressAbyss",
+          "text": "Brought a queen air mattress to feel fancy. It had a slow leak. Every two hours we'd sink to the ground, wake up, re-inflate it with a foot pump that sounded like a dying accordion. Did this all night. Our campsite neighbors left a note. The note said 'we heard everything.'",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MarshmallowInferno",
+          "text": "my friend tried to roast 8 marshmallows at once on a forked stick like a marshmallow menorah. all 8 caught fire simultaneously. he panicked and swung the stick, launching a flaming marshmallow into the cooler, which had the drinks. we drank warm soda and smoke that night.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Share of unexpected challenges\" - generic adversity, no event",
+          "\"Best stories later\" - promises a story without telling one",
+          "\"Lasting memories with the people we share it with\" - sentimental sign-off",
+          "Describes camping as a concept; no specific mishap"
+        ],
+        "humanTells": [
+          "#1: Tent in a dry creek bed, woke up floating downstream, rode it out calmly",
+          "#2: 40-minute bear hang defeated by a 'quality-control raccoon' named Inspector",
+          "#4: Slow-leak air mattress, hourly foot-pump 'dying accordion', neighbor's note",
+          "#5: 8-marshmallow 'menorah' ignites, flaming launch into the drink cooler"
+        ],
+        "difficulty_note": "Medium - the AI's 'nature tests us but makes memories' line is on-topic and warm, but it's the only entry without an actual disaster"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-22",
+      "dayNumber": 267,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "thrift finds",
+      "prompt": {
+        "text": "What's the best or strangest thing you've ever found at a thrift store?",
+        "source": "r/ThriftStoreHauls"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ThriftingAdventures_",
+          "text": "Thrift stores are full of hidden gems and unexpected treasures just waiting to be discovered. You never know what you'll find, and that sense of surprise is exactly what makes secondhand shopping such a rewarding and fun experience.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "LetterInTheCoat",
+          "text": "Found a wool coat for $6 with a handwritten love letter from 1974 still in the inside pocket. No names, just 'meet me where we always do.' I've kept it in the pocket. I wear the coat. I am now part of a story I will never understand. The coat is very warm.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "TacoBellPainting_",
+          "text": "an oil painting of a man eating at a Taco Bell. like a serious, museum-style portrait. golden hour lighting. a single tear. it was $4. it now hangs over my fireplace. guests assume it's an ancestor. i let them assume. he watches over us. we call him grandfather.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "WorkingMacFind",
+          "text": "Found a fully working 1984 Macintosh for $15. Powered it on in the store, the little smiley computer popped up, and an old man two aisles over GASPED. He'd repaired them for a living. He bought it from me on the spot for $200 and looked like he might cry. Worth it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "BowlingTrophyJan",
+          "text": "a 1991 bowling trophy engraved 'MOST IMPROVED - JAN.' i am not jan. i did not bowl. i bought it for 50 cents. it's on my desk at work. people assume i'm an improved bowler named jan. i have leaned into being jan. i am, in spirit, the most improved.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Hidden gems and unexpected treasures\" - thrifting cliche, no find",
+          "\"You never know what you'll find\" - circular non-answer to a 'what did you find' prompt",
+          "\"Rewarding and fun experience\" - generic endorsement",
+          "Praises thrifting without naming a single object found"
+        ],
+        "humanTells": [
+          "#2: $6 wool coat with a 1974 love letter still in the pocket, kept and worn",
+          "#3: $4 oil portrait of a man crying at Taco Bell, named 'grandfather'",
+          "#4: $15 working 1984 Mac, repairman gasped, bought it for $200 on the spot",
+          "#5: 50-cent 'Most Improved - Jan' bowling trophy, became Jan in spirit"
+        ],
+        "difficulty_note": "Medium - the AI reads like a thrift-store's own marketing copy; the humans each have one absurd specific object"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-23",
+      "dayNumber": 268,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "childhood fears",
+      "prompt": {
+        "text": "What's an irrational childhood fear you can finally laugh about now?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "DrainMonsterKid",
+          "text": "I was convinced the bathtub drain could pull me down it if the water got low enough. I'd evacuate the moment the plug came out, soap still on me, like the tub was a sinking ship. I'm 35. I still get out before I pull the plug. Old habits. The drain won.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "CeilingFanDecapitate",
+          "text": "i thought ceiling fans could come loose and fly off and decapitate me if i jumped on the bed. so i'd jump on the bed but in a low crouch. like a goblin. for years. my parents have video of me 'jumping' which is really just aggressive squatting under a fan.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "CerealBoxEyes",
+          "text": "the cartoon mascot on a certain cereal box had eyes that 'followed me' so i made my mom turn every box around in the pantry so they faced the wall. she did it. for years. she never questioned it. last christmas she admitted she also thought he was creepy.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "TVStaticGhosts",
+          "text": "Believed the static on the TV after a VHS ended was 'ghosts trying to get through.' I'd sprint across the room to turn it off, eyes closed, navigating by memory. I once ran into the coffee table mid-sprint and decided the ghosts had pushed it there. Obviously.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "ChildhoodWonder_",
+          "text": "Childhood fears, while irrational, often feel very real to us at the time. Looking back, it's easy to smile at how vivid our imaginations were and how seriously we took the things that worried us most as kids.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "\"While irrational, often feel very real to us at the time\" - restates the prompt",
+          "\"Vivid our imaginations were\" - generic nostalgia, no fear",
+          "\"Took the things that worried us most\" - vague, no specific worry",
+          "Comments on childhood fear in general without naming one"
+        ],
+        "humanTells": [
+          "#1: Feared the bathtub drain, still exits before pulling the plug at 35",
+          "#2: Ceiling-fan decapitation, goblin-crouch 'jumping', incriminating video",
+          "#3: Cereal mascot's following eyes, mom turned every box, her own confession",
+          "#4: TV static 'ghosts', eyes-closed sprint, blamed the coffee table on ghosts"
+        ],
+        "difficulty_note": "Hard - the AI's gentle, nostalgic register fits the prompt exactly, but it offers reflection where the humans offer one specific, ridiculous fear each"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-24",
+      "dayNumber": 269,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "costumes",
+      "prompt": {
+        "text": "What's the most ambitious Halloween costume that completely backfired?",
+        "source": "r/Halloween"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FestiveOccasions_",
+          "text": "Ambitious costumes can be a wonderful way to express creativity, even if they don't always go as planned. Part of the fun of Halloween is the effort and imagination we put into our costumes, regardless of whether everything turns out perfectly.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "JellyfishUmbrella",
+          "text": "went as a jellyfish with a clear umbrella and hanging glow-stick tentacles. gorgeous in photos. in practice the tentacles tangled in everything: door handles, a coat rack, one specific child who would not stop following me. i was a hazard. i was a beautiful hazard.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "CardboardRobot__",
+          "text": "Built a full cardboard robot suit with working LED eyes. Looked incredible. Could not sit down. Could not fit through standard doors. Could not use a bathroom. Spent the entire party standing in a doorway being admired and slowly dehydrating on purpose. Worth it. Mostly.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "TwoPeopleHorse_",
+          "text": "My friend and I did a two-person horse. I was the back. He could see. I could not. He got distracted by the snack table and just... walked toward it, dragging me, the blind back half, through a crowd. I knocked over three drinks. We did not win the contest. We should have.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "FullMummyWrap",
+          "text": "Wrapped myself in 14 rolls of real gauze for a mummy costume. It looked amazing for about 40 minutes. Then I sweated, and gauze, it turns out, absorbs sweat and becomes a single heavy wet sock around your entire body. I unraveled in a corner like a sad burrito at 9pm.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"Wonderful way to express creativity\" - generic endorsement of costumes",
+          "\"Even if they don't always go as planned\" - vague nod to the prompt, no costume",
+          "\"Effort and imagination we put into our costumes\" - praises effort abstractly",
+          "Never describes an actual ambitious costume or how it backfired"
+        ],
+        "humanTells": [
+          "#2: Jellyfish umbrella, tangling tentacles, one specific clingy child",
+          "#3: Cardboard robot, can't sit/door/bathroom, dehydrating in a doorway on purpose",
+          "#4: Two-person horse, blind back half dragged to the snack table, three drinks down",
+          "#5: 14 rolls of gauze, sweat-soaked, unraveled like a 'sad burrito at 9pm'"
+        ],
+        "difficulty_note": "Expert - the AI offers a perfectly pleasant 'it's the effort that counts' take that fits a Halloween thread, but it's the only comment with no costume and no backfire"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-25",
+      "dayNumber": 270,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "moving house",
+      "prompt": {
+        "text": "What's the most chaotic thing that happened during a move?",
+        "source": "r/movingout"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "LifeTransitions_",
+          "text": "Moving is often described as one of life's most stressful events, and it's easy to see why. Between the packing, logistics, and emotional adjustments, there are countless moments where things can become overwhelming and unpredictable along the way.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "UHaulKeyDrama_",
+          "text": "locked the only u-haul key inside the locked u-haul. with all our stuff. in a parking lot. two states from home. the locksmith took three hours and charged $180 and told us he gets this 'more than you'd think.' that did not make me feel better. the truck was due back in one hour.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "CouchStuckForever",
+          "text": "The couch that came IN through the door would not go OUT through the door. Same couch. Same door. We measured. It fit. Physics disagreed. We removed the door, the frame, and eventually a small section of wall. The couch is in a landfill now. The wall has a patch. The couch won nothing.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "WrongApartmentUnload",
+          "text": "We unloaded an entire truck into the wrong apartment. Right building, wrong floor, door was unlocked. Got halfway through setting up the bed before the actual tenant came home from work. He was very calm about it. Helped us carry it all back down. We send him a card every year now.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "EscapedHamsterMove",
+          "text": "Hamster escaped its carrier in the moving truck somewhere on the highway. We did not find him until we unpacked the toaster box at the new place, four days later. He had built a nest out of packing peanuts and was, frankly, thriving. We named the nest 'the new wing.'",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"One of life's most stressful events\" - quotes a known cliche, no event",
+          "\"Packing, logistics, and emotional adjustments\" - lists categories, not a story",
+          "\"Countless moments where things can become overwhelming\" - vague and broad",
+          "Describes why moving is hard without describing anything that happened"
+        ],
+        "humanTells": [
+          "#2: Key locked inside the locked U-Haul, two states away, $180 / 3-hour locksmith",
+          "#3: Couch that came in won't go out, removed door/frame/wall, couch 'won nothing'",
+          "#4: Unloaded into the wrong unlocked apartment, tenant helped carry it back, annual card",
+          "#5: Hamster escaped in the truck, found in the toaster box thriving in 'the new wing'"
+        ],
+        "difficulty_note": "Hard - the AI's 'moving is stressful' framing is accurate and well-written, but it stays entirely general while four humans give precise catastrophes"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

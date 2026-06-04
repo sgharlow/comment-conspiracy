@@ -4,7 +4,7 @@
   "puzzles": [
     {
       "id": "2026-07-13",
-      "dayNumber": 176,
+      "dayNumber": 166,
       "difficulty": "easy",
       "dayOfWeek": "monday",
       "category": "social-media",
@@ -69,7 +69,7 @@
     },
     {
       "id": "2026-07-14",
-      "dayNumber": 177,
+      "dayNumber": 167,
       "difficulty": "easy",
       "dayOfWeek": "tuesday",
       "category": "programming",
@@ -134,7 +134,7 @@
     },
     {
       "id": "2026-07-15",
-      "dayNumber": 178,
+      "dayNumber": 168,
       "difficulty": "medium",
       "dayOfWeek": "wednesday",
       "category": "internet",
@@ -199,7 +199,7 @@
     },
     {
       "id": "2026-07-16",
-      "dayNumber": 179,
+      "dayNumber": 169,
       "difficulty": "medium",
       "dayOfWeek": "thursday",
       "category": "tech",
@@ -264,7 +264,7 @@
     },
     {
       "id": "2026-07-17",
-      "dayNumber": 180,
+      "dayNumber": 170,
       "difficulty": "hard",
       "dayOfWeek": "friday",
       "category": "smarthome",
@@ -329,7 +329,7 @@
     },
     {
       "id": "2026-07-18",
-      "dayNumber": 181,
+      "dayNumber": 171,
       "difficulty": "expert",
       "dayOfWeek": "saturday",
       "category": "gadgets",
@@ -394,7 +394,7 @@
     },
     {
       "id": "2026-07-19",
-      "dayNumber": 182,
+      "dayNumber": 172,
       "difficulty": "hard",
       "dayOfWeek": "sunday",
       "category": "social-media",

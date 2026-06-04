@@ -3,200 +3,8 @@
   "startDate": "2026-06-01",
   "puzzles": [
     {
-      "id": "2026-06-01",
-      "dayNumber": 134,
-      "difficulty": "easy",
-      "dayOfWeek": "monday",
-      "category": "grocery shopping",
-      "prompt": {
-        "text": "What's the most embarrassing thing that's happened to you at a grocery store?",
-        "source": "r/mildlyinfuriating"
-      },
-      "comments": [
-        {
-          "id": "comment_1",
-          "username": "CartCollision_",
-          "text": "Grocery shopping experiences can sometimes lead to unexpected and memorable moments. These minor embarrassments are a relatable part of everyday life that most people can connect with and laugh about afterward.",
-          "isAI": true
-        },
-        {
-          "id": "comment_2",
-          "username": "WrongShopping_Cart",
-          "text": "pushed someone else's full cart for an entire aisle before realizing it wasn't mine. my cart was one row over. same brand of cart. but the person's stuff was clearly different. i had reorganized some of their items. they watched me do this.",
-          "isAI": false
-        },
-        {
-          "id": "comment_3",
-          "username": "LoudPhoneCall",
-          "text": "My phone accidentally called my mom while I was arguing with myself over whether to buy the name-brand or generic cereal. She heard 4 minutes of this. Called it 'a very concerning voicemail.' I bought the generic. It was worse.",
-          "isAI": false
-        },
-        {
-          "id": "comment_4",
-          "username": "SlipAndScan",
-          "text": "Slipped on a wet floor sign. Not the wet floor. The sign itself. Knocked over a display of individually wrapped cheeses. Staff had to help me up. Someone clapped. I bought the cheese out of guilt. $47 of cheese.",
-          "isAI": false
-        },
-        {
-          "id": "comment_5",
-          "username": "WrongNameGreet",
-          "text": "greeted a stranger with 'hey linda!' because she had the same haircut as my aunt linda. she was not linda. we had a conversation anyway. i never admitted i thought she was linda. linda never found out. linda is my aunt not a stranger",
-          "isAI": false
-        }
-      ],
-      "aiCommentIndex": 0,
-      "explanation": {
-        "aiTells": [
-          "\"Unexpected and memorable moments\" - vague positive framing",
-          "\"Relatable part of everyday life\" - generic observer language",
-          "\"Most people can connect with\" - broad generalization, no story",
-          "No specific embarrassment described at all"
-        ],
-        "humanTells": [
-          "#2: Specific action (reorganized items), witness detail, wrong cart not noticed for a full aisle",
-          "#3: 4-minute pocket call, specific decision (name-brand vs generic), verdict on the cereal",
-          "#4: Irony of slipping on the sign not the floor, $47 guilt cheese, crowd clap",
-          "#5: Specific name (Linda), sustained conversation without admitting mistake, clarification at end"
-        ],
-        "difficulty_note": "Easy - the AI gives a motivational-speaker summary of embarrassment while humans describe specific mortifying sequences"
-      },
-      "metadata": {
-        "createdAt": "2026-06-01T10:00:00Z",
-        "createdBy": "curator_1",
-        "reviewed": true
-      }
-    },
-    {
-      "id": "2026-06-02",
-      "dayNumber": 135,
-      "difficulty": "easy",
-      "dayOfWeek": "tuesday",
-      "category": "sleep",
-      "prompt": {
-        "text": "What's the strangest thing you've done or said while half-asleep?",
-        "source": "r/tifu"
-      },
-      "comments": [
-        {
-          "id": "comment_1",
-          "username": "SleepWalker_Steve",
-          "text": "woke up in my kitchen holding a can of chickpeas and a spatula. no memory of going there. chickpeas were open. spatula had residue. something happened. i will never know what",
-          "isAI": false
-        },
-        {
-          "id": "comment_2",
-          "username": "MidnightEmail_",
-          "text": "Sent a work email at 3 AM while half-asleep. It just said 'the numbers are wrong but also the dog.' We don't have a dog at work. My manager replied asking which numbers. I had to pretend I knew.",
-          "isAI": false
-        },
-        {
-          "id": "comment_3",
-          "username": "SleepPhoneCall",
-          "text": "Sleep-called my college roommate at 2 AM and told him I needed to 'return the moon.' He talked me through it for 11 minutes trying to figure out what I meant. I woke up mid-sentence. We still text about it.",
-          "isAI": false
-        },
-        {
-          "id": "comment_4",
-          "username": "SleepingHabits",
-          "text": "Sleep-related behaviors and half-awake states can produce genuinely puzzling actions and statements. These moments, while disorienting, are a fascinating window into how the mind processes information during rest.",
-          "isAI": true
-        },
-        {
-          "id": "comment_5",
-          "username": "AlarmClock_Negotiator",
-          "text": "My partner caught me negotiating with my alarm clock at 5:45 AM. I was saying 'just five more points' while holding it up like a phone. I thought I was in a meeting. I was a project manager. This was not a good sign.",
-          "isAI": false
-        }
-      ],
-      "aiCommentIndex": 3,
-      "explanation": {
-        "aiTells": [
-          "\"Fascinating window into how the mind processes information\" - pop-science framing",
-          "\"Genuinely puzzling actions\" - describes the category without an example",
-          "\"During rest\" - clinical sign-off language",
-          "No specific sleep incident described at all"
-        ],
-        "humanTells": [
-          "#1: Specific props (chickpeas, spatula), open can with residue, accepted mystery",
-          "#2: Specific email text verbatim, dog caveat, manager's follow-up, improvised cover story",
-          "#3: Specific request ('return the moon'), 11-minute call, still referenced in friendship",
-          "#5: Exact time (5:45 AM), specific phrase used ('five more points'), job context adds irony"
-        ],
-        "difficulty_note": "Easy - the AI speaks like a neuroscience summary paragraph; humans have absurd specific incidents with dialogue and props"
-      },
-      "metadata": {
-        "createdAt": "2026-06-02T10:00:00Z",
-        "createdBy": "curator_1",
-        "reviewed": true
-      }
-    },
-    {
-      "id": "2026-06-03",
-      "dayNumber": 136,
-      "difficulty": "medium",
-      "dayOfWeek": "wednesday",
-      "category": "commuting",
-      "prompt": {
-        "text": "What's the most awkward thing that's happened to you on public transit?",
-        "source": "r/PublicFreakout"
-      },
-      "comments": [
-        {
-          "id": "comment_1",
-          "username": "SubwayNapper_",
-          "text": "fell asleep on the subway and woke up on a stranger's shoulder. they were also asleep. i gently moved. they stayed asleep. got off at my stop. never made eye contact. we were both asleep on each other for at least 3 stops",
-          "isAI": false
-        },
-        {
-          "id": "comment_2",
-          "username": "BusMistake_",
-          "text": "Confidently got on the wrong bus and rode it for 20 minutes before looking up. I was heading to the airport. I ended up at a botanical garden. My flight was in 90 minutes. I made it. Barely. Have never told my wife how close it was.",
-          "isAI": false
-        },
-        {
-          "id": "comment_3",
-          "username": "HeadphonesLie_",
-          "text": "Had headphones in with no music playing because I didn't want to talk. Guy next to me started talking. I nodded. For 25 minutes I nodded. Got off two stops early to escape. Walked 12 blocks. It was raining.",
-          "isAI": false
-        },
-        {
-          "id": "comment_4",
-          "username": "TrainDoubleSit",
-          "text": "Sat down in a reserved seat accidentally. Owner came. I apologized and moved. Moved into another reserved seat. Owner came. I apologized and moved again. Third seat: reserved. At this point I just stood. Four people watched this unfold.",
-          "isAI": false
-        },
-        {
-          "id": "comment_5",
-          "username": "PublicTransitLife",
-          "text": "Public transit brings together people from all walks of life, creating situations that can be both unexpected and character-building. These shared experiences often become the stories we tell for years afterward.",
-          "isAI": true
-        }
-      ],
-      "aiCommentIndex": 4,
-      "explanation": {
-        "aiTells": [
-          "\"People from all walks of life\" - stock transit-poster phrase",
-          "\"Character-building\" - optimistic generalization with no situation",
-          "\"Stories we tell for years\" - vague future outcome, no current story",
-          "No transit incident described at all"
-        ],
-        "humanTells": [
-          "#1: Mutual sleeping, 3 stops estimated, departure without eye contact",
-          "#2: Wrong destination (botanical garden vs airport), 90-minute window, wife still unaware",
-          "#3: Silent nodding duration (25 minutes), two stops early exit, 12-block rain walk",
-          "#4: Three consecutive reserved seats, escalating audience of four"
-        ],
-        "difficulty_note": "Medium - the AI offers an uplifting transit philosophy while humans catalogued specific sequences of social failure"
-      },
-      "metadata": {
-        "createdAt": "2026-06-03T10:00:00Z",
-        "createdBy": "curator_1",
-        "reviewed": true
-      }
-    },
-    {
       "id": "2026-06-04",
-      "dayNumber": 137,
+      "dayNumber": 127,
       "difficulty": "medium",
       "dayOfWeek": "thursday",
       "category": "laundry",
@@ -260,7 +68,7 @@
     },
     {
       "id": "2026-06-05",
-      "dayNumber": 138,
+      "dayNumber": 128,
       "difficulty": "hard",
       "dayOfWeek": "friday",
       "category": "outdoor chores",
@@ -324,7 +132,7 @@
     },
     {
       "id": "2026-06-06",
-      "dayNumber": 139,
+      "dayNumber": 129,
       "difficulty": "expert",
       "dayOfWeek": "saturday",
       "category": "DIY projects",
@@ -388,7 +196,7 @@
     },
     {
       "id": "2026-06-07",
-      "dayNumber": 140,
+      "dayNumber": 130,
       "difficulty": "hard",
       "dayOfWeek": "sunday",
       "category": "social faux pas",

@@ -4,7 +4,7 @@
   "puzzles": [
     {
       "id": "2026-08-31",
-      "dayNumber": 225,
+      "dayNumber": 215,
       "difficulty": "easy",
       "dayOfWeek": "monday",
       "category": "work",
@@ -69,7 +69,7 @@
     },
     {
       "id": "2026-09-01",
-      "dayNumber": 226,
+      "dayNumber": 216,
       "difficulty": "easy",
       "dayOfWeek": "tuesday",
       "category": "school",
@@ -134,7 +134,7 @@
     },
     {
       "id": "2026-09-02",
-      "dayNumber": 227,
+      "dayNumber": 217,
       "difficulty": "medium",
       "dayOfWeek": "wednesday",
       "category": "sidehustle",
@@ -199,7 +199,7 @@
     },
     {
       "id": "2026-09-03",
-      "dayNumber": 228,
+      "dayNumber": 218,
       "difficulty": "medium",
       "dayOfWeek": "thursday",
       "category": "office",
@@ -264,7 +264,7 @@
     },
     {
       "id": "2026-09-04",
-      "dayNumber": 229,
+      "dayNumber": 219,
       "difficulty": "hard",
       "dayOfWeek": "friday",
       "category": "careers",
@@ -329,7 +329,7 @@
     },
     {
       "id": "2026-09-05",
-      "dayNumber": 230,
+      "dayNumber": 220,
       "difficulty": "expert",
       "dayOfWeek": "saturday",
       "category": "money",
@@ -394,7 +394,7 @@
     },
     {
       "id": "2026-09-06",
-      "dayNumber": 231,
+      "dayNumber": 221,
       "difficulty": "hard",
       "dayOfWeek": "sunday",
       "category": "sidehustle",

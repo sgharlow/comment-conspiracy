@@ -1,0 +1,454 @@
+{
+  "week": 42,
+  "startDate": "2026-10-26",
+  "puzzles": [
+    {
+      "id": "2026-10-26",
+      "dayNumber": 271,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "breakfast",
+      "prompt": {
+        "text": "What's your unhinged go-to breakfast that horrifies everyone else?",
+        "source": "r/breakfast"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ColdPizzaCreed",
+          "text": "cold leftover pizza dipped in orange juice. the acid cuts the grease, i don't make the rules. discovered it hungover in 2016 and never looked back. my girlfriend has filed it under 'reasons we sleep in separate kitchens.' i eat it standing over the sink like a raccoon.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "RiceAndKetchupAM",
+          "text": "Plain white rice, microwaved, with ketchup and a fried egg smashed on top. My mom made it when money was tight and now it's the only breakfast that feels right. I've made it for confused partners. Two stayed. One left. The rice stayed loyal throughout.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "BreakfastChoices_",
+          "text": "Breakfast preferences vary widely from person to person, and what seems unusual to one might be completely normal to another. At the end of the day, the most important thing is enjoying a meal that helps you start your morning right.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "PicklePeanutToast",
+          "text": "peanut butter toast with sliced pickles on top. salt, crunch, sweet. my coworkers have stopped sitting near me. i ate it at my desk once and a guy three cubicles away said 'i can hear that' without looking up. i now eat it in my car. happily. defiantly.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "MustardOatmealMan",
+          "text": "Savory oatmeal with a swirl of yellow mustard, a fried egg, and hot sauce. People assume I'm joking. I am not joking. I have never been less joking. My doctor asked about my diet and I told him and he just wrote something down and didn't make eye contact.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "Comment #3 is the AI: \"preferences vary widely from person to person\" generic framing",
+          "\"What seems unusual to one might be completely normal to another\" - hedge, no breakfast",
+          "\"Enjoying a meal that helps you start your morning right\" - wellness-blog filler",
+          "Note: AI is #3 here — it describes breakfast attitudes without naming a single food"
+        ],
+        "humanTells": [
+          "#1: Cold pizza dipped in OJ, hungover origin 2016, eats it 'like a raccoon'",
+          "#2: White rice + ketchup + smashed fried egg, mom's lean-times meal, 'the rice stayed loyal'",
+          "#4: PB toast + pickles, audible-at-three-cubicles, now eats it in the car",
+          "#5: Mustard oatmeal + egg + hot sauce, doctor's silent note-taking"
+        ],
+        "difficulty_note": "Easy - the AI (#3) is the one comment that names no food and just affirms that breakfast tastes differ"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-27",
+      "dayNumber": 272,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "rain gear",
+      "prompt": {
+        "text": "What's your most ridiculous story involving an umbrella or rain gear?",
+        "source": "r/mildlyinteresting"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "MaryPoppinsGust",
+          "text": "A gust of wind fully Mary-Poppins'd me. Both feet off the ground. I traveled maybe four feet sideways before letting go. The umbrella kept going. It cleared a fence. A man on the other side caught it, looked at me, and just kept it. He earned it. Fair.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "WeatherPreparedness_",
+          "text": "Having the right rain gear can make a big difference when the weather turns unexpectedly. A good umbrella or jacket helps you stay dry and comfortable, and being prepared is always a smart choice during rainy seasons.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "PonchoTrapMan",
+          "text": "bought one of those emergency ponchos that come folded smaller than a deck of cards. could NOT figure out which hole was the head. put my whole arm through the head hole on a crowded bus. a stranger had to help me. she found the actual head hole. we did not speak. i was wet anyway.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "InsideOutForever",
+          "text": "My umbrella flipped inside out and I spent a full block trying to flip it back while walking, looking like I was fighting a metal bat. It flipped back. Then immediately flipped again. I gave up and held it inside out like a satellite dish. It did not work as a satellite dish.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SharedUmbrellaAwk",
+          "text": "Offered to share my umbrella with a coworker. We are both tall. It was a small umbrella. We walked four blocks in a careful hunch, neither of us actually staying dry, neither of us willing to admit it wasn't working. We arrived soaked and said 'that worked great.' It did not.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Right rain gear can make a big difference\" - product-blurb advice",
+          "\"Helps you stay dry and comfortable\" - generic benefit statement",
+          "\"Being prepared is always a smart choice\" - tip, not a story",
+          "Gives umbrella advice instead of a ridiculous umbrella story"
+        ],
+        "humanTells": [
+          "#1: Lifted off the ground, umbrella cleared a fence, stranger kept it",
+          "#3: Emergency poncho head-hole confusion, arm through the wrong hole on a bus",
+          "#4: Inside-out umbrella fight, used it as a failed 'satellite dish'",
+          "#5: Two tall people, one small umbrella, four blocks of soaked denial"
+        ],
+        "difficulty_note": "Easy - the AI gives weather-prep tips while everyone else tells a specific rain-gear disaster"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-28",
+      "dayNumber": 273,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "bad haircuts",
+      "prompt": {
+        "text": "What's the worst haircut you've ever gotten and how did you cope?",
+        "source": "r/Hair"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "BowlCutBetrayal",
+          "text": "Asked for 'a little off the top.' Walked out with a bowl cut so perfect it looked stenciled. The barber seemed proud. I wore a beanie for six weeks in July. People thought I'd taken up a religion. I let them believe it. It was easier than the truth.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "UnevenSideburns_",
+          "text": "guy gave me two completely different sideburns. one ended at my ear, one kept going toward my jaw like it had ambitions. i didn't notice until i got home. i fixed it myself with kitchen scissors and made it worse on BOTH sides. evened out at 'recently escaped.'",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "AccidentalMullet_",
+          "text": "Barber got distracted by a TV game and gave me an accidental mullet. Short everywhere, long in the back, no plan. I leaned in. Bought a flannel. Told everyone it was 'on purpose, business in front.' Three people complimented it sincerely. I never corrected the record.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "BangsCatastrophe",
+          "text": "I let a friend cut my bangs at a sleepover when I was 13. She used craft scissors. She cut them about an inch from my hairline. I had a tiny fringe of bangs that pointed straight out like an awning for two months. School photos were that week. I have the photo. I framed it. Penance.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "HairExperiences_",
+          "text": "A bad haircut can definitely be a frustrating experience, but it's also a temporary one. Hair always grows back, and learning to laugh it off is often the best way to handle these little setbacks while you wait for it to return to normal.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "\"Frustrating experience, but it's also a temporary one\" - reassurance, no haircut",
+          "\"Hair always grows back\" - the universal platitude, content-free",
+          "\"Learning to laugh it off\" - advice about coping, no actual cut described",
+          "Comforts the reader instead of telling a bad-haircut story"
+        ],
+        "humanTells": [
+          "#1: Stenciled bowl cut, six weeks of July beanie, let people assume religion",
+          "#2: Two mismatched sideburns, kitchen-scissor self-repair to 'recently escaped'",
+          "#3: Distracted-barber accidental mullet, bought a flannel, embraced 'business in front'",
+          "#4: Craft-scissor bangs at 13, awning fringe, framed the school photo as penance"
+        ],
+        "difficulty_note": "Medium - the AI's 'it grows back, laugh it off' tone is exactly what a kind commenter would say, but it never describes a haircut"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-29",
+      "dayNumber": 274,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "lost and found",
+      "prompt": {
+        "text": "What's something you lost and then found in the most unlikely way?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "RingInTheTurkey",
+          "text": "Lost my wedding ring for eight months. Found it inside a frozen turkey the following Thanksgiving. It had fallen in while I was prepping the bird the year before and we'd refrozen the leftovers wrong somehow. My wife screamed. I cried. The turkey was, somehow, still good.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "PhoneInTheCouchYr",
+          "text": "lost my phone, bought a new one, moved apartments, and found the old phone a YEAR later sealed inside the couch cushion. still had a charge somehow when i plugged it in. it had 47 unread texts. one was from a guy asking if i was still selling my bike. i was not.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "GlassesInTheLake",
+          "text": "Dropped my prescription glasses in a lake on a canoe trip. Wrote them off. Two summers later a kid pulled them up while fishing at the same dock and posted them to a local 'found' board with the photo. My prescription is unusual enough that I recognized them. Got them back. They still worked.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "KeysAtTheZoo_",
+          "text": "Lost my car keys at a zoo. Called the zoo a week later on a whim. They said a goat had been 'playing with' a set of keys and a keeper had confiscated them. It was my keys. The goat had carried them across the petting area. I had to identify them like a lineup. The goat watched.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "RediscoveredItems_",
+          "text": "It's always a relief when something we thought was lost turns up unexpectedly. These moments remind us that misplaced items often resurface when we least expect it, sometimes in the most surprising and unlikely of places.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "\"Always a relief when something we thought was lost turns up\" - generic sentiment",
+          "\"Misplaced items often resurface when we least expect it\" - restates the prompt",
+          "\"Most surprising and unlikely of places\" - echoes 'unlikely' without an example",
+          "No object, no loss, no recovery — just commentary on finding things"
+        ],
+        "humanTells": [
+          "#1: Wedding ring inside a refrozen Thanksgiving turkey a year later",
+          "#2: Phone in the couch a year later, still charged, 47 texts, a stranger's bike question",
+          "#3: Glasses dropped in a lake, found two summers later via a 'found' board",
+          "#4: Keys carried off by a zoo goat, identified them 'like a lineup'"
+        ],
+        "difficulty_note": "Medium - the AI's 'things turn up when you least expect it' line is on-theme but it's the only comment with no actual lost-and-found event"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-30",
+      "dayNumber": 275,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "near misses",
+      "prompt": {
+        "text": "What's a close call where a tiny coincidence changed everything?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "MissedTheBusFate",
+          "text": "Missed a bus by 30 seconds because I stopped to tie my shoe. That exact bus was in a bad accident four stops later. I tied my shoe. That's the whole reason. I have thought about that shoelace every day for six years. I tie my shoes very deliberately now. Very deliberately.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "DroppedKeysDoor_",
+          "text": "dropped my keys getting out of the car which delayed me maybe 15 seconds. in that 15 seconds a tree branch that had been creaking came down exactly where i would have been walking. landed on the path. i just stood there holding my keys. then i went inside and sat down for a while.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "LifesTurningPoints_",
+          "text": "It's remarkable how the smallest moments can end up shaping the course of our lives in ways we never anticipated. A brief delay or a chance encounter can lead to outcomes that, in hindsight, feel almost impossibly significant.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "WrongCoffeeLine",
+          "text": "Got in the slower coffee line by accident, annoyed about it. The person ahead of me turned around, we got talking, and she mentioned a job opening that I applied for and got and have now had for nine years. I almost switched to the faster line. I almost switched lines. Nine years.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "TextTypoReunion_",
+          "text": "Texted the wrong number by one digit trying to reach a plumber. The stranger who got the text turned out to be an old camp friend I'd lost touch with for 12 years. We figured it out after three confused messages. We're close again now. The plumber, I never found. Different guy fixed the sink.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Smallest moments can end up shaping the course of our lives\" - restates the prompt",
+          "\"A brief delay or a chance encounter\" - lists possibilities, commits to neither",
+          "\"Almost impossibly significant\" - dramatic phrasing with no event",
+          "Reflects on coincidence as a concept; describes no close call"
+        ],
+        "humanTells": [
+          "#1: Shoelace delay missed a bus that crashed four stops later, ties shoes 'deliberately' now",
+          "#2: Dropped keys = 15-second delay, a branch fell exactly on his path",
+          "#4: Slower coffee line led to a job he's held nine years, nearly switched lines",
+          "#5: One-digit text typo reconnected a camp friend after 12 years"
+        ],
+        "difficulty_note": "Hard - the AI captures the awe-at-coincidence tone precisely, but supplies only a general musing where each human has a specific pivot"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-31",
+      "dayNumber": 276,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "trick-or-treating",
+      "prompt": {
+        "text": "What's the strangest thing that ever happened to you while trick-or-treating?",
+        "source": "r/Halloween"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FullSizeBarLegend",
+          "text": "One house gave out full-size candy bars but you had to answer a trivia question first. Wrong answer got you a fun-size. The man took it deadly seriously. He had a buzzer. Word spread and his porch had a LINE. I got a question about state capitals wrong and have resented Montana ever since.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "TheToothbrushHouse",
+          "text": "a dentist on our street gave out toothbrushes every year, which, fine. but one year he ALSO gave out a single dollar bill taped to each toothbrush as an apology. the whole neighborhood pivoted. that house became the first stop. he became a local legend. dentists are not usually legends.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "WrongDoorThanksgiving",
+          "text": "Knocked on a door that turned out to be a family mid-Thanksgiving-in-October dinner (long story, they explained later). They were confused, then delighted, and insisted I take a dinner roll instead of candy. I was eight and deeply suspicious of a roll. I still think about that roll. It was a good roll.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SeasonalTraditions_",
+          "text": "Trick-or-treating is one of those cherished childhood traditions that creates lasting memories. The excitement of dressing up, going door to door, and collecting candy with friends is something many people fondly remember from their younger years.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "CandyBucketSwap_",
+          "text": "Someone in an identical skeleton costume and I accidentally swapped buckets at a crowded crosswalk. I didn't notice for two houses. His bucket had way better candy AND a house key and a note that said 'back by 9, love mom.' I returned it. We are skeletons. We look out for each other.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Cherished childhood traditions that creates lasting memories\" - greeting-card framing",
+          "\"Excitement of dressing up, going door to door\" - lists the activity, no event",
+          "\"Many people fondly remember\" - broad audience claim, no personal story",
+          "Sentimentalizes trick-or-treating in general without a single strange incident"
+        ],
+        "humanTells": [
+          "#1: Trivia-for-candy house with a buzzer, lost on Montana, lifelong grudge",
+          "#2: Dentist taping a dollar to each toothbrush, became the first-stop legend",
+          "#3: Knocked into an October Thanksgiving dinner, given a roll, still thinks about the roll",
+          "#5: Identical-skeleton bucket swap, found a house key and mom's note, returned it"
+        ],
+        "difficulty_note": "Expert - the AI's warm nostalgia reads like a genuine wholesome reply, but it's purely about the tradition while four humans give specific, weird events"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-11-01",
+      "dayNumber": 277,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "volunteering",
+      "prompt": {
+        "text": "What's an unexpected thing you learned from volunteering somewhere?",
+        "source": "r/volunteer"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "SoupKitchenLesson",
+          "text": "Volunteered at a soup kitchen expecting to feel like a hero. Instead an 80-year-old regular named Walt taught ME how to properly fold a napkin into a fan because I was doing it wrong and 'people deserve a nice table.' He'd been folding napkins there longer than I'd been alive. I was the one being served.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "ReflectionsOnGiving_",
+          "text": "Volunteering can be a deeply rewarding experience that often teaches us as much as we give. Many people find that helping others provides a renewed sense of purpose and a greater appreciation for the things they may have previously taken for granted.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "ShelterDogTruth_",
+          "text": "walked dogs at a shelter and learned that the 'difficult' dogs nobody wanted were difficult for like two days and then just needed someone to be boring with them. the staff told me the secret was just sitting in the kennel reading out loud. i read an entire mystery novel to a pit bull named Brenda. she got adopted.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "HabitatNailGuy",
+          "text": "Helped build houses one summer and learned I am genuinely terrible at hammering, but the site lead said the most useful person on any build is the one who keeps everyone's water bottles full and labeled. So that became my job. I labeled 40 water bottles a day. People remembered my name. Not the framers' names. Mine.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "LibraryReadAloud_",
+          "text": "Volunteered reading to kids at a library and learned that if you do a voice wrong ONCE, a four-year-old will hold you to that wrong voice forever. I made the dragon sound like a tired bus driver by accident. For six months, every kid demanded the bus driver dragon. I had created a canon. I was its prisoner.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Deeply rewarding experience that often teaches us as much as we give\" - stock volunteering line",
+          "\"Renewed sense of purpose\" - generic uplift, no specific lesson",
+          "\"Appreciation for the things they may have previously taken for granted\" - vague gratitude",
+          "Summarizes the value of volunteering without naming where, what, or what was learned"
+        ],
+        "humanTells": [
+          "#1: Soup kitchen, 80-year-old Walt teaches napkin-folding, 'I was the one being served'",
+          "#3: Shelter dogs need 'someone to be boring with', read a novel to a pit bull named Brenda",
+          "#4: Bad at hammering, became the water-bottle labeler, people remembered his name",
+          "#5: Accidental 'tired bus driver' dragon voice, held hostage to it for six months"
+        ],
+        "difficulty_note": "Hard - the AI's earnest 'volunteering teaches us so much' tone fits perfectly, but it offers a thesis where each human offers one specific, concrete lesson"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

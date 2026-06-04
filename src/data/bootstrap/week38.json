@@ -1,0 +1,455 @@
+{
+  "week": 38,
+  "startDate": "2026-09-28",
+  "puzzles": [
+    {
+      "id": "2026-09-28",
+      "dayNumber": 243,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "morning routines",
+      "prompt": {
+        "text": "What's the weirdest part of your morning routine that you can't give up?",
+        "source": "r/mildlyinteresting"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "CoffeeThenHuman",
+          "text": "I have to eat exactly 4 crackers before my coffee or the whole day feels wrong. Started in 2017 during a bad bout of acid reflux. The reflux is gone. The crackers remain.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "MirrorTalker_99",
+          "text": "I narrate my morning out loud in third person. 'Dave puts on his left shoe first. Dave is making good choices today.' My roommate moved out. Can't say why.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "WellbeingReflections",
+          "text": "Morning routines can be a meaningful source of stability and comfort. These small rituals help set a positive tone for the day and contribute to an overall sense of well-being.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "SockSorter_AM",
+          "text": "I sort my socks by thickness every Sunday night so I can grab them in order during the week. Thin on Monday (important meetings), thick by Friday. My wife calls it insane. I call it optimization.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "PlantGreeter",
+          "text": "say good morning to each of my 11 houseplants individually. by name. if i skip one i feel guilty all day. the fern is named Gerald. Gerald is doing great btw",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Meaningful source of stability\" - corporate wellness speak",
+          "\"Set a positive tone\" - generic life-advice phrasing",
+          "\"Overall sense of well-being\" - vague, no personal ritual described",
+          "No specific routine mentioned whatsoever"
+        ],
+        "humanTells": [
+          "#1: Specific year, specific food, specific origin story (acid reflux)",
+          "#2: Specific name (Dave), specific shoe, specific consequence (roommate left)",
+          "#4: Day-by-day sock logic, wife's reaction, personal justification",
+          "#5: Plant count (11), individual names, specific plant named (Gerald)"
+        ],
+        "difficulty_note": "Easy - the AI speaks entirely in abstract wellness language while every human has a hilariously specific quirk"
+      },
+      "metadata": {
+        "createdAt": "2026-05-25T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-29",
+      "dayNumber": 244,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "neighbors",
+      "prompt": {
+        "text": "What's the most unhinged thing a neighbor has ever done near your home?",
+        "source": "r/neighbors"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FenceWatcher_Dan",
+          "text": "My neighbor built a 9-foot fence facing only my yard. Every other side of his property: normal 4-foot fence. Just mine. We had exchanged zero words before this. Still haven't.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "GnomeArmy2022",
+          "text": "neighbor across the street started collecting garden gnomes. harmless right. there are now 74 of them. all facing my front door. they rearrange them at night. i've seen the gnomes in different positions each morning. never seen the neighbor do it",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "LeafBlowerWar",
+          "text": "Guy next door leaf-blows his driveway at 6:45 AM every Saturday. Same time, every week. His driveway has no trees. No leaves ever appear there. Where does he think they're coming from? I've looked. Nothing.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "PoolFloat_Incident",
+          "text": "My neighbor installed a hot tub and then immediately put up a speaker system facing our shared fence. Plays one song on loop every Sunday. Only one. Africa by Toto. For 3 hours. Has done this for 2 years.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "CommunityObserver",
+          "text": "Living in close proximity to others can sometimes lead to unexpected behaviors and situations. These experiences, while challenging, are a normal part of community living and can often be resolved through open communication.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "\"Close proximity to others can lead to unexpected behaviors\" - textbook vague",
+          "\"Normal part of community living\" - minimizing and generic",
+          "\"Resolved through open communication\" - stock advice, no story",
+          "No specific neighbor, action, or outcome described"
+        ],
+        "humanTells": [
+          "#1: Specific fence height (9 foot), specific direction, zero prior contact",
+          "#2: Specific gnome count (74), specific facing direction, nightly rearrangement mystery",
+          "#3: Specific time (6:45 AM), no trees anywhere near, logical contradiction observed",
+          "#4: Specific song, specific artist, specific duration (3 hours), 2-year streak"
+        ],
+        "difficulty_note": "Easy - the AI retreats to community-management language while neighbors do deeply specific weird things"
+      },
+      "metadata": {
+        "createdAt": "2026-05-26T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-09-30",
+      "dayNumber": 245,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "household mishaps",
+      "prompt": {
+        "text": "What household repair have you made that you're embarrassed to admit how long it took?",
+        "source": "r/homeowners"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ToiletHandle_Tim",
+          "text": "The handle on my toilet wiggled for 11 months. I told everyone it was on my list. The fix took 4 minutes and cost $6 at the hardware store. My wife watched me do it and walked away without saying a word. That silence was worse than anything.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "DuctTapeDave_",
+          "text": "Kitchen cabinet door fell off the hinge in January 2021. Used it as an open shelf until March 2023. Called it 'European style.' Guests believed me. Fixed it the week we listed the house for sale.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "GarageOpenerGuy",
+          "text": "garage door opener stopped working. i parked outside for 7 months. turned out it needed a new battery in the wall button. the battery cost $1.19. i drive a $38,000 truck. this haunts me",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "BrokenBlind_",
+          "text": "One blind in the living room was stuck open for two years. Every morning I walked past it. We started sitting in specific chairs to avoid the sun glare. Entire furniture layout adjusted around one broken blind. Fixed it in 40 seconds when I finally looked at it.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "Lightswitch_Lou",
+          "text": "had a light switch that only worked if you flicked it at exactly a 45 degree angle. family learned the technique. guests were instructed on arrival. lasted 3 years. electrician fixed it in 8 minutes and charged me $95. looked me dead in the eyes. said nothing.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "\"That silence was worse than anything\" - melodramatic rather than funny-specific",
+          "Oddly tidy narrative arc with a moral lesson built in",
+          "Too emotionally resolved - reads like a structured anecdote not a confession",
+          "\"On my list\" and \"walked away without saying a word\" - stock comedic beats"
+        ],
+        "humanTells": [
+          "#2: Specific dates (Jan 2021 - Mar 2023), coined name (European style), sold house timing",
+          "#3: Exact battery price ($1.19), truck cost ($38,000), emotional weight on specific detail",
+          "#4: Two years, furniture layout change as consequence, 40-second fix",
+          "#5: Specific angle (45 degrees), guest instruction protocol, electrician's silent stare"
+        ],
+        "difficulty_note": "Medium - the AI comment is funny and specific-sounding but uses stock punchline structure; humans have weirder details and stranger consequences"
+      },
+      "metadata": {
+        "createdAt": "2026-05-27T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-01",
+      "dayNumber": 246,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "family",
+      "prompt": {
+        "text": "What's the strangest tradition your family has that you only realized was weird when you got older?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ChristmasFish_",
+          "text": "Every Christmas Eve my dad made us watch Jaws. Not a holiday movie. Jaws. No explanation given. Never asked. He passed in 2019. We still watch it every year. My kids now think this is totally normal.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "BirthdayInspection",
+          "text": "on your birthday you had to stand against the doorframe to be measured. normal right. except we also measured the dog. and recorded it in the same log. i found the log. i am taller than the dog. entry dated july 14 1998.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "SundayPancake_Rule",
+          "text": "My family always ate pancakes in silence on Sunday mornings. Not a sad silence. A ritual silence. Mom called it 'pancake meditation.' When I had a friend sleep over and he started talking at breakfast, my mom gave him a look I still think about.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "GrowingUpQuirky",
+          "text": "Family traditions, even unusual ones, play an important role in creating a sense of identity and belonging. Looking back, these quirky practices often become cherished memories that connect generations.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "VacuumCeremony",
+          "text": "Before every family road trip, my dad vacuumed the car. The entire car. Inside and out. Then inspected it with a flashlight. Trip could not begin until inspection passed. Took 45 minutes minimum. Trips were often only 2 hours long.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Important role in creating a sense of identity and belonging\" - textbook social-science framing",
+          "\"Quirky practices often become cherished memories\" - generic nostalgia",
+          "\"Connect generations\" - greeting-card language",
+          "No actual family tradition described at all"
+        ],
+        "humanTells": [
+          "#1: Specific movie (Jaws), specific year of loss (2019), tradition continued by kids",
+          "#2: Dog measured in same log, specific date found (July 14 1998), specific comparison result",
+          "#3: Coined term (pancake meditation), friend's reaction, the look described obliquely",
+          "#5: Specific prep time (45 minutes), ironic proportion to trip length (2 hours)"
+        ],
+        "difficulty_note": "Medium - the AI sounds like a family therapist summarizing a session; humans share specific rituals with specific awkward details"
+      },
+      "metadata": {
+        "createdAt": "2026-05-28T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-02",
+      "dayNumber": 247,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "roommates",
+      "prompt": {
+        "text": "What's the most passive-aggressive thing you or a roommate ever did during a conflict?",
+        "source": "r/roommates"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "DishroomConflict_",
+          "text": "Roommate left dishes in the sink for 12 days. I washed them, dried them, and put them in his room. On his pillow. He moved out three weeks later. The dishes issue was never once discussed verbally.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "LivingTogetherTips",
+          "text": "Roommate conflicts can be challenging to navigate, but they also present an opportunity for growth and improved communication skills. Addressing concerns directly and respectfully tends to lead to better outcomes for everyone involved.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "StickyNoteWar",
+          "text": "we got into a sticky note war over the thermostat. it started with one note. over 9 days it became 47 notes. some were diagrams. some cited sources. one had a bibliography. neither of us changed the thermostat setting. we agreed on nothing. i still have the bibliography note",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "MilkLabelGuy",
+          "text": "My roommate kept drinking my labeled milk. I switched to oat milk specifically because he hates it. Labeled it 'regular milk.' He tried it once. Made a face. Never touched my milk again. I don't even like oat milk that much.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "AlarmClockRevenge",
+          "text": "roommate complained my alarm was too loud. set it 4 minutes earlier every day for two weeks. by day 14 my alarm was going off at 4:28 AM. i had completely lost the plot. moved out shortly after. was not worth it. would do it again",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Present an opportunity for growth\" - conflict-resolution script",
+          "\"Improved communication skills\" - HR language in a roommate story",
+          "\"Addressing concerns directly and respectfully\" - stock advice with no story",
+          "\"Better outcomes for everyone involved\" - neutral and vague"
+        ],
+        "humanTells": [
+          "#1: 12-day count, dishes placed on pillow, no verbal communication ever",
+          "#3: 47 notes over 9 days, bibliography note kept as relic, zero resolution",
+          "#4: Specific substitute product, labeling trick, admitted personal sacrifice",
+          "#5: 4-minute increments, terminal time reached (4:28 AM), self-aware regret"
+        ],
+        "difficulty_note": "Hard - the AI sounds like a listicle on conflict resolution while the human comments are petty escalation diaries"
+      },
+      "metadata": {
+        "createdAt": "2026-05-29T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-03",
+      "dayNumber": 248,
+      "difficulty": "expert",
+      "dayOfWeek": "saturday",
+      "category": "cooking",
+      "prompt": {
+        "text": "What's the worst cooking disaster you've tried to pass off as intentional?",
+        "source": "r/Cooking"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "Caramelized_Lies",
+          "text": "Burned the onions completely black. Called it 'deeply caramelized.' Served it to my girlfriend's parents. Her dad, a former chef, looked at the plate, looked at me, and said 'interesting technique.' We've been married 6 years. He has never brought it up.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "RisottoLie_",
+          "text": "my risotto broke into something between soup and paste. told guests it was a 'deconstructed' dish. they nodded. they ate it. i nodded back like i knew what i was doing. searched 'deconstructed' afterward. it doesn't cover what happened",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "PancakeFlip_Fail",
+          "text": "Flipped a pancake and it hit the ceiling fan. Landed in the dog's water bowl. Announced it was a 'test batch.' Made 8 more. The 8 were also bad. We ordered pizza. I told no one for 4 years.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "CulinaryCreativity",
+          "text": "Cooking mishaps can be frustrating in the moment, but they often lead to unexpected creativity. Many beloved dishes were discovered by accident, and approaching mistakes with flexibility can turn a kitchen failure into a learning experience.",
+          "isAI": true
+        },
+        {
+          "id": "comment_5",
+          "username": "SpaghettiCeiling",
+          "text": "Made pasta sauce and accidentally over-reduced it to basically a tar. Called it a 'concentrated bolognese reduction.' One guest said it tasted bold. I agreed very seriously. It tasted like a tomato had a bad day.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 3,
+      "explanation": {
+        "aiTells": [
+          "\"Unexpected creativity\" - reframes failure as opportunity, no story",
+          "\"Many beloved dishes were discovered by accident\" - historical deflection",
+          "\"Approaching mistakes with flexibility\" - generic growth mindset",
+          "\"Turn a failure into a learning experience\" - motivational poster language",
+          "Never describes any actual cooking disaster"
+        ],
+        "humanTells": [
+          "#1: Former-chef father-in-law, specific phrase used (interesting technique), 6-year marriage, ongoing silence",
+          "#2: Specific texture description, looked up the word afterward, honest admission it didn't apply",
+          "#3: Ceiling fan + dog bowl sequence, 8 bad follow-ups, pizza order, 4-year silence",
+          "#5: Specific exaggeration (concentrated bolognese reduction), one guest's reaction, tomato metaphor"
+        ],
+        "difficulty_note": "Expert - the AI comment sounds like encouraging cooking-class advice; humans described disasters with specific sensory and social consequences"
+      },
+      "metadata": {
+        "createdAt": "2026-05-30T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-10-04",
+      "dayNumber": 249,
+      "difficulty": "hard",
+      "dayOfWeek": "sunday",
+      "category": "pets",
+      "prompt": {
+        "text": "What's the most absurd thing your pet has ever been afraid of?",
+        "source": "r/AnimalsBeingDerps"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ScaredOfBagels",
+          "text": "My golden retriever is terrified of bagels. Not bread, not muffins, SPECIFICALLY bagels. We have tested this. She will leave the room if you hold one. We stopped buying them out of respect.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "CatVsRoomba_",
+          "text": "my cat was fine with the Roomba for two years. then one day he just decided it was evil. now he waits on the counter and swats it as it passes. not fleeing. ambushing. the Roomba has scratches on it. my cat has a strategy",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "UmbrellaFear",
+          "text": "My dog is completely fine in rain. Fine with the umbrella closed. Fine with the umbrella open outside. You open an umbrella INSIDE and she sprints to the bedroom and won't come out for 20 minutes. She has timed it. Exactly 20 minutes.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "SneezePhobia_Pet",
+          "text": "our beagle is scared of human sneezes. specifically mine, not my wife's. we tested this. same volume. same surprise factor. mine sends him under the couch. hers does nothing. i am not allowed to sneeze during nap time. i have rules now",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "PetBehaviorThoughts",
+          "text": "Pets can develop surprising aversions to seemingly harmless objects or sounds. These responses are often rooted in sensory sensitivity and can be managed with patience and gradual positive exposure over time.",
+          "isAI": true
+        }
+      ],
+      "aiCommentIndex": 4,
+      "explanation": {
+        "aiTells": [
+          "\"Surprising aversions to seemingly harmless objects\" - clinical description",
+          "\"Rooted in sensory sensitivity\" - behavioral science framing, no pet described",
+          "\"Managed with patience and gradual positive exposure\" - training manual language",
+          "Zero personal anecdote or specific animal"
+        ],
+        "humanTells": [
+          "#1: Specific food (bagels), testing protocol described, family accommodation made",
+          "#2: Two-year timeline before fear onset, shift from fleeing to ambushing, physical evidence (scratches)",
+          "#3: Specific trigger (inside vs outside), exact duration (20 minutes), timing noted as deliberate",
+          "#4: Speaker-specific fear, testing methodology described, rules created around sneeze timing"
+        ],
+        "difficulty_note": "Hard - the AI offers gentle behavioral guidance while humans have documented their pets' phobias with the rigor of scientists"
+      },
+      "metadata": {
+        "createdAt": "2026-05-31T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

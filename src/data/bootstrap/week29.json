@@ -4,7 +4,7 @@
   "puzzles": [
     {
       "id": "2026-07-27",
-      "dayNumber": 190,
+      "dayNumber": 180,
       "difficulty": "easy",
       "dayOfWeek": "monday",
       "category": "gaming",
@@ -69,7 +69,7 @@
     },
     {
       "id": "2026-07-28",
-      "dayNumber": 191,
+      "dayNumber": 181,
       "difficulty": "easy",
       "dayOfWeek": "tuesday",
       "category": "sports",
@@ -133,7 +133,7 @@
     },
     {
       "id": "2026-07-29",
-      "dayNumber": 192,
+      "dayNumber": 182,
       "difficulty": "medium",
       "dayOfWeek": "wednesday",
       "category": "fitness",
@@ -198,7 +198,7 @@
     },
     {
       "id": "2026-07-30",
-      "dayNumber": 193,
+      "dayNumber": 183,
       "difficulty": "medium",
       "dayOfWeek": "thursday",
       "category": "hiking",
@@ -262,7 +262,7 @@
     },
     {
       "id": "2026-07-31",
-      "dayNumber": 194,
+      "dayNumber": 184,
       "difficulty": "hard",
       "dayOfWeek": "friday",
       "category": "collecting",
@@ -326,7 +326,7 @@
     },
     {
       "id": "2026-08-01",
-      "dayNumber": 195,
+      "dayNumber": 185,
       "difficulty": "expert",
       "dayOfWeek": "saturday",
       "category": "hobbies",
@@ -390,7 +390,7 @@
     },
     {
       "id": "2026-08-02",
-      "dayNumber": 196,
+      "dayNumber": 186,
       "difficulty": "hard",
       "dayOfWeek": "sunday",
       "category": "sports",

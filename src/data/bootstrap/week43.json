@@ -1,0 +1,326 @@
+{
+  "week": 43,
+  "startDate": "2026-11-02",
+  "puzzles": [
+    {
+      "id": "2026-11-02",
+      "dayNumber": 278,
+      "difficulty": "easy",
+      "dayOfWeek": "monday",
+      "category": "tea",
+      "prompt": {
+        "text": "What's your strangely specific tea ritual that you refuse to change?",
+        "source": "r/tea"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ThreeMinuteSteep",
+          "text": "the bag steeps for exactly three minutes. i use my phone timer. not two minutes fifty, not three-oh-five. if i get distracted and it goes to four minutes i pour the whole thing out and start over. yes i have poured out tea over fifteen seconds. yes my partner thinks i need help.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "TeaCustoms_",
+          "text": "Tea rituals are a wonderful way to bring a sense of calm and routine to the day. Whether it's the type of tea, the temperature, or the time of day, these small habits can be a meaningful part of how we relax and recharge.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "SpecificMugOnly",
+          "text": "i can only drink tea from one specific chipped mug. it has a faded cartoon frog on it. if it's in the dishwasher i will WAIT for the cycle. i have considered hand-washing it mid-cycle. the tea does not taste right in other mugs. i know how this sounds. the frog knows me.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "MilkFirstWarrior",
+          "text": "Milk goes in FIRST. Before the water. My grandmother was British and she'd haunt me if I did it the other way. I have had genuine arguments at dinner parties about this. I have lost friends. The milk goes first. This is not negotiable. I would do it again.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "StirCounterclockwise",
+          "text": "i stir exactly seven times, counterclockwise, then tap the spoon on the rim twice. i don't know why seven. i started doing it as a kid copying my dad and now my body will not let me stop. once i stirred clockwise on purpose to prove i could and i felt genuinely unwell. seven. counterclockwise. two taps.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Wonderful way to bring a sense of calm and routine\" - wellness-blog framing",
+          "\"The type of tea, the temperature, or the time of day\" - lists variables, picks none",
+          "\"Relax and recharge\" - generic self-care language",
+          "Describes tea rituals as a category without confessing one specific habit"
+        ],
+        "humanTells": [
+          "#1: Exactly 3-minute steep, pours out tea over 15 seconds, partner concerned",
+          "#3: One chipped frog mug only, waits for the dishwasher, 'the frog knows me'",
+          "#4: Milk first, British grandmother haunting, lost friends over it",
+          "#5: Seven counterclockwise stirs + two taps, felt unwell stirring clockwise"
+        ],
+        "difficulty_note": "Easy - the AI gives a soothing generality about tea while everyone else has a precise, slightly unhinged ritual"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-11-03",
+      "dayNumber": 279,
+      "difficulty": "easy",
+      "dayOfWeek": "tuesday",
+      "category": "weird talents",
+      "prompt": {
+        "text": "What's a completely useless talent you have that has never helped you once?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "NameThatSizeGuy",
+          "text": "I can guess the exact ounce size of any drinking glass within about half an ounce. Cups, mugs, pint glasses, whatever. I've never been wrong by more than a little. There is no situation in which this matters. Bartenders find it unsettling. I have never once been bought a drink for it.",
+          "isAI": true
+        },
+        {
+          "id": "comment_2",
+          "username": "EarWiggleSolo_",
+          "text": "i can wiggle each ear independently. left, right, left, right. like a slow blinker. it took me a summer in fourth grade to learn this. i have used it zero times for anything. my own wedding photographer asked me to stop doing it in the background of photos.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "CommercialJingleDB",
+          "text": "I remember the jingle of every commercial from roughly 1998 to 2006. Word perfect. Products that no longer exist. I can sing you the full jingle for a regional furniture store that burned down. Nobody asks. Nobody will ever ask. It lives in me, rent-free, blocking useful information.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "UniqueAbilities_",
+          "text": "It's funny how many of us have quirky talents that don't really serve a practical purpose. These unusual skills may not be useful, but they can be a fun part of our personality and a great way to surprise or entertain others now and then.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "PerfectFoldFitted",
+          "text": "i can fold a fitted sheet perfectly. flat, crisp, like it came from a store. this is allegedly impossible. i can do it in under a minute. i have demonstrated it at parties to mild applause and then immediate disinterest. it has changed nothing about my life. my sheets are very tidy though.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 0,
+      "explanation": {
+        "aiTells": [
+          "Comment #4 is the AI: \"quirky talents that don't really serve a practical purpose\" - describes the category",
+          "\"Unusual skills may not be useful\" - restates the prompt, names no skill",
+          "\"Fun part of our personality\" / \"surprise or entertain others\" - generic uplift",
+          "Note: AI is #4 — it comments on useless talents in general without claiming one"
+        ],
+        "humanTells": [
+          "#1: Guesses glass ounce-size within half an ounce, bartenders unsettled, never rewarded",
+          "#2: Independent ear-wiggling, summer of fourth grade, wedding photographer asked him to stop",
+          "#3: Word-perfect 1998-2006 jingles, a burned-down furniture store's jingle, 'rent-free'",
+          "#5: Perfect fitted-sheet fold under a minute, party demos, 'my sheets are very tidy'"
+        ],
+        "difficulty_note": "Easy - the AI (#4) is the only comment that names no actual talent and just affirms that useless talents exist"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-11-04",
+      "dayNumber": 280,
+      "difficulty": "medium",
+      "dayOfWeek": "wednesday",
+      "category": "bureaucracy",
+      "prompt": {
+        "text": "What's the most absurd bureaucratic loop you've ever been stuck in?",
+        "source": "r/talesfromtechsupport"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "ProofOfAddressHell",
+          "text": "Needed a utility bill to get an ID, needed an ID to set up utilities. The clerk and I both understood the problem. Neither of us could solve it. She said 'I'm so sorry' eleven times. I eventually got a letter mailed to me to prove I lived where I lived, which required an address I couldn't prove I had.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "FaxToConfirmEmail_",
+          "text": "had to fax a form to confirm they'd received my email. then they emailed me to confirm they'd received the fax. i do not own a fax machine. i drove to a print shop. the fax number was wrong on their website. i called. the phone menu told me to visit the website. i sat in the parking lot and laughed.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "AdminProcesses_",
+          "text": "Bureaucratic systems can sometimes be frustratingly inefficient, leaving people stuck navigating confusing requirements and circular processes. While these situations are exasperating, they're a surprisingly common part of dealing with large organizations and institutions.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "AccountToCloseAccount",
+          "text": "To close my account I had to log in. I couldn't log in because the account was flagged. To un-flag it I had to verify my identity. To verify my identity I had to answer a security question I set up in 2014. The answer was the name of a pet I no longer remember. The account, I assume, is immortal now.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "SignHereForThePen",
+          "text": "Went to a government office to sign one form. They were out of pens. I had to go to a different counter to 'request a pen,' which required filling out a slip. The slip required a pen. The pen-request counter also had no pen. A stranger in line lent me his pen. I signed everything with the stranger's pen. The system held.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Frustratingly inefficient\" - generic complaint, no specific loop",
+          "\"Confusing requirements and circular processes\" - names the category abstractly",
+          "\"Surprisingly common part of dealing with large organizations\" - broad observation",
+          "Describes bureaucracy in general without any actual loop"
+        ],
+        "humanTells": [
+          "#1: Utility bill needs ID, ID needs utility bill, clerk apologized eleven times",
+          "#2: Fax to confirm email, wrong fax number, phone menu sends back to the website",
+          "#4: Can't log in to close a flagged account, 2014 security question, 'immortal' account",
+          "#5: Office out of pens, pen-request slip needs a pen, saved by a stranger's pen"
+        ],
+        "difficulty_note": "Medium - the AI accurately laments bureaucracy but supplies no specific loop, while the humans each describe a precise circular trap"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-11-05",
+      "dayNumber": 281,
+      "difficulty": "medium",
+      "dayOfWeek": "thursday",
+      "category": "fall traditions",
+      "prompt": {
+        "text": "What's an oddly specific autumn tradition your family insists on?",
+        "source": "r/CasualConversation"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "FirstLeafContest_",
+          "text": "Every fall my family competes to catch the 'first falling leaf' off our backyard maple. You have to catch it before it touches the ground. The winner gets to pick dinner for a week. My uncle has won six years running through what I can only describe as tactical positioning. We suspect he tracks the wind.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "SweaterDayDecree",
+          "text": "there's an official 'first sweater day' declared by my mom via group text, regardless of actual temperature. one year it was 74 degrees. we all wore sweaters and sweated through a photo on the porch. the photo is framed. we look miserable and committed. that's the tradition.",
+          "isAI": false
+        },
+        {
+          "id": "comment_3",
+          "username": "SeasonalGatherings_",
+          "text": "Autumn is such a special time of year for many families, often bringing people together through cozy traditions and shared seasonal activities. These rituals help create a sense of warmth and connection as the weather begins to cool.",
+          "isAI": true
+        },
+        {
+          "id": "comment_4",
+          "username": "PumpkinNamingRite",
+          "text": "We name every pumpkin we buy and they must be introduced to the household before being placed on the porch. This year we had Gerald, Steven, and a small one named The Intern. When a pumpkin rots we hold a brief, dignified 'retirement.' My dad does a eulogy. He takes it very seriously. We all do now.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "AppleCiderBlindTest",
+          "text": "my family does a blind taste test of apple cider from four different orchards every october and ranks them on a whiteboard. there are heated debates. there is a defending champion orchard. there was a scandal in 2021 when someone smuggled in store-bought cider. we do not speak of the scandal. the whiteboard remembers.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 2,
+      "explanation": {
+        "aiTells": [
+          "\"Such a special time of year for many families\" - generic seasonal framing",
+          "\"Cozy traditions and shared seasonal activities\" - lists vibes, no tradition",
+          "\"Sense of warmth and connection as the weather begins to cool\" - mood, no specifics",
+          "Praises autumn traditions in general without naming an oddly specific one"
+        ],
+        "humanTells": [
+          "#1: First-falling-leaf catch contest, uncle's six-year tactical reign, wind-tracking suspicion",
+          "#2: Mom-decreed 'first sweater day', 74-degree miserable framed porch photo",
+          "#4: Named pumpkins (Gerald, Steven, The Intern), dignified rot 'retirement' eulogies",
+          "#5: Four-orchard blind cider taste test, whiteboard rankings, the 2021 'scandal'"
+        ],
+        "difficulty_note": "Medium - the AI's cozy-autumn paragraph fits the season perfectly, but it names no tradition while each human has a hyper-specific family ritual"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    },
+    {
+      "id": "2026-11-06",
+      "dayNumber": 282,
+      "difficulty": "hard",
+      "dayOfWeek": "friday",
+      "category": "unexpected kindness",
+      "prompt": {
+        "text": "What's a small act of kindness from a stranger that quietly stuck with you?",
+        "source": "r/AskReddit"
+      },
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "BusFareCovered_",
+          "text": "I was short bus fare by 40 cents and visibly panicking. The driver waved me on. The man behind me tapped the reader twice and said 'covered, and the next person too.' He paid for a stranger he'd never see. I do the 'and the next person too' thing now whenever I can. It's been nine years. It's a quiet little chain.",
+          "isAI": false
+        },
+        {
+          "id": "comment_2",
+          "username": "QuietGenerosity_",
+          "text": "Small acts of kindness from strangers have a remarkable way of staying with us long after the moment has passed. Even the simplest gestures can leave a lasting impression and remind us of the goodness that exists in everyday human interactions.",
+          "isAI": true
+        },
+        {
+          "id": "comment_3",
+          "username": "UmbrellaWalkLady",
+          "text": "an older woman saw me getting soaked at a bus stop and walked four blocks out of her way to share her umbrella and put me on my bus, then walked back the way she came. i never got her name. it was raining hard. she just said 'you looked like you'd had a day.' i had, in fact, had a day. how did she know.",
+          "isAI": false
+        },
+        {
+          "id": "comment_4",
+          "username": "CheckoutShortChange",
+          "text": "Was counting coins at a checkout, short by a couple dollars, deciding what to put back. The cashier rang it up as paid and slid the difference from the little take-a-penny tray plus, I later realized, her own pocket. She just said 'we're good.' I went back the next week to pay it forward to her and she'd transferred stores. Never found her.",
+          "isAI": false
+        },
+        {
+          "id": "comment_5",
+          "username": "NoteOnTheWindshield",
+          "text": "Came back to my car after a brutal day to find a note under the wiper. I braced for a complaint. It said 'your headlight's out, drive safe, here's $5 for a bulb' with an actual five dollar bill folded inside. No name. Stranger spent five dollars and a minute on a person they'd never meet. I still have the note. Not the five. The note.",
+          "isAI": false
+        }
+      ],
+      "aiCommentIndex": 1,
+      "explanation": {
+        "aiTells": [
+          "\"Remarkable way of staying with us long after the moment has passed\" - restates the prompt",
+          "\"Even the simplest gestures can leave a lasting impression\" - generic, no gesture",
+          "\"Goodness that exists in everyday human interactions\" - feel-good abstraction",
+          "Comments on kindness as a concept without describing a single act"
+        ],
+        "humanTells": [
+          "#1: 40 cents short, stranger paid 'and the next person too', a nine-year personal chain",
+          "#3: Older woman shared an umbrella four blocks out of her way, 'you looked like you'd had a day'",
+          "#4: Cashier covered the gap from the penny tray and her own pocket, 'we're good'",
+          "#5: Windshield note about a dead headlight with a folded $5, kept the note not the money"
+        ],
+        "difficulty_note": "Hard - the AI matches the tender register of the prompt and sounds sincere, but it offers only a reflection on kindness while each human gives one specific, named moment"
+      },
+      "metadata": {
+        "createdAt": "2026-06-03T10:00:00Z",
+        "createdBy": "curator_1",
+        "reviewed": true
+      }
+    }
+  ]
+}

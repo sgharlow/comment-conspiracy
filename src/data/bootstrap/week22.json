@@ -4,7 +4,7 @@
   "puzzles": [
     {
       "id": "2026-06-08",
-      "dayNumber": 141,
+      "dayNumber": 131,
       "difficulty": "easy",
       "dayOfWeek": "monday",
       "category": "food fails",
@@ -68,7 +68,7 @@
     },
     {
       "id": "2026-06-09",
-      "dayNumber": 142,
+      "dayNumber": 132,
       "difficulty": "easy",
       "dayOfWeek": "tuesday",
       "category": "technology",
@@ -132,7 +132,7 @@
     },
     {
       "id": "2026-06-10",
-      "dayNumber": 143,
+      "dayNumber": 133,
       "difficulty": "medium",
       "dayOfWeek": "wednesday",
       "category": "exercise",
@@ -196,7 +196,7 @@
     },
     {
       "id": "2026-06-11",
-      "dayNumber": 144,
+      "dayNumber": 134,
       "difficulty": "medium",
       "dayOfWeek": "thursday",
       "category": "gift giving",
@@ -260,7 +260,7 @@
     },
     {
       "id": "2026-06-12",
-      "dayNumber": 145,
+      "dayNumber": 135,
       "difficulty": "hard",
       "dayOfWeek": "friday",
       "category": "workplace",
@@ -324,7 +324,7 @@
     },
     {
       "id": "2026-06-13",
-      "dayNumber": 146,
+      "dayNumber": 136,
       "difficulty": "expert",
       "dayOfWeek": "saturday",
       "category": "parenting",
@@ -388,7 +388,7 @@
     },
     {
       "id": "2026-06-14",
-      "dayNumber": 147,
+      "dayNumber": 137,
       "difficulty": "hard",
       "dayOfWeek": "sunday",
       "category": "apartment living",

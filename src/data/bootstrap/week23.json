@@ -4,7 +4,7 @@
   "puzzles": [
     {
       "id": "2026-06-15",
-      "dayNumber": 148,
+      "dayNumber": 138,
       "difficulty": "easy",
       "dayOfWeek": "monday",
       "category": "cooking disasters",
@@ -69,7 +69,7 @@
     },
     {
       "id": "2026-06-16",
-      "dayNumber": 149,
+      "dayNumber": 139,
       "difficulty": "easy",
       "dayOfWeek": "tuesday",
       "category": "coffee",
@@ -134,7 +134,7 @@
     },
     {
       "id": "2026-06-17",
-      "dayNumber": 150,
+      "dayNumber": 140,
       "difficulty": "medium",
       "dayOfWeek": "wednesday",
       "category": "baking",
@@ -199,7 +199,7 @@
     },
     {
       "id": "2026-06-18",
-      "dayNumber": 151,
+      "dayNumber": 141,
       "difficulty": "medium",
       "dayOfWeek": "thursday",
       "category": "restaurants",
@@ -264,7 +264,7 @@
     },
     {
       "id": "2026-06-19",
-      "dayNumber": 152,
+      "dayNumber": 142,
       "difficulty": "hard",
       "dayOfWeek": "friday",
       "category": "weird food combos",
@@ -329,7 +329,7 @@
     },
     {
       "id": "2026-06-20",
-      "dayNumber": 153,
+      "dayNumber": 143,
       "difficulty": "expert",
       "dayOfWeek": "saturday",
       "category": "groceries",
@@ -394,7 +394,7 @@
     },
     {
       "id": "2026-06-21",
-      "dayNumber": 154,
+      "dayNumber": 144,
       "difficulty": "hard",
       "dayOfWeek": "sunday",
       "category": "cooking disasters",

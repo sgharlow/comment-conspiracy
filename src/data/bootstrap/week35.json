@@ -4,7 +4,7 @@
   "puzzles": [
     {
       "id": "2026-09-07",
-      "dayNumber": 232,
+      "dayNumber": 222,
       "difficulty": "easy",
       "dayOfWeek": "monday",
       "category": "travel",
@@ -69,7 +69,7 @@
     },
     {
       "id": "2026-09-08",
-      "dayNumber": 233,
+      "dayNumber": 223,
       "difficulty": "easy",
       "dayOfWeek": "tuesday",
       "category": "pets",
@@ -134,7 +134,7 @@
     },
     {
       "id": "2026-09-09",
-      "dayNumber": 234,
+      "dayNumber": 224,
       "difficulty": "medium",
       "dayOfWeek": "wednesday",
       "category": "strangers",
@@ -199,7 +199,7 @@
     },
     {
       "id": "2026-09-10",
-      "dayNumber": 235,
+      "dayNumber": 225,
       "difficulty": "medium",
       "dayOfWeek": "thursday",
       "category": "holidays",
@@ -264,7 +264,7 @@
     },
     {
       "id": "2026-09-11",
-      "dayNumber": 236,
+      "dayNumber": 226,
       "difficulty": "hard",
       "dayOfWeek": "friday",
       "category": "dating",
@@ -329,7 +329,7 @@
     },
     {
       "id": "2026-09-12",
-      "dayNumber": 237,
+      "dayNumber": 227,
       "difficulty": "expert",
       "dayOfWeek": "saturday",
       "category": "travel",
@@ -394,7 +394,7 @@
     },
     {
       "id": "2026-09-13",
-      "dayNumber": 238,
+      "dayNumber": 228,
       "difficulty": "hard",
       "dayOfWeek": "sunday",
       "category": "pets",
