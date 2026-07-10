@@ -1,5 +1,9 @@
 # Comment Conspiracy 🕵️
 
+[![Skill Crossroads](https://skillcrossroads.com/api/badge/sgharlow/comment-conspiracy.svg)](https://skillcrossroads.com/s/sgharlow/comment-conspiracy)
+
+Claude Code artifacts graded by [Skill Crossroads](https://skillcrossroads.com) — click the badge for the evidence-cited scorecard.
+
 **Daily Reddit Game - Spot the AI-Generated Comment**
 
 Can you tell which comment was written by AI? Test your detection skills daily!
