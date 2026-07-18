@@ -1,0 +1,21 @@
+name: CI
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+jobs:
+  test:
+    name: Tests (Node 20)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      # typecheck is deliberately NOT in this gate yet: pre-existing NodeNext
+      # import-extension + Devvit-JSX errors (tracked in issue #1). A failing step
+      # would be a fake gate; hiding it inside a passing one would be worse.
+      # Tests are the real green surface.
+      - run: npm test
