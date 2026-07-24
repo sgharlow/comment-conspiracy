@@ -12,7 +12,7 @@ ladder: live-proven
 derived:
   test_count: "npx vitest run 2>&1 | grep 'Tests '   # live 2026-07-24: 2757 passing, 6 files; CI runs the same suite (real test gate since 7-18)"
   puzzle_count: "node -e \"const fs=require('fs'),p='src/data/bootstrap';let t=0;for(const f of fs.readdirSync(p)){if(!f.endsWith('.json'))continue;const j=JSON.parse(fs.readFileSync(p+'/'+f,'utf8'));t+=Array.isArray(j)?j.length:(j.puzzles?.length||0);}console.log(t)\"   # live 2026-07-24: 282, through week 43 (~2026-11-08)"
-  deployed_version: "node -p \"require('./package.json').version\"   # live 2026-07-24: 0.0.16"
+  deployed_version: "npx devvit list installs   # verified 2026-07-24: prod r/CommentConspiracy runs v0.1.4 (devvit-side version); package.json (0.0.16) is a local dev counter, NOT the deployed marker"
   head: "git rev-parse --short HEAD"
   branch: "git branch --show-current"
 
