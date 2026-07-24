@@ -1,5 +1,12 @@
 # Comment Conspiracy - Complete Launch Checklist
 
+> **HISTORICAL — SUPERSEDED BY PROJECT.yaml (2026-07-24).** This was the hackathon-launch
+> checklist; that phase exited with the 2026-02-02 Devpost submission. Numbers below are
+> frozen at their writing dates and contradict live state (live 2026-07-24: v0.0.16,
+> 282 puzzles in `src/data/bootstrap/`, 2,757 vitest passing). Open PENDING rows were
+> launch-window tasks, not current work — do not action them from here. Current status,
+> gates, and the post-event plan live in `PROJECT.yaml`.
+
 > **PUZZLE CONTENT EXTENDED 2026-05-24** — added 18 weeks (weeks 20-37, +126 puzzles, 252 total) covering 2026-05-25 -> 2026-09-27 (~4 months). The exhaustion risk is closed; daily content now runs through late September.
 > ACTION: run `npm run upload` to deploy the new weeks to r/CommentConspiracy (bootstrapService `seedNewPuzzles` loads them automatically once uploaded).
 
