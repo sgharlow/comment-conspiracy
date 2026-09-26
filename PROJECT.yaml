@@ -22,8 +22,14 @@ gates:
     target: "extend or decide sunset >= 14 days before exhaustion (i.e. by 2026-10-25)"
     kill: "no extension decision by 2026-10-25 -> post a farewell/completed banner puzzle and let the scheduler run out cleanly (never a silent dead subreddit)"
     owner: steve
-    due: 2026-10-25
-
+    due: 2026-10-23   # RE-DATED 2026-09-25 from 2026-10-25 on the runway read below: the last scheduled puzzle is 2026-11-06, not "~11-08", so the gate's own "≥ 14 days before exhaustion" rule lands on 10-23. Recorded, not a silent slip.
+    runway_read_2026_09_25: >-
+      READ FROM THE REPO (Steve: "DO: read the runway now", /daily-priority): src/data holds 282 dated
+      puzzle ids (week01–week43), first 2026-01-19, LAST 2026-11-06 (42 days from the read), 10 missing
+      days inside the range. Exhaustion = the day after 2026-11-06; the metric's "~2026-11-08" was two
+      days optimistic. Decision deadline = 2026-10-23 (14 days before), which is why `due` moved.
+      Live subreddit read blocked (reddit JSON returns HTML to scripts); re-read the last posted Day N
+      in a browser before ruling.
     ratified: 2026-09-25   # Steve, /daily-priority AskUserQuestion: "ratify all three as written" — target + kill above were PROPOSED (tagged 2026-07-24) until today
 market:
   competitors_doc: "not authored — daily-puzzle Reddit games (Devvit showcase titles, NYT-style dailies); free community game, not a commercial entrant"
