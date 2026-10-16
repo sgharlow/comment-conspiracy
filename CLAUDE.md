@@ -102,8 +102,8 @@ npm run lint          # ESLint check
 
 ## Current Status
 
-- **Live**: r/CommentConspiracy
-- **Version**: 0.0.16 (devvit.yaml + package.json; `@devvit/public-api ^0.12.18`)
+- **Live until the series ends**: r/CommentConspiracy. **SUNSET ruled 2026-10-15 (Steve)**: the last puzzle is 2026-11-06; on the first daily run after it (2026-11-07) the scheduler posts one "Series Complete" post (id kept in Redis `series:complete:postId`) and cancels `daily-puzzle-post`. See PROJECT.yaml `content-runway`.
+- **Installed version**: 0.1.5 (Devvit app `comment-conspire`, installed 2026-10-15; check with `npx devvit list installs CommentConspiracy`). `devvit.yaml` / `package.json` still say 0.0.16: Devvit tracks the uploaded version itself, so those fields are not the deployed version.
 - **Puzzle Content**: 282 puzzles (2026-01-19 - 2026-11-06, weeks 01-43). 2026-06-03: the never-served 5-25..6-03 "dry window" puzzles (upload gap) were re-dated +126 days to 9-28..10-07 (weeks 38-39, `scripts/redate-dry-window-2026-06-03.mjs`) and 30 new puzzles added for 10-08..11-06 (weeks 39-43). Deployed + installed on r/CommentConspiracy same day (v0.1.3+).
 - **Hackathon**: ✅ Submitted to Reddit Daily Games Hackathon 2026 (deadline 2026-02-12). Awaiting results.
 - **Post-submission migration**: commit `320a7a3` migrated from Devvit Blocks renderer to `useWebView()` ahead of the Devvit Blocks June-30-2026 deprecation.
